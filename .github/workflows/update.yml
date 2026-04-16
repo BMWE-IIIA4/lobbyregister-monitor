@@ -8,10 +8,18 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-site:
     name: Seite aktualisieren
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
@@ -29,12 +37,17 @@ jobs:
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
         run: python scripts/fetch_and_build.py
 
-      - name: Seite auf GitHub Pages veröffentlichen
-        uses: peaceiris/actions-gh-pages@v3
+      - name: GitHub Pages konfigurieren
+        uses: actions/configure-pages@v5
+
+      - name: Dateien hochladen
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          commit_message: "Automatische Aktualisierung vom ${{ github.run_id }}"
+          path: ./docs
+
+      - name: Auf GitHub Pages deployen
+        id: deployment
+        uses: actions/deploy-pages@v4
 
   send-email:
     name: Wöchentliche Mail versenden
