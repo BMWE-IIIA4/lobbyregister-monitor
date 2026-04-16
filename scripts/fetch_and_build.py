@@ -60,8 +60,10 @@ FIELD_LABELS = {
 SESSION = requests.Session()
 SESSION.headers.update({
     "Accept": "application/json",
-    "X-Api-Key": API_KEY,
+    "Authorization": f"ApiKey {API_KEY}",
 })
+# API-Key wird zusätzlich als Query-Parameter gesendet (Fallback)
+DEFAULT_PARAMS = {"format": "json", "apikey": API_KEY}
 
 
 # ── Schritt 1: Alle Registereinträge per V2 API laden ──────────────────────────
@@ -78,7 +80,7 @@ def fetch_all_register_entries():
     print("Schritt 1: Registereinträge über V2 API laden...")
 
     while True:
-        params = {"format": "json"}
+        params = {**DEFAULT_PARAMS}
         if cursor:
             params["cursor"] = cursor
 
@@ -146,7 +148,7 @@ def fetch_and_filter_statements(register_numbers):
         try:
             resp = SESSION.get(
                 f"{API_BASE}/registerentries/{reg_num}",
-                params={"format": "json"},
+                params=DEFAULT_PARAMS,
                 timeout=30
             )
             if resp.status_code == 404:
