@@ -1,4 +1,4 @@
-# Lobbyregister-Monitor von IIIA4
+# Lobbyregister-Monitor BMWE
 
 Automatische Übersicht neuer Stellungnahmen und Gutachten aus dem [Lobbyregister des Deutschen Bundestages](https://www.lobbyregister.bundestag.de), gefiltert nach Relevanz für das Bundesministerium für Wirtschaft und Energie (BMWE) und den Bundestag.
 
@@ -15,10 +15,10 @@ Jeden **Montag um 6:00 Uhr** läuft automatisch ein Skript, das:
 
 | | |
 |---|---|
-| **Übersichtsseite** | https://rulosapire1.github.io/lobbyregister-monitor |
-| **Nutzungsanleitung** | https://rulosapire1.github.io/lobbyregister-monitor/hilfe.html |
-| **Wartungsdokumentation** | https://rulosapire1.github.io/lobbyregister-monitor/wartung.html |
-| **GitHub Actions (Logs)** | https://github.com/rulosapire1/lobbyregister-monitor/actions |
+| **Übersichtsseite** | https://bmwe-iiia4.github.io/lobbyregister-monitor |
+| **Nutzungsanleitung** | https://bmwe-iiia4.github.io/lobbyregister-monitor/hilfe.html |
+| **Wartungsdokumentation** | https://bmwe-iiia4.github.io/lobbyregister-monitor/wartung.html |
+| **GitHub Actions (Logs)** | https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions |
 
 ## Gefilterte Inhalte
 
@@ -41,9 +41,9 @@ docs/                          – Generierte Seiten (werden automatisch übersc
 
 ## Wartung und Übergabe
 
-Alle Informationen zur Wartung, zu Zugangsdaten, Fehlerbehebung und zur vollständigen Neueinrichtung durch eine dritte Person stehen in der [Wartungsdokumentation](https://rulosapire1.github.io/lobbyregister-monitor/wartung.html).
+Alle Informationen zur Wartung, zu Zugangsdaten, Fehlerbehebung und zur vollständigen Neueinrichtung durch eine dritte Person stehen in der [Wartungsdokumentation](https://bmwe-iiia4.github.io/lobbyregister-monitor/wartung.html).
 
-**Ansprechpartner:** Martin Jahn, IIIA4 · martin.jahn@bmwe.bund.de
+**Ansprechpartner:** Martin Jahn, BMWE Unterabteilung IIIA4 · martin.jahn@bmwe.bund.de
 
 ## Datenquelle
 
