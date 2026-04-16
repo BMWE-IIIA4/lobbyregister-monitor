@@ -2,7 +2,8 @@ name: Lobbyregister Monitor
 
 on:
   schedule:
-    - cron: '0 6 * * 1'  # Jeden Montag um 6:00 Uhr UTC
+    - cron: '0 5 * * *'   # Täglich um 6:00 Uhr MEZ (= 5:00 UTC im Winter, 4:00 UTC im Sommer)
+    # Hinweis: GitHub Actions nutzt UTC. Im Sommer (MESZ) bitte auf '0 4 * * *' ändern.
   workflow_dispatch:       # Manueller Start jederzeit möglich
 
 env:
@@ -15,7 +16,7 @@ permissions:
 
 jobs:
   build-site:
-    name: Seite aktualisieren
+    name: Seite aktualisieren (täglich)
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -37,12 +38,12 @@ jobs:
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
         run: python scripts/fetch_and_build.py
 
-      - name: data.json für nächsten Job speichern
+      - name: data.json für Mail-Job speichern
         uses: actions/upload-artifact@v4
         with:
           name: lobbyregister-data
           path: docs/data.json
-          retention-days: 1
+          retention-days: 7
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5
@@ -57,28 +58,46 @@ jobs:
         uses: actions/deploy-pages@v4
 
   send-email:
-    name: Wöchentliche Mail versenden
+    name: Wöchentliche Mail versenden (montags)
     runs-on: ubuntu-latest
     needs: build-site
+    # Nur montags ausführen
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 5') && toJSON(github.event) != '{}')
     steps:
+      - name: Wochentag prüfen
+        id: check_day
+        run: |
+          DAY=$(date +%u)  # 1=Montag, 7=Sonntag
+          echo "weekday=$DAY" >> $GITHUB_OUTPUT
+          if [ "$DAY" = "1" ]; then
+            echo "is_monday=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_monday=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Repository auschecken
+        if: steps.check_day.outputs.is_monday == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v4
 
       - name: Python einrichten
+        if: steps.check_day.outputs.is_monday == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Abhängigkeiten installieren
+        if: steps.check_day.outputs.is_monday == 'true' || github.event_name == 'workflow_dispatch'
         run: pip install requests
 
-      - name: Daten vom vorherigen Job laden
+      - name: Daten vom Build-Job laden
+        if: steps.check_day.outputs.is_monday == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/download-artifact@v4
         with:
           name: lobbyregister-data
           path: docs
 
       - name: E-Mail versenden
+        if: steps.check_day.outputs.is_monday == 'true' || github.event_name == 'workflow_dispatch'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -87,23 +106,37 @@ jobs:
         run: python scripts/send_email.py
 
   health-check:
-    name: Wöchentlicher Selbsttest
+    name: Wöchentlicher Selbsttest (montags)
     runs-on: ubuntu-latest
-    needs: [build-site, send-email]
+    needs: build-site
     if: always()
     steps:
+      - name: Wochentag prüfen
+        id: check_day
+        run: |
+          DAY=$(date +%u)
+          if [ "$DAY" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Repository auschecken
+        if: steps.check_day.outputs.run == 'true'
         uses: actions/checkout@v4
 
       - name: Python einrichten
+        if: steps.check_day.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Abhängigkeiten installieren
+        if: steps.check_day.outputs.run == 'true'
         run: pip install requests
 
       - name: Selbsttest durchführen
+        if: steps.check_day.outputs.run == 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
