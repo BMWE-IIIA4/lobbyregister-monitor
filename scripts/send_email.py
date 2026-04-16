@@ -177,9 +177,8 @@ def build_email_html(statements, generated_at):
 <div style="max-width:700px;margin:20px auto">
   <!-- Header -->
   <div style="background:#004B87;padding:16px 28px;display:flex;align-items:center;gap:16px">
-    <div style="color:#fff;font-size:11px;line-height:1.4;border-right:1px solid rgba(255,255,255,.3);padding-right:16px">
-      Bundesministerium<br>für Wirtschaft<br>und Energie
-    </div>
+    <img src="https://bmwe-iiia4.github.io/lobbyregister-monitor/Logo_BMWE.png" 
+         alt="BMWE" style="height:40px;width:auto;filter:brightness(0) invert(1)">
     <div>
       <div style="color:#fff;font-size:15px;font-weight:700;margin-bottom:2px">
         Lobbyregister-Monitor · KW {kw}/{year}
