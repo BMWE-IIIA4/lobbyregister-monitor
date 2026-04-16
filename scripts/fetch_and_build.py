@@ -18,7 +18,7 @@ from pathlib import Path
 
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
 API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "5bHB2zrUuHR6YdPoZygQhWfg2CBrjUOi")
-SITE_URL = "https://rulosapire1.github.io/lobbyregister-monitor"
+SITE_URL = "https://bmwe-iiia4.github.io/lobbyregister-monitor"
 
 # Startdatum: nur Einträge ab diesem Datum
 START_DATE = date(2026, 1, 1)
