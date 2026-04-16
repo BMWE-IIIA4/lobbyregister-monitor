@@ -54,7 +54,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
-          SITE_URL: "https://rulosapire1.github.io/lobbyregister-monitor"
+          SITE_URL: "https://bmwe-iiia4.github.io/lobbyregister-monitor"
         run: python scripts/send_email.py
 
   health-check:
@@ -79,6 +79,6 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
-          SITE_URL: "https://rulosapire1.github.io/lobbyregister-monitor"
+          SITE_URL: "https://bmwe-iiia4.github.io/lobbyregister-monitor"
         run: python scripts/health_check.py
         continue-on-error: true  # Selbsttest-Fehler soll Workflow nicht blockieren
