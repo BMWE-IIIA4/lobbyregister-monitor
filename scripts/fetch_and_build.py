@@ -75,23 +75,21 @@ def fetch_all_entries():
             if isinstance(data, dict):
                 keys = list(data.keys())
                 print(f"  Top-Level-Schlüssel: {keys}")
-                # Zeige Inhalt aller Schlüssel kurz
                 for k in keys[:8]:
                     v = data[k]
                     if isinstance(v, list):
                         print(f"    '{k}': Liste mit {len(v)} Einträgen")
                         if len(v) > 0 and isinstance(v[0], dict):
-                            print(f"      Erster Eintrag Schlüssel: {list(v[0].keys())[:10]}")
+                            print(f"      Erster Eintrag Schlüssel: {list(v[0].keys())}")
+                            # Vollständige Struktur des ersten Eintrags ausgeben
+                            print(f"      ERSTER EINTRAG KOMPLETT:")
+                            print(json.dumps(v[0], ensure_ascii=False, indent=2)[:3000])
                     elif isinstance(v, dict):
                         print(f"    '{k}': Dict mit Schlüsseln {list(v.keys())[:8]}")
                     elif isinstance(v, str) and len(v) < 100:
                         print(f"    '{k}': {v}")
                     else:
                         print(f"    '{k}': {type(v)}")
-            elif isinstance(data, list):
-                print(f"  Liste mit {len(data)} Einträgen direkt")
-                if len(data) > 0 and isinstance(data[0], dict):
-                    print(f"  Erster Eintrag Schlüssel: {list(data[0].keys())[:15]}")
 
         # Einträge extrahieren
         entries = []
@@ -107,6 +105,11 @@ def fetch_all_entries():
 
         all_entries.extend(entries)
         page += 1
+
+        # DIAGNOSE: nach erster Seite stoppen um Struktur zu prüfen
+        if page >= 1:
+            print(f"  DIAGNOSE-STOPP nach Seite {page} ({len(all_entries)} Einträge)")
+            break
 
         new_cursor = data.get("cursor") if isinstance(data, dict) else None
         if not new_cursor or new_cursor == cursor:
