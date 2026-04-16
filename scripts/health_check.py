@@ -24,8 +24,8 @@ from datetime import date
 RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 ADMIN_EMAIL = os.environ["ADMIN_EMAIL"]
 LOBBYREGISTER_API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
-SITE_URL = os.environ.get("SITE_URL", "https://rulosapire1.github.io/lobbyregister-monitor")
-REPO_URL = "https://github.com/rulosapire1/lobbyregister-monitor"
+SITE_URL = os.environ.get("SITE_URL", "https://bmwe-iiia4.github.io/lobbyregister-monitor")
+REPO_URL = "https://github.com/BMWE-IIIA4/lobbyregister-monitor"
 ACTIONS_URL = f"{REPO_URL}/actions"
 SECRETS_URL = f"{REPO_URL}/settings/secrets/actions"
 
