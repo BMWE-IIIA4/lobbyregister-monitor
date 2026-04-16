@@ -72,24 +72,12 @@ def fetch_all_entries():
         # Diagnose nur auf Seite 0
         if page == 0:
             print(f"  Antwort-Typ: {type(data)}")
-            if isinstance(data, dict):
-                keys = list(data.keys())
-                print(f"  Top-Level-Schlüssel: {keys}")
-                for k in keys[:8]:
-                    v = data[k]
-                    if isinstance(v, list):
-                        print(f"    '{k}': Liste mit {len(v)} Einträgen")
-                        if len(v) > 0 and isinstance(v[0], dict):
-                            print(f"      Erster Eintrag Schlüssel: {list(v[0].keys())}")
-                            # Vollständige Struktur des ersten Eintrags ausgeben
-                            print(f"      ERSTER EINTRAG KOMPLETT:")
-                            print(json.dumps(v[0], ensure_ascii=False, indent=2)[:3000])
-                    elif isinstance(v, dict):
-                        print(f"    '{k}': Dict mit Schlüsseln {list(v.keys())[:8]}")
-                    elif isinstance(v, str) and len(v) < 100:
-                        print(f"    '{k}': {v}")
-                    else:
-                        print(f"    '{k}': {type(v)}")
+            results_list = data.get("results", [])
+            print(f"  'results' Länge: {len(results_list)}")
+            if len(results_list) > 0:
+                first = results_list[0]
+                print(f"  ERSTER EINTRAG KOMPLETT:")
+                print(json.dumps(first, ensure_ascii=False, indent=2)[:4000])
 
         # Einträge extrahieren
         entries = []
