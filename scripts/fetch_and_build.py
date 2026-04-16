@@ -3,249 +3,243 @@ fetch_and_build.py
 ==================
 Ruft Stellungnahmen vom Lobbyregister ab und generiert die HTML-Seite.
 
-Datenquelle: Lobbyregister API v2
-API-Dokumentation: https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/
+Datenquelle: Lobbyregister stellungnahmengutachtenJson-Endpunkt
+(öffentlicher JSON-Endpunkt, kein API-Key erforderlich)
 """
 
 import json
 import os
 import requests
-from datetime import datetime, date, timedelta
+from datetime import datetime, date
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import urlencode
 
 # ── Konfiguration ──────────────────────────────────────────────────────────────
 
-API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
-API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "5bHB2zrUuHR6YdPoZygQhWfg2CBrjUOi")
+BASE_URL = "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtenJson"
 SITE_URL = "https://bmwe-iiia4.github.io/lobbyregister-monitor"
-
-# Startdatum: nur Einträge ab diesem Datum
 START_DATE = date(2026, 1, 1)
 
-# Themenfelder und ihre Priorität (für Sortierung)
+# Filter-Parameter (analog zur Such-URL)
+FILTER_PARAMS = {
+    "pageSize": "500",
+    "sort": "FIRSTPUBLICATION_DESC",
+    "filter[circleofrecipients][21. Wahlperiode Bundesregierung|Bundesministerium für Wirtschaft und Energie (BMWE)]": "true",
+    "filter[circleofrecipients][21. Wahlperiode Bundestag]": "true",
+    "filter[fieldsofinterest][FOI_BUNDESTAG]": "true",
+    "filter[fieldsofinterest][FOI_ECONOMY|FOI_ECONOMY_COMPETITION_LAW]": "true",
+    "filter[fieldsofinterest][FOI_ENERGY]": "true",
+    "filter[fieldsofinterest][FOI_ENVIRONMENT|FOI_ENVIRONMENT_CLIMATE]": "true",
+    "filter[fieldsofinterest][FOI_EUROPEAN_UNION|FOI_EU_DOMESTIC_MARKET]": "true",
+    "filter[fieldsofinterest][FOI_EUROPEAN_UNION|FOI_EU_LAWS]": "true",
+    "filter[fieldsofinterest][FOI_OTHER]": "true",
+    "filter[fieldsofinterest][FOI_POLITICAL_PARTIES]": "true",
+}
+
+# Themenfeld-Priorität
 FIELD_PRIORITY = {
-    "FOI_ENERGY": 1,
-    "FOI_ENERGY_RENEWABLE": 1,
-    "FOI_ENERGY_ELECTRICITY": 1,
-    "FOI_ENERGY_GAS": 1,
-    "FOI_ENERGY_HYDROGEN": 1,
-    "FOI_ENVIRONMENT|FOI_ENVIRONMENT_CLIMATE": 2,
-    "FOI_ENVIRONMENT_CLIMATE": 2,
-    "FOI_EUROPEAN_UNION|FOI_EU_DOMESTIC_MARKET": 2,
-    "FOI_EU_DOMESTIC_MARKET": 2,
-    "FOI_EUROPEAN_UNION|FOI_EU_LAWS": 2,
-    "FOI_EU_LAWS": 2,
-    "FOI_BUNDESTAG": 2,
-    "FOI_ECONOMY|FOI_ECONOMY_COMPETITION_LAW": 3,
-    "FOI_ECONOMY_COMPETITION_LAW": 3,
-    "FOI_POLITICAL_PARTIES": 3,
-    "FOI_OTHER": 3,
+    "Energie": 1, "Erneuerbare Energie": 1, "Strom": 1,
+    "Gas": 1, "Wasserstoff": 1,
+    "Klimaschutz": 2, "EU-Binnenmarkt": 2, "EU-Gesetzgebung": 2, "Bundestag": 2,
+    "Wettbewerbsrecht": 3, "Politisches Leben, Parteien": 3, "Sonstige Interessenbereiche": 3,
 }
-
-# Deutsche Bezeichnungen der Themenfelder
-FIELD_LABELS = {
-    "FOI_ENERGY": "Energie",
-    "FOI_ENERGY_RENEWABLE": "Erneuerbare Energie",
-    "FOI_ENERGY_ELECTRICITY": "Strom",
-    "FOI_ENERGY_GAS": "Gas",
-    "FOI_ENERGY_HYDROGEN": "Wasserstoff",
-    "FOI_ENVIRONMENT_CLIMATE": "Klimaschutz",
-    "FOI_EU_DOMESTIC_MARKET": "EU-Binnenmarkt",
-    "FOI_EU_LAWS": "EU-Gesetzgebung",
-    "FOI_BUNDESTAG": "Bundestag",
-    "FOI_ECONOMY_COMPETITION_LAW": "Wettbewerbsrecht",
-    "FOI_POLITICAL_PARTIES": "Politisches Leben, Parteien",
-    "FOI_OTHER": "Sonstige Interessenbereiche",
-}
-
-# Gesuchte Empfänger (Kurzbezeichnungen)
-TARGET_RECIPIENTS = {"BMWE", "Bundestag"}
-
-# Gesuchte Themenfelder
-TARGET_FIELDS = set(FIELD_PRIORITY.keys())
 
 
 # ── API-Abfrage ────────────────────────────────────────────────────────────────
 
-def fetch_all_statements():
-    """Ruft alle relevanten Registereinträge mit Stellungnahmen ab."""
-    headers = {"Authorization": f"ApiKey {API_KEY}"}
-    all_statements = []
-    cursor = None
-    page = 0
-
+def fetch_statements():
+    """Ruft Stellungnahmen über den öffentlichen JSON-Endpunkt ab."""
     print("Rufe Daten vom Lobbyregister ab...")
+    
+    try:
+        resp = requests.get(
+            BASE_URL,
+            params=FILTER_PARAMS,
+            timeout=60,
+            headers={"Accept": "application/json"}
+        )
+        print(f"  HTTP Status: {resp.status_code}")
+        print(f"  URL: {resp.url[:120]}...")
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"FEHLER beim API-Abruf: {e}")
+        raise
 
-    while True:
-        params = {"format": "json"}
-        if cursor:
-            params["cursor"] = cursor
-
-        try:
-            resp = requests.get(
-                f"{API_BASE}/registerentries",
-                headers=headers,
-                params=params,
-                timeout=30
-            )
-            resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"FEHLER beim API-Abruf (Seite {page}): {e}")
-            raise
-
+    try:
         data = resp.json()
-        entries = data if isinstance(data, list) else data.get("results", [])
+    except Exception as e:
+        print(f"FEHLER beim JSON-Parsen: {e}")
+        print(f"Antwort (erste 500 Zeichen): {resp.text[:500]}")
+        raise
 
-        for entry in entries:
-            stmts = extract_statements(entry)
-            all_statements.extend(stmts)
+    print(f"  Antwort-Typ: {type(data)}")
+    if isinstance(data, dict):
+        print(f"  Schlüssel: {list(data.keys())[:10]}")
+    elif isinstance(data, list):
+        print(f"  Anzahl Einträge: {len(data)}")
 
-        page += 1
-        new_cursor = data.get("cursor") if isinstance(data, dict) else None
-        if not new_cursor or new_cursor == cursor:
-            break
-        cursor = new_cursor
-
-        if page % 10 == 0:
-            print(f"  Seite {page} abgerufen, {len(all_statements)} Stellungnahmen bisher...")
-
-    print(f"Gesamt: {len(all_statements)} relevante Stellungnahmen gefunden.")
-    return all_statements
+    return data
 
 
-def extract_statements(entry):
-    """Extrahiert relevante Stellungnahmen aus einem Registereintrag."""
+def parse_statements(data):
+    """Extrahiert und filtert Stellungnahmen aus der API-Antwort."""
     results = []
 
-    register_number = entry.get("registerNumber", "")
-    detail = entry.get("registerEntryDetail", {})
-    org_name = extract_org_name(detail)
-    statements_data = detail.get("statements", {})
+    # Verschiedene mögliche Strukturen der Antwort
+    items = []
+    if isinstance(data, list):
+        items = data
+    elif isinstance(data, dict):
+        # Mögliche Schlüssel: 'content', 'results', 'items', 'stellungnahmen'
+        for key in ["content", "results", "items", "stellungnahmen", "data"]:
+            if key in data:
+                items = data[key]
+                print(f"  Einträge gefunden unter Schlüssel '{key}': {len(items)}")
+                break
+        if not items:
+            print(f"  Alle Schlüssel: {list(data.keys())}")
+            # Versuche direkt das dict als einzelnen Eintrag
+            items = [data]
 
-    if not statements_data.get("statementsPresent", False):
-        return []
+    print(f"  Verarbeite {len(items)} Rohdaten-Einträge...")
 
-    for stmt in statements_data.get("statements", []):
-        # Datum prüfen
-        stmt_date = None
-        sending_date = None
-        upload_date = None
-
-        for rg in stmt.get("recipientGroups", []):
-            if rg.get("sendingDate"):
-                try:
-                    sending_date = date.fromisoformat(rg["sendingDate"])
-                    stmt_date = sending_date
-                except ValueError:
-                    pass
-
-        # firstPublicationDate aus account
-        pub_date_str = entry.get("account", {}).get("firstPublicationDate", "")
-        if pub_date_str:
-            try:
-                upload_date = date.fromisoformat(pub_date_str[:10])
-            except ValueError:
-                pass
-
-        # Nur Einträge ab START_DATE
-        check_date = upload_date or stmt_date
-        if check_date and check_date < START_DATE:
-            continue
-
-        # Empfänger prüfen
-        recipients = extract_recipients(stmt)
-        if not any(r in TARGET_RECIPIENTS for r in recipients):
-            continue
-
-        # Themenfelder prüfen
-        fields = extract_fields(stmt)
-        if not fields:
-            continue
-
-        # Priorität berechnen
-        priority = min(
-            (FIELD_PRIORITY.get(f["code"], 99) for f in fields),
-            default=99
-        )
-
-        result = {
-            "statement_number": stmt.get("statementNumber", ""),
-            "register_number": register_number,
-            "regulatory_project_title": stmt.get("regulatoryProjectTitle", "Kein Titel"),
-            "regulatory_project_number": stmt.get("regulatoryProjectNumber", ""),
-            "org_name": org_name,
-            "sending_date": sending_date.isoformat() if sending_date else None,
-            "upload_date": upload_date.isoformat() if upload_date else None,
-            "pdf_url": stmt.get("pdfUrl", ""),
-            "pdf_pages": stmt.get("pdfPageCount", 0),
-            "summary": stmt.get("text", {}).get("text", ""),
-            "recipients": recipients,
-            "fields": fields,
-            "priority": priority,
-        }
-        results.append(result)
+    for item in items:
+        stmt = parse_single_statement(item)
+        if stmt:
+            results.append(stmt)
 
     return results
 
 
-def extract_org_name(detail):
-    """Extrahiert den Organisationsnamen."""
-    identity = detail.get("lobbyistIdentity", {})
-    return identity.get("name", "Unbekannte Organisation")
+def parse_single_statement(item):
+    """Parst einen einzelnen Stellungnahme-Eintrag."""
+    if not isinstance(item, dict):
+        return None
 
+    # Datum ermitteln
+    upload_date = None
+    sending_date = None
 
-def extract_recipients(stmt):
-    """Extrahiert Empfänger-Kurzbezeichnungen."""
-    recipients = []
-    for rg in stmt.get("recipientGroups", []):
-        recips = rg.get("recipients", {})
-        # Bundesregierung
-        for fg in recips.get("federalGovernment", []):
-            dept = fg.get("department", {})
-            short = dept.get("shortTitle", "")
-            if short:
-                recipients.append(short)
-        # Bundestag
-        for p in recips.get("parliament", []):
-            de_name = p.get("de", "")
-            if de_name:
-                recipients.append("Bundestag")
+    for date_field in ["firstPublicationDate", "uploadDate", "createdAt", "bereitgestelltAm"]:
+        val = item.get(date_field, "")
+        if val:
+            try:
+                upload_date = date.fromisoformat(str(val)[:10])
                 break
-    return list(dict.fromkeys(recipients))  # Deduplizieren
+            except ValueError:
+                pass
+
+    for date_field in ["sendingDate", "statementDate", "datumDerStellungnahme"]:
+        val = item.get(date_field, "")
+        if val:
+            try:
+                sending_date = date.fromisoformat(str(val)[:10])
+                break
+            except ValueError:
+                pass
+
+    # Datum-Filter
+    check_date = upload_date or sending_date
+    if check_date and check_date < START_DATE:
+        return None
+
+    # Organisation
+    org = (item.get("providedBy") or item.get("bereitgestelltVon") or
+           item.get("organisation") or item.get("name") or "Unbekannte Organisation")
+    if isinstance(org, dict):
+        org = org.get("name", str(org))
+
+    # Regelungsvorhaben
+    title = (item.get("regulatoryProjectTitle") or item.get("regelungsvorhaben") or
+             item.get("title") or item.get("titel") or "Kein Titel")
+
+    # Adressaten
+    recipients = extract_recipients_from_item(item)
+
+    # Themenfelder
+    fields = extract_fields_from_item(item)
+
+    # Priorität
+    priority = min(
+        (FIELD_PRIORITY.get(f.get("label", ""), 99) for f in fields),
+        default=99
+    )
+
+    # IDs und Links
+    stmt_number = item.get("statementNumber") or item.get("sgId") or item.get("id") or ""
+    reg_number = item.get("registerNumber") or item.get("registerNummer") or ""
+    pdf_url = item.get("pdfUrl") or item.get("pdf") or item.get("dokumentUrl") or ""
+    pdf_pages = item.get("pdfPageCount") or item.get("seitenanzahl") or 0
+    summary = item.get("text", {})
+    if isinstance(summary, dict):
+        summary = summary.get("text", "")
+    elif not isinstance(summary, str):
+        summary = ""
+
+    return {
+        "statement_number": str(stmt_number),
+        "register_number": str(reg_number),
+        "regulatory_project_title": str(title),
+        "org_name": str(org),
+        "sending_date": sending_date.isoformat() if sending_date else None,
+        "upload_date": upload_date.isoformat() if upload_date else None,
+        "pdf_url": str(pdf_url),
+        "pdf_pages": int(pdf_pages) if pdf_pages else 0,
+        "summary": str(summary)[:600],
+        "recipients": recipients,
+        "fields": fields,
+        "priority": priority,
+    }
 
 
-def extract_fields(stmt):
-    """Extrahiert Themenfelder."""
+def extract_recipients_from_item(item):
+    """Extrahiert Empfänger aus verschiedenen möglichen Strukturen."""
+    recipients = []
+    
+    for key in ["recipients", "adressaten", "empfaenger", "circleOfRecipients", "recipientGroups"]:
+        val = item.get(key)
+        if not val:
+            continue
+        if isinstance(val, list):
+            for r in val:
+                if isinstance(r, str):
+                    recipients.append(r)
+                elif isinstance(r, dict):
+                    name = (r.get("shortTitle") or r.get("name") or
+                            r.get("de") or r.get("title") or "")
+                    if name:
+                        recipients.append(name)
+        elif isinstance(val, str):
+            recipients.append(val)
+
+    return list(dict.fromkeys(recipients)) if recipients else ["BMWE"]
+
+
+def extract_fields_from_item(item):
+    """Extrahiert Themenfelder aus verschiedenen möglichen Strukturen."""
     fields = []
-    for f in stmt.get("fieldsOfInterest", []):
-        code = f.get("code", "")
-        label = f.get("de") or FIELD_LABELS.get(code, code)
-        fields.append({"code": code, "label": label})
-    return fields
+    
+    for key in ["fieldsOfInterest", "themenfelder", "interessenbereiche", "departments"]:
+        val = item.get(key)
+        if not val:
+            continue
+        if isinstance(val, list):
+            for f in val:
+                if isinstance(f, str):
+                    fields.append({"code": f, "label": f})
+                elif isinstance(f, dict):
+                    label = f.get("de") or f.get("label") or f.get("name") or f.get("title") or ""
+                    code = f.get("code") or label
+                    if label:
+                        fields.append({"code": code, "label": label})
+
+    return fields if fields else [{"code": "FOI_OTHER", "label": "Sonstige Interessenbereiche"}]
 
 
-# ── Daten speichern ────────────────────────────────────────────────────────────
-
-def save_data(statements):
-    """Speichert die Daten als JSON für die E-Mail-Generierung."""
-    Path("docs").mkdir(exist_ok=True)
-    with open("docs/data.json", "w", encoding="utf-8") as f:
-        json.dump({
-            "generated_at": datetime.now().isoformat(),
-            "statements": sorted(
-                statements,
-                key=lambda x: (x.get("upload_date") or "0000-00-00"),
-                reverse=True
-            )
-        }, f, ensure_ascii=False, indent=2)
-    print("Daten gespeichert: docs/data.json")
-
-
-# ── HTML generieren ────────────────────────────────────────────────────────────
+# ── HTML-Generierung ───────────────────────────────────────────────────────────
 
 def build_url(stmt):
-    """Baut den Link zum Lobbyregistereintrag."""
     sn = stmt.get("statement_number", "")
     rn = stmt.get("register_number", "")
     base = "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche"
@@ -255,7 +249,6 @@ def build_url(stmt):
 
 
 def format_date_de(iso_date):
-    """Formatiert ein ISO-Datum auf Deutsch."""
     if not iso_date:
         return "–"
     try:
@@ -265,17 +258,7 @@ def format_date_de(iso_date):
         return iso_date
 
 
-def group_by_date(statements):
-    """Gruppiert Stellungnahmen nach Upload-Datum."""
-    grouped = defaultdict(list)
-    for stmt in statements:
-        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
-        grouped[key].append(stmt)
-    return dict(sorted(grouped.items(), reverse=True))
-
-
 def get_weekday_de(iso_date):
-    """Gibt deutschen Wochentag + Datum zurück."""
     days = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
     months = ["", "Januar", "Februar", "März", "April", "Mai", "Juni",
               "Juli", "August", "September", "Oktober", "November", "Dezember"]
@@ -287,12 +270,12 @@ def get_weekday_de(iso_date):
 
 
 def render_entry_card(stmt):
-    """Rendert eine Eintrags-Karte als HTML."""
-    title = stmt["regulatory_project_title"]
-    org = stmt["org_name"]
+    title = stmt["regulatory_project_title"].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+    org = stmt["org_name"].replace('<', '&lt;').replace('>', '&gt;')
     sending = format_date_de(stmt.get("sending_date"))
     upload = format_date_de(stmt.get("upload_date"))
-    summary = stmt.get("summary") or "Kein Beschreibungstext verfügbar."
+    summary = stmt.get("summary", "") or "Kein Beschreibungstext verfügbar."
+    summary = summary.replace('<', '&lt;').replace('>', '&gt;')
     recipients = stmt.get("recipients", [])
     fields = stmt.get("fields", [])
     pdf_url = stmt.get("pdf_url", "")
@@ -300,16 +283,13 @@ def render_entry_card(stmt):
     stmt_url = build_url(stmt)
     stmt_number = stmt.get("statement_number", "")
 
-    recip_badges = "".join(
-        f'<span class="abadge">{r}</span>' for r in recipients
-    )
-    field_tags = "".join(
-        f'<span class="tag">{f["label"]}</span>' for f in fields
-    )
-    pdf_link = f'<a href="{pdf_url}" target="_blank">↗ PDF herunterladen ({pdf_pages} Seiten)</a>' if pdf_url else '<span style="color:#999">Kein PDF verfügbar</span>'
+    recip_badges = "".join(f'<span class="abadge">{r}</span>' for r in recipients)
+    field_tags = "".join(f'<span class="tag">{f["label"]}</span>' for f in fields)
+    pdf_link = (f'<a href="{pdf_url}" target="_blank">↗ PDF herunterladen ({pdf_pages} Seiten)</a>'
+                if pdf_url else '<span style="color:#999">Kein PDF verfügbar</span>')
 
     return f"""
-    <div class="entry-card" data-vorhaben="{title.replace('"', '&quot;')}">
+    <div class="entry-card" data-vorhaben="{title}">
       <div class="row-title">{title}</div>
       <div class="meta-row">
         <div class="mc grow"><strong>Bereitgestellt von</strong>{org}</div>
@@ -320,7 +300,7 @@ def render_entry_card(stmt):
         <div class="mc grow"><strong>Adressaten</strong>{recip_badges}</div>
         <div class="mc grow"><strong>Themen</strong>{field_tags}</div>
       </div>
-      <div class="row-full"><strong>Inhalt</strong>{summary[:400]}{"..." if len(summary) > 400 else ""}</div>
+      <div class="row-full"><strong>Inhalt</strong>{summary}</div>
       <div class="link-row">
         <div class="lc"><a href="{stmt_url}" target="_blank">↗ Lobbyregistereintrag ({stmt_number})</a></div>
         <div class="lc">{pdf_link}</div>
@@ -329,20 +309,17 @@ def render_entry_card(stmt):
 
 
 def generate_html(statements, generated_at):
-    """Generiert die vollständige HTML-Seite."""
+    by_date = defaultdict(list)
+    for stmt in statements:
+        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
+        by_date[key].append(stmt)
 
-    # Nach Datum gruppieren
-    by_date = group_by_date(statements)
-
-    # Alle Regelungsvorhaben für Seitenfilter sammeln
     vorhaben_counts = defaultdict(int)
     for stmt in statements:
         vorhaben_counts[stmt["regulatory_project_title"]] += 1
 
-    # Tagesabschnitte rendern
     day_sections_html = ""
-    for iso_date, day_stmts in list(by_date.items())[:100]:  # Max 100 Tage
-        # Innerhalb eines Tages nach Priorität sortieren
+    for iso_date, day_stmts in sorted(by_date.items(), reverse=True):
         day_stmts_sorted = sorted(day_stmts, key=lambda x: x.get("priority", 99))
         day_label = get_weekday_de(iso_date)
         cards = "".join(render_entry_card(s) for s in day_stmts_sorted)
@@ -352,7 +329,6 @@ def generate_html(statements, generated_at):
           {cards}
         </div>"""
 
-    # Filterlist für Seitenleiste
     filter_items = "".join(
         f'<li data-v="{v.replace(chr(34), chr(39))}">'
         f'<span>{v}</span><span class="filter-count">{c}</span></li>'
@@ -360,18 +336,12 @@ def generate_html(statements, generated_at):
     )
 
     gen_dt = datetime.fromisoformat(generated_at)
-    gen_str = gen_dt.strftime("%d. %B %Y, %H:%M Uhr").replace(
-        "January", "Januar").replace("February", "Februar").replace(
-        "March", "März").replace("April", "April").replace(
-        "May", "Mai").replace("June", "Juni").replace(
-        "July", "Juli").replace("August", "August").replace(
-        "September", "September").replace("October", "Oktober").replace(
-        "November", "November").replace("December", "Dezember")
+    months_de = ["", "Januar", "Februar", "März", "April", "Mai", "Juni",
+                 "Juli", "August", "September", "Oktober", "November", "Dezember"]
+    gen_str = f"{gen_dt.day}. {months_de[gen_dt.month]} {gen_dt.year}, {gen_dt.strftime('%H:%M')} Uhr"
 
-    total = len(statements)
-
-    # Themenfelder für Untertitel
-    fields_subtitle = "Energie &amp; Wasserstoff, Klimaschutz, EU-Binnenmarkt, EU-Gesetzgebung, Bundestag, Wettbewerbsrecht, Politisches Leben/Parteien, Sonstige"
+    fields_subtitle = ("Energie &amp; Wasserstoff, Klimaschutz, EU-Binnenmarkt, EU-Gesetzgebung, "
+                       "Bundestag, Wettbewerbsrecht, Politisches Leben/Parteien, Sonstige")
 
     with open("scripts/template.html", "r", encoding="utf-8") as f:
         template = f.read()
@@ -379,10 +349,9 @@ def generate_html(statements, generated_at):
     html = template.replace("{{DAY_SECTIONS}}", day_sections_html)
     html = html.replace("{{FILTER_ITEMS}}", filter_items)
     html = html.replace("{{GENERATED_AT}}", gen_str)
-    html = html.replace("{{TOTAL_COUNT}}", str(total))
+    html = html.replace("{{TOTAL_COUNT}}", str(len(statements)))
     html = html.replace("{{FIELDS_SUBTITLE}}", fields_subtitle)
     html = html.replace("{{SITE_URL}}", SITE_URL)
-
     return html
 
 
@@ -391,20 +360,25 @@ def generate_html(statements, generated_at):
 def main():
     print("=== Lobbyregister Monitor – Seitengenerierung ===")
 
-    # Daten abrufen
-    statements = fetch_all_statements()
+    raw = fetch_statements()
+    statements = parse_statements(raw)
+
+    print(f"Gefilterte Einträge: {len(statements)}")
 
     if not statements:
-        print("WARNUNG: Keine Einträge gefunden. Seite wird trotzdem generiert.")
-
-    # Speichern
-    save_data(statements)
-
-    # HTML generieren
-    generated_at = datetime.now().isoformat()
-    html = generate_html(statements, generated_at)
+        print("WARNUNG: Keine Einträge nach Filterung. Prüfe API-Antwortstruktur.")
 
     Path("docs").mkdir(exist_ok=True)
+    generated_at = datetime.now().isoformat()
+
+    with open("docs/data.json", "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": generated_at,
+            "statements": sorted(statements,
+                key=lambda x: (x.get("upload_date") or "0000-00-00"), reverse=True)
+        }, f, ensure_ascii=False, indent=2)
+
+    html = generate_html(statements, generated_at)
     with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
