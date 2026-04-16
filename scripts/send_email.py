@@ -14,7 +14,7 @@ from pathlib import Path
 
 RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 EMAIL_RECIPIENT = os.environ["EMAIL_RECIPIENT"]
-SITE_URL = os.environ.get("SITE_URL", "https://rulosapire1.github.io/lobbyregister-monitor")
+SITE_URL = os.environ.get("SITE_URL", "https://bmwe-iiia4.github.io/lobbyregister-monitor")
 
 # Themenfelder sortiert nach Priorität für die Mail-Gliederung
 THEME_ORDER = [
