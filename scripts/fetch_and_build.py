@@ -5,8 +5,11 @@ Ruft Stellungnahmen über die offizielle Lobbyregister API V2 ab.
 
 Strategie:
 1. Alle Registereinträge per /registerentries mit Cursor-Pagination laden
-2. Für jeden Eintrag die Stellungnahmen (statements) clientseitig filtern
-   nach: Empfänger (BMWE/Bundestag), Themenfeldern, Datum (ab START_DATE)
+2. Für jeden Eintrag prüfen:
+   a) Hat er relevante Themenfelder? (activitiesAndInterests.fieldsOfInterest)
+   b) Hat er Stellungnahmen? (statements.statementsPresent)
+   c) Sind Stellungnahmen an BMWE/BMWK/Bundestag adressiert?
+   d) Sind sie ab START_DATE?
 3. Gefilterte Stellungnahmen als HTML-Seite rendern
 """
 
@@ -25,32 +28,40 @@ API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
 SITE_URL = "https://bmwe-iiia4.github.io/lobbyregister-monitor"
 START_DATE = date(2026, 1, 1)
 
-# Empfänger-Schlüsselwörter (werden im Empfängertext gesucht)
-TARGET_RECIPIENTS_KEYWORDS = [
-    "BMWE", "Bundesministerium für Wirtschaft und Energie",
-    "Bundestag",
-]
+# Empfänger: Schlüsselwörter im shortTitle/title der Bundesregierung
+TARGET_DEPT_KEYWORDS = ["BMWE", "BMWK", "Wirtschaft"]
 
+# V2-API Feldcodes (aktualisiert für R2.22)
 TARGET_FIELD_CODES = {
-    "FOI_ENERGY", "FOI_ENERGY_RENEWABLE", "FOI_ENERGY_ELECTRICITY",
-    "FOI_ENERGY_GAS", "FOI_ENERGY_HYDROGEN",
-    "FOI_ENVIRONMENT_CLIMATE", "FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS",
-    "FOI_BUNDESTAG", "FOI_ECONOMY_COMPETITION_LAW",
-    "FOI_POLITICAL_PARTIES", "FOI_OTHER",
+    "FOI_ENERGY_OVERALL", "FOI_ENERGY_RENEWABLE", "FOI_ENERGY_FOSSILE",
+    "FOI_ENERGY_NET", "FOI_ENERGY_NUCLEAR", "FOI_ENERGY_OTHER",
+    "FOI_ENERGY_ELECTRICITY", "FOI_ENERGY_GAS", "FOI_ENERGY_HYDROGEN",
+    "FOI_ENERGY",
+    "FOI_ENVIRONMENT_CLIMATE",
+    "FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS",
+    "FOI_BUNDESTAG",
+    "FOI_ECONOMY_COMPETITION_LAW",
+    "FOI_POLITICAL_PARTIES",
+    "FOI_OTHER",
 }
 
 FIELD_PRIORITY = {
-    "FOI_ENERGY": 1, "FOI_ENERGY_RENEWABLE": 1, "FOI_ENERGY_ELECTRICITY": 1,
-    "FOI_ENERGY_GAS": 1, "FOI_ENERGY_HYDROGEN": 1,
+    "FOI_ENERGY_OVERALL": 1, "FOI_ENERGY_RENEWABLE": 1, "FOI_ENERGY_FOSSILE": 1,
+    "FOI_ENERGY_NET": 1, "FOI_ENERGY_NUCLEAR": 1, "FOI_ENERGY_OTHER": 1,
+    "FOI_ENERGY_ELECTRICITY": 1, "FOI_ENERGY_GAS": 1, "FOI_ENERGY_HYDROGEN": 1,
+    "FOI_ENERGY": 1,
     "FOI_ENVIRONMENT_CLIMATE": 2, "FOI_EU_DOMESTIC_MARKET": 2,
     "FOI_EU_LAWS": 2, "FOI_BUNDESTAG": 2,
     "FOI_ECONOMY_COMPETITION_LAW": 3, "FOI_POLITICAL_PARTIES": 3, "FOI_OTHER": 3,
 }
 
 FIELD_LABELS = {
-    "FOI_ENERGY": "Energie", "FOI_ENERGY_RENEWABLE": "Erneuerbare Energie",
+    "FOI_ENERGY_OVERALL": "Energie (allgemein)", "FOI_ENERGY_RENEWABLE": "Erneuerbare Energie",
+    "FOI_ENERGY_FOSSILE": "Fossile Energie", "FOI_ENERGY_NET": "Energienetze",
+    "FOI_ENERGY_NUCLEAR": "Atomenergie", "FOI_ENERGY_OTHER": "Energie (sonstige)",
     "FOI_ENERGY_ELECTRICITY": "Strom", "FOI_ENERGY_GAS": "Gas",
-    "FOI_ENERGY_HYDROGEN": "Wasserstoff", "FOI_ENVIRONMENT_CLIMATE": "Klimaschutz",
+    "FOI_ENERGY_HYDROGEN": "Wasserstoff", "FOI_ENERGY": "Energie",
+    "FOI_ENVIRONMENT_CLIMATE": "Klimaschutz",
     "FOI_EU_DOMESTIC_MARKET": "EU-Binnenmarkt", "FOI_EU_LAWS": "EU-Gesetzgebung",
     "FOI_BUNDESTAG": "Bundestag", "FOI_ECONOMY_COMPETITION_LAW": "Wettbewerbsrecht",
     "FOI_POLITICAL_PARTIES": "Politisches Leben, Parteien",
@@ -62,17 +73,12 @@ SESSION.headers.update({
     "Accept": "application/json",
     "Authorization": f"ApiKey {API_KEY}",
 })
-# API-Key wird zusätzlich als Query-Parameter gesendet (Fallback)
 DEFAULT_PARAMS = {"format": "json", "apikey": API_KEY}
 
 
 # ── Schritt 1: Alle Registereinträge per V2 API laden ──────────────────────────
 
 def fetch_all_register_entries():
-    """
-    Lädt alle Registereinträge über die V2 API mit Cursor-Pagination.
-    Gibt eine Liste von Registernummern zurück.
-    """
     register_numbers = []
     cursor = None
     page = 0
@@ -92,35 +98,24 @@ def fetch_all_register_entries():
             print(f"  FEHLER Seite {page}: {e}")
             break
 
-        # data ist eine Liste von Registereinträgen
         entries = data if isinstance(data, list) else data.get("results", data.get("registerEntries", []))
-
         if not entries:
             break
 
         for entry in entries:
-            if not isinstance(entry, dict):
-                continue
-            reg_num = entry.get("registerNumber", "")
-            if reg_num:
-                register_numbers.append(reg_num)
+            if isinstance(entry, dict):
+                reg_num = entry.get("registerNumber", "")
+                if reg_num:
+                    register_numbers.append(reg_num)
 
         page += 1
+        new_cursor = data.get("cursor") if isinstance(data, dict) else None
 
-        # Cursor für nächste Seite extrahieren
-        # V2 API: cursor kommt als Feld in der Antwort oder als letztes Element
-        new_cursor = None
-        if isinstance(data, dict):
-            new_cursor = data.get("cursor")
-
-        # Cursor-basiert: wenn cursor sich nicht ändert, sind wir fertig
         if new_cursor and new_cursor != cursor:
             cursor = new_cursor
         else:
-            # Kein neuer Cursor = letzte Seite erreicht
             if cursor is not None:
                 break
-            # Erster Aufruf ohne Cursor: prüfe ob es überhaupt Pagination gibt
             if not new_cursor:
                 break
             cursor = new_cursor
@@ -135,12 +130,11 @@ def fetch_all_register_entries():
 # ── Schritt 2: Einzelabrufe und Stellungnahmen filtern ─────────────────────────
 
 def fetch_and_filter_statements(register_numbers):
-    """
-    Ruft jeden Registereintrag einzeln ab und extrahiert relevante Stellungnahmen.
-    """
     all_statements = []
     total = len(register_numbers)
     skipped = 0
+    no_statements = 0
+    no_relevant_fields = 0
 
     print(f"Schritt 2: {total} Einträge einzeln abrufen und filtern...")
 
@@ -162,35 +156,61 @@ def fetch_and_filter_statements(register_numbers):
             skipped += 1
             continue
 
-        # Stellungnahmen extrahieren
-        statements_data = entry.get("statements", {})
-        if not isinstance(statements_data, dict):
+        # Themenfelder auf Registereintrag-Ebene prüfen (Vorfilter)
+        entry_fields = extract_entry_fields(entry)
+        entry_field_codes = {f["code"] for f in entry_fields}
+        if not entry_field_codes & TARGET_FIELD_CODES:
+            no_relevant_fields += 1
             continue
 
-        # Prüfe ob Stellungnahmen vorhanden
+        # Stellungnahmen prüfen
+        statements_data = entry.get("statements", {})
+        if not isinstance(statements_data, dict):
+            no_statements += 1
+            continue
+        if not statements_data.get("statementsPresent", False):
+            no_statements += 1
+            continue
         stmts_list = statements_data.get("statements", [])
-        if not stmts_list and not statements_data.get("statementsPresent", False):
+        if not stmts_list:
+            no_statements += 1
             continue
 
         org_name = extract_org_name(entry)
         upload_date = extract_upload_date(entry)
 
         for stmt in stmts_list:
-            result = process_statement(stmt, reg_num, org_name, upload_date)
+            result = process_statement(stmt, reg_num, org_name, upload_date, entry_fields)
             if result:
                 all_statements.append(result)
 
-        if (i + 1) % 50 == 0:
-            print(f"  {i+1}/{total} abgerufen ({skipped} übersprungen), "
-                  f"{len(all_statements)} Stellungnahmen gefunden...")
+        if (i + 1) % 200 == 0:
+            print(f"  {i+1}/{total}: {len(all_statements)} SN, "
+                  f"{no_relevant_fields} kein Thema, {no_statements} keine SN, "
+                  f"{skipped} Fehler")
 
-    print(f"  {len(all_statements)} relevante Stellungnahmen gefunden "
-          f"({skipped} Einträge übersprungen).")
+    print(f"  {len(all_statements)} relevante Stellungnahmen gefunden.")
+    print(f"  ({no_relevant_fields} ohne Themenfeld, "
+          f"{no_statements} ohne Stellungnahmen, {skipped} Fehler)")
     return all_statements
 
 
+def extract_entry_fields(entry):
+    ai = entry.get("activitiesAndInterests", {})
+    if not isinstance(ai, dict):
+        return []
+    foi_list = ai.get("fieldsOfInterest", [])
+    fields = []
+    for f in foi_list:
+        if isinstance(f, dict):
+            code = f.get("code", "")
+            label = FIELD_LABELS.get(code) or f.get("de", "") or code
+            if code:
+                fields.append({"code": code, "label": label})
+    return fields
+
+
 def extract_org_name(entry):
-    """Extrahiert den Organisationsnamen aus einem Registereintrag."""
     identity = entry.get("lobbyistIdentity", {})
     if isinstance(identity, dict):
         name = identity.get("name", "")
@@ -200,7 +220,6 @@ def extract_org_name(entry):
 
 
 def extract_upload_date(entry):
-    """Extrahiert das Erstveröffentlichungsdatum."""
     acc = entry.get("accountDetails", {})
     if isinstance(acc, dict):
         pub_date = acc.get("firstPublicationDate", "")
@@ -212,8 +231,7 @@ def extract_upload_date(entry):
     return None
 
 
-def process_statement(stmt, register_number, org_name, upload_date):
-    """Prüft eine einzelne Stellungnahme gegen alle Filter."""
+def process_statement(stmt, register_number, org_name, upload_date, entry_fields):
     if not isinstance(stmt, dict):
         return None
 
@@ -228,8 +246,8 @@ def process_statement(stmt, register_number, org_name, upload_date):
             except ValueError:
                 pass
 
-    # Datumsfilter: mindestens ein Datum muss ab START_DATE sein
-    check_date = upload_date or sending_date
+    # Datumsfilter
+    check_date = sending_date or upload_date
     if check_date and check_date < START_DATE:
         return None
 
@@ -238,73 +256,56 @@ def process_statement(stmt, register_number, org_name, upload_date):
     has_target_recipient = False
     for rg in stmt.get("recipientGroups", []):
         recips = rg.get("recipients", {})
-        if isinstance(recips, dict):
-            # Bundesregierung
-            for fg in recips.get("federalGovernment", []):
-                dept = fg.get("department", {})
-                if isinstance(dept, dict):
-                    short = dept.get("shortTitle", "")
-                    long_name = dept.get("name", "")
-                    display = short or long_name
-                    if display:
-                        recipients.append(display)
-                    # Prüfe ob BMWE
-                    combined = f"{short} {long_name}".upper()
-                    if "BMWE" in combined or "WIRTSCHAFT" in combined:
+        if not isinstance(recips, dict):
+            continue
+        # Bundesregierung
+        for fg in recips.get("federalGovernment", []):
+            dept = fg.get("department", {})
+            if isinstance(dept, dict):
+                short = dept.get("shortTitle", "")
+                title = dept.get("title", "")
+                display = short or title
+                if display:
+                    recipients.append(display)
+                combined = f"{short} {title}".upper()
+                for kw in TARGET_DEPT_KEYWORDS:
+                    if kw.upper() in combined:
                         has_target_recipient = True
-            # Bundestag
-            for p in recips.get("parliament", []):
-                parl_name = ""
-                if isinstance(p, dict):
-                    parl_name = p.get("de", "") or p.get("name", "")
-                elif isinstance(p, str):
-                    parl_name = p
-                if parl_name:
-                    recipients.append("Bundestag")
-                    has_target_recipient = True
-                    break
+                        break
+        # Bundestag
+        for p in recips.get("parliament", []):
+            if isinstance(p, dict):
+                parl_name = p.get("de", "") or p.get("name", "")
+            elif isinstance(p, str):
+                parl_name = p
+            else:
+                continue
+            if parl_name:
+                recipients.append("Bundestag")
+                has_target_recipient = True
+                break
 
-    recipients = list(dict.fromkeys(recipients))  # Deduplizieren
+    recipients = list(dict.fromkeys(recipients))
     if not has_target_recipient:
         return None
 
-    # Themenfelder extrahieren und filtern
-    fields = []
-    field_codes_found = set()
+    # Themenfelder vom Registereintrag
+    field_codes = {f["code"] for f in entry_fields}
+    relevant_fields = [f for f in entry_fields if f["code"] in TARGET_FIELD_CODES]
+    if not relevant_fields:
+        relevant_fields = entry_fields[:3]
 
-    # Felder können auf verschiedenen Ebenen liegen
-    foi_sources = [
-        stmt.get("fieldsOfInterest", []),
-    ]
-    for foi_list in foi_sources:
-        for f in foi_list:
-            if isinstance(f, dict):
-                code = f.get("code", "")
-                label = FIELD_LABELS.get(code) or f.get("de", "") or code
-                if code:
-                    fields.append({"code": code, "label": label})
-                    field_codes_found.add(code)
-            elif isinstance(f, str):
-                fields.append({"code": f, "label": FIELD_LABELS.get(f, f)})
-                field_codes_found.add(f)
+    priority = min((FIELD_PRIORITY.get(c, 99) for c in field_codes if c in FIELD_PRIORITY), default=99)
 
-    if not field_codes_found & TARGET_FIELD_CODES:
-        return None
-
-    # Priorität berechnen
-    priority = min((FIELD_PRIORITY.get(c, 99) for c in field_codes_found), default=99)
-
-    # Text/Beschreibung
     text_obj = stmt.get("text", {})
     summary = text_obj.get("text", "") if isinstance(text_obj, dict) else ""
 
-    # Statement-Nummer und PDF
-    stmt_number = str(stmt.get("statementNumber", ""))
+    project_number = str(stmt.get("regulatoryProjectNumber", ""))
     pdf_url = str(stmt.get("pdfUrl", ""))
     pdf_pages = int(stmt.get("pdfPageCount", 0) or 0)
 
     return {
-        "statement_number": stmt_number,
+        "statement_number": project_number,
         "register_number": str(register_number),
         "regulatory_project_title": str(stmt.get("regulatoryProjectTitle", "Kein Titel")),
         "org_name": str(org_name),
@@ -314,7 +315,7 @@ def process_statement(stmt, register_number, org_name, upload_date):
         "pdf_pages": pdf_pages,
         "summary": str(summary)[:600],
         "recipients": recipients,
-        "fields": fields,
+        "fields": relevant_fields,
         "priority": priority,
     }
 
@@ -322,11 +323,10 @@ def process_statement(stmt, register_number, org_name, upload_date):
 # ── HTML-Generierung ───────────────────────────────────────────────────────────
 
 def build_url(stmt):
-    sn = stmt.get("statement_number", "")
     rn = stmt.get("register_number", "")
-    base = "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche"
-    if sn and rn:
-        return f"{base}/{sn}/{rn}"
+    base = "https://www.lobbyregister.bundestag.de/suche"
+    if rn:
+        return f"{base}/{rn}"
     return base
 
 
@@ -363,7 +363,7 @@ def render_entry_card(stmt):
     pdf_url = stmt.get("pdf_url", "")
     pdf_pages = stmt.get("pdf_pages", 0)
     stmt_url = build_url(stmt)
-    stmt_number = stmt.get("statement_number", "")
+    reg_number = stmt.get("register_number", "")
 
     recip_badges = "".join(f'<span class="abadge">{r}</span>' for r in recipients)
     field_tags = "".join(f'<span class="tag">{f["label"]}</span>' for f in fields)
@@ -384,7 +384,7 @@ def render_entry_card(stmt):
       </div>
       <div class="row-full"><strong>Inhalt</strong>{summary}</div>
       <div class="link-row">
-        <div class="lc"><a href="{stmt_url}" target="_blank">↗ Lobbyregistereintrag ({stmt_number})</a></div>
+        <div class="lc"><a href="{stmt_url}" target="_blank">↗ Lobbyregistereintrag ({reg_number})</a></div>
         <div class="lc">{pdf_link}</div>
       </div>
     </div>"""
@@ -393,7 +393,7 @@ def render_entry_card(stmt):
 def generate_html(statements, generated_at):
     by_date = defaultdict(list)
     for stmt in statements:
-        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
+        key = stmt.get("sending_date") or stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
 
     vorhaben_counts = defaultdict(int)
@@ -447,16 +447,10 @@ def main():
 
     if not register_numbers:
         print("WARNUNG: Keine Registereinträge geladen.")
-        print("Prüfe: Ist der API-Key korrekt? (X-Api-Key Header)")
 
     statements = fetch_and_filter_statements(register_numbers)
 
     print(f"Relevante Stellungnahmen gesamt: {len(statements)}")
-    if not statements:
-        print("WARNUNG: Keine Einträge gefunden. Mögliche Ursachen:")
-        print("  - API-Key ungültig oder falsch konfiguriert")
-        print("  - API-Antwortformat hat sich geändert")
-        print("  - Keine Stellungnahmen mit den gewählten Filtern vorhanden")
 
     Path("docs").mkdir(exist_ok=True)
     generated_at = datetime.now().isoformat()
@@ -465,7 +459,8 @@ def main():
         json.dump({
             "generated_at": generated_at,
             "statements": sorted(statements,
-                key=lambda x: (x.get("upload_date") or "0000-00-00"), reverse=True)
+                key=lambda x: (x.get("sending_date") or x.get("upload_date") or "0000-00-00"),
+                reverse=True)
         }, f, ensure_ascii=False, indent=2)
 
     html = generate_html(statements, generated_at)
