@@ -3,223 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wartungsdokumentation – Lobbyregister-Monitor</title>
+<title>Nutzungsanleitung – Lobbyregister-Monitor</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#222;background:#f5f7fa}
+body{font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222;background:#f5f7fa}
 .page{max-width:860px;margin:0 auto;padding:2rem 1.25rem}
 h1{font-size:22px;color:#003366;margin-bottom:.5rem}
 h2{font-size:16px;color:#004B87;margin:2rem 0 .75rem;padding-bottom:.4rem;border-bottom:2px solid #c5d5e8}
-h3{font-size:15px;font-weight:700;color:#003366;margin:1.25rem 0 .4rem}
+h3{font-size:14px;font-weight:700;color:#003366;margin:1.25rem 0 .4rem}
 p{margin-bottom:.75rem;color:#444}
 ul,ol{margin:.5rem 0 .75rem 1.5rem;color:#444}
 li{margin-bottom:.3rem}
-code{background:#f0f4f8;border:1px solid #d0d8e4;padding:1px 5px;font-family:monospace;font-size:13px;color:#c00}
 .box{background:#fff;border:1px solid #d0d8e4;border-left:3px solid #004B87;padding:1rem 1.25rem;margin:1rem 0}
 .warn{background:#fff8e1;border:1px solid #ffe082;border-left:3px solid #f9a825;padding:1rem 1.25rem;margin:1rem 0}
-.secret-table{width:100%;border-collapse:collapse;margin:.75rem 0;font-size:14px}
-.secret-table th{background:#004B87;color:#fff;padding:7px 12px;text-align:left;font-weight:700}
-.secret-table td{padding:7px 12px;border-bottom:1px solid #e0e8f0;vertical-align:top}
-.secret-table tr:nth-child(even) td{background:#f5f7fa}
-.back{display:inline-block;margin-bottom:1.5rem;font-size:13px;color:#004B87;text-decoration:none}
+.back{display:inline-block;margin-bottom:1.5rem;font-size:12px;color:#004B87;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:.75rem 0;font-size:13px}
+th{background:#004B87;color:#fff;padding:7px 12px;text-align:left}
+td{padding:7px 12px;border-bottom:1px solid #e0e8f0;vertical-align:top}
+tr:nth-child(even) td{background:#f5f7fa}
 </style>
 </head>
 <body>
 <div class="page">
 <a class="back" href="index.html">← Zurück zur Übersicht</a>
 
-<h1>Wartungsdokumentation</h1>
-<p style="color:#888;font-size:13px">Lobbyregister-Monitor · BMWE Unterabteilung IIIA · Stand: April 2026</p>
+<h1>Nutzungsanleitung</h1>
+<p style="color:#888;font-size:12px">Lobbyregister-Monitor · BMWE Unterabteilung IIIA</p>
+
+<h2>Was zeigt diese Seite?</h2>
+<p>Diese Seite zeigt automatisch alle neuen <strong>Stellungnahmen und Gutachten</strong>
+aus dem <a href="https://www.lobbyregister.bundestag.de">Lobbyregister des Deutschen Bundestages</a>,
+die für das Bundesministerium für Wirtschaft und Energie (BMWE) und/oder den Bundestag
+relevant sind.</p>
+
+<p>Die Einträge werden nach folgenden Kriterien gefiltert:</p>
+
+<h3>Empfängergruppen</h3>
+<ul>
+  <li>Bundesministerium für Wirtschaft und Energie (BMWE) – 21. Wahlperiode</li>
+  <li>Bundestag – 21. Wahlperiode</li>
+</ul>
+
+<h3>Themenfelder (Interessen- und Vorhabenbereiche)</h3>
+<table>
+  <tr><th>Themenfeld</th><th>Priorität</th></tr>
+  <tr><td>Energie &amp; Wasserstoff (inkl. Erneuerbare, Strom, Gas)</td><td>Hoch – erscheint zuerst</td></tr>
+  <tr><td>Klimaschutz</td><td>Mittel</td></tr>
+  <tr><td>EU-Binnenmarkt &amp; EU-Gesetzgebung</td><td>Mittel</td></tr>
+  <tr><td>Bundestag (allgemein)</td><td>Mittel</td></tr>
+  <tr><td>Wettbewerbsrecht</td><td>Niedrig</td></tr>
+  <tr><td>Politisches Leben, Parteien</td><td>Niedrig</td></tr>
+  <tr><td>Sonstige Interessenbereiche</td><td>Niedrig</td></tr>
+</table>
+
+<p>Einträge, die mehrere Themenfelder abdecken, werden dem Themenfeld mit der höchsten
+Priorität zugeordnet.</p>
+
+<h3>KI-gestützte Relevanzfilterung</h3>
+<p>Einträge in den breiten Kategorien (Wettbewerbsrecht, EU-Gesetzgebung, Politisches Leben/Parteien,
+Sonstige) werden zusätzlich automatisch auf ihren Bezug zu den Themen Energiepolitik,
+Klimaschutz und Energiewirtschaft geprüft. Einträge ohne erkennbaren Energie-/Klimabezug
+werden aussortiert, um die Übersicht auf die für die Unterabteilung IIIA relevanten
+Inhalte zu fokussieren.</p>
+<p>Einträge im Themenfeld <strong>Energie &amp; Wasserstoff</strong> sind davon nicht
+betroffen und werden immer angezeigt.</p>
 
 <div class="warn">
-  <strong>Wichtig:</strong> Diese Seite enthält sensible Zugangsdaten als Platzhalter.
-  Die echten Werte sind ausschließlich als GitHub Secrets hinterlegt und
-  niemals im Klartext in Dateien oder im Chat zu teilen.
+  <strong>Hinweis zum gelben Warnbalken:</strong> Sollte auf der Übersichtsseite ein
+  gelber Hinweis erscheinen, dass die KI-gestützte Filterung nicht durchgeführt werden
+  konnte, werden vorübergehend alle Einträge ungefiltert angezeigt. Die Filterung wird
+  beim nächsten regulären Durchlauf automatisch wieder aktiv.
 </div>
 
-<h2>1. Systemübersicht</h2>
-<p>Der Lobbyregister-Monitor ist ein automatisiertes System, das:</p>
-<ul>
-  <li><strong>Täglich:</strong> Stellungnahmen und Gutachten aus dem Lobbyregister über die offizielle API V2 abruft und eine Übersichtsseite auf GitHub Pages aktualisiert</li>
-  <li><strong>Montags:</strong> Eine wöchentliche Zusammenfassungs-Mail über Resend versendet</li>
-  <li><strong>Montags:</strong> Einen automatischen Selbsttest durchführt und bei Problemen eine Admin-Mail sendet</li>
-</ul>
+<h2>Wie lese ich die Einträge?</h2>
+<p>Jeder Eintrag besteht aus fünf Zeilen:</p>
 
 <div class="box">
-  <strong>Öffentliche URL der Seite:</strong><br>
-  <a href="https://bmwe-iiia4.github.io/lobbyregister-monitor">https://bmwe-iiia4.github.io/lobbyregister-monitor</a><br><br>
-  <strong>GitHub Repository:</strong><br>
-  <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor">https://github.com/BMWE-IIIA4/lobbyregister-monitor</a><br><br>
-  <strong>GitHub Actions (Logs):</strong><br>
-  <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions">https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions</a><br><br>
-  <strong>API-Dokumentation:</strong><br>
-  <a href="https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/">https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/</a>
+  <p><strong>Zeile 1 (grau hinterlegt):</strong> Regelungsvorhaben – der Gegenstand der Interessenvertretung</p>
+  <p><strong>Zeile 2:</strong> Bereitgestellt von (Organisation) · Datum der Stellungnahme · Hochgeladen am</p>
+  <p><strong>Zeile 3:</strong> Adressaten (blau) · Themenfelder (grau)</p>
+  <p><strong>Zeile 4:</strong> Inhalt – Zusammenfassung der Stellungnahme</p>
+  <p><strong>Zeile 5:</strong> Links zum Lobbyregistereintrag und zur PDF der Stellungnahme</p>
 </div>
 
-<h2>2. Zugangsdaten und Secrets</h2>
-<p>Alle Zugangsdaten sind als <strong>GitHub Secrets</strong> hinterlegt. Um sie einzusehen oder zu ändern:
-GitHub Repository → Settings → Secrets and variables → Actions.</p>
+<p><strong>Datum der Stellungnahme</strong> = wann die Stellungnahme abgegeben wurde.<br>
+<strong>Hochgeladen am</strong> = wann sie ins Lobbyregister eingestellt wurde. Diese Daten können voneinander abweichen.</p>
 
-<table class="secret-table">
-  <tr>
-    <th>Secret-Name</th>
-    <th>Beschreibung</th>
-    <th>Wo ändern</th>
-  </tr>
-  <tr>
-    <td><code>RESEND_API_KEY</code></td>
-    <td>API-Key für den E-Mail-Versand über Resend. Format: <code>re_XXXX...</code></td>
-    <td>resend.com → API Keys → neuen Key erstellen</td>
-  </tr>
-  <tr>
-    <td><code>EMAIL_RECIPIENT</code></td>
-    <td>Empfänger der wöchentlichen Mail. Muss die E-Mail-Adresse sein, mit der der Resend-Account erstellt wurde (Einschränkung des kostenlosen Plans).</td>
-    <td>Direkt als neuen Secret-Wert eintragen</td>
-  </tr>
-  <tr>
-    <td><code>ADMIN_EMAIL</code></td>
-    <td>E-Mail-Adresse für Fehlerbenachrichtigungen. Gleiche Einschränkung wie EMAIL_RECIPIENT.</td>
-    <td>Direkt als neuen Secret-Wert eintragen</td>
-  </tr>
-  <tr>
-    <td><code>LOBBYREGISTER_API_KEY</code></td>
-    <td>API-Key des Lobbyregisters (V2 API). Aktuell der öffentliche Key von der <a href="https://www.lobbyregister.bundestag.de/informationen-und-hilfe/open-data-1049716">Infoseite</a>.</td>
-    <td>Direkt als neuen Secret-Wert eintragen</td>
-  </tr>
-</table>
+<h3>Beschreibungstexte und KI-Zusammenfassungen</h3>
+<p>Die Beschreibungstexte in den Einträgen werden automatisch per KI (Google Gemini)
+auf zwei prägnante Sätze zusammengefasst. Die Zusammenfassungen geben den Kern der
+Stellungnahme sachlich wieder. Die vollständigen Originaltexte sind jederzeit über
+den Link zum Lobbyregistereintrag oder die PDF einsehbar.</p>
 
-<h3>Resend-Account</h3>
-<ul>
-  <li>URL: <a href="https://resend.com">resend.com</a></li>
-  <li>Account-E-Mail: <strong>[beim aktuellen Administrator erfragen]</strong></li>
-  <li>Aktuell genutzter Absender: <code>onboarding@resend.dev</code> (kostenloser Testmodus)</li>
-  <li><strong>Wichtig:</strong> Im kostenlosen Plan kann nur an die E-Mail-Adresse gesendet werden, mit der der Resend-Account erstellt wurde.</li>
-</ul>
+<h2>Regelungsvorhaben filtern</h2>
+<p>In der rechten Seitenleiste sind alle in den aktuellen Einträgen vorkommenden
+Regelungsvorhaben aufgelistet. Ein Klick auf ein Vorhaben blendet alle anderen
+Einträge aus – nur die Stellungnahmen zu diesem Vorhaben bleiben sichtbar.</p>
+<p>Erneuter Klick oder „Alle anzeigen ✕" hebt den Filter auf.</p>
+<p>Mit dem Suchfeld oben in der Seitenleiste lässt sich die Liste der Regelungsvorhaben
+nach Stichworten durchsuchen.</p>
 
-<h2>3. Dateien im Repository</h2>
-<table class="secret-table">
-  <tr><th>Datei</th><th>Funktion</th></tr>
-  <tr><td><code>.github/workflows/update.yml</code></td><td>GitHub Actions Workflow – tägliche Seitenaktualisierung, wöchentliche Mail und Selbsttest</td></tr>
-  <tr><td><code>scripts/fetch_and_build.py</code></td><td>Ruft Daten über die V2 API ab, filtert Stellungnahmen und generiert die HTML-Seite</td></tr>
-  <tr><td><code>scripts/send_email.py</code></td><td>Liest die gespeicherten Daten und versendet die Wochenmail</td></tr>
-  <tr><td><code>scripts/health_check.py</code></td><td>Wöchentlicher Selbsttest: API, Key, Seite, E-Mail-Dienst</td></tr>
-  <tr><td><code>scripts/template.html</code></td><td>HTML-Vorlage für die Übersichtsseite</td></tr>
-  <tr><td><code>docs/index.html</code></td><td>Generierte Seite (wird automatisch überschrieben)</td></tr>
-  <tr><td><code>docs/data.json</code></td><td>Zwischengespeicherte API-Daten (wird automatisch überschrieben)</td></tr>
-  <tr><td><code>docs/hilfe.html</code></td><td>Nutzungsanleitung</td></tr>
-  <tr><td><code>docs/wartung.html</code></td><td>Diese Seite</td></tr>
-</table>
+<h2>Aktualisierung</h2>
+<p>Die Seite wird <strong>täglich um ca. 6:00 Uhr</strong> automatisch mit neuen Einträgen
+aktualisiert. Das Datum und die Uhrzeit der letzten Aktualisierung stehen oben auf der Seite.</p>
+<p>Zusätzlich wird jeden <strong>Montag</strong> eine <strong>Zusammenfassungs-Mail</strong>
+mit den Einträgen der vergangenen Woche verschickt.</p>
 
-<h2>4. Wie funktioniert der Datenabruf?</h2>
-<p>Das Skript nutzt die <strong>offizielle Lobbyregister API V2</strong>
-(<a href="https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/">Swagger-Dokumentation</a>)
-in zwei Schritten:</p>
-<ol>
-  <li><strong>Alle Registereinträge laden:</strong> Per <code>/registerentries</code> mit Cursor-Pagination werden alle ~6.800 Registereinträge geladen (dauert ca. 2–3 Minuten).</li>
-  <li><strong>Einzelabrufe und Filterung:</strong> Jeder Eintrag wird per <code>/registerentries/{registerNumber}</code> einzeln abgerufen und clientseitig gefiltert (dauert ca. 15–20 Minuten).</li>
-</ol>
+<h2>Direktlink zum Lobbyregister</h2>
+<p>Jeder Eintrag enthält einen direkten Link zum entsprechenden Registereintrag auf
+lobbyregister.bundestag.de sowie – wenn vorhanden – zur PDF der Stellungnahme.</p>
 
-<h3>Filterkriterien</h3>
-<ul>
-  <li><strong>Themenfelder:</strong> Geprüft auf Ebene des Registereintrags unter <code>activitiesAndInterests.fieldsOfInterest</code>. Relevante Codes beginnen mit <code>FOI_ENERGY_*</code>, <code>FOI_ENVIRONMENT_CLIMATE</code>, <code>FOI_EU_*</code>, <code>FOI_BUNDESTAG</code>, <code>FOI_ECONOMY_COMPETITION_LAW</code>, <code>FOI_POLITICAL_PARTIES</code>, <code>FOI_OTHER</code>.</li>
-  <li><strong>Empfänger:</strong> Geprüft auf Ebene jeder Stellungnahme unter <code>statements[].recipientGroups[].recipients</code>. Gesucht wird nach Ministerien mit „BMWE", „BMWK" oder „Wirtschaft" im Titel, sowie nach Bundestag-Einträgen.</li>
-  <li><strong>Datum:</strong> Nur Stellungnahmen ab <code>START_DATE</code> (1. Januar 2026).</li>
-</ul>
-
-<h3>Beschreibungstexte</h3>
-<p>Die Inhaltsbeschreibung kommt aus <code>regulatoryProjects[].description</code> –
-das ist die Beschreibung des Regelungsvorhabens aus Sicht der jeweiligen Organisation.
-Verschiedene Organisationen können unterschiedliche Beschreibungen zum selben Vorhaben haben.</p>
-
-<h3>API-Änderungen erkennen</h3>
-<p>Der wöchentliche Selbsttest prüft automatisch, ob die API noch erreichbar ist und ob sich die
-API-Version (YAML-Datei) geändert hat. Bei Änderungen wird die Admin-E-Mail benachrichtigt.
-Die aktuelle API-Dokumentation ist unter
-<a href="https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/">api.lobbyregister.bundestag.de</a> einsehbar.</p>
-
-<h2>5. Fehlersuche</h2>
-<h3>Seite wurde nicht aktualisiert</h3>
-<ol>
-  <li>GitHub Actions öffnen: <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions">Link</a></li>
-  <li>Den letzten Workflow-Durchlauf anklicken</li>
-  <li>Den fehlgeschlagenen Job anklicken und die Logs lesen</li>
-  <li>Häufige Ursachen: API-Key abgelaufen, API nicht erreichbar, GitHub Pages nicht aktiviert</li>
-</ol>
-
-<h3>Keine Stellungnahmen gefunden</h3>
-<ol>
-  <li>In den Logs prüfen: „Registereinträge geladen" – wenn 0, ist der API-Key ungültig</li>
-  <li>Wenn Einträge geladen aber 0 Stellungnahmen: API-Antwortformat hat sich möglicherweise geändert</li>
-  <li>Swagger-UI prüfen und Feldnamen in <code>fetch_and_build.py</code> vergleichen</li>
-</ol>
-
-<h3>Mail wurde nicht versendet</h3>
-<ol>
-  <li>In den GitHub Actions Logs den Job „Wöchentliche Mail versenden" prüfen</li>
-  <li>Bei 403-Fehler: Resend-API-Key abgelaufen oder Empfängeradresse stimmt nicht mit Account-E-Mail überein</li>
-  <li>Bei Resend unter <a href="https://resend.com">resend.com</a> → Logs prüfen</li>
-</ol>
-
-<h3>Manueller Start</h3>
-<p>Das System kann jederzeit manuell gestartet werden:</p>
-<ol>
-  <li>GitHub Repository öffnen → Tab „Actions"</li>
-  <li>Workflow „Lobbyregister Monitor" anklicken</li>
-  <li>„Run workflow" → „Run workflow" klicken</li>
-</ol>
-
-<h2>6. System komplett neu aufsetzen (für Nachfolger)</h2>
-
-<h3>Schritt 1: GitHub-Account</h3>
-<p>Falls kein Account vorhanden: <a href="https://github.com/signup">github.com/signup</a> – kostenlos registrieren.</p>
-
-<h3>Schritt 2: Repository anlegen</h3>
-<ol>
-  <li>Auf github.com einloggen → „+" → „New repository"</li>
-  <li>Name: <code>lobbyregister-monitor</code>, Sichtbarkeit: <strong>Public</strong>, README anhaken</li>
-  <li>„Create repository" klicken</li>
-</ol>
-
-<h3>Schritt 3: GitHub Pages aktivieren</h3>
-<ol>
-  <li>Repository → Settings → Pages</li>
-  <li>Source: „GitHub Actions" auswählen → Speichern</li>
-</ol>
-
-<h3>Schritt 4: Secrets eintragen</h3>
-<p>Repository → Settings → Secrets and variables → Actions → folgende Secrets anlegen:</p>
-<ul>
-  <li><code>RESEND_API_KEY</code> – von resend.com</li>
-  <li><code>EMAIL_RECIPIENT</code> – Ziel-E-Mail (= Resend-Account-E-Mail)</li>
-  <li><code>ADMIN_EMAIL</code> – Adresse für Fehlerbenachrichtigungen (= Resend-Account-E-Mail)</li>
-  <li><code>LOBBYREGISTER_API_KEY</code> – Lobbyregister API-Key (öffentlich verfügbar auf der <a href="https://www.lobbyregister.bundestag.de/informationen-und-hilfe/open-data-1049716">Infoseite</a>)</li>
-</ul>
-
-<h3>Schritt 5: Dateien übertragen</h3>
-<p>Alle Dateien aus dem alten Repository in das neue kopieren. Am einfachsten:</p>
-<ol>
-  <li>Altes Repo öffnen, jede Datei anklicken, „Raw" → Inhalt kopieren</li>
-  <li>Im neuen Repo: „Add file" → „Create new file" → gleichen Pfad und Inhalt einfügen</li>
-</ol>
-
-<h3>Schritt 6: Resend-Account</h3>
-<p>Neuen kostenlosen Account auf <a href="https://resend.com">resend.com</a> erstellen und
-API-Key generieren. Wichtig: Im kostenlosen Plan kann nur an die E-Mail-Adresse
-gesendet werden, mit der der Account erstellt wurde.</p>
-
-<h3>Schritt 7: URLs anpassen</h3>
-<p>In folgenden Dateien den GitHub-Nutzernamen anpassen:</p>
-<ul>
-  <li><code>.github/workflows/update.yml</code> – Zeile mit <code>SITE_URL</code></li>
-  <li><code>scripts/fetch_and_build.py</code> – Variable <code>SITE_URL</code></li>
-</ul>
-
-<h2>7. Kontakt und Verantwortlichkeit</h2>
+<h2>Fragen und Änderungswünsche</h2>
 <div class="box">
-  <strong>Fachliche Verantwortung:</strong> Martin Jahn, BMWE Unterabteilung IIIA4<br>
-  <strong>E-Mail:</strong> <a href="mailto:martin.jahn@bmwe.bund.de">martin.jahn@bmwe.bund.de</a><br><br>
-  <strong>Abonnement-Änderungen und Weiterleitungen</strong> werden über das Büropostfach verwaltet –
-  nicht über Resend direkt.
+  Bei Fragen, Problemen oder Änderungswünschen (z.B. neue Themenfelder, andere Empfänger):<br>
+  <strong>Martin Jahn, IIIA4</strong> ·
+  <a href="mailto:martin.jahn@bmwe.bund.de">martin.jahn@bmwe.bund.de</a>
 </div>
 
 </div>
