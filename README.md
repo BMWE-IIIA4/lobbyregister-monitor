@@ -4,16 +4,13 @@ Automatische Übersicht neuer Stellungnahmen und Gutachten aus dem [Lobbyregiste
 
 ## Was macht dieses System?
 
-**Täglich** läuft automatisch ein Skript, das:
+Jeden Tag **um 6:00 Uhr** läuft automatisch ein Skript, das:
 
-1. Alle Registereinträge über die [Lobbyregister API V2](https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/) abruft
-2. Stellungnahmen nach Empfänger (BMWE/BMWK/Bundestag), Themenfeldern und Datum filtert
+1. Neue Stellungnahmen und Gutachten über die [Lobbyregister API v2](https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/) abruft
+2. Die Einträge per **Google Gemini Flash** auf Energie- und Klimarelevanz prüft und Beschreibungstexte zusammenfasst
 3. Eine öffentlich zugängliche **Übersichtsseite** auf GitHub Pages aktualisiert
-
-Zusätzlich **jeden Montag**:
-
-4. Eine **wöchentliche Zusammenfassungs-Mail** an das Büropostfach versendet
-5. Einen **Statusbericht** an die Admin-Adresse schickt (Selbsttest: API, E-Mail-Dienst, Seitenverfügbarkeit, API-Versionsänderungen)
+4. Jeden **Montag** eine **wöchentliche Zusammenfassungs-Mail** an das Büropostfach versendet
+5. Jeden **Montag** einen **Statusbericht** an die Admin-Adresse schickt (Selbsttest: API, E-Mail-Dienst, Gemini, Seitenverfügbarkeit, API-Versionsänderungen)
 
 ## Links
 
@@ -26,28 +23,23 @@ Zusätzlich **jeden Montag**:
 
 ## Gefilterte Inhalte
 
-**Empfänger:** BMWE (21. Wahlperiode), BMWK (20. Wahlperiode) und Bundestag
+**Empfänger:** BMWE (21. Wahlperiode) und Bundestag (21. Wahlperiode)
 
-**Themenfelder:** Energie (allgemein, erneuerbar, fossil, Netze, Atom, Strom, Gas, Wasserstoff) · Klimaschutz · EU-Binnenmarkt · EU-Gesetzgebung · Wettbewerbsrecht · Politisches Leben/Parteien · Sonstige
+**Themenfelder:** Energie & Wasserstoff · Klimaschutz · EU-Binnenmarkt · EU-Gesetzgebung · Wettbewerbsrecht · Politisches Leben/Parteien · Sonstige
 
-**Zeitraum:** Stellungnahmen ab 1. Januar 2026
+**KI-Relevanzfilter:** Einträge in breiten Kategorien (Wettbewerbsrecht, EU-Gesetzgebung, Parteien, Sonstige) werden per Gemini Flash auf Bezug zum Aufgabenportfolio der Unterabteilung IIIA geprüft. Einträge ohne Energie-/Klimabezug werden aussortiert. Energie/Wasserstoff-Einträge bleiben immer erhalten.
 
-## Architektur
-
-Das System nutzt die offizielle Lobbyregister API V2 in zwei Schritten:
-
-1. **Alle Registereinträge laden** per `/registerentries` mit Cursor-Pagination
-2. **Jeden Eintrag einzeln abrufen** per `/registerentries/{registerNumber}` und clientseitig filtern nach Themenfeldern (`activitiesAndInterests.fieldsOfInterest`), Empfängern (`statements[].recipientGroups`) und Datum
-
-Beschreibungstexte kommen aus `regulatoryProjects[].description` (Vorhabenbeschreibung der Organisation).
+**Zeitraum:** ab 1. Januar 2026
 
 ## Dateien
 
 ```
-.github/workflows/update.yml   – Automatischer Ablauf (GitHub Actions)
-scripts/fetch_and_build.py     – Datenabruf (V2 API) und HTML-Generierung
-scripts/send_email.py          – Wöchentlicher E-Mail-Versand (Resend)
-scripts/health_check.py        – Wöchentlicher Selbsttest und Admin-Bericht
+.github/workflows/update.yml   – Automatischer Tagesablauf (GitHub Actions)
+scripts/fetch_and_build.py     – Datenabruf und HTML-Generierung
+scripts/gemini_enrich.py       – KI-Relevanzfilterung und Zusammenfassungen (Gemini Flash)
+scripts/rebuild_html.py        – HTML-Neugenerierung nach Gemini-Anreicherung
+scripts/send_email.py          – Wöchentlicher E-Mail-Versand (montags)
+scripts/health_check.py        – Wöchentlicher Selbsttest und Admin-Bericht (montags)
 scripts/template.html          – HTML-Vorlage für die Übersichtsseite
 docs/                          – Generierte Seiten (werden automatisch überschrieben)
 ```
@@ -60,4 +52,4 @@ Alle Informationen zur Wartung, zu Zugangsdaten, Fehlerbehebung und zur vollstä
 
 ## Datenquelle
 
-Alle Daten stammen direkt aus dem Lobbyregister des Deutschen Bundestages und werden unverändert weitergegeben. Rechtsgrundlage der Veröffentlichungspflicht: [Lobbyregistergesetz (LobbyRG)](https://www.lobbyregister.bundestag.de/informationen-und-hilfe/rechtsvorschriften-parlamentarische-materialien-gl-2022--863566).
+Alle Daten stammen direkt aus dem Lobbyregister des Deutschen Bundestages und werden unverändert weitergegeben. Beschreibungstexte werden per KI zusammengefasst; die Originaltexte bleiben in der Datendatei erhalten. Rechtsgrundlage der Veröffentlichungspflicht: [Lobbyregistergesetz (LobbyRG)](https://www.lobbyregister.bundestag.de/informationen-und-hilfe/rechtsvorschriften-parlamentarische-materialien-gl-2022--863566).
