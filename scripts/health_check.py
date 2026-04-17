@@ -4,7 +4,7 @@ health_check.py
 Wöchentlicher Selbsttest des Lobbyregister-Monitors.
 
 Prüft:
-1. Erreichbarkeit der Lobbyregister API
+1. Erreichbarkeit der Lobbyregister API V2
 2. Ob der öffentliche API-Key sich geändert hat
 3. Ob sich die API-Version (YAML) geändert hat
 4. Ob die generierten Seiten korrekt ausgeliefert werden
@@ -31,22 +31,22 @@ SECRETS_URL = f"{REPO_URL}/settings/secrets/actions"
 
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
 INFO_PAGE = "https://www.lobbyregister.bundestag.de/informationen-und-hilfe/open-data-1049716"
-YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
+YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.22-de.yaml"
 
 # Bekannte API-Version – wird mit der aktuellen verglichen
 KNOWN_API_VERSION = "2.0.0"
-KNOWN_YAML_FILE = "R2.21-de.yaml"
+KNOWN_YAML_FILE = "R2.22-de.yaml"
 
 
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
 
 def check_api_reachable(api_key):
-    """Prüft ob die Lobbyregister API erreichbar und der Key gültig ist."""
+    """Prüft ob die Lobbyregister API V2 erreichbar und der Key gültig ist."""
     try:
         resp = requests.get(
             f"{API_BASE}/registerentries",
             headers={"Authorization": f"ApiKey {api_key}"},
-            params={"format": "json"},
+            params={"format": "json", "apikey": api_key},
             timeout=20
         )
         if resp.status_code == 401:
@@ -74,17 +74,12 @@ def check_public_api_key():
         resp.raise_for_status()
         html = resp.text
 
-        # Suche nach dem API-Key-Muster (32+ alphanumerische Zeichen)
-        # Die Seite zeigt ihn im Format: Der aktuell gültige API-Key lautet: XXXX
         matches = re.findall(r'[A-Za-z0-9]{20,}', html)
-
-        # Filter auf plausible API-Keys (keine normalen Wörter)
         key_candidates = [m for m in matches if len(m) >= 28 and not m.islower()]
 
         if not key_candidates:
             return None, "Kein API-Key auf der Infoseite gefunden – Seitenstruktur möglicherweise geändert"
 
-        # Vergleiche mit gespeichertem Key
         current_stored = LOBBYREGISTER_API_KEY
         if current_stored and current_stored not in key_candidates:
             return key_candidates[0], f"Möglicher neuer API-Key auf der Infoseite: {key_candidates[0][:8]}..."
@@ -96,19 +91,14 @@ def check_public_api_key():
 
 
 def check_yaml_version():
-    """
-    Prüft ob die YAML-Spezifikation eine neue Version hat.
-    Vergleicht Versionsnummer und Dateiname.
-    """
+    """Prüft ob die YAML-Spezifikation eine neue Version hat."""
     issues = []
 
     try:
-        # Prüfe ob Swagger-UI auf neue YAML-Version verweist
         swagger_url = f"{API_BASE}/swagger-ui/"
         resp = requests.get(swagger_url, timeout=20)
         if resp.status_code == 200:
             html = resp.text
-            # Suche nach YAML-Dateinamen im Format R2.XX-de.yaml
             yaml_files = re.findall(r'R\d+\.\d+-de\.yaml', html)
             if yaml_files:
                 latest = yaml_files[0]
@@ -118,11 +108,11 @@ def check_yaml_version():
                         "title": "Neue API-Version verfügbar",
                         "detail": f"Bekannte Version: {KNOWN_YAML_FILE} → Neue Version: {latest}",
                         "action": (
-                            f"1. Neue YAML herunterladen: https://api.lobbyregister.bundestag.de/rest/v2/{latest}\n"
-                            f"2. Auf Änderungen an folgenden Feldern prüfen: statementNumber, regulatoryProjectTitle, "
-                            f"recipientGroups, fieldsOfInterest, sendingDate, pdfUrl\n"
-                            f"3. In scripts/fetch_and_build.py die Variable KNOWN_YAML_FILE auf '{latest}' setzen\n"
-                            f"4. Ggf. Felder in extract_statements() anpassen"
+                            f"1. Neue YAML herunterladen: {API_BASE}/{latest}\n"
+                            f"2. Auf Änderungen an folgenden Feldern prüfen: statements, regulatoryProjects, "
+                            f"recipientGroups, fieldsOfInterest, activitiesAndInterests\n"
+                            f"3. In scripts/health_check.py die Variable KNOWN_YAML_FILE auf '{latest}' setzen\n"
+                            f"4. Ggf. Felder in fetch_and_build.py anpassen"
                         )
                     })
     except Exception as e:
@@ -130,10 +120,9 @@ def check_yaml_version():
             "severity": "INFO",
             "title": "Swagger-UI nicht prüfbar",
             "detail": str(e),
-            "action": "Manuell prüfen: https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/"
+            "action": f"Manuell prüfen: {API_BASE}/swagger-ui/"
         })
 
-    # Prüfe direkt die bekannte YAML auf Versionsänderungen
     try:
         resp = requests.get(YAML_URL, timeout=20)
         if resp.status_code == 404:
@@ -143,8 +132,8 @@ def check_yaml_version():
                 "detail": f"{YAML_URL} gibt 404 zurück – API-Version wurde aktualisiert",
                 "action": (
                     f"1. Neue YAML-URL auf {INFO_PAGE} nachschlagen\n"
-                    f"2. In scripts/fetch_and_build.py KNOWN_YAML_FILE aktualisieren\n"
-                    f"3. Felder in extract_statements() auf Änderungen prüfen"
+                    f"2. In scripts/health_check.py KNOWN_YAML_FILE aktualisieren\n"
+                    f"3. Felder in fetch_and_build.py auf Änderungen prüfen"
                 )
             })
         elif resp.status_code == 200:
@@ -159,12 +148,13 @@ def check_yaml_version():
                         "detail": f"Bekannte Version: {KNOWN_API_VERSION} → Aktuelle Version: {found_version}",
                         "action": (
                             "1. YAML auf geänderte Feldnamen prüfen\n"
-                            "2. Besonders prüfen: statements[], recipientGroups[], fieldsOfInterest[]\n"
-                            "3. In scripts/fetch_and_build.py KNOWN_API_VERSION aktualisieren"
+                            "2. Besonders prüfen: statements{}, regulatoryProjects{}, "
+                            "activitiesAndInterests.fieldsOfInterest[]\n"
+                            "3. In scripts/health_check.py KNOWN_API_VERSION aktualisieren"
                         )
                     })
-    except Exception as e:
-        pass  # Nicht kritisch wenn YAML direkt nicht abrufbar
+    except Exception:
+        pass
 
     return issues
 
@@ -174,36 +164,30 @@ def check_site_reachable():
     try:
         resp = requests.get(SITE_URL, timeout=20)
         if resp.status_code == 404:
-            return False, "GitHub Pages Seite gibt 404 zurück – möglicherweise nicht aktiviert oder noch nicht deployed"
+            return False, "GitHub Pages Seite gibt 404 zurück"
         if resp.status_code != 200:
             return False, f"GitHub Pages Seite antwortet mit Status {resp.status_code}"
         if "Lobbyregister" not in resp.text:
-            return False, "Seite erreichbar aber enthält nicht den erwarteten Inhalt – möglicherweise fehlerhaft generiert"
+            return False, "Seite erreichbar aber enthält nicht den erwarteten Inhalt"
         return True, "Seite erreichbar und Inhalt korrekt"
     except Exception as e:
         return False, f"Seite nicht erreichbar: {e}"
 
 
 def check_resend():
-    """Resend-Key wird nicht aktiv geprüft – Test-Endpunkte sind im Free Plan gesperrt.
-    Stattdessen gilt: wenn die wöchentliche Mail ankommt, ist der Key gültig."""
+    """Resend-Key wird nicht aktiv geprüft – Mail-Eingang als Indikator."""
     return True, "Resend-Key wird nicht aktiv geprüft (Mail-Eingang als Indikator)"
 
 
 # ── Bericht zusammenstellen ────────────────────────────────────────────────────
 
 def build_report(results):
-    """
-    Erstellt einen strukturierten Bericht aus den Prüfergebnissen.
-    Gibt (has_issues, html, plain) zurück.
-    """
     issues = []
     ok_items = []
 
-    # API erreichbar
     api_ok, api_msg = results["api"]
     if api_ok:
-        ok_items.append(("Lobbyregister API", api_msg))
+        ok_items.append(("Lobbyregister API V2", api_msg))
     else:
         issues.append({
             "severity": "FEHLER",
@@ -217,7 +201,6 @@ def build_report(results):
             )
         })
 
-    # API-Key auf Infoseite
     new_key, key_msg = results["public_key"]
     if new_key:
         issues.append({
@@ -234,14 +217,12 @@ def build_report(results):
     else:
         ok_items.append(("Öffentlicher API-Key", key_msg))
 
-    # YAML-Version
     yaml_issues = results["yaml"]
     if yaml_issues:
         issues.extend(yaml_issues)
     else:
         ok_items.append(("API-Version (YAML)", f"Unverändert ({KNOWN_YAML_FILE}, v{KNOWN_API_VERSION})"))
 
-    # Seite erreichbar
     site_ok, site_msg = results["site"]
     if site_ok:
         ok_items.append(("GitHub Pages Seite", site_msg))
@@ -257,7 +238,6 @@ def build_report(results):
             )
         })
 
-    # Resend
     resend_ok, resend_msg = results["resend"]
     if resend_ok:
         ok_items.append(("Resend E-Mail-Dienst", resend_msg))
@@ -276,7 +256,6 @@ def build_report(results):
 
     has_issues = len(issues) > 0
 
-    # HTML-Report bauen
     today = date.today().strftime("%d.%m.%Y")
     severity_colors = {
         "FEHLER": ("#c62828", "#ffebee"),
@@ -346,7 +325,6 @@ def build_report(results):
 
 
 def send_report(html, has_issues):
-    """Versendet den Statusbericht – nur bei Problemen."""
     if not has_issues:
         print("Alle Prüfungen bestanden – kein Bericht versendet.")
         return
@@ -379,7 +357,7 @@ def main():
 
     results = {}
 
-    print("Prüfe API-Erreichbarkeit...")
+    print("Prüfe API-Erreichbarkeit (V2)...")
     results["api"] = check_api_reachable(LOBBYREGISTER_API_KEY)
 
     print("Prüfe öffentlichen API-Key auf Infoseite...")
@@ -399,7 +377,6 @@ def main():
     print(f"Ergebnis: {'PROBLEME GEFUNDEN – Bericht versendet' if has_issues else 'Alles OK'}")
     send_report(html, has_issues)
     print("=== Fertig ===")
-    # Kein exit(1) mehr – der Selbsttest soll den Workflow nicht rot machen
 
 
 if __name__ == "__main__":
