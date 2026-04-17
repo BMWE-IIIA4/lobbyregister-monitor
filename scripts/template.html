@@ -3,29 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lobbyregister-Monitor – Energie &amp; Wirtschaft BMWE</title>
+<title>Lobbyregister-Monitor – BMWE</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#222;background:#f5f7fa}
+body{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55;color:#222;background:#f5f7fa}
 a{color:#004B87}
 .page{max-width:1140px;margin:0 auto;padding:1rem 1.25rem}
 
 /* Header */
-.site-header{background:#004B87;padding:12px 0;margin-bottom:0}
+.site-header{background:#004B87;padding:14px 0;margin-bottom:0}
 .header-inner{max-width:1140px;margin:0 auto;padding:0 1.25rem;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.logo-block{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.logo-bar{width:3px;height:36px;background:linear-gradient(to bottom,#000 33%,#c00 33%,#c00 66%,#fc0 66%);margin:0 2px}
-.logo-text{font-size:11px;color:#fff;line-height:1.35}
-.header-title{color:#fff;font-size:17px;font-weight:700;flex:1}
+.header-title{color:#fff;font-size:18px;font-weight:700;flex:1}
 .header-nav{display:flex;gap:1rem;flex-shrink:0}
-.header-nav a{font-size:12px;color:rgba(255,255,255,.8);text-decoration:none}
+.header-nav a{font-size:13px;color:rgba(255,255,255,.8);text-decoration:none}
 .header-nav a:hover{color:#fff;text-decoration:underline}
 
 /* Meta bar */
 .meta-bar{background:#e8eff7;border-bottom:1px solid #c5d5e8;padding:8px 0}
 .meta-inner{max-width:1140px;margin:0 auto;padding:0 1.25rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px}
-.update-badge{font-size:12px;color:#555;background:#fff;padding:3px 10px;border:1px solid #c5d5e8;border-radius:3px}
-.meta-count{font-size:12px;color:#777}
+.update-badge{font-size:13px;color:#555;background:#fff;padding:3px 10px;border:1px solid #c5d5e8;border-radius:3px}
+.meta-count{font-size:13px;color:#777}
 
 /* Beschreibung */
 .page-desc{background:#fff;border-bottom:1px solid #dde5ef;padding:10px 0}
@@ -33,43 +30,45 @@ a{color:#004B87}
 .desc-inner p{font-size:14px;color:#555;line-height:1.6}
 
 /* Layout */
-.layout{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:1.25rem;align-items:start;padding-top:1.25rem}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:1.25rem;align-items:start;padding-top:1.25rem}
 .sidebar{background:#fff;border:1px solid #d0d8e4;padding:1rem;position:sticky;top:1rem}
-.sidebar-title{font-size:13px;font-weight:700;color:#003366;margin-bottom:.4rem}
-.sidebar-hint{font-size:11px;color:#888;margin-bottom:.65rem;line-height:1.4}
-.filter-input{width:100%;font-size:12px;margin-bottom:.65rem;padding:5px 8px;border:1px solid #c5d5e8}
-.filter-list{list-style:none;max-height:360px;overflow-y:auto}
-.filter-list li{font-size:12px;color:#444;padding:5px 8px;cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;gap:4px;line-height:1.35;user-select:none;border-radius:2px}
+.sidebar-title{font-size:14px;font-weight:700;color:#003366;margin-bottom:.4rem}
+.sidebar-hint{font-size:12px;color:#888;margin-bottom:.65rem;line-height:1.4}
+.filter-input{width:100%;font-size:13px;margin-bottom:.65rem;padding:5px 8px;border:1px solid #c5d5e8}
+.filter-list{list-style:none;max-height:400px;overflow-y:auto}
+.filter-list li{font-size:13px;color:#444;padding:5px 8px;cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;gap:4px;line-height:1.35;user-select:none;border-radius:2px}
 .filter-list li:hover{background:#eef3f9}
 .filter-list li.active{background:#004B87;color:#fff;font-weight:700}
 .filter-list li.active .filter-count{opacity:.8}
-.filter-count{font-size:10px;opacity:.6;flex-shrink:0}
-.reset-btn{font-size:11px;color:#004B87;cursor:pointer;background:none;border:none;margin-top:.5rem;padding:0;display:none}
+.filter-count{font-size:11px;opacity:.6;flex-shrink:0}
+.reset-btn{font-size:12px;color:#004B87;cursor:pointer;background:none;border:none;margin-top:.5rem;padding:0;display:none}
 
 /* Einträge */
 .day-section{margin-bottom:1.75rem}
-.day-header{font-size:14px;font-weight:700;color:#003366;text-transform:uppercase;letter-spacing:.05em;padding:7px 0;border-bottom:2px solid #004B87;margin-bottom:.75rem}
+.day-header{font-size:15px;font-weight:700;color:#003366;text-transform:uppercase;letter-spacing:.05em;padding:8px 0;border-bottom:2px solid #004B87;margin-bottom:.75rem}
 .entry-card{border:1px solid #d0d8e4;background:#fff;margin-bottom:.75rem;overflow:hidden}
-.row-title{background:#eef3f9;padding:10px 14px;font-size:14px;font-weight:700;color:#003366;line-height:1.4;border-left:3px solid #004B87}
+.row-title{background:#eef3f9;padding:10px 14px;font-size:15px;font-weight:700;color:#003366;line-height:1.4;border-left:3px solid #004B87}
 .meta-row{display:flex;flex-wrap:wrap;border-top:1px solid #e0e8f0}
-.mc{padding:8px 14px;font-size:13px;color:#444;border-right:1px solid #e0e8f0}
+.meta-row.two-col{display:grid;grid-template-columns:1fr 1fr}
+.mc{padding:8px 14px;font-size:14px;color:#444;border-right:1px solid #e0e8f0}
 .mc:last-child{border-right:none}
 .mc strong{display:block;font-size:10px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
 .mc.grow{flex:1 1 auto;min-width:0}
 .mc.fixd{flex:0 0 auto;white-space:nowrap}
+.mc.half{min-width:0}
 .tag{display:inline-block;font-size:11px;padding:2px 6px;margin:1px 2px 1px 0;background:#f0f4f8;color:#555;border:1px solid #d0d8e4}
 .abadge{display:inline-block;font-size:11px;padding:2px 6px;margin:1px 2px 1px 0;background:#dbeafe;color:#1e3a8a;border:1px solid #bfdbfe;font-weight:600}
-.row-full{padding:9px 14px;font-size:13px;color:#444;border-top:1px solid #e0e8f0;line-height:1.6}
+.row-full{padding:9px 14px;font-size:14px;color:#444;border-top:1px solid #e0e8f0;line-height:1.6}
 .row-full strong{display:block;font-size:10px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
 .link-row{display:flex;flex-wrap:wrap;border-top:1px solid #e0e8f0;background:#f9fbfd}
-.lc{padding:7px 14px;font-size:12px;flex:1 1 auto;border-right:1px solid #e0e8f0}
+.lc{padding:7px 14px;font-size:13px;flex:1 1 auto;border-right:1px solid #e0e8f0}
 .lc:last-child{border-right:none}
 .lc a{color:#004B87;text-decoration:none}
 .lc a:hover{text-decoration:underline}
-.count-note{font-size:13px;color:#888;margin-bottom:.75rem}
+.count-note{font-size:14px;color:#888;margin-bottom:.75rem}
 
 /* Footer */
-.site-footer{background:#003366;color:rgba(255,255,255,.7);font-size:11px;padding:16px 0;margin-top:2rem}
+.site-footer{background:#003366;color:rgba(255,255,255,.7);font-size:12px;padding:16px 0;margin-top:2rem}
 .footer-inner{max-width:1140px;margin:0 auto;padding:0 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
 .site-footer a{color:rgba(255,255,255,.85)}
 
@@ -77,6 +76,7 @@ a{color:#004B87}
   .layout{grid-template-columns:1fr}
   .sidebar{position:static}
   .meta-row,.link-row{flex-direction:column}
+  .meta-row.two-col{grid-template-columns:1fr}
   .mc,.lc{border-right:none;border-top:1px solid #e0e8f0}
   .mc:first-child{border-top:none}
 }
@@ -86,10 +86,7 @@ a{color:#004B87}
 
 <header class="site-header">
   <div class="header-inner">
-    <div class="logo-block">
-      <img src="Logo_BMWE.png" alt="BMWE Logo" style="height:44px;width:auto">
-    </div>
-    <div class="header-title">Übersicht Lobbyregister: Energie &amp; Wirtschaft (BMWE / Bundestag)</div>
+    <div class="header-title">Übersicht der Einträge im Lobbyregister</div>
     <nav class="header-nav">
       <a href="hilfe.html">Nutzungsanleitung</a>
       <a href="wartung.html">Wartungsdokumentation</a>
