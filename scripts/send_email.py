@@ -77,54 +77,43 @@ def render_entry_html(stmt):
     sg_number = stmt.get("sg_number", "")
     statement_url = stmt.get("statement_url", "")
 
-    # Org-Name mit Link
-    if org_url:
-        org_html = f'<a href="{org_url}" style="color:#004B87;text-decoration:none">{org}</a>'
-    else:
-        org_html = org
+    org_html = f'<a href="{org_url}" style="color:#004B87;text-decoration:none">{org}</a>' if org_url else org
 
     badges = "".join(
-        f'<span style="display:inline-block;font-size:10px;padding:1px 5px;margin:1px 2px 1px 0;'
+        f'<span style="display:inline-block;font-size:11px;padding:1px 5px;margin:1px 2px 1px 0;'
         f'background:#dbeafe;color:#1e3a8a;border:1px solid #bfdbfe;font-weight:600">{r}</span>'
         for r in recipients
     )
 
-    # Stellungnahmen-Link
-    if statement_url:
-        stmt_link = f'<a href="{statement_url}" style="color:#004B87;text-decoration:none">↗ Stellungnahme im Lobbyregister</a>'
-    else:
-        stmt_link = ""
-
-    # PDF-Link mit SG-Nummer
-    if pdf_url:
-        sg_label = f" ({sg_number})" if sg_number else ""
-        pdf_link = f'<a href="{pdf_url}" style="color:#004B87;text-decoration:none">↗ PDF{sg_label} ({pdf_pages} S.)</a>'
-    else:
-        pdf_link = "Kein PDF"
+    sg_label = f" ({sg_number})" if sg_number else ""
+    stmt_link = f'<a href="{statement_url}" style="color:#004B87;text-decoration:none">↗ Stellungnahme{sg_label}</a>' if statement_url else ""
+    pdf_link = f'<a href="{pdf_url}" style="color:#004B87;text-decoration:none">↗ PDF ({pdf_pages} S.)</a>' if pdf_url else "Kein PDF"
 
     return f"""
-    <div style="border:1px solid #d0d8e4;margin-bottom:8px;overflow:hidden">
-      <div style="background:#eef3f9;padding:8px 12px;font-size:14px;font-weight:700;color:#003366">{title}</div>
-      <div style="padding:6px 12px;font-size:12px;color:#555;border-top:1px solid #e0e8f0;display:flex;flex-wrap:wrap;gap:0">
-        <div style="padding:3px 14px 3px 0">
-          <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Von</span>
-          {org_html}
-        </div>
-        <div style="padding:3px 14px 3px 0">
-          <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Stellungnahme</span>
-          {sending}
-        </div>
-        <div style="padding:3px 14px 3px 0">
-          <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Hochgeladen</span>
-          {upload}
-        </div>
-        <div style="padding:3px 0">
-          <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Adressaten</span>
-          {badges}
-        </div>
-      </div>
-      {'<div style="padding:7px 12px;font-size:13px;color:#333;border-top:1px solid #e0e8f0;line-height:1.55">' + summary + '</div>' if summary else ''}
-      <div style="padding:5px 12px;font-size:12px;border-top:1px solid #e0e8f0;background:#f9fbfd">
+    <div style="border:1px solid #d0d8e4;margin-bottom:10px;overflow:hidden">
+      <div style="background:#eef3f9;padding:9px 14px;font-size:15px;font-weight:700;color:#003366;border-left:3px solid #004B87">{title}</div>
+      <table style="width:100%;border-collapse:collapse;border-top:1px solid #e0e8f0">
+        <tr>
+          <td style="padding:6px 14px;font-size:13px;color:#555;vertical-align:top">
+            <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Von</span>
+            {org_html}
+          </td>
+          <td style="padding:6px 14px;font-size:13px;color:#555;vertical-align:top;white-space:nowrap">
+            <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Stellungnahme</span>
+            {sending}
+          </td>
+          <td style="padding:6px 14px;font-size:13px;color:#555;vertical-align:top;white-space:nowrap">
+            <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Hochgeladen</span>
+            {upload}
+          </td>
+          <td style="padding:6px 14px;font-size:13px;color:#555;vertical-align:top">
+            <span style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#888;display:block;margin-bottom:1px">Adressaten</span>
+            {badges}
+          </td>
+        </tr>
+      </table>
+      {'<div style="padding:8px 14px;font-size:14px;color:#333;border-top:1px solid #e0e8f0;line-height:1.55">' + summary + '</div>' if summary else ''}
+      <div style="padding:6px 14px;font-size:13px;border-top:1px solid #e0e8f0;background:#f9fbfd">
         {stmt_link}
         {'<span style="margin:0 8px;color:#ccc">|</span>' if stmt_link and pdf_link else ''}
         {pdf_link}
@@ -150,7 +139,7 @@ def build_email_html(statements, generated_at):
         theme_blocks += f"""
         <div style="margin-bottom:20px">
           <div style="margin-bottom:10px">
-            <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+            <span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
                          color:#fff;background:#004B87;padding:4px 10px;display:inline-block">
               {theme_name}
             </span>
@@ -167,36 +156,32 @@ def build_email_html(statements, generated_at):
     no_entries_msg = ""
     if total == 0:
         no_entries_msg = """
-        <div style="padding:20px;text-align:center;color:#888;font-size:13px">
+        <div style="padding:20px;text-align:center;color:#888;font-size:14px">
           In der vergangenen Woche wurden keine neuen Einträge mit den gesuchten Kriterien hochgeladen.
         </div>"""
 
     html = f"""<!DOCTYPE html>
 <html lang="de">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#f5f5f5;font-family:Arial,Helvetica,sans-serif">
+<body style="margin:0;padding:0;background:#f5f5f5;font-family:Arial,Helvetica,sans-serif;font-size:15px">
 <div style="max-width:700px;margin:20px auto">
-  <div style="background:#004B87;padding:16px 28px;display:flex;align-items:center;gap:16px">
-    <img src="https://bmwe-iiia4.github.io/lobbyregister-monitor/Logo_BMWE.png"
-         alt="BMWE" style="height:40px;width:auto;filter:brightness(0) invert(1)">
-    <div>
-      <div style="color:#fff;font-size:15px;font-weight:700;margin-bottom:2px">
-        Lobbyregister-Monitor · KW {kw}/{year}
-      </div>
-      <div style="color:#a8c8e8;font-size:11px">
-        Neue Stellungnahmen &amp; Gutachten · {week_start}–{week_end} · BMWE / Bundestag
-      </div>
+  <div style="background:#004B87;padding:16px 28px">
+    <div style="color:#fff;font-size:17px;font-weight:700;margin-bottom:2px">
+      Lobbyregister-Monitor · KW {kw}/{year}
+    </div>
+    <div style="color:#a8c8e8;font-size:12px">
+      Neue Stellungnahmen &amp; Gutachten · {week_start}–{week_end} · BMWE / Bundestag
     </div>
   </div>
   <div style="background:#f0f4f8;padding:10px 28px;border-bottom:1px solid #d0d8e4;
               display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px">
-    <div style="font-size:12px;color:#555">{total} neue Eintrag{"" if total == 1 else "e"} diese Woche</div>
-    <div><a href="{SITE_URL}" style="font-size:12px;color:#004B87;text-decoration:none;font-weight:600">
+    <div style="font-size:13px;color:#555">{total} neue Eintrag{"" if total == 1 else "e"} diese Woche</div>
+    <div><a href="{SITE_URL}" style="font-size:13px;color:#004B87;text-decoration:none;font-weight:600">
       → Vollständige Übersicht öffnen
     </a></div>
   </div>
   <div style="padding:20px 28px;background:#fff">
-    <p style="font-size:13px;color:#444;margin-bottom:18px;line-height:1.6;
+    <p style="font-size:14px;color:#444;margin-bottom:18px;line-height:1.6;
                padding-bottom:14px;border-bottom:1px solid #e8edf3">
       Neue Stellungnahmen und Gutachten im Lobbyregister mit Adressat BMWE oder Bundestag
       aus den beobachteten Themenfeldern (Energie &amp; Wasserstoff, Klimaschutz, EU-Binnenmarkt,
@@ -205,14 +190,14 @@ def build_email_html(statements, generated_at):
     {no_entries_msg}
     {theme_blocks}
     <hr style="border:none;border-top:1px solid #e0e8f0;margin:16px 0">
-    <p style="font-size:12px;color:#555;text-align:center">
+    <p style="font-size:13px;color:#555;text-align:center">
       <a href="{SITE_URL}" style="color:#004B87;text-decoration:none;font-weight:600">
         → Alle Einträge und Filteroptionen auf der Übersichtsseite
       </a>
     </p>
   </div>
   <div style="padding:14px 28px;background:#f0f4f8;border-top:1px solid #d0d8e4;
-              font-size:11px;color:#777;line-height:1.6">
+              font-size:12px;color:#777;line-height:1.6">
     Diese Mail wird automatisch jeden Montag generiert und verschickt.
     Alle Daten stammen direkt aus dem
     <a href="https://www.lobbyregister.bundestag.de" style="color:#004B87;text-decoration:none">
