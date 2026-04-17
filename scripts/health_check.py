@@ -4,11 +4,12 @@ health_check.py
 Wöchentlicher Selbsttest des Lobbyregister-Monitors.
 
 Prüft:
-1. Erreichbarkeit der Lobbyregister API V2
+1. Erreichbarkeit der Lobbyregister API
 2. Ob der öffentliche API-Key sich geändert hat
 3. Ob sich die API-Version (YAML) geändert hat
 4. Ob die generierten Seiten korrekt ausgeliefert werden
 5. Ob Resend noch funktioniert
+6. Ob die Gemini API erreichbar ist (optional)
 
 Sendet bei Problemen eine detaillierte Admin-Mail mit konkreten
 Handlungsanweisungen.
@@ -24,6 +25,7 @@ from datetime import date
 RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 ADMIN_EMAIL = os.environ["ADMIN_EMAIL"]
 LOBBYREGISTER_API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 SITE_URL = os.environ.get("SITE_URL", "https://bmwe-iiia4.github.io/lobbyregister-monitor")
 REPO_URL = "https://github.com/BMWE-IIIA4/lobbyregister-monitor"
 ACTIONS_URL = f"{REPO_URL}/actions"
@@ -31,22 +33,22 @@ SECRETS_URL = f"{REPO_URL}/settings/secrets/actions"
 
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
 INFO_PAGE = "https://www.lobbyregister.bundestag.de/informationen-und-hilfe/open-data-1049716"
-YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.22-de.yaml"
+YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
 
 # Bekannte API-Version – wird mit der aktuellen verglichen
 KNOWN_API_VERSION = "2.0.0"
-KNOWN_YAML_FILE = "R2.22-de.yaml"
+KNOWN_YAML_FILE = "R2.21-de.yaml"
 
 
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
 
 def check_api_reachable(api_key):
-    """Prüft ob die Lobbyregister API V2 erreichbar und der Key gültig ist."""
+    """Prüft ob die Lobbyregister API erreichbar und der Key gültig ist."""
     try:
         resp = requests.get(
             f"{API_BASE}/registerentries",
             headers={"Authorization": f"ApiKey {api_key}"},
-            params={"format": "json", "apikey": api_key},
+            params={"format": "json"},
             timeout=20
         )
         if resp.status_code == 401:
@@ -91,7 +93,10 @@ def check_public_api_key():
 
 
 def check_yaml_version():
-    """Prüft ob die YAML-Spezifikation eine neue Version hat."""
+    """
+    Prüft ob die YAML-Spezifikation eine neue Version hat.
+    Vergleicht Versionsnummer und Dateiname.
+    """
     issues = []
 
     try:
@@ -108,11 +113,11 @@ def check_yaml_version():
                         "title": "Neue API-Version verfügbar",
                         "detail": f"Bekannte Version: {KNOWN_YAML_FILE} → Neue Version: {latest}",
                         "action": (
-                            f"1. Neue YAML herunterladen: {API_BASE}/{latest}\n"
-                            f"2. Auf Änderungen an folgenden Feldern prüfen: statements, regulatoryProjects, "
-                            f"recipientGroups, fieldsOfInterest, activitiesAndInterests\n"
-                            f"3. In scripts/health_check.py die Variable KNOWN_YAML_FILE auf '{latest}' setzen\n"
-                            f"4. Ggf. Felder in fetch_and_build.py anpassen"
+                            f"1. Neue YAML herunterladen: https://api.lobbyregister.bundestag.de/rest/v2/{latest}\n"
+                            f"2. Auf Änderungen an folgenden Feldern prüfen: statementNumber, regulatoryProjectTitle, "
+                            f"recipientGroups, fieldsOfInterest, sendingDate, pdfUrl\n"
+                            f"3. In scripts/fetch_and_build.py die Variable KNOWN_YAML_FILE auf '{latest}' setzen\n"
+                            f"4. Ggf. Felder in extract_statements() anpassen"
                         )
                     })
     except Exception as e:
@@ -120,7 +125,7 @@ def check_yaml_version():
             "severity": "INFO",
             "title": "Swagger-UI nicht prüfbar",
             "detail": str(e),
-            "action": f"Manuell prüfen: {API_BASE}/swagger-ui/"
+            "action": "Manuell prüfen: https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/"
         })
 
     try:
@@ -132,8 +137,8 @@ def check_yaml_version():
                 "detail": f"{YAML_URL} gibt 404 zurück – API-Version wurde aktualisiert",
                 "action": (
                     f"1. Neue YAML-URL auf {INFO_PAGE} nachschlagen\n"
-                    f"2. In scripts/health_check.py KNOWN_YAML_FILE aktualisieren\n"
-                    f"3. Felder in fetch_and_build.py auf Änderungen prüfen"
+                    f"2. In scripts/fetch_and_build.py KNOWN_YAML_FILE aktualisieren\n"
+                    f"3. Felder in extract_statements() auf Änderungen prüfen"
                 )
             })
         elif resp.status_code == 200:
@@ -148,9 +153,8 @@ def check_yaml_version():
                         "detail": f"Bekannte Version: {KNOWN_API_VERSION} → Aktuelle Version: {found_version}",
                         "action": (
                             "1. YAML auf geänderte Feldnamen prüfen\n"
-                            "2. Besonders prüfen: statements{}, regulatoryProjects{}, "
-                            "activitiesAndInterests.fieldsOfInterest[]\n"
-                            "3. In scripts/health_check.py KNOWN_API_VERSION aktualisieren"
+                            "2. Besonders prüfen: statements[], recipientGroups[], fieldsOfInterest[]\n"
+                            "3. In scripts/fetch_and_build.py KNOWN_API_VERSION aktualisieren"
                         )
                     })
     except Exception:
@@ -164,11 +168,11 @@ def check_site_reachable():
     try:
         resp = requests.get(SITE_URL, timeout=20)
         if resp.status_code == 404:
-            return False, "GitHub Pages Seite gibt 404 zurück"
+            return False, "GitHub Pages Seite gibt 404 zurück – möglicherweise nicht aktiviert oder noch nicht deployed"
         if resp.status_code != 200:
             return False, f"GitHub Pages Seite antwortet mit Status {resp.status_code}"
         if "Lobbyregister" not in resp.text:
-            return False, "Seite erreichbar aber enthält nicht den erwarteten Inhalt"
+            return False, "Seite erreichbar aber enthält nicht den erwarteten Inhalt – möglicherweise fehlerhaft generiert"
         return True, "Seite erreichbar und Inhalt korrekt"
     except Exception as e:
         return False, f"Seite nicht erreichbar: {e}"
@@ -179,15 +183,47 @@ def check_resend():
     return True, "Resend-Key wird nicht aktiv geprüft (Mail-Eingang als Indikator)"
 
 
+def check_gemini():
+    """Prüft ob die Gemini API erreichbar und der Key gültig ist."""
+    if not GEMINI_API_KEY:
+        return True, "Gemini-Key nicht konfiguriert (optionaler Dienst)"
+
+    try:
+        resp = requests.post(
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+            params={"key": GEMINI_API_KEY},
+            headers={"Content-Type": "application/json"},
+            json={
+                "contents": [{"parts": [{"text": "Antworte nur mit dem Wort OK."}]}],
+                "generationConfig": {"maxOutputTokens": 10},
+            },
+            timeout=20,
+        )
+        if resp.status_code in (401, 403):
+            return False, f"Gemini API antwortet mit {resp.status_code} – API-Key ungültig oder gesperrt"
+        if resp.status_code == 429:
+            return True, "Gemini API erreichbar (Rate Limit aktiv, aber Key funktioniert)"
+        if resp.status_code != 200:
+            return False, f"Gemini API antwortet mit {resp.status_code}"
+        return True, "Gemini API erreichbar und Key gültig"
+    except Exception as e:
+        return False, f"Gemini API nicht erreichbar: {e}"
+
+
 # ── Bericht zusammenstellen ────────────────────────────────────────────────────
 
 def build_report(results):
+    """
+    Erstellt einen strukturierten Bericht aus den Prüfergebnissen.
+    Gibt (has_issues, html) zurück.
+    """
     issues = []
     ok_items = []
 
+    # API erreichbar
     api_ok, api_msg = results["api"]
     if api_ok:
-        ok_items.append(("Lobbyregister API V2", api_msg))
+        ok_items.append(("Lobbyregister API", api_msg))
     else:
         issues.append({
             "severity": "FEHLER",
@@ -201,6 +237,7 @@ def build_report(results):
             )
         })
 
+    # API-Key auf Infoseite
     new_key, key_msg = results["public_key"]
     if new_key:
         issues.append({
@@ -217,12 +254,14 @@ def build_report(results):
     else:
         ok_items.append(("Öffentlicher API-Key", key_msg))
 
+    # YAML-Version
     yaml_issues = results["yaml"]
     if yaml_issues:
         issues.extend(yaml_issues)
     else:
         ok_items.append(("API-Version (YAML)", f"Unverändert ({KNOWN_YAML_FILE}, v{KNOWN_API_VERSION})"))
 
+    # Seite erreichbar
     site_ok, site_msg = results["site"]
     if site_ok:
         ok_items.append(("GitHub Pages Seite", site_msg))
@@ -238,6 +277,7 @@ def build_report(results):
             )
         })
 
+    # Resend
     resend_ok, resend_msg = results["resend"]
     if resend_ok:
         ok_items.append(("Resend E-Mail-Dienst", resend_msg))
@@ -254,8 +294,26 @@ def build_report(results):
             )
         })
 
+    # Gemini (optional – nur Warnung, kein Fehler)
+    gemini_ok, gemini_msg = results["gemini"]
+    if gemini_ok:
+        ok_items.append(("Gemini API (optional)", gemini_msg))
+    else:
+        issues.append({
+            "severity": "WARNUNG",
+            "title": "Gemini API nicht erreichbar",
+            "detail": gemini_msg,
+            "action": (
+                "1. Prüfe ob der Gemini API-Key noch gültig ist: https://aistudio.google.com/apikey\n"
+                f"2. Falls abgelaufen: neuen Key erstellen und in GitHub Secrets unter GEMINI_API_KEY eintragen\n"
+                f"   → {SECRETS_URL}\n"
+                "3. Der Monitor funktioniert auch ohne Gemini – Einträge werden dann ungefiltert angezeigt"
+            )
+        })
+
     has_issues = len(issues) > 0
 
+    # HTML-Report bauen
     today = date.today().strftime("%d.%m.%Y")
     severity_colors = {
         "FEHLER": ("#c62828", "#ffebee"),
@@ -325,6 +383,7 @@ def build_report(results):
 
 
 def send_report(html, has_issues):
+    """Versendet den Statusbericht – nur bei Problemen."""
     if not has_issues:
         print("Alle Prüfungen bestanden – kein Bericht versendet.")
         return
@@ -357,7 +416,7 @@ def main():
 
     results = {}
 
-    print("Prüfe API-Erreichbarkeit (V2)...")
+    print("Prüfe API-Erreichbarkeit...")
     results["api"] = check_api_reachable(LOBBYREGISTER_API_KEY)
 
     print("Prüfe öffentlichen API-Key auf Infoseite...")
@@ -371,6 +430,9 @@ def main():
 
     print("Prüfe Resend...")
     results["resend"] = check_resend()
+
+    print("Prüfe Gemini API...")
+    results["gemini"] = check_gemini()
 
     has_issues, html = build_report(results)
 
