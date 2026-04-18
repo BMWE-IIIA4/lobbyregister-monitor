@@ -29,20 +29,20 @@ from pathlib import Path
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-# Gemini 2.5 Flash-Lite: höchste Free-Tier-Limits (30 RPM, 2000 RPD)
-GEMINI_MODEL = "gemini-2.5-flash-lite"
+# Gemini 3.1 Flash Lite: bestes Free-Tier-Limit (15 RPM, 500 RPD)
+GEMINI_MODEL = "gemini-3.1-flash-lite"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
 
-# Rate Limiting: Flash-Lite Free Tier = 30 RPM → 2s Minimum.
-# Wir nutzen 3s als konservativen Puffer.
-REQUEST_DELAY = 3.0
+# Rate Limiting: 3.1 Flash Lite Free Tier = 15 RPM → 4s Minimum.
+# Wir nutzen 5s als konservativen Puffer.
+REQUEST_DELAY = 5.0
 MAX_RETRIES = 5
 RETRY_DELAY = 15      # Erste Wartezeit bei 429, wird verdoppelt
 
 # Batch-Größe 5: konservativ, damit auch längere Texte Platz haben.
-# Bei 1000 Stellungnahmen = 200 Requests → weit unter 2000 RPD.
+# Bei 1000 Stellungnahmen = 200 Requests → weit unter 500 RPD.
 BATCH_SIZE = 5
 
 FILTER_PRIORITIES = {2, 3}
