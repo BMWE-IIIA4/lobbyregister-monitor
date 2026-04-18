@@ -2,11 +2,7 @@
 rebuild_html.py
 ===============
 Generiert die HTML-Seite aus docs/data.json neu.
-
-Wird nach gemini_enrich.py aufgerufen, damit die angereicherten
-Zusammenfassungen und die gefilterten Einträge korrekt dargestellt werden.
-
-Fügt bei Gemini-Ausfall einen Warnhinweis in die Seite ein.
+Fügt bei Gemini-Ausfall einen Warnhinweis ein.
 """
 
 import json
@@ -14,7 +10,6 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-# fetch_and_build.py importieren für die Render-Funktionen
 sys.path.insert(0, str(Path(__file__).parent))
 from fetch_and_build import generate_html
 
@@ -40,7 +35,6 @@ def main():
     statements = data.get("statements", [])
     generated_at = data.get("generated_at", datetime.now().isoformat())
 
-    # Gemini-Stats anzeigen wenn vorhanden
     stats = data.get("gemini_stats")
     gemini_ok = True
 
@@ -52,18 +46,12 @@ def main():
             print(f"Gemini fehlgeschlagen: {stats.get('api_errors', 0)} Fehler")
             gemini_ok = False
         else:
-            print(
-                f"Gemini-Anreicherung: {stats.get('total_input', '?')} → "
-                f"{stats.get('total_output', '?')} Einträge"
-            )
-            print(f"  Aussortiert: {stats.get('filtered_out', 0)}")
-            print(f"  Zusammenfassungen: {stats.get('summaries_generated', 0)}")
+            print(f"Gemini OK: {stats.get('total_input', '?')} → {stats.get('total_output', '?')} Einträge, "
+                  f"{stats.get('filtered_out', 0)} aussortiert, {stats.get('summaries_generated', 0)} Zusammenfassungen")
 
     html = generate_html(statements, generated_at)
 
-    # Bei Gemini-Ausfall: Warnhinweis nach der Meta-Bar einfügen
     if not gemini_ok:
-        # Hinweis nach </div> der meta-bar und vor der page-desc einfügen
         marker = '<div class="page-desc">'
         if marker in html:
             html = html.replace(marker, GEMINI_WARNING_HTML + "\n" + marker)
@@ -72,8 +60,7 @@ def main():
     with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
-    print(f"HTML neu generiert: docs/index.html ({len(statements)} Einträge)")
-
+    print(f"HTML generiert: docs/index.html ({len(statements)} Einträge)")
 
 if __name__ == "__main__":
     main()
