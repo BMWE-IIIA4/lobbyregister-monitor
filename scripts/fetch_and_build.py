@@ -26,7 +26,7 @@ from pathlib import Path
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
 API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
 
-SITE_URL = "https://bmwe-iiia4.github.io/lobbyregister-monitor"
+SITE_URL = "https://lobbyregister-bot.de"
 START_DATE = date(2026, 1, 1)
 
 TARGET_DEPT_KEYWORDS = ["BMWE", "BMWK", "Wirtschaft"]
