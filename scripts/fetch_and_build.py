@@ -96,7 +96,6 @@ def fetch_real_pdf_url(page_url):
     if not page_url:
         return ""
     try:
-        # Nutzt die bestehende globale SESSION für Wiederverwendung der Verbindung
         resp = SESSION.get(page_url, timeout=10)
         if resp.status_code == 200:
             match = re.search(r'href="([^"]+\.pdf)"', resp.text)
@@ -105,7 +104,7 @@ def fetch_real_pdf_url(page_url):
                 return f"https://www.lobbyregister.bundestag.de{path}" if path.startswith('/') else path
     except Exception:
         pass
-    return page_url # Fallback zur HTML-Seiten-URL
+    return page_url 
 
 
 # ── Schritt 1: Alle Registereinträge laden ─────────────────────────────────────
@@ -188,14 +187,12 @@ def fetch_and_filter_statements(register_numbers):
             skipped += 1
             continue
 
-        # Themenfelder auf Registereintrag-Ebene prüfen
         entry_fields = extract_entry_fields(entry)
         entry_field_codes = {f["code"] for f in entry_fields}
         if not entry_field_codes & TARGET_FIELD_CODES:
             no_relevant_fields += 1
             continue
 
-        # Stellungnahmen prüfen
         statements_data = entry.get("statements", {})
         if not isinstance(statements_data, dict):
             no_statements += 1
@@ -211,8 +208,6 @@ def fetch_and_filter_statements(register_numbers):
         org_name = extract_org_name(entry)
         upload_date = extract_upload_date(entry)
         details_page_url = extract_details_page_url(entry)
-
-        # Beschreibungen aus regulatoryProjects zuordnen
         rp_descriptions = build_rp_descriptions(entry)
 
         for stmt in stmts_list:
@@ -259,7 +254,8 @@ def extract_org_name(entry):
 def extract_upload_date(entry):
     acc = entry.get("accountDetails", {})
     if isinstance(acc, dict):
-        pub_date = acc.get("firstPublicationDate", "")
+        # BUGFIX 2: lastUpdateDate statt firstPublicationDate verwenden
+        pub_date = acc.get("lastUpdateDate", "")
         if pub_date:
             try:
                 return date.fromisoformat(str(pub_date)[:10])
@@ -276,7 +272,6 @@ def extract_details_page_url(entry):
 
 
 def build_rp_descriptions(entry):
-    """Baut ein Lookup von regulatoryProjectNumber -> description."""
     rp_data = entry.get("regulatoryProjects", {})
     if not isinstance(rp_data, dict):
         return {}
@@ -296,7 +291,6 @@ def process_statement(stmt, register_number, org_name, upload_date,
     if not isinstance(stmt, dict):
         return None
 
-    # Datum extrahieren
     sending_date = None
     for rg in stmt.get("recipientGroups", []):
         sd = rg.get("sendingDate", "")
@@ -307,12 +301,10 @@ def process_statement(stmt, register_number, org_name, upload_date,
             except ValueError:
                 pass
 
-    # Datumsfilter
     check_date = sending_date or upload_date
     if check_date and check_date < START_DATE:
         return None
 
-    # Empfänger extrahieren und filtern
     recipients = []
     has_target_recipient = False
     for rg in stmt.get("recipientGroups", []):
@@ -348,7 +340,6 @@ def process_statement(stmt, register_number, org_name, upload_date,
     if not has_target_recipient:
         return None
 
-    # Themenfelder vom Registereintrag
     field_codes = {f["code"] for f in entry_fields}
     relevant_fields = [f for f in entry_fields if f["code"] in TARGET_FIELD_CODES]
     if not relevant_fields:
@@ -356,11 +347,9 @@ def process_statement(stmt, register_number, org_name, upload_date,
 
     priority = min((FIELD_PRIORITY.get(c, 99) for c in field_codes if c in FIELD_PRIORITY), default=99)
 
-    # Beschreibung aus regulatoryProjects (nicht OCR-Volltext)
     rp_number = stmt.get("regulatoryProjectNumber", "")
     summary = rp_descriptions.get(rp_number, "")
 
-    # SG-Nummer und Links
     page_url = str(stmt.get("pdfUrl", ""))
     pdf_url = fetch_real_pdf_url(page_url)
     pdf_pages = int(stmt.get("pdfPageCount", 0) or 0)
@@ -414,9 +403,11 @@ def render_entry_card(stmt):
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
     upload = format_date_de(stmt.get("upload_date"))
+    
     summary = (stmt.get("summary", "") or "Keine Beschreibung verfügbar.")
     summary = re.sub(r'<(?!/?b>)', '&lt;', summary)
     summary = summary.replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
+    
     recipients = stmt.get("recipients", [])
     fields = stmt.get("fields", [])
     pdf_url = stmt.get("pdf_url", "")
@@ -489,47 +480,4 @@ def generate_html(statements, generated_at):
     with open("scripts/template.html", "r", encoding="utf-8") as f:
         template = f.read()
 
-    html = template.replace("{{DAY_SECTIONS}}", day_sections_html)
-    html = html.replace("{{FILTER_ITEMS}}", filter_items)
-    html = html.replace("{{GENERATED_AT}}", gen_str)
-    html = html.replace("{{TOTAL_COUNT}}", str(len(statements)))
-    html = html.replace("{{FIELDS_SUBTITLE}}", fields_subtitle)
-    html = html.replace("{{SITE_URL}}", SITE_URL)
-    return html
-
-
-# ── Hauptprogramm ──────────────────────────────────────────────────────────────
-
-def main():
-    print("=== Lobbyregister Monitor – Seitengenerierung (V2 API) ===")
-    print(f"API-Key: {'vorhanden' if API_KEY else 'FEHLT!'}")
-    print(f"Startdatum-Filter: ab {START_DATE.isoformat()}")
-
-    register_numbers = fetch_all_register_entries()
-    if not register_numbers:
-        print("WARNUNG: Keine Registereinträge geladen.")
-
-    statements = fetch_and_filter_statements(register_numbers)
-    print(f"Relevante Stellungnahmen gesamt: {len(statements)}")
-
-    Path("docs").mkdir(exist_ok=True)
-    generated_at = datetime.now().isoformat()
-
-    with open("docs/data.json", "w", encoding="utf-8") as f:
-        json.dump({
-            "generated_at": generated_at,
-            "statements": sorted(statements,
-                key=lambda x: (x.get("sending_date") or x.get("upload_date") or "0000-00-00"),
-                reverse=True)
-        }, f, ensure_ascii=False, indent=2)
-
-    html = generate_html(statements, generated_at)
-    with open("docs/index.html", "w", encoding="utf-8") as f:
-        f.write(html)
-
-    print(f"Seite generiert: docs/index.html ({len(statements)} Einträge)")
-    print("=== Fertig ===")
-
-
-if __name__ == "__main__":
-    main()
+    html =
