@@ -254,7 +254,6 @@ def extract_org_name(entry):
 def extract_upload_date(entry):
     acc = entry.get("accountDetails", {})
     if isinstance(acc, dict):
-        # BUGFIX 2: lastUpdateDate statt firstPublicationDate verwenden
         pub_date = acc.get("lastUpdateDate", "")
         if pub_date:
             try:
@@ -480,4 +479,47 @@ def generate_html(statements, generated_at):
     with open("scripts/template.html", "r", encoding="utf-8") as f:
         template = f.read()
 
-    html =
+    html = template.replace("{{DAY_SECTIONS}}", day_sections_html)
+    html = html.replace("{{FILTER_ITEMS}}", filter_items)
+    html = html.replace("{{GENERATED_AT}}", gen_str)
+    html = html.replace("{{TOTAL_COUNT}}", str(len(statements)))
+    html = html.replace("{{FIELDS_SUBTITLE}}", fields_subtitle)
+    html = html.replace("{{SITE_URL}}", SITE_URL)
+    return html
+
+
+# ── Hauptprogramm ──────────────────────────────────────────────────────────────
+
+def main():
+    print("=== Lobbyregister Monitor – Seitengenerierung (V2 API) ===")
+    print(f"API-Key: {'vorhanden' if API_KEY else 'FEHLT!'}")
+    print(f"Startdatum-Filter: ab {START_DATE.isoformat()}")
+
+    register_numbers = fetch_all_register_entries()
+    if not register_numbers:
+        print("WARNUNG: Keine Registereinträge geladen.")
+
+    statements = fetch_and_filter_statements(register_numbers)
+    print(f"Relevante Stellungnahmen gesamt: {len(statements)}")
+
+    Path("docs").mkdir(exist_ok=True)
+    generated_at = datetime.now().isoformat()
+
+    with open("docs/data.json", "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": generated_at,
+            "statements": sorted(statements,
+                key=lambda x: (x.get("sending_date") or x.get("upload_date") or "0000-00-00"),
+                reverse=True)
+        }, f, ensure_ascii=False, indent=2)
+
+    html = generate_html(statements, generated_at)
+    with open("docs/index.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"Seite generiert: docs/index.html ({len(statements)} Einträge)")
+    print("=== Fertig ===")
+
+
+if __name__ == "__main__":
+    main()
