@@ -289,7 +289,7 @@ def send_report(html, has_issues):
     resp = requests.post(
         "https://api.resend.com/emails",
         headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
-        json={"from": "onboarding@resend.dev", "to": [ADMIN_EMAIL],
+        json={"from": "Lobbyregister-Monitor Systemcheck <healthcheck@lobbyregister-bot.de>", "to": [ADMIN_EMAIL],
               "subject": f"⚠️ Lobbyregister-Monitor: Handlungsbedarf – {today}", "html": html},
         timeout=30,
     )
