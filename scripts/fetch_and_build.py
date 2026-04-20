@@ -4,9 +4,9 @@ fetch_and_build.py
 Ruft Stellungnahmen über die offizielle Lobbyregister API V2 ab.
 
 Strategie:
-1. Alle Registereinträge per /registerentries mit Cursor-Pagination laden (Pre-Filter).
+1. Alle Registereinträge per /registerentries mit Cursor-Pagination laden
 2. Für jeden Eintrag:
-   a) Themenfelder auf Stellungnahme/Regelungsvorhaben-Ebene prüfen (STRIKTER FILTER)
+   a) Themenfelder prüfen (activitiesAndInterests.fieldsOfInterest)
    b) Stellungnahmen extrahieren (statements)
    c) Beschreibungen aus regulatoryProjects zuordnen
    d) Empfänger- und Datumsfilter anwenden
@@ -67,12 +67,20 @@ FIELD_LABELS = {
     "FOI_OTHER": "Sonstige Interessenbereiche",
 }
 
-SESSION = requests.Session()
-SESSION.headers.update({
+# API-Session: sendet API-Key nur an die Lobbyregister-API
+API_SESSION = requests.Session()
+API_SESSION.headers.update({
     "Accept": "application/json",
     "Authorization": f"ApiKey {API_KEY}",
 })
 DEFAULT_PARAMS = {"format": "json", "apikey": API_KEY}
+
+# Separate Session für Nicht-API-Requests (z.B. PDF-URLs auf bundestag.de)
+WEB_SESSION = requests.Session()
+WEB_SESSION.headers.update({
+    "Accept": "text/html",
+    "User-Agent": "LobbyregisterMonitor/1.0",
+})
 
 
 # ── Hilfsfunktionen ────────────────────────────────────────────────────────────
@@ -93,10 +101,12 @@ def build_statement_url(sg_number):
 
 
 def fetch_real_pdf_url(page_url):
+    """Lädt die Stellungnahmen-Seite und extrahiert den echten PDF-Link.
+    Nutzt WEB_SESSION (ohne API-Key), da die Anfrage an bundestag.de geht."""
     if not page_url:
         return ""
     try:
-        resp = SESSION.get(page_url, timeout=10)
+        resp = WEB_SESSION.get(page_url, timeout=10)
         if resp.status_code == 200:
             match = re.search(r'href="([^"]+\.pdf)"', resp.text)
             if match:
@@ -104,15 +114,16 @@ def fetch_real_pdf_url(page_url):
                 return f"https://www.lobbyregister.bundestag.de{path}" if path.startswith('/') else path
     except Exception:
         pass
-    return page_url 
+    return page_url
 
 
-# ── Schritt 1: Alle Registereinträge laden (Pre-Filter) ────────────────────────
+# ── Schritt 1: Alle Registereinträge laden ─────────────────────────────────────
 
 def fetch_all_register_entries():
     register_numbers = []
     cursor = None
     page = 0
+    first_request = True
 
     print("Schritt 1: Registereinträge über V2 API laden...")
 
@@ -122,7 +133,7 @@ def fetch_all_register_entries():
             params["cursor"] = cursor
 
         try:
-            resp = SESSION.get(f"{API_BASE}/registerentries", params=params, timeout=60)
+            resp = API_SESSION.get(f"{API_BASE}/registerentries", params=params, timeout=60)
             resp.raise_for_status()
             data = resp.json()
         except Exception as e:
@@ -140,16 +151,19 @@ def fetch_all_register_entries():
                     register_numbers.append(reg_num)
 
         page += 1
+
+        # Cursor-Pagination: neuen Cursor aus Response lesen
         new_cursor = data.get("cursor") if isinstance(data, dict) else None
 
-        if new_cursor and new_cursor != cursor:
-            cursor = new_cursor
-        else:
-            if cursor is not None:
-                break
-            if not new_cursor:
-                break
-            cursor = new_cursor
+        if not new_cursor:
+            # Kein Cursor in der Antwort → letzte Seite erreicht
+            break
+
+        if new_cursor == cursor:
+            # Cursor hat sich nicht geändert → API-Endlosschleife vermeiden
+            break
+
+        cursor = new_cursor
 
         if page % 10 == 0:
             print(f"  Seite {page}: {len(register_numbers)} Einträge geladen...")
@@ -162,16 +176,18 @@ def fetch_all_register_entries():
 
 def fetch_and_filter_statements(register_numbers):
     all_statements = []
+    seen_keys = set()  # Deduplizierung: (sg_number) oder (reg_num, rp_title)
     total = len(register_numbers)
     skipped = 0
     no_statements = 0
     no_relevant_fields = 0
+    duplicates = 0
 
     print(f"Schritt 2: {total} Einträge einzeln abrufen und filtern...")
 
     for i, reg_num in enumerate(register_numbers):
         try:
-            resp = SESSION.get(
+            resp = API_SESSION.get(
                 f"{API_BASE}/registerentries/{reg_num}",
                 params=DEFAULT_PARAMS,
                 timeout=30
@@ -187,7 +203,6 @@ def fetch_and_filter_statements(register_numbers):
             skipped += 1
             continue
 
-        # Pre-Filter: Orga-Themenfelder prüfen (verhindert Verarbeitung irrelevanter Organisationen)
         entry_fields = extract_entry_fields(entry)
         entry_field_codes = {f["code"] for f in entry_fields}
         if not entry_field_codes & TARGET_FIELD_CODES:
@@ -209,26 +224,39 @@ def fetch_and_filter_statements(register_numbers):
         org_name = extract_org_name(entry)
         upload_date = extract_upload_date(entry)
         details_page_url = extract_details_page_url(entry)
-        
-        # NEU: Extrahiert Beschreibungen UND spezifische Themenfelder der Regelungsvorhaben
-        rp_lookup = build_rp_lookup(entry)
+        rp_descriptions = build_rp_descriptions(entry)
 
         for stmt in stmts_list:
             result = process_statement(
                 stmt, reg_num, org_name, upload_date,
-                entry_fields, details_page_url, rp_lookup
+                entry_fields, details_page_url, rp_descriptions
             )
             if result:
+                # Deduplizierung: bevorzugt nach sg_number, sonst nach Titel+Org
+                dedup_key = None
+                if result.get("sg_number"):
+                    dedup_key = result["sg_number"]
+                else:
+                    dedup_key = (result["register_number"],
+                                 result["regulatory_project_title"],
+                                 result.get("sending_date", ""))
+
+                if dedup_key in seen_keys:
+                    duplicates += 1
+                    continue
+
+                seen_keys.add(dedup_key)
                 all_statements.append(result)
 
         if (i + 1) % 200 == 0:
             print(f"  {i+1}/{total}: {len(all_statements)} SN, "
                   f"{no_relevant_fields} kein Thema, {no_statements} keine SN, "
-                  f"{skipped} Fehler")
+                  f"{skipped} Fehler, {duplicates} Duplikate")
 
     print(f"  {len(all_statements)} relevante Stellungnahmen gefunden.")
-    print(f"  ({no_relevant_fields} ohne Themenfeld auf Orga-Ebene, "
-          f"{no_statements} ohne Stellungnahmen, {skipped} Fehler)")
+    print(f"  ({no_relevant_fields} ohne Themenfeld, "
+          f"{no_statements} ohne Stellungnahmen, {skipped} Fehler, "
+          f"{duplicates} Duplikate entfernt)")
     return all_statements
 
 
@@ -273,8 +301,7 @@ def extract_details_page_url(entry):
     return ""
 
 
-def build_rp_lookup(entry):
-    """Baut ein Lookup von regulatoryProjectNumber -> dict mit description und specific fields."""
+def build_rp_descriptions(entry):
     rp_data = entry.get("regulatoryProjects", {})
     if not isinstance(rp_data, dict):
         return {}
@@ -284,31 +311,16 @@ def build_rp_lookup(entry):
         if isinstance(rp, dict):
             num = rp.get("regulatoryProjectNumber", "")
             desc = rp.get("description", "")
-            
-            # Themenfelder auf Ebene des Regelungsvorhabens extrahieren
-            foi_list = rp.get("fieldsOfInterest", [])
-            fields = []
-            for f in foi_list:
-                if isinstance(f, dict):
-                    code = f.get("code", "")
-                    label = FIELD_LABELS.get(code) or f.get("de", "") or code
-                    if code:
-                        fields.append({"code": code, "label": label})
-                        
-            if num:
-                lookup[num] = {
-                    "description": desc,
-                    "fields": fields
-                }
+            if num and desc:
+                lookup[num] = desc
     return lookup
 
 
 def process_statement(stmt, register_number, org_name, upload_date,
-                      entry_fields, details_page_url, rp_lookup):
+                      entry_fields, details_page_url, rp_descriptions):
     if not isinstance(stmt, dict):
         return None
 
-    # Datum extrahieren und filtern
     sending_date = None
     for rg in stmt.get("recipientGroups", []):
         sd = rg.get("sendingDate", "")
@@ -323,7 +335,6 @@ def process_statement(stmt, register_number, org_name, upload_date,
     if check_date and check_date < START_DATE:
         return None
 
-    # Empfänger extrahieren und filtern
     recipients = []
     has_target_recipient = False
     for rg in stmt.get("recipientGroups", []):
@@ -359,43 +370,16 @@ def process_statement(stmt, register_number, org_name, upload_date,
     if not has_target_recipient:
         return None
 
-    # --- STRIKTE THEMEN-FILTERUNG AUF STELLUNGNAHME-EBENE ---
+    field_codes = {f["code"] for f in entry_fields}
+    relevant_fields = [f for f in entry_fields if f["code"] in TARGET_FIELD_CODES]
+    if not relevant_fields:
+        relevant_fields = entry_fields[:3]
+
+    priority = min((FIELD_PRIORITY.get(c, 99) for c in field_codes if c in FIELD_PRIORITY), default=99)
+
     rp_number = stmt.get("regulatoryProjectNumber", "")
-    rp_info = rp_lookup.get(rp_number, {})
-    stmt_fields = rp_info.get("fields", [])
-    summary = rp_info.get("description", "")
+    summary = rp_descriptions.get(rp_number, "")
 
-    # Falls das Regelungsvorhaben keine Felder hat, schauen wir in der Stellungnahme direkt nach
-    if not stmt_fields:
-        foi_list = stmt.get("fieldsOfInterest", [])
-        for f in foi_list:
-            if isinstance(f, dict):
-                code = f.get("code", "")
-                label = FIELD_LABELS.get(code) or f.get("de", "") or code
-                if code:
-                    stmt_fields.append({"code": code, "label": label})
-
-    if stmt_fields:
-        stmt_field_codes = {f["code"] for f in stmt_fields}
-        # Härtester Filter: Stellungnahme hat eigene Felder, aber KEINES passt zu unseren Zielthemen
-        if not stmt_field_codes & TARGET_FIELD_CODES:
-            return None 
-
-        # Nur die für uns relevanten Felder auf der Karte anzeigen
-        relevant_fields = [f for f in stmt_fields if f["code"] in TARGET_FIELD_CODES]
-        display_fields = relevant_fields if relevant_fields else stmt_fields[:3]
-        priority_codes = stmt_field_codes
-    else:
-        # Fallback: Die Stellungnahme wurde komplett ohne Themenfelder eingereicht. 
-        # Wir nutzen die Orga-Felder zur Anzeige und überlassen der KI die finale Inhaltsprüfung.
-        display_fields = [f for f in entry_fields if f["code"] in TARGET_FIELD_CODES]
-        if not display_fields:
-            display_fields = entry_fields[:3]
-        priority_codes = {f["code"] for f in entry_fields}
-
-    priority = min((FIELD_PRIORITY.get(c, 99) for c in priority_codes if c in FIELD_PRIORITY), default=99)
-
-    # SG-Nummer und PDF-Scraping
     page_url = str(stmt.get("pdfUrl", ""))
     pdf_url = fetch_real_pdf_url(page_url)
     pdf_pages = int(stmt.get("pdfPageCount", 0) or 0)
@@ -404,6 +388,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
 
     return {
         "register_number": str(register_number),
+        "statement_number": sg_number,
         "org_name": str(org_name),
         "org_url": details_page_url,
         "regulatory_project_title": str(stmt.get("regulatoryProjectTitle", "Kein Titel")),
@@ -415,7 +400,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
         "statement_url": statement_url,
         "summary": summary,
         "recipients": recipients,
-        "fields": display_fields,
+        "fields": relevant_fields,
         "priority": priority,
     }
 
@@ -451,6 +436,7 @@ def render_entry_card(stmt):
     upload = format_date_de(stmt.get("upload_date"))
     
     summary = (stmt.get("summary", "") or "Keine Beschreibung verfügbar.")
+    # Nur <b> und </b> Tags durchlassen, alles andere escapen
     summary = re.sub(r'<(?!/?b>)', '&lt;', summary)
     summary = summary.replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
     
@@ -479,7 +465,7 @@ def render_entry_card(stmt):
       </div>
       <div class="meta-row two-col">
         <div class="mc half"><strong>Adressaten</strong>{recip_badges}</div>
-        <div class="mc half"><strong>Themenfelder der Stellungnahme</strong>{field_tags}</div>
+        <div class="mc half"><strong>Themenfelder der Organisation</strong>{field_tags}</div>
       </div>
       <div class="row-full"><strong>Inhalt</strong>{summary}</div>
       <div class="link-row">
