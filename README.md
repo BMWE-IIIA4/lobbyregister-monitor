@@ -36,8 +36,7 @@ Jeden Tag **um 6:00 Uhr** läuft automatisch ein Skript, das:
 ```
 .github/workflows/update.yml   – Automatischer Tagesablauf (GitHub Actions)
 scripts/fetch_and_build.py     – Datenabruf und HTML-Generierung
-scripts/gemini_enrich.py       – KI-Relevanzfilterung und Zusammenfassungen (Gemini 3.1 Flash Lite)
-scripts/rebuild_html.py        – HTML-Neugenerierung nach Gemini-Anreicherung
+scripts/gemini_enrich.py       – KI-Relevanzfilterung, Zusammenfassungen und HTML-Rebuild (Gemini 3.1 Flash Lite)
 scripts/send_email.py          – Wöchentlicher E-Mail-Versand (montags)
 scripts/health_check.py        – Wöchentlicher Selbsttest und Admin-Bericht (montags)
 scripts/template.html          – HTML-Vorlage für die Übersichtsseite
