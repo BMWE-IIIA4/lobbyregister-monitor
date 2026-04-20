@@ -180,7 +180,7 @@ def build_email_html(statements, generated_at):
   <div style="padding:20px 28px;background:#fff">
     {pending_warning}
     <p style="font-size:13px;color:#64748b;margin-bottom:4px;line-height:1.5">
-      Stellungnahmen und Gutachten mit Adressat BMWE oder Bundestag.</p>
+      Stellungnahmen und Gutachten mit Adressat BMWE, BKAmt, BMF, BMUKN oder Bundestag.</p>
     <p style="font-size:11px;color:#94a3b8;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid #f1f5f9">
       Themenfelder: {themen_subtitle}</p>
     {no_entries_msg}{theme_blocks}
