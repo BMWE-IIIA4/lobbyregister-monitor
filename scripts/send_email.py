@@ -13,13 +13,8 @@ from pathlib import Path
 RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 EMAIL_RECIPIENT = os.environ["EMAIL_RECIPIENT"]
 
-# Absender (WICHTIG: Domain muss bei Resend verifiziert sein)
 EMAIL_SENDER = "Lobbyregister Monitor <update@lobbyregister-bot.de>"
 
-
-# ──────────────────────────────────────────────────────────────
-# Daten laden
-# ──────────────────────────────────────────────────────────────
 
 def load_data():
     path = Path("docs/data.json")
@@ -53,32 +48,16 @@ def calc_delay_days(sending, upload):
         d1 = date.fromisoformat(sending)
         d2 = date.fromisoformat(upload)
         diff = (d2 - d1).days
-        if diff > 0:
-            return f" (+{diff} Tage)"
-        return ""
+        return f" (+{diff} Tage)" if diff > 0 else ""
     except:
         return ""
 
-
-# ──────────────────────────────────────────────────────────────
-# Rendering-Helfer
-# ──────────────────────────────────────────────────────────────
 
 def render_badges(items):
     html = ""
     for item in items:
         html += f"""
-        <span style="
-            display:inline-block;
-            font-size:10px;
-            padding:2px 6px;
-            margin-right:6px;
-            margin-bottom:4px;
-            background:#dbeafe;
-            color:#1e3a8a;
-            border:1px solid #bfdbfe;
-            border-radius:3px;
-        ">{item}</span>
+        <span style="display:inline-block;font-size:10px;padding:2px 6px;margin-right:6px;margin-bottom:4px;background:#dbeafe;color:#1e3a8a;border:1px solid #bfdbfe;border-radius:3px;">{item}</span>
         """
     return html or "–"
 
@@ -88,18 +67,10 @@ def render_fields(fields):
     for f in fields:
         label = f.get("label", "")
         html += f"""
-        <span style="
-            display:inline-block;
-            margin-right:6px;
-            margin-bottom:4px;
-        ">{label}</span>
+        <span style="display:inline-block;margin-right:6px;margin-bottom:4px;">{label}</span>
         """
     return html or "–"
 
-
-# ──────────────────────────────────────────────────────────────
-# Eintrag rendern
-# ──────────────────────────────────────────────────────────────
 
 def render_entry(stmt):
     title = stmt["regulatory_project_title"]
@@ -125,68 +96,55 @@ def render_entry(stmt):
 
     return f"""
 <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #d0d8e4;margin-bottom:18px;font-family:Arial,Helvetica,sans-serif;font-size:12px;">
-    
-    <!-- Zeile 1 -->
-    <tr>
-        <td colspan="2" style="background:#eef3f9;padding:6px 10px;font-weight:bold;color:#003366;">
-            {title}
-        </td>
-    </tr>
-
-    <!-- Zeile 2 -->
-    <tr>
-        <td width="65%" style="padding:6px 10px;vertical-align:top;">
-            <div style="font-size:9px;color:#888;font-weight:bold;">Bereitgestellt von</div>
-            <div>{org_html}</div>
-        </td>
-        <td width="35%" style="padding:6px 10px;vertical-align:top;">
-            <div style="font-size:9px;color:#888;font-weight:bold;">Stellungnahme</div>
-            <div>{sending}</div>
-            <div style="font-size:9px;color:#888;font-weight:bold;margin-top:3px;">Hochgeladen</div>
-            <div>{upload}{delay}</div>
-        </td>
-    </tr>
-
-    <!-- Zeile 3 (getauscht) -->
-    <tr>
-        <td style="padding:6px 10px;vertical-align:top;">
-            <div style="font-size:9px;color:#888;font-weight:bold;">Themenfelder</div>
-            {render_fields(fields)}
-        </td>
-        <td style="padding:6px 10px;vertical-align:top;">
-            <div style="font-size:9px;color:#888;font-weight:bold;">Adressaten</div>
-            {render_badges(recipients)}
-        </td>
-    </tr>
-
-    <!-- Zeile 4 -->
-    <tr>
-        <td colspan="2" style="padding:6px 10px;">
-            <div style="font-size:9px;color:#888;font-weight:bold;">Inhalt</div>
-            <div style="line-height:1.4;">{summary}</div>
-        </td>
-    </tr>
-
-    <!-- Zeile 5 -->
-    <tr>
-        <td style="padding:6px 10px;">
-            {"<a href='" + stmt_url + "' style='color:#004B87;text-decoration:none;'>↗ Stellungnahme</a>" if stmt_url else ""}
-        </td>
-        <td style="padding:6px 10px;">
-            {"<a href='" + pdf_url + "' style='color:#004B87;text-decoration:none;'>↗ PDF (" + str(pdf_pages) + " S.)</a>" if pdf_url else ""}
-        </td>
-    </tr>
-
+<tr><td colspan="2" style="background:#eef3f9;padding:6px 10px;font-weight:bold;color:#003366;">{title}</td></tr>
+<tr>
+<td width="65%" style="padding:6px 10px;">
+<div style="font-size:9px;color:#888;font-weight:bold;">Bereitgestellt von</div>
+<div>{org_html}</div>
+</td>
+<td width="35%" style="padding:6px 10px;">
+<div style="font-size:9px;color:#888;font-weight:bold;">Stellungnahme</div>
+<div>{sending}</div>
+<div style="font-size:9px;color:#888;font-weight:bold;margin-top:3px;">Hochgeladen</div>
+<div>{upload}{delay}</div>
+</td>
+</tr>
+<tr>
+<td style="padding:6px 10px;">
+<div style="font-size:9px;color:#888;font-weight:bold;">Themenfelder</div>
+{render_fields(fields)}
+</td>
+<td style="padding:6px 10px;">
+<div style="font-size:9px;color:#888;font-weight:bold;">Adressaten</div>
+{render_badges(recipients)}
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding:6px 10px;">
+<div style="font-size:9px;color:#888;font-weight:bold;">Inhalt</div>
+<div>{summary}</div>
+</td>
+</tr>
+<tr>
+<td style="padding:6px 10px;">
+{"<a href='" + stmt_url + "' style='color:#004B87;text-decoration:none;'>↗ Stellungnahme</a>" if stmt_url else ""}
+</td>
+<td style="padding:6px 10px;">
+{"<a href='" + pdf_url + "' style='color:#004B87;text-decoration:none;'>↗ PDF (" + str(pdf_pages) + " S.)</a>" if pdf_url else ""}
+</td>
+</tr>
 </table>
 """
 
 
-# ──────────────────────────────────────────────────────────────
-# Mail bauen
-# ──────────────────────────────────────────────────────────────
-
 def build_email(statements):
     week_stmts = get_week_statements(statements)
+
+    week_stmts = sorted(
+        week_stmts,
+        key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
+        reverse=True
+    )
 
     today = date.today()
     kw = today.isocalendar()[1]
@@ -198,42 +156,22 @@ def build_email(statements):
 
     return f"""
 <html>
-<body style="background:#f5f5f5;margin:0;padding:20px;font-family:Arial,Helvetica,sans-serif;">
+<body style="background:#f5f5f5;margin:0;padding:20px;font-family:Arial;">
 <div style="max-width:700px;margin:auto;background:#ffffff;padding:16px;">
-
-<h2 style="color:#003366;margin-top:0;">
-Lobbyregister-Monitor – Wochenübersicht der KW {kw}
-</h2>
-
-<p style="font-size:12px;color:#555;margin-bottom:6px;">
-Neue Stellungnahmen der letzten 7 Tage ({start}–{end})
-</p>
-
-<p style="font-size:13px;margin-bottom:16px;">
-<a href="https://lobbyregister-bot.de" style="color:#004B87;font-weight:bold;text-decoration:none;">
-Übersicht aller Einträge: lobbyregister-bot.de
-</a>
-</p>
-
+<h2>Lobbyregister-Monitor – Wochenübersicht der KW {kw}</h2>
+<p>Neue Stellungnahmen der letzten 7 Tage ({start}–{end})</p>
+<p><a href="https://lobbyregister-bot.de">Übersicht aller Einträge</a></p>
 {entries_html}
-
 </div>
 </body>
 </html>
 """
 
 
-# ──────────────────────────────────────────────────────────────
-# Versand
-# ──────────────────────────────────────────────────────────────
-
 def send_email(html):
-    response = requests.post(
+    requests.post(
         "https://api.resend.com/emails",
-        headers={
-            "Authorization": f"Bearer {RESEND_API_KEY}",
-            "Content-Type": "application/json",
-        },
+        headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
         json={
             "from": EMAIL_SENDER,
             "to": EMAIL_RECIPIENT,
@@ -242,19 +180,11 @@ def send_email(html):
         },
     )
 
-    if response.status_code >= 300:
-        raise RuntimeError(f"E-Mail Versand fehlgeschlagen: {response.text}")
-
-
-# ──────────────────────────────────────────────────────────────
-# Main
-# ──────────────────────────────────────────────────────────────
 
 def main():
     data = load_data()
     html = build_email(data["statements"])
     send_email(html)
-    print("E-Mail erfolgreich versendet.")
 
 
 if __name__ == "__main__":
