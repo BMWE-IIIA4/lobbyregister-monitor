@@ -2,9 +2,8 @@ name: Lobbyregister Monitor
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # Täglich um 6:00 Uhr MESZ (= 4:00 UTC im Sommer)
-    # Hinweis: GitHub Actions nutzt UTC. Im Winter (MEZ) auf '0 5 * * *' ändern.
-  workflow_dispatch:       # Manueller Start jederzeit möglich
+    - cron: '0 4 * * *'   # Taeglich um 6:00 Uhr MESZ (= 4:00 UTC im Sommer)
+  workflow_dispatch:       # Manueller Start jederzeit moeglich
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -16,7 +15,7 @@ permissions:
 
 jobs:
   build-site:
-    name: Seite aktualisieren (täglich)
+    name: Seite aktualisieren (taeglich)
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -30,19 +29,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Abhängigkeiten installieren
+      - name: Abhaengigkeiten installieren
         run: pip install requests
 
-      - name: Gemini-Cache wiederherstellen
+      - name: Daten-Cache wiederherstellen (data.json + gemini_cache.json)
         uses: actions/cache@v4
         with:
-          path: docs/gemini_cache.json
-          # Fester Key mit Restore-Key: Cache wird bei jedem Run überschrieben
-          key: gemini-cache-${{ github.run_id }}
+          path: |
+            docs/data.json
+            docs/gemini_cache.json
+          key: lobbyregister-data-${{ github.run_id }}
           restore-keys: |
-            gemini-cache-
+            lobbyregister-data-
 
-      - name: Daten abrufen und Seite generieren
+      - name: Daten abrufen und Seite generieren (inkrementell)
         env:
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
         run: python scripts/fetch_and_build.py
@@ -55,7 +55,7 @@ jobs:
         run: python scripts/gemini_enrich.py
         continue-on-error: true
 
-      - name: data.json für Mail-Job speichern
+      - name: data.json fuer Mail-Job speichern
         uses: actions/upload-artifact@v4
         with:
           name: lobbyregister-data
@@ -75,12 +75,12 @@ jobs:
         uses: actions/deploy-pages@v4
 
   send-email:
-    name: Wöchentliche Mail versenden (montags)
+    name: Woechentliche Mail versenden (montags)
     runs-on: ubuntu-latest
     needs: build-site
     if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 4') && toJSON(github.event) != '{}')
     steps:
-      - name: Wochentag prüfen
+      - name: Wochentag pruefen
         id: check_day
         run: |
           DAY=$(date +%u)
@@ -101,7 +101,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Abhängigkeiten installieren
+      - name: Abhaengigkeiten installieren
         if: steps.check_day.outputs.is_monday == 'true' || github.event_name == 'workflow_dispatch'
         run: pip install requests
 
@@ -122,12 +122,12 @@ jobs:
         run: python scripts/send_email.py
 
   health-check:
-    name: Wöchentlicher Selbsttest (montags)
+    name: Woechentlicher Selbsttest (montags)
     runs-on: ubuntu-latest
     needs: build-site
     if: always()
     steps:
-      - name: Wochentag prüfen
+      - name: Wochentag pruefen
         id: check_day
         run: |
           DAY=$(date +%u)
@@ -147,11 +147,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Abhängigkeiten installieren
+      - name: Abhaengigkeiten installieren
         if: steps.check_day.outputs.run == 'true'
         run: pip install requests
 
-      - name: Selbsttest durchführen
+      - name: Selbsttest durchfuehren
         if: steps.check_day.outputs.run == 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
