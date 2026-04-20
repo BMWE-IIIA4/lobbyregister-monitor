@@ -264,7 +264,7 @@ def notify_admin_error(error_summary):
     )
     try:
         requests.post("https://api.resend.com/emails", headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
-                      json={"from": "onboarding@resend.dev", "to": [ADMIN_EMAIL], "subject": f"Lobbyregister-Monitor: Gemini fehlgeschlagen ({today})", "html": html}, timeout=30)
+                      json={"from": "Lobbyregister-Monitor Systemcheck <healthcheck@lobbyregister-bot.de>", "to": [ADMIN_EMAIL], "subject": f"Lobbyregister-Monitor: Gemini fehlgeschlagen ({today})", "html": html}, timeout=30)
     except Exception: pass
 
 def process_batch(batch, batch_num, total_batches):
