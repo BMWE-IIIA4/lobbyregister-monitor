@@ -36,7 +36,9 @@ YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
 
 KNOWN_API_VERSION = "2.0.0"
 KNOWN_YAML_FILE = "R2.21-de.yaml"
-GEMINI_MODEL = "gemini-2.5-flash-lite"
+
+# WICHTIG: Muss mit GEMINI_MODEL in gemini_enrich.py übereinstimmen!
+GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
 
 
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
