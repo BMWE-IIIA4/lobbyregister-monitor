@@ -596,15 +596,15 @@ def main():
     # Speichern
     Path("docs").mkdir(exist_ok=True)
 
-with open("docs/data.json", "w", encoding="utf-8") as f:
-    json.dump({
-        "generated_at": generated_at,
-        "statements": sorted(
-            all_statements,
-            key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
-            reverse=True
-        )
-    }, f, ensure_ascii=False, indent=2)
+    with open("docs/data.json", "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": generated_at,
+            "statements": sorted(
+                all_statements,
+                key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
+                reverse=True
+            )
+        }, f, ensure_ascii=False, indent=2)
 
     html = generate_html(all_statements, generated_at)
     with open("docs/index.html", "w", encoding="utf-8") as f:
