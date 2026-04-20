@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Workflow-Protokoll – Lobbyregister-Monitor</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.6;color:#334155;background:#f8fafc}
+a{color:#004B87;text-decoration:none}
+a:hover{color:#003366;text-decoration:underline}
+
+.site-header{background:#004B87;padding:1rem 0;box-shadow:0 4px 6px -1px rgba(0,0,0,0.1)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;display:flex;justify-content:space-between;align-items:center}
+.header-title{color:#fff;font-size:1.25rem;font-weight:700}
+.header-nav{display:flex;gap:1.5rem}
+.header-nav a{font-size:0.875rem;color:#e2e8f0;font-weight:500}
+.header-nav a:hover{color:#fff;text-decoration:none}
+
+.page{max-width:1200px;margin:0 auto;padding:2rem 1.5rem}
+h1{font-size:1.5rem;color:#0f172a;margin-bottom:0.5rem}
+.subtitle{color:#64748b;font-size:0.9rem;margin-bottom:2rem}
+
+.stats-bar{display:flex;gap:1.5rem;margin-bottom:2rem;flex-wrap:wrap}
+.stat-card{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:1rem 1.5rem;flex:1;min-width:150px}
+.stat-label{font-size:0.75rem;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:0.05em}
+.stat-value{font-size:1.75rem;font-weight:700;color:#0f172a;margin-top:0.25rem}
+
+.run-table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);border:1px solid #e2e8f0}
+.run-table th{background:#f8fafc;padding:0.75rem 1rem;font-size:0.75rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;text-align:left;border-bottom:2px solid #e2e8f0}
+.run-table td{padding:0.75rem 1rem;font-size:0.875rem;border-bottom:1px solid #f1f5f9;vertical-align:middle}
+.run-table tr:last-child td{border-bottom:none}
+.run-table tr:hover td{background:#f8fafc}
+
+.badge{display:inline-block;font-size:0.7rem;font-weight:600;padding:0.2rem 0.5rem;border-radius:9999px}
+.badge-ok{background:#dcfce7;color:#166534}
+.badge-warn{background:#fef9c3;color:#854d0e}
+.badge-err{background:#fee2e2;color:#991b1b}
+.badge-manual{background:#eff6ff;color:#1e40af}
+.badge-schedule{background:#f1f5f9;color:#475569}
+
+.empty-state{text-align:center;padding:4rem 2rem;color:#94a3b8}
+.empty-state p{font-size:1rem;margin-top:0.5rem}
+
+.footer{max-width:1200px;margin:3rem auto 0;padding:1.5rem;border-top:1px solid #e2e8f0;font-size:0.8rem;color:#94a3b8;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-title">Workflow-Protokoll</div>
+    <nav class="header-nav">
+      <a href="index.html">Übersicht</a>
+      <a href="hilfe.html">Nutzungsanleitung</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <h1>Workflow-Durchläufe</h1>
+  <p class="subtitle">Archiv der automatischen täglichen Aktualisierungen. Maximal 90 Einträge werden gespeichert.</p>
+
+  <div class="stats-bar" id="statsBar"></div>
+
+  <div id="content">
+    <div class="empty-state">
+      <p>Lade Protokolldaten...</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Lobbyregister-Monitor · BMWE Unterabteilung IIIA ·
+  <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions">GitHub Actions (Live-Logs)</a>
+</div>
+
+<script>
+(function() {
+  var content = document.getElementById('content');
+  var statsBar = document.getElementById('statsBar');
+
+  fetch('run_history.json')
+    .then(function(r) { return r.json(); })
+    .then(function(history) {
+      if (!history || !history.length) {
+        content.innerHTML = '<div class="empty-state"><p>Noch keine Durchläufe protokolliert.</p><p>Das Protokoll wird nach dem nächsten Workflow-Durchlauf automatisch erstellt.</p></div>';
+        return;
+      }
+
+      // Neueste zuerst
+      history.reverse();
+
+      // Stats
+      var totalRuns = history.length;
+      var lastRun = history[0];
+      var errorCount = history.filter(function(r) { return r.status && r.status.indexOf('error') !== -1; }).length;
+      var lastTotal = (lastRun.fetch || {}).total_statements || 0;
+
+      statsBar.innerHTML =
+        '<div class="stat-card"><div class="stat-label">Durchläufe</div><div class="stat-value">' + totalRuns + '</div></div>' +
+        '<div class="stat-card"><div class="stat-label">Aktuelle Einträge</div><div class="stat-value">' + lastTotal + '</div></div>' +
+        '<div class="stat-card"><div class="stat-label">Fehlerhafte Läufe</div><div class="stat-value">' + errorCount + '</div></div>' +
+        '<div class="stat-card"><div class="stat-label">Letzter Lauf</div><div class="stat-value" style="font-size:1rem">' + formatDate(lastRun.timestamp) + '</div></div>';
+
+      // Tabelle
+      var html = '<table class="run-table">' +
+        '<thead><tr>' +
+        '<th>Zeitpunkt</th>' +
+        '<th>Status</th>' +
+        '<th>Auslöser</th>' +
+        '<th>Einträge</th>' +
+        '<th>Neu</th>' +
+        '<th>KI-geprüft</th>' +
+        '<th>Ausstehend</th>' +
+        '<th>Aussortiert</th>' +
+        '<th>Log</th>' +
+        '</tr></thead><tbody>';
+
+      history.forEach(function(run) {
+        var f = run.fetch || {};
+        var g = run.gemini || {};
+        var statusBadge = run.status === 'ok'
+          ? '<span class="badge badge-ok">OK</span>'
+          : '<span class="badge badge-err">Fehler</span>';
+        var triggerBadge = run.trigger === 'workflow_dispatch'
+          ? '<span class="badge badge-manual">Manuell</span>'
+          : '<span class="badge badge-schedule">Geplant</span>';
+        var pending = g.pending || 0;
+        if (pending > 0) {
+          statusBadge = '<span class="badge badge-warn">' + pending + ' pending</span>';
+        }
+        var logLink = run.run_url
+          ? '<a href="' + run.run_url + '" target="_blank" style="font-size:0.8rem">→ Log</a>'
+          : '–';
+
+        html += '<tr>' +
+          '<td>' + formatDate(run.timestamp) + '</td>' +
+          '<td>' + statusBadge + '</td>' +
+          '<td>' + triggerBadge + '</td>' +
+          '<td>' + (f.total_statements || '–') + '</td>' +
+          '<td>' + (f.new || '–') + '</td>' +
+          '<td>' + ((g.processed || 0) + (g.cached || 0)) + '</td>' +
+          '<td>' + (pending || '–') + '</td>' +
+          '<td>' + (g.filtered_out || '–') + '</td>' +
+          '<td>' + logLink + '</td>' +
+          '</tr>';
+      });
+
+      html += '</tbody></table>';
+      content.innerHTML = html;
+    })
+    .catch(function() {
+      content.innerHTML = '<div class="empty-state"><p>Protokolldaten konnten nicht geladen werden.</p><p>Die Datei <code>run_history.json</code> wird nach dem nächsten Workflow-Durchlauf erstellt.</p></div>';
+    });
+
+  function formatDate(iso) {
+    if (!iso) return '–';
+    try {
+      var d = new Date(iso);
+      var day = String(d.getDate()).padStart(2, '0');
+      var mon = String(d.getMonth() + 1).padStart(2, '0');
+      var year = d.getFullYear();
+      var hour = String(d.getHours()).padStart(2, '0');
+      var min = String(d.getMinutes()).padStart(2, '0');
+      return day + '.' + mon + '.' + year + ', ' + hour + ':' + min;
+    } catch(e) { return iso; }
+  }
+})();
+</script>
+</body>
+</html>
