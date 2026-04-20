@@ -75,13 +75,6 @@ a:hover { color: #003366; text-decoration: underline; }
 .lc { padding: 0.85rem 1.5rem; font-size: 0.875rem; font-weight: 500; border-right: 1px solid #f1f5f9; flex: 1; }
 .lc:last-child { border-right: none; }
 
-/* Pagination am Seitenende */
-.pagination { display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; }
-.page-btn { background: #fff; border: 1px solid #004B87; color: #004B87; padding: 0.6rem 1.2rem; font-size: 0.875rem; cursor: pointer; font-weight: 600; border-radius: 6px; transition: all 0.2s; }
-.page-btn:hover:not(:disabled) { background: #004B87; color: #fff; }
-.page-btn:disabled { border-color: #cbd5e1; color: #94a3b8; cursor: not-allowed; background: #f8fafc; }
-.page-info { font-size: 0.875rem; color: #475569; font-weight: 500; }
-
 /* Footer */
 .site-footer { background: #0f172a; color: #94a3b8; font-size: 0.875rem; padding: 2.5rem 0; margin-top: 4rem; border-top: 4px solid #004B87; }
 .footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
@@ -115,3 +108,88 @@ a:hover { color: #003366; text-decoration: underline; }
 
 <div class="page-desc">
   <div class="desc-inner">
+    <div class="desc-line">Neue Stellungnahmen und Gutachten im Lobbyregister mit Adressat BMWE oder Bundestag.</div>
+    <div class="desc-line">Gefiltert nach: {{FIELDS_SUBTITLE}}.</div>
+  </div>
+</div>
+
+<div class="page layout">
+  <main class="content">
+    {{DAY_SECTIONS}}
+  </main>
+  <aside class="sidebar">
+    <div class="sidebar-title">Regelungsvorhaben</div>
+    <div class="sidebar-hint">Klicken zum Filtern</div>
+    <input type="text" class="filter-input" placeholder="Suchen..." id="filterSearch">
+    <ul class="filter-list" id="filterList">
+      {{FILTER_ITEMS}}
+    </ul>
+    <button class="reset-btn" id="resetFilter">Alle anzeigen ✕</button>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>Automatisch generiert. Daten: <a href="https://www.lobbyregister.bundestag.de" target="_blank" style="color:#cbd5e1">Lobbyregister des Deutschen Bundestages</a>.</div>
+    <div>Kontakt: <a href="mailto:martin.jahn@bmwe.bund.de" style="color:#cbd5e1">Martin Jahn, IIIA4</a> &middot; <a href="{{SITE_URL}}/wartung.html" style="color:#cbd5e1">Wartung</a></div>
+  </div>
+</footer>
+
+<script>
+  const filterList = document.getElementById('filterList');
+  const filterItems = Array.from(filterList.getElementsByTagName('li'));
+  const searchInput = document.getElementById('filterSearch');
+  const resetBtn = document.getElementById('resetFilter');
+  const cards = Array.from(document.getElementsByClassName('entry-card'));
+  const daySections = Array.from(document.getElementsByClassName('day-section'));
+
+  let activeFilter = null;
+
+  function applyFilter() {
+    cards.forEach(card => {
+      if (!activeFilter || card.getAttribute('data-vorhaben') === activeFilter) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    daySections.forEach(section => {
+      const hasVisibleCards = Array.from(section.getElementsByClassName('entry-card'))
+        .some(card => card.style.display !== 'none');
+      section.style.display = hasVisibleCards ? '' : 'none';
+    });
+
+    resetBtn.style.display = activeFilter ? 'block' : 'none';
+  }
+
+  filterItems.forEach(item => {
+    item.addEventListener('click', () => {
+      if (item.classList.contains('active')) {
+        item.classList.remove('active');
+        activeFilter = null;
+      } else {
+        filterItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+        activeFilter = item.getAttribute('data-v');
+      }
+      applyFilter();
+    });
+  });
+
+  resetBtn.addEventListener('click', () => {
+    filterItems.forEach(i => i.classList.remove('active'));
+    activeFilter = null;
+    applyFilter();
+  });
+
+  searchInput.addEventListener('input', (e) => {
+    const term = e.target.value.toLowerCase();
+    filterItems.forEach(item => {
+      const text = item.querySelector('span').textContent.toLowerCase();
+      item.style.display = text.includes(term) ? 'flex' : 'none';
+    });
+  });
+</script>
+</body>
+</html>
