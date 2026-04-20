@@ -1,12 +1,7 @@
 """
 send_email.py
 =============
-Erzeugt eine wöchentliche HTML-Mail im Outlook-kompatiblen Tabellenlayout
-und versendet sie über Resend.
-
-Layout:
-- Table-based (kein flexbox, kein gap)
-- Inline-CSS (Outlook-kompatibel)
+Outlook-kompatible Wochenmail mit verbessertem Layout
 """
 
 import json
@@ -14,10 +9,13 @@ import os
 import requests
 from datetime import date, timedelta
 from pathlib import Path
-from collections import defaultdict
 
 RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 EMAIL_RECIPIENT = os.environ["EMAIL_RECIPIENT"]
+
+# Absender (WICHTIG: Domain muss bei Resend verifiziert sein)
+EMAIL_SENDER = "Lobbyregister Monitor <update@lobbyregister-bot.de>"
+
 
 # ──────────────────────────────────────────────────────────────
 # Daten laden
@@ -48,8 +46,22 @@ def format_date(iso_date):
         return iso_date
 
 
+def calc_delay_days(sending, upload):
+    try:
+        if not sending or not upload:
+            return ""
+        d1 = date.fromisoformat(sending)
+        d2 = date.fromisoformat(upload)
+        diff = (d2 - d1).days
+        if diff > 0:
+            return f" (+{diff} Tage)"
+        return ""
+    except:
+        return ""
+
+
 # ──────────────────────────────────────────────────────────────
-# Rendering: einzelne Einträge
+# Rendering-Helfer
 # ──────────────────────────────────────────────────────────────
 
 def render_badges(items):
@@ -85,11 +97,22 @@ def render_fields(fields):
     return html or "–"
 
 
+# ──────────────────────────────────────────────────────────────
+# Eintrag rendern
+# ──────────────────────────────────────────────────────────────
+
 def render_entry(stmt):
     title = stmt["regulatory_project_title"]
     org = stmt["org_name"]
-    sending = format_date(stmt.get("sending_date"))
-    upload = format_date(stmt.get("upload_date"))
+    org_url = stmt.get("org_url", "")
+
+    sending_raw = stmt.get("sending_date")
+    upload_raw = stmt.get("upload_date")
+
+    sending = format_date(sending_raw)
+    upload = format_date(upload_raw)
+    delay = calc_delay_days(sending_raw, upload_raw)
+
     recipients = stmt.get("recipients", [])
     fields = stmt.get("fields", [])
     summary = stmt.get("summary") or "Keine Beschreibung verfügbar."
@@ -98,56 +121,58 @@ def render_entry(stmt):
     pdf_url = stmt.get("pdf_url", "")
     pdf_pages = stmt.get("pdf_pages", 0)
 
+    org_html = f'<a href="{org_url}" style="color:#004B87;text-decoration:none;">{org}</a>' if org_url else org
+
     return f"""
-<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #d0d8e4;margin-bottom:14px;font-family:Arial,Helvetica,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #d0d8e4;margin-bottom:18px;font-family:Arial,Helvetica,sans-serif;font-size:12px;">
     
-    <!-- Zeile 1: Titel -->
+    <!-- Zeile 1 -->
     <tr>
-        <td colspan="2" style="background:#eef3f9;padding:10px 12px;font-weight:bold;color:#003366;">
+        <td colspan="2" style="background:#eef3f9;padding:6px 10px;font-weight:bold;color:#003366;">
             {title}
         </td>
     </tr>
 
     <!-- Zeile 2 -->
     <tr>
-        <td width="65%" style="padding:8px 12px;vertical-align:top;">
-            <div style="font-size:10px;color:#888;font-weight:bold;">Bereitgestellt von</div>
-            <div>{org}</div>
+        <td width="65%" style="padding:6px 10px;vertical-align:top;">
+            <div style="font-size:9px;color:#888;font-weight:bold;">Bereitgestellt von</div>
+            <div>{org_html}</div>
         </td>
-        <td width="35%" style="padding:8px 12px;vertical-align:top;">
-            <div style="font-size:10px;color:#888;font-weight:bold;">Stellungnahme</div>
+        <td width="35%" style="padding:6px 10px;vertical-align:top;">
+            <div style="font-size:9px;color:#888;font-weight:bold;">Stellungnahme</div>
             <div>{sending}</div>
-            <div style="font-size:10px;color:#888;font-weight:bold;margin-top:4px;">Hochgeladen</div>
-            <div>{upload}</div>
+            <div style="font-size:9px;color:#888;font-weight:bold;margin-top:3px;">Hochgeladen</div>
+            <div>{upload}{delay}</div>
         </td>
     </tr>
 
-    <!-- Zeile 3 -->
+    <!-- Zeile 3 (getauscht) -->
     <tr>
-        <td style="padding:8px 12px;vertical-align:top;">
-            <div style="font-size:10px;color:#888;font-weight:bold;">Adressaten</div>
-            {render_badges(recipients)}
-        </td>
-        <td style="padding:8px 12px;vertical-align:top;">
-            <div style="font-size:10px;color:#888;font-weight:bold;">Themenfelder</div>
+        <td style="padding:6px 10px;vertical-align:top;">
+            <div style="font-size:9px;color:#888;font-weight:bold;">Themenfelder</div>
             {render_fields(fields)}
+        </td>
+        <td style="padding:6px 10px;vertical-align:top;">
+            <div style="font-size:9px;color:#888;font-weight:bold;">Adressaten</div>
+            {render_badges(recipients)}
         </td>
     </tr>
 
     <!-- Zeile 4 -->
     <tr>
-        <td colspan="2" style="padding:8px 12px;">
-            <div style="font-size:10px;color:#888;font-weight:bold;">Inhalt</div>
-            <div style="line-height:1.5;">{summary}</div>
+        <td colspan="2" style="padding:6px 10px;">
+            <div style="font-size:9px;color:#888;font-weight:bold;">Inhalt</div>
+            <div style="line-height:1.4;">{summary}</div>
         </td>
     </tr>
 
     <!-- Zeile 5 -->
     <tr>
-        <td style="padding:8px 12px;">
-            {"<a href='" + stmt_url + "' style='color:#004B87;text-decoration:none;'>↗ Stellungnahme im Register</a>" if stmt_url else ""}
+        <td style="padding:6px 10px;">
+            {"<a href='" + stmt_url + "' style='color:#004B87;text-decoration:none;'>↗ Stellungnahme</a>" if stmt_url else ""}
         </td>
-        <td style="padding:8px 12px;">
+        <td style="padding:6px 10px;">
             {"<a href='" + pdf_url + "' style='color:#004B87;text-decoration:none;'>↗ PDF (" + str(pdf_pages) + " S.)</a>" if pdf_url else ""}
         </td>
     </tr>
@@ -157,33 +182,42 @@ def render_entry(stmt):
 
 
 # ──────────────────────────────────────────────────────────────
-# Gesamt-Mail
+# Mail bauen
 # ──────────────────────────────────────────────────────────────
 
 def build_email(statements):
     week_stmts = get_week_statements(statements)
 
-    if not week_stmts:
-        return "<p>Keine neuen Einträge diese Woche.</p>"
+    today = date.today()
+    kw = today.isocalendar()[1]
+
+    start = (today - timedelta(days=7)).strftime("%d.%m.")
+    end = today.strftime("%d.%m.%Y")
 
     entries_html = "".join(render_entry(s) for s in week_stmts)
 
     return f"""
 <html>
 <body style="background:#f5f5f5;margin:0;padding:20px;font-family:Arial,Helvetica,sans-serif;">
-    <div style="max-width:700px;margin:auto;background:#ffffff;padding:16px;">
-        
-        <h2 style="color:#003366;margin-top:0;">
-            Lobbyregister-Monitor – Wochenübersicht
-        </h2>
+<div style="max-width:700px;margin:auto;background:#ffffff;padding:16px;">
 
-        <p style="font-size:12px;color:#555;">
-            Neue Stellungnahmen der letzten 7 Tage
-        </p>
+<h2 style="color:#003366;margin-top:0;">
+Lobbyregister-Monitor – Wochenübersicht der KW {kw}
+</h2>
 
-        {entries_html}
+<p style="font-size:12px;color:#555;margin-bottom:6px;">
+Neue Stellungnahmen der letzten 7 Tage ({start}–{end})
+</p>
 
-    </div>
+<p style="font-size:13px;margin-bottom:16px;">
+<a href="https://lobbyregister-bot.de" style="color:#004B87;font-weight:bold;text-decoration:none;">
+Übersicht aller Einträge: lobbyregister-bot.de
+</a>
+</p>
+
+{entries_html}
+
+</div>
 </body>
 </html>
 """
@@ -201,7 +235,7 @@ def send_email(html):
             "Content-Type": "application/json",
         },
         json={
-            "from": "Lobbyregister Monitor <onboarding@resend.dev>",
+            "from": EMAIL_SENDER,
             "to": EMAIL_RECIPIENT,
             "subject": "Lobbyregister-Monitor – Wochenupdate",
             "html": html,
