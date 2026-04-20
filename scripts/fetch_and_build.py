@@ -1,16 +1,19 @@
 """
 fetch_and_build.py
 ==================
-Ruft Stellungnahmen über die offizielle Lobbyregister API V2 ab.
+Ruft Stellungnahmen ueber die offizielle Lobbyregister API V2 ab.
+
+INKREMENTELLER ABRUF:
+- Laedt vorherige data.json (aus GitHub Actions Cache)
+- Holt nur Registereintraege, die noch nicht verarbeitet wurden
+- Merged neue Eintraege mit bestehenden Daten
+- Vollstaendiger Neuabruf nur beim ersten Lauf oder bei leerem Cache
 
 Strategie:
-1. Alle Registereinträge per /registerentries mit Cursor-Pagination laden (Pre-Filter).
-2. Für jeden Eintrag:
-   a) Themenfelder auf Stellungnahme/Regelungsvorhaben-Ebene prüfen (STRIKTER FILTER)
-   b) Stellungnahmen extrahieren (statements)
-   c) Beschreibungen aus regulatoryProjects zuordnen
-   d) Empfänger- und Datumsfilter anwenden
-3. Gefilterte Stellungnahmen als HTML-Seite rendern
+1. Alle Registernummern per /registerentries laden (schnell, nur Liste)
+2. Nur NEUE Registernummern einzeln abrufen und filtern
+3. Vorherige + neue Stellungnahmen zusammenfuehren
+4. HTML-Seite rendern
 """
 
 import json
@@ -35,13 +38,9 @@ TARGET_FIELD_CODES = {
     "FOI_ENERGY_OVERALL", "FOI_ENERGY_RENEWABLE", "FOI_ENERGY_FOSSILE",
     "FOI_ENERGY_NET", "FOI_ENERGY_NUCLEAR", "FOI_ENERGY_OTHER",
     "FOI_ENERGY_ELECTRICITY", "FOI_ENERGY_GAS", "FOI_ENERGY_HYDROGEN",
-    "FOI_ENERGY",
-    "FOI_ENVIRONMENT_CLIMATE",
-    "FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS",
-    "FOI_BUNDESTAG",
-    "FOI_ECONOMY_COMPETITION_LAW",
-    "FOI_POLITICAL_PARTIES",
-    "FOI_OTHER",
+    "FOI_ENERGY", "FOI_ENVIRONMENT_CLIMATE",
+    "FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS", "FOI_BUNDESTAG",
+    "FOI_ECONOMY_COMPETITION_LAW", "FOI_POLITICAL_PARTIES", "FOI_OTHER",
 }
 
 FIELD_PRIORITY = {
@@ -75,7 +74,7 @@ API_SESSION.headers.update({
 })
 DEFAULT_PARAMS = {"format": "json", "apikey": API_KEY}
 
-# Separate Session für Nicht-API-Requests (PDF-URLs auf bundestag.de)
+# Separate Session fuer Nicht-API-Requests (PDF-URLs auf bundestag.de)
 WEB_SESSION = requests.Session()
 WEB_SESSION.headers.update({
     "Accept": "text/html",
@@ -94,8 +93,7 @@ def build_statement_url(sg_number):
     return f"https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/{sg_number}"
 
 def fetch_real_pdf_url(page_url):
-    """Lädt die Stellungnahmen-Seite und extrahiert den echten PDF-Link.
-    Nutzt WEB_SESSION (ohne API-Key), da die Anfrage an bundestag.de geht."""
+    """Nutzt WEB_SESSION (ohne API-Key), da die Anfrage an bundestag.de geht."""
     if not page_url: return ""
     try:
         resp = WEB_SESSION.get(page_url, timeout=10)
@@ -106,20 +104,41 @@ def fetch_real_pdf_url(page_url):
                 return f"https://www.lobbyregister.bundestag.de{path}" if path.startswith('/') else path
     except Exception:
         pass
-    return page_url 
+    return page_url
 
-# ── Schritt 1: Alle Registereinträge laden (Pre-Filter) ────────────────────────
+# ── Vorherige Daten laden ──────────────────────────────────────────────────────
+
+def load_previous_data():
+    """Laedt data.json aus dem Cache (vorheriger Lauf).
+    Gibt (statements_list, known_register_numbers_set) zurueck."""
+    data_path = Path("docs/data.json")
+    if not data_path.exists():
+        return [], set()
+
+    try:
+        with open(data_path, encoding="utf-8") as f:
+            data = json.load(f)
+        statements = data.get("statements", [])
+        # Alle Registernummern extrahieren, fuer die wir bereits Daten haben
+        known_rns = {s["register_number"] for s in statements if s.get("register_number")}
+        return statements, known_rns
+    except Exception as e:
+        print(f"  Vorherige Daten nicht lesbar: {e}")
+        return [], set()
+
+# ── Schritt 1: Alle Registernummern laden (schnell) ────────────────────────────
 
 def fetch_all_register_entries():
     register_numbers = []
     cursor = None
     page = 0
 
-    print("Schritt 1: Registereinträge über V2 API laden...")
+    print("Schritt 1: Registernummern ueber V2 API laden...")
 
     while True:
         params = {**DEFAULT_PARAMS}
-        if cursor: params["cursor"] = cursor
+        if cursor:
+            params["cursor"] = cursor
 
         try:
             resp = API_SESSION.get(f"{API_BASE}/registerentries", params=params, timeout=60)
@@ -130,36 +149,35 @@ def fetch_all_register_entries():
             break
 
         entries = data if isinstance(data, list) else data.get("results", data.get("registerEntries", []))
-        if not entries: break
+        if not entries:
+            break
 
         for entry in entries:
             if isinstance(entry, dict):
                 reg_num = entry.get("registerNumber", "")
-                if reg_num: register_numbers.append(reg_num)
+                if reg_num:
+                    register_numbers.append(reg_num)
 
         page += 1
 
-        # Cursor-Pagination: neuen Cursor aus Response lesen
+        # Cursor-Pagination: saubere Abbruchlogik
         new_cursor = data.get("cursor") if isinstance(data, dict) else None
-
         if not new_cursor:
-            # Kein Cursor → letzte Seite erreicht
             break
         if new_cursor == cursor:
-            # Cursor unverändert → Endlosschleife vermeiden
             break
-
         cursor = new_cursor
 
         if page % 10 == 0:
-            print(f"  Seite {page}: {len(register_numbers)} Einträge geladen...")
+            print(f"  Seite {page}: {len(register_numbers)} Eintraege geladen...")
 
-    print(f"  {len(register_numbers)} Registereinträge geladen.")
+    print(f"  {len(register_numbers)} Registernummern geladen.")
     return register_numbers
 
-# ── Schritt 2: Einzelabrufe und Stellungnahmen filtern ─────────────────────────
+# ── Schritt 2: Nur NEUE Eintraege einzeln abrufen ─────────────────────────────
 
 def fetch_and_filter_statements(register_numbers):
+    """Ruft einzelne Registereintraege ab und extrahiert relevante Stellungnahmen."""
     all_statements = []
     seen_keys = set()  # Deduplizierung
     total = len(register_numbers)
@@ -168,7 +186,7 @@ def fetch_and_filter_statements(register_numbers):
     no_relevant_fields = 0
     duplicates = 0
 
-    print(f"Schritt 2: {total} Einträge einzeln abrufen und filtern...")
+    print(f"Schritt 2: {total} neue Eintraege einzeln abrufen und filtern...")
 
     for i, reg_num in enumerate(register_numbers):
         try:
@@ -183,7 +201,7 @@ def fetch_and_filter_statements(register_numbers):
             skipped += 1
             continue
 
-        # Pre-Filter: Orga-Themenfelder prüfen
+        # Pre-Filter: Orga-Themenfelder pruefen
         entry_fields = extract_entry_fields(entry)
         entry_field_codes = {f["code"] for f in entry_fields}
         if not entry_field_codes & TARGET_FIELD_CODES:
@@ -194,7 +212,6 @@ def fetch_and_filter_statements(register_numbers):
         if not isinstance(statements_data, dict) or not statements_data.get("statementsPresent", False):
             no_statements += 1
             continue
-        
         stmts_list = statements_data.get("statements", [])
         if not stmts_list:
             no_statements += 1
@@ -206,9 +223,10 @@ def fetch_and_filter_statements(register_numbers):
         rp_lookup = build_rp_lookup(entry)
 
         for stmt in stmts_list:
-            result = process_statement(stmt, reg_num, org_name, upload_date, entry_fields, details_page_url, rp_lookup)
+            result = process_statement(stmt, reg_num, org_name, upload_date,
+                                       entry_fields, details_page_url, rp_lookup)
             if result:
-                # Deduplizierung: bevorzugt nach sg_number, sonst nach Kombi-Key
+                # Deduplizierung
                 dedup_key = None
                 if result.get("sg_number"):
                     dedup_key = result["sg_number"]
@@ -224,14 +242,15 @@ def fetch_and_filter_statements(register_numbers):
                 seen_keys.add(dedup_key)
                 all_statements.append(result)
 
-        if (i + 1) % 200 == 0:
+        if (i + 1) % 100 == 0:
             print(f"  {i+1}/{total}: {len(all_statements)} SN, {no_relevant_fields} kein Thema, "
                   f"{no_statements} keine SN, {skipped} Fehler, {duplicates} Duplikate")
 
-    print(f"  {len(all_statements)} relevante Stellungnahmen gefunden.")
-    print(f"  ({no_relevant_fields} ohne Themenfeld, {no_statements} ohne Stellungnahmen, "
-          f"{skipped} Fehler, {duplicates} Duplikate entfernt)")
+    print(f"  {len(all_statements)} neue relevante Stellungnahmen gefunden.")
+    if duplicates:
+        print(f"  ({duplicates} Duplikate entfernt)")
     return all_statements
+
 
 def extract_entry_fields(entry):
     ai = entry.get("activitiesAndInterests", {})
@@ -282,7 +301,8 @@ def build_rp_lookup(entry):
                 lookup[num] = {"description": desc, "fields": fields}
     return lookup
 
-def process_statement(stmt, register_number, org_name, upload_date, entry_fields, details_page_url, rp_lookup):
+def process_statement(stmt, register_number, org_name, upload_date,
+                      entry_fields, details_page_url, rp_lookup):
     if not isinstance(stmt, dict): return None
 
     sending_date = None
@@ -341,7 +361,7 @@ def process_statement(stmt, register_number, org_name, upload_date, entry_fields
 
     if stmt_fields:
         stmt_field_codes = {f["code"] for f in stmt_fields}
-        if not stmt_field_codes & TARGET_FIELD_CODES: return None 
+        if not stmt_field_codes & TARGET_FIELD_CODES: return None
         relevant_fields = [f for f in stmt_fields if f["code"] in TARGET_FIELD_CODES]
         display_fields = relevant_fields if relevant_fields else stmt_fields[:3]
         priority_codes = stmt_field_codes
@@ -376,10 +396,36 @@ def process_statement(stmt, register_number, org_name, upload_date, entry_fields
         "priority": priority,
     }
 
+# ── Merge & Deduplizierung ────────────────────────────────────────────────────
+
+def merge_statements(previous, new):
+    """Merged vorherige und neue Stellungnahmen, entfernt Duplikate.
+    Neue Eintraege ueberschreiben vorherige bei gleichem Key."""
+    seen = set()
+    merged = []
+
+    # Neue zuerst einfuegen (haben Vorrang)
+    for stmt in new:
+        key = stmt.get("sg_number") or (stmt["register_number"],
+              stmt["regulatory_project_title"], stmt.get("sending_date", ""))
+        if key not in seen:
+            seen.add(key)
+            merged.append(stmt)
+
+    # Vorherige nur wenn kein Duplikat
+    for stmt in previous:
+        key = stmt.get("sg_number") or (stmt["register_number"],
+              stmt["regulatory_project_title"], stmt.get("sending_date", ""))
+        if key not in seen:
+            seen.add(key)
+            merged.append(stmt)
+
+    return merged
+
 # ── HTML-Generierung ───────────────────────────────────────────────────────────
 
 def format_date_de(iso_date):
-    if not iso_date: return "–"
+    if not iso_date: return "\u2013"
     try:
         d = date.fromisoformat(iso_date)
         return d.strftime("%d.%m.%Y")
@@ -388,7 +434,8 @@ def format_date_de(iso_date):
 
 def get_weekday_de(iso_date):
     days = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
-    months = ["", "Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+    months = ["", "Januar", "Februar", "M\u00e4rz", "April", "Mai", "Juni",
+              "Juli", "August", "September", "Oktober", "November", "Dezember"]
     try:
         d = date.fromisoformat(iso_date)
         return f"{days[d.weekday()]}, {d.day}. {months[d.month]} {d.year}"
@@ -401,10 +448,10 @@ def render_entry_card(stmt):
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
     upload = format_date_de(stmt.get("upload_date"))
-    
-    summary = (stmt.get("summary", "") or "Keine Beschreibung verfügbar.")
+
+    summary = (stmt.get("summary", "") or "Keine Beschreibung verf\u00fcgbar.")
     summary = re.sub(r'<(?!/?b>)', '&lt;', summary).replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
-    
+
     recipients = stmt.get("recipients", [])
     fields = stmt.get("fields", [])
     pdf_url = stmt.get("pdf_url", "")
@@ -417,10 +464,10 @@ def render_entry_card(stmt):
     field_tags = "".join(f'<span class="tag">{f["label"]}</span>' for f in fields)
 
     sg_label = f" ({sg_number})" if sg_number else ""
-    stmt_link = f'<a href="{statement_url}" target="_blank">↗ Stellungnahme im Lobbyregister{sg_label}</a>' if statement_url else ''
-    pdf_link = f'<a href="{pdf_url}" target="_blank">↗ PDF herunterladen ({pdf_pages} Seiten)</a>' if pdf_url else '<span style="color:#999">Kein PDF</span>'
+    stmt_link = f'<a href="{statement_url}" target="_blank">\u2197 Stellungnahme im Lobbyregister{sg_label}</a>' if statement_url else ''
+    pdf_link = f'<a href="{pdf_url}" target="_blank">\u2197 PDF herunterladen ({pdf_pages} Seiten)</a>' if pdf_url else '<span style="color:#999">Kein PDF</span>'
 
-    html = (
+    return (
         f'<div class="entry-card" data-vorhaben="{title}">'
         f'<div class="row-title">{title}</div>'
         f'<div class="meta-row">'
@@ -438,7 +485,6 @@ def render_entry_card(stmt):
         f'<div class="lc">{pdf_link}</div>'
         f'</div></div>'
     )
-    return html
 
 def generate_html(statements, generated_at):
     by_date = defaultdict(list)
@@ -468,7 +514,8 @@ def generate_html(statements, generated_at):
     )
 
     gen_dt = datetime.fromisoformat(generated_at)
-    months_de = ["", "Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+    months_de = ["", "Januar", "Februar", "M\u00e4rz", "April", "Mai", "Juni",
+                 "Juli", "August", "September", "Oktober", "November", "Dezember"]
     gen_str = f"{gen_dt.day}. {months_de[gen_dt.month]} {gen_dt.year}, {gen_dt.strftime('%H:%M')} Uhr"
     fields_subtitle = ("Energie &amp; Wasserstoff, Klimaschutz, EU-Binnenmarkt, EU-Gesetzgebung, "
                        "Bundestag, Wettbewerbsrecht, Politisches Leben/Parteien, Sonstige")
@@ -487,29 +534,61 @@ def generate_html(statements, generated_at):
 # ── Hauptprogramm ──────────────────────────────────────────────────────────────
 
 def main():
-    print("=== Lobbyregister Monitor – Seitengenerierung (V2 API) ===")
-    
-    register_numbers = fetch_all_register_entries()
-    if not register_numbers:
-        print("WARNUNG: Keine Registereinträge geladen.")
+    print("=== Lobbyregister Monitor - Seitengenerierung (V2 API, inkrementell) ===")
 
-    statements = fetch_and_filter_statements(register_numbers)
-    print(f"Relevante Stellungnahmen gesamt: {len(statements)}")
+    # Vorherige Daten laden (aus Cache)
+    previous_statements, known_register_numbers = load_previous_data()
+    if previous_statements:
+        print(f"Cache: {len(previous_statements)} vorherige Eintraege aus "
+              f"{len(known_register_numbers)} Registernummern geladen.")
+    else:
+        print("Kein Cache vorhanden - vollstaendiger Erstabruf.")
 
+    # Schritt 1: Alle Registernummern laden (nur die Liste, schnell)
+    all_register_numbers = fetch_all_register_entries()
+    if not all_register_numbers:
+        print("WARNUNG: Keine Registereintraege geladen.")
+
+    # Neue Registernummern bestimmen
+    new_register_numbers = [rn for rn in all_register_numbers if rn not in known_register_numbers]
+    skipped_count = len(all_register_numbers) - len(new_register_numbers)
+
+    print(f"\nRegisternummern gesamt: {len(all_register_numbers)}")
+    print(f"  Bereits bekannt (uebersprungen): {skipped_count}")
+    print(f"  Neu zu pruefen: {len(new_register_numbers)}")
+
+    # Schritt 2: Nur neue Eintraege einzeln abrufen
+    if new_register_numbers:
+        new_statements = fetch_and_filter_statements(new_register_numbers)
+    else:
+        new_statements = []
+        print("\nKeine neuen Eintraege - nur HTML-Aktualisierung.")
+
+    # Merge: vorherige + neue, mit Deduplizierung
+    all_statements = merge_statements(previous_statements, new_statements)
+    all_statements.sort(
+        key=lambda x: (x.get("sending_date") or x.get("upload_date") or "0000-00-00"),
+        reverse=True
+    )
+
+    print(f"\nErgebnis: {len(all_statements)} Stellungnahmen gesamt "
+          f"({len(new_statements)} neu, {len(previous_statements)} aus Cache)")
+
+    # Speichern
     Path("docs").mkdir(exist_ok=True)
     generated_at = datetime.now().isoformat()
 
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump({
             "generated_at": generated_at,
-            "statements": sorted(statements, key=lambda x: (x.get("sending_date") or x.get("upload_date") or "0000-00-00"), reverse=True)
+            "statements": all_statements,
         }, f, ensure_ascii=False, indent=2)
 
-    html = generate_html(statements, generated_at)
+    html = generate_html(all_statements, generated_at)
     with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
-    print(f"Seite generiert: docs/index.html ({len(statements)} Einträge)")
+    print(f"Seite generiert: docs/index.html ({len(all_statements)} Eintraege)")
 
 if __name__ == "__main__":
     main()
