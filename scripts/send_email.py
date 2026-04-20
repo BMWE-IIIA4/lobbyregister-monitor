@@ -9,6 +9,7 @@ Zeigt bei Gemini-Ausfall einen Warnhinweis in der Mail an.
 
 import json
 import os
+import re
 import requests
 from datetime import datetime, date, timedelta
 from collections import defaultdict
@@ -18,15 +19,17 @@ RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 EMAIL_RECIPIENT = os.environ["EMAIL_RECIPIENT"]
 SITE_URL = os.environ.get("SITE_URL", "https://lobbyregister-bot.de")
 
+# Bereinigte Themenfeld-Zuordnung: nur tatsächlich vorkommende Codes,
+# keine Pipe-separierten Kombinationen aus der alten V1-API.
 THEME_ORDER = [
-    ("Energie & Wasserstoff", ["FOI_ENERGY", "FOI_ENERGY_RENEWABLE", "FOI_ENERGY_ELECTRICITY",
-                               "FOI_ENERGY_GAS", "FOI_ENERGY_HYDROGEN"]),
-    ("Klimaschutz",           ["FOI_ENVIRONMENT_CLIMATE", "FOI_ENVIRONMENT|FOI_ENVIRONMENT_CLIMATE"]),
-    ("EU-Binnenmarkt & EU-Gesetzgebung", ["FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS",
-                                          "FOI_EUROPEAN_UNION|FOI_EU_DOMESTIC_MARKET",
-                                          "FOI_EUROPEAN_UNION|FOI_EU_LAWS"]),
+    ("Energie & Wasserstoff", ["FOI_ENERGY", "FOI_ENERGY_OVERALL", "FOI_ENERGY_RENEWABLE",
+                               "FOI_ENERGY_FOSSILE", "FOI_ENERGY_NET", "FOI_ENERGY_NUCLEAR",
+                               "FOI_ENERGY_OTHER", "FOI_ENERGY_ELECTRICITY", "FOI_ENERGY_GAS",
+                               "FOI_ENERGY_HYDROGEN"]),
+    ("Klimaschutz",           ["FOI_ENVIRONMENT_CLIMATE"]),
+    ("EU-Binnenmarkt & EU-Gesetzgebung", ["FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS"]),
     ("Bundestag",             ["FOI_BUNDESTAG"]),
-    ("Wettbewerbsrecht",      ["FOI_ECONOMY_COMPETITION_LAW", "FOI_ECONOMY|FOI_ECONOMY_COMPETITION_LAW"]),
+    ("Wettbewerbsrecht",      ["FOI_ECONOMY_COMPETITION_LAW"]),
     ("Politisches Leben, Parteien", ["FOI_POLITICAL_PARTIES"]),
     ("Sonstige",              ["FOI_OTHER"]),
 ]
@@ -55,6 +58,16 @@ def format_date_de(iso_date):
         return iso_date
 
 
+def sanitize_summary_html(summary):
+    """Escaped HTML in Summaries, lässt aber <b> und </b> Tags durch.
+    Gleiche Logik wie in fetch_and_build.py render_entry_card."""
+    if not summary:
+        return ""
+    summary = re.sub(r'<(?!/?b>)', '&lt;', summary)
+    summary = summary.replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
+    return summary
+
+
 def assign_theme(stmt):
     field_codes = {f["code"] for f in stmt.get("fields", [])}
     for theme_name, codes in THEME_ORDER:
@@ -68,16 +81,17 @@ def render_entry_html(stmt):
     org = stmt["org_name"]
     sending = format_date_de(stmt.get("sending_date"))
     upload = format_date_de(stmt.get("upload_date"))
-    summary = stmt.get("summary") or ""
+    summary = sanitize_summary_html(stmt.get("summary", ""))
     if len(summary) > 400:
         summary = summary[:400] + "..."
     recipients = stmt.get("recipients", [])
     pdf_url = stmt.get("pdf_url", "")
     pdf_pages = stmt.get("pdf_pages", 0)
-    sn = stmt.get("statement_number", "")
+    # statement_number und sg_number: fetch_and_build.py liefert beides
+    sn = stmt.get("statement_number") or stmt.get("sg_number", "")
     rn = stmt.get("register_number", "")
     base = "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche"
-    stmt_url = f"{base}/{sn}/{rn}" if sn and rn else base
+    stmt_url = stmt.get("statement_url") or (f"{base}/{sn}" if sn else "")
 
     badges = "".join(
         f'<span style="display:inline-block;font-size:9px;padding:1px 5px;margin:1px 2px 1px 0;'
@@ -86,6 +100,10 @@ def render_entry_html(stmt):
 
     pdf_link = (f'<a href="{pdf_url}" style="color:#004B87;text-decoration:none">PDF ({pdf_pages} S.)</a>'
                 if pdf_url else "Kein PDF")
+
+    sn_label = f" ({sn})" if sn else ""
+    stmt_link = (f'<a href="{stmt_url}" style="color:#004B87;text-decoration:none;margin-right:16px">'
+                 f'Registereintrag{sn_label}</a>') if stmt_url else ""
 
     return f"""
     <div style="border:1px solid #d0d8e4;margin-bottom:8px;overflow:hidden">
@@ -98,7 +116,7 @@ def render_entry_html(stmt):
       </div>
       {'<div style="padding:7px 12px;font-size:12px;color:#333;border-top:1px solid #e0e8f0;line-height:1.55">' + summary + '</div>' if summary else ''}
       <div style="padding:5px 12px;font-size:11px;border-top:1px solid #e0e8f0;background:#f9fbfd">
-        <a href="{stmt_url}" style="color:#004B87;text-decoration:none;margin-right:16px">Registereintrag ({sn})</a> {pdf_link}
+        {stmt_link} {pdf_link}
       </div>
     </div>"""
 
