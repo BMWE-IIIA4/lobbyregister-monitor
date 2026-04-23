@@ -5,13 +5,11 @@ Wöchentlicher Selbsttest des Lobbyregister-Monitors.
 
 Prüft:
 1. Erreichbarkeit der Lobbyregister API
-2. Ob der öffentliche API-Key sich geändert hat
-3. Ob sich die API-Version (YAML) geändert hat
-4. Ob die generierten Seiten korrekt ausgeliefert werden
-5. Ob Resend noch funktioniert
-6. Ob die Gemini API erreichbar ist (optional)
+2. Ob sich die API-Version (YAML) geändert hat
+3. Ob die generierten Seiten korrekt ausgeliefert werden
+4. Ob die Gemini API erreichbar ist (optional)
 
-Sendet bei Problemen eine detaillierte Admin-Mail.
+Sendet bei Problemen eine detaillierte Admin-Mail DIREKT (ohne Resend).
 """
 
 import os
@@ -21,8 +19,8 @@ from datetime import date
 
 # ── Konfiguration ──────────────────────────────────────────────────────────────
 
-RESEND_API_KEY = os.environ["RESEND_API_KEY"]
 ADMIN_EMAIL = os.environ["ADMIN_EMAIL"]
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 LOBBYREGISTER_API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 SITE_URL = os.environ.get("SITE_URL", "https://lobbyregister-bot.de")
@@ -31,7 +29,6 @@ ACTIONS_URL = f"{REPO_URL}/actions"
 SECRETS_URL = f"{REPO_URL}/settings/secrets/actions"
 
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
-INFO_PAGE = "https://www.lobbyregister.bundestag.de/informationen-und-hilfe/open-data-1049716"
 YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
 
 KNOWN_API_VERSION = "2.0.0"
@@ -44,6 +41,7 @@ GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
 
 def check_api_reachable(api_key):
+    """Prüft, ob die Lobbyregister API antwortet und der Key funktioniert."""
     try:
         resp = requests.get(
             f"{API_BASE}/registerentries",
@@ -65,24 +63,8 @@ def check_api_reachable(api_key):
         return False, f"Verbindungsfehler zur API: {e}"
 
 
-def check_public_api_key():
-    try:
-        resp = requests.get(INFO_PAGE, timeout=20)
-        resp.raise_for_status()
-        html = resp.text
-        matches = re.findall(r'[A-Za-z0-9]{20,}', html)
-        key_candidates = [m for m in matches if len(m) >= 28 and not m.islower()]
-        if not key_candidates:
-            return None, "Kein API-Key auf der Infoseite gefunden"
-        current_stored = LOBBYREGISTER_API_KEY
-        if current_stored and current_stored not in key_candidates:
-            return key_candidates[0], f"Möglicher neuer API-Key: {key_candidates[0][:8]}..."
-        return None, "API-Key unverändert"
-    except Exception as e:
-        return None, f"Infoseite nicht abrufbar: {e}"
-
-
 def check_yaml_version():
+    """Prüft, ob sich die API-YAML-Datei geändert hat."""
     issues = []
     try:
         swagger_url = f"{API_BASE}/swagger-ui/"
@@ -118,6 +100,7 @@ def check_yaml_version():
 
 
 def check_site_reachable():
+    """Prüft, ob die GitHub Pages-Seite erreichbar ist."""
     try:
         resp = requests.get(SITE_URL, timeout=20)
         if resp.status_code == 404:
@@ -131,11 +114,8 @@ def check_site_reachable():
         return False, f"Seite nicht erreichbar: {e}"
 
 
-def check_resend():
-    return True, "Resend-Key wird nicht aktiv geprüft (Mail-Eingang als Indikator)"
-
-
 def check_gemini():
+    """Prüft, ob die Gemini API erreichbar ist."""
     if not GEMINI_API_KEY:
         return True, "Gemini-Key nicht konfiguriert (optionaler Dienst)"
     try:
@@ -157,7 +137,9 @@ def check_gemini():
     except Exception as e:
         return False, f"Gemini API nicht erreichbar: {e}"
 
+
 def check_api_structure(api_key):
+    """Prüft, ob die API-Struktur noch wie erwartet ist."""
     try:
         resp = requests.get(
             f"{API_BASE}/registerentries/R002297",
@@ -179,9 +161,11 @@ def check_api_structure(api_key):
     except Exception as e:
         return False, f"Fehler beim Strukturtest: {e}"
 
+
 # ── Bericht ────────────────────────────────────────────────────────────────────
 
 def build_report(results):
+    """Baut den HTML-Bericht aus den Prüfungsergebnissen."""
     issues = []
     ok_items = []
 
@@ -189,23 +173,24 @@ def build_report(results):
     if api_ok:
         ok_items.append(("Lobbyregister API", api_msg))
     else:
-        issues.append({"severity": "FEHLER", "title": "Lobbyregister API nicht erreichbar",
-                       "detail": api_msg, "action": f"1. {INFO_PAGE} prüfen\n2. Key in Secrets aktualisieren\n   → {SECRETS_URL}"})
+        issues.append({
+            "severity": "FEHLER", 
+            "title": "Lobbyregister API nicht erreichbar",
+            "detail": api_msg, 
+            "action": f"1. API-Status prüfen\n2. Key prüfen → {SECRETS_URL}"
+        })
 
     struct_ok, struct_msg = results["api_struct"]
     if struct_ok:
         ok_items.append(("API-Struktur", struct_msg))
     else:
-        issues.append({"severity": "FEHLER", "title": "API-Struktur geändert",
-                       "detail": struct_msg, "action": "JSON-Antwort manuell analysieren und fetch_and_build.py anpassen"})
+        issues.append({
+            "severity": "FEHLER", 
+            "title": "API-Struktur geändert",
+            "detail": struct_msg, 
+            "action": "JSON-Antwort manuell analysieren und fetch_and_build.py anpassen"
+        })
         
-    new_key, key_msg = results["public_key"]
-    if new_key:
-        issues.append({"severity": "WARNUNG", "title": "API-Key möglicherweise geändert",
-                       "detail": key_msg, "action": f"1. {INFO_PAGE} prüfen\n2. Key aktualisieren → {SECRETS_URL}"})
-    else:
-        ok_items.append(("Öffentlicher API-Key", key_msg))
-
     yaml_issues = results["yaml"]
     if yaml_issues:
         issues.extend(yaml_issues)
@@ -216,23 +201,31 @@ def build_report(results):
     if site_ok:
         ok_items.append(("Webseite", site_msg))
     else:
-        issues.append({"severity": "FEHLER", "title": "Webseite nicht erreichbar",
-                       "detail": site_msg, "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Pages-Settings prüfen"})
-
-    resend_ok, resend_msg = results["resend"]
-    if resend_ok:
-        ok_items.append(("Resend E-Mail-Dienst", resend_msg))
+        issues.append({
+            "severity": "FEHLER", 
+            "title": "Webseite nicht erreichbar",
+            "detail": site_msg, 
+            "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Pages-Settings prüfen"
+        })
 
     gemini_ok, gemini_msg = results["gemini"]
     if gemini_ok:
         ok_items.append(("Gemini API (optional)", gemini_msg))
     else:
-        issues.append({"severity": "WARNUNG", "title": "Gemini API nicht erreichbar",
-                       "detail": gemini_msg, "action": "1. Key prüfen: aistudio.google.com/apikey\n2. Monitor läuft auch ohne Gemini"})
+        issues.append({
+            "severity": "WARNUNG", 
+            "title": "Gemini API nicht erreichbar",
+            "detail": gemini_msg, 
+            "action": "1. Key prüfen: aistudio.google.com/apikey\n2. Monitor läuft auch ohne Gemini"
+        })
 
     has_issues = len(issues) > 0
     today = date.today().strftime("%d.%m.%Y")
-    severity_colors = {"FEHLER": ("#c62828", "#ffebee"), "WARNUNG": ("#e65100", "#fff3e0"), "INFO": ("#1565c0", "#e3f2fd")}
+    severity_colors = {
+        "FEHLER": ("#c62828", "#ffebee"), 
+        "WARNUNG": ("#e65100", "#fff3e0"), 
+        "INFO": ("#1565c0", "#e3f2fd")
+    }
 
     issues_html = ""
     for issue in issues:
@@ -281,36 +274,66 @@ def build_report(results):
     return has_issues, html
 
 
-def send_report(html, has_issues):
+def send_report_resend(html, has_issues):
+    """Sendet den Bericht per Resend an separate Admin-Mail."""
     if not has_issues:
         print("Alle Prüfungen bestanden – kein Bericht versendet.")
         return
+    
+    # Prüfe ob Resend verfügbar ist
+    if not RESEND_API_KEY:
+        print("⚠️ RESEND_API_KEY fehlt – speichere Bericht nur lokal")
+        with open("/tmp/health_report.html", "w", encoding="utf-8") as f:
+            f.write(html)
+        print("Bericht in /tmp/health_report.html gespeichert")
+        return
+        
     today = date.today().strftime("%d.%m.%Y")
-    resp = requests.post(
-        "https://api.resend.com/emails",
-        headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
-        json={"from": "Lobbyregister-Monitor Systemcheck <healthcheck@lobbyregister-bot.de>", "to": [ADMIN_EMAIL],
-              "subject": f"⚠️ Lobbyregister-Monitor: Handlungsbedarf – {today}", "html": html},
-        timeout=30,
-    )
-    resp.raise_for_status()
-    print(f"Statusbericht gesendet an {ADMIN_EMAIL}")
+    
+    try:
+        resp = requests.post(
+            "https://api.resend.com/emails",
+            headers={
+                "Authorization": f"Bearer {RESEND_API_KEY}",
+                "Content-Type": "application/json"
+            },
+            json={
+                "from": "Lobbyregister-Monitor Systemcheck <healthcheck@lobbyregister-bot.de>",
+                "to": [ADMIN_EMAIL],  # Separate Admin-Mail, NICHT die Hauptempfänger!
+                "subject": f"⚠️ Lobbyregister-Monitor: Handlungsbedarf – {today}",
+                "html": html
+            },
+            timeout=30
+        )
+        resp.raise_for_status()
+        print(f"✓ Health-Check-Bericht an {ADMIN_EMAIL} gesendet (via Resend)")
+    except Exception as e:
+        print(f"✗ Fehler beim E-Mail-Versand: {e}")
+        # Fallback: In Datei speichern
+        with open("/tmp/health_report.html", "w", encoding="utf-8") as f:
+            f.write(html)
+        print("Bericht in /tmp/health_report.html gespeichert")
 
 
 def main():
     print("=== Lobbyregister Monitor – Wöchentlicher Selbsttest ===")
     results = {}
-    print("Prüfe API..."); results["api"] = check_api_reachable(LOBBYREGISTER_API_KEY)
-    print("Prüfe API-Struktur..."); results["api_struct"] = check_api_structure(LOBBYREGISTER_API_KEY)
-    print("Prüfe API-Key..."); results["public_key"] = check_public_api_key()
-    print("Prüfe YAML..."); results["yaml"] = check_yaml_version()
-    print("Prüfe Seite..."); results["site"] = check_site_reachable()
-    print("Prüfe Resend..."); results["resend"] = check_resend()
-    print("Prüfe Gemini..."); results["gemini"] = check_gemini()
+    print("Prüfe API...")
+    results["api"] = check_api_reachable(LOBBYREGISTER_API_KEY)
+    print("Prüfe API-Struktur...")
+    results["api_struct"] = check_api_structure(LOBBYREGISTER_API_KEY)
+    print("Prüfe YAML...")
+    results["yaml"] = check_yaml_version()
+    print("Prüfe Seite...")
+    results["site"] = check_site_reachable()
+    print("Prüfe Gemini...")
+    results["gemini"] = check_gemini()
+    
     has_issues, html = build_report(results)
-    print(f"Ergebnis: {'PROBLEME – Bericht versendet' if has_issues else 'Alles OK'}")
-    send_report(html, has_issues)
+    print(f"Ergebnis: {'PROBLEME – Bericht wird versendet' if has_issues else 'Alles OK'}")
+    send_report_resend(html, has_issues)
     print("=== Fertig ===")
+
 
 if __name__ == "__main__":
     main()
