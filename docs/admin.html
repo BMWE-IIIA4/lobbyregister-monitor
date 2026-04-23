@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin-Panel – Lobbyregister-Monitor</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.6;color:#334155;background:#f8fafc}
+.login-screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+.login-box{background:#fff;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.1);padding:2rem;max-width:400px;width:100%;border-top:4px solid #004B87}
+.login-title{font-size:1.5rem;color:#0f172a;margin-bottom:1.5rem;text-align:center}
+.login-form input{width:100%;padding:0.75rem 1rem;border:1px solid #cbd5e1;border-radius:6px;font-size:0.95rem;margin-bottom:1rem}
+.login-form input:focus{outline:none;border-color:#004B87}
+.login-form button{width:100%;background:#004B87;color:#fff;padding:0.75rem;border:none;border-radius:6px;font-size:1rem;font-weight:600;cursor:pointer;transition:background 0.2s}
+.login-form button:hover{background:#003366}
+.error-msg{background:#fee2e2;color:#991b1b;padding:0.75rem;border-radius:6px;margin-bottom:1rem;font-size:0.875rem;display:none}
+.admin-panel{max-width:900px;margin:0 auto;padding:2rem}
+.panel-header{background:#004B87;color:#fff;padding:1.5rem;border-radius:12px 12px 0 0;margin-bottom:0}
+.panel-header h1{font-size:1.5rem;margin-bottom:0.5rem}
+.panel-header .subtitle{color:#a8c8e8;font-size:0.875rem}
+.panel-body{background:#fff;border-radius:0 0 12px 12px;padding:2rem;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+.info-box{background:#dbeafe;border:1px solid #93c5fd;border-left:3px solid #2563eb;padding:1rem 1.25rem;margin-bottom:2rem;border-radius:6px;font-size:0.875rem;color:#1e3a8a}
+.info-box strong{display:block;margin-bottom:0.25rem}
+.action-section{margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid #e2e8f0}
+.action-section:last-child{border-bottom:none}
+.action-title{font-size:1.1rem;color:#0f172a;margin-bottom:0.5rem;font-weight:700}
+.action-desc{color:#64748b;font-size:0.875rem;margin-bottom:1rem;line-height:1.5}
+.action-buttons{display:flex;gap:0.75rem;flex-wrap:wrap}
+.action-btn{background:#004B87;color:#fff;padding:0.6rem 1.25rem;border:none;border-radius:6px;font-size:0.875rem;font-weight:600;cursor:pointer;transition:all 0.2s;text-decoration:none;display:inline-block}
+.action-btn:hover{background:#003366;transform:translateY(-1px);text-decoration:none}
+.action-btn.secondary{background:#64748b}
+.action-btn.secondary:hover{background:#475569}
+.action-btn.success{background:#059669}
+.action-btn.success:hover{background:#047857}
+.code-snippet{background:#f1f5f9;border:1px solid #cbd5e1;padding:0.75rem 1rem;border-radius:6px;font-family:monospace;font-size:0.8rem;margin-top:0.75rem;color:#1e293b;overflow-x:auto}
+.logout-btn{display:inline-block;margin-top:1.5rem;color:#64748b;font-size:0.875rem;cursor:pointer;text-decoration:underline}
+.logout-btn:hover{color:#0f172a}
+.hint{background:#fef9c3;border-left:3px solid #eab308;padding:0.75rem 1rem;margin-top:1rem;border-radius:6px;font-size:0.85rem;color:#713f12}
+</style>
+</head>
+<body>
+
+<!-- Login-Screen -->
+<div class="login-screen" id="loginScreen">
+  <div class="login-box">
+    <h1 class="login-title">Admin-Panel</h1>
+    <div class="error-msg" id="errorMsg">Falsches Passwort</div>
+    <form class="login-form" id="loginForm">
+      <input type="password" id="passwordInput" placeholder="Passwort eingeben" autocomplete="current-password" required>
+      <button type="submit">Anmelden</button>
+    </form>
+  </div>
+</div>
+
+<!-- Admin-Panel (versteckt bis Login) -->
+<div class="admin-panel" id="adminPanel" style="display:none">
+  <div class="panel-header">
+    <h1>Lobbyregister-Monitor</h1>
+    <div class="subtitle">Administrative Steuerung</div>
+  </div>
+  <div class="panel-body">
+
+    <div class="info-box">
+      <strong>So funktioniert's:</strong>
+      Die Buttons leiten dich direkt zu GitHub Actions weiter. Dort klickst du auf "Run workflow" → Fertig! 
+      Kein Token, kein Backend – einfach praktische Shortcuts.
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">⚡ Kompletter Workflow (empfohlen)</div>
+      <div class="action-desc">Führt alle Schritte aus: Daten abrufen → Gemini → HTML neu bauen → Deploy. Entspricht dem automatischen Tages-Run.</div>
+      <div class="action-buttons">
+        <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/workflows/update.yml" target="_blank" class="action-btn success">
+          Workflow starten (ohne E-Mail)
+        </a>
+      </div>
+      <div class="hint">
+        💡 Auf GitHub → "Run workflow" klicken → "force_email" AUS lassen (default) → "Run workflow" bestätigen
+      </div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">📧 Kompletter Workflow + Test-Mail</div>
+      <div class="action-desc">Wie oben, aber versendet zusätzlich die Wochenmail (für Tests). <strong>Achtung:</strong> Kollegen werden benachrichtigt!</div>
+      <div class="action-buttons">
+        <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/workflows/update.yml" target="_blank" class="action-btn">
+          Workflow starten (MIT E-Mail)
+        </a>
+      </div>
+      <div class="hint">
+        💡 Auf GitHub → "Run workflow" klicken → "force_email" auf TRUE setzen → "Run workflow" bestätigen
+      </div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">🔍 Einzelne Schritte manuell ausführen</div>
+      <div class="action-desc">Falls du nur einen bestimmten Teil neu laufen lassen willst (z.B. nur HTML neu bauen nach Layout-Änderungen).</div>
+      <div class="code-snippet">
+# SSH in GitHub Codespace oder lokal:<br>
+cd lobbyregister-monitor<br>
+<br>
+# Nur Daten abrufen:<br>
+python scripts/fetch_and_build.py<br>
+<br>
+# Nur Gemini (KI-Filter + Zusammenfassungen):<br>
+python scripts/gemini_enrich.py<br>
+<br>
+# Nur Health-Check:<br>
+python scripts/health_check.py<br>
+<br>
+# Nur Mail versenden:<br>
+python scripts/send_email.py
+      </div>
+      <div class="hint">
+        💡 Secrets als Umgebungsvariablen setzen oder aus GitHub Actions kopieren
+      </div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">📊 Monitoring & Logs</div>
+      <div class="action-desc">Übersicht über bisherige Durchläufe, Fehler und Status.</div>
+      <div class="action-buttons">
+        <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions" target="_blank" class="action-btn secondary">
+          GitHub Actions öffnen
+        </a>
+        <a href="https://lobbyregister-bot.de/actions.html" target="_blank" class="action-btn secondary">
+          Workflow-Archiv (Webseite)
+        </a>
+      </div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">⚙️ Konfiguration</div>
+      <div class="action-desc">Secrets, Workflow-Einstellungen, Zeitpläne.</div>
+      <div class="action-buttons">
+        <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/settings/secrets/actions" target="_blank" class="action-btn secondary">
+          Secrets verwalten
+        </a>
+        <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/blob/main/.github/workflows/update.yml" target="_blank" class="action-btn secondary">
+          Workflow-Datei bearbeiten
+        </a>
+        <a href="https://lobbyregister-bot.de/wartung.html" target="_blank" class="action-btn secondary">
+          Wartungsdoku
+        </a>
+      </div>
+    </div>
+
+    <span class="logout-btn" onclick="logout()">Abmelden</span>
+  </div>
+</div>
+
+<script>
+// ── Passwort-Hashing (SHA-256) ────────────────────────────────────────────────
+async function hashPassword(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Gespeicherter Hash des Passworts (HIER ÄNDERN!)
+// Aktuell: "monitor2026"
+// Neues Passwort setzen: Browser-Console → await hashPassword("deinPasswort")
+const CORRECT_HASH = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855';
+
+// ── Login-Handling ─────────────────────────────────────────────────────────────
+document.getElementById('loginForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const password = document.getElementById('passwordInput').value;
+  const hash = await hashPassword(password);
+  
+  if (hash === CORRECT_HASH) {
+    sessionStorage.setItem('adminAuth', 'true');
+    showAdminPanel();
+  } else {
+    document.getElementById('errorMsg').style.display = 'block';
+  }
+});
+
+function showAdminPanel() {
+  document.getElementById('loginScreen').style.display = 'none';
+  document.getElementById('adminPanel').style.display = 'block';
+}
+
+function logout() {
+  sessionStorage.removeItem('adminAuth');
+  document.getElementById('loginScreen').style.display = 'flex';
+  document.getElementById('adminPanel').style.display = 'none';
+  document.getElementById('passwordInput').value = '';
+}
+
+// Session-Check beim Laden
+if (sessionStorage.getItem('adminAuth') === 'true') {
+  showAdminPanel();
+}
+</script>
+
+</body>
+</html>
