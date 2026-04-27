@@ -2,9 +2,9 @@ name: Lobbyregister Monitor
 
 on:
   schedule:
-    # Täglich um 01:00 UTC = 02:00 MEZ (Winter) / 03:00 MESZ (Sommer)
-    # Um konsistent 02:00 Berliner Winterzeit zu haben: 01:00 UTC
-    - cron: '0 1 * * *'
+    # Täglich um 05:00 UTC = 06:00 MEZ (Winter) / 07:00 MESZ (Sommer)
+    # Um konsistent 06:00 Berliner Winterzeit zu haben: 05:00 UTC
+    - cron: '0 5 * * *'
   workflow_dispatch:       # Manueller Start jederzeit möglich
     inputs:
       force_email:
@@ -146,7 +146,9 @@ jobs:
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
           SITE_URL: "https://lobbyregister-bot.de"
-        run: python scripts/send_email.py
+        run: |
+          python scripts/send_email.py
+          echo "EMAIL_SENT=true" >> $GITHUB_ENV
 
   health-check:
     name: Woechentlicher Selbsttest (montags, nur automatisch)
