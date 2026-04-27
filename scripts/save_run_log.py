@@ -15,10 +15,18 @@ BERLIN_TZ = ZoneInfo("Europe/Berlin")
 def main():
     log_file = Path("docs/run_history.json")
     
-    # Vorherige Logs laden
+    # Vorherige Logs laden oder neu initialisieren
     if log_file.exists():
-        with open(log_file, "r", encoding="utf-8") as f:
-            history = json.load(f)
+        try:
+            with open(log_file, "r", encoding="utf-8") as f:
+                history = json.load(f)
+                # Sicherstellen dass "runs" existiert und eine Liste ist
+                if not isinstance(history, dict):
+                    history = {"runs": []}
+                if "runs" not in history or not isinstance(history["runs"], list):
+                    history["runs"] = []
+        except (json.JSONDecodeError, ValueError):
+            history = {"runs": []}
     else:
         history = {"runs": []}
     
