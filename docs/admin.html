@@ -73,11 +73,12 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Aria
       <div class="action-desc">Führt alle Schritte aus: Daten abrufen → Gemini → HTML neu bauen → Deploy. Entspricht dem automatischen Tages-Run.</div>
       <div class="action-buttons">
         <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/workflows/update.yml" target="_blank" class="action-btn success">
-          Workflow starten (ohne E-Mail)
+          Workflow öffnen
         </a>
       </div>
       <div class="hint">
-        💡 Auf GitHub → "Run workflow" klicken → "force_email" AUS lassen (default) → "Run workflow" bestätigen
+        💡 <strong>OHNE E-Mail (für Tests):</strong><br>
+        Auf GitHub → "Run workflow" klicken → "force_email" <strong>AUS lassen</strong> (Standard) → "Run workflow" bestätigen
       </div>
     </div>
 
@@ -86,35 +87,24 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Aria
       <div class="action-desc">Wie oben, aber versendet zusätzlich die Wochenmail (für Tests). <strong>Achtung:</strong> Kollegen werden benachrichtigt!</div>
       <div class="action-buttons">
         <a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/workflows/update.yml" target="_blank" class="action-btn">
-          Workflow starten (MIT E-Mail)
+          Workflow öffnen
         </a>
       </div>
       <div class="hint">
-        💡 Auf GitHub → "Run workflow" klicken → "force_email" auf TRUE setzen → "Run workflow" bestätigen
+        💡 <strong>MIT E-Mail (nur für Mail-Tests):</strong><br>
+        Auf GitHub → "Run workflow" klicken → "force_email" auf <strong>TRUE</strong> setzen ☑ → "Run workflow" bestätigen
       </div>
     </div>
 
     <div class="action-section">
-      <div class="action-title">🔍 Einzelne Schritte manuell ausführen</div>
-      <div class="action-desc">Falls du nur einen bestimmten Teil neu laufen lassen willst (z.B. nur HTML neu bauen nach Layout-Änderungen).</div>
-      <div class="code-snippet">
-# SSH in GitHub Codespace oder lokal:<br>
-cd lobbyregister-monitor<br>
-<br>
-# Nur Daten abrufen:<br>
-python scripts/fetch_and_build.py<br>
-<br>
-# Nur Gemini (KI-Filter + Zusammenfassungen):<br>
-python scripts/gemini_enrich.py<br>
-<br>
-# Nur Health-Check:<br>
-python scripts/health_check.py<br>
-<br>
-# Nur Mail versenden:<br>
-python scripts/send_email.py
+      <div class="action-title">🔍 Einzelne Schritte ausführen</div>
+      <div class="action-desc">
+        <strong>Nicht möglich:</strong> Einzelne Schritte (nur Gemini, nur HTML, etc.) können nicht separat getriggert werden, 
+        da sie Secrets benötigen und in der GitHub Actions Umgebung laufen müssen.
       </div>
       <div class="hint">
-        💡 Secrets als Umgebungsvariablen setzen oder aus GitHub Actions kopieren
+        💡 <strong>Workaround:</strong> Wenn du nur das HTML neu bauen willst (z.B. nach Layout-Änderungen), 
+        starte den kompletten Workflow. Die Daten-Abruf-Phase ist schnell, wenn keine neuen Einträge da sind.
       </div>
     </div>
 
