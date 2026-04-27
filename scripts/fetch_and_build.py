@@ -498,7 +498,8 @@ def render_entry_card(stmt):
 def generate_html(statements, generated_at):
     by_date = defaultdict(list)
     for stmt in statements:
-        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
+        # NUR upload_date verwenden (nicht sending_date als Fallback!)
+        key = stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
 
     vorhaben_counts = defaultdict(int)
