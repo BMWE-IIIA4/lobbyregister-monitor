@@ -1,103 +1,116 @@
 """
 save_run_log.py
 ===============
-Erfasst die Ergebnisse eines Workflow-Durchlaufs und speichert sie
-in docs/run_history.json fuer die Actions-Archivseite.
-
-Wird nach allen anderen Steps ausgefuehrt.
+Speichert Workflow-Run-Informationen mit erweiterten Metriken.
 """
 
 import json
 import os
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
-DATA_PATH = Path("docs/data.json")
-HISTORY_PATH = Path("docs/run_history.json")
-MAX_HISTORY = 90  # Maximal 90 Eintraege behalten (~3 Monate)
-
-
-def load_history():
-    if HISTORY_PATH.exists():
-        try:
-            with open(HISTORY_PATH, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return []
-    return []
-
-
-def build_run_entry():
-    entry = {
-        "timestamp": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "run_id": os.environ.get("GITHUB_RUN_ID", ""),
-        "run_url": "",
-        "trigger": os.environ.get("GITHUB_EVENT_NAME", "unknown"),
-        "status": "ok",
-        "fetch": {},
-        "gemini": {},
-    }
-
-    # Link zu GitHub Actions
-    repo = os.environ.get("GITHUB_REPOSITORY", "")
-    run_id = os.environ.get("GITHUB_RUN_ID", "")
-    if repo and run_id:
-        entry["run_url"] = f"https://github.com/{repo}/actions/runs/{run_id}"
-
-    # Stats aus data.json lesen
-    if DATA_PATH.exists():
-        try:
-            with open(DATA_PATH, encoding="utf-8") as f:
-                data = json.load(f)
-
-            statements = data.get("statements", [])
-            entry["fetch"]["total_statements"] = len(statements)
-
-            # Gemini-Stats (falls vorhanden)
-            gs = data.get("gemini_stats") or {}
-            if gs:
-                entry["gemini"] = {
-                    "cached": sum(1 for s in statements if s.get("gemini_status") == "cached"),
-                    "processed": sum(1 for s in statements if s.get("gemini_status") == "processed"),
-                    "pending": sum(1 for s in statements if s.get("gemini_status") == "pending"),
-                    "filtered_out": len(data.get("gemini_filtered_out", [])),
-                }
-
-            # Neue vs. gecachte Eintraege zaehlen
-            cached_count = sum(1 for s in statements if s.get("gemini_status") == "cached")
-            entry["fetch"]["from_cache"] = cached_count
-            entry["fetch"]["new"] = len(statements) - cached_count
-
-        except Exception as e:
-            entry["status"] = f"error: {e}"
-    else:
-        entry["status"] = "error: data.json nicht gefunden"
-
-    return entry
-
+BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
 def main():
-    print("=== Run-Log speichern ===")
-
-    history = load_history()
-    new_entry = build_run_entry()
-    history.append(new_entry)
-
-    # Auf MAX_HISTORY begrenzen (aelteste entfernen)
-    if len(history) > MAX_HISTORY:
-        history = history[-MAX_HISTORY:]
-
-    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+    log_file = Path("docs/run_history.json")
+    
+    # Vorherige Logs laden
+    if log_file.exists():
+        with open(log_file, "r", encoding="utf-8") as f:
+            history = json.load(f)
+    else:
+        history = {"runs": []}
+    
+    # Aktuelle Daten laden um Metriken zu berechnen
+    data_file = Path("docs/data.json")
+    total_entries = 0
+    new_entries = 0
+    pending_entries = 0
+    filtered_entries = 0
+    
+    if data_file.exists():
+        with open(data_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            statements = data.get("statements", [])
+            total_entries = len(statements)
+            
+            # Neue Einträge = die in den letzten 24h hochgeladen wurden
+            from datetime import date, timedelta
+            today = date.today()
+            yesterday = today - timedelta(days=1)
+            
+            for stmt in statements:
+                upload_str = stmt.get("upload_date")
+                if upload_str:
+                    try:
+                        upload_date = date.fromisoformat(upload_str)
+                        if upload_date >= yesterday:
+                            new_entries += 1
+                    except:
+                        pass
+                
+                # Ausstehend = keine KI-Zusammenfassung
+                if not stmt.get("summary") or len(stmt.get("summary", "")) < 50:
+                    pending_entries += 1
+    
+    # Gemini-Cache für aussortierte Einträge
+    gemini_cache_file = Path("docs/gemini_cache.json")
+    if gemini_cache_file.exists():
+        with open(gemini_cache_file, "r", encoding="utf-8") as f:
+            cache = json.load(f)
+            filtered_entries = cache.get("filtered_count", 0)
+    
+    # E-Mail-Status prüfen
+    email_sent = os.environ.get("EMAIL_SENT", "false") == "true"
+    
+    # GitHub Actions Umgebungsvariablen
+    run_number = os.environ.get("GITHUB_RUN_NUMBER", "?")
+    run_id = os.environ.get("GITHUB_RUN_ID", "")
+    workflow = os.environ.get("GITHUB_WORKFLOW", "Lobbyregister Monitor")
+    event_name = os.environ.get("GITHUB_EVENT_NAME", "unknown")
+    
+    # Trigger-Typ bestimmen
+    if event_name == "schedule":
+        trigger = "Automatisch (täglich)"
+    elif event_name == "workflow_dispatch":
+        trigger = "Manuell"
+    else:
+        trigger = event_name
+    
+    # Run-URL
+    repo = os.environ.get("GITHUB_REPOSITORY", "BMWE-IIIA4/lobbyregister-monitor")
+    run_url = f"https://github.com/{repo}/actions/runs/{run_id}" if run_id else ""
+    
+    # Neuer Log-Eintrag mit erweiterten Metriken
+    now = datetime.now(BERLIN_TZ)
+    new_run = {
+        "timestamp": now.isoformat(),
+        "run_number": run_number,
+        "run_url": run_url,
+        "trigger": trigger,
+        "email_sent": email_sent,
+        "metrics": {
+            "total_entries": total_entries,
+            "new_entries": new_entries,
+            "pending_ai": pending_entries,
+            "filtered_out": filtered_entries
+        }
+    }
+    
+    # Hinzufügen (neueste zuerst)
+    history["runs"].insert(0, new_run)
+    
+    # Nur die letzten 50 Runs behalten
+    history["runs"] = history["runs"][:50]
+    
+    # Speichern
+    with open(log_file, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
-
-    total = new_entry.get("fetch", {}).get("total_statements", "?")
-    new = new_entry.get("fetch", {}).get("new", "?")
-    pending = new_entry.get("gemini", {}).get("pending", 0)
-
-    print(f"  Eintraege: {total} (davon {new} neu, {pending} pending)")
-    print(f"  Run-ID: {new_entry['run_id']}")
-    print(f"  Historie: {len(history)} Eintraege gespeichert")
-    print("=== Fertig ===")
+    
+    print(f"✓ Run-Log gespeichert: #{run_number} ({trigger})")
+    print(f"  Einträge: {total_entries} gesamt, {new_entries} neu, {pending_entries} ausstehend, {filtered_entries} aussortiert")
+    print(f"  E-Mail versendet: {'Ja' if email_sent else 'Nein'}")
 
 
 if __name__ == "__main__":
