@@ -14,6 +14,11 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:
 .info-box{background:#dbeafe;border-left:3px solid #2563eb;padding:1rem 1.5rem;font-size:0.875rem;color:#1e3a8a;line-height:1.5}
 .info-box strong{display:block;margin-bottom:0.25rem}
 .content{padding:2rem}
+.stats-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+.stat-card{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;text-align:center}
+.stat-label{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:0.5rem;font-weight:700}
+.stat-value{font-size:2rem;font-weight:700;color:#0f172a;font-variant-numeric:tabular-nums}
+.stat-value.stat-small{font-size:0.95rem;font-weight:600;color:#475569}
 .legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin-bottom:2rem;padding:1.5rem;background:#f8fafc;border-radius:8px}
 .legend-item{font-size:0.85rem}
 .legend-item strong{display:block;color:#0f172a;margin-bottom:0.25rem;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em}
@@ -52,6 +57,25 @@ tbody tr:hover{background:#f8fafc}
   </div>
 
   <div class="content">
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Durchläufe</div>
+        <div class="stat-value" id="totalRuns">–</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Aktuelle Einträge</div>
+        <div class="stat-value" id="currentEntries">–</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Fehlerhafte Läufe</div>
+        <div class="stat-value" id="failedRuns">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Letzter Lauf</div>
+        <div class="stat-value stat-small" id="lastRun">–</div>
+      </div>
+    </div>
+
     <div class="legend">
       <div class="legend-item">
         <strong>Einträge gesamt</strong>
@@ -104,6 +128,30 @@ async function loadLogs() {
     
     const data = await resp.json();
     const runs = data.runs || [];
+    
+    if (runs.length === 0) {
+      document.getElementById('logsBody').innerHTML = 
+        '<tr><td colspan="8" class="no-data">Noch keine Workflow-Runs protokolliert</td></tr>';
+      return;
+    }
+    
+    // Statistik-Balken füllen
+    const latestRun = runs[0];
+    const totalRuns = runs.length;
+    const failedRuns = 0; // Momentan keine Fehler-Tracking, könnte später hinzugefügt werden
+    const currentEntries = latestRun.metrics?.total_entries || 0;
+    const lastRunTime = new Date(latestRun.timestamp).toLocaleString('de-DE', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+    
+    document.getElementById('totalRuns').textContent = totalRuns;
+    document.getElementById('currentEntries').textContent = currentEntries;
+    document.getElementById('failedRuns').textContent = failedRuns;
+    document.getElementById('lastRun').textContent = lastRunTime;
     
     if (runs.length === 0) {
       document.getElementById('logsBody').innerHTML = 
