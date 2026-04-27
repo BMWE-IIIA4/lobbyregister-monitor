@@ -35,7 +35,22 @@ def render_entry_card(stmt):
     org = stmt["org_name"]
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
-    upload = format_date_de(stmt.get("upload_date"))
+    
+    # Verzögerung berechnen
+    upload_raw = stmt.get("upload_date")
+    sending_raw = stmt.get("sending_date")
+    delay = ""
+    if sending_raw and upload_raw:
+        try:
+            d1 = date.fromisoformat(sending_raw)
+            d2 = date.fromisoformat(upload_raw)
+            diff = (d2 - d1).days
+            if diff > 0:
+                delay = f" (+{diff} Tage)"
+        except:
+            pass
+    
+    upload = format_date_de(upload_raw) + delay
     
     summary = stmt.get("summary", "") or "Keine Beschreibung verfügbar."
     
@@ -119,10 +134,10 @@ def render_entry_card(stmt):
 def build_email_html(statements, week_start, week_end):
     """Baut die komplette E-Mail als HTML."""
     
-    # Nach Datum gruppieren
+    # Nach upload_date gruppieren (NICHT sending_date!)
     by_date = defaultdict(list)
     for stmt in statements:
-        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
+        key = stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
     
     # Einträge nach Datum sortiert rendern
@@ -210,7 +225,8 @@ def main():
     
     recent = []
     for stmt in statements:
-        upload_str = stmt.get("upload_date") or stmt.get("sending_date")
+        # NUR upload_date verwenden
+        upload_str = stmt.get("upload_date")
         if not upload_str:
             continue
         try:
