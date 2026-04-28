@@ -509,6 +509,7 @@ def generate_html(statements, generated_at):
     day_sections_html = ""
     for iso_date, day_stmts in sorted(by_date.items(), reverse=True):
         day_stmts_sorted = sorted(day_stmts, key=lambda x: x.get("priority", 99))
+        # Tag-Label basiert auf upload_date (nicht sending_date!)
         day_label = get_weekday_de(iso_date)
         cards = "".join(render_entry_card(s) for s in day_stmts_sorted)
         day_sections_html += (
