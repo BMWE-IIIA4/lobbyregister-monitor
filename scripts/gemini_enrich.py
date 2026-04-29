@@ -179,7 +179,20 @@ def render_entry_card(stmt):
     org = stmt["org_name"].replace('<', '&lt;').replace('>', '&gt;')
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
-    upload = format_date_de(stmt.get("upload_date"))
+    upload_raw = stmt.get("upload_date")
+    sending_raw = stmt.get("sending_date")
+    delay = ""
+    if sending_raw and upload_raw:
+        try:
+            from datetime import date as _date
+            d1 = _date.fromisoformat(sending_raw)
+            d2 = _date.fromisoformat(upload_raw)
+            diff = (d2 - d1).days
+            if diff > 0:
+                delay = f" (+{diff} Tage)"
+        except Exception:
+            pass
+    upload = format_date_de(upload_raw) + delay
     summary = stmt.get("summary", "") or "Keine Beschreibung verf\u00fcgbar."
     summary = re.sub(r'<(?!/?b>)', '&lt;', summary).replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
     recipients = stmt.get("recipients", [])
@@ -219,7 +232,7 @@ def generate_html(statements, generated_at, pending_dates):
     by_date = defaultdict(list)
     vorhaben_counts = defaultdict(int)
     for stmt in statements:
-        key = stmt.get("sending_date") or stmt.get("upload_date") or "unbekannt"
+        key = stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
         vorhaben_counts[stmt["regulatory_project_title"]] += 1
     day_sections_html = ""
@@ -239,7 +252,9 @@ def generate_html(statements, generated_at, pending_dates):
             f'</div>'
         )
     filter_items = "".join(f'<li data-v="{v.replace(chr(34), chr(39))}"><span>{v}</span><span class="filter-count">{c}</span></li>' for v, c in sorted(vorhaben_counts.items(), key=lambda x: -x[1]))
-    gen_dt = datetime.fromisoformat(generated_at)
+    from zoneinfo import ZoneInfo
+    BERLIN_TZ = ZoneInfo("Europe/Berlin")
+    gen_dt = datetime.fromisoformat(generated_at).astimezone(BERLIN_TZ)
     months_de = ["", "Januar", "Februar", "M\u00e4rz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
     with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
         html = f.read()
@@ -408,3 +423,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+                    
