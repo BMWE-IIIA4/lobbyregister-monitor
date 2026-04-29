@@ -432,4 +432,19 @@ def main():
 
         d = stmt.get("sending_date") or stmt.get("upload_date")
         pending_dates.add(d if d else "unbekannt")
-    
+
+    final_statements.sort(key=lambda x: (x.get("upload_date") or "0000-00-00"), reverse=True)
+
+    # 4. Daten speichern
+    data["statements"] = final_statements
+    data["gemini_filtered_out"] = filtered_out
+    with open(DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # 5. HTML mit aktuellen Daten neu bauen
+    generate_html(final_statements, data.get("generated_at", datetime.now().isoformat()), pending_dates)
+
+    print(f"Fertig. {len(final_statements)} Eintraege | {api_calls_made} API-Calls | {len(pending_dates)} Tage pending")
+
+if __name__ == "__main__":
+    main()
