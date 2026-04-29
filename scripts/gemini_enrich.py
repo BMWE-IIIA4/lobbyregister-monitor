@@ -174,6 +174,21 @@ def get_weekday_de(iso_date):
         return f"{days[d.weekday()]}, {d.day}. {months[d.month]} {d.year}"
     except Exception: return iso_date
 
+def is_deadline_exceeded(sending_raw, upload_raw):
+    """Prüft ob Quartalsfrist überschritten: Upload nach Ende des Quartals der Stellungnahme."""
+    if not sending_raw or not upload_raw:
+        return False
+    try:
+        from datetime import date as _date
+        sending = _date.fromisoformat(sending_raw)
+        upload = _date.fromisoformat(upload_raw)
+        quarter_end_month = ((sending.month - 1) // 3 + 1) * 3
+        last_day = 31 if quarter_end_month in [3, 12] else 30
+        quarter_end = _date(sending.year, quarter_end_month, last_day)
+        return upload > quarter_end
+    except Exception:
+        return False
+
 def render_entry_card(stmt):
     title = stmt["regulatory_project_title"].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
     org = stmt["org_name"].replace('<', '&lt;').replace('>', '&gt;')
@@ -192,6 +207,16 @@ def render_entry_card(stmt):
                 delay = f" (+{diff} Tage)"
         except Exception:
             pass
+    overdue = is_deadline_exceeded(sending_raw, upload_raw)
+    if overdue:
+        upload_display = (f'<span style="color:#d97706;font-weight:600">'
+                         f'{format_date_de(upload_raw)}{delay}</span>'
+                         f'<span style="display:inline-block;background:#fef3c7;color:#92400e;'
+                         f'font-size:0.65rem;font-weight:700;padding:0.15rem 0.5rem;'
+                         f'border-radius:12px;margin-left:0.4rem;border:1px solid #fde68a">'
+                         f'Frist überschritten</span>')
+    else:
+        upload_display = f'{format_date_de(upload_raw)}{delay}'
     upload = format_date_de(upload_raw) + delay
     summary = stmt.get("summary", "") or "Keine Beschreibung verf\u00fcgbar."
     summary = re.sub(r'<(?!/?b>)', '&lt;', summary).replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
@@ -215,7 +240,7 @@ def render_entry_card(stmt):
         f'<div class="meta-row">'
         f'<div class="mc grow"><strong>Bereitgestellt von</strong>{org_html}</div>'
         f'<div class="mc fixd"><strong>Datum Stellungnahme</strong>{sending}</div>'
-        f'<div class="mc fixd"><strong>Hochgeladen am</strong>{upload}</div>'
+        f'<div class="mc fixd"><strong>Hochgeladen am</strong>{upload_display}</div>'
         f'</div>'
         f'<div class="meta-row two-col">'
         f'<div class="mc half"><strong>Adressaten</strong>{recip_badges}</div>'
@@ -407,20 +432,4 @@ def main():
 
         d = stmt.get("sending_date") or stmt.get("upload_date")
         pending_dates.add(d if d else "unbekannt")
-
-    final_statements.sort(key=lambda x: (x.get("upload_date") or "0000-00-00"), reverse=True)
-
-    # 4. Daten speichern
-    data["statements"] = final_statements
-    data["gemini_filtered_out"] = filtered_out
-    with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    # 5. HTML mit aktuellen Daten neu bauen
-    generate_html(final_statements, data.get("generated_at", datetime.now().isoformat()), pending_dates)
-
-    print(f"Fertig. {len(final_statements)} Eintraege | {api_calls_made} API-Calls | {len(pending_dates)} Tage pending")
-
-if __name__ == "__main__":
-    main()
-                    
+    
