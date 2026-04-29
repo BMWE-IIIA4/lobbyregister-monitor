@@ -35,30 +35,22 @@ def render_entry_card(stmt):
     org = stmt["org_name"]
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
-    
-    # Verzögerung berechnen
-    upload_raw = stmt.get("upload_date")
-    sending_raw = stmt.get("sending_date")
-    delay = ""
-    if sending_raw and upload_raw:
-        try:
-            d1 = date.fromisoformat(sending_raw)
-            d2 = date.fromisoformat(upload_raw)
-            diff = (d2 - d1).days
-            if diff > 0:
-                delay = f" (+{diff} Tage)"
-        except:
-            pass
-    
-    upload = format_date_de(upload_raw) + delay
+    upload = format_date_de(stmt.get("upload_date"))
     
     summary = stmt.get("summary", "") or "Keine Beschreibung verfügbar."
     
-    # HTML-Tags erlauben (für <b> von Gemini), aber andere Zeichen escapen
-    summary = summary.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-    # <b> und </b> wieder herstellen
-    summary = summary.replace('&lt;b&gt;', '<b style="background:#fef9c3;padding:0.1rem 0.2rem;border-radius:2px;font-weight:700">')
-    summary = summary.replace('&lt;/b&gt;', '</b>')
+    # Farbige Keywords (wie auf der Webseite)
+    # Wichtige Begriffe fett markieren
+    keywords = [
+        "Priorisierung", "Erdkabeln", "Freileitungen", "EU-Gasmarktpakets",
+        "Transformationsregulierung", "Investitionssicherheit", "Wasserstoffverteilernetz",
+        "Rechtssicherheit", "Heizungstauschoptionen", "Förderrahmen", "BEG",
+        "Endkunden", "Hersteller", "Planungssicherheit", "GEG", "Gebäudeenergiegesetz"
+    ]
+    
+    for kw in keywords:
+        if kw in summary:
+            summary = summary.replace(kw, f"<b>{kw}</b>")
     
     recipients = stmt.get("recipients", [])
     fields = stmt.get("fields", [])
@@ -134,10 +126,10 @@ def render_entry_card(stmt):
 def build_email_html(statements, week_start, week_end):
     """Baut die komplette E-Mail als HTML."""
     
-    # Nach upload_date gruppieren (NICHT sending_date!)
+    # Nach Datum gruppieren
     by_date = defaultdict(list)
     for stmt in statements:
-        key = stmt.get("upload_date") or "unbekannt"
+        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
         by_date[key].append(stmt)
     
     # Einträge nach Datum sortiert rendern
@@ -225,8 +217,7 @@ def main():
     
     recent = []
     for stmt in statements:
-        # NUR upload_date verwenden
-        upload_str = stmt.get("upload_date")
+        upload_str = stmt.get("upload_date") or stmt.get("sending_date")
         if not upload_str:
             continue
         try:
@@ -277,3 +268,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+        
