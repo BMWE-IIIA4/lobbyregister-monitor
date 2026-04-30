@@ -138,7 +138,90 @@ def check_gemini():
         return False, f"Gemini API nicht erreichbar: {e}"
 
 
-def check_api_structure(api_key):
+def check_data_freshness():
+    """Prüft ob data.json auf der Webseite aktuell ist (max. 48h alt)."""
+    try:
+        resp = requests.get(f"{SITE_URL}/data.json", timeout=20)
+        if resp.status_code != 200:
+            return False, f"data.json nicht abrufbar (Status {resp.status_code})"
+        data = resp.json()
+        generated_at = data.get("generated_at", "")
+        if not generated_at:
+            return False, "data.json enthält kein 'generated_at'-Feld"
+        from datetime import datetime, timezone
+        gen_dt = datetime.fromisoformat(generated_at)
+        if gen_dt.tzinfo is None:
+            gen_dt = gen_dt.replace(tzinfo=timezone.utc)
+        age_hours = (datetime.now(timezone.utc) - gen_dt).total_seconds() / 3600
+        if age_hours > 48:
+            return False, f"data.json ist {age_hours:.0f} Stunden alt – Workflow läuft möglicherweise nicht"
+        count = len(data.get("statements", []))
+        return True, f"data.json aktuell ({age_hours:.0f}h alt, {count} Einträge)"
+    except Exception as e:
+        return False, f"data.json-Prüfung fehlgeschlagen: {e}"
+
+
+def check_admin_hash_injected():
+    """Prüft ob der Admin-Passwort-Hash korrekt injiziert wurde."""
+    try:
+        resp = requests.get(f"{SITE_URL}/admin.html", timeout=20)
+        if resp.status_code != 200:
+            return False, f"admin.html nicht abrufbar (Status {resp.status_code})"
+        if "{{ADMIN_PASSWORD_HASH}}" in resp.text:
+            return False, "Platzhalter {{ADMIN_PASSWORD_HASH}} noch in admin.html – inject_admin_hash.py fehlgeschlagen"
+        if "CORRECT_HASH" not in resp.text:
+            return False, "admin.html enthält keinen Hash-Eintrag – Struktur unerwartet"
+        return True, "Admin-Passwort-Hash korrekt injiziert"
+    except Exception as e:
+        return False, f"admin.html-Prüfung fehlgeschlagen: {e}"
+
+
+def check_run_history():
+    """Prüft ob run_history.json existiert und einen aktuellen Eintrag hat."""
+    try:
+        resp = requests.get(f"{SITE_URL}/run_history.json", timeout=20)
+        if resp.status_code != 200:
+            return False, f"run_history.json nicht abrufbar (Status {resp.status_code})"
+        data = resp.json()
+        runs = data.get("runs", [])
+        if not runs:
+            return False, "run_history.json enthält keine Einträge"
+        from datetime import datetime, timezone
+        latest = runs[0].get("timestamp", "")
+        if not latest:
+            return False, "Letzter Eintrag hat keinen Zeitstempel"
+        last_dt = datetime.fromisoformat(latest)
+        if last_dt.tzinfo is None:
+            last_dt = last_dt.replace(tzinfo=timezone.utc)
+        age_hours = (datetime.now(timezone.utc) - last_dt).total_seconds() / 3600
+        if age_hours > 48:
+            return False, f"Letzter protokollierter Run ist {age_hours:.0f}h her"
+        return True, f"run_history.json aktuell ({len(runs)} Einträge, letzter vor {age_hours:.0f}h)"
+    except Exception as e:
+        return False, f"run_history.json-Prüfung fehlgeschlagen: {e}"
+
+
+def check_resend_sender():
+    """Prüft ob die Wochenmail-Absenderadresse über Resend erreichbar ist."""
+    if not RESEND_API_KEY:
+        return True, "RESEND_API_KEY nicht konfiguriert – übersprungen"
+    try:
+        resp = requests.get(
+            "https://api.resend.com/domains",
+            headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
+            timeout=20
+        )
+        if resp.status_code == 401:
+            return False, "Resend API-Key ungültig oder abgelaufen"
+        if resp.status_code != 200:
+            return False, f"Resend API antwortet mit Status {resp.status_code}"
+        domains = resp.json().get("data", [])
+        verified = [d["name"] for d in domains if d.get("status") == "verified"]
+        if "lobbyregister-bot.de" not in verified:
+            return False, f"Domain lobbyregister-bot.de nicht verifiziert. Verifiziert: {verified or 'keine'}"
+        return True, f"Resend OK – Domain lobbyregister-bot.de verifiziert"
+    except Exception as e:
+        return False, f"Resend-Prüfung fehlgeschlagen: {e}"
     """Prüft, ob die API-Struktur noch wie erwartet ist."""
     try:
         resp = requests.get(
@@ -202,10 +285,54 @@ def build_report(results):
         ok_items.append(("Webseite", site_msg))
     else:
         issues.append({
-            "severity": "FEHLER", 
+            "severity": "FEHLER",
             "title": "Webseite nicht erreichbar",
-            "detail": site_msg, 
+            "detail": site_msg,
             "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Pages-Settings prüfen"
+        })
+
+    fresh_ok, fresh_msg = results["data_freshness"]
+    if fresh_ok:
+        ok_items.append(("Daten-Aktualität", fresh_msg))
+    else:
+        issues.append({
+            "severity": "FEHLER",
+            "title": "Daten veraltet oder nicht abrufbar",
+            "detail": fresh_msg,
+            "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Workflow manuell starten"
+        })
+
+    hash_ok, hash_msg = results["admin_hash"]
+    if hash_ok:
+        ok_items.append(("Admin-Hash", hash_msg))
+    else:
+        issues.append({
+            "severity": "WARNUNG",
+            "title": "Admin-Panel Passwort-Hash fehlt",
+            "detail": hash_msg,
+            "action": "1. Secret ADMIN_PASSWORD_HASH prüfen\n2. Workflow neu starten"
+        })
+
+    hist_ok, hist_msg = results["run_history"]
+    if hist_ok:
+        ok_items.append(("Run-History", hist_msg))
+    else:
+        issues.append({
+            "severity": "WARNUNG",
+            "title": "Workflow-Protokoll veraltet oder fehlt",
+            "detail": hist_msg,
+            "action": f"1. save_run_log.py-Schritt in Actions prüfen: {ACTIONS_URL}"
+        })
+
+    resend_ok, resend_msg = results["resend_sender"]
+    if resend_ok:
+        ok_items.append(("Resend (Wochenmail)", resend_msg))
+    else:
+        issues.append({
+            "severity": "WARNUNG",
+            "title": "Resend-Domain nicht verifiziert",
+            "detail": resend_msg,
+            "action": "1. resend.com öffnen\n2. Domain lobbyregister-bot.de verifizieren"
         })
 
     gemini_ok, gemini_msg = results["gemini"]
@@ -326,6 +453,14 @@ def main():
     results["yaml"] = check_yaml_version()
     print("Prüfe Seite...")
     results["site"] = check_site_reachable()
+    print("Prüfe Daten-Aktualität...")
+    results["data_freshness"] = check_data_freshness()
+    print("Prüfe Admin-Hash...")
+    results["admin_hash"] = check_admin_hash_injected()
+    print("Prüfe Run-History...")
+    results["run_history"] = check_run_history()
+    print("Prüfe Resend-Sender...")
+    results["resend_sender"] = check_resend_sender()
     print("Prüfe Gemini...")
     results["gemini"] = check_gemini()
     
