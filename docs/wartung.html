@@ -35,19 +35,25 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <p style="color:#94a3b8;font-size:12px">Lobbyregister-Monitor &middot; Interne Dokumentation</p>
 
 <div class="warn">
-  <strong>Wichtig:</strong> Echte Zugangsdaten sind ausschlie&szlig;lich als GitHub Secrets hinterlegt.
+  <strong>Wichtig:</strong> Echte Zugangsdaten sind ausschlie&szlig;lich als GitHub Secrets hinterlegt. Niemals in den Code eintragen.
 </div>
 
 <h2>1. System&uuml;bersicht</h2>
 <p>Der Lobbyregister-Monitor ruft <strong>t&auml;glich inkrementell</strong> Stellungnahmen ab:</p>
 <ul>
   <li>Nur neue Registereintr&auml;ge werden von der API geladen (bereits bekannte werden &uuml;bersprungen)</li>
-  <li>KI-Pr&uuml;fung (Gemini 3.1 Flash Lite) mit lokalem Cache &ndash; bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut gesendet</li>
+  <li>KI-Pr&uuml;fung (Gemini 3.1 Flash Lite) mit lokalem Cache – bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut verarbeitet</li>
   <li>Budgetlimit: max. 100 KI-Calls pro Durchlauf</li>
-  <li>&Uuml;bersichtsseite auf GitHub Pages mit Pagination</li>
+  <li>&Uuml;bersichtsseite auf GitHub Pages, sortiert nach Upload-Datum</li>
+  <li>Ampelfarben zeigen Zeitverzug zwischen Stellungnahme-Datum und Upload an</li>
+  <li>Filterung nach Regelungsvorhaben und Institutionen (kombinierbar)</li>
 </ul>
-<p>Zus&auml;tzlich <strong>jeden Montag</strong>: Wochenmail und Selbsttest.</p>
-<p>Ablauf: t&auml;glich um <strong>6:00 Uhr MESZ</strong> (4:00 UTC).</p>
+<p>Zus&auml;tzlich <strong>jeden Montag</strong>: Wochenmail (nur bei automatischem Trigger) und Selbsttest.</p>
+<p>Ablauf: t&auml;glich um <strong>01:00 Uhr MEZ</strong> (= 00:00 UTC).</p>
+
+<div class="warn">
+  <strong>Sommerzeit:</strong> GitHub Actions kennt keine Berliner Zeit. Im Sommer (MESZ = UTC+2) l&auml;uft der Workflow um 02:00 Uhr statt 01:00 Uhr. Dies ist technisch bedingt und akzeptiert.
+</div>
 
 <h2>2. Zugangsdaten und Secrets</h2>
 <p>GitHub Repository &rarr; Settings &rarr; Secrets and variables &rarr; Actions.</p>
@@ -57,13 +63,23 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <tr><td><code>LOBBYREGISTER_API_KEY</code></td><td>&Ouml;ffentlicher API-Key des Lobbyregisters</td></tr>
   <tr><td><code>GEMINI_API_KEY</code></td><td>Google Gemini API-Key (Free Tier, Account: lobbyregister.bot@gmail.com)</td></tr>
   <tr><td><code>RESEND_API_KEY</code></td><td>Resend API-Key f&uuml;r E-Mail-Versand (<code>re_XXXX...</code>)</td></tr>
-  <tr><td><code>EMAIL_RECIPIENT</code></td><td>Empf&auml;nger der w&ouml;chentlichen Mail</td></tr>
-  <tr><td><code>ADMIN_EMAIL</code></td><td>Empf&auml;nger f&uuml;r Fehlerbenachrichtigungen</td></tr>
+  <tr><td><code>EMAIL_RECIPIENT</code></td><td>Empf&auml;nger der w&ouml;chentlichen Update-Mail (Montags)</td></tr>
+  <tr><td><code>ADMIN_EMAIL</code></td><td>Empf&auml;nger f&uuml;r Health-Check-Berichte bei Problemen</td></tr>
+  <tr><td><code>ADMIN_PASSWORD_HASH</code></td><td>SHA-256-Hash des Admin-Panel-Passworts (wird beim Build in admin.html injiziert)</td></tr>
 </table>
+
+<h3>Admin-Passwort &auml;ndern</h3>
+<p>Das Passwort des Admin-Panels liegt nie im Klartext im Code, sondern als Hash im Secret <code>ADMIN_PASSWORD_HASH</code>. Um das Passwort zu &auml;ndern:</p>
+<ol>
+  <li>Browser-Console (F12) &ouml;ffnen, <code>allow pasting</code> eingeben</li>
+  <li>Funktion ausf&uuml;hren: <code>async function h(p){const d=(new TextEncoder).encode(p);const b=await crypto.subtle.digest('SHA-256',d);return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')} await h("deinNeuesPasswort")</code></li>
+  <li>Kopierten Hash als Secret <code>ADMIN_PASSWORD_HASH</code> speichern</li>
+  <li>Alternativ: die Datei <code>hash_generator.html</code> lokal &ouml;ffnen</li>
+</ol>
 
 <h3>Absenderadressen (Domain: lobbyregister-bot.de)</h3>
 <ul>
-  <li>Wochenmail: <code>Lobbyregister Monitor &lt;update@lobbyregister-bot.de&gt;</code></li>
+  <li>Wochenmail: <code>Lobbyregister-Monitor &lt;update@lobbyregister-bot.de&gt;</code></li>
   <li>Systemchecks: <code>Monitor Systemcheck &lt;healthcheck@lobbyregister-bot.de&gt;</code></li>
 </ul>
 
@@ -78,57 +94,73 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <h2>3. Dateien im Repository</h2>
 <table class="secret-table">
   <tr><th>Datei</th><th>Funktion</th></tr>
-  <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Cache-Verwaltung</td></tr>
+  <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Cache-Verwaltung, konditionale Mail</td></tr>
   <tr><td><code>scripts/fetch_and_build.py</code></td><td>Inkrementeller API-Abruf, Filterung, initiale HTML-Generierung</td></tr>
-  <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung, Zusammenfassung, HTML-Rebuild mit Pending-Banner</td></tr>
-  <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags)</td></tr>
-  <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags)</td></tr>
+  <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung, Zusammenfassung, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
+  <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags, nur automatischer Trigger)</td></tr>
+  <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/save_run_log.py</code></td><td>Workflow-Protokoll f&uuml;r Archivseite</td></tr>
-  <tr><td><code>scripts/template.html</code></td><td>HTML-Vorlage mit Pagination und Filter</td></tr>
+  <tr><td><code>scripts/inject_admin_hash.py</code></td><td>Injiziert Passwort-Hash aus Secret in admin.html beim Build</td></tr>
+  <tr><td><code>scripts/template.html</code></td><td>HTML-Vorlage mit Pagination, Regelungsvorhaben- und Institutionsfilter</td></tr>
+  <tr><td><code>docs/admin.html</code></td><td>Passwortgesch&uuml;tztes Admin-Panel (Shortcuts zu GitHub Actions)</td></tr>
+  <tr><td><code>docs/actions.html</code></td><td>Workflow-Protokollseite mit Statistiken</td></tr>
   <tr><td><code>docs/data.json</code></td><td>Stellungnahmen-Daten (gecacht zwischen Runs)</td></tr>
   <tr><td><code>docs/gemini_cache.json</code></td><td>KI-Pr&uuml;fungsergebnisse (gecacht zwischen Runs)</td></tr>
-  <tr><td><code>docs/run_history.json</code></td><td>Durchlauf-Statistiken (gecacht, max. 90 Eintr&auml;ge)</td></tr>
+  <tr><td><code>docs/run_history.json</code></td><td>Durchlauf-Statistiken (gecacht, max. 50 Eintr&auml;ge)</td></tr>
 </table>
 
 <h2>4. Ablauf eines t&auml;glichen Durchlaufs</h2>
 <ol>
   <li><strong>Cache laden</strong> &ndash; <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> aus GitHub Actions Cache</li>
-  <li><strong>fetch_and_build.py</strong> &ndash; Registernummern laden, nur neue einzeln abrufen, mit vorherigen Daten mergen</li>
-  <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge per KI pr&uuml;fen (max. 100/Run), gecachte &uuml;berspringen, HTML neu bauen</li>
+  <li><strong>fetch_and_build.py</strong> &ndash; Registernummern laden, nur neue einzeln abrufen, mit vorherigen Daten mergen, initiales HTML bauen</li>
+  <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge per KI pr&uuml;fen (max. 100/Run), gecachte &uuml;berspringen, finales HTML mit Ampelfarben und Institutionsfilter bauen</li>
+  <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in admin.html einsetzen</li>
   <li><strong>save_run_log.py</strong> &ndash; Durchlauf-Statistiken an <code>run_history.json</code> anh&auml;ngen</li>
   <li><strong>Deploy</strong> &ndash; GitHub Pages ver&ouml;ffentlichen</li>
-  <li><strong>Montags:</strong> <code>send_email.py</code> (Wochenmail) + <code>health_check.py</code> (Selbsttest)</li>
+  <li><strong>Montags (nur automatisch):</strong> <code>send_email.py</code> (Wochenmail) + <code>health_check.py</code> (Selbsttest)</li>
 </ol>
 
-<h2>5. Fehlersuche</h2>
+<h2>5. Manueller Start</h2>
+<p>Repository &rarr; Actions &rarr; &bdquo;Lobbyregister Monitor&ldquo; &rarr; Run workflow</p>
+<ul>
+  <li><strong>force_email: false</strong> (Standard) &ndash; Workflow l&auml;uft komplett, aber ohne Mail-Versand. F&uuml;r Tests geeignet.</li>
+  <li><strong>force_email: true</strong> &ndash; Mail wird zus&auml;tzlich versendet. Achtung: Empf&auml;nger werden benachrichtigt.</li>
+</ul>
+<p>Alternativ: Admin-Panel unter <a href="admin.html">admin.html</a> &ouml;ffnen (passwortgesch&uuml;tzt).</p>
+
+<h2>6. Fehlersuche</h2>
 
 <h3>Seite nicht aktualisiert</h3>
 <ol>
   <li><a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions">GitHub Actions</a> &ouml;ffnen</li>
   <li>Fehlgeschlagenen Job anklicken und Logs lesen</li>
-  <li>H&auml;ufig: API-Key abgelaufen, GitHub Pages nicht aktiviert</li>
+  <li>H&auml;ufig: API-Key abgelaufen, GitHub Pages nicht aktiviert, Cache-Problem</li>
 </ol>
 
+<h3>Sortierung falsch / Eintr&auml;ge unter falschem Datum</h3>
+<p>Wenn Eintr&auml;ge unter dem falschen Tagesdatum erscheinen: GitHub Actions Cache l&ouml;schen (Repository &rarr; Actions &rarr; Caches) und Workflow neu starten. Der Cache enth&auml;lt dann keine alten Daten mehr und wird frisch aufgebaut.</p>
+
 <h3>Gemini fehlgeschlagen</h3>
-<p>Erkennbar an &bdquo;KI-Pr&uuml;fung ausstehend&ldquo;-Badge auf Karten oder gelbem Warnbanner.</p>
+<p>Erkennbar am gelben Warnbanner auf der Webseite.</p>
 <ul>
   <li><strong>Quota:</strong> 500 req/Tag &ndash; Caching und Budgetlimit (100/Run) reduzieren den Verbrauch. Ausstehende Pr&uuml;fungen werden automatisch nachgeholt.</li>
-  <li><strong>Key abgelaufen:</strong> Neuen Key auf <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> erstellen</li>
+  <li><strong>Cache gel&ouml;scht:</strong> Nach Cache-L&ouml;schung m&uuml;ssen alle Eintr&auml;ge neu gepr&uuml;ft werden (&gt;100). Das holt sich &uuml;ber mehrere Tage automatisch auf.</li>
+  <li><strong>Key abgelaufen:</strong> Neuen Key auf <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> erstellen und als Secret speichern</li>
   <li><strong>Modell ge&auml;ndert:</strong> <code>GEMINI_MODEL</code> in <code>gemini_enrich.py</code> und <code>health_check.py</code> anpassen</li>
 </ul>
 
-<h3>Manueller Start</h3>
-<p>Repository &rarr; Actions &rarr; &bdquo;Lobbyregister Monitor&ldquo; &rarr; Run workflow.</p>
+<h3>Admin-Panel zeigt falsches Passwort</h3>
+<p>Nach &Auml;nderung des Secrets <code>ADMIN_PASSWORD_HASH</code> muss ein neuer Workflow-Run starten, damit der neue Hash in <code>admin.html</code> injiziert wird.</p>
 
-<h2>6. System neu aufsetzen</h2>
+<h2>7. System neu aufsetzen</h2>
 <ol>
-  <li>GitHub-Account: <a href="https://github.com/signup">github.com/signup</a></li>
+  <li>GitHub-Account anlegen: <a href="https://github.com/signup">github.com/signup</a></li>
   <li>Repository anlegen: <code>lobbyregister-monitor</code>, Public</li>
   <li>GitHub Pages aktivieren: Settings &rarr; Pages &rarr; Source: GitHub Actions</li>
-  <li>Secrets eintragen (siehe Abschnitt 2)</li>
+  <li>Alle Secrets eintragen (siehe Abschnitt 2)</li>
   <li>Dateien aus dem alten Repository &uuml;bertragen</li>
-  <li>Resend: Account auf <a href="https://resend.com">resend.com</a>, Domain verifizieren</li>
-  <li>Gemini: Key auf <a href="https://aistudio.google.com/apikey">aistudio.google.com</a></li>
+  <li>Resend: Account auf <a href="https://resend.com">resend.com</a>, Domain verifizieren, Sender-Adressen anlegen</li>
+  <li>Gemini: Key auf <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> mit Account lobbyregister.bot@gmail.com</li>
   <li>URLs in <code>update.yml</code>, <code>fetch_and_build.py</code>, <code>template.html</code> anpassen</li>
 </ol>
 
