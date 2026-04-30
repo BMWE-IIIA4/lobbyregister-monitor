@@ -174,20 +174,25 @@ def get_weekday_de(iso_date):
         return f"{days[d.weekday()]}, {d.day}. {months[d.month]} {d.year}"
     except Exception: return iso_date
 
-def is_deadline_exceeded(sending_raw, upload_raw):
-    """Prüft ob Quartalsfrist überschritten: Upload nach Ende des Quartals der Stellungnahme."""
+def upload_delay_style(sending_raw, upload_raw):
+    """Gibt (css_farbe, tage) zurück: grün ≤7 Tage, gelb ≤30, rot >30."""
     if not sending_raw or not upload_raw:
-        return False
+        return None, 0
     try:
         from datetime import date as _date
-        sending = _date.fromisoformat(sending_raw)
-        upload = _date.fromisoformat(upload_raw)
-        quarter_end_month = ((sending.month - 1) // 3 + 1) * 3
-        last_day = 31 if quarter_end_month in [3, 12] else 30
-        quarter_end = _date(sending.year, quarter_end_month, last_day)
-        return upload > quarter_end
+        d1 = _date.fromisoformat(sending_raw)
+        d2 = _date.fromisoformat(upload_raw)
+        diff = (d2 - d1).days
+        if diff <= 0:
+            return None, diff
+        elif diff <= 7:
+            return "#16a34a", diff   # grün
+        elif diff <= 30:
+            return "#d97706", diff   # gelb
+        else:
+            return "#dc2626", diff   # rot
     except Exception:
-        return False
+        return None, 0
 
 def render_entry_card(stmt):
     title = stmt["regulatory_project_title"].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
@@ -196,28 +201,12 @@ def render_entry_card(stmt):
     sending = format_date_de(stmt.get("sending_date"))
     upload_raw = stmt.get("upload_date")
     sending_raw = stmt.get("sending_date")
-    delay = ""
-    if sending_raw and upload_raw:
-        try:
-            from datetime import date as _date
-            d1 = _date.fromisoformat(sending_raw)
-            d2 = _date.fromisoformat(upload_raw)
-            diff = (d2 - d1).days
-            if diff > 0:
-                delay = f" (+{diff} Tage)"
-        except Exception:
-            pass
-    overdue = is_deadline_exceeded(sending_raw, upload_raw)
-    if overdue:
-        upload_display = (f'<span style="color:#d97706;font-weight:600">'
-                         f'{format_date_de(upload_raw)}{delay}</span>'
-                         f'<span style="display:inline-block;background:#fef3c7;color:#92400e;'
-                         f'font-size:0.65rem;font-weight:700;padding:0.15rem 0.5rem;'
-                         f'border-radius:12px;margin-left:0.4rem;border:1px solid #fde68a">'
-                         f'Frist überschritten</span>')
+    color, diff = upload_delay_style(sending_raw, upload_raw)
+    delay_str = f" (+{diff} Tage)" if diff > 0 else ""
+    if color:
+        upload_display = f'<span style="color:{color}">{format_date_de(upload_raw)}{delay_str}</span>'
     else:
-        upload_display = f'{format_date_de(upload_raw)}{delay}'
-    upload = format_date_de(upload_raw) + delay
+        upload_display = f'{format_date_de(upload_raw)}{delay_str}'
     summary = stmt.get("summary", "") or "Keine Beschreibung verf\u00fcgbar."
     summary = re.sub(r'<(?!/?b>)', '&lt;', summary).replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
     recipients = stmt.get("recipients", [])
