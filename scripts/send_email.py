@@ -29,28 +29,61 @@ def format_date_de(iso_date):
         return iso_date
 
 
+def upload_delay_style(sending_raw, upload_raw):
+    """Gibt (css_farbe, tage) zurück: grün ≤7 Tage, gelb ≤30, rot >30."""
+    if not sending_raw or not upload_raw:
+        return None, 0
+    try:
+        d1 = date.fromisoformat(sending_raw)
+        d2 = date.fromisoformat(upload_raw)
+        diff = (d2 - d1).days
+        if diff <= 0:
+            return None, diff
+        elif diff <= 7:
+            return "#16a34a", diff
+        elif diff <= 30:
+            return "#d97706", diff
+        else:
+            return "#dc2626", diff
+    except Exception:
+        return None, 0
+
+
 def render_entry_card(stmt):
     """Rendert eine einzelne Stellungnahme als HTML-Karte."""
     title = stmt["regulatory_project_title"]
     org = stmt["org_name"]
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
-    upload = format_date_de(stmt.get("upload_date"))
+    
+    # Verzögerung berechnen
+    upload_raw = stmt.get("upload_date")
+    sending_raw = stmt.get("sending_date")
+    delay = ""
+    if sending_raw and upload_raw:
+        try:
+            d1 = date.fromisoformat(sending_raw)
+            d2 = date.fromisoformat(upload_raw)
+            diff = (d2 - d1).days
+            if diff > 0:
+                delay = f" (+{diff} Tage)"
+        except:
+            pass
+    
+    color, diff = upload_delay_style(sending_raw, upload_raw)
+    delay_str = f" (+{diff} Tage)" if diff > 0 else ""
+    if color:
+        upload_display = f'<span style="color:{color}">{format_date_de(upload_raw)}{delay_str}</span>'
+    else:
+        upload_display = f'{format_date_de(upload_raw)}{delay_str}'
     
     summary = stmt.get("summary", "") or "Keine Beschreibung verfügbar."
     
-    # Farbige Keywords (wie auf der Webseite)
-    # Wichtige Begriffe fett markieren
-    keywords = [
-        "Priorisierung", "Erdkabeln", "Freileitungen", "EU-Gasmarktpakets",
-        "Transformationsregulierung", "Investitionssicherheit", "Wasserstoffverteilernetz",
-        "Rechtssicherheit", "Heizungstauschoptionen", "Förderrahmen", "BEG",
-        "Endkunden", "Hersteller", "Planungssicherheit", "GEG", "Gebäudeenergiegesetz"
-    ]
-    
-    for kw in keywords:
-        if kw in summary:
-            summary = summary.replace(kw, f"<b>{kw}</b>")
+    # HTML-Tags erlauben (für <b> von Gemini), aber andere Zeichen escapen
+    summary = summary.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    # <b> und </b> wieder herstellen
+    summary = summary.replace('&lt;b&gt;', '<b style="background:#fef9c3;padding:0.1rem 0.2rem;border-radius:2px;font-weight:700">')
+    summary = summary.replace('&lt;/b&gt;', '</b>')
     
     recipients = stmt.get("recipients", [])
     fields = stmt.get("fields", [])
@@ -98,7 +131,7 @@ def render_entry_card(stmt):
         </div>
         <div style="padding:0.6rem 1rem;font-size:0.8rem">
           <div style="font-size:0.65rem;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.25rem">Hochgeladen am</div>
-          {upload}
+          {upload_display}
         </div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #f1f5f9;background:#fff">
@@ -126,10 +159,10 @@ def render_entry_card(stmt):
 def build_email_html(statements, week_start, week_end):
     """Baut die komplette E-Mail als HTML."""
     
-    # Nach Datum gruppieren
+    # Nach upload_date gruppieren (NICHT sending_date!)
     by_date = defaultdict(list)
     for stmt in statements:
-        key = stmt.get("upload_date") or stmt.get("sending_date") or "unbekannt"
+        key = stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
     
     # Einträge nach Datum sortiert rendern
@@ -217,7 +250,8 @@ def main():
     
     recent = []
     for stmt in statements:
-        upload_str = stmt.get("upload_date") or stmt.get("sending_date")
+        # NUR upload_date verwenden
+        upload_str = stmt.get("upload_date")
         if not upload_str:
             continue
         try:
@@ -268,4 +302,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
