@@ -25,12 +25,13 @@ a:hover { color: #003366; text-decoration: underline; }
 .desc-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; color: #64748b; font-size: 0.9rem; line-height: 1.5; }
 .desc-line { margin-bottom: 0.25rem; }
 .layout { display: grid; grid-template-columns: 1fr 300px; gap: 2rem; align-items: start; padding-top: 1.5rem; }
-.sidebar { background: #fff; border-radius: 12px; padding: 1.5rem; position: sticky; top: 5.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+.sidebar { background: #fff; border-radius: 12px; padding: 1.5rem; position: static; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
 .sidebar-title { font-size: 1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.5rem; }
 .sidebar-hint { font-size: 0.8rem; color: #64748b; margin-bottom: 1rem; line-height: 1.4;}
+
 .filter-input { width: 100%; font-size: 0.875rem; padding: 0.6rem 0.75rem; border: 1px solid #cbd5e1; border-radius: 6px; margin-bottom: 1rem; outline: none; transition: border-color 0.2s; }
 .filter-input:focus { border-color: #004B87; }
-.filter-list { list-style: none; max-height: 50vh; overflow-y: auto; scrollbar-width: thin; }
+.filter-list { list-style: none; max-height: 25vh; overflow-y: auto; scrollbar-width: thin; }
 .filter-list li { font-size: 0.875rem; color: #475569; padding: 0.5rem 0.75rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 6px; margin-bottom: 2px; transition: all 0.2s; }
 .filter-list li:hover { background: #f1f5f9; color: #0f172a; }
 .filter-list li.active { background: #004B87; color: #fff; font-weight: 600; }
@@ -303,7 +304,9 @@ a:hover { color: #003366; text-decoration: underline; }
     activeVorhaben = null;
     filterList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); l.style.display = ''; });
     resetBtn.style.display = 'none';
+    filterSearch.value = '';
     applyFilters();
+    updateOrgCounts(null);
   });
 
   filterSearch.addEventListener('input', function() {
@@ -333,7 +336,9 @@ a:hover { color: #003366; text-decoration: underline; }
     activeOrg = null;
     orgList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); l.style.display = ''; });
     resetOrgBtn.style.display = 'none';
+    orgSearch.value = '';
     applyFilters();
+    updateVorhabenCounts(null);
   });
 
   orgSearch.addEventListener('input', function() {
