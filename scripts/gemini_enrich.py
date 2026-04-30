@@ -224,7 +224,7 @@ def render_entry_card(stmt):
     if stmt.get("gemini_status") == "pending":
         pending_badge = '<span style="font-size:0.7rem;font-weight:700;color:#94a3b8;margin-left:10px;">KI-Pr\u00fcfung ausstehend</span>'
     return (
-        f'<div class="entry-card" data-vorhaben="{title}">'
+        f'<div class="entry-card" data-vorhaben="{title}" data-org="{org.replace(chr(34), chr(39))}" data-upload="{stmt.get("upload_date", "")}">'
         f'<div class="row-title">{title}{pending_badge}</div>'
         f'<div class="meta-row">'
         f'<div class="mc grow"><strong>Bereitgestellt von</strong>{org_html}</div>'
@@ -244,11 +244,19 @@ def render_entry_card(stmt):
 
 def generate_html(statements, generated_at, pending_dates):
     by_date = defaultdict(list)
+    from datetime import date as _date, timedelta
     vorhaben_counts = defaultdict(int)
+    org_counts_all = defaultdict(int)
+    org_counts_6m = defaultdict(int)
+    cutoff_6m = (_date.today() - timedelta(days=180)).isoformat()
     for stmt in statements:
         key = stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
         vorhaben_counts[stmt["regulatory_project_title"]] += 1
+        org = stmt["org_name"]
+        org_counts_all[org] += 1
+        if (stmt.get("upload_date") or "") >= cutoff_6m:
+            org_counts_6m[org] += 1
     day_sections_html = ""
     if pending_dates:
         dates_str = ", ".join([format_date_de(d) if d != "unbekannt" else "unbekanntem Datum" for d in sorted(pending_dates, reverse=True)])
@@ -266,6 +274,7 @@ def generate_html(statements, generated_at, pending_dates):
             f'</div>'
         )
     filter_items = "".join(f'<li data-v="{v.replace(chr(34), chr(39))}"><span>{v}</span><span class="filter-count">{c}</span></li>' for v, c in sorted(vorhaben_counts.items(), key=lambda x: -x[1]))
+    org_items_all = "".join(f'<li data-o="{o.replace(chr(34), chr(39))}" data-c-all="{c}" data-c-6m="{org_counts_6m.get(o,0)}"><span>{o}</span><span class="filter-count">{c}</span></li>' for o, c in sorted(org_counts_all.items(), key=lambda x: -x[1]))
     from zoneinfo import ZoneInfo
     BERLIN_TZ = ZoneInfo("Europe/Berlin")
     gen_dt = datetime.fromisoformat(generated_at).astimezone(BERLIN_TZ)
@@ -274,6 +283,7 @@ def generate_html(statements, generated_at, pending_dates):
         html = f.read()
     html = html.replace("{{DAY_SECTIONS}}", day_sections_html)
     html = html.replace("{{FILTER_ITEMS}}", filter_items)
+    html = html.replace("{{ORG_ITEMS}}", org_items_all)
     html = html.replace("{{GENERATED_AT}}", f"{gen_dt.day}. {months_de[gen_dt.month]} {gen_dt.year}, {gen_dt.strftime('%H:%M')} Uhr")
     html = html.replace("{{TOTAL_COUNT}}", str(len(statements)))
     html = html.replace("{{FIELDS_SUBTITLE}}", "Energie &amp; Wasserstoff, Klimaschutz, EU-Binnenmarkt, EU-Gesetzgebung, Bundestag, Wettbewerbsrecht, Politisches Leben/Parteien, Sonstige")
