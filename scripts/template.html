@@ -36,6 +36,9 @@ a:hover { color: #003366; text-decoration: underline; }
 .filter-list li.active { background: #004B87; color: #fff; font-weight: 600; }
 .filter-count { font-size: 0.75rem; background: #e2e8f0; color: #475569; padding: 2px 6px; border-radius: 12px; }
 .filter-list li.active .filter-count { background: rgba(255,255,255,0.2); color: #fff; }
+.toggle-btn{flex:1;font-size:0.75rem;font-weight:600;padding:0.35rem 0.5rem;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#64748b;cursor:pointer;transition:all 0.2s}
+.toggle-btn.active{background:#004B87;color:#fff;border-color:#004B87}
+.toggle-btn:hover:not(.active){background:#f1f5f9}
 .reset-btn { font-size: 0.875rem; color: #ef4444; background: none; border: none; padding: 0.6rem; margin-top: 1rem; cursor: pointer; font-weight: 600; width: 100%; border-radius: 6px; display: none; }
 .reset-btn:hover { background: #fef2f2; }
 .day-section { margin-bottom: 2.5rem; }
@@ -115,7 +118,21 @@ a:hover { color: #003366; text-decoration: underline; }
   <ul class="filter-list" id="filterList">
     {{FILTER_ITEMS}}
   </ul>
-  <button class="reset-btn" id="resetFilter">Alle anzeigen ✕</button>
+  <button class="reset-btn" id="resetFilter" style="display:none">Alle anzeigen ✕</button>
+
+  <div style="border-top:1px solid #e2e8f0;margin:1.25rem 0"></div>
+
+  <div class="sidebar-title">Institutionen</div>
+  <div class="sidebar-hint">Klicken Sie auf eine Institution, um ihre Einträge zu sehen. Kombinierbar mit Regelungsvorhaben.</div>
+  <div style="display:flex;gap:0.4rem;margin-bottom:0.75rem">
+    <button class="toggle-btn active" id="toggleAll" onclick="setOrgMode('all')">Gesamt</button>
+    <button class="toggle-btn" id="toggle6m" onclick="setOrgMode('6m')">Letzte 6 Monate</button>
+  </div>
+  <input type="text" class="filter-input" id="orgSearch" placeholder="Institution suchen…">
+  <ul class="filter-list" id="orgList">
+    {{ORG_ITEMS}}
+  </ul>
+  <button class="reset-btn" id="resetOrg" style="display:none">Alle anzeigen ✕</button>
 </aside>
 </div>
 </div>
@@ -136,12 +153,21 @@ a:hover { color: #003366; text-decoration: underline; }
   var filterList = document.getElementById('filterList');
   var filterSearch = document.getElementById('filterSearch');
   var resetBtn = document.getElementById('resetFilter');
+  var orgList = document.getElementById('orgList');
+  var orgSearch = document.getElementById('orgSearch');
+  var resetOrgBtn = document.getElementById('resetOrg');
   var paginationEl = document.getElementById('pagination');
-  var activeFilter = null;
+
+  var activeVorhaben = null;
+  var activeOrg = null;
+  var orgMode = 'all'; // 'all' oder '6m'
+
   var RECENT_DAYS = 7;
   var ARCHIVE_BLOCK = 10;
   var currentPage = 0;
   var pages = [];
+
+  // ── Pagination ────────────────────────────────────────────────────────────
   function buildPages() {
     var sections = Array.from(entries.querySelectorAll('.day-section'));
     if (!sections.length) { pages = []; return; }
@@ -152,11 +178,12 @@ a:hover { color: #003366; text-decoration: underline; }
       var ds = sec.getAttribute('data-date');
       if (!ds || ds === 'unbekannt') { archive.push(sec); return; }
       var d = new Date(ds + 'T00:00:00');
-      if (d >= cutoff) { recentPage.push(sec); } else { archive.push(sec); }
+      if (d >= cutoff) recentPage.push(sec); else archive.push(sec);
     });
     pages = [recentPage];
-    for (var i = 0; i < archive.length; i += ARCHIVE_BLOCK) { pages.push(archive.slice(i, i + ARCHIVE_BLOCK)); }
+    for (var i = 0; i < archive.length; i += ARCHIVE_BLOCK) pages.push(archive.slice(i, i + ARCHIVE_BLOCK));
   }
+
   function showPage(idx) {
     currentPage = idx;
     entries.querySelectorAll('.day-section').forEach(function(s) { s.style.display = 'none'; });
@@ -164,47 +191,201 @@ a:hover { color: #003366; text-decoration: underline; }
     renderPagination();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
   function renderPagination() {
     if (pages.length <= 1) { paginationEl.innerHTML = ''; return; }
     var label = currentPage === 0 ? 'Aktuelle Woche' : 'Archiv ' + currentPage + ' / ' + (pages.length - 1);
     paginationEl.innerHTML =
-      '<button class="page-btn" id="pgPrev"' + (currentPage === 0 ? ' disabled' : '') + '>\u2190 Neuere</button>' +
+      '<button class="page-btn" id="pgPrev"' + (currentPage === 0 ? ' disabled' : '') + '>← Neuere</button>' +
       '<span class="page-info">' + label + '</span>' +
-      '<button class="page-btn" id="pgNext"' + (currentPage >= pages.length - 1 ? ' disabled' : '') + '>\u00c4ltere \u2192</button>';
+      '<button class="page-btn" id="pgNext"' + (currentPage >= pages.length - 1 ? ' disabled' : '') + '>Ältere →</button>';
     var p = document.getElementById('pgPrev'), n = document.getElementById('pgNext');
     if (p) p.onclick = function() { if (currentPage > 0) showPage(currentPage - 1); };
     if (n) n.onclick = function() { if (currentPage < pages.length - 1) showPage(currentPage + 1); };
   }
-  function applyFilter(v) {
-    activeFilter = v;
-    entries.querySelectorAll('.day-section').forEach(function(s) { s.style.display = ''; });
+
+  // ── Kernfilter ────────────────────────────────────────────────────────────
+  function applyFilters() {
+    var hasAnyFilter = activeVorhaben || activeOrg;
+
+    if (!hasAnyFilter) {
+      // Kein Filter: Pagination zeigen
+      entries.querySelectorAll('.entry-card').forEach(function(c) { c.style.display = ''; });
+      entries.querySelectorAll('.day-section').forEach(function(s) { s.style.display = ''; });
+      buildPages(); showPage(0);
+      updateVorhabenCounts(null);
+      return;
+    }
+
+    // Filter aktiv: Pagination ausblenden, alles zeigen
     paginationEl.innerHTML = '';
-    entries.querySelectorAll('.entry-card').forEach(function(c) { c.style.display = c.getAttribute('data-vorhaben') === v ? '' : 'none'; });
+    entries.querySelectorAll('.day-section').forEach(function(s) { s.style.display = ''; });
+
+    entries.querySelectorAll('.entry-card').forEach(function(c) {
+      var matchV = !activeVorhaben || c.getAttribute('data-vorhaben') === activeVorhaben;
+      var matchO = !activeOrg || c.getAttribute('data-org') === activeOrg;
+      c.style.display = (matchV && matchO) ? '' : 'none';
+    });
+
+    // Leere Day-Sections verstecken
     entries.querySelectorAll('.day-section').forEach(function(sec) {
       var vis = Array.from(sec.querySelectorAll('.entry-card')).some(function(c) { return c.style.display !== 'none'; });
       sec.style.display = vis ? '' : 'none';
     });
-    filterList.querySelectorAll('li').forEach(function(li) { li.classList.toggle('active', li.getAttribute('data-v') === v); });
-    resetBtn.style.display = 'block';
+
+    // Regelungsvorhaben-Zähler aktualisieren basierend auf sichtbaren Karten
+    updateVorhabenCounts(activeOrg);
+    updateOrgCounts(activeVorhaben);
   }
-  function clearFilter() {
-    activeFilter = null;
-    entries.querySelectorAll('.entry-card').forEach(function(c) { c.style.display = ''; });
-    filterList.querySelectorAll('li').forEach(function(li) { li.classList.remove('active'); });
-    resetBtn.style.display = 'none';
-    showPage(0);
+
+  // ── Regelungsvorhaben-Zähler dynamisch aktualisieren ─────────────────────
+  function updateVorhabenCounts(forOrg) {
+    var counts = {};
+    entries.querySelectorAll('.entry-card').forEach(function(c) {
+      if (forOrg && c.getAttribute('data-org') !== forOrg) return;
+      var v = c.getAttribute('data-vorhaben');
+      counts[v] = (counts[v] || 0) + 1;
+    });
+    filterList.querySelectorAll('li').forEach(function(li) {
+      var v = li.getAttribute('data-v');
+      var cnt = counts[v] || 0;
+      var badge = li.querySelector('.filter-count');
+      if (badge) badge.textContent = cnt;
+      li.style.display = cnt > 0 ? '' : 'none';
+    });
   }
+
+  // ── Org-Zähler dynamisch aktualisieren ───────────────────────────────────
+  function updateOrgCounts(forVorhaben) {
+    var counts = {};
+    var cutoff6m = new Date(); cutoff6m.setMonth(cutoff6m.getMonth() - 6);
+    entries.querySelectorAll('.entry-card').forEach(function(c) {
+      if (forVorhaben && c.getAttribute('data-vorhaben') !== forVorhaben) return;
+      if (orgMode === '6m') {
+        var up = c.getAttribute('data-upload');
+        if (up && new Date(up) < cutoff6m) return;
+      }
+      var o = c.getAttribute('data-org');
+      counts[o] = (counts[o] || 0) + 1;
+    });
+    var items = Array.from(orgList.querySelectorAll('li'));
+    items.forEach(function(li) {
+      var o = li.getAttribute('data-o');
+      var cnt = counts[o] || 0;
+      var badge = li.querySelector('.filter-count');
+      if (badge) badge.textContent = cnt;
+      li.style.display = cnt > 0 ? '' : 'none';
+    });
+    // Neu sortieren nach aktuellem Zähler
+    items.sort(function(a, b) {
+      return parseInt(b.querySelector('.filter-count').textContent) - parseInt(a.querySelector('.filter-count').textContent);
+    });
+    items.forEach(function(li) { orgList.appendChild(li); });
+  }
+
+  // ── Vorhaben-Filter ───────────────────────────────────────────────────────
   filterList.addEventListener('click', function(e) {
     var li = e.target.closest('li'); if (!li) return;
     var v = li.getAttribute('data-v');
-    if (activeFilter === v) clearFilter(); else applyFilter(v);
+    if (activeVorhaben === v) {
+      activeVorhaben = null;
+      filterList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); });
+      resetBtn.style.display = 'none';
+    } else {
+      activeVorhaben = v;
+      filterList.querySelectorAll('li').forEach(function(l) { l.classList.toggle('active', l.getAttribute('data-v') === v); });
+      resetBtn.style.display = 'block';
+    }
+    applyFilters();
   });
-  resetBtn.addEventListener('click', clearFilter);
+
+  resetBtn.addEventListener('click', function() {
+    activeVorhaben = null;
+    filterList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); l.style.display = ''; });
+    resetBtn.style.display = 'none';
+    applyFilters();
+  });
+
   filterSearch.addEventListener('input', function() {
     var q = this.value.toLowerCase();
-    filterList.querySelectorAll('li').forEach(function(li) { li.style.display = li.textContent.toLowerCase().indexOf(q) !== -1 ? '' : 'none'; });
+    filterList.querySelectorAll('li').forEach(function(li) {
+      li.style.display = li.getAttribute('data-v').toLowerCase().indexOf(q) !== -1 ? '' : 'none';
+    });
   });
+
+  // ── Org-Filter ────────────────────────────────────────────────────────────
+  orgList.addEventListener('click', function(e) {
+    var li = e.target.closest('li'); if (!li) return;
+    var o = li.getAttribute('data-o');
+    if (activeOrg === o) {
+      activeOrg = null;
+      orgList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); });
+      resetOrgBtn.style.display = 'none';
+    } else {
+      activeOrg = o;
+      orgList.querySelectorAll('li').forEach(function(l) { l.classList.toggle('active', l.getAttribute('data-o') === o); });
+      resetOrgBtn.style.display = 'block';
+    }
+    applyFilters();
+  });
+
+  resetOrgBtn.addEventListener('click', function() {
+    activeOrg = null;
+    orgList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); l.style.display = ''; });
+    resetOrgBtn.style.display = 'none';
+    applyFilters();
+  });
+
+  orgSearch.addEventListener('input', function() {
+    var q = this.value.toLowerCase();
+    orgList.querySelectorAll('li').forEach(function(li) {
+      li.style.display = li.getAttribute('data-o').toLowerCase().indexOf(q) !== -1 ? '' : 'none';
+    });
+  });
+
+  // ── Toggle Gesamt / 6 Monate ──────────────────────────────────────────────
+  window.setOrgMode = function(mode) {
+    orgMode = mode;
+    document.getElementById('toggleAll').classList.toggle('active', mode === 'all');
+    document.getElementById('toggle6m').classList.toggle('active', mode === '6m');
+    var cutoff6m = new Date(); cutoff6m.setMonth(cutoff6m.getMonth() - 6);
+    // Zähler und Sichtbarkeit neu berechnen
+    var counts = {};
+    entries.querySelectorAll('.entry-card').forEach(function(c) {
+      if (mode === '6m') {
+        var up = c.getAttribute('data-upload');
+        if (!up || new Date(up) < cutoff6m) return;
+      }
+      var o = c.getAttribute('data-org');
+      counts[o] = (counts[o] || 0) + 1;
+    });
+    var items = Array.from(orgList.querySelectorAll('li'));
+    items.forEach(function(li) {
+      var o = li.getAttribute('data-o');
+      var cnt = mode === 'all'
+        ? parseInt(li.getAttribute('data-c-all') || 0)
+        : (counts[o] || 0);
+      var badge = li.querySelector('.filter-count');
+      if (badge) badge.textContent = cnt;
+      li.style.display = cnt > 0 ? '' : 'none';
+    });
+    // Sortieren
+    items.sort(function(a, b) {
+      return parseInt(b.querySelector('.filter-count').textContent) - parseInt(a.querySelector('.filter-count').textContent);
+    });
+    items.forEach(function(li) { orgList.appendChild(li); });
+    // Aktiver Org-Filter ggf. zurücksetzen wenn jetzt 0 Einträge
+    if (activeOrg && (counts[activeOrg] || 0) === 0) {
+      activeOrg = null;
+      orgList.querySelectorAll('li').forEach(function(l) { l.classList.remove('active'); });
+      resetOrgBtn.style.display = 'none';
+      applyFilters();
+    }
+  };
+
+  // ── Init ──────────────────────────────────────────────────────────────────
   buildPages(); showPage(0);
+  updateOrgCounts(null);
 })();
 </script>
 </body>
