@@ -29,6 +29,7 @@ th{background:#004B87;color:#fff;padding:7px 12px;text-align:left}
 td{padding:7px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top}
 tr:nth-child(even) td{background:#f8fafc}
 .back{display:inline-block;margin-bottom:1.5rem;font-size:0.8rem;color:#64748b}
+.ampel{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:middle}
 </style>
 </head>
 <body>
@@ -50,17 +51,16 @@ tr:nth-child(even) td{background:#f8fafc}
 <h2>Was zeigt diese Seite?</h2>
 <p>Diese Seite zeigt automatisch alle neuen <strong>Stellungnahmen und Gutachten</strong>
 aus dem <a href="https://www.lobbyregister.bundestag.de">Lobbyregister des Deutschen Bundestages</a>,
-die für das BMWE, BKAmt, BMF, BMUKN und/oder den Bundestag
-relevant sind.</p>
+die für das BMWE, BKAmt, BMF, BMUKN und/oder den Bundestag relevant sind.</p>
 
 <p>Die Einträge werden nach folgenden Kriterien gefiltert:</p>
 
 <h3>Empfängergruppen</h3>
 <ul>
   <li>Bundesministerium für Wirtschaft und Energie (BMWE)</li>
-  <li>BKAmt</li>
-  <li>BMF</li>
-  <li>BMUKN</li>
+  <li>Bundeskanzleramt (BKAmt)</li>
+  <li>Bundesministerium der Finanzen (BMF)</li>
+  <li>Bundesministerium für Umwelt, Klimaschutz und nukleare Sicherheit (BMUKN)</li>
   <li>Bundestag</li>
 </ul>
 
@@ -79,54 +79,75 @@ relevant sind.</p>
 <h3>Zweistufige Filterung</h3>
 <p>Die Filterung erfolgt in zwei Stufen: Zuerst werden Organisationen ohne Energiebezug
 ausgeschlossen (Pre-Filter). Anschließend werden die Themenfelder auf Ebene der einzelnen
-Stellungnahme geprüft (strikter Filter). So werden irrelevante Einträge auch bei
-breit aufgestellten Organisationen zuverlässig aussortiert.</p>
+Stellungnahme geprüft. So werden irrelevante Einträge auch bei breit aufgestellten
+Organisationen zuverlässig aussortiert.</p>
 
 <h3>KI-gestützte Relevanzfilterung</h3>
 <p>Einträge in den breiteren Kategorien werden zusätzlich automatisch auf ihren Bezug
 zu Energiepolitik, Klimaschutz und Energiewirtschaft geprüft. Einträge ohne erkennbaren
-Bezug werden aussortiert.</p>
-<p>Einträge im Themenfeld <strong>Energie &amp; Wasserstoff</strong> sind davon nicht
-betroffen und werden immer angezeigt.</p>
+Bezug werden aussortiert. Einträge im Themenfeld <strong>Energie &amp; Wasserstoff</strong>
+sind davon nicht betroffen und werden immer angezeigt.</p>
 
 <div class="warn">
   <strong>Hinweis zum gelben Warnbalken:</strong> Sollte auf der Übersichtsseite ein
-  gelber Hinweis erscheinen oder einzelne Einträge mit „KI-Prüfung ausstehend" markiert
-  sein, konnten diese noch nicht per KI geprüft werden. Die Prüfung wird beim nächsten
-  Durchlauf automatisch nachgeholt.
+  gelber Hinweis erscheinen, konnten einzelne Einträge noch nicht per KI geprüft werden.
+  Die Prüfung wird beim nächsten Durchlauf automatisch nachgeholt.
 </div>
 
 <h2>Wie lese ich die Einträge?</h2>
-<p>Jeder Eintrag besteht aus fünf Zeilen:</p>
+<p>Jeder Eintrag besteht aus fünf Bereichen:</p>
 
 <div class="box">
   <p><strong>Zeile 1:</strong> Regelungsvorhaben – der Gegenstand der Interessenvertretung</p>
   <p><strong>Zeile 2:</strong> Bereitgestellt von (Organisation) · Datum der Stellungnahme · Hochgeladen am</p>
   <p><strong>Zeile 3:</strong> Adressaten (blau) · Themenfelder (grau)</p>
-  <p><strong>Zeile 4:</strong> Inhalt – Zusammenfassung der Stellungnahme</p>
-  <p><strong>Zeile 5:</strong> Links zum Lobbyregistereintrag und zur PDF der Stellungnahme</p>
+  <p><strong>Zeile 4:</strong> Inhalt – KI-Zusammenfassung mit hervorgehobenen Schlüsselbegriffen</p>
+  <p><strong>Zeile 5:</strong> Links zum Lobbyregistereintrag und zur PDF</p>
 </div>
 
-<h3>Beschreibungstexte und KI-Zusammenfassungen</h3>
-<p>Die Beschreibungstexte werden automatisch per KI auf zwei bis fünf
-prägnante Sätze zusammengefasst, mit hervorgehobenen Schlüsselbegriffen.
-Die vollständigen Originaltexte sind jederzeit über den Link zum
-Lobbyregistereintrag oder die PDF einsehbar.</p>
+<h3>Sortierung</h3>
+<p>Einträge sind <strong>chronologisch absteigend nach Datum des Uploads</strong> im Lobbyregister sortiert – nicht nach dem Datum der Stellungnahme. Innerhalb eines Tages gilt die Themenrelevanz als Sortierkriterium.</p>
 
-<h2>Regelungsvorhaben filtern</h2>
-<p>In der rechten Seitenleiste sind alle vorkommenden Regelungsvorhaben aufgelistet.
-Ein Klick blendet alle anderen Einträge aus. Die Seitennavigation (Pagination) wird
-dabei automatisch deaktiviert, damit alle Treffer sichtbar sind.</p>
-<p>Erneuter Klick oder „Alle anzeigen ✕" hebt den Filter auf.</p>
+<h3>Zeitverzug beim Upload</h3>
+<p>Das Feld „Hochgeladen am" zeigt in Klammern die Differenz zum Datum der Stellungnahme an, farblich markiert:</p>
+<ul>
+  <li><span class="ampel" style="background:#16a34a"></span><strong style="color:#16a34a">Grün</strong> – Upload innerhalb von 7 Tagen</li>
+  <li><span class="ampel" style="background:#d97706"></span><strong style="color:#d97706">Gelb/Orange</strong> – Upload nach 8–30 Tagen</li>
+  <li><span class="ampel" style="background:#dc2626"></span><strong style="color:#dc2626">Rot</strong> – Upload nach mehr als 30 Tagen</li>
+</ul>
+<p><em>Hinweis: Das Lobbyregistergesetz enthält keine konkrete Frist für die Veröffentlichung von Stellungnahmen. Maßgeblich ist der Grundsatz der „unverzüglichen Veröffentlichung".</em></p>
+
+<h3>KI-Zusammenfassungen</h3>
+<p>Die Beschreibungstexte werden automatisch auf zwei bis fünf prägnante Sätze zusammengefasst.
+Schlüsselbegriffe sind <span style="background:#fef9c3;padding:0.1rem 0.3rem;border-radius:2px;font-weight:700">gelb hervorgehoben</span>.
+Die vollständigen Originaltexte sind über den Link zum Lobbyregistereintrag oder die PDF einsehbar.</p>
+
+<h2>Filtern und Suchen</h2>
+
+<h3>Regelungsvorhaben</h3>
+<p>In der rechten Seitenleiste sind alle vorkommenden Regelungsvorhaben aufgelistet, sortiert nach Häufigkeit.
+Ein Klick filtert die Ansicht auf dieses Vorhaben. Erneuter Klick oder „Alle anzeigen ✕" hebt den Filter auf.</p>
+
+<h3>Institutionen</h3>
+<p>Unterhalb der Regelungsvorhaben befindet sich eine zweite Filterliste für die einreichenden Organisationen – ebenfalls nach Häufigkeit sortiert.</p>
+<p>Mit dem Toggle-Button wechseln Sie zwischen:</p>
+<ul>
+  <li><strong>Gesamt</strong> – alle Stellungnahmen seit 1. Januar 2026</li>
+  <li><strong>Letzte 6 Monate</strong> – nur Einträge der vergangenen 6 Monate (nützlich um aktuell aktive Institutionen zu identifizieren)</li>
+</ul>
+
+<h3>Kombinierte Filter (UND-Verknüpfung)</h3>
+<p>Beide Filter lassen sich kombinieren: Ein aktiver Institutionsfilter aktualisiert automatisch die Regelungsvorhaben-Liste auf die für diese Institution relevanten Vorhaben – und umgekehrt.</p>
 
 <h2>Seitennavigation</h2>
 <p>Auf der ersten Seite werden die Einträge der letzten 7 Tage angezeigt.
 Ältere Einträge sind über die Archiv-Navigation am Seitenende erreichbar,
-gruppiert in Blöcke von je 10 Tagen.</p>
+gruppiert in Blöcke von je 10 Tagen. Bei aktivem Filter wird die Pagination
+deaktiviert, damit alle Treffer sichtbar sind.</p>
 
 <h2>Aktualisierung</h2>
-<p>Die Seite wird <strong>täglich um ca. 6:00 Uhr</strong> automatisch aktualisiert.
-Zusätzlich wird jeden <strong>Montag</strong> eine <strong>Zusammenfassungs-Mail</strong>
+<p>Die Seite wird <strong>täglich um ca. 01:00 Uhr MEZ</strong> automatisch aktualisiert.
+Jeden <strong>Montag</strong> wird zusätzlich eine <strong>Zusammenfassungs-Mail</strong>
 mit den Einträgen der vergangenen Woche verschickt.</p>
 
 </div>
