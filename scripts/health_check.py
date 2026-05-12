@@ -138,6 +138,27 @@ def check_gemini():
         return False, f"Gemini API nicht erreichbar: {e}"
 
 
+def check_api_structure(api_key):
+    """Prüft, ob die API-Struktur noch wie erwartet ist."""
+    try:
+        resp = requests.get(
+            f"{API_BASE}/registerentries/R002297",
+            headers={"Authorization": f"ApiKey {api_key}"},
+            params={"format": "json"}, timeout=20
+        )
+        if resp.status_code != 200:
+            return False, "Strukturtest fehlgeschlagen: Test-Eintrag R002297 nicht abrufbar"
+        data = resp.json()
+        if "statements" not in data:
+            return False, "Strukturfehler: Feld 'statements' fehlt im Registereintrag"
+        stmts_data = data.get("statements", {})
+        if not isinstance(stmts_data, dict) or "statementsPresent" not in stmts_data:
+            return False, "Strukturfehler: Feld 'statementsPresent' fehlt oder hat falsches Format"
+        return True, "API-Struktur (Stellungnahmen) verifiziert"
+    except Exception as e:
+        return False, f"Fehler beim Strukturtest: {e}"
+
+
 def check_data_freshness():
     """Prüft ob data.json auf der Webseite aktuell ist (max. 48h alt)."""
     try:
