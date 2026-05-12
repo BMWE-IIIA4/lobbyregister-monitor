@@ -49,7 +49,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li>Filterung nach Regelungsvorhaben und Institutionen (kombinierbar)</li>
 </ul>
 <p>Zus&auml;tzlich <strong>jeden Montag</strong>: Wochenmail (nur bei automatischem Trigger) und Selbsttest.</p>
-<p>Ablauf: t&auml;glich um <strong>01:00 Uhr MEZ</strong> (= 00:00 UTC).</p>
+<p>Ablauf: t&auml;glich um <strong>02:00 Uhr MEZ</strong> (= 01:00 UTC).</p>
 
 <div class="warn">
   <strong>Sommerzeit:</strong> GitHub Actions kennt keine Berliner Zeit. Im Sommer (MESZ = UTC+2) l&auml;uft der Workflow um 02:00 Uhr statt 01:00 Uhr. Dies ist technisch bedingt und akzeptiert.
@@ -103,6 +103,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <tr><td><code>scripts/inject_admin_hash.py</code></td><td>Injiziert Passwort-Hash aus Secret in admin.html beim Build</td></tr>
   <tr><td><code>scripts/template.html</code></td><td>HTML-Vorlage mit Pagination, Regelungsvorhaben- und Institutionsfilter</td></tr>
   <tr><td><code>docs/admin.html</code></td><td>Passwortgesch&uuml;tztes Admin-Panel (Shortcuts zu GitHub Actions)</td></tr>
+  <tr><td><code>docs/hilfe.html</code></td><td>Nutzungsanleitung f&uuml;r Endnutzer (Filterung, Sortierung, Ampelfarben etc.)</td></tr>
   <tr><td><code>docs/actions.html</code></td><td>Workflow-Protokollseite mit Statistiken</td></tr>
   <tr><td><code>docs/data.json</code></td><td>Stellungnahmen-Daten (gecacht zwischen Runs)</td></tr>
   <tr><td><code>docs/gemini_cache.json</code></td><td>KI-Pr&uuml;fungsergebnisse (gecacht zwischen Runs)</td></tr>
