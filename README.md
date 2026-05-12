@@ -29,7 +29,7 @@ Jeden Tag um ca. 01:00 Uhr MEZ läuft automatisch ein Workflow, der:
 
 ```
 .github/workflows/update.yml     – Automatischer Tagesablauf (GitHub Actions)
-scripts/fetch_and_build.py       – Inkrementeller Datenabruf und initiale HTML-Generierung
+scripts/fetch_and_build.py       – Inkrementeller Datenabruf, Filterung und Speicherung in data.json (kein HTML)
 scripts/gemini_enrich.py         – KI-Relevanzfilterung, Zusammenfassungen, finaler HTML-Rebuild
 scripts/send_email.py            – Wöchentlicher E-Mail-Versand (montags, nur automatisch)
 scripts/health_check.py          – Wöchentlicher Selbsttest und Admin-Bericht (montags)
