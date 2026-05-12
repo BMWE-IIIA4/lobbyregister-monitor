@@ -2,9 +2,9 @@ name: Lobbyregister Monitor
 
 on:
   schedule:
-    # Täglich um 05:00 UTC = 06:00 MEZ (Winter) / 07:00 MESZ (Sommer)
-    # Um konsistent 06:00 Berliner Winterzeit zu haben: 05:00 UTC
-    - cron: '0 5 * * *'
+    # Täglich um 01:00 UTC = 02:00 MEZ (Winter) / 03:00 MESZ (Sommer)
+    # Um konsistent 02:00 Berliner Winterzeit zu haben: 01:00 UTC
+    - cron: '0 1 * * *'
   workflow_dispatch:       # Manueller Start jederzeit möglich
     inputs:
       force_email:
@@ -71,6 +71,8 @@ jobs:
         run: python scripts/inject_admin_hash.py
 
       - name: Workflow-Protokoll speichern
+        env:
+          INPUT_FORCE_EMAIL: ${{ github.event.inputs.force_email || 'false' }}
         run: python scripts/save_run_log.py
         continue-on-error: true
 
