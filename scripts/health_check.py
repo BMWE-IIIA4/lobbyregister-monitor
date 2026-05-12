@@ -35,7 +35,7 @@ KNOWN_API_VERSION = "2.0.0"
 KNOWN_YAML_FILE = "R2.21-de.yaml"
 
 # WICHTIG: Muss mit GEMINI_MODEL in gemini_enrich.py übereinstimmen!
-GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
+GEMINI_MODEL = "gemini-3.1-flash-lite"
 
 
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
