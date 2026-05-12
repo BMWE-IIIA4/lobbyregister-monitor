@@ -11,7 +11,6 @@ import os
 import re
 import requests
 from datetime import datetime, date
-from collections import defaultdict
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -20,7 +19,6 @@ from zoneinfo import ZoneInfo
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
 API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
 
-SITE_URL = "https://lobbyregister-bot.de"
 START_DATE = date(2026, 1, 1)
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
@@ -97,19 +95,6 @@ def fetch_real_pdf_url(page_url):
     except Exception:
         pass
     return page_url
-
-def calc_delay_days(sending, upload):
-    try:
-        if not sending or not upload:
-            return ""
-        d1 = date.fromisoformat(sending)
-        d2 = date.fromisoformat(upload)
-        diff = (d2 - d1).days
-        if diff > 0:
-            return f" (+{diff} Tage)"
-        return ""
-    except:
-        return ""
 
 # ── Vorherige Daten laden ──────────────────────────────────────────────────────
 
@@ -427,126 +412,10 @@ def merge_statements(previous, new):
 
     return merged
 
-# ── HTML-Generierung ───────────────────────────────────────────────────────────
-
-def format_date_de(iso_date):
-    if not iso_date: return "\u2013"
-    try:
-        d = date.fromisoformat(iso_date)
-        return d.strftime("%d.%m.%Y")
-    except ValueError:
-        return iso_date
-
-def get_weekday_de(iso_date):
-    days = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
-    months = ["", "Januar", "Februar", "M\u00e4rz", "April", "Mai", "Juni",
-              "Juli", "August", "September", "Oktober", "November", "Dezember"]
-    try:
-        d = date.fromisoformat(iso_date)
-        return f"{days[d.weekday()]}, {d.day}. {months[d.month]} {d.year}"
-    except Exception:
-        return iso_date
-
-def render_entry_card(stmt):
-    title = stmt["regulatory_project_title"].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
-    org = stmt["org_name"].replace('<', '&lt;').replace('>', '&gt;')
-    org_url = stmt.get("org_url", "")
-    sending = format_date_de(stmt.get("sending_date"))
-    upload_raw = stmt.get("upload_date")
-    sending_raw = stmt.get("sending_date")
-
-    delay = calc_delay_days(sending_raw, upload_raw)
-    upload = format_date_de(upload_raw) + delay
-
-    summary = (stmt.get("summary", "") or "Keine Beschreibung verf\u00fcgbar.")
-    summary = re.sub(r'<(?!/?b>)', '&lt;', summary).replace('>', '&gt;').replace('<b&gt;', '<b>').replace('</b&gt;', '</b>')
-
-    recipients = stmt.get("recipients", [])
-    fields = stmt.get("fields", [])
-    pdf_url = stmt.get("pdf_url", "")
-    pdf_pages = stmt.get("pdf_pages", 0)
-    sg_number = stmt.get("sg_number", "")
-    statement_url = stmt.get("statement_url", "")
-
-    org_html = f'<a href="{org_url}" target="_blank" style="color:#004B87;text-decoration:none">{org}</a>' if org_url else org
-    recip_badges = "".join(f'<span class="abadge">{r}</span>' for r in recipients)
-    field_tags = "".join(f'<span class="tag">{f["label"]}</span>' for f in fields)
-
-    sg_label = f" ({sg_number})" if sg_number else ""
-    stmt_link = f'<a href="{statement_url}" target="_blank">\u2197 Stellungnahme im Lobbyregister{sg_label}</a>' if statement_url else ''
-    pdf_link = f'<a href="{pdf_url}" target="_blank">\u2197 PDF herunterladen ({pdf_pages} Seiten)</a>' if pdf_url else '<span style="color:#999">Kein PDF</span>'
-
-    return (
-        f'<div class="entry-card" data-vorhaben="{title}">'
-        f'<div class="row-title">{title}</div>'
-        f'<div class="meta-row">'
-        f'<div class="mc grow"><strong>Bereitgestellt von</strong>{org_html}</div>'
-        f'<div class="mc fixd"><strong>Datum Stellungnahme</strong>{sending}</div>'
-        f'<div class="mc fixd"><strong>Hochgeladen am</strong>{upload}</div>'
-        f'</div>'
-        f'<div class="meta-row two-col">'
-        f'<div class="mc half"><strong>Adressaten</strong>{recip_badges}</div>'
-        f'<div class="mc half"><strong>Themenfelder der Stellungnahme</strong>{field_tags}</div>'
-        f'</div>'
-        f'<div class="row-full"><span class="row-label">Inhalt</span>{summary}</div>'
-        f'<div class="link-row">'
-        f'<div class="lc">{stmt_link}</div>'
-        f'<div class="lc">{pdf_link}</div>'
-        f'</div></div>'
-    )
-
-def generate_html(statements, generated_at):
-    by_date = defaultdict(list)
-    for stmt in statements:
-        # NUR upload_date verwenden (nicht sending_date als Fallback!)
-        key = stmt.get("upload_date") or "unbekannt"
-        by_date[key].append(stmt)
-
-    vorhaben_counts = defaultdict(int)
-    for stmt in statements:
-        vorhaben_counts[stmt["regulatory_project_title"]] += 1
-
-    day_sections_html = ""
-    for iso_date, day_stmts in sorted(by_date.items(), reverse=True):
-        day_stmts_sorted = sorted(day_stmts, key=lambda x: x.get("priority", 99))
-        # Tag-Label basiert auf upload_date (nicht sending_date!)
-        day_label = get_weekday_de(iso_date)
-        cards = "".join(render_entry_card(s) for s in day_stmts_sorted)
-        day_sections_html += (
-            f'<div class="day-section" data-date="{iso_date}">'
-            f'<div class="day-header">{day_label}</div>'
-            f'{cards}</div>'
-        )
-
-    filter_items = "".join(
-        f'<li data-v="{v.replace(chr(34), chr(39))}">'
-        f'<span>{v}</span><span class="filter-count">{c}</span></li>'
-        for v, c in sorted(vorhaben_counts.items(), key=lambda x: -x[1])
-    )
-
-    # BERLINER ZEIT für den Timestamp!
-    gen_dt = datetime.fromisoformat(generated_at).astimezone(BERLIN_TZ)
-    months_de = ["", "Januar", "Februar", "M\u00e4rz", "April", "Mai", "Juni",
-                 "Juli", "August", "September", "Oktober", "November", "Dezember"]
-    gen_str = f"{gen_dt.day}. {months_de[gen_dt.month]} {gen_dt.year}, {gen_dt.strftime('%H:%M')} Uhr"
-    fields_subtitle = ("Energie &amp; Wasserstoff, Klimaschutz, EU-Binnenmarkt, EU-Gesetzgebung, "
-                       "Bundestag, Wettbewerbsrecht, Politisches Leben/Parteien, Sonstige")
-
-    with open("scripts/template.html", "r", encoding="utf-8") as f:
-        template = f.read()
-
-    html = template.replace("{{DAY_SECTIONS}}", day_sections_html)
-    html = html.replace("{{FILTER_ITEMS}}", filter_items)
-    html = html.replace("{{GENERATED_AT}}", gen_str)
-    html = html.replace("{{TOTAL_COUNT}}", str(len(statements)))
-    html = html.replace("{{FIELDS_SUBTITLE}}", fields_subtitle)
-    html = html.replace("{{SITE_URL}}", SITE_URL)
-    return html
-
 # ── Hauptprogramm ──────────────────────────────────────────────────────────────
 
 def main():
-    print("=== Lobbyregister Monitor - Seitengenerierung (V2 API, inkrementell) ===")
+    print("=== Lobbyregister Monitor - Datenabruf (V2 API, inkrementell) ===")
 
     # Vorherige Daten laden (aus Cache)
     previous_statements, known_register_numbers = load_previous_data()
@@ -574,7 +443,7 @@ def main():
         new_statements = fetch_and_filter_statements(new_register_numbers)
     else:
         new_statements = []
-        print("\nKeine neuen Eintraege - nur HTML-Aktualisierung.")
+        print("\nKeine neuen Eintraege.")
 
     # Merge: vorherige + neue, mit Deduplizierung
     all_statements = merge_statements(previous_statements, new_statements)
@@ -588,8 +457,8 @@ def main():
 
     # BERLINER ZEIT für generated_at
     generated_at = datetime.now(BERLIN_TZ).isoformat()
-    
-    # Speichern
+
+    # Nur data.json speichern – HTML wird von gemini_enrich.py generiert
     Path("docs").mkdir(exist_ok=True)
 
     with open("docs/data.json", "w", encoding="utf-8") as f:
@@ -602,11 +471,7 @@ def main():
             )
         }, f, ensure_ascii=False, indent=2)
 
-    html = generate_html(all_statements, generated_at)
-    with open("docs/index.html", "w", encoding="utf-8") as f:
-        f.write(html)
-
-    print(f"Seite generiert: docs/index.html ({len(all_statements)} Eintraege)")
+    print(f"Daten gespeichert: docs/data.json ({len(all_statements)} Eintraege)")
 
 if __name__ == "__main__":
     main()
