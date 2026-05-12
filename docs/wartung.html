@@ -49,7 +49,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li>Filterung nach Regelungsvorhaben und Institutionen (kombinierbar)</li>
 </ul>
 <p>Zus&auml;tzlich <strong>jeden Montag</strong>: Wochenmail (nur bei automatischem Trigger) und Selbsttest.</p>
-<p>Ablauf: t&auml;glich um <strong>02:00 Uhr MEZ</strong> (= 01:00 UTC).</p>
+<p>Ablauf: t&auml;glich um <strong>01:00 Uhr MEZ</strong> (= 00:00 UTC).</p>
 
 <div class="warn">
   <strong>Sommerzeit:</strong> GitHub Actions kennt keine Berliner Zeit. Im Sommer (MESZ = UTC+2) l&auml;uft der Workflow um 02:00 Uhr statt 01:00 Uhr. Dies ist technisch bedingt und akzeptiert.
@@ -95,7 +95,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <table class="secret-table">
   <tr><th>Datei</th><th>Funktion</th></tr>
   <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Cache-Verwaltung, konditionale Mail</td></tr>
-  <tr><td><code>scripts/fetch_and_build.py</code></td><td>Inkrementeller API-Abruf, Filterung, initiale HTML-Generierung</td></tr>
+  <tr><td><code>scripts/fetch_and_build.py</code></td><td>Inkrementeller API-Abruf, Filterung, Speicherung in data.json – kein HTML</td></tr>
   <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung, Zusammenfassung, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
   <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags, nur automatischer Trigger)</td></tr>
@@ -113,7 +113,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <h2>4. Ablauf eines t&auml;glichen Durchlaufs</h2>
 <ol>
   <li><strong>Cache laden</strong> &ndash; <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> aus GitHub Actions Cache</li>
-  <li><strong>fetch_and_build.py</strong> &ndash; Registernummern laden, nur neue einzeln abrufen, mit vorherigen Daten mergen, initiales HTML bauen</li>
+  <li><strong>fetch_and_build.py</strong> &ndash; Registernummern laden, nur neue einzeln abrufen, mit vorherigen Daten mergen, in data.json speichern (kein HTML)</li>
   <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge per KI pr&uuml;fen (max. 100/Run), gecachte &uuml;berspringen, finales HTML mit Ampelfarben und Institutionsfilter bauen</li>
   <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in admin.html einsetzen</li>
   <li><strong>save_run_log.py</strong> &ndash; Durchlauf-Statistiken an <code>run_history.json</code> anh&auml;ngen</li>
