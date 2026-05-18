@@ -82,13 +82,13 @@ def render_entry_card(stmt):
     org_html = f'<a href="{org_url}" style="color:#004B87;text-decoration:none">{org}</a>' if org_url else org
 
     recip_badges = " ".join(
-        f'<span style="background:#eff6ff;color:#1e40af;font-size:11px;font-weight:bold;'
+        f'<span style="background:#eff6ff;color:#1e40af;font-size:13px;font-weight:bold;'
         f'padding:1px 7px;border-radius:10px;border:1px solid #bfdbfe">{r}</span>'
         for r in stmt.get("recipients", [])
     )
 
     field_tags = " ".join(
-        f'<span style="background:#f1f5f9;color:#475569;font-size:11px;'
+        f'<span style="background:#f1f5f9;color:#475569;font-size:13px;'
         f'padding:1px 7px;border-radius:10px;border:1px solid #e2e8f0">{f["label"]}</span>'
         for f in stmt.get("fields", [])
     )
@@ -105,49 +105,49 @@ def render_entry_card(stmt):
     ) if stmt.get("pdf_url") else ''
 
     # Wiederverwendete Style-Strings
-    LABEL_GRAY = ('font-size:11px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
-                  'white-space:nowrap;vertical-align:top;padding:3px 12px;background:#fafafa')
-    VALUE_GRAY = 'font-size:12px;padding:3px 12px;background:#fafafa;vertical-align:top'
-    LABEL_WHITE = ('font-size:11px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
-                   'white-space:nowrap;vertical-align:top;padding:3px 12px;background:#fff;'
-                   'border-top:1px solid #f1f5f9')
-    VALUE_WHITE = ('font-size:12px;padding:3px 12px;background:#fff;vertical-align:top;'
-                   'border-top:1px solid #f1f5f9')
+    LABEL_GRAY = ('font-size:13px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
+                  'white-space:nowrap;vertical-align:top;padding:2px 10px;background:#fafafa;line-height:1')
+    VALUE_GRAY = 'font-size:14px;padding:2px 10px;background:#fafafa;vertical-align:top;line-height:1'
+    LABEL_WHITE = ('font-size:13px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
+                   'white-space:nowrap;vertical-align:top;padding:2px 10px;background:#fff;'
+                   'border-top:1px solid #f1f5f9;line-height:1')
+    VALUE_WHITE = ('font-size:14px;padding:2px 10px;background:#fff;vertical-align:top;'
+                   'border-top:1px solid #f1f5f9;line-height:1')
 
     return f'''
 <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e2e8f0;margin-bottom:10px;border-collapse:collapse">
   <tr>
-    <td colspan="2" style="padding:8px 12px;font-size:13px;font-weight:bold;color:#0f172a;border-left:4px solid #004B87;border-bottom:1px solid #f1f5f9">{title}</td>
+    <td colspan="2" style="padding:6px 12px;font-size:15px;font-weight:bold;color:#0f172a;border-left:4px solid #004B87;border-bottom:1px solid #f1f5f9">{title}</td>
   </tr>
   {ai_warning}
   <tr>
-    <td width="160" style="{LABEL_GRAY};padding-top:5px">Bereitgestellt von</td>
-    <td style="{VALUE_GRAY};padding-top:5px">{org_html}</td>
+    <td width="175" style="{LABEL_GRAY};padding-top:3px">Bereitgestellt von</td>
+    <td style="{VALUE_GRAY};padding-top:3px">{org_html}</td>
   </tr>
   <tr>
     <td style="{LABEL_GRAY}">Datum SG</td>
     <td style="{VALUE_GRAY}">{sending}</td>
   </tr>
   <tr>
-    <td style="{LABEL_GRAY};padding-bottom:5px">Hochgeladen</td>
-    <td style="{VALUE_GRAY};padding-bottom:5px">{upload_display}</td>
+    <td style="{LABEL_GRAY};padding-bottom:3px">Hochgeladen</td>
+    <td style="{VALUE_GRAY};padding-bottom:3px">{upload_display}</td>
   </tr>
   <tr>
-    <td style="{LABEL_WHITE};padding-top:5px">Adressaten</td>
-    <td style="{VALUE_WHITE};padding-top:5px">{recip_badges}</td>
+    <td style="{LABEL_WHITE};padding-top:3px">Adressaten</td>
+    <td style="{VALUE_WHITE};padding-top:3px">{recip_badges}</td>
   </tr>
   <tr>
-    <td style="{LABEL_WHITE};padding-bottom:5px">Themenfelder</td>
-    <td style="{VALUE_WHITE};padding-bottom:5px">{field_tags}</td>
+    <td style="{LABEL_WHITE};padding-bottom:3px">Themenfelder</td>
+    <td style="{VALUE_WHITE};padding-bottom:3px">{field_tags}</td>
   </tr>
   <tr>
-    <td colspan="2" style="padding:8px 12px;font-size:12px;color:#334155;line-height:1.5;border-top:1px solid #f1f5f9">
-      <span style="font-size:10px;font-weight:bold;color:#94a3b8;text-transform:uppercase;display:block;margin-bottom:3px">Inhalt</span>
+    <td colspan="2" style="padding:6px 12px;font-size:14px;color:#334155;line-height:1.4;border-top:1px solid #f1f5f9">
+      <span style="font-size:11px;font-weight:bold;color:#94a3b8;text-transform:uppercase;display:block;margin-bottom:2px;line-height:1">Inhalt</span>
       {summary}
     </td>
   </tr>
   <tr>
-    <td colspan="2" style="padding:6px 12px;font-size:11px;background:#f8fafc;border-top:1px solid #f1f5f9">
+    <td colspan="2" style="padding:5px 12px;font-size:13px;background:#f8fafc;border-top:1px solid #f1f5f9">
       {stmt_link}{pdf_link}
     </td>
   </tr>
