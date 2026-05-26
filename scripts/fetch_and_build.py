@@ -2,8 +2,8 @@
 fetch_and_build.py
 ==================
 Ruft Stellungnahmen ueber die offizielle Lobbyregister API V2 ab.
-
-INKREMENTELLER ABRUF + BERLINER ZEITZONE FÜR TIMESTAMPS
+Inkrementeller Abruf und Speicherung in docs/data.json.
+HTML-Generierung erfolgt ausschliesslich in gemini_enrich.py.
 """
 
 import json
@@ -22,7 +22,10 @@ API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
 START_DATE = date(2026, 1, 1)
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
-TARGET_DEPT_KEYWORDS = ["BMWE", "BMWK", "Wirtschaft", "BKAmt", "Kanzleramt", "BMUKN", "BMUV", "Umwelt", "BMF", "Finanzen"]
+TARGET_DEPT_KEYWORDS = [
+    "BMWE", "BMWK",  # BMWK = früherer Name des Ministeriums, Alteinträge im Register möglich
+    "Wirtschaft", "BKAmt", "Kanzleramt", "BMUKN", "BMUV", "Umwelt", "BMF", "Finanzen"
+]
 
 TARGET_FIELD_CODES = {
     "FOI_ENERGY_OVERALL", "FOI_ENERGY_RENEWABLE", "FOI_ENERGY_FOSSILE",
@@ -370,7 +373,6 @@ def process_statement(stmt, register_number, org_name, upload_date,
 
     return {
         "register_number": str(register_number),
-        "statement_number": sg_number,
         "org_name": str(org_name),
         "org_url": details_page_url,
         "regulatory_project_title": str(stmt.get("regulatoryProjectTitle", "Kein Titel")),
