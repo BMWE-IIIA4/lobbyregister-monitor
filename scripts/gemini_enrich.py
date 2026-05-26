@@ -13,12 +13,15 @@ import sys
 import requests
 from pathlib import Path
 from collections import defaultdict
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
+from zoneinfo import ZoneInfo
+
+BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
 # -- Konfiguration --
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-3.1-flash-lite"
+GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 REQUEST_DELAY = 5.0
@@ -150,9 +153,23 @@ def build_batch_prompt(batch):
         f"{RELEVANZ_KATALOG}\n"
         "Ist der Eintrag relevant? (true/false).\n\n"
         "ZUSAMMENFASSUNG:\n"
-        "- 2 bis 5 Saetze. Sachlich. Ohne Wertung.\n"
-        "- Markiere die 2-4 wichtigsten Kernforderungen oder Hauptthemen mit <b>-Tags.\n"
-        "- Falls leer: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
+        "Schreibe 3 bis 5 praegnante Saetze. Sachlich. Ohne Wertung.\n\n"
+        "ERSTER SATZ: Nennt zwingend (a) die Handlung/Haltung der Organisation "
+        "(z.B. fordert, lehnt ab, begruesst, empfiehlt, warnt vor, schlaegt vor, kritisiert, "
+        "unterstuetzt, bezweifelt, beantragt, praezisiert) UND (b) den zentralen Gegenstand.\n"
+        "FOLGENDE SAETZE: Konkretisieren die wichtigsten Details, Argumente oder Forderungen.\n\n"
+        "MARKIERUNG mit <b>-Tags:\n"
+        "Markiere genau die Woerter und kurzen Phrasen, die beim schnellen Ueberfliegen "
+        "den Kern des Eintrags erfassen lassen. Dazu gehoeren:\n"
+        "- Das Taetigkeitswort der Organisation (fordert, lehnt ab, empfiehlt etc.)\n"
+        "- Der konkrete Inhalt der Forderung/Aussage (z.B. 'rechtliche Verankerung', "
+        "'Beibehaltung der Foerderung', 'Ergebnisse der Befragung')\n"
+        "- Spezifische Kernbegriffe die nicht schon aus Titel oder Adressaten hervorgehen\n"
+        "NICHT markieren: Woerter die bereits im Regelungsvorhaben-Titel stehen, "
+        "allgemeine Woerter (Stellungnahme, Unternehmen, Bereich), reine Gesetzesnummern "
+        "die im Titel stehen.\n"
+        "Ziel: 3-5 markierte Phrasen pro Eintrag fuer optimales Scannen.\n\n"
+        "- Falls keine Beschreibung vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
         f"Eintraege:{entries_text}\n\n"
         f"Antworte als JSON-Array mit {len(batch)} Objekten:\n"
         '[ {"index": 1, "relevant": true, "relevanz_grund": "...", "zusammenfassung": "..."} ]\n'
@@ -179,18 +196,17 @@ def upload_delay_style(sending_raw, upload_raw):
     if not sending_raw or not upload_raw:
         return None, 0
     try:
-        from datetime import date as _date
-        d1 = _date.fromisoformat(sending_raw)
-        d2 = _date.fromisoformat(upload_raw)
+        d1 = date.fromisoformat(sending_raw)
+        d2 = date.fromisoformat(upload_raw)
         diff = (d2 - d1).days
         if diff <= 0:
             return None, diff
         elif diff <= 7:
-            return "#16a34a", diff   # grün
+            return "#16a34a", diff
         elif diff <= 30:
-            return "#d97706", diff   # gelb
+            return "#d97706", diff
         else:
-            return "#dc2626", diff   # rot
+            return "#dc2626", diff
     except Exception:
         return None, 0
 
@@ -244,11 +260,10 @@ def render_entry_card(stmt):
 
 def generate_html(statements, generated_at, pending_dates):
     by_date = defaultdict(list)
-    from datetime import date as _date, timedelta
     vorhaben_counts = defaultdict(int)
     org_counts_all = defaultdict(int)
     org_counts_6m = defaultdict(int)
-    cutoff_6m = (_date.today() - timedelta(days=180)).isoformat()
+    cutoff_6m = (date.today() - timedelta(days=180)).isoformat()
     for stmt in statements:
         key = stmt.get("upload_date") or "unbekannt"
         by_date[key].append(stmt)
@@ -275,8 +290,6 @@ def generate_html(statements, generated_at, pending_dates):
         )
     filter_items = "".join(f'<li data-v="{v.replace(chr(34), chr(39))}"><span>{v}</span><span class="filter-count">{c}</span></li>' for v, c in sorted(vorhaben_counts.items(), key=lambda x: -x[1]))
     org_items_all = "".join(f'<li data-o="{o.replace(chr(34), chr(39))}" data-c-all="{c}" data-c-6m="{org_counts_6m.get(o,0)}"><span>{o}</span><span class="filter-count">{c}</span></li>' for o, c in sorted(org_counts_all.items(), key=lambda x: -x[1]))
-    from zoneinfo import ZoneInfo
-    BERLIN_TZ = ZoneInfo("Europe/Berlin")
     gen_dt = datetime.fromisoformat(generated_at).astimezone(BERLIN_TZ)
     months_de = ["", "Januar", "Februar", "M\u00e4rz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
     with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
@@ -436,7 +449,7 @@ def main():
 
     # 4. Daten speichern
     data["statements"] = final_statements
-    data["gemini_filtered_out"] = filtered_out
+    data["gemini_filtered_out"] = len(filtered_out)  # Zahl, nicht Liste
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
