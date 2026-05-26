@@ -58,13 +58,8 @@ def main():
                 if not stmt.get("summary") or len(stmt.get("summary", "")) < 50:
                     pending_entries += 1
 
-            # filtered_out wird von gemini_enrich.py in data.json gespeichert
+            # gemini_filtered_out wird von gemini_enrich.py als Zahl in data.json gespeichert
             filtered_entries = data.get("gemini_filtered_out", 0)
-
-        except Exception as e:
-            print(f"Warnung: Daten nicht lesbar: {e}")
-
-    # Gemini-Cache nicht mehr nötig für filtered_count
 
     # GitHub Actions Umgebungsvariablen
     run_number = os.environ.get("GITHUB_RUN_NUMBER", "?")
