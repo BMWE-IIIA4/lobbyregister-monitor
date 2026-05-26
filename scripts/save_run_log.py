@@ -61,6 +61,9 @@ def main():
             # gemini_filtered_out wird von gemini_enrich.py als Zahl in data.json gespeichert
             filtered_entries = data.get("gemini_filtered_out", 0)
 
+        except Exception as e:
+            print(f"Warnung: Daten nicht lesbar: {e}")
+
     # GitHub Actions Umgebungsvariablen
     run_number = os.environ.get("GITHUB_RUN_NUMBER", "?")
     run_id = os.environ.get("GITHUB_RUN_ID", "")
