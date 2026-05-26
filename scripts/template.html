@@ -99,11 +99,11 @@ a:hover { color: #003366; text-decoration: underline; }
 </div>
 <div class="page-desc">
   <div class="desc-inner">
-    <div class="desc-line">Stellungnahmen und Gutachten mit <strong>Adressat BMWE, BKAmt, BMUKN, BMF oder Bundestag</strong></div>
+    <div class="desc-line">Stellungnahmen und Gutachten mit Adressat BMWE, BKAmt, BMUKN, BMF oder Bundestag</div>
     <div class="desc-line"><strong>Themenfelder: {{FIELDS_SUBTITLE}}</strong></div>
     <div class="desc-line">Die angezeigten Themenfelder entsprechen den vorgegebenen Kategorien im Lobbyregister und der Zuordnung der jeweiligen Organisation.</div>
     <div class="desc-line">Chronologisch absteigend sortiert nach Datum des Uploads im Lobbyregister.</div>
-    <div class="desc-line" style="margin-top:0.4rem"><u>Hinweis:</u> Das Lobbyregistergesetz enthält keine konkrete Frist für die Veröffentlichung von Stellungnahmen. Maßgeblich ist der Grundsatz der „unverzüglichen Veröffentlichung".</div>
+    <div class="desc-line" style="margin-top:0.4rem"><u><strong>Hinweis:</strong></u> Das Lobbyregistergesetz enthält keine konkrete Frist für die Veröffentlichung von Stellungnahmen. Maßgeblich ist der Grundsatz der „unverzüglichen Veröffentlichung".</div>
   </div>
 </div>
 <div class="page">
@@ -113,6 +113,13 @@ a:hover { color: #003366; text-decoration: underline; }
   <div class="pagination" id="pagination"></div>
 </main>
 <aside class="sidebar">
+  <div class="sidebar-title">Volltextsuche</div>
+  <div class="sidebar-hint">Durchsucht Titel, Organisationen und Inhalt aller Einträge.</div>
+  <input type="text" class="filter-input" id="fulltextSearch" placeholder="Suchbegriff eingeben…">
+  <button class="reset-btn" id="resetFulltext" style="display:none">Suche zurücksetzen ✕</button>
+
+  <div style="border-top:1px solid #e2e8f0;margin:1.25rem 0"></div>
+
   <div class="sidebar-title">Regelungsvorhaben</div>
   <div class="sidebar-hint">Klicken Sie auf ein Vorhaben, um nur die zugehörigen Einträge zu sehen.</div>
   <input type="text" class="filter-input" id="filterSearch" placeholder="Vorhaben suchen…">
@@ -142,7 +149,8 @@ a:hover { color: #003366; text-decoration: underline; }
     <div>Daten: <a href="https://www.lobbyregister.bundestag.de" style="color:#e2e8f0">Lobbyregister des Deutschen Bundestages</a></div>
     <div>
       <a href="hilfe.html" style="color:#e2e8f0">Nutzungsanleitung</a> · 
-      <a href="impressum.html" style="color:#e2e8f0">Impressum</a> ·  
+      <a href="impressum.html" style="color:#e2e8f0">Impressum</a> · 
+      <a href="actions.html" style="color:#e2e8f0">Workflow-Logs</a> · 
       <a href="admin.html" style="color:#94a3b8;font-size:0.75rem">Admin</a>
     </div>
   </div>
@@ -150,6 +158,8 @@ a:hover { color: #003366; text-decoration: underline; }
 <script>
 (function() {
   var entries = document.getElementById('entries');
+  var fulltextSearch = document.getElementById('fulltextSearch');
+  var resetFulltextBtn = document.getElementById('resetFulltext');
   var filterList = document.getElementById('filterList');
   var filterSearch = document.getElementById('filterSearch');
   var resetBtn = document.getElementById('resetFilter');
@@ -160,6 +170,7 @@ a:hover { color: #003366; text-decoration: underline; }
 
   var activeVorhaben = null;
   var activeOrg = null;
+  var activeFulltext = '';
   var orgMode = 'all'; // 'all' oder '6m'
 
   var RECENT_DAYS = 7;
@@ -206,10 +217,9 @@ a:hover { color: #003366; text-decoration: underline; }
 
   // ── Kernfilter ────────────────────────────────────────────────────────────
   function applyFilters() {
-    var hasAnyFilter = activeVorhaben || activeOrg;
+    var hasAnyFilter = activeVorhaben || activeOrg || activeFulltext;
 
     if (!hasAnyFilter) {
-      // Kein Filter: Pagination zeigen
       entries.querySelectorAll('.entry-card').forEach(function(c) { c.style.display = ''; });
       entries.querySelectorAll('.day-section').forEach(function(s) { s.style.display = ''; });
       buildPages(); showPage(0);
@@ -217,14 +227,18 @@ a:hover { color: #003366; text-decoration: underline; }
       return;
     }
 
-    // Filter aktiv: Pagination ausblenden, alles zeigen
     paginationEl.innerHTML = '';
     entries.querySelectorAll('.day-section').forEach(function(s) { s.style.display = ''; });
 
     entries.querySelectorAll('.entry-card').forEach(function(c) {
       var matchV = !activeVorhaben || c.getAttribute('data-vorhaben') === activeVorhaben;
       var matchO = !activeOrg || c.getAttribute('data-org') === activeOrg;
-      c.style.display = (matchV && matchO) ? '' : 'none';
+      var matchF = true;
+      if (activeFulltext) {
+        var cardText = c.innerText || c.textContent || '';
+        matchF = cardText.toLowerCase().indexOf(activeFulltext) !== -1;
+      }
+      c.style.display = (matchV && matchO && matchF) ? '' : 'none';
     });
 
     // Leere Day-Sections verstecken
@@ -282,6 +296,24 @@ a:hover { color: #003366; text-decoration: underline; }
     });
     items.forEach(function(li) { orgList.appendChild(li); });
   }
+
+  // ── Volltext-Suche ────────────────────────────────────────────────────────
+  fulltextSearch.addEventListener('input', function() {
+    activeFulltext = this.value.toLowerCase().trim();
+    resetFulltextBtn.style.display = activeFulltext ? 'block' : 'none';
+    applyFilters();
+    updateVorhabenCounts(activeOrg);
+    updateOrgCounts(activeVorhaben);
+  });
+
+  resetFulltextBtn.addEventListener('click', function() {
+    activeFulltext = '';
+    fulltextSearch.value = '';
+    resetFulltextBtn.style.display = 'none';
+    applyFilters();
+    updateVorhabenCounts(null);
+    updateOrgCounts(null);
+  });
 
   // ── Vorhaben-Filter ───────────────────────────────────────────────────────
   filterList.addEventListener('click', function(e) {
