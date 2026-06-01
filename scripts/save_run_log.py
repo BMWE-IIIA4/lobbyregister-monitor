@@ -6,7 +6,7 @@ Speichert Workflow-Run-Informationen mit erweiterten Metriken.
 
 import json
 import os
-from datetime import datetime, date, timedelta
+from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -44,17 +44,12 @@ def main():
             statements = data.get("statements", [])
             total_entries = len(statements)
 
-            today = date.today()
-            yesterday = today - timedelta(days=1)
+            # NEU = heute tatsaechlich neu in die DB aufgenommen (von
+            # fetch_and_build.py als 'newly_added' in data.json hinterlegt),
+            # NICHT "in den letzten 24h veroeffentlicht".
+            new_entries = data.get("newly_added", 0)
 
             for stmt in statements:
-                upload_str = stmt.get("upload_date")
-                if upload_str:
-                    try:
-                        if date.fromisoformat(upload_str) >= yesterday:
-                            new_entries += 1
-                    except Exception:
-                        pass
                 if not stmt.get("summary") or len(stmt.get("summary", "")) < 50:
                     pending_entries += 1
 
