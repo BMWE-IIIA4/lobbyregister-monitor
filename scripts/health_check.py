@@ -4,14 +4,15 @@ health_check.py
 Woechentlicher Selbsttest des Lobbyregister-Monitors.
 
 Prueft:
-1. Erreichbarkeit der Lobbyregister API und API-Struktur
-2. Ob sich die API-Version (YAML) geaendert hat
-3. Aktualitaet von data.json (max. 48h alt)
+1. Erreichbarkeit der Lobbyregister API
+2. API-Struktur (Stellungnahmen-Felder unveraendert)
+3. Ob sich die API-Version (YAML) geaendert hat
 4. Ob die generierten Seiten korrekt ausgeliefert werden
-5. Admin-Passwort-Hash korrekt injiziert
-6. run_history.json aktuell
-7. Resend-Domain verifiziert
-8. Gemini API erreichbar
+5. Aktualitaet von data.json (max. 48h alt)
+6. Admin-Passwort-Hash korrekt injiziert
+7. run_history.json aktuell
+8. Resend-Domain verifiziert
+9. Gemini API erreichbar
 
 Sendet bei Problemen einen Bericht per Resend an ADMIN_EMAIL.
 """
@@ -20,6 +21,8 @@ import os
 import re
 import requests
 from datetime import date
+
+from config import GEMINI_MODEL
 
 # ── Konfiguration ──────────────────────────────────────────────────────────────
 
@@ -38,8 +41,7 @@ YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
 KNOWN_API_VERSION = "2.0.0"
 KNOWN_YAML_FILE = "R2.21-de.yaml"
 
-# WICHTIG: Muss mit GEMINI_MODEL in gemini_enrich.py übereinstimmen!
-GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
+# GEMINI_MODEL wird aus config.py importiert (gemeinsame Quelle mit gemini_enrich.py)
 
 
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
