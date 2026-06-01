@@ -16,12 +16,13 @@ from collections import defaultdict
 from datetime import datetime, date, timedelta
 from zoneinfo import ZoneInfo
 
+from config import GEMINI_MODEL
+
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
 # -- Konfiguration --
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-3.1-flash-lite"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 REQUEST_DELAY = 5.0
@@ -211,8 +212,14 @@ def upload_delay_style(sending_raw, upload_raw):
         return None, 0
 
 def render_entry_card(stmt):
-    title = stmt["regulatory_project_title"].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
-    org = stmt["org_name"].replace('<', '&lt;').replace('>', '&gt;')
+    raw_title = stmt["regulatory_project_title"]
+    raw_org = stmt["org_name"]
+    # Sichtbarer Text: HTML-escaped. Attributwerte (data-*): " -> ' ,
+    # identisch zur Filterliste (data-v / data-o), damit der JS-Vergleich aufgeht.
+    title = raw_title.replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+    org = raw_org.replace('<', '&lt;').replace('>', '&gt;')
+    title_attr = raw_title.replace(chr(34), chr(39))
+    org_attr = raw_org.replace(chr(34), chr(39))
     org_url = stmt.get("org_url", "")
     sending = format_date_de(stmt.get("sending_date"))
     upload_raw = stmt.get("upload_date")
@@ -240,7 +247,7 @@ def render_entry_card(stmt):
     if stmt.get("gemini_status") == "pending":
         pending_badge = '<span style="font-size:0.7rem;font-weight:700;color:#94a3b8;margin-left:10px;">KI-Pr\u00fcfung ausstehend</span>'
     return (
-        f'<div class="entry-card" data-vorhaben="{title}" data-org="{org.replace(chr(34), chr(39))}" data-upload="{stmt.get("upload_date", "")}">'
+        f'<div class="entry-card" data-vorhaben="{title_attr}" data-org="{org_attr}" data-upload="{stmt.get("upload_date", "")}">'
         f'<div class="row-title">{title}{pending_badge}</div>'
         f'<div class="meta-row">'
         f'<div class="mc grow"><strong>Bereitgestellt von</strong>{org_html}</div>'
