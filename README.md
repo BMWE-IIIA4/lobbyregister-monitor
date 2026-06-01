@@ -6,7 +6,7 @@ Automatische Übersicht neuer Stellungnahmen und Gutachten aus dem [Lobbyregiste
 
 Jeden Tag um ca. 01:00 Uhr MEZ läuft automatisch ein Workflow, der:
 
-1. **Inkrementell** neue Stellungnahmen über die [Lobbyregister API v2](https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/) abruft (nur neue Registereinträge, bereits bekannte werden übersprungen)
+1. **Täglich** alle Stellungnahmen über die [Lobbyregister API v2](https://api.lobbyregister.bundestag.de/rest/v2/swagger-ui/) abruft (Vollabgleich aller Organisationen; Deduplizierung auf Stellungnahme-Ebene per SG-Nummer, sodass auch neue Stellungnahmen bereits bekannter Organisationen erfasst werden)
 2. Die Einträge per **Google Gemini 3.1 Flash Lite** auf Energie- und Klimarelevanz prüft und Zusammenfassungen mit hervorgehobenen Schlüsselbegriffen erstellt (mit lokalem Cache für bereits geprüfte Einträge)
 3. Eine öffentlich zugängliche **Übersichtsseite** auf GitHub Pages aktualisiert – sortiert nach Datum des Uploads im Lobbyregister
 4. Jeden **Montag** eine **wöchentliche Zusammenfassungs-Mail** versendet (nur bei automatischem Trigger, nicht bei manuellen Starts)
@@ -29,7 +29,7 @@ Jeden Tag um ca. 01:00 Uhr MEZ läuft automatisch ein Workflow, der:
 
 ```
 .github/workflows/update.yml     – Automatischer Tagesablauf (GitHub Actions)
-scripts/fetch_and_build.py       – Inkrementeller Datenabruf, Filterung und Speicherung in data.json (kein HTML)
+scripts/fetch_and_build.py       – Datenabruf (Vollabgleich), Filterung und Speicherung in data.json (kein HTML)
 scripts/gemini_enrich.py         – KI-Relevanzfilterung, Zusammenfassungen, finaler HTML-Rebuild
 scripts/send_email.py            – Wöchentlicher E-Mail-Versand (montags, nur automatisch)
 scripts/health_check.py          – Wöchentlicher Selbsttest und Admin-Bericht (montags)
