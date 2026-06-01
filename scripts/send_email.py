@@ -125,11 +125,11 @@ def render_entry_card(stmt):
     <td style="{VALUE_GRAY};padding-top:3px">{org_html}</td>
   </tr>
   <tr>
-    <td style="{LABEL_GRAY}">Datum SG</td>
+    <td style="{LABEL_GRAY}">Datum Stellungnahme</td>
     <td style="{VALUE_GRAY}">{sending}</td>
   </tr>
   <tr>
-    <td style="{LABEL_GRAY};padding-bottom:3px">Hochgeladen</td>
+    <td style="{LABEL_GRAY};padding-bottom:3px">Hochgeladen am</td>
     <td style="{VALUE_GRAY};padding-bottom:3px">{upload_display}</td>
   </tr>
   <tr>
