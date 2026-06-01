@@ -1,467 +1,550 @@
 """
-health_check.py
-===============
-Woechentlicher Selbsttest des Lobbyregister-Monitors.
+fetch_and_build.py
+==================
+Ruft alle Stellungnahmen ueber die oeffentliche Lobbyregister-Suchschnittstelle
+(sucheDetailJson) in EINEM gestreamten Durchgang ab. Dadurch werden alle
+Organisationen samt ihrer Stellungnahmen inline geliefert – kein Einzelabruf
+pro Organisation mehr noetig.
 
-Prueft:
-1. Erreichbarkeit der Lobbyregister API
-2. API-Struktur (Stellungnahmen-Felder unveraendert)
-3. Ob sich die API-Version (YAML) geaendert hat
-4. Ob die generierten Seiten korrekt ausgeliefert werden
-5. Aktualitaet von data.json (max. 48h alt)
-6. Admin-Passwort-Hash korrekt injiziert
-7. run_history.json aktuell
-8. Resend-Mailversand (Sende-Key aktiv)
-9. Gemini API erreichbar
+Die Deduplizierung erfolgt auf Stellungnahme-Ebene (SG-Nummer): bestehende
+Eintraege bleiben stabil (Datum + Reihenfolge eingefroren), nur neue
+Stellungnahmen werden ergaenzt. Das Bereitstellungsdatum (upload_date) wird aus
+der SG-Nummer abgeleitet.
 
-Sendet bei Problemen einen Bericht per Resend an ADMIN_EMAIL.
+Speicherung in docs/data.json. HTML-Generierung erfolgt in gemini_enrich.py.
+
+Hinweis: Die Antwort der Suchschnittstelle ist gross (~380 MB inkl. Volltexte).
+Sie wird daher mit ijson GESTREAMT (Eintrag fuer Eintrag), sodass der
+Speicherbedarf konstant niedrig bleibt (~50 MB statt mehrerer GB).
 """
 
+import json
 import os
 import re
 import requests
-from datetime import date
-
-from config import GEMINI_MODEL
+import ijson
+from datetime import datetime, date
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # ── Konfiguration ──────────────────────────────────────────────────────────────
 
-ADMIN_EMAIL = os.environ["ADMIN_EMAIL"]
-RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
-LOBBYREGISTER_API_KEY = os.environ.get("LOBBYREGISTER_API_KEY", "")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-SITE_URL = os.environ.get("SITE_URL", "https://lobbyregister-bot.de")
-REPO_URL = "https://github.com/BMWE-IIIA4/lobbyregister-monitor"
-ACTIONS_URL = f"{REPO_URL}/actions"
-SECRETS_URL = f"{REPO_URL}/settings/secrets/actions"
+# Oeffentliche Suchschnittstelle: liefert alle Eintraege samt Stellungnahmen
+# inline, ohne API-Key. pageSize wird serverseitig ignoriert (immer alle).
+SEARCH_URL = "https://www.lobbyregister.bundestag.de/sucheDetailJson"
 
-API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
-YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
+START_DATE = date(2026, 1, 1)
+BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
-KNOWN_API_VERSION = "2.0.0"
-KNOWN_YAML_FILE = "R2.21-de.yaml"
+TARGET_DEPT_KEYWORDS = [
+    "BMWE", "BMWK",  # BMWK = früherer Name des Ministeriums, Alteinträge im Register möglich
+    "Wirtschaft", "BKAmt", "Kanzleramt", "BMUKN", "BMUV", "Umwelt", "BMF", "Finanzen"
+]
 
-# GEMINI_MODEL wird aus config.py importiert (gemeinsame Quelle mit gemini_enrich.py)
+TARGET_FIELD_CODES = {
+    "FOI_ENERGY_OVERALL", "FOI_ENERGY_RENEWABLE", "FOI_ENERGY_FOSSILE",
+    "FOI_ENERGY_NET", "FOI_ENERGY_NUCLEAR", "FOI_ENERGY_OTHER",
+    "FOI_ENERGY_ELECTRICITY", "FOI_ENERGY_GAS", "FOI_ENERGY_HYDROGEN",
+    "FOI_ENERGY", "FOI_ENVIRONMENT_CLIMATE",
+    "FOI_EU_DOMESTIC_MARKET", "FOI_EU_LAWS", "FOI_BUNDESTAG",
+    "FOI_ECONOMY_COMPETITION_LAW", "FOI_POLITICAL_PARTIES", "FOI_OTHER",
+}
+
+FIELD_PRIORITY = {
+    "FOI_ENERGY_OVERALL": 1, "FOI_ENERGY_RENEWABLE": 1, "FOI_ENERGY_FOSSILE": 1,
+    "FOI_ENERGY_NET": 1, "FOI_ENERGY_NUCLEAR": 1, "FOI_ENERGY_OTHER": 1,
+    "FOI_ENERGY_ELECTRICITY": 1, "FOI_ENERGY_GAS": 1, "FOI_ENERGY_HYDROGEN": 1,
+    "FOI_ENERGY": 1,
+    "FOI_ENVIRONMENT_CLIMATE": 2, "FOI_EU_DOMESTIC_MARKET": 2,
+    "FOI_EU_LAWS": 2, "FOI_BUNDESTAG": 2,
+    "FOI_ECONOMY_COMPETITION_LAW": 3, "FOI_POLITICAL_PARTIES": 3, "FOI_OTHER": 3,
+}
+
+FIELD_LABELS = {
+    "FOI_ENERGY_OVERALL": "Energie (allgemein)", "FOI_ENERGY_RENEWABLE": "Erneuerbare Energie",
+    "FOI_ENERGY_FOSSILE": "Fossile Energie", "FOI_ENERGY_NET": "Energienetze",
+    "FOI_ENERGY_NUCLEAR": "Atomenergie", "FOI_ENERGY_OTHER": "Energie (sonstige)",
+    "FOI_ENERGY_ELECTRICITY": "Strom", "FOI_ENERGY_GAS": "Gas",
+    "FOI_ENERGY_HYDROGEN": "Wasserstoff", "FOI_ENERGY": "Energie",
+    "FOI_ENVIRONMENT_CLIMATE": "Klimaschutz",
+    "FOI_EU_DOMESTIC_MARKET": "EU-Binnenmarkt", "FOI_EU_LAWS": "EU-Gesetzgebung",
+    "FOI_BUNDESTAG": "Bundestag", "FOI_ECONOMY_COMPETITION_LAW": "Wettbewerbsrecht",
+    "FOI_POLITICAL_PARTIES": "Politisches Leben, Parteien",
+    "FOI_OTHER": "Sonstige Interessenbereiche",
+}
+
+# Session fuer den gestreamten Abruf der Suchschnittstelle (ohne API-Key)
+WEB_SESSION = requests.Session()
+WEB_SESSION.headers.update({
+    "Accept": "application/json",
+    "User-Agent": "LobbyregisterMonitor/1.0",
+})
+
+# ── Hilfsfunktionen ────────────────────────────────────────────────────────────
 
 
-# ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
+def extract_sg_number(pdf_url):
+    if not pdf_url: return ""
+    match = re.search(r'(SG\d+)', pdf_url)
+    return match.group(1) if match else ""
 
-def check_api_reachable(api_key):
-    """Prüft, ob die Lobbyregister API antwortet und der Key funktioniert."""
+def sg_to_upload_date(sg_number):
+    """Leitet das Bereitstellungsdatum ('bereitgestellt am') aus der SG-Nummer ab.
+
+    Format der SG-Nummer: SG + JJMMTT + 4-stelliger Zaehler.
+    Beispiel: SG2605220018 -> 2026-05-22.
+    Dieses Datum ist pro Stellungnahme eindeutig und stabil – im Gegensatz zum
+    organisationsweiten lastUpdateDate. Gibt ein date-Objekt oder None zurueck.
+    """
+    if not sg_number or not sg_number.startswith("SG"):
+        return None
+    digits = sg_number[2:]
+    if len(digits) < 6:
+        return None
     try:
-        resp = requests.get(
-            f"{API_BASE}/registerentries",
-            headers={"Authorization": f"ApiKey {api_key}"},
-            params={"format": "json"}, timeout=20
-        )
-        if resp.status_code == 401:
-            return False, "API antwortet mit 401 Unauthorized – API-Key ungültig oder abgelaufen"
-        if resp.status_code == 403:
-            return False, "API antwortet mit 403 Forbidden – API-Key möglicherweise gesperrt"
-        if resp.status_code >= 500:
-            return False, f"API antwortet mit Serverfehler {resp.status_code}"
-        if resp.status_code != 200:
-            return False, f"API antwortet mit unerwartetem Status {resp.status_code}"
-        return True, "API erreichbar und Key gültig"
-    except requests.Timeout:
-        return False, "API-Abfrage Timeout nach 20 Sekunden"
-    except requests.ConnectionError as e:
-        return False, f"Verbindungsfehler zur API: {e}"
+        yy = int(digits[0:2])
+        mm = int(digits[2:4])
+        dd = int(digits[4:6])
+        return date(2000 + yy, mm, dd)
+    except ValueError:
+        return None
 
+def build_statement_url(sg_number):
+    if not sg_number: return ""
+    return f"https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/{sg_number}"
 
-def check_yaml_version():
-    """Prüft, ob sich die API-YAML-Datei geändert hat."""
-    issues = []
+def fetch_real_pdf_url(page_url):
+    """Nutzt WEB_SESSION (ohne API-Key), da die Anfrage an bundestag.de geht."""
+    if not page_url: return ""
     try:
-        swagger_url = f"{API_BASE}/swagger-ui/"
-        resp = requests.get(swagger_url, timeout=20)
+        resp = WEB_SESSION.get(page_url, timeout=10)
         if resp.status_code == 200:
-            yaml_files = re.findall(r'R\d+\.\d+-de\.yaml', resp.text)
-            if yaml_files:
-                latest = yaml_files[0]
-                if latest != KNOWN_YAML_FILE:
-                    issues.append({
-                        "severity": "WARNUNG", "title": "Neue API-Version verfügbar",
-                        "detail": f"Bekannt: {KNOWN_YAML_FILE} → Neu: {latest}",
-                        "action": f"1. Neue YAML herunterladen\n2. Felder prüfen\n3. KNOWN_YAML_FILE aktualisieren"
-                    })
-    except Exception as e:
-        issues.append({"severity": "INFO", "title": "Swagger-UI nicht prüfbar",
-                       "detail": str(e), "action": "Manuell prüfen"})
-    try:
-        resp = requests.get(YAML_URL, timeout=20)
-        if resp.status_code == 404:
-            issues.append({"severity": "FEHLER", "title": "YAML-Datei nicht mehr abrufbar",
-                           "detail": f"{YAML_URL} gibt 404 zurück",
-                           "action": "Neue YAML-URL nachschlagen und aktualisieren"})
-        elif resp.status_code == 200:
-            version_match = re.search(r'version:\s*["\']?(\d+\.\d+\.\d+)["\']?', resp.text)
-            if version_match and version_match.group(1) != KNOWN_API_VERSION:
-                issues.append({"severity": "WARNUNG", "title": "API-Versionsnummer geändert",
-                               "detail": f"Bekannt: {KNOWN_API_VERSION} → Aktuell: {version_match.group(1)}",
-                               "action": "YAML auf geänderte Felder prüfen"})
+            match = re.search(r'href="([^"]+\.pdf)"', resp.text)
+            if match:
+                path = match.group(1)
+                return f"https://www.lobbyregister.bundestag.de{path}" if path.startswith('/') else path
     except Exception:
         pass
-    return issues
+    return page_url
 
+# ── Vorherige Daten laden ──────────────────────────────────────────────────────
 
-def check_site_reachable():
-    """Prüft, ob die GitHub Pages-Seite erreichbar ist."""
-    try:
-        resp = requests.get(SITE_URL, timeout=20)
-        if resp.status_code == 404:
-            return False, "Seite gibt 404 zurück"
-        if resp.status_code != 200:
-            return False, f"Seite antwortet mit Status {resp.status_code}"
-        if "Lobbyregister" not in resp.text:
-            return False, "Seite erreichbar aber enthält nicht den erwarteten Inhalt"
-        return True, "Seite erreichbar und Inhalt korrekt"
-    except Exception as e:
-        return False, f"Seite nicht erreichbar: {e}"
+def load_previous_data():
+    """Laedt data.json aus dem Cache (vorheriger Lauf).
 
-
-def check_gemini():
-    """Prüft, ob die Gemini API erreichbar ist."""
-    if not GEMINI_API_KEY:
-        return True, "Gemini-Key nicht konfiguriert (optionaler Dienst)"
-    try:
-        resp = requests.post(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-            params={"key": GEMINI_API_KEY},
-            headers={"Content-Type": "application/json"},
-            json={"contents": [{"parts": [{"text": "Antworte nur mit OK."}]}],
-                  "generationConfig": {"maxOutputTokens": 10}},
-            timeout=20,
-        )
-        if resp.status_code in (401, 403):
-            return False, f"Gemini API antwortet mit {resp.status_code} – Key ungültig"
-        if resp.status_code == 429:
-            return True, "Gemini API erreichbar (Rate Limit aktiv, Key funktioniert)"
-        if resp.status_code != 200:
-            return False, f"Gemini API antwortet mit {resp.status_code}"
-        return True, f"Gemini API erreichbar ({GEMINI_MODEL})"
-    except Exception as e:
-        return False, f"Gemini API nicht erreichbar: {e}"
-
-
-def check_api_structure(api_key):
-    """Prüft, ob die API-Struktur noch wie erwartet ist."""
-    try:
-        resp = requests.get(
-            f"{API_BASE}/registerentries/R002297",
-            headers={"Authorization": f"ApiKey {api_key}"},
-            params={"format": "json"}, timeout=20
-        )
-        if resp.status_code != 200:
-            return False, "Strukturtest fehlgeschlagen: Test-Eintrag R002297 nicht abrufbar"
-        data = resp.json()
-        if "statements" not in data:
-            return False, "Strukturfehler: Feld 'statements' fehlt im Registereintrag"
-        stmts_data = data.get("statements", {})
-        if not isinstance(stmts_data, dict) or "statementsPresent" not in stmts_data:
-            return False, "Strukturfehler: Feld 'statementsPresent' fehlt oder hat falsches Format"
-        return True, "API-Struktur (Stellungnahmen) verifiziert"
-    except Exception as e:
-        return False, f"Fehler beim Strukturtest: {e}"
-
-
-def check_data_freshness():
-    """Prüft ob data.json auf der Webseite aktuell ist (max. 48h alt)."""
-    try:
-        resp = requests.get(f"{SITE_URL}/data.json", timeout=20)
-        if resp.status_code != 200:
-            return False, f"data.json nicht abrufbar (Status {resp.status_code})"
-        data = resp.json()
-        generated_at = data.get("generated_at", "")
-        if not generated_at:
-            return False, "data.json enthält kein 'generated_at'-Feld"
-        from datetime import datetime, timezone
-        gen_dt = datetime.fromisoformat(generated_at)
-        if gen_dt.tzinfo is None:
-            gen_dt = gen_dt.replace(tzinfo=timezone.utc)
-        age_hours = (datetime.now(timezone.utc) - gen_dt).total_seconds() / 3600
-        if age_hours > 48:
-            return False, f"data.json ist {age_hours:.0f} Stunden alt – Workflow läuft möglicherweise nicht"
-        count = len(data.get("statements", []))
-        return True, f"data.json aktuell ({age_hours:.0f}h alt, {count} Einträge)"
-    except Exception as e:
-        return False, f"data.json-Prüfung fehlgeschlagen: {e}"
-
-
-def check_admin_hash_injected():
-    """Prüft ob der Admin-Passwort-Hash korrekt injiziert wurde."""
-    try:
-        resp = requests.get(f"{SITE_URL}/admin.html", timeout=20)
-        if resp.status_code != 200:
-            return False, f"admin.html nicht abrufbar (Status {resp.status_code})"
-        if "{{ADMIN_PASSWORD_HASH}}" in resp.text:
-            return False, "Platzhalter {{ADMIN_PASSWORD_HASH}} noch in admin.html – inject_admin_hash.py fehlgeschlagen"
-        if "CORRECT_HASH" not in resp.text:
-            return False, "admin.html enthält keinen Hash-Eintrag – Struktur unerwartet"
-        return True, "Admin-Passwort-Hash korrekt injiziert"
-    except Exception as e:
-        return False, f"admin.html-Prüfung fehlgeschlagen: {e}"
-
-
-def check_run_history():
-    """Prüft ob run_history.json existiert und einen aktuellen Eintrag hat."""
-    try:
-        resp = requests.get(f"{SITE_URL}/run_history.json", timeout=20)
-        if resp.status_code != 200:
-            return False, f"run_history.json nicht abrufbar (Status {resp.status_code})"
-        data = resp.json()
-        runs = data.get("runs", [])
-        if not runs:
-            return False, "run_history.json enthält keine Einträge"
-        from datetime import datetime, timezone
-        latest = runs[0].get("timestamp", "")
-        if not latest:
-            return False, "Letzter Eintrag hat keinen Zeitstempel"
-        last_dt = datetime.fromisoformat(latest)
-        if last_dt.tzinfo is None:
-            last_dt = last_dt.replace(tzinfo=timezone.utc)
-        age_hours = (datetime.now(timezone.utc) - last_dt).total_seconds() / 3600
-        if age_hours > 48:
-            return False, f"Letzter protokollierter Run ist {age_hours:.0f}h her"
-        return True, f"run_history.json aktuell ({len(runs)} Einträge, letzter vor {age_hours:.0f}h)"
-    except Exception as e:
-        return False, f"run_history.json-Prüfung fehlgeschlagen: {e}"
-
-
-def check_resend_sender():
-    """Prueft die Resend-Anbindung – fokussiert auf die einzige benoetigte
-    Faehigkeit: das Versenden von E-Mails.
-
-    Der produktiv genutzte API-Key hat (nach dem Prinzip der minimalen Rechte)
-    typischerweise nur 'Sending access'. Ein solcher Key darf administrative
-    Endpunkte wie /domains NICHT abfragen und erhaelt dort bewusst 401/403 –
-    das ist KEIN Fehler, sondern gewollt. Daher wird die Domain-Verifizierung
-    nur als optionales Extra geprueft, wenn der Key dafuer Rechte hat.
+    Stellt dabei einmalig das upload_date bestehender Eintraege auf das aus der
+    SG-Nummer abgeleitete Bereitstellungsdatum um (sofern abweichend). So werden
+    auch Altbestaende auf die korrekte, pro-Stellungnahme stabile Datumsquelle
+    migriert. Gibt (statements_list, known_register_numbers_set) zurueck.
     """
-    if not RESEND_API_KEY:
-        return False, "RESEND_API_KEY nicht konfiguriert – Mailversand nicht moeglich"
+    data_path = Path("docs/data.json")
+    if not data_path.exists():
+        return [], set()
+
     try:
-        resp = requests.get(
-            "https://api.resend.com/domains",
-            headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
-            timeout=20
-        )
-        # 401/403: Key darf /domains nicht lesen -> eingeschraenkter Sende-Key.
-        # Das ist der gewuenschte Normalfall und wird als 'ok' gewertet.
-        if resp.status_code in (401, 403):
-            return True, "Resend-Sende-Key aktiv (eingeschraenkte Rechte, wie vorgesehen)"
-        if resp.status_code == 200:
-            # Full-Access-Key: Domain-Verifizierung als nuetzliches Extra pruefen
-            domains = resp.json().get("data", [])
-            verified = [d["name"] for d in domains if d.get("status") == "verified"]
-            if "lobbyregister-bot.de" in verified:
-                return True, "Resend OK – Domain lobbyregister-bot.de verifiziert"
-            return True, (f"Resend erreichbar; Domain-Status nur informativ "
-                          f"(verifiziert: {verified or 'keine'})")
-        # Andere Statuscodes: informativ, aber kein blockierender Fehler,
-        # da die Sendefaehigkeit hier\u00fcber nicht zuverlaessig bewertbar ist.
-        return True, f"Resend erreichbar (Status {resp.status_code}, nicht bewertet)"
+        with open(data_path, encoding="utf-8") as f:
+            data = json.load(f)
+        statements = data.get("statements", [])
+
+        # Einmalige Migration des upload_date auf das SG-Datum
+        migrated = 0
+        for s in statements:
+            sg_date = sg_to_upload_date(s.get("sg_number", ""))
+            if sg_date:
+                sg_iso = sg_date.isoformat()
+                if s.get("upload_date") != sg_iso:
+                    s["upload_date"] = sg_iso
+                    migrated += 1
+        if migrated:
+            print(f"  Migration: {migrated} upload_date-Werte auf SG-Datum umgestellt.")
+
+        # Alle Registernummern extrahieren, fuer die wir bereits Daten haben
+        known_rns = {s["register_number"] for s in statements if s.get("register_number")}
+        return statements, known_rns
     except Exception as e:
-        return False, f"Resend nicht erreichbar (Netzwerk/Verbindung): {e}"
+        print(f"  Vorherige Daten nicht lesbar: {e}")
+        return [], set()
 
+# ── Schritt 1: Alle Registernummern laden (schnell) ────────────────────────────
 
-# ── Bericht ────────────────────────────────────────────────────────────────────
+def stream_and_filter_statements(known_pdf_by_sg=None):
+    """Laedt die gesamte Suchschnittstelle gestreamt und extrahiert relevante
+    Stellungnahmen.
 
-def build_report(results):
-    """Baut den HTML-Bericht aus den Prüfungsergebnissen."""
-    issues = []
-    ok_items = []
+    Verarbeitet die ~6900 Organisationen Eintrag fuer Eintrag (ijson), ohne die
+    gesamte ~380-MB-Antwort im Speicher zu halten. Pro Organisation werden
+    Themenfelder geprueft und – falls relevant – die Stellungnahmen einzeln
+    verarbeitet. Die Verarbeitungslogik ist identisch zum frueheren Einzelabruf,
+    da die Suchschnittstelle dieselbe Datenstruktur liefert.
 
-    api_ok, api_msg = results["api"]
-    if api_ok:
-        ok_items.append(("Lobbyregister API", api_msg))
-    else:
-        issues.append({
-            "severity": "FEHLER", 
-            "title": "Lobbyregister API nicht erreichbar",
-            "detail": api_msg, 
-            "action": f"1. API-Status prüfen\n2. Key prüfen → {SECRETS_URL}"
-        })
+    known_pdf_by_sg: Dict {sg_number: pdf_url} bereits bekannter Stellungnahmen.
+    Da die Suchschnittstelle die direkte PDF-URL bereits inline liefert, dient
+    dieser Cache nur noch als Fallback und zur Statistik.
 
-    struct_ok, struct_msg = results["api_struct"]
-    if struct_ok:
-        ok_items.append(("API-Struktur", struct_msg))
-    else:
-        issues.append({
-            "severity": "FEHLER", 
-            "title": "API-Struktur geändert",
-            "detail": struct_msg, 
-            "action": "JSON-Antwort manuell analysieren und fetch_and_build.py anpassen"
-        })
-        
-    yaml_issues = results["yaml"]
-    if yaml_issues:
-        issues.extend(yaml_issues)
-    else:
-        ok_items.append(("API-Version (YAML)", f"Unverändert ({KNOWN_YAML_FILE}, v{KNOWN_API_VERSION})"))
+    Gibt die Liste der relevanten Stellungnahmen zurueck.
+    """
+    if known_pdf_by_sg is None:
+        known_pdf_by_sg = {}
 
-    site_ok, site_msg = results["site"]
-    if site_ok:
-        ok_items.append(("Webseite", site_msg))
-    else:
-        issues.append({
-            "severity": "FEHLER",
-            "title": "Webseite nicht erreichbar",
-            "detail": site_msg,
-            "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Pages-Settings prüfen"
-        })
+    all_statements = []
+    seen_keys = set()
+    total_orgs = 0
+    relevant_orgs = 0
+    no_relevant_fields = 0
+    no_statements = 0
+    duplicates = 0
+    pdf_lookups_skipped = 0
 
-    fresh_ok, fresh_msg = results["data_freshness"]
-    if fresh_ok:
-        ok_items.append(("Daten-Aktualität", fresh_msg))
-    else:
-        issues.append({
-            "severity": "FEHLER",
-            "title": "Daten veraltet oder nicht abrufbar",
-            "detail": fresh_msg,
-            "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Workflow manuell starten"
-        })
+    print("Abruf: Suchschnittstelle (sucheDetailJson) gestreamt laden...")
 
-    hash_ok, hash_msg = results["admin_hash"]
-    if hash_ok:
-        ok_items.append(("Admin-Hash", hash_msg))
-    else:
-        issues.append({
-            "severity": "WARNUNG",
-            "title": "Admin-Panel Passwort-Hash fehlt",
-            "detail": hash_msg,
-            "action": "1. Secret ADMIN_PASSWORD_HASH prüfen\n2. Workflow neu starten"
-        })
-
-    hist_ok, hist_msg = results["run_history"]
-    if hist_ok:
-        ok_items.append(("Run-History", hist_msg))
-    else:
-        issues.append({
-            "severity": "WARNUNG",
-            "title": "Workflow-Protokoll veraltet oder fehlt",
-            "detail": hist_msg,
-            "action": f"1. save_run_log.py-Schritt in Actions prüfen: {ACTIONS_URL}"
-        })
-
-    resend_ok, resend_msg = results["resend_sender"]
-    if resend_ok:
-        ok_items.append(("Resend (Wochenmail)", resend_msg))
-    else:
-        issues.append({
-            "severity": "WARNUNG",
-            "title": "Resend-Mailversand beeintraechtigt",
-            "detail": resend_msg,
-            "action": ("1. RESEND_API_KEY in den GitHub-Secrets pruefen\n"
-                       "2. Bei Bedarf neuen Sende-Key auf resend.com erstellen")
-        })
-
-    gemini_ok, gemini_msg = results["gemini"]
-    if gemini_ok:
-        ok_items.append(("Gemini API (optional)", gemini_msg))
-    else:
-        issues.append({
-            "severity": "WARNUNG", 
-            "title": "Gemini API nicht erreichbar",
-            "detail": gemini_msg, 
-            "action": "1. Key prüfen: aistudio.google.com/apikey\n2. Monitor läuft auch ohne Gemini"
-        })
-
-    has_issues = len(issues) > 0
-    today = date.today().strftime("%d.%m.%Y")
-    severity_colors = {
-        "FEHLER": ("#c62828", "#ffebee"), 
-        "WARNUNG": ("#e65100", "#fff3e0"), 
-        "INFO": ("#1565c0", "#e3f2fd")
-    }
-
-    issues_html = ""
-    for issue in issues:
-        color, bg = severity_colors.get(issue["severity"], ("#555", "#f5f5f5"))
-        action_html = issue["action"].replace("\n", "<br>")
-        issues_html += f"""
-        <div style="border:1px solid {color};background:{bg};margin-bottom:12px;overflow:hidden">
-          <div style="background:{color};padding:6px 12px;color:#fff;font-size:12px;font-weight:700">{issue['severity']}: {issue['title']}</div>
-          <div style="padding:10px 12px;font-size:12px;color:#333">
-            <p style="margin-bottom:8px"><strong>Problem:</strong> {issue['detail']}</p>
-            <p><strong>Was zu tun ist:</strong><br>{action_html}</p>
-          </div>
-        </div>"""
-
-    ok_html = "".join(
-        f'<tr><td style="padding:5px 10px;font-size:12px;color:#555">{n}</td>'
-        f'<td style="padding:5px 10px;font-size:12px;color:#2e7d32">✓ {m}</td></tr>'
-        for n, m in ok_items
-    )
-
-    status_color = "#c62828" if has_issues else "#2e7d32"
-    status_text = f"{len(issues)} Problem(e) gefunden" if has_issues else "Alles in Ordnung"
-
-    html = f"""<!DOCTYPE html>
-<html lang="de"><head><meta charset="UTF-8"></head>
-<body style="font-family:Arial,sans-serif;font-size:14px;color:#222;margin:0;padding:0;background:#f5f5f5">
-<div style="max-width:700px;margin:20px auto">
-  <div style="background:#004B87;padding:16px 28px">
-    <div style="color:#fff;font-size:15px;font-weight:700">Lobbyregister-Monitor · Statusbericht</div>
-    <div style="color:#a8c8e8;font-size:11px">{today} · Automatischer Selbsttest</div>
-  </div>
-  <div style="background:#fff;padding:20px 28px">
-    <div style="background:{status_color};color:#fff;padding:10px 16px;font-size:14px;font-weight:700;margin-bottom:20px">Status: {status_text}</div>
-    {"<h3 style='font-size:14px;color:#c62828;margin-bottom:12px'>Probleme:</h3>" + issues_html if issues_html else ""}
-    <h3 style="font-size:13px;color:#555;margin-bottom:8px;margin-top:16px">Bestandene Prüfungen:</h3>
-    <table style="width:100%;border-collapse:collapse">{ok_html}</table>
-    <hr style="border:none;border-top:1px solid #e0e8f0;margin:20px 0">
-    <p style="font-size:12px;color:#888">
-      <a href="{ACTIONS_URL}" style="color:#004B87">Actions</a> ·
-      <a href="{SITE_URL}" style="color:#004B87">Webseite</a> ·
-      <a href="{SITE_URL}/wartung.html" style="color:#004B87">Wartung</a>
-    </p>
-  </div>
-</div></body></html>"""
-
-    return has_issues, html
-
-
-def send_report_resend(html, has_issues):
-    """Sendet den Bericht per Resend an separate Admin-Mail."""
-    if not has_issues:
-        print("Alle Prüfungen bestanden – kein Bericht versendet.")
-        return
-    
-    # Prüfe ob Resend verfügbar ist
-    if not RESEND_API_KEY:
-        print("⚠️ RESEND_API_KEY fehlt – speichere Bericht nur lokal")
-        with open("/tmp/health_report.html", "w", encoding="utf-8") as f:
-            f.write(html)
-        print("Bericht in /tmp/health_report.html gespeichert")
-        return
-        
-    today = date.today().strftime("%d.%m.%Y")
-    
     try:
-        resp = requests.post(
-            "https://api.resend.com/emails",
-            headers={
-                "Authorization": f"Bearer {RESEND_API_KEY}",
-                "Content-Type": "application/json"
-            },
-            json={
-                "from": "Lobbyregister-Monitor Systemcheck <healthcheck@lobbyregister-bot.de>",
-                "to": [ADMIN_EMAIL],  # Separate Admin-Mail, NICHT die Hauptempfänger!
-                "subject": f"⚠️ Lobbyregister-Monitor: Handlungsbedarf – {today}",
-                "html": html
-            },
-            timeout=30
-        )
+        resp = WEB_SESSION.get(SEARCH_URL, params={"pageSize": 10000}, timeout=180, stream=True)
         resp.raise_for_status()
-        print(f"✓ Health-Check-Bericht an {ADMIN_EMAIL} gesendet (via Resend)")
-    except Exception as e:
-        print(f"✗ Fehler beim E-Mail-Versand: {e}")
-        # Fallback: In Datei speichern
-        with open("/tmp/health_report.html", "w", encoding="utf-8") as f:
-            f.write(html)
-        print("Bericht in /tmp/health_report.html gespeichert")
+        resp.raw.decode_content = True
 
+        for entry in ijson.items(resp.raw, "results.item"):
+            total_orgs += 1
+            if not isinstance(entry, dict):
+                continue
+
+            reg_num = entry.get("registerNumber", "")
+
+            # Pre-Filter: Orga-Themenfelder pruefen
+            entry_fields = extract_entry_fields(entry)
+            entry_field_codes = {f["code"] for f in entry_fields}
+            if not entry_field_codes & TARGET_FIELD_CODES:
+                no_relevant_fields += 1
+                continue
+
+            statements_data = entry.get("statements", {})
+            if not isinstance(statements_data, dict) or not statements_data.get("statementsPresent", False):
+                no_statements += 1
+                continue
+            stmts_list = statements_data.get("statements", [])
+            if not stmts_list:
+                no_statements += 1
+                continue
+
+            relevant_orgs += 1
+            org_name = extract_org_name(entry)
+            upload_date = extract_org_lastupdate(entry)
+            details_page_url = extract_details_page_url(entry)
+            rp_lookup = build_rp_lookup(entry)
+
+            for stmt in stmts_list:
+                result, skipped_lookup = process_statement(
+                    stmt, reg_num, org_name, upload_date,
+                    entry_fields, details_page_url, rp_lookup, known_pdf_by_sg)
+                if skipped_lookup:
+                    pdf_lookups_skipped += 1
+                if result:
+                    if result.get("sg_number"):
+                        dedup_key = result["sg_number"]
+                    else:
+                        dedup_key = (result["register_number"],
+                                    result["regulatory_project_title"],
+                                    result.get("sending_date", ""))
+                    if dedup_key in seen_keys:
+                        duplicates += 1
+                        continue
+                    seen_keys.add(dedup_key)
+                    all_statements.append(result)
+
+            if total_orgs % 1000 == 0:
+                print(f"  {total_orgs} Organisationen verarbeitet, "
+                      f"{len(all_statements)} relevante Stellungnahmen bisher...")
+
+    except Exception as e:
+        print(f"  FEHLER beim Streaming-Abruf: {e}")
+        raise
+
+    print(f"  {total_orgs} Organisationen gestreamt "
+          f"({relevant_orgs} thematisch relevant mit Stellungnahmen).")
+    print(f"  {len(all_statements)} relevante Stellungnahmen gefunden.")
+    if duplicates:
+        print(f"  ({duplicates} Duplikate entfernt)")
+    if pdf_lookups_skipped:
+        print(f"  ({pdf_lookups_skipped} PDF-Lookups dank direkter URL/Cache uebersprungen)")
+    return all_statements
+
+
+def extract_entry_fields(entry):
+    ai = entry.get("activitiesAndInterests", {})
+    if not isinstance(ai, dict): return []
+    foi_list = ai.get("fieldsOfInterest", [])
+    fields = []
+    for f in foi_list:
+        if isinstance(f, dict):
+            code = f.get("code", "")
+            label = FIELD_LABELS.get(code) or f.get("de", "") or code
+            if code: fields.append({"code": code, "label": label})
+    return fields
+
+def extract_org_name(entry):
+    identity = entry.get("lobbyistIdentity", {})
+    return identity.get("name", "Unbekannte Organisation") if isinstance(identity, dict) else "Unbekannte Organisation"
+
+def extract_org_lastupdate(entry):
+    """Liest das organisationsweite lastUpdateDate (nur Fallback fuer das
+    upload_date, falls eine Stellungnahme keine SG-Nummer hat)."""
+    acc = entry.get("accountDetails", {})
+    if isinstance(acc, dict):
+        pub_date = acc.get("lastUpdateDate", "")
+        if pub_date:
+            try: return date.fromisoformat(str(pub_date)[:10])
+            except ValueError: pass
+    return None
+
+def extract_details_page_url(entry):
+    details = entry.get("registerEntryDetails", {})
+    return details.get("detailsPageUrl", "") if isinstance(details, dict) else ""
+
+def build_rp_lookup(entry):
+    rp_data = entry.get("regulatoryProjects", {})
+    if not isinstance(rp_data, dict): return {}
+    rp_list = rp_data.get("regulatoryProjects", [])
+    lookup = {}
+    for rp in rp_list:
+        if isinstance(rp, dict):
+            num = rp.get("regulatoryProjectNumber", "")
+            desc = rp.get("description", "")
+            foi_list = rp.get("fieldsOfInterest", [])
+            fields = []
+            for f in foi_list:
+                if isinstance(f, dict):
+                    code = f.get("code", "")
+                    label = FIELD_LABELS.get(code) or f.get("de", "") or code
+                    if code: fields.append({"code": code, "label": label})
+            if num:
+                lookup[num] = {"description": desc, "fields": fields}
+    return lookup
+
+def process_statement(stmt, register_number, org_name, upload_date,
+                      entry_fields, details_page_url, rp_lookup, known_pdf_by_sg=None):
+    """Verarbeitet eine einzelne Stellungnahme.
+
+    Gibt (result_dict_oder_None, skipped_lookup_bool) zurueck. skipped_lookup ist
+    True, wenn die PDF-URL aus dem Cache kam und kein HTTP-Request noetig war.
+    """
+    if known_pdf_by_sg is None:
+        known_pdf_by_sg = {}
+    if not isinstance(stmt, dict): return None, False
+
+    sending_date = None
+    for rg in stmt.get("recipientGroups", []):
+        sd = rg.get("sendingDate", "")
+        if sd:
+            try:
+                sending_date = date.fromisoformat(str(sd)[:10])
+                break
+            except ValueError: pass
+
+    # Die Suchschnittstelle liefert in pdfUrl bereits die DIREKTE PDF-URL
+    # (endet auf .pdf) inklusive SG-Nummer. Es ist daher kein HTTP-Request zur
+    # Aufloesung mehr noetig. Der Cache/Fallback greift nur fuer den Sonderfall,
+    # dass ausnahmsweise eine Seiten-URL statt der direkten URL geliefert wird.
+    raw_pdf = str(stmt.get("pdfUrl", ""))
+    sg_number = extract_sg_number(raw_pdf)
+    skipped_lookup = False
+
+    if raw_pdf.lower().endswith(".pdf"):
+        # Direkte PDF-URL bereits vorhanden – kein Lookup noetig.
+        pdf_url = raw_pdf
+        skipped_lookup = True
+    elif sg_number and sg_number in known_pdf_by_sg:
+        # Bekannte Stellungnahme: gespeicherte PDF-URL wiederverwenden, kein HTTP.
+        pdf_url = known_pdf_by_sg[sg_number]
+        skipped_lookup = True
+    else:
+        # Sonderfall: Seiten-URL -> echte PDF-URL per HTTP aufloesen.
+        pdf_url = fetch_real_pdf_url(raw_pdf)
+        if not sg_number:
+            sg_number = extract_sg_number(pdf_url)
+
+    # upload_date = Bereitstellungsdatum aus SG-Nummer; Fallback auf das
+    # organisationsweite lastUpdateDate, falls keine SG-Nummer vorhanden ist.
+    stmt_upload_date = sg_to_upload_date(sg_number) or upload_date
+
+    check_date = sending_date or stmt_upload_date
+    if check_date and check_date < START_DATE: return None, skipped_lookup
+
+    recipients = []
+    has_target_recipient = False
+    for rg in stmt.get("recipientGroups", []):
+        recips = rg.get("recipients", {})
+        if not isinstance(recips, dict): continue
+        for fg in recips.get("federalGovernment", []):
+            dept = fg.get("department", {})
+            if isinstance(dept, dict):
+                short = dept.get("shortTitle", "")
+                title = dept.get("title", "")
+                display = short or title
+                if display: recipients.append(display)
+                combined = f"{short} {title}".upper()
+                for kw in TARGET_DEPT_KEYWORDS:
+                    if kw.upper() in combined:
+                        has_target_recipient = True
+                        break
+        for p in recips.get("parliament", []):
+            if isinstance(p, dict): parl_name = p.get("de", "") or p.get("name", "")
+            elif isinstance(p, str): parl_name = p
+            else: continue
+            if parl_name:
+                recipients.append("Bundestag")
+                has_target_recipient = True
+                break
+
+    recipients = list(dict.fromkeys(recipients))
+    if not has_target_recipient: return None, skipped_lookup
+
+    rp_number = stmt.get("regulatoryProjectNumber", "")
+    rp_info = rp_lookup.get(rp_number, {})
+    stmt_fields = rp_info.get("fields", [])
+    summary = rp_info.get("description", "")
+
+    if not stmt_fields:
+        foi_list = stmt.get("fieldsOfInterest", [])
+        for f in foi_list:
+            if isinstance(f, dict):
+                code = f.get("code", "")
+                label = FIELD_LABELS.get(code) or f.get("de", "") or code
+                if code: stmt_fields.append({"code": code, "label": label})
+
+    if stmt_fields:
+        stmt_field_codes = {f["code"] for f in stmt_fields}
+        if not stmt_field_codes & TARGET_FIELD_CODES: return None, skipped_lookup
+        relevant_fields = [f for f in stmt_fields if f["code"] in TARGET_FIELD_CODES]
+        display_fields = relevant_fields if relevant_fields else stmt_fields[:3]
+        priority_codes = stmt_field_codes
+    else:
+        display_fields = [f for f in entry_fields if f["code"] in TARGET_FIELD_CODES]
+        if not display_fields: display_fields = entry_fields[:3]
+        priority_codes = {f["code"] for f in entry_fields}
+
+    priority = min((FIELD_PRIORITY.get(c, 99) for c in priority_codes if c in FIELD_PRIORITY), default=99)
+
+    pdf_pages = int(stmt.get("pdfPageCount", 0) or 0)
+    statement_url = build_statement_url(sg_number)
+
+    return {
+        "register_number": str(register_number),
+        "org_name": str(org_name),
+        "org_url": details_page_url,
+        "regulatory_project_title": str(stmt.get("regulatoryProjectTitle", "Kein Titel")),
+        "sending_date": sending_date.isoformat() if sending_date else None,
+        "upload_date": stmt_upload_date.isoformat() if stmt_upload_date else None,
+        "pdf_url": pdf_url,
+        "pdf_pages": pdf_pages,
+        "sg_number": sg_number,
+        "statement_url": statement_url,
+        "summary": summary,
+        "recipients": recipients,
+        "fields": display_fields,
+        "priority": priority,
+    }, skipped_lookup
+
+# ── Merge & Deduplizierung ────────────────────────────────────────────────────
+
+def merge_statements(previous, fetched):
+    """Merged bestehende und frisch abgerufene Stellungnahmen.
+
+    Bestehende Eintraege (previous) behalten Vorrang: ihr upload_date und damit
+    ihre Position in der Sortierung bleiben stabil. Aus dem frischen Abruf werden
+    nur Stellungnahmen mit NEUER SG-Nummer ergaenzt.
+
+    Gibt (merged_list, anzahl_neu_ergaenzt) zurueck.
+    """
+    def dedup_key(stmt):
+        return stmt.get("sg_number") or (
+            stmt["register_number"],
+            stmt["regulatory_project_title"],
+            stmt.get("sending_date", "")
+        )
+
+    seen = set()
+    merged = []
+
+    # Bestehende zuerst (haben Vorrang -> Datum & Reihenfolge bleiben stabil)
+    for stmt in previous:
+        key = dedup_key(stmt)
+        if key not in seen:
+            seen.add(key)
+            merged.append(stmt)
+
+    # Frisch abgerufene nur, wenn SG-Nummer noch nicht bekannt
+    added = 0
+    for stmt in fetched:
+        key = dedup_key(stmt)
+        if key not in seen:
+            seen.add(key)
+            merged.append(stmt)
+            added += 1
+
+    return merged, added
+
+# ── Hauptprogramm ──────────────────────────────────────────────────────────────
 
 def main():
-    print("=== Lobbyregister Monitor – Wöchentlicher 
+    print("=== Lobbyregister Monitor - Datenabruf (Suchschnittstelle, gestreamt) ===")
+
+    # Vorherige Daten laden (aus Cache) - dienen zur Statement-Deduplizierung
+    previous_statements, known_register_numbers = load_previous_data()
+    # Lookup bekannter PDF-URLs je SG-Nummer: erspart spaeter HTTP-Requests
+    known_pdf_by_sg = {
+        s["sg_number"]: s["pdf_url"]
+        for s in previous_statements
+        if s.get("sg_number") and s.get("pdf_url")
+    }
+    if previous_statements:
+        print(f"Cache: {len(previous_statements)} vorherige Eintraege "
+              f"({len(known_pdf_by_sg)} mit SG-Nummer) aus {len(known_register_numbers)} Organisationen geladen.")
+    else:
+        print("Kein Cache vorhanden - vollstaendiger Erstabruf.")
+
+    # Abruf: gesamte Suchschnittstelle gestreamt laden und relevante
+    # Stellungnahmen extrahieren (alle Organisationen in EINEM Durchgang).
+    # Die Deduplizierung erfolgt auf Stellungnahme-Ebene (SG-Nummer), damit neue
+    # Stellungnahmen bereits bekannter Organisationen erfasst werden.
+    try:
+        fetched_statements = stream_and_filter_statements(known_pdf_by_sg)
+    except Exception:
+        # Bei Abbruch des Abrufs: bestehende Daten NICHT ueberschreiben,
+        # damit die Webseite nicht leer wird. Lauf kontrolliert beenden.
+        print("FEHLER: Abruf fehlgeschlagen - bestehende data.json bleibt unveraendert.")
+        return
+
+    if not fetched_statements and not previous_statements:
+        print("WARNUNG: Keine Stellungnahmen abrufbar und kein Cache vorhanden.")
+
+    # Merge: bestehende Stellungnahmen behalten Vorrang (Datum + Reihenfolge bleiben
+    # stabil), nur neue SG-Nummern werden ergaenzt.
+    all_statements, added_count = merge_statements(previous_statements, fetched_statements)
+    all_statements.sort(
+        key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
+        reverse=True
+    )
+
+    print(f"\nErgebnis: {len(all_statements)} Stellungnahmen gesamt "
+          f"({added_count} neu ergaenzt, {len(previous_statements)} bereits bekannt)")
+
+    # BERLINER ZEIT für generated_at
+    generated_at = datetime.now(BERLIN_TZ).isoformat()
+
+    # Nur data.json speichern – HTML wird von gemini_enrich.py generiert
+    Path("docs").mkdir(exist_ok=True)
+
+    with open("docs/data.json", "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": generated_at,
+            "newly_added": added_count,  # heute neu in die DB aufgenommen (fuer Run-Log)
+            "statements": sorted(
+                all_statements,
+                key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
+                reverse=True
+            )
+        }, f, ensure_ascii=False, indent=2)
+
+    print(f"Daten gespeichert: docs/data.json ({len(all_statements)} Eintraege)")
+
+if __name__ == "__main__":
+    main()
