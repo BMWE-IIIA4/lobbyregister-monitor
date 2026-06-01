@@ -39,7 +39,7 @@ jobs:
           python-version: '3.11'
 
       - name: Abhaengigkeiten installieren
-        run: pip install requests
+        run: pip install requests ijson
 
       - name: Daten-Cache wiederherstellen
         uses: actions/cache@v4
@@ -52,9 +52,7 @@ jobs:
           restore-keys: |
             lobbyregister-data-
 
-      - name: Daten abrufen (Vollabgleich aller Organisationen)
-        env:
-          LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
+      - name: Daten abrufen (Suchschnittstelle, gestreamt)
         run: python scripts/fetch_and_build.py
 
       - name: Gemini-Anreicherung (Relevanzfilter + Zusammenfassungen + HTML-Rebuild)
@@ -191,7 +189,7 @@ jobs:
 
       - name: Abhaengigkeiten installieren
         if: steps.check_day.outputs.run == 'true'
-        run: pip install requests
+        run: pip install requests ijson
 
       - name: Selbsttest durchfuehren
         if: steps.check_day.outputs.run == 'true'
