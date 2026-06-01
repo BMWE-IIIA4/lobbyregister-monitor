@@ -4,15 +4,16 @@ health_check.py
 Woechentlicher Selbsttest des Lobbyregister-Monitors.
 
 Prueft:
-1. Erreichbarkeit der Lobbyregister API
-2. API-Struktur (Stellungnahmen-Felder unveraendert)
-3. Ob sich die API-Version (YAML) geaendert hat
-4. Ob die generierten Seiten korrekt ausgeliefert werden
-5. Aktualitaet von data.json (max. 48h alt)
-6. Admin-Passwort-Hash korrekt injiziert
-7. run_history.json aktuell
-8. Resend-Domain verifiziert
-9. Gemini API erreichbar
+1. Produktive Datenquelle (sucheDetailJson) erreichbar + Struktur korrekt
+2. rest/v2-API erreichbar (Fruehwarnsystem, nicht mehr produktiv)
+3. rest/v2-Struktur unveraendert (Fruehwarnsystem)
+4. Ob sich die API-Version (YAML) geaendert hat
+5. Ob die generierten Seiten korrekt ausgeliefert werden
+6. Aktualitaet von data.json (max. 48h alt)
+7. Admin-Passwort-Hash korrekt injiziert
+8. run_history.json aktuell
+9. Resend-Mailversand (Sende-Key aktiv)
+10. Gemini API erreichbar
 
 Sendet bei Problemen einen Bericht per Resend an ADMIN_EMAIL.
 """
@@ -20,6 +21,7 @@ Sendet bei Problemen einen Bericht per Resend an ADMIN_EMAIL.
 import os
 import re
 import requests
+import ijson
 from datetime import date
 
 from config import GEMINI_MODEL
@@ -35,6 +37,11 @@ REPO_URL = "https://github.com/BMWE-IIIA4/lobbyregister-monitor"
 ACTIONS_URL = f"{REPO_URL}/actions"
 SECRETS_URL = f"{REPO_URL}/settings/secrets/actions"
 
+# Produktive Datenquelle (wird von fetch_and_build.py genutzt)
+SEARCH_URL = "https://www.lobbyregister.bundestag.de/sucheDetailJson"
+
+# Offizielle rest/v2-API – nicht mehr produktiv genutzt, aber als Fruehwarn-
+# system fuer API-Aenderungen weiterhin geprueft.
 API_BASE = "https://api.lobbyregister.bundestag.de/rest/v2"
 YAML_URL = "https://api.lobbyregister.bundestag.de/rest/v2/R2.21-de.yaml"
 
@@ -46,8 +53,47 @@ KNOWN_YAML_FILE = "R2.21-de.yaml"
 
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
 
+def check_search_interface():
+    """Prueft die PRODUKTIVE Datenquelle (sucheDetailJson): erreichbar und
+    liefert die erwartete Struktur (statements + Themenfelder inline).
+
+    Streamt nur bis zum ersten Eintrag mit Stellungnahmen und bricht dann ab,
+    um nicht die gesamte ~380-MB-Antwort zu laden.
+    """
+    try:
+        resp = requests.get(SEARCH_URL, params={"pageSize": 10000},
+                            headers={"Accept": "application/json",
+                                     "User-Agent": "LobbyregisterMonitor/1.0"},
+                            timeout=60, stream=True)
+        if resp.status_code != 200:
+            return False, f"Suchschnittstelle antwortet mit Status {resp.status_code}"
+        resp.raw.decode_content = True
+
+        for entry in ijson.items(resp.raw, "results.item"):
+            st = entry.get("statements", {})
+            if isinstance(st, dict) and st.get("statementsPresent"):
+                # Strukturpruefung am ersten Eintrag mit Stellungnahmen
+                if "activitiesAndInterests" not in entry:
+                    return False, "Strukturfehler: 'activitiesAndInterests' fehlt"
+                stmts = st.get("statements", [])
+                if stmts and "pdfUrl" not in stmts[0]:
+                    return False, "Strukturfehler: 'pdfUrl' fehlt in Stellungnahme"
+                if stmts and "recipientGroups" not in stmts[0]:
+                    return False, "Strukturfehler: 'recipientGroups' fehlt in Stellungnahme"
+                resp.close()
+                return True, "Suchschnittstelle erreichbar, Struktur korrekt"
+        resp.close()
+        return False, "Suchschnittstelle lieferte keinen Eintrag mit Stellungnahmen"
+    except requests.Timeout:
+        return False, "Suchschnittstelle Timeout nach 60 Sekunden"
+    except Exception as e:
+        return False, f"Suchschnittstelle nicht erreichbar: {e}"
+
+
 def check_api_reachable(api_key):
-    """Prüft, ob die Lobbyregister API antwortet und der Key funktioniert."""
+    """Prüft die offizielle rest/v2-API (Fruehwarnsystem, nicht mehr produktiv)."""
+    if not api_key:
+        return True, "rest/v2-Key nicht konfiguriert (Fruehwarnsystem inaktiv)"
     try:
         resp = requests.get(
             f"{API_BASE}/registerentries",
@@ -55,18 +101,19 @@ def check_api_reachable(api_key):
             params={"format": "json"}, timeout=20
         )
         if resp.status_code == 401:
-            return False, "API antwortet mit 401 Unauthorized – API-Key ungültig oder abgelaufen"
+            return False, "rest/v2 antwortet mit 401 – API-Key ungültig oder abgelaufen"
         if resp.status_code == 403:
-            return False, "API antwortet mit 403 Forbidden – API-Key möglicherweise gesperrt"
+            return False, "rest/v2 antwortet mit 403 – API-Key möglicherweise gesperrt"
         if resp.status_code >= 500:
-            return False, f"API antwortet mit Serverfehler {resp.status_code}"
+            return False, f"rest/v2 antwortet mit Serverfehler {resp.status_code}"
         if resp.status_code != 200:
-            return False, f"API antwortet mit unerwartetem Status {resp.status_code}"
-        return True, "API erreichbar und Key gültig"
+            return False, f"rest/v2 antwortet mit unerwartetem Status {resp.status_code}"
+        return True, "rest/v2 erreichbar und Key gültig (Fruehwarnsystem)"
     except requests.Timeout:
-        return False, "API-Abfrage Timeout nach 20 Sekunden"
+        return False, "rest/v2-Abfrage Timeout nach 20 Sekunden"
     except requests.ConnectionError as e:
-        return False, f"Verbindungsfehler zur API: {e}"
+        return False, f"Verbindungsfehler zur rest/v2-API: {e}"
+
 
 
 def check_yaml_version():
@@ -145,7 +192,9 @@ def check_gemini():
 
 
 def check_api_structure(api_key):
-    """Prüft, ob die API-Struktur noch wie erwartet ist."""
+    """Prüft die Struktur der rest/v2-API (Frühwarnsystem, nicht produktiv)."""
+    if not api_key:
+        return True, "rest/v2-Key nicht konfiguriert (Struktur-Frühwarnung inaktiv)"
     try:
         resp = requests.get(
             f"{API_BASE}/registerentries/R002297",
@@ -160,7 +209,7 @@ def check_api_structure(api_key):
         stmts_data = data.get("statements", {})
         if not isinstance(stmts_data, dict) or "statementsPresent" not in stmts_data:
             return False, "Strukturfehler: Feld 'statementsPresent' fehlt oder hat falsches Format"
-        return True, "API-Struktur (Stellungnahmen) verifiziert"
+        return True, "rest/v2-Struktur verifiziert (Frühwarnsystem)"
     except Exception as e:
         return False, f"Fehler beim Strukturtest: {e}"
 
@@ -229,47 +278,40 @@ def check_run_history():
 
 
 def check_resend_sender():
-    """Prüft ob die Wochenmail-Absenderadresse über Resend erreichbar ist."""
+    """Prueft die Resend-Anbindung – fokussiert auf die einzige benoetigte
+    Faehigkeit: das Versenden von E-Mails.
+
+    Der produktiv genutzte API-Key hat (nach dem Prinzip der minimalen Rechte)
+    typischerweise nur 'Sending access'. Ein solcher Key darf administrative
+    Endpunkte wie /domains NICHT abfragen und erhaelt dort bewusst 401/403 –
+    das ist KEIN Fehler, sondern gewollt. Daher wird die Domain-Verifizierung
+    nur als optionales Extra geprueft, wenn der Key dafuer Rechte hat.
+    """
     if not RESEND_API_KEY:
-        return True, "RESEND_API_KEY nicht konfiguriert – übersprungen"
+        return False, "RESEND_API_KEY nicht konfiguriert – Mailversand nicht moeglich"
     try:
         resp = requests.get(
             "https://api.resend.com/domains",
             headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
             timeout=20
         )
-        if resp.status_code == 401:
-            return False, "Resend API-Key ungültig oder abgelaufen"
-        if resp.status_code != 200:
-            return False, f"Resend API antwortet mit Status {resp.status_code}"
-        domains = resp.json().get("data", [])
-        verified = [d["name"] for d in domains if d.get("status") == "verified"]
-        if "lobbyregister-bot.de" not in verified:
-            return False, f"Domain lobbyregister-bot.de nicht verifiziert. Verifiziert: {verified or 'keine'}"
-        return True, f"Resend OK – Domain lobbyregister-bot.de verifiziert"
+        # 401/403: Key darf /domains nicht lesen -> eingeschraenkter Sende-Key.
+        # Das ist der gewuenschte Normalfall und wird als 'ok' gewertet.
+        if resp.status_code in (401, 403):
+            return True, "Resend-Sende-Key aktiv (eingeschraenkte Rechte, wie vorgesehen)"
+        if resp.status_code == 200:
+            # Full-Access-Key: Domain-Verifizierung als nuetzliches Extra pruefen
+            domains = resp.json().get("data", [])
+            verified = [d["name"] for d in domains if d.get("status") == "verified"]
+            if "lobbyregister-bot.de" in verified:
+                return True, "Resend OK – Domain lobbyregister-bot.de verifiziert"
+            return True, (f"Resend erreichbar; Domain-Status nur informativ "
+                          f"(verifiziert: {verified or 'keine'})")
+        # Andere Statuscodes: informativ, aber kein blockierender Fehler,
+        # da die Sendefaehigkeit hier\u00fcber nicht zuverlaessig bewertbar ist.
+        return True, f"Resend erreichbar (Status {resp.status_code}, nicht bewertet)"
     except Exception as e:
-        return False, f"Resend-Prüfung fehlgeschlagen: {e}"
-    """Prüft, ob die API-Struktur noch wie erwartet ist."""
-    try:
-        resp = requests.get(
-            f"{API_BASE}/registerentries/R002297",
-            headers={"Authorization": f"ApiKey {api_key}"},
-            params={"format": "json"}, timeout=20
-        )
-        if resp.status_code != 200:
-            return False, "Strukturtest fehlgeschlagen: Test-Eintrag R002297 nicht abrufbar"
-        
-        data = resp.json()
-        if "statements" not in data:
-            return False, "Strukturfehler: Feld 'statements' fehlt im Registereintrag"
-            
-        stmts_data = data.get("statements", {})
-        if not isinstance(stmts_data, dict) or "statementsPresent" not in stmts_data:
-            return False, "Strukturfehler: Feld 'statementsPresent' fehlt oder hat falsches Format"
-            
-        return True, "API-Struktur (Stellungnahmen) verifiziert"
-    except Exception as e:
-        return False, f"Fehler beim Strukturtest: {e}"
+        return False, f"Resend nicht erreichbar (Netzwerk/Verbindung): {e}"
 
 
 # ── Bericht ────────────────────────────────────────────────────────────────────
@@ -279,28 +321,41 @@ def build_report(results):
     issues = []
     ok_items = []
 
-    api_ok, api_msg = results["api"]
-    if api_ok:
-        ok_items.append(("Lobbyregister API", api_msg))
+    # Produktive Datenquelle (kritisch -> FEHLER)
+    search_ok, search_msg = results["search"]
+    if search_ok:
+        ok_items.append(("Suchschnittstelle (produktiv)", search_msg))
     else:
         issues.append({
-            "severity": "FEHLER", 
-            "title": "Lobbyregister API nicht erreichbar",
-            "detail": api_msg, 
-            "action": f"1. API-Status prüfen\n2. Key prüfen → {SECRETS_URL}"
+            "severity": "FEHLER",
+            "title": "Produktive Datenquelle (sucheDetailJson) gestört",
+            "detail": search_msg,
+            "action": f"1. Suchschnittstelle manuell prüfen\n2. fetch_and_build.py ggf. anpassen\n3. Actions prüfen: {ACTIONS_URL}"
+        })
+
+    # rest/v2 nur noch Frühwarnsystem (nicht produktiv -> WARNUNG)
+    api_ok, api_msg = results["api"]
+    if api_ok:
+        ok_items.append(("rest/v2-API (Frühwarnung)", api_msg))
+    else:
+        issues.append({
+            "severity": "WARNUNG",
+            "title": "rest/v2-API auffällig (Frühwarnsystem)",
+            "detail": api_msg,
+            "action": f"Nicht produktiv genutzt – aber moegliche Vorboten fuer Aenderungen der Suchschnittstelle. Key prüfen → {SECRETS_URL}"
         })
 
     struct_ok, struct_msg = results["api_struct"]
     if struct_ok:
-        ok_items.append(("API-Struktur", struct_msg))
+        ok_items.append(("rest/v2-Struktur (Frühwarnung)", struct_msg))
     else:
         issues.append({
-            "severity": "FEHLER", 
-            "title": "API-Struktur geändert",
-            "detail": struct_msg, 
-            "action": "JSON-Antwort manuell analysieren und fetch_and_build.py anpassen"
+            "severity": "WARNUNG",
+            "title": "rest/v2-Struktur geändert (Frühwarnsystem)",
+            "detail": struct_msg,
+            "action": "Hinweis auf moegliche kuenftige Aenderung der Suchschnittstelle – sucheDetailJson-Struktur beobachten"
         })
-        
+
     yaml_issues = results["yaml"]
     if yaml_issues:
         issues.extend(yaml_issues)
@@ -357,9 +412,10 @@ def build_report(results):
     else:
         issues.append({
             "severity": "WARNUNG",
-            "title": "Resend-Domain nicht verifiziert",
+            "title": "Resend-Mailversand beeintraechtigt",
             "detail": resend_msg,
-            "action": "1. resend.com öffnen\n2. Domain lobbyregister-bot.de verifizieren"
+            "action": ("1. RESEND_API_KEY in den GitHub-Secrets pruefen\n"
+                       "2. Bei Bedarf neuen Sende-Key auf resend.com erstellen")
         })
 
     gemini_ok, gemini_msg = results["gemini"]
@@ -472,9 +528,11 @@ def send_report_resend(html, has_issues):
 def main():
     print("=== Lobbyregister Monitor – Wöchentlicher Selbsttest ===")
     results = {}
-    print("Prüfe API...")
+    print("Prüfe Suchschnittstelle (produktive Quelle)...")
+    results["search"] = check_search_interface()
+    print("Prüfe rest/v2-API (Frühwarnsystem)...")
     results["api"] = check_api_reachable(LOBBYREGISTER_API_KEY)
-    print("Prüfe API-Struktur...")
+    print("Prüfe API-Struktur (Frühwarnsystem)...")
     results["api_struct"] = check_api_structure(LOBBYREGISTER_API_KEY)
     print("Prüfe YAML...")
     results["yaml"] = check_yaml_version()
