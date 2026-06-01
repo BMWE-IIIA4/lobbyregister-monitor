@@ -52,7 +52,7 @@ jobs:
           restore-keys: |
             lobbyregister-data-
 
-      - name: Daten abrufen und Seite generieren (inkrementell)
+      - name: Daten abrufen (Vollabgleich aller Organisationen)
         env:
           LOBBYREGISTER_API_KEY: ${{ secrets.LOBBYREGISTER_API_KEY }}
         run: python scripts/fetch_and_build.py
