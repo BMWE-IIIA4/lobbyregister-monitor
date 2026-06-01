@@ -41,10 +41,11 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <h2>1. System&uuml;bersicht</h2>
 <p>Der Lobbyregister-Monitor ruft <strong>t&auml;glich</strong> Stellungnahmen ab:</p>
 <ul>
-  <li>Nur neue Registereintr&auml;ge werden von der API geladen (bereits bekannte werden &uuml;bersprungen)</li>
+  <li>Alle Eintr&auml;ge werden in <strong>einem gestreamten Durchgang</strong> &uuml;ber die &ouml;ffentliche Suchschnittstelle (<code>sucheDetailJson</code>) geladen – Organisationen samt Stellungnahmen kommen inline</li>
+  <li>Deduplizierung auf <strong>Stellungnahme-Ebene</strong> (SG-Nummer): bestehende Eintr&auml;ge bleiben stabil, nur neue Stellungnahmen werden erg&auml;nzt – auch von bereits bekannten Organisationen</li>
   <li>KI-Pr&uuml;fung (Gemini 3.1 Flash Lite) mit lokalem Cache – bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut verarbeitet</li>
-  <li>Budgetlimit: max. 100 KI-Calls pro Durchlauf</li>
-  <li>&Uuml;bersichtsseite auf GitHub Pages, sortiert nach Upload-Datum</li>
+  <li>Budgetlimit: max. 100 KI-Calls pro Durchlauf (1 Call = 5 Stellungnahmen)</li>
+  <li>&Uuml;bersichtsseite auf GitHub Pages, sortiert nach Upload-Datum (aus der SG-Nummer abgeleitet)</li>
   <li>Ampelfarben zeigen Zeitverzug zwischen Stellungnahme-Datum und Upload an</li>
   <li>Filterung nach Regelungsvorhaben und Institutionen (kombinierbar)</li>
 </ul>
@@ -60,7 +61,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 
 <table class="secret-table">
   <tr><th>Secret-Name</th><th>Beschreibung</th></tr>
-  <tr><td><code>LOBBYREGISTER_API_KEY</code></td><td>&Ouml;ffentlicher API-Key des Lobbyregisters</td></tr>
+  <tr><td><code>LOBBYREGISTER_API_KEY</code></td><td>&Ouml;ffentlicher API-Key der rest/v2-API. Wird f&uuml;r den Datenabruf <strong>nicht mehr ben&ouml;tigt</strong> (dieser l&auml;uft &uuml;ber die Suchschnittstelle ohne Key), dient aber dem Health-Check als Fr&uuml;hwarnsystem f&uuml;r API-&Auml;nderungen</td></tr>
   <tr><td><code>GEMINI_API_KEY</code></td><td>Google Gemini API-Key (Free Tier, Account: lobbyregister.bot@gmail.com)</td></tr>
   <tr><td><code>RESEND_API_KEY</code></td><td>Resend API-Key f&uuml;r E-Mail-Versand (<code>re_XXXX...</code>)</td></tr>
   <tr><td><code>EMAIL_RECIPIENT</code></td><td>Empf&auml;nger der w&ouml;chentlichen Update-Mail (Montags)</td></tr>
@@ -95,7 +96,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <table class="secret-table">
   <tr><th>Datei</th><th>Funktion</th></tr>
   <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Cache-Verwaltung, konditionale Mail</td></tr>
-  <tr><td><code>scripts/fetch_and_build.py</code></td><td>API-Abruf (Vollabgleich aller Organisationen), Filterung, Speicherung in data.json – kein HTML</td></tr>
+  <tr><td><code>scripts/fetch_and_build.py</code></td><td>Datenabruf (Suchschnittstelle <code>sucheDetailJson</code>, gestreamt mit ijson), Filterung, Speicherung in data.json – kein HTML</td></tr>
   <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung, Zusammenfassung, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
   <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags, nur automatischer Trigger)</td></tr>
@@ -113,7 +114,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <h2>4. Ablauf eines t&auml;glichen Durchlaufs</h2>
 <ol>
   <li><strong>Cache laden</strong> &ndash; <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> aus GitHub Actions Cache</li>
-  <li><strong>fetch_and_build.py</strong> &ndash; alle Organisationen abrufen, Stellungnahmen auf SG-Nummer-Ebene deduplizieren, neue mit bestehenden Daten mergen (bestehende bleiben stabil), in data.json speichern (kein HTML)</li>
+  <li><strong>fetch_and_build.py</strong> &ndash; gesamte Suchschnittstelle gestreamt laden, thematisch relevante Stellungnahmen extrahieren, auf SG-Nummer-Ebene deduplizieren, neue mit bestehenden Daten mergen (bestehende bleiben stabil), in data.json speichern (kein HTML)</li>
   <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge per KI pr&uuml;fen (max. 100/Run), gecachte &uuml;berspringen, finales HTML mit Ampelfarben und Institutionsfilter bauen</li>
   <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in admin.html einsetzen</li>
   <li><strong>save_run_log.py</strong> &ndash; Durchlauf-Statistiken an <code>run_history.json</code> anh&auml;ngen</li>
@@ -135,7 +136,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <ol>
   <li><a href="https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions">GitHub Actions</a> &ouml;ffnen</li>
   <li>Fehlgeschlagenen Job anklicken und Logs lesen</li>
-  <li>H&auml;ufig: API-Key abgelaufen, GitHub Pages nicht aktiviert, Cache-Problem</li>
+  <li>H&auml;ufig: Gemini-Fehler (Abruf bricht ab), Suchschnittstelle nicht erreichbar, GitHub Pages nicht aktiviert, Cache-Problem</li>
 </ol>
 
 <h3>Sortierung falsch / Eintr&auml;ge unter falschem Datum</h3>
@@ -147,7 +148,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li><strong>Quota:</strong> 500 req/Tag &ndash; Caching und Budgetlimit (100/Run) reduzieren den Verbrauch. Ausstehende Pr&uuml;fungen werden automatisch nachgeholt.</li>
   <li><strong>Cache gel&ouml;scht:</strong> Nach Cache-L&ouml;schung m&uuml;ssen alle Eintr&auml;ge neu gepr&uuml;ft werden (&gt;100). Das holt sich &uuml;ber mehrere Tage automatisch auf.</li>
   <li><strong>Key abgelaufen:</strong> Neuen Key auf <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> erstellen und als Secret speichern</li>
-  <li><strong>Modell ge&auml;ndert:</strong> <code>GEMINI_MODEL</code> in <code>gemini_enrich.py</code> und <code>health_check.py</code> anpassen</li>
+  <li><strong>Modell ge&auml;ndert:</strong> <code>GEMINI_MODEL</code> zentral in <code>scripts/config.py</code> anpassen (wird von gemini_enrich.py und health_check.py gemeinsam genutzt)</li>
 </ul>
 
 <h3>Admin-Panel zeigt falsches Passwort</h3>
