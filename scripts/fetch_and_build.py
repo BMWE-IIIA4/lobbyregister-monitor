@@ -2,8 +2,10 @@
 fetch_and_build.py
 ==================
 Ruft Stellungnahmen ueber die offizielle Lobbyregister API V2 ab.
-Inkrementeller Abruf und Speicherung in docs/data.json.
-HTML-Generierung erfolgt ausschliesslich in gemini_enrich.py.
+Vollabgleich: alle Organisationen werden bei jedem Lauf geprueft, die
+Deduplizierung erfolgt auf Stellungnahme-Ebene (SG-Nummer). Bestehende
+Eintraege bleiben stabil, nur neue Stellungnahmen werden ergaenzt.
+Speicherung in docs/data.json. HTML-Generierung erfolgt in gemini_enrich.py.
 """
 
 import json
@@ -81,6 +83,27 @@ def extract_sg_number(pdf_url):
     match = re.search(r'(SG\d+)', pdf_url)
     return match.group(1) if match else ""
 
+def sg_to_upload_date(sg_number):
+    """Leitet das Bereitstellungsdatum ('bereitgestellt am') aus der SG-Nummer ab.
+
+    Format der SG-Nummer: SG + JJMMTT + 4-stelliger Zaehler.
+    Beispiel: SG2605220018 -> 2026-05-22.
+    Dieses Datum ist pro Stellungnahme eindeutig und stabil – im Gegensatz zum
+    organisationsweiten lastUpdateDate. Gibt ein date-Objekt oder None zurueck.
+    """
+    if not sg_number or not sg_number.startswith("SG"):
+        return None
+    digits = sg_number[2:]
+    if len(digits) < 6:
+        return None
+    try:
+        yy = int(digits[0:2])
+        mm = int(digits[2:4])
+        dd = int(digits[4:6])
+        return date(2000 + yy, mm, dd)
+    except ValueError:
+        return None
+
 def build_statement_url(sg_number):
     if not sg_number: return ""
     return f"https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/{sg_number}"
@@ -103,7 +126,12 @@ def fetch_real_pdf_url(page_url):
 
 def load_previous_data():
     """Laedt data.json aus dem Cache (vorheriger Lauf).
-    Gibt (statements_list, known_register_numbers_set) zurueck."""
+
+    Stellt dabei einmalig das upload_date bestehender Eintraege auf das aus der
+    SG-Nummer abgeleitete Bereitstellungsdatum um (sofern abweichend). So werden
+    auch Altbestaende auf die korrekte, pro-Stellungnahme stabile Datumsquelle
+    migriert. Gibt (statements_list, known_register_numbers_set) zurueck.
+    """
     data_path = Path("docs/data.json")
     if not data_path.exists():
         return [], set()
@@ -112,6 +140,19 @@ def load_previous_data():
         with open(data_path, encoding="utf-8") as f:
             data = json.load(f)
         statements = data.get("statements", [])
+
+        # Einmalige Migration des upload_date auf das SG-Datum
+        migrated = 0
+        for s in statements:
+            sg_date = sg_to_upload_date(s.get("sg_number", ""))
+            if sg_date:
+                sg_iso = sg_date.isoformat()
+                if s.get("upload_date") != sg_iso:
+                    s["upload_date"] = sg_iso
+                    migrated += 1
+        if migrated:
+            print(f"  Migration: {migrated} upload_date-Werte auf SG-Datum umgestellt.")
+
         # Alle Registernummern extrahieren, fuer die wir bereits Daten haben
         known_rns = {s["register_number"] for s in statements if s.get("register_number")}
         return statements, known_rns
@@ -167,7 +208,7 @@ def fetch_all_register_entries():
     print(f"  {len(register_numbers)} Registernummern geladen.")
     return register_numbers
 
-# ── Schritt 2: Nur NEUE Eintraege einzeln abrufen ─────────────────────────────
+# ── Schritt 2: Alle Eintraege einzeln abrufen ─────────────────────────────────
 
 def fetch_and_filter_statements(register_numbers):
     """Ruft einzelne Registereintraege ab und extrahiert relevante Stellungnahmen."""
@@ -179,7 +220,7 @@ def fetch_and_filter_statements(register_numbers):
     no_relevant_fields = 0
     duplicates = 0
 
-    print(f"Schritt 2: {total} neue Eintraege einzeln abrufen und filtern...")
+    print(f"Schritt 2: {total} Organisationen einzeln abrufen und filtern...")
 
     for i, reg_num in enumerate(register_numbers):
         try:
@@ -239,7 +280,7 @@ def fetch_and_filter_statements(register_numbers):
             print(f"  {i+1}/{total}: {len(all_statements)} SN, {no_relevant_fields} kein Thema, "
                   f"{no_statements} keine SN, {skipped} Fehler, {duplicates} Duplikate")
 
-    print(f"  {len(all_statements)} neue relevante Stellungnahmen gefunden.")
+    print(f"  {len(all_statements)} relevante Stellungnahmen gefunden.")
     if duplicates:
         print(f"  ({duplicates} Duplikate entfernt)")
     return all_statements
@@ -307,7 +348,17 @@ def process_statement(stmt, register_number, org_name, upload_date,
                 break
             except ValueError: pass
 
-    check_date = sending_date or upload_date
+    # PDF-URL und SG-Nummer fruehzeitig ermitteln, da das Bereitstellungsdatum
+    # ('bereitgestellt am') pro Stellungnahme aus der SG-Nummer abgeleitet wird.
+    page_url = str(stmt.get("pdfUrl", ""))
+    pdf_url = fetch_real_pdf_url(page_url)
+    sg_number = extract_sg_number(pdf_url)
+
+    # upload_date = Bereitstellungsdatum aus SG-Nummer; Fallback auf das
+    # organisationsweite lastUpdateDate, falls keine SG-Nummer vorhanden ist.
+    stmt_upload_date = sg_to_upload_date(sg_number) or upload_date
+
+    check_date = sending_date or stmt_upload_date
     if check_date and check_date < START_DATE: return None
 
     recipients = []
@@ -365,10 +416,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
 
     priority = min((FIELD_PRIORITY.get(c, 99) for c in priority_codes if c in FIELD_PRIORITY), default=99)
 
-    page_url = str(stmt.get("pdfUrl", ""))
-    pdf_url = fetch_real_pdf_url(page_url)
     pdf_pages = int(stmt.get("pdfPageCount", 0) or 0)
-    sg_number = extract_sg_number(pdf_url)
     statement_url = build_statement_url(sg_number)
 
     return {
@@ -377,7 +425,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
         "org_url": details_page_url,
         "regulatory_project_title": str(stmt.get("regulatoryProjectTitle", "Kein Titel")),
         "sending_date": sending_date.isoformat() if sending_date else None,
-        "upload_date": upload_date.isoformat() if upload_date else None,
+        "upload_date": stmt_upload_date.isoformat() if stmt_upload_date else None,
         "pdf_url": pdf_url,
         "pdf_pages": pdf_pages,
         "sg_number": sg_number,
@@ -390,40 +438,54 @@ def process_statement(stmt, register_number, org_name, upload_date,
 
 # ── Merge & Deduplizierung ────────────────────────────────────────────────────
 
-def merge_statements(previous, new):
-    """Merged vorherige und neue Stellungnahmen, entfernt Duplikate.
-    Neue Eintraege ueberschreiben vorherige bei gleichem Key."""
+def merge_statements(previous, fetched):
+    """Merged bestehende und frisch abgerufene Stellungnahmen.
+
+    Bestehende Eintraege (previous) behalten Vorrang: ihr upload_date und damit
+    ihre Position in der Sortierung bleiben stabil. Aus dem frischen Abruf werden
+    nur Stellungnahmen mit NEUER SG-Nummer ergaenzt.
+
+    Gibt (merged_list, anzahl_neu_ergaenzt) zurueck.
+    """
+    def dedup_key(stmt):
+        return stmt.get("sg_number") or (
+            stmt["register_number"],
+            stmt["regulatory_project_title"],
+            stmt.get("sending_date", "")
+        )
+
     seen = set()
     merged = []
 
-    # Neue zuerst einfuegen (haben Vorrang)
-    for stmt in new:
-        key = stmt.get("sg_number") or (stmt["register_number"],
-              stmt["regulatory_project_title"], stmt.get("sending_date", ""))
-        if key not in seen:
-            seen.add(key)
-            merged.append(stmt)
-
-    # Vorherige nur wenn kein Duplikat
+    # Bestehende zuerst (haben Vorrang -> Datum & Reihenfolge bleiben stabil)
     for stmt in previous:
-        key = stmt.get("sg_number") or (stmt["register_number"],
-              stmt["regulatory_project_title"], stmt.get("sending_date", ""))
+        key = dedup_key(stmt)
         if key not in seen:
             seen.add(key)
             merged.append(stmt)
 
-    return merged
+    # Frisch abgerufene nur, wenn SG-Nummer noch nicht bekannt
+    added = 0
+    for stmt in fetched:
+        key = dedup_key(stmt)
+        if key not in seen:
+            seen.add(key)
+            merged.append(stmt)
+            added += 1
+
+    return merged, added
 
 # ── Hauptprogramm ──────────────────────────────────────────────────────────────
 
 def main():
-    print("=== Lobbyregister Monitor - Datenabruf (V2 API, inkrementell) ===")
+    print("=== Lobbyregister Monitor - Datenabruf (V2 API, Vollabgleich) ===")
 
-    # Vorherige Daten laden (aus Cache)
+    # Vorherige Daten laden (aus Cache) - dienen zur Statement-Deduplizierung
     previous_statements, known_register_numbers = load_previous_data()
     if previous_statements:
-        print(f"Cache: {len(previous_statements)} vorherige Eintraege aus "
-              f"{len(known_register_numbers)} Registernummern geladen.")
+        known_sg = {s.get("sg_number") for s in previous_statements if s.get("sg_number")}
+        print(f"Cache: {len(previous_statements)} vorherige Eintraege "
+              f"({len(known_sg)} mit SG-Nummer) aus {len(known_register_numbers)} Organisationen geladen.")
     else:
         print("Kein Cache vorhanden - vollstaendiger Erstabruf.")
 
@@ -432,30 +494,28 @@ def main():
     if not all_register_numbers:
         print("WARNUNG: Keine Registereintraege geladen.")
 
-    # Neue Registernummern bestimmen
-    new_register_numbers = [rn for rn in all_register_numbers if rn not in known_register_numbers]
-    skipped_count = len(all_register_numbers) - len(new_register_numbers)
-
+    # Schritt 2: ALLE Eintraege einzeln abrufen (keine Organisation ueberspringen!)
+    # Die Deduplizierung erfolgt anschliessend auf Stellungnahme-Ebene (SG-Nummer),
+    # damit neue Stellungnahmen bereits bekannter Organisationen erfasst werden.
     print(f"\nRegisternummern gesamt: {len(all_register_numbers)}")
-    print(f"  Bereits bekannt (uebersprungen): {skipped_count}")
-    print(f"  Neu zu pruefen: {len(new_register_numbers)}")
+    print(f"Alle Organisationen werden auf neue Stellungnahmen geprueft.")
 
-    # Schritt 2: Nur neue Eintraege einzeln abrufen
-    if new_register_numbers:
-        new_statements = fetch_and_filter_statements(new_register_numbers)
+    if all_register_numbers:
+        fetched_statements = fetch_and_filter_statements(all_register_numbers)
     else:
-        new_statements = []
-        print("\nKeine neuen Eintraege.")
+        fetched_statements = []
+        print("\nKeine Eintraege abrufbar.")
 
-    # Merge: vorherige + neue, mit Deduplizierung
-    all_statements = merge_statements(previous_statements, new_statements)
+    # Merge: bestehende Stellungnahmen behalten Vorrang (Datum + Reihenfolge bleiben
+    # stabil), nur neue SG-Nummern werden ergaenzt.
+    all_statements, added_count = merge_statements(previous_statements, fetched_statements)
     all_statements.sort(
         key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
         reverse=True
     )
 
     print(f"\nErgebnis: {len(all_statements)} Stellungnahmen gesamt "
-          f"({len(new_statements)} neu, {len(previous_statements)} aus Cache)")
+          f"({added_count} neu ergaenzt, {len(previous_statements)} bereits bekannt)")
 
     # BERLINER ZEIT für generated_at
     generated_at = datetime.now(BERLIN_TZ).isoformat()
