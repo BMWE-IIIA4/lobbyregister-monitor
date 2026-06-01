@@ -210,8 +210,17 @@ def fetch_all_register_entries():
 
 # ── Schritt 2: Alle Eintraege einzeln abrufen ─────────────────────────────────
 
-def fetch_and_filter_statements(register_numbers):
-    """Ruft einzelne Registereintraege ab und extrahiert relevante Stellungnahmen."""
+def fetch_and_filter_statements(register_numbers, known_pdf_by_sg=None):
+    """Ruft einzelne Registereintraege ab und extrahiert relevante Stellungnahmen.
+
+    known_pdf_by_sg: optionales Dict {sg_number: pdf_url} bereits bekannter
+    Stellungnahmen. Ist die SG-Nummer einer Stellungnahme bereits bekannt, wird
+    die gespeicherte PDF-URL wiederverwendet und der teure HTTP-Request zur
+    PDF-Aufloesung uebersprungen (deutliche Laufzeitersparnis im Vollabgleich).
+    """
+    if known_pdf_by_sg is None:
+        known_pdf_by_sg = {}
+
     all_statements = []
     seen_keys = set()  # Deduplizierung
     total = len(register_numbers)
@@ -219,6 +228,7 @@ def fetch_and_filter_statements(register_numbers):
     no_statements = 0
     no_relevant_fields = 0
     duplicates = 0
+    pdf_lookups_skipped = 0
 
     print(f"Schritt 2: {total} Organisationen einzeln abrufen und filtern...")
 
@@ -252,13 +262,16 @@ def fetch_and_filter_statements(register_numbers):
             continue
 
         org_name = extract_org_name(entry)
-        upload_date = extract_upload_date(entry)
+        upload_date = extract_org_lastupdate(entry)
         details_page_url = extract_details_page_url(entry)
         rp_lookup = build_rp_lookup(entry)
 
         for stmt in stmts_list:
-            result = process_statement(stmt, reg_num, org_name, upload_date,
-                                       entry_fields, details_page_url, rp_lookup)
+            result, skipped_lookup = process_statement(
+                stmt, reg_num, org_name, upload_date,
+                entry_fields, details_page_url, rp_lookup, known_pdf_by_sg)
+            if skipped_lookup:
+                pdf_lookups_skipped += 1
             if result:
                 # Deduplizierung
                 dedup_key = None
@@ -283,6 +296,8 @@ def fetch_and_filter_statements(register_numbers):
     print(f"  {len(all_statements)} relevante Stellungnahmen gefunden.")
     if duplicates:
         print(f"  ({duplicates} Duplikate entfernt)")
+    if pdf_lookups_skipped:
+        print(f"  ({pdf_lookups_skipped} PDF-Lookups dank Cache uebersprungen)")
     return all_statements
 
 
@@ -302,7 +317,9 @@ def extract_org_name(entry):
     identity = entry.get("lobbyistIdentity", {})
     return identity.get("name", "Unbekannte Organisation") if isinstance(identity, dict) else "Unbekannte Organisation"
 
-def extract_upload_date(entry):
+def extract_org_lastupdate(entry):
+    """Liest das organisationsweite lastUpdateDate (nur Fallback fuer das
+    upload_date, falls eine Stellungnahme keine SG-Nummer hat)."""
     acc = entry.get("accountDetails", {})
     if isinstance(acc, dict):
         pub_date = acc.get("lastUpdateDate", "")
@@ -336,8 +353,15 @@ def build_rp_lookup(entry):
     return lookup
 
 def process_statement(stmt, register_number, org_name, upload_date,
-                      entry_fields, details_page_url, rp_lookup):
-    if not isinstance(stmt, dict): return None
+                      entry_fields, details_page_url, rp_lookup, known_pdf_by_sg=None):
+    """Verarbeitet eine einzelne Stellungnahme.
+
+    Gibt (result_dict_oder_None, skipped_lookup_bool) zurueck. skipped_lookup ist
+    True, wenn die PDF-URL aus dem Cache kam und kein HTTP-Request noetig war.
+    """
+    if known_pdf_by_sg is None:
+        known_pdf_by_sg = {}
+    if not isinstance(stmt, dict): return None, False
 
     sending_date = None
     for rg in stmt.get("recipientGroups", []):
@@ -348,18 +372,29 @@ def process_statement(stmt, register_number, org_name, upload_date,
                 break
             except ValueError: pass
 
-    # PDF-URL und SG-Nummer fruehzeitig ermitteln, da das Bereitstellungsdatum
-    # ('bereitgestellt am') pro Stellungnahme aus der SG-Nummer abgeleitet wird.
+    # SG-Nummer zuerst aus der rohen Seiten-URL versuchen (ohne HTTP-Request).
+    # Die SG-Nummer ist bereits in der von der API gelieferten URL enthalten.
     page_url = str(stmt.get("pdfUrl", ""))
-    pdf_url = fetch_real_pdf_url(page_url)
-    sg_number = extract_sg_number(pdf_url)
+    sg_number = extract_sg_number(page_url)
+    skipped_lookup = False
+
+    if sg_number and sg_number in known_pdf_by_sg:
+        # Bekannte Stellungnahme: gespeicherte PDF-URL wiederverwenden, kein HTTP.
+        pdf_url = known_pdf_by_sg[sg_number]
+        skipped_lookup = True
+    else:
+        # Neue Stellungnahme (oder SG nicht aus Seiten-URL ableitbar):
+        # echte PDF-URL per HTTP aufloesen.
+        pdf_url = fetch_real_pdf_url(page_url)
+        if not sg_number:
+            sg_number = extract_sg_number(pdf_url)
 
     # upload_date = Bereitstellungsdatum aus SG-Nummer; Fallback auf das
     # organisationsweite lastUpdateDate, falls keine SG-Nummer vorhanden ist.
     stmt_upload_date = sg_to_upload_date(sg_number) or upload_date
 
     check_date = sending_date or stmt_upload_date
-    if check_date and check_date < START_DATE: return None
+    if check_date and check_date < START_DATE: return None, skipped_lookup
 
     recipients = []
     has_target_recipient = False
@@ -388,7 +423,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
                 break
 
     recipients = list(dict.fromkeys(recipients))
-    if not has_target_recipient: return None
+    if not has_target_recipient: return None, skipped_lookup
 
     rp_number = stmt.get("regulatoryProjectNumber", "")
     rp_info = rp_lookup.get(rp_number, {})
@@ -405,7 +440,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
 
     if stmt_fields:
         stmt_field_codes = {f["code"] for f in stmt_fields}
-        if not stmt_field_codes & TARGET_FIELD_CODES: return None
+        if not stmt_field_codes & TARGET_FIELD_CODES: return None, skipped_lookup
         relevant_fields = [f for f in stmt_fields if f["code"] in TARGET_FIELD_CODES]
         display_fields = relevant_fields if relevant_fields else stmt_fields[:3]
         priority_codes = stmt_field_codes
@@ -434,7 +469,7 @@ def process_statement(stmt, register_number, org_name, upload_date,
         "recipients": recipients,
         "fields": display_fields,
         "priority": priority,
-    }
+    }, skipped_lookup
 
 # ── Merge & Deduplizierung ────────────────────────────────────────────────────
 
@@ -482,10 +517,15 @@ def main():
 
     # Vorherige Daten laden (aus Cache) - dienen zur Statement-Deduplizierung
     previous_statements, known_register_numbers = load_previous_data()
+    # Lookup bekannter PDF-URLs je SG-Nummer: erspart spaeter HTTP-Requests
+    known_pdf_by_sg = {
+        s["sg_number"]: s["pdf_url"]
+        for s in previous_statements
+        if s.get("sg_number") and s.get("pdf_url")
+    }
     if previous_statements:
-        known_sg = {s.get("sg_number") for s in previous_statements if s.get("sg_number")}
         print(f"Cache: {len(previous_statements)} vorherige Eintraege "
-              f"({len(known_sg)} mit SG-Nummer) aus {len(known_register_numbers)} Organisationen geladen.")
+              f"({len(known_pdf_by_sg)} mit SG-Nummer) aus {len(known_register_numbers)} Organisationen geladen.")
     else:
         print("Kein Cache vorhanden - vollstaendiger Erstabruf.")
 
@@ -501,7 +541,7 @@ def main():
     print(f"Alle Organisationen werden auf neue Stellungnahmen geprueft.")
 
     if all_register_numbers:
-        fetched_statements = fetch_and_filter_statements(all_register_numbers)
+        fetched_statements = fetch_and_filter_statements(all_register_numbers, known_pdf_by_sg)
     else:
         fetched_statements = []
         print("\nKeine Eintraege abrufbar.")
@@ -526,6 +566,7 @@ def main():
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump({
             "generated_at": generated_at,
+            "newly_added": added_count,  # heute neu in die DB aufgenommen (fuer Run-Log)
             "statements": sorted(
                 all_statements,
                 key=lambda x: (x.get("upload_date") or x.get("sending_date") or "0000-00-00"),
