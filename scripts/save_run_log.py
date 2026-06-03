@@ -49,8 +49,12 @@ def main():
             # NICHT "in den letzten 24h veroeffentlicht".
             new_entries = data.get("newly_added", 0)
 
+            # Ausstehend = Eintraege, deren KI-Pruefung noch offen ist. Nutzt das
+            # echte Statusfeld (gemini_status == "pending"), NICHT die Laenge der
+            # Zusammenfassung – eine kurze, aber gueltige Zusammenfassung wie
+            # "Keine inhaltliche Beschreibung verfuegbar." ist bereits geprueft.
             for stmt in statements:
-                if not stmt.get("summary") or len(stmt.get("summary", "")) < 50:
+                if stmt.get("gemini_status") == "pending":
                     pending_entries += 1
 
             # gemini_filtered_out wird von gemini_enrich.py als Zahl in data.json gespeichert
