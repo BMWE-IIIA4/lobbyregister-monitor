@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"><div class="info-box">
+    <strong>Hinweis:</strong>
+    Diese Seite zeigt die letzten 50 Workflow-Durchläufe mit detaillierten Metriken.
+    Die Daten werden automatisch nach jedem Run aktualisiert.
+    <br><br>
+    Wichtig: <strong>„Neu erfasst"</strong> bezeichnet Stellungnahmen, die in diesem Durchlauf
+    erstmals in die Datenbank aufgenommen wurden – das ist <em>nicht</em> dasselbe wie das
+    Veröffentlichungsdatum im Lobbyregister. Viele neu erfasste Einträge wurden bereits vor
+    Wochen veröffentlicht und erscheinen auf der Hauptseite unter ihrem jeweiligen
+    Hochlade-Datum, nicht unter „heute". Ein Teil der neu erfassten Einträge wird anschließend
+    vom KI-Relevanzfilter aussortiert und ist daher auf der Hauptseite nicht sichtbar.
+  </div>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Workflow-Logs – Lobbyregister-Monitor</title>
 <style>
@@ -78,20 +89,20 @@ tbody tr:hover{background:#f8fafc}
 
     <div class="legend">
       <div class="legend-item">
-        <strong>Einträge gesamt</strong>
-        <span>Alle Stellungnahmen in der Datenbank (seit 1. Jan. 2026)</span>
+        <strong>Einträge gesamt (in Monitor-DB)</strong>
+        <span>Alle Stellungnahmen in der Datenbank des Lobbyregister-Monitors (seit 1. Jan. 2026)</span>
       </div>
       <div class="legend-item">
-        <strong>Neu (heute)</strong>
-        <span>Einträge, die in diesem Durchlauf neu in die Datenbank aufgenommen wurden</span>
+        <strong>Neu erfasst</strong>
+        <span>Stellungnahmen, die in diesem Durchlauf erstmals in die Monitor-Datenbank kamen (alle Themen, vor KI-Filterung; unabhängig vom Veröffentlichungsdatum)</span>
       </div>
       <div class="legend-item">
         <strong>Ausstehend (KI)</strong>
-        <span>Einträge bei denen die KI-Zusammenfassung noch fehlt oder unvollständig ist</span>
+        <span>Einträge, deren KI-Prüfung noch offen ist und beim nächsten Lauf nachgeholt wird</span>
       </div>
       <div class="legend-item">
-        <strong>Aussortiert</strong>
-        <span>Einträge die vom Relevanzfilter als nicht relevant eingestuft wurden</span>
+        <strong>Aussortiert (gesamt)</strong>
+        <span>Alle aktuell in der Datenbank vom KI-Relevanzfilter als nicht relevant eingestuften Einträge (kumuliert, nicht nur dieser Lauf)</span>
       </div>
     </div>
 
@@ -101,10 +112,10 @@ tbody tr:hover{background:#f8fafc}
           <th>Zeitpunkt</th>
           <th>Run</th>
           <th>Trigger</th>
-          <th>Einträge gesamt</th>
-          <th>Neu (heute)</th>
+          <th>Einträge gesamt (in Monitor-DB)</th>
+          <th>Neu erfasst</th>
           <th>Ausstehend (KI)</th>
-          <th>Aussortiert</th>
+          <th>Aussortiert (gesamt)</th>
           <th>E-Mail</th>
         </tr>
       </thead>
