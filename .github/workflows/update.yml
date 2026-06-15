@@ -18,7 +18,7 @@ env:
   TZ: Europe/Berlin  # Zeitzone für alle Schritte setzen
 
 permissions:
-  contents: read
+  contents: write   # write benoetigt fuer Push in data-store-Branch (Datenpersistenz)
   pages: write
   id-token: write
 
@@ -41,16 +41,29 @@ jobs:
       - name: Abhaengigkeiten installieren
         run: pip install requests ijson
 
-      - name: Daten-Cache wiederherstellen
-        uses: actions/cache@v4
-        with:
-          path: |
-            docs/data.json
-            docs/gemini_cache.json
-            docs/run_history.json
-          key: lobbyregister-data-${{ github.run_id }}
-          restore-keys: |
-            lobbyregister-data-
+      - name: Datenbestand aus data-store-Branch laden
+        # Persistenz der Bestandsdaten (data.json, gemini_cache.json,
+        # run_history.json) erfolgt ueber den separaten Branch 'data-store',
+        # NICHT mehr ueber den fluechtigen GitHub Actions Cache. Der Branch
+        # wird bei Bedarf automatisch (leer) angelegt.
+        run: |
+          set -e
+          git fetch origin data-store:data-store 2>/dev/null || {
+            echo "Branch data-store existiert noch nicht – wird beim ersten Push erzeugt."
+          }
+          mkdir -p docs
+          if git rev-parse --verify data-store >/dev/null 2>&1; then
+            for f in data.json gemini_cache.json run_history.json; do
+              if git show data-store:$f >/dev/null 2>&1; then
+                git show data-store:$f > docs/$f
+                echo "Geladen: $f ($(stat -c%s docs/$f) Bytes)"
+              else
+                echo "Hinweis: $f noch nicht im data-store vorhanden."
+              fi
+            done
+          else
+            echo "Hinweis: data-store-Branch leer/nicht vorhanden – Erstlauf."
+          fi
 
       - name: Daten abrufen (Suchschnittstelle, gestreamt)
         run: python scripts/fetch_and_build.py
@@ -85,6 +98,61 @@ jobs:
           INPUT_FORCE_EMAIL: ${{ github.event.inputs.force_email || 'false' }}
         run: python scripts/save_run_log.py
         continue-on-error: true
+
+      - name: Datenbestand in data-store-Branch persistieren
+        # Schreibt data.json, gemini_cache.json und run_history.json in den
+        # data-store-Branch zurueck. Erfolgt vor dem Pages-Deploy, damit der
+        # Datenbestand auch dann gesichert ist, wenn der Deploy fehlschlaegt.
+        # Der Branch enthaelt ausschliesslich die drei Datendateien (keine
+        # Code-Historie, keine Verschmutzung des main-Branches).
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Temp-Verzeichnis fuer den Branch-Inhalt
+          STORE_DIR=$(mktemp -d)
+          cd "$STORE_DIR"
+          git init -q -b data-store
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+
+          # Bestehenden Branch laden (falls vorhanden) – sonst neu anlegen
+          if git fetch -q origin data-store 2>/dev/null; then
+            git reset --hard origin/data-store
+          fi
+
+          # Dateien aus dem Workspace uebernehmen
+          for f in data.json gemini_cache.json run_history.json; do
+            if [ -f "$GITHUB_WORKSPACE/docs/$f" ]; then
+              cp "$GITHUB_WORKSPACE/docs/$f" "./$f"
+            fi
+          done
+
+          # README im data-store-Branch (nur einmal noetig)
+          if [ ! -f README.md ]; then
+            cat > README.md <<'EOF'
+          # data-store
+
+          Dieser Branch enthaelt ausschliesslich die persistenten Datenbestaende
+          des Lobbyregister-Monitors:
+
+          - data.json
+          - gemini_cache.json
+          - run_history.json
+
+          Er wird automatisch durch den Workflow `update.yml` aktualisiert.
+          Bitte hier KEINE manuellen Commits vornehmen.
+          EOF
+          fi
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen am Datenbestand – kein Commit noetig."
+          else
+            git commit -q -m "data: update ${{ github.run_id }} ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git push -q origin data-store
+            echo "Datenbestand aktualisiert und gepusht."
+          fi
 
       - name: data.json fuer Mail-Job speichern
         uses: actions/upload-artifact@v4
