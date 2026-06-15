@@ -34,9 +34,9 @@ scripts/gemini_enrich.py         – KI-Relevanzfilterung, Zusammenfassungen, fi
 scripts/send_email.py            – Wöchentlicher E-Mail-Versand (montags, nur automatisch)
 scripts/health_check.py          – Wöchentlicher Selbsttest und Admin-Bericht (montags)
 scripts/save_run_log.py          – Workflow-Protokoll (nach jedem Durchlauf)
-scripts/inject_admin_hash.py     – Injiziert Passwort-Hash in admin.html beim Build
+scripts/inject_admin_hash.py     – Injiziert Passwort-Hash in das Admin-Panel beim Build
 scripts/template.html            – HTML-Vorlage für die Übersichtsseite
-docs/admin.html                  – Passwortgeschütztes Admin-Panel (Passwort als Secret)
+docs/mgmt-7f3b2a-bmwe.html       – Passwortgeschütztes Admin-Panel (nicht erratbarer Pfad, Passwort als Secret)
 docs/actions.html                – Workflow-Protokollseite
 docs/                            – Generierte Seiten (werden automatisch überschrieben)
 ```
