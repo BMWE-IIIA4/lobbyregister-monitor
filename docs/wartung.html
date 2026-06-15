@@ -38,6 +38,11 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <strong>Wichtig:</strong> Echte Zugangsdaten sind ausschlie&szlig;lich als GitHub Secrets hinterlegt. Niemals in den Code eintragen.
 </div>
 
+<div class="box">
+  <strong>Admin-Panel-Pfad:</strong> <code>https://lobbyregister-bot.de/mgmt-7f3b2a-bmwe.html</code><br>
+  Der Pfad ist bewusst nicht erratbar und wird nirgendwo &ouml;ffentlich verlinkt (Schutz vor zuf&auml;lligem Aufruf). Verlinkte Aktionen erfordern ohnehin GitHub-Authentifizierung.
+</div>
+
 <h2>1. System&uuml;bersicht</h2>
 <p>Der Lobbyregister-Monitor ruft <strong>t&auml;glich</strong> Stellungnahmen ab:</p>
 <ul>
@@ -66,7 +71,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <tr><td><code>RESEND_API_KEY</code></td><td>Resend API-Key f&uuml;r E-Mail-Versand (<code>re_XXXX...</code>)</td></tr>
   <tr><td><code>EMAIL_RECIPIENT</code></td><td>Empf&auml;nger der w&ouml;chentlichen Update-Mail (Montags)</td></tr>
   <tr><td><code>ADMIN_EMAIL</code></td><td>Empf&auml;nger f&uuml;r Health-Check-Berichte bei Problemen</td></tr>
-  <tr><td><code>ADMIN_PASSWORD_HASH</code></td><td>SHA-256-Hash des Admin-Panel-Passworts (wird beim Build in admin.html injiziert)</td></tr>
+  <tr><td><code>ADMIN_PASSWORD_HASH</code></td><td>SHA-256-Hash des Admin-Panel-Passworts (wird beim Build in das Admin-Panel injiziert)</td></tr>
 </table>
 
 <h3>Admin-Passwort &auml;ndern</h3>
@@ -75,7 +80,6 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li>Browser-Console (F12) &ouml;ffnen, <code>allow pasting</code> eingeben</li>
   <li>Funktion ausf&uuml;hren: <code>async function h(p){const d=(new TextEncoder).encode(p);const b=await crypto.subtle.digest('SHA-256',d);return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')} await h("deinNeuesPasswort")</code></li>
   <li>Kopierten Hash als Secret <code>ADMIN_PASSWORD_HASH</code> speichern</li>
-  <li>Alternativ: die Datei <code>hash_generator.html</code> lokal &ouml;ffnen</li>
 </ol>
 
 <h3>Absenderadressen (Domain: lobbyregister-bot.de)</h3>
@@ -95,15 +99,15 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <h2>3. Dateien im Repository</h2>
 <table class="secret-table">
   <tr><th>Datei</th><th>Funktion</th></tr>
-  <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Cache-Verwaltung, konditionale Mail</td></tr>
+  <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Datenpersistenz (data-store-Branch), konditionale Mail</td></tr>
   <tr><td><code>scripts/fetch_and_build.py</code></td><td>Datenabruf (Suchschnittstelle <code>sucheDetailJson</code>, gestreamt mit ijson), Filterung, Speicherung in data.json – kein HTML</td></tr>
   <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung, Zusammenfassung, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
   <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/save_run_log.py</code></td><td>Workflow-Protokoll f&uuml;r Archivseite</td></tr>
-  <tr><td><code>scripts/inject_admin_hash.py</code></td><td>Injiziert Passwort-Hash aus Secret in admin.html beim Build</td></tr>
+  <tr><td><code>scripts/inject_admin_hash.py</code></td><td>Injiziert Passwort-Hash aus Secret in das Admin-Panel beim Build</td></tr>
   <tr><td><code>scripts/template.html</code></td><td>HTML-Vorlage mit Pagination, Regelungsvorhaben- und Institutionsfilter</td></tr>
-  <tr><td><code>docs/admin.html</code></td><td>Passwortgesch&uuml;tztes Admin-Panel (Shortcuts zu GitHub Actions)</td></tr>
+  <tr><td><code>docs/mgmt-7f3b2a-bmwe.html</code></td><td>Passwortgesch&uuml;tztes Admin-Panel (Shortcuts zu GitHub Actions). Pfad bewusst nicht erratbar; siehe Hinweis oben.</td></tr>
   <tr><td><code>docs/hilfe.html</code></td><td>Nutzungsanleitung f&uuml;r Endnutzer (Filterung, Sortierung, Ampelfarben etc.)</td></tr>
   <tr><td><code>docs/actions.html</code></td><td>Workflow-Protokollseite mit Statistiken</td></tr>
   <tr><td><code>docs/data.json</code></td><td>Stellungnahmen-Daten (gecacht zwischen Runs)</td></tr>
@@ -113,11 +117,12 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 
 <h2>4. Ablauf eines t&auml;glichen Durchlaufs</h2>
 <ol>
-  <li><strong>Cache laden</strong> &ndash; <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> aus GitHub Actions Cache</li>
+  <li><strong>Datenbestand laden</strong> &ndash; <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> aus dem separaten Branch <code>data-store</code> (Datenpersistenz)</li>
   <li><strong>fetch_and_build.py</strong> &ndash; gesamte Suchschnittstelle gestreamt laden, thematisch relevante Stellungnahmen extrahieren, auf SG-Nummer-Ebene deduplizieren, neue mit bestehenden Daten mergen (bestehende bleiben stabil), in data.json speichern (kein HTML)</li>
   <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge per KI pr&uuml;fen (max. 100/Run), gecachte &uuml;berspringen, finales HTML mit Ampelfarben und Institutionsfilter bauen</li>
-  <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in admin.html einsetzen</li>
+  <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in das Admin-Panel einsetzen</li>
   <li><strong>save_run_log.py</strong> &ndash; Durchlauf-Statistiken an <code>run_history.json</code> anh&auml;ngen</li>
+  <li><strong>Datenbestand persistieren</strong> &ndash; aktualisierte <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> per <code>git commit</code>/<code>push</code> in den <code>data-store</code>-Branch zur&uuml;ckschreiben</li>
   <li><strong>Deploy</strong> &ndash; GitHub Pages ver&ouml;ffentlichen</li>
   <li><strong>Montags (nur automatisch):</strong> <code>send_email.py</code> (Wochenmail) + <code>health_check.py</code> (Selbsttest)</li>
 </ol>
@@ -128,7 +133,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li><strong>force_email: false</strong> (Standard) &ndash; Workflow l&auml;uft komplett, aber ohne Mail-Versand. F&uuml;r Tests geeignet.</li>
   <li><strong>force_email: true</strong> &ndash; Mail wird zus&auml;tzlich versendet. Achtung: Empf&auml;nger werden benachrichtigt.</li>
 </ul>
-<p>Alternativ: Admin-Panel unter <a href="admin.html">admin.html</a> &ouml;ffnen (passwortgesch&uuml;tzt).</p>
+<p>Alternativ: Admin-Panel direkt aufrufen (Pfad siehe Hinweis oben, passwortgesch&uuml;tzt).</p>
 
 <h2>6. Fehlersuche</h2>
 
@@ -140,7 +145,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 </ol>
 
 <h3>Sortierung falsch / Eintr&auml;ge unter falschem Datum</h3>
-<p>Wenn Eintr&auml;ge unter dem falschen Tagesdatum erscheinen: GitHub Actions Cache l&ouml;schen (Repository &rarr; Actions &rarr; Caches) und Workflow neu starten. Der Cache enth&auml;lt dann keine alten Daten mehr und wird frisch aufgebaut.</p>
+<p>Wenn Eintr&auml;ge unter dem falschen Tagesdatum erscheinen: einzelnen problematischen Eintrag manuell aus <code>data.json</code> im <code>data-store</code>-Branch entfernen und Workflow neu starten. Bei systematischen Problemen kann der <code>data-store</code>-Branch auf einen fr&uuml;heren Commit zur&uuml;ckgesetzt werden (<code>git reset</code> &uuml;ber das GitHub-Webinterface oder lokal).</p>
 
 <h3>Gemini fehlgeschlagen</h3>
 <p>Erkennbar am gelben Warnbanner auf der Webseite.</p>
@@ -152,7 +157,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 </ul>
 
 <h3>Admin-Panel zeigt falsches Passwort</h3>
-<p>Nach &Auml;nderung des Secrets <code>ADMIN_PASSWORD_HASH</code> muss ein neuer Workflow-Run starten, damit der neue Hash in <code>admin.html</code> injiziert wird.</p>
+<p>Nach &Auml;nderung des Secrets <code>ADMIN_PASSWORD_HASH</code> muss ein neuer Workflow-Run starten, damit der neue Hash in das Admin-Panel injiziert wird.</p>
 
 <h2>7. System neu aufsetzen</h2>
 <ol>
