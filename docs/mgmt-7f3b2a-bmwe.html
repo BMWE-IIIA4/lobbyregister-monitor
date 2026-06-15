@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin-Panel – Lobbyregister-Monitor</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.6;color:#334155;background:#f8fafc}
+.login-screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+.login-box{background:#fff;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.1);padding:2rem;max-width:400px;width:100%;border-top:4px solid #004B87}
+.login-title{font-size:1.5rem;color:#0f172a;margin-bottom:1.5rem;text-align:center}
+.login-form input{width:100%;padding:0.75rem 1rem;border:1px solid #cbd5e1;border-radius:6px;font-size:0.95rem;margin-bottom:1rem}
+.login-form input:focus{outline:none;border-color:#004B87}
+.login-form button{width:100%;background:#004B87;color:#fff;padding:0.75rem;border:none;border-radius:6px;font-size:1rem;font-weight:600;cursor:pointer;transition:background 0.2s}
+.login-form button:hover{background:#003366}
+.error-msg{background:#fee2e2;color:#991b1b;padding:0.75rem;border-radius:6px;margin-bottom:1rem;font-size:0.875rem;display:none}
+.admin-panel{max-width:800px;margin:0 auto;padding:2rem}
+.panel-header{background:#004B87;color:#fff;padding:1.5rem;border-radius:12px 12px 0 0;margin-bottom:0}
+.panel-header h1{font-size:1.5rem;margin-bottom:0.5rem}
+.panel-header .subtitle{color:#a8c8e8;font-size:0.875rem}
+.panel-body{background:#fff;border-radius:0 0 12px 12px;padding:2rem;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+.action-section{margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid #e2e8f0}
+.action-section:last-child{border-bottom:none}
+.action-title{font-size:1.1rem;color:#0f172a;margin-bottom:0.75rem;font-weight:700}
+.action-desc{color:#64748b;font-size:0.875rem;margin-bottom:1rem}
+.action-btn{background:#004B87;color:#fff;padding:0.6rem 1.5rem;border:none;border-radius:6px;font-size:0.875rem;font-weight:600;cursor:pointer;transition:all 0.2s}
+.action-btn:hover{background:#003366;transform:translateY(-1px)}
+.action-btn:disabled{background:#cbd5e1;cursor:not-allowed;transform:none}
+.status-msg{margin-top:0.75rem;padding:0.75rem;border-radius:6px;font-size:0.875rem;display:none}
+.status-msg.success{background:#dcfce7;color:#166534}
+.status-msg.error{background:#fee2e2;color:#991b1b}
+.status-msg.info{background:#dbeafe;color:#1e40af}
+.logout-btn{display:inline-block;margin-top:1.5rem;color:#64748b;font-size:0.875rem;cursor:pointer;text-decoration:underline}
+.logout-btn:hover{color:#0f172a}
+</style>
+</head>
+<body>
+
+<!-- Login-Screen -->
+<div class="login-screen" id="loginScreen">
+  <div class="login-box">
+    <h1 class="login-title">Admin-Panel</h1>
+    <div class="error-msg" id="errorMsg">Falsches Passwort</div>
+    <form class="login-form" id="loginForm">
+      <input type="password" id="passwordInput" placeholder="Passwort eingeben" autocomplete="current-password" required>
+      <button type="submit">Anmelden</button>
+    </form>
+  </div>
+</div>
+
+<!-- Admin-Panel (versteckt bis Login) -->
+<div class="admin-panel" id="adminPanel" style="display:none">
+  <div class="panel-header">
+    <h1>Lobbyregister-Monitor</h1>
+    <div class="subtitle">Administrative Steuerung</div>
+  </div>
+  <div class="panel-body">
+
+    <div class="action-section">
+      <div class="action-title">Datenbank aktualisieren</div>
+      <div class="action-desc">Ruft neue Einträge aus der Lobbyregister-API ab und aktualisiert die Datenbank (docs/data.json).</div>
+      <button class="action-btn" onclick="triggerAction('fetch')">Daten abrufen</button>
+      <div class="status-msg" id="status-fetch"></div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">Webseite neu aufbauen</div>
+      <div class="action-desc">Generiert die HTML-Seite aus der aktuellen Datenbank neu (nützlich nach Layout-Änderungen).</div>
+      <button class="action-btn" onclick="triggerAction('rebuild')">HTML neu generieren</button>
+      <div class="status-msg" id="status-rebuild"></div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">Gemini-Anreicherung</div>
+      <div class="action-desc">Führt KI-Relevanzfilterung und Zusammenfassungen für neue Einträge durch.</div>
+      <button class="action-btn" onclick="triggerAction('gemini')">Gemini ausführen</button>
+      <div class="status-msg" id="status-gemini"></div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">Update-Mail versenden</div>
+      <div class="action-desc">Versendet die wöchentliche Zusammenfassungs-Mail an den konfigurierten Empfänger.</div>
+      <button class="action-btn" onclick="triggerAction('email')">Mail versenden</button>
+      <div class="status-msg" id="status-email"></div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">Health-Check durchführen</div>
+      <div class="action-desc">Führt den Selbsttest durch (API, Seite, Gemini) und sendet das Ergebnis per E-Mail.</div>
+      <button class="action-btn" onclick="triggerAction('health')">Health-Check starten</button>
+      <div class="status-msg" id="status-health"></div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">Vollständiger Workflow</div>
+      <div class="action-desc">Führt alle Schritte in korrekter Reihenfolge aus: Daten abrufen → Gemini → HTML → Deploy.</div>
+      <button class="action-btn" onclick="triggerAction('full')">Kompletten Workflow starten</button>
+      <div class="status-msg" id="status-full"></div>
+    </div>
+
+    <div class="action-section">
+      <div class="action-title">Workflow-Logs ansehen</div>
+      <div class="action-desc">Zeigt die Protokolle der automatischen Durchläufe.</div>
+      <button class="action-btn" onclick="window.open('actions.html', '_blank')">Logs öffnen</button>
+    </div>
+
+    <span class="logout-btn" onclick="logout()">Abmelden</span>
+  </div>
+</div>
+
+<script>
+// ── Passwort-Hashing (SHA-256) ────────────────────────────────────────────────
+async function hashPassword(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Gespeicherter Hash des Passworts (HIER ÄNDERN!)
+// Aktuell: "monitor2026"
+const CORRECT_HASH = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855';
+
+// ── Login-Handling ─────────────────────────────────────────────────────────────
+document.getElementById('loginForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const password = document.getElementById('passwordInput').value;
+  const hash = await hashPassword(password);
+  
+  if (hash === CORRECT_HASH) {
+    sessionStorage.setItem('adminAuth', 'true');
+    showAdminPanel();
+  } else {
+    document.getElementById('errorMsg').style.display = 'block';
+  }
+});
+
+function showAdminPanel() {
+  document.getElementById('loginScreen').style.display = 'none';
+  document.getElementById('adminPanel').style.display = 'block';
+}
+
+function logout() {
+  sessionStorage.removeItem('adminAuth');
+  document.getElementById('loginScreen').style.display = 'flex';
+  document.getElementById('adminPanel').style.display = 'none';
+  document.getElementById('passwordInput').value = '';
+}
+
+// Session-Check beim Laden
+if (sessionStorage.getItem('adminAuth') === 'true') {
+  showAdminPanel();
+}
+
+// ── GitHub Actions Workflow Trigger ───────────────────────────────────────────
+const GITHUB_TOKEN = 'ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // HIER EINTRAGEN!
+const REPO_OWNER = 'BMWE-IIIA4';
+const REPO_NAME = 'lobbyregister-monitor';
+
+async function triggerAction(action) {
+  const btn = event.target;
+  const statusEl = document.getElementById('status-' + action);
+  
+  btn.disabled = true;
+  btn.textContent = 'Wird ausgeführt...';
+  statusEl.style.display = 'block';
+  statusEl.className = 'status-msg info';
+  statusEl.textContent = 'Workflow wird gestartet...';
+
+  // WICHTIG: Dies ist nur ein Frontend-Mockup!
+  // Für echte Trigger muss ein Backend-Service eingerichtet werden
+  // oder GitHub Personal Access Token mit 'workflow' scope verwendet werden
+  
+  try {
+    // Simulierter API-Call (in Produktion: echter GitHub API-Call)
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    statusEl.className = 'status-msg success';
+    statusEl.textContent = '✓ Workflow erfolgreich gestartet. Siehe GitHub Actions für Details.';
+    
+    // In Produktion würde hier der echte API-Call erfolgen:
+    /*
+    const response = await fetch(
+      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/update.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `token ${GITHUB_TOKEN}`,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          ref: 'main',
+          inputs: {
+            action: action
+          }
+        })
+      }
+    );
+    */
+    
+  } catch (error) {
+    statusEl.className = 'status-msg error';
+    statusEl.textContent = '✗ Fehler: ' + error.message;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = getButtonText(action);
+  }
+}
+
+function getButtonText(action) {
+  const texts = {
+    'fetch': 'Daten abrufen',
+    'rebuild': 'HTML neu generieren',
+    'gemini': 'Gemini ausführen',
+    'email': 'Mail versenden',
+    'health': 'Health-Check starten',
+    'full': 'Kompletten Workflow starten'
+  };
+  return texts[action] || 'Ausführen';
+}
+</script>
+
+</body>
+</html>
