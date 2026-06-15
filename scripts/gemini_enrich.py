@@ -455,15 +455,25 @@ def main():
     final_statements.sort(key=lambda x: (x.get("upload_date") or "0000-00-00"), reverse=True)
 
     # 4. Daten speichern
-    data["statements"] = final_statements
+    # WICHTIG: Aussortierte Statements ('gemini_status=filtered') bleiben im
+    # data.json erhalten, damit fetch_and_build.py sie beim naechsten Lauf
+    # nicht erneut als 'neu' erkennt (Cache-Kreislauf-Vermeidung). Sie werden
+    # in HTML und E-Mail jedoch ausgeblendet (siehe render_entry_card-Aufrufer).
+    all_statements_sorted = sorted(
+        final_statements + filtered_out,
+        key=lambda x: (x.get("upload_date") or "0000-00-00"),
+        reverse=True
+    )
+    data["statements"] = all_statements_sorted
     data["gemini_filtered_out"] = len(filtered_out)  # Zahl, nicht Liste
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # 5. HTML mit aktuellen Daten neu bauen
+    # 5. HTML mit aktuellen Daten neu bauen (nur sichtbare Statements)
     generate_html(final_statements, data.get("generated_at", datetime.now().isoformat()), pending_dates)
 
-    print(f"Fertig. {len(final_statements)} Eintraege | {api_calls_made} API-Calls | {len(pending_dates)} Tage pending")
+    print(f"Fertig. {len(final_statements)} sichtbar, {len(filtered_out)} aussortiert (im data.json behalten) | "
+          f"{api_calls_made} API-Calls | {len(pending_dates)} Tage pending")
 
 if __name__ == "__main__":
     main()
