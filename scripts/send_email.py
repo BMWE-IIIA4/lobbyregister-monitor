@@ -243,6 +243,10 @@ def main():
 
     recent = []
     for stmt in statements:
+        # KI-aussortierte Statements werden in data.json behalten (zur Vermeidung
+        # des Cache-Kreislaufs), aber NICHT in der Wochenmail dargestellt.
+        if stmt.get("gemini_status") == "filtered":
+            continue
         upload_str = stmt.get("upload_date")
         if not upload_str:
             continue
