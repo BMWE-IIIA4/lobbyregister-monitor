@@ -42,7 +42,12 @@ def main():
             with open(data_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
             statements = data.get("statements", [])
-            total_entries = len(statements)
+            # total_entries = nur SICHTBARE Statements (ohne die per KI aussortierten).
+            # Aussortierte Statements bleiben seit Behebung des Cache-Kreislauf-Bugs
+            # in data.json erhalten, sind aber im HTML/Mail ausgeblendet. Auf der
+            # Workflow-Seite soll die Zahl der tatsaechlich sichtbaren Eintraege
+            # angezeigt werden.
+            total_entries = sum(1 for s in statements if s.get("gemini_status") != "filtered")
 
             # NEU = heute tatsaechlich neu in die DB aufgenommen (von
             # fetch_and_build.py als 'newly_added' in data.json hinterlegt),
