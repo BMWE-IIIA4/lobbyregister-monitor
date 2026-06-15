@@ -4,16 +4,19 @@ health_check.py
 Woechentlicher Selbsttest des Lobbyregister-Monitors.
 
 Prueft:
-1. Produktive Datenquelle (sucheDetailJson) erreichbar + Struktur korrekt
-2. rest/v2-API erreichbar (Fruehwarnsystem, nicht mehr produktiv)
-3. rest/v2-Struktur unveraendert (Fruehwarnsystem)
-4. Ob sich die API-Version (YAML) geaendert hat
-5. Ob die generierten Seiten korrekt ausgeliefert werden
-6. Aktualitaet von data.json (max. 48h alt)
-7. Admin-Passwort-Hash korrekt injiziert
-8. run_history.json aktuell
-9. Resend-Mailversand (Sende-Key aktiv)
-10. Gemini API erreichbar
+ 1. Produktive Datenquelle (sucheDetailJson) – Erreichbarkeit, Struktur, SG-Format,
+    pdfUrl-Direktlink, Themenfeld-Codes (10 Stichproben)
+ 2. rest/v2-API erreichbar (Fruehwarnsystem, nicht mehr produktiv)
+ 3. rest/v2-Struktur unveraendert (Fruehwarnsystem)
+ 4. Ob sich die API-Version (YAML) geaendert hat
+ 5. Hauptseite + Subseiten (hilfe, actions, impressum, wartung) erreichbar
+ 6. Aktualitaet von data.json (max. 48h alt)
+ 7. Daten-Integritaet: data.json strukturell vollstaendig
+ 8. Externer Lobbyregister-Link (Stichprobe einer Organisation-Detailseite)
+ 9. Admin-Passwort-Hash korrekt injiziert
+10. run_history.json aktuell
+11. Resend-Mailversand (Sende-Key aktiv)
+12. Gemini API erreichbar
 
 Sendet bei Problemen einen Bericht per Resend an ADMIN_EMAIL.
 """
@@ -54,12 +57,35 @@ KNOWN_YAML_FILE = "R2.21-de.yaml"
 # ── Einzelne Prüfungen ─────────────────────────────────────────────────────────
 
 def check_search_interface():
-    """Prueft die PRODUKTIVE Datenquelle (sucheDetailJson): erreichbar und
-    liefert die erwartete Struktur (statements + Themenfelder inline).
+    """Prueft die PRODUKTIVE Datenquelle (sucheDetailJson) umfassend:
+    - Erreichbarkeit
+    - Vorhandensein aller im Code KRITISCH verwendeten Felder
+    - SG-Nummer-Format und Datumsableitung (gegen sending_date plausibilisiert)
+    - pdfUrl ist direkte .pdf-URL
+    - Themenfeld-Codes im 'FOI_*'-Format
 
-    Streamt nur bis zum ersten Eintrag mit Stellungnahmen und bricht dann ab,
-    um nicht die gesamte ~380-MB-Antwort zu laden.
+    Prueft die ersten 10 Eintraege mit Stellungnahmen, um Einzelfaelle nicht
+    falsch zu generalisieren. Bricht den Stream danach ab.
+
+    Felder werden nach KRITISCH (Pipeline bricht ohne dieses Feld) und OPTIONAL
+    (Fallback im Code vorhanden) klassifiziert. Nur kritische Probleme fuehren
+    zur Fehlermeldung.
     """
+    import re
+    from datetime import date as _date
+
+    problems = []
+    samples_checked = 0
+    SAMPLE_LIMIT = 10
+
+    # Fuer Kollektiv-Pruefungen: nur dann melden, wenn KEIN Sample das Feld hat
+    optional_field_seen = {
+        "accountDetails.lastUpdateDate": False,
+        "lobbyistIdentity.name": False,
+        "registerEntryDetails.detailsPageUrl": False,
+    }
+    foi_code_seen = False
+
     try:
         resp = requests.get(SEARCH_URL, params={"pageSize": 10000},
                             headers={"Accept": "application/json",
@@ -71,19 +97,128 @@ def check_search_interface():
 
         for entry in ijson.items(resp.raw, "results.item"):
             st = entry.get("statements", {})
-            if isinstance(st, dict) and st.get("statementsPresent"):
-                # Strukturpruefung am ersten Eintrag mit Stellungnahmen
-                if "activitiesAndInterests" not in entry:
-                    return False, "Strukturfehler: 'activitiesAndInterests' fehlt"
+            if not (isinstance(st, dict) and st.get("statementsPresent")):
+                continue
+
+            samples_checked += 1
+
+            # -- Optionale Org-Felder: irgendwo gesehen? --
+            if entry.get("lobbyistIdentity", {}).get("name"):
+                optional_field_seen["lobbyistIdentity.name"] = True
+            if entry.get("accountDetails", {}).get("lastUpdateDate"):
+                optional_field_seen["accountDetails.lastUpdateDate"] = True
+            if entry.get("registerEntryDetails", {}).get("detailsPageUrl"):
+                optional_field_seen["registerEntryDetails.detailsPageUrl"] = True
+
+            # -- Themenfeld-Codes --
+            foi_list = entry.get("activitiesAndInterests", {}).get("fieldsOfInterest") or []
+            if isinstance(foi_list, list):
+                for f in foi_list:
+                    if isinstance(f, dict) and isinstance(f.get("code"), str) and f["code"].startswith("FOI_"):
+                        foi_code_seen = True
+                        break
+
+            # -- KRITISCH: registerNumber + activitiesAndInterests-Struktur --
+            if not entry.get("registerNumber"):
+                problems.append("Eintrag ohne 'registerNumber' gefunden")
+            if "activitiesAndInterests" not in entry:
+                problems.append("'activitiesAndInterests' fehlt (Themenfilter funktioniert nicht)")
+
+            # -- Stellungnahme-Ebene (erstes Stmt im ersten passenden Sample) --
+            if samples_checked == 1:
                 stmts = st.get("statements", [])
-                if stmts and "pdfUrl" not in stmts[0]:
-                    return False, "Strukturfehler: 'pdfUrl' fehlt in Stellungnahme"
-                if stmts and "recipientGroups" not in stmts[0]:
-                    return False, "Strukturfehler: 'recipientGroups' fehlt in Stellungnahme"
-                resp.close()
-                return True, "Suchschnittstelle erreichbar, Struktur korrekt"
+                if not stmts:
+                    problems.append("Stellungnahmen-Liste leer trotz statementsPresent=True")
+                else:
+                    stmt = stmts[0]
+                    # KRITISCH
+                    critical_stmt_fields = ["pdfUrl", "regulatoryProjectTitle", "recipientGroups"]
+                    for f in critical_stmt_fields:
+                        if f not in stmt:
+                            problems.append(f"Stellungnahme-Feld '{f}' fehlt (kritisch fuer Verarbeitung)")
+
+                    # pdfUrl: direkte .pdf-URL?
+                    pdf_url = stmt.get("pdfUrl", "")
+                    if pdf_url and not pdf_url.lower().endswith(".pdf"):
+                        problems.append(
+                            f"pdfUrl endet nicht auf .pdf – Code in fetch_and_build.py "
+                            f"(process_statement) faellt auf langsamen HTTP-Lookup zurueck: {pdf_url[:80]}"
+                        )
+
+                    # SG-Nummer aus pdfUrl extrahieren und Datum plausibilisieren
+                    sg_match = re.search(r"(SG\d{10})", pdf_url)
+                    if not sg_match:
+                        problems.append(
+                            f"SG-Nummer im erwarteten Format (SG + 10 Ziffern) nicht in pdfUrl gefunden – "
+                            f"Codeanpassung in fetch_and_build.py (extract_sg_number, sg_to_upload_date) noetig. "
+                            f"Beispiel-URL: {pdf_url[:100]}"
+                        )
+                    else:
+                        sg = sg_match.group(1)
+                        digits = sg[2:]
+                        try:
+                            yy, mm, dd = int(digits[0:2]), int(digits[2:4]), int(digits[4:6])
+                            sg_date = _date(2000 + yy, mm, dd)
+                            rgs = stmt.get("recipientGroups", [])
+                            if rgs and isinstance(rgs, list):
+                                sending_str = rgs[0].get("sendingDate", "")
+                                try:
+                                    sending_date = _date.fromisoformat(sending_str)
+                                    if sg_date < sending_date:
+                                        problems.append(
+                                            f"SG-Datum ({sg_date}) liegt VOR Sendedatum ({sending_date}) – "
+                                            f"SG-Nummer-Format moeglicherweise geaendert "
+                                            f"(Code-Annahme: SG+JJMMTT+Zaehler in sg_to_upload_date)"
+                                        )
+                                except ValueError:
+                                    problems.append(f"sendingDate nicht im ISO-Format: '{sending_str}'")
+                        except (ValueError, IndexError):
+                            problems.append(
+                                f"SG-Nummer '{sg}' nicht als Datum interpretierbar "
+                                f"(JJMMTT-Annahme verletzt)"
+                            )
+
+                    # recipientGroups-Struktur
+                    rgs = stmt.get("recipientGroups", [])
+                    if rgs and isinstance(rgs, list):
+                        rg = rgs[0]
+                        if "sendingDate" not in rg:
+                            problems.append("recipientGroups[0].sendingDate fehlt")
+                        if "recipients" not in rg:
+                            problems.append("recipientGroups[0].recipients fehlt")
+                        else:
+                            recips = rg["recipients"]
+                            if "federalGovernment" not in recips and "parliament" not in recips:
+                                problems.append(
+                                    "recipients hat weder 'federalGovernment' noch 'parliament' – "
+                                    "Adressaten-Filter greift moeglicherweise nicht"
+                                )
+
+            if samples_checked >= SAMPLE_LIMIT:
+                break
+
         resp.close()
-        return False, "Suchschnittstelle lieferte keinen Eintrag mit Stellungnahmen"
+
+        if samples_checked == 0:
+            return False, "Suchschnittstelle lieferte keinen Eintrag mit Stellungnahmen"
+
+        # Optionale Felder: nur melden, wenn in KEINEM Sample vorhanden
+        for fname, seen in optional_field_seen.items():
+            if not seen:
+                problems.append(
+                    f"Optionales Feld '{fname}' in {samples_checked} geprueften Eintraegen "
+                    f"nirgends vorhanden – Schnittstellen-Aenderung wahrscheinlich"
+                )
+        if not foi_code_seen:
+            problems.append(
+                f"Kein Themenfeld-Code im 'FOI_*'-Format in {samples_checked} Samples gefunden – "
+                f"Themenfilter (TARGET_FIELD_CODES) greift moeglicherweise nicht mehr"
+            )
+
+        if problems:
+            return False, f"Strukturprobleme nach {samples_checked} Samples: " + "; ".join(problems)
+        return True, f"Suchschnittstelle OK ({samples_checked} Samples geprueft, SG-Format korrekt)"
+
     except requests.Timeout:
         return False, "Suchschnittstelle Timeout nach 60 Sekunden"
     except Exception as e:
@@ -153,18 +288,120 @@ def check_yaml_version():
 
 
 def check_site_reachable():
-    """Prüft, ob die GitHub Pages-Seite erreichbar ist."""
+    """Prueft, ob die GitHub Pages-Seite und alle Subseiten erreichbar sind."""
     try:
+        # Hauptseite
         resp = requests.get(SITE_URL, timeout=20)
         if resp.status_code == 404:
-            return False, "Seite gibt 404 zurück"
+            return False, "Hauptseite gibt 404 zurueck"
         if resp.status_code != 200:
-            return False, f"Seite antwortet mit Status {resp.status_code}"
+            return False, f"Hauptseite antwortet mit Status {resp.status_code}"
         if "Lobbyregister" not in resp.text:
-            return False, "Seite erreichbar aber enthält nicht den erwarteten Inhalt"
-        return True, "Seite erreichbar und Inhalt korrekt"
+            return False, "Hauptseite erreichbar aber enthaelt nicht den erwarteten Inhalt"
+
+        # Subseiten – jede sollte HTTP 200 liefern
+        subpages = ["hilfe.html", "actions.html", "impressum.html", "wartung.html"]
+        problems = []
+        for page in subpages:
+            try:
+                r = requests.get(f"{SITE_URL}/{page}", timeout=15)
+                if r.status_code != 200:
+                    problems.append(f"{page}: HTTP {r.status_code}")
+            except Exception as e:
+                problems.append(f"{page}: {e}")
+
+        if problems:
+            return False, "Subseiten nicht erreichbar: " + "; ".join(problems)
+        return True, f"Hauptseite + {len(subpages)} Subseiten erreichbar"
     except Exception as e:
         return False, f"Seite nicht erreichbar: {e}"
+
+
+def check_data_integrity():
+    """Prueft data.json auf strukturelle Vollstaendigkeit.
+    Geht ueber die reine Aktualitaetspruefung hinaus (check_data_freshness).
+    """
+    try:
+        resp = requests.get(f"{SITE_URL}/data.json", timeout=20)
+        if resp.status_code != 200:
+            return False, f"data.json nicht abrufbar (Status {resp.status_code})"
+        data = resp.json()
+
+        problems = []
+        if "statements" not in data or not isinstance(data["statements"], list):
+            return False, "data.json: 'statements' fehlt oder kein Array (kritischer Strukturfehler)"
+        if "generated_at" not in data:
+            problems.append("'generated_at' fehlt")
+        if "newly_added" not in data:
+            problems.append("'newly_added' fehlt")
+
+        stmts = data["statements"]
+        if not stmts:
+            problems.append("statements-Array ist leer")
+        else:
+            # Statement-Feldvollstaendigkeit am ersten Eintrag pruefen
+            required_fields = ["register_number", "org_name", "regulatory_project_title"]
+            first = stmts[0]
+            for f in required_fields:
+                if f not in first:
+                    problems.append(f"Erstes Statement: Feld '{f}' fehlt")
+
+            # Status-Verteilung
+            statuses = {}
+            for s in stmts:
+                st = s.get("gemini_status", "unset")
+                statuses[st] = statuses.get(st, 0) + 1
+            # Wenn 'unset' dominiert, koennte etwas mit gemini_enrich nicht stimmen
+            if statuses.get("unset", 0) > len(stmts) * 0.5:
+                problems.append(
+                    f"Mehr als 50% der Statements ohne gemini_status "
+                    f"({statuses.get('unset', 0)}/{len(stmts)}) – gemini_enrich.py laeuft moeglicherweise nicht"
+                )
+
+        if problems:
+            return False, "data.json-Struktur: " + "; ".join(problems)
+        return True, f"data.json strukturell vollstaendig ({len(stmts)} Statements)"
+    except Exception as e:
+        return False, f"data.json-Integritaetspruefung fehlgeschlagen: {e}"
+
+
+def check_external_lobbyregister_link():
+    """Prueft stichprobenhaft, ob die im data.json referenzierten externen Links
+    auf lobbyregister.bundestag.de noch funktionieren.
+
+    Nimmt eine Organisation aus data.json und prueft deren Detailseite. Nur ein
+    Request, um den Health-Check nicht zur Last fuer den Registerbetreiber zu
+    machen."""
+    try:
+        resp = requests.get(f"{SITE_URL}/data.json", timeout=20)
+        if resp.status_code != 200:
+            return True, "data.json nicht abrufbar – Skip"
+        data = resp.json()
+        stmts = data.get("statements", [])
+        if not stmts:
+            return True, "Keine Statements zum Pruefen vorhanden"
+
+        # Erste Org mit org_url nehmen
+        target_url = None
+        for s in stmts:
+            if s.get("org_url"):
+                target_url = s["org_url"]
+                break
+        if not target_url:
+            return True, "Keine org_url in data.json vorhanden – Skip"
+
+        r = requests.get(target_url, timeout=20, allow_redirects=True)
+        if r.status_code == 404:
+            return False, f"Externe Detailseite gibt 404: {target_url}"
+        if r.status_code >= 500:
+            return False, f"Externe Detailseite Serverfehler {r.status_code}: {target_url}"
+        if r.status_code != 200:
+            return True, f"Externe Detailseite Status {r.status_code} (akzeptabel): {target_url}"
+        return True, "Externer lobbyregister.bundestag.de-Link erreichbar"
+    except requests.Timeout:
+        return True, "Externe Detailseite Timeout (Schnittstelle ggf. langsam, keine Aktion noetig)"
+    except Exception as e:
+        return True, f"Externer Link nicht pruefbar ({e}) – Skip"
 
 
 def check_gemini():
@@ -237,19 +474,27 @@ def check_data_freshness():
         return False, f"data.json-Prüfung fehlgeschlagen: {e}"
 
 
+ADMIN_PAGE_FILENAME = "mgmt-7f3b2a-bmwe.html"
+
+
 def check_admin_hash_injected():
-    """Prüft ob der Admin-Passwort-Hash korrekt injiziert wurde."""
+    """Prueft ob das Admin-Panel erreichbar ist und der Passwort-Hash korrekt
+    injiziert wurde. Der Dateiname ist nicht erratbar (Security through
+    Obscurity), das Panel verlinkt nur GitHub-Aktionen, die ihrerseits
+    Authentifizierung erfordern."""
+    url = f"{SITE_URL}/{ADMIN_PAGE_FILENAME}"
     try:
-        resp = requests.get(f"{SITE_URL}/admin.html", timeout=20)
+        resp = requests.get(url, timeout=20)
         if resp.status_code != 200:
-            return False, f"admin.html nicht abrufbar (Status {resp.status_code})"
+            return False, f"Admin-Panel ({ADMIN_PAGE_FILENAME}) nicht abrufbar (Status {resp.status_code})"
         if "{{ADMIN_PASSWORD_HASH}}" in resp.text:
-            return False, "Platzhalter {{ADMIN_PASSWORD_HASH}} noch in admin.html – inject_admin_hash.py fehlgeschlagen"
+            return False, f"Platzhalter {{{{ADMIN_PASSWORD_HASH}}}} noch in {ADMIN_PAGE_FILENAME} – inject_admin_hash.py fehlgeschlagen"
         if "CORRECT_HASH" not in resp.text:
-            return False, "admin.html enthält keinen Hash-Eintrag – Struktur unerwartet"
-        return True, "Admin-Passwort-Hash korrekt injiziert"
+            return False, f"{ADMIN_PAGE_FILENAME} enthaelt keinen Hash-Eintrag – Struktur unerwartet"
+        return True, f"Admin-Panel ({ADMIN_PAGE_FILENAME}) erreichbar, Hash injiziert"
     except Exception as e:
-        return False, f"admin.html-Prüfung fehlgeschlagen: {e}"
+        return False, f"Admin-Panel-Pruefung fehlgeschlagen: {e}"
+
 
 
 def check_run_history():
@@ -382,6 +627,34 @@ def build_report(results):
             "title": "Daten veraltet oder nicht abrufbar",
             "detail": fresh_msg,
             "action": f"1. GitHub Actions prüfen: {ACTIONS_URL}\n2. Workflow manuell starten"
+        })
+
+    integ_ok, integ_msg = results["data_integrity"]
+    if integ_ok:
+        ok_items.append(("Daten-Integrität (Struktur)", integ_msg))
+    else:
+        issues.append({
+            "severity": "FEHLER",
+            "title": "data.json strukturell unvollständig",
+            "detail": integ_msg,
+            "action": (
+                "1. fetch_and_build.py oder gemini_enrich.py auf Fehler prüfen\n"
+                "2. data-store-Branch im Repository auf zuletzt gute Version zurücksetzen, falls nötig"
+            )
+        })
+
+    ext_ok, ext_msg = results["external_link"]
+    if ext_ok:
+        ok_items.append(("Externer Lobbyregister-Link", ext_msg))
+    else:
+        issues.append({
+            "severity": "WARNUNG",
+            "title": "Externer Lobbyregister-Link nicht erreichbar",
+            "detail": ext_msg,
+            "action": (
+                "1. lobbyregister.bundestag.de manuell prüfen\n"
+                "2. Bei dauerhaft geänderter URL-Struktur: detailsPageUrl-Verwendung in fetch_and_build.py anpassen"
+            )
         })
 
     hash_ok, hash_msg = results["admin_hash"]
@@ -540,6 +813,10 @@ def main():
     results["site"] = check_site_reachable()
     print("Prüfe Daten-Aktualität...")
     results["data_freshness"] = check_data_freshness()
+    print("Prüfe Daten-Integrität (Struktur)...")
+    results["data_integrity"] = check_data_integrity()
+    print("Prüfe externen lobbyregister-Link (Stichprobe)...")
+    results["external_link"] = check_external_lobbyregister_link()
     print("Prüfe Admin-Hash...")
     results["admin_hash"] = check_admin_hash_injected()
     print("Prüfe Run-History...")
