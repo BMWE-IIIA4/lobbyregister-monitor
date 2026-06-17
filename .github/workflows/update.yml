@@ -107,13 +107,13 @@ jobs:
         # Code-Historie, keine Verschmutzung des main-Branches).
         run: |
           set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Temp-Verzeichnis fuer den Branch-Inhalt
           STORE_DIR=$(mktemp -d)
           cd "$STORE_DIR"
           git init -q -b data-store
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
 
           # Bestehenden Branch laden (falls vorhanden) – sonst neu anlegen
