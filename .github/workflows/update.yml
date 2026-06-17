@@ -88,11 +88,6 @@ jobs:
         run: python scripts/health_check.py
         continue-on-error: true
 
-      - name: Admin-Panel Passwort-Hash einfuegen
-        env:
-          ADMIN_PASSWORD_HASH: ${{ secrets.ADMIN_PASSWORD_HASH }}
-        run: python scripts/inject_admin_hash.py
-
       - name: Workflow-Protokoll speichern
         env:
           INPUT_FORCE_EMAIL: ${{ github.event.inputs.force_email || 'false' }}
