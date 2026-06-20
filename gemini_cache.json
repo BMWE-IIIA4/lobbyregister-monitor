@@ -6753,5 +6753,70 @@
     "relevant": true,
     "relevanz_grund": "Die steuerliche Behandlung von Wirtschaftsgütern betrifft die Investitionsbedingungen für die Energiewende, insbesondere im Kontext von Flexibilisierung und kurzfristiger Kapazitätsbereitstellung.",
     "zusammenfassung": "Der Vorschlag <b>fordert die Ausnahme</b> von <b>gewerbesteuerlichen Hinzurechnungen</b> für kurzfristige Anmietungen von Wirtschaftsgütern. Durch die Anpassung des Gewerbesteuergesetzes sollen <b>Bedarfsspitzen</b> steuerlich entlastet werden. Dies soll die wirtschaftliche Flexibilität bei der Bereitstellung notwendiger Kapazitäten verbessern."
+  },
+  "SG2606190041": {
+    "relevant": true,
+    "relevanz_grund": "Das Gebäudeenergiegesetz und damit verbundene Modernisierungsgesetze fallen unter die Zuständigkeit der Energiepolitik und Wärmewende.",
+    "zusammenfassung": "Die Organisation <b>kritisiert</b> den Entwurf des Gebäudemodernisierungsgesetzes als <b>bürokratisch und intransparent</b>. Sie bemängelt das Fehlen einer Synopse sowie die <b>zu kurzen Fristen</b> für eine sachliche Prüfung. Zudem wird bezweifelt, dass der Entwurf die <b>praktische Anwendung</b> des Gesetzes tatsächlich erleichtert."
+  },
+  "SG2606190092": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft primär sozialpolitische Maßnahmen und Familienförderung ohne direkten Bezug zur Energieinfrastruktur oder Energiemarktregulierung der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine <b>sozial gerechte Klimapolitik</b> als Ergänzung zu marktwirtschaftlichen Anreizen. Sie empfiehlt gezielte <b>finanzielle Entlastungen</b> für Familien mit niedrigem Einkommen. Zudem wird die Förderung von <b>nachhaltiger Infrastruktur</b> und Bildung für nachhaltige Entwicklung angeregt."
+  },
+  "SG2606190007": {
+    "relevant": true,
+    "relevanz_grund": "Das Repowering von Windenergieanlagen ist ein zentrales Element der Erneuerbaren-Energien-Politik und der nationalen Ausbauziele.",
+    "zusammenfassung": "Die Organisation <b>lehnt Einschränkungen</b> beim Repowering von Windenergieanlagen ab, da diese den <b>Ausbau verlangsamen</b> und die <b>Investitionssicherheit</b> gefährden würden. Sie <b>schlägt die Streichung</b> der entsprechenden Passagen im Baugesetzbuch vor. Ziel ist die Wahrung der <b>Flächeneffizienz</b> bei Windkraftprojekten."
+  },
+  "SG2606190050": {
+    "relevant": false,
+    "relevanz_grund": "Der Fokus liegt auf der Transformation des Gesundheitswesens, was nicht in den Zuständigkeitsbereich der Energiepolitik der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> die Erarbeitung einer <b>Nachhaltigkeitsstrategie</b> für das deutsche Gesundheitswesen. Diese soll als Voraussetzung für eine <b>klimaneutrale Transformation</b> dienen. Zudem wird die Schaffung entsprechender <b>Governance-Strukturen</b> und eines verbindlichen Fahrplans angemahnt."
+  },
+  "SG2606190089": {
+    "relevant": false,
+    "relevanz_grund": "Es handelt sich um eine rein gesundheits- und pflegepolitische Fragestellung zur Refinanzierung von Personalkosten, die keinen Bezug zur Energiepolitik aufweist.",
+    "zusammenfassung": "Die Organisation <b>lehnt die Begrenzung</b> von Vergütungssteigerungen auf die Grundlohnsummensteigerung in der Pflege <b>entschieden ab</b>. Sie <b>fordert eine Refinanzierung</b>, die unabhängig von dieser Kopplung erfolgt. Dies sei notwendig, um die <b>Flexibilität bei der Personalsicherung</b> in der aktuellen Mangelsituation zu erhalten."
+  },
+  "SG2606190037": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft EU-Klimapolitik, Emissionshandel und Wettbewerbsfähigkeit der Industrie, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die Organisation <b>fordert die Aussetzung der geplanten Absenkung</b> der Benchmarks im Emissionshandel. Sie verlangt eine <b>Berechnung auf Basis realistischer Annahmen</b>, die den technologischen Fortschritt berücksichtigen. Ziel ist die <b>Erhaltung der internationalen Wettbewerbsfähigkeit</b> der Industrie."
+  },
+  "SG2606190040": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Strommarktdesign, EU-Energiepreise und die Entkoppelung von fossilen Energieträgern, zentrale Themen der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>fordert die Entkoppelung der Strompreisbildung</b> von fossilen Energieträgern. Sie <b>unterstützt die Subventionierung der Gasverstromung</b> gemäß den Vorschlägen der EU-Kommission im METSAF. Damit soll die Abhängigkeit des Strompreises von Gaspreisen aufgehoben werden."
+  },
+  "SG2606190008": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die StromVKG und damit direkt die Kraftwerksstrategie und Stromerzeugung, ein Kernbereich der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Saale Energie GmbH <b>fordert eine diskriminierungsfreie Ausgestaltung</b> der Ausschreibungen im Rahmen der StromVKG. Sie <b>verlangt die Anpassung nachteiliger Bestimmungen</b>, insbesondere bei der regionalen Steuerung und der Momentanreserve. Ziel ist eine <b>praxistaugliche Umsetzung</b> der geplanten Kraftwerksstrategie."
+  },
+  "SG2606190046": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets und die Transformation der Gasnetze, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "GEODE <b>unterstützt die rechtssichere Ausgestaltung</b> der Verteilernetzentwicklungsplanung im Rahmen der EnWG-Novelle. Der Verband <b>fordert klare Standards für die Öffentlichkeitsbeteiligung</b> sowie flexiblere Fristen bei der Anschlusskündigung. Dies soll eine <b>wirtschaftlich tragfähige Netztransformation</b> ermöglichen."
+  },
+  "SG2606190006": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Privilegierung von Wasserstoffanlagen, Speichern und Windenergie, was für die Energiewende und Sektorkopplung der Unterabteilung IIIA relevant ist.",
+    "zusammenfassung": "Der BDEW <b>fordert eine planungsrechtliche Stärkung</b> der Energieinfrastruktur im Baugesetzbuch. Er <b>verlangt die Privilegierung von Elektrolyseuren</b> und Batteriespeichern im Außenbereich. Zudem wird eine <b>Stärkung der Repowering-Regelung</b> für die Windenergie an Land angestrebt."
+  },
+  "SG2606190048": {
+    "relevant": true,
+    "relevanz_grund": "Das Gebäudemodernisierungsgesetz betrifft die Wärmewende und Sektorkopplung, welche zentrale Bestandteile der Energiepolitik und Dekarbonisierung sind.",
+    "zusammenfassung": "Die Interessenvertretung <b>fordert</b> eine <b>technologieoffene Ausgestaltung</b> des Gesetzes für den Wärmemarkt. Dabei sollen <b>erneuerbare Energieträger</b> wie Bioöl und Biogas als Erfüllungsoptionen stärker berücksichtigt werden. Zudem wird eine <b>bürokratiearme Umsetzung</b> durch massenbilanzielle Nachweissysteme sowie eine Aktualisierung der 1. BImSchV angestrebt."
+  },
+  "SG2606190047": {
+    "relevant": false,
+    "relevanz_grund": "Die 12. GWB-Novelle betrifft das allgemeine Wettbewerbsrecht. Ein spezifischer Energiebezug, der in die Zuständigkeit der Unterabteilung IIIA fällt, ist nicht erkennbar.",
+    "zusammenfassung": "Der Verband <b>begleitet</b> das Gesetzgebungsverfahren zur 12. GWB-Novelle. Ziel ist eine <b>praxistaugliche und mittelstandsfreundliche Ausgestaltung</b> der Wettbewerbsregeln. Dabei stehen insbesondere die <b>Vermeidung bürokratischer Belastungen</b> für Unternehmen im Vordergrund."
+  },
+  "SG2606100010": {
+    "relevant": true,
+    "relevanz_grund": "Die Regelungen zur Aufteilung von Kosten für erneuerbare Brennstoffe und Netzentgelte berühren direkt die Energiepreise und die Akzeptanz der Energiewende.",
+    "zusammenfassung": "Das Unternehmen <b>setzt sich für</b> eine <b>praktikable Ausgestaltung</b> der Mieterschutzregelungen ein. Dies betrifft insbesondere die <b>Aufteilung der Kosten</b> für erneuerbare Brennstoffe sowie die <b>Netzentgelte</b>. Ziel ist eine rechtssichere und umsetzbare Anwendung der bestehenden Vorgaben."
   }
 }

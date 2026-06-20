@@ -1,7 +1,305 @@
 {
-  "generated_at": "2026-06-19T08:25:47.951453+02:00",
-  "newly_added": 21,
+  "generated_at": "2026-06-20T07:21:57.526767+02:00",
+  "newly_added": 13,
   "statements": [
+    {
+      "register_number": "R005919",
+      "org_name": "Klimaschutz im Bundestag e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005919/79722",
+      "regulatory_project_title": "Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-05-25",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5f/49/765390/Stellungnahme-Gutachten-SG2606190041.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606190041",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190041",
+      "summary": "Die Organisation <b>kritisiert</b> den Entwurf des Gebäudemodernisierungsgesetzes als <b>bürokratisch und intransparent</b>. Sie bemängelt das Fehlen einer Synopse sowie die <b>zu kurzen Fristen</b> für eine sachliche Prüfung. Zudem wird bezweifelt, dass der Entwurf die <b>praktische Anwendung</b> des Gesetzes tatsächlich erleichtert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Gebäudeenergiegesetz und damit verbundene Modernisierungsgesetze fallen unter die Zuständigkeit der Energiepolitik und Wärmewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003052",
+      "org_name": "RheinEnergie AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003052/79695",
+      "regulatory_project_title": "Keine Einschränkung beim Repowering von Windenergieanlagen ",
+      "sending_date": "2026-06-12",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/38/765400/Stellungnahme-Gutachten-SG2606190007.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606190007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190007",
+      "summary": "Die Organisation <b>lehnt Einschränkungen</b> beim Repowering von Windenergieanlagen ab, da diese den <b>Ausbau verlangsamen</b> und die <b>Investitionssicherheit</b> gefährden würden. Sie <b>schlägt die Streichung</b> der entsprechenden Passagen im Baugesetzbuch vor. Ziel ist die Wahrung der <b>Flächeneffizienz</b> bei Windkraftprojekten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Repowering von Windenergieanlagen ist ein zentrales Element der Erneuerbaren-Energien-Politik und der nationalen Ausbauziele.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001663",
+      "org_name": "Bündnis faire Energiewende",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001663/79508",
+      "regulatory_project_title": "Definition der Benchmarks im europäischen und nationalen Emissionshandel auf Basis realistischer Annahmen",
+      "sending_date": "2026-06-08",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9e/ea/765320/Stellungnahme-Gutachten-SG2606190037.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606190037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190037",
+      "summary": "Die Organisation <b>fordert die Aussetzung der geplanten Absenkung</b> der Benchmarks im Emissionshandel. Sie verlangt eine <b>Berechnung auf Basis realistischer Annahmen</b>, die den technologischen Fortschritt berücksichtigen. Ziel ist die <b>Erhaltung der internationalen Wettbewerbsfähigkeit</b> der Industrie.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft EU-Klimapolitik, Emissionshandel und Wettbewerbsfähigkeit der Industrie, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001663",
+      "org_name": "Bündnis faire Energiewende",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001663/79508",
+      "regulatory_project_title": "Entkoppelung der Strompreisbildung von den Preisen fossiler Energieträger (insbesondere Erdgas)",
+      "sending_date": "2026-06-16",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4f/4f/765322/Stellungnahme-Gutachten-SG2606190040.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2606190040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190040",
+      "summary": "Die Organisation <b>fordert die Entkoppelung der Strompreisbildung</b> von fossilen Energieträgern. Sie <b>unterstützt die Subventionierung der Gasverstromung</b> gemäß den Vorschlägen der EU-Kommission im METSAF. Damit soll die Abhängigkeit des Strompreises von Gaspreisen aufgehoben werden.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft Strommarktdesign, EU-Energiepreise und die Entkoppelung von fossilen Energieträgern, zentrale Themen der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001209",
+      "org_name": "Saale Energie GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001209/79704",
+      "regulatory_project_title": "StromVKG",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/ec/764805/Stellungnahme-Gutachten-SG2606190008.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606190008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190008",
+      "summary": "Die Saale Energie GmbH <b>fordert eine diskriminierungsfreie Ausgestaltung</b> der Ausschreibungen im Rahmen der StromVKG. Sie <b>verlangt die Anpassung nachteiliger Bestimmungen</b>, insbesondere bei der regionalen Steuerung und der Momentanreserve. Ziel ist eine <b>praxistaugliche Umsetzung</b> der geplanten Kraftwerksstrategie.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die StromVKG und damit direkt die Kraftwerksstrategie und Stromerzeugung, ein Kernbereich der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001207",
+      "org_name": "GEODE Deutschland e.V",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001207/79758",
+      "regulatory_project_title": "Änderung des EnWG und weiterer energierechtlicher Vorschriften zur Umsetzung des Europäischen Gas- und Wasserstoff-Binnenmarktpakets",
+      "sending_date": "2026-06-04",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e0/f8/765422/Stellungnahme-Gutachten-SG2606190046.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2606190046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190046",
+      "summary": "GEODE <b>unterstützt die rechtssichere Ausgestaltung</b> der Verteilernetzentwicklungsplanung im Rahmen der EnWG-Novelle. Der Verband <b>fordert klare Standards für die Öffentlichkeitsbeteiligung</b> sowie flexiblere Fristen bei der Anschlusskündigung. Dies soll eine <b>wirtschaftlich tragfähige Netztransformation</b> ermöglichen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets und die Transformation der Gasnetze, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/79623",
+      "regulatory_project_title": "Änderungsvorschläge zur BauGB-Novelle aus Sicht der Energiewirtschaft",
+      "sending_date": "2026-06-17",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/70/2d/764840/Stellungnahme-Gutachten-SG2606190006.pdf",
+      "pdf_pages": 21,
+      "sg_number": "SG2606190006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190006",
+      "summary": "Der BDEW <b>fordert eine planungsrechtliche Stärkung</b> der Energieinfrastruktur im Baugesetzbuch. Er <b>verlangt die Privilegierung von Elektrolyseuren</b> und Batteriespeichern im Außenbereich. Zudem wird eine <b>Stärkung der Repowering-Regelung</b> für die Windenergie an Land angestrebt.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Privilegierung von Wasserstoffanlagen, Speichern und Windenergie, was für die Energiewende und Sektorkopplung der Unterabteilung IIIA relevant ist.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000855",
+      "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000855/79768",
+      "regulatory_project_title": "Änderungen am Referentenentwurf zum Gebäudemodernisierungsgesetz",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/97/ef/765489/Stellungnahme-Gutachten-SG2606190048.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606190048",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190048",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine <b>technologieoffene Ausgestaltung</b> des Gesetzes für den Wärmemarkt. Dabei sollen <b>erneuerbare Energieträger</b> wie Bioöl und Biogas als Erfüllungsoptionen stärker berücksichtigt werden. Zudem wird eine <b>bürokratiearme Umsetzung</b> durch massenbilanzielle Nachweissysteme sowie eine Aktualisierung der 1. BImSchV angestrebt.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Gebäudemodernisierungsgesetz betrifft die Wärmewende und Sektorkopplung, welche zentrale Bestandteile der Energiepolitik und Dekarbonisierung sind.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R000549",
       "org_name": "Verein Deutscher Zementwerke e.V.",
@@ -27,6 +325,121 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R004736",
+      "org_name": "Familienbund der Katholiken (Bundesverband) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004736/78586",
+      "regulatory_project_title": "Familiengerechte Klimasozialpolitik",
+      "sending_date": "2026-01-13",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/28/766059/Stellungnahme-Gutachten-SG2606190092.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606190092",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190092",
+      "summary": "Sozial gerechte Klimapolitik als unverzichtbare Ergänzung marktwirtschaftlicher Anreize.\r\nInvestitionen in eine nachhaltige Infrastruktur.\r\nFinanzielle Entlastung und Förderung gezielt für Familien mit niedrigen Einkommen.\r\nFördermaßnahmen auf Basis des Nettoäquivalenzeinkommens.\r\nFamilien als Zielgruppe und Akteure von Bildung für nachhaltige Entwicklung wahrnehmen.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002002",
+      "org_name": "Bundesärztekammer - Arbeitsgemeinschaft der deutschen Ärztekammern",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002002/79776",
+      "regulatory_project_title": "Schaffung einer Nachhaltigkeitsstrategie für das deutsche Gesundheitswesen",
+      "sending_date": "2026-06-03",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/db/ee/765791/Stellungnahme-Gutachten-SG2606190050.pdf",
+      "pdf_pages": 46,
+      "sg_number": "SG2606190050",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190050",
+      "summary": "Erarbeitung einer Nachhaltigkeitsstrategie als zentrale Voraussetzung für die dringend erforderliche Transformation hin zu einem nachhaltigen, klimaneutralen Gesundheitswesen. \r\nDas Eckpunktepapier benennt wichtige Handlungsfelder und enthält einen Fahrplan zur Umsetzung der Nachhaltigkeitsstrategie sowie die Forderung nach Schaffung entsprechender \r\nGovernance-Strukturen.",
+      "recipients": [
+        "BKAmt",
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001696",
+      "org_name": "bpa - Bundesverband privater Anbieter sozialer Dienste e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001696/79818",
+      "regulatory_project_title": "Refinanzierung angemessener Gehaltssteigerungen auch zukünftig unabhängig von der Grundlohnsummensteigerung. Stellungnahme GKV-BStG",
+      "sending_date": "2026-06-18",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/df/765992/Stellungnahme-Gutachten-SG2606190089.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2606190089",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190089",
+      "summary": "Der bpa lehnt die Begrenzung der Vergütungssteigerungen auf die (um einen Prozentpunkt abgesenkte) Grundlohnsummensteigerung für die Haushaltshilfe, die häusliche Krankenpflege und die außerklinische Intensivpflege in aller Entschiedenheit ab! Angemessene Gehaltssteigerungen müssen auch zukünftig unabhängig von der Grundlohnsummensteigerung refinanziert werden, damit die Einrichtungen die notwendige Flexibilität bei der Personal-sicherung bei zunehmender Personalmangelsituation insgesamt erhalten!",
+      "recipients": [
+        "BKAmt",
+        "BMAS",
+        "BMBFSFJ",
+        "BMG",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000855",
+      "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000855/79768",
+      "regulatory_project_title": "Änderung des Gesetzes gegen Wettbewerbsbeschränkungen im Rahmen der 12. GWB-Novelle",
+      "sending_date": "2026-06-19",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/63/f2/765491/Stellungnahme-Gutachten-SG2606190047.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606190047",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190047",
+      "summary": "MEW e.V. begleitet das Gesetzgebungsverfahren zur 12. GWB-Novelle und setzt sich dafür ein, dass die Änderungen des Gesetzes gegen Wettbewerbsbeschränkungen praxistauglich, verhältnismäßig und mittelstandsfreundlich ausgestaltet werden. Im Fokus stehen insbesondere die Auswirkungen auf Unternehmen, Verfahren vor den Wettbewerbsbehörden sowie mögliche bürokratische Belastungen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R004442",
       "org_name": "Bundesverband Deutscher Omnibusunternehmen e. V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R004442/79597",
@@ -49,7 +462,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft direkt die Umsetzung der EU-Energieeffizienzrichtlinie und damit die Energiegesetzgebung sowie Energieeffizienz, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002833",
@@ -86,7 +499,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Beschleunigung von Netzanschlüssen ist ein zentraler Aspekt der Versorgungssicherheit und der Energiewende, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000851",
@@ -122,7 +535,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die BECV ist ein zentrales Instrument zur Vermeidung von Carbon-Leakage im Rahmen des nationalen Brennstoffemissionshandels und damit direkt relevant für die Energie- und Klimapolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000851",
@@ -158,7 +571,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die BECV betrifft direkt die Kostenbelastung durch den nationalen Brennstoffemissionshandel und damit die Wettbewerbsfähigkeit der Industrie, was in den Bereich Energiepreise & -kosten sowie Klimaschutz fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000851",
@@ -202,7 +615,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt das Strommarktdesign, die Energiepreise und die EU-Energiepolitik, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006523",
@@ -2018,7 +2431,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung der EU-Erneuerbare-Energien-Richtlinien (RED) ist ein zentrales Themenfeld der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003022",
@@ -3517,7 +3930,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Rohrfernleitungsverordnung betrifft die Infrastruktur für Energieträger, insbesondere im Kontext der Energiewende und Wasserstoffnetze.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000916",
@@ -3556,6 +3969,31 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EU-Methanverordnung hat direkte Auswirkungen auf die Versorgungssicherheit und die regulatorischen Rahmenbedingungen für Gasinfrastrukturen.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001159",
+      "org_name": "ista SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001159/77919",
+      "regulatory_project_title": "Gebäudemodernisierungsgesetz GModG",
+      "sending_date": "2026-06-02",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/59/765669/Stellungnahme-Gutachten-SG2606100010.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606100010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100010",
+      "summary": "Das Unternehmen <b>setzt sich für</b> eine <b>praktikable Ausgestaltung</b> der Mieterschutzregelungen ein. Dies betrifft insbesondere die <b>Aufteilung der Kosten</b> für erneuerbare Brennstoffe sowie die <b>Netzentgelte</b>. Ziel ist eine rechtssichere und umsetzbare Anwendung der bestehenden Vorgaben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Regelungen zur Aufteilung von Kosten für erneuerbare Brennstoffe und Netzentgelte berühren direkt die Energiepreise und die Akzeptanz der Energiewende.",
       "gemini_status": "processed"
     },
     {
@@ -9500,7 +9938,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die steuerliche Behandlung von Wirtschaftsgütern betrifft die Investitionsbedingungen für die Energiewende, insbesondere im Kontext von Flexibilisierung und kurzfristiger Kapazitätsbereitstellung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R008020",
@@ -40324,5 +40762,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 458
+  "gemini_filtered_out": 462
 }
