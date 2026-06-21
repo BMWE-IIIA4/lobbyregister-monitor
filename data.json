@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T07:21:57.526767+02:00",
-  "newly_added": 13,
+  "generated_at": "2026-06-21T08:10:12.866160+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R005919",
@@ -34,7 +34,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Gebäudeenergiegesetz und damit verbundene Modernisierungsgesetze fallen unter die Zuständigkeit der Energiepolitik und Wärmewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003052",
@@ -63,7 +63,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Repowering von Windenergieanlagen ist ein zentrales Element der Erneuerbaren-Energien-Politik und der nationalen Ausbauziele.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001663",
@@ -106,7 +106,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Klimapolitik, Emissionshandel und Wettbewerbsfähigkeit der Industrie, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001663",
@@ -150,7 +150,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Strommarktdesign, EU-Energiepreise und die Entkoppelung von fossilen Energieträgern, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001209",
@@ -175,7 +175,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die StromVKG und damit direkt die Kraftwerksstrategie und Stromerzeugung, ein Kernbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001207",
@@ -224,7 +224,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets und die Transformation der Gasnetze, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -267,7 +267,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Privilegierung von Wasserstoffanlagen, Speichern und Windenergie, was für die Energiewende und Sektorkopplung der Unterabteilung IIIA relevant ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000855",
@@ -298,7 +298,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Gebäudemodernisierungsgesetz betrifft die Wärmewende und Sektorkopplung, welche zentrale Bestandteile der Energiepolitik und Dekarbonisierung sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000549",
@@ -3994,7 +3994,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Regelungen zur Aufteilung von Kosten für erneuerbare Brennstoffe und Netzentgelte berühren direkt die Energiepreise und die Akzeptanz der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003753",
