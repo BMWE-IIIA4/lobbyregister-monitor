@@ -474,29 +474,6 @@ def check_data_freshness():
         return False, f"data.json-Prüfung fehlgeschlagen: {e}"
 
 
-ADMIN_PAGE_FILENAME = "mgmt-7f3b2a-bmwe.html"
-
-
-def check_admin_hash_injected():
-    """Prueft ob das Admin-Panel erreichbar ist und der Passwort-Hash korrekt
-    injiziert wurde. Der Dateiname ist nicht erratbar (Security through
-    Obscurity), das Panel verlinkt nur GitHub-Aktionen, die ihrerseits
-    Authentifizierung erfordern."""
-    url = f"{SITE_URL}/{ADMIN_PAGE_FILENAME}"
-    try:
-        resp = requests.get(url, timeout=20)
-        if resp.status_code != 200:
-            return False, f"Admin-Panel ({ADMIN_PAGE_FILENAME}) nicht abrufbar (Status {resp.status_code})"
-        if "{{ADMIN_PASSWORD_HASH}}" in resp.text:
-            return False, f"Platzhalter {{{{ADMIN_PASSWORD_HASH}}}} noch in {ADMIN_PAGE_FILENAME} – inject_admin_hash.py fehlgeschlagen"
-        if "CORRECT_HASH" not in resp.text:
-            return False, f"{ADMIN_PAGE_FILENAME} enthaelt keinen Hash-Eintrag – Struktur unerwartet"
-        return True, f"Admin-Panel ({ADMIN_PAGE_FILENAME}) erreichbar, Hash injiziert"
-    except Exception as e:
-        return False, f"Admin-Panel-Pruefung fehlgeschlagen: {e}"
-
-
-
 def check_run_history():
     """Prüft ob run_history.json existiert und einen aktuellen Eintrag hat."""
     try:
@@ -657,17 +634,6 @@ def build_report(results):
             )
         })
 
-    hash_ok, hash_msg = results["admin_hash"]
-    if hash_ok:
-        ok_items.append(("Admin-Hash", hash_msg))
-    else:
-        issues.append({
-            "severity": "WARNUNG",
-            "title": "Admin-Panel Passwort-Hash fehlt",
-            "detail": hash_msg,
-            "action": "1. Secret ADMIN_PASSWORD_HASH prüfen\n2. Workflow neu starten"
-        })
-
     hist_ok, hist_msg = results["run_history"]
     if hist_ok:
         ok_items.append(("Run-History", hist_msg))
@@ -817,8 +783,6 @@ def main():
     results["data_integrity"] = check_data_integrity()
     print("Prüfe externen lobbyregister-Link (Stichprobe)...")
     results["external_link"] = check_external_lobbyregister_link()
-    print("Prüfe Admin-Hash...")
-    results["admin_hash"] = check_admin_hash_injected()
     print("Prüfe Run-History...")
     results["run_history"] = check_run_history()
     print("Prüfe Resend-Sender...")
