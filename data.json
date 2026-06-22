@@ -1,7 +1,80 @@
 {
-  "generated_at": "2026-06-21T08:10:12.866160+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-06-22T08:35:15.360619+02:00",
+  "newly_added": 4,
   "statements": [
+    {
+      "register_number": "R000285",
+      "org_name": "The Good Food Institute Europe ASBL",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000285/79828",
+      "regulatory_project_title": "Absenkung des Mehrwertsteuersatzes für pflanzliche Milchprodukte auf den ermäßigten Steuersatz",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-06-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/1c/766802/Stellungnahme-Gutachten-SG2606200003.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606200003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606200003",
+      "summary": "Gegenwärtig fällt für pflanzliche Milchalternativen bei der Mehrwertsteuer der Regelsteuersatz von 19 Prozent an, während für Kuhmilch der ermäßigte Steuersatz von 7 Prozent gilt. GFI Europe setzt sich im Sinn eines fairen Wettbewerbs dafür ein, dass die Steuersätze für diese beiden Produkte derselben Kategorie angepasst werden sollten, idealerweise auf Höhe des ermäßigten Steuersatzes, da es sich bei beiden Lebensmitteln um Grundnahrungsmittel handelt. Das Gesetzesvorhaben, das damit verbunden ist, ist das Jahressteuergesetz 2024 im Geschäftsbereich des BMF. ",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000285",
+      "org_name": "The Good Food Institute Europe ASBL",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000285/79828",
+      "regulatory_project_title": "Förderliche Rahmenbedingungen für neuartige Lebensmittel im EU Biotech Act I und II",
+      "sending_date": "2026-05-04",
+      "upload_date": "2026-06-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c3/79/766804/Stellungnahme-Gutachten-SG2606200001.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606200001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606200001",
+      "summary": "GFI Europe setzt sich dafür ein, dass sich die Bundesregierung auf europäischer Ebene im Biotech Act I und II für förderliche Rahmenbedingungen für biotechnologisch hergestellte Lebensmittel starkmacht, insbesondere für Lebensmittel auf Basis von Zellkulturen und modernen Fermentationsverfahren. Der Schwerpunkt liegt dabei auf einer effizienteren Umsetzung des Zulassungsverfahrens für neuartige Lebensmittel sowie auf der Skalierung der Technologien.  ",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000285",
+      "org_name": "The Good Food Institute Europe ASBL",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000285/79828",
+      "regulatory_project_title": "Förderliche Rahmenbedingungen für neuartige Lebensmittel im EU Biotech Act I und II",
+      "sending_date": "2026-06-03",
+      "upload_date": "2026-06-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c2/22/766806/Stellungnahme-Gutachten-SG2606200002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606200002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606200002",
+      "summary": "GFI Europe setzt sich dafür ein, dass sich die Bundesregierung auf europäischer Ebene im Biotech Act I und II für förderliche Rahmenbedingungen für biotechnologisch hergestellte Lebensmittel starkmacht, insbesondere für Lebensmittel auf Basis von Zellkulturen und modernen Fermentationsverfahren. Der Schwerpunkt liegt dabei auf einer effizienteren Umsetzung des Zulassungsverfahrens für neuartige Lebensmittel sowie auf der Skalierung der Technologien.  ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R005919",
       "org_name": "Klimaschutz im Bundestag e. V.",
@@ -437,6 +510,30 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000377",
+      "org_name": "Verband Deutsches Reisemanagement e.V. (VDR)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000377/79801",
+      "regulatory_project_title": "Abbau von Bürokratielasten",
+      "sending_date": "2026-06-12",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/63/f9/766874/Stellungnahme-Gutachten-SG2606190077.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2606190077",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190077",
+      "summary": "Der VDR spricht sich für konsequente Bürokratieentlastung in Deutschland und Europa aus. Neben Änderungen und weiteren Entlastungen im Jahressteuergesetz (JSTG) braucht es klare Zielsetzungen zur gezielten Reduktion der Bürokratie, wie beispielsweise einer Liberalisierung der A1 Bescheinigungen für europaweite Geschäftsreisen. Auf Bundesebene sollte der Gesetzgeber bürokratische Hürden für Geschäftsreisende abbauen, bspw. über eine Anhebung der Verpflegungsmehraufwendungen bzw. Wegfall der Kürzungsvorschriften, Einführung eines Mobilitätsbudgets, Einführung einheitlicher Auslandspauschalen sowie weiterer oft unübersichtlichen Vorgaben.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
       "gemini_status": "filtered"
     },
     {
@@ -40762,5 +40859,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 462
+  "gemini_filtered_out": 466
 }
