@@ -1,7 +1,465 @@
 {
-  "generated_at": "2026-06-24T07:06:31.956947+02:00",
-  "newly_added": 35,
+  "generated_at": "2026-06-24T14:01:23.250361+02:00",
+  "newly_added": 26,
   "statements": [
+    {
+      "register_number": "R002747",
+      "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002747/78386",
+      "regulatory_project_title": "Umsetzung des EU-Gas-/H2-Binnenmarktpaketes in nationales Recht",
+      "sending_date": "2026-04-21",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/33/772858/Stellungnahme-Gutachten-SG2606240008.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2606240008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240008",
+      "summary": "FNB Gas <b>weist auf Aspekte hin</b>, die bei der <b>Umsetzung des EU-Binnenmarktpaketes</b> in nationales Recht aus Sicht der Netzbetreiber relevant sind. Die Stellungnahme zielt darauf ab, die regulatorischen Rahmenbedingungen für den Gas- und Wasserstoffmarkt zu präzisieren. Dabei stehen netztechnische Anforderungen und die Integration in den europäischen Rechtsrahmen im Fokus.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung von EU-Energiegesetzgebung (Gas-/H2-Binnenmarktpaket) in nationales Recht, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002747",
+      "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002747/78386",
+      "regulatory_project_title": "Vorschläge zur Ausgestaltung einer Wasserstoffhaftungsverordnung",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9e/dc/772860/Stellungnahme-Gutachten-SG2606240057.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606240057",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240057",
+      "summary": "FNB Gas <b>erarbeitet Vorschläge</b> zur Ausgestaltung einer <b>Wasserstoffhaftungsverordnung</b>. Diese adressieren die technischen und wirtschaftlichen Bedingungen für den <b>Anschluss und Zugang</b> zu regulierten Wasserstoffnetzen. Zudem werden Regelungen zum Ausgleich des Wasserstoffnetzes im Kontext der EnWG-Vorgaben thematisiert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Ausgestaltung des Wasserstoffkernnetzes und regulatorische Bedingungen für den Netzzugang, ein zentrales Thema der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002747",
+      "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002747/78386",
+      "regulatory_project_title": "Hinweise für die Anpassung von Füllstandsvorgaben für Gasspeicheranlagen",
+      "sending_date": "2026-05-28",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/dd/772862/Stellungnahme-Gutachten-SG2606240016.pdf",
+      "pdf_pages": 37,
+      "sg_number": "SG2606240016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240016",
+      "summary": "Die Interessenvertretung <b>gibt Hinweise</b> zur <b>Anpassung von Füllstandsvorgaben</b> für Gasspeicheranlagen. Ziel ist eine sachgerechte Ausgestaltung der regulatorischen Anforderungen zur Gewährleistung der Versorgungssicherheit. Die Vorschläge sollen die Flexibilität und Effizienz der Speicherbewirtschaftung optimieren.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Versorgungssicherheit im Energiesektor, ein Kernbereich der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002747",
+      "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002747/78386",
+      "regulatory_project_title": "Vorschläge zur Ausgestaltung eines Gesetzes zur Sicherung der Versorgungssicherheit Strom und zur Bereitstellung neuer Kapazitäten",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/18/b7/772864/Stellungnahme-Gutachten-SG2606240037.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606240037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240037",
+      "summary": "FNB Gas <b>setzt sich für eine sachgerechte Ausgestaltung</b> des <b>StromVKG</b> ein. Im Zentrum steht die Sicherung der Versorgungssicherheit durch die Bereitstellung neuer Kapazitäten. Die Stellungnahme zielt darauf ab, die Rahmenbedingungen für den Kraftwerkspark und die Netzstabilität zu definieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Versorgungssicherheit Strom und die Kraftwerksstrategie, beides explizite Themenfelder der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001555",
+      "org_name": "Bündnis Bürgerenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001555/80354",
+      "regulatory_project_title": "Umsetzung der gemeinschaftichen Gebäudeversorgung und Mieterstrom in Deutschland",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/04/ca/772899/Stellungnahme-Gutachten-SG2606240071.pdf",
+      "pdf_pages": 17,
+      "sg_number": "SG2606240071",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240071",
+      "summary": "Das Regelungsvorhaben <b>strebt die praktische Umsetzbarkeit</b> der <b>Vor-Ort-Versorgungsmodelle</b> für Mieterstrom und gemeinschaftliche Gebäudeversorgung an. Hierfür sollen notwendige <b>Anpassungen im Messstellenbetriebsgesetz</b> vorgenommen werden. Ziel ist die stärkere Integration erneuerbarer Energien in die lokale Versorgung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Vorhaben betrifft die Sektorkopplung und die Umsetzung von Erneuerbare-Energien-Modellen, welche in den Bereich Erneuerbare Energien (national) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001555",
+      "org_name": "Bündnis Bürgerenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001555/80354",
+      "regulatory_project_title": "Umsetzung der gemeinschaftichen Gebäudeversorgung und Mieterstrom in Deutschland",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/ba/772963/Stellungnahme-Gutachten-SG2606240073.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2606240073",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240073",
+      "summary": "Das Regelungsvorhaben <b>strebt die praktische Umsetzbarkeit</b> der <b>Vor-Ort-Versorgungsmodelle</b> für Mieterstrom und gemeinschaftliche Gebäudeversorgung an. Hierfür sollen notwendige <b>Anpassungen im Messstellenbetriebsgesetz</b> vorgenommen werden. Ziel ist die stärkere Integration erneuerbarer Energien in die lokale Versorgung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Vorhaben betrifft die Sektorkopplung und die Umsetzung von Erneuerbare-Energien-Modellen, welche in den Bereich Erneuerbare Energien (national) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001555",
+      "org_name": "Bündnis Bürgerenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001555/80354",
+      "regulatory_project_title": "Allgemeine Anpassungen der Rahmenbedingungen für gemeinschaftliche Nahwärmenetze",
+      "sending_date": "2026-06-11",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5a/ad/773339/Stellungnahme-Gutachten-SG2606240088.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2606240088",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240088",
+      "summary": "Das Regelungsvorhaben <b>erwirkt passendere Rahmenbedingungen</b> für <b>gemeinschaftliche Nahwärmenetze</b>. Dabei stehen die <b>Finanzierung</b>, Planungssicherheit sowie die Einbindung von Bürgerenergieakteuren im Fokus. Dies soll die Umsetzung der kommunalen Wärmeplanung unterstützen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Wärmeplanung und Nahwärmenetze sind zentrale Bestandteile der Energiewende und Sektorkopplung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001555",
+      "org_name": "Bündnis Bürgerenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001555/80354",
+      "regulatory_project_title": "Allgemeine Anpassungen der Rahmenbedingungen für gemeinschaftliche Nahwärmenetze",
+      "sending_date": "2026-05-28",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/82/773341/Stellungnahme-Gutachten-SG2606240089.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2606240089",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240089",
+      "summary": "Das Regelungsvorhaben <b>erwirkt passendere Rahmenbedingungen</b> für <b>gemeinschaftliche Nahwärmenetze</b>. Dabei stehen die <b>Finanzierung</b>, Planungssicherheit sowie die Einbindung von Bürgerenergieakteuren im Fokus. Dies soll die Umsetzung der kommunalen Wärmeplanung unterstützen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Wärmeplanung und Nahwärmenetze sind zentrale Bestandteile der Energiewende und Sektorkopplung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/80261",
+      "regulatory_project_title": "Gesetz zur Stärkung der Cybersicherheit",
+      "sending_date": "2026-06-22",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/28/00/772719/Stellungnahme-Gutachten-SG2606240050.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2606240050",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240050",
+      "summary": "Die Stellungnahme <b>lehnt</b> eine verpflichtende zentrale Anbindung von SzA-Systemen <b>ohne klare gesetzliche Vorgaben</b> ab. Sie <b>fordert</b> eine präzise Festlegung der Datenübermittlung sowie eine <b>Begrenzung von Eingriffsbefugnissen</b> auf das Ultima-Ratio-Prinzip. Zudem wird die Wahrung der Betreiberhoheit bei kritischen Infrastrukturen angemahnt.",
+      "recipients": [
+        "BMI",
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Cybersicherheit von KRITIS-Anlagen (Energieinfrastruktur) ist ein zentrales Thema der Versorgungssicherheit und Netzregulierung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/80261",
+      "regulatory_project_title": "Gesetz zur Modernisierung des Städtebau- und Raumordnungsrechts",
+      "sending_date": "2026-06-12",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e3/02/772721/Stellungnahme-Gutachten-SG2606240053.pdf",
+      "pdf_pages": 24,
+      "sg_number": "SG2606240053",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240053",
+      "summary": "Der Entwurf <b>schlägt vor</b>, die <b>Beschleunigung von Erneuerbaren Energien</b> im Außenbereich gesetzlich zu verankern. Zudem wird eine <b>praxistaugliche Beteiligung von KRITIS-Betreibern</b> bei städtebaulichen Planungen gefordert. Die resiliente Infrastruktur soll dabei als verbindlicher Abwägungsbelang definiert werden.",
+      "recipients": [
+        "BMJV",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Erneuerbaren Energien im Außenbereich und die Einbindung von KRITIS-Betreibern berühren direkt die Energieinfrastrukturplanung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002090",
+      "org_name": "Deutscher Sparkassen- und Giroverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002090/80218",
+      "regulatory_project_title": "Anpassung der Vorschriften zur Auslagerungsfähigkeit von AML-Aufgaben in Art. 18 AML-Verordnung",
+      "sending_date": "2026-06-05",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6c/c8/771160/Stellungnahme-Gutachten-SG2606240001.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606240001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240001",
+      "summary": "Wir setzen uns dafür ein, dass der Katalog der nicht auslagerungsfähigen AML-Aufgaben so angepasst wird, dass die Vollauslagerung der AML-Funktion, zum Beispiel an zentrale Verbunddienstleister, möglich bleibt. Dies könnte z. B. umgesetzt werden, indem (1) die Nichtauslagerungsfähigkeit von Aufgaben von vornherein nur für den Fall einer Qualitätsverschlechterung durch die Auslagerung vorgesehen wird, (2) eine Ausnahme von der Nichtauslagerungsfähigkeit für zentrale Verbunddienstleister vorgesehen wird bzw. soweit sich durch die Auslagerung die Qualität der Aufgabenerfüllung verbessern lässt oder (3) indem eine Ausnahme für kleine Institute geschaffen wird, für die nur eine Vollauslagerung der Geldwäschefunktion in Betracht kommt.",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001339",
+      "org_name": "Deutsche Börse AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001339/80273",
+      "regulatory_project_title": "Vorschläge zum EU Market Integration and Supervision Package (MISP)",
+      "sending_date": "2026-05-15",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d5/8e/772167/Stellungnahme-Gutachten-SG2606240022.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606240022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240022",
+      "summary": "Die Deutsche Börse Group als in der EU führender Anbieter von Finanzmarktinfrastruktur mit integriertem Geschäftsmodell unterstützt das Ziel des MISP, die EU-Kapitalmärkte zu stärken und begrüßt den Vorschlag der EU-Kommission, der grenzüberschreitende Investitionen vereinfachen, Nachhandelsprozesse effizienter gestalten und Innovation beschleunigen soll. Unsere Empfehlungen zielen darauf ab, das Wachstumspotenzial eines integrierten Kapitalmarktes freizusetzen, bestimmte Schwächen in den Gesetzgebungsvorschlägen zu adressieren und die Fragmentierung der europäischen Finanzmärkte zu überwinden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001339",
+      "org_name": "Deutsche Börse AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001339/80273",
+      "regulatory_project_title": "Vorschläge zum EU Market Integration and Supervision Package (MISP)",
+      "sending_date": "2026-05-15",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/19/c1/772169/Stellungnahme-Gutachten-SG2606240024.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606240024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240024",
+      "summary": "Die Deutsche Börse Group als in der EU führender Anbieter von Finanzmarktinfrastruktur mit integriertem Geschäftsmodell unterstützt das Ziel des MISP, die EU-Kapitalmärkte zu stärken und begrüßt den Vorschlag der EU-Kommission, der grenzüberschreitende Investitionen vereinfachen, Nachhandelsprozesse effizienter gestalten und Innovation beschleunigen soll. Unsere Empfehlungen zielen darauf ab, das Wachstumspotenzial eines integrierten Kapitalmarktes freizusetzen, bestimmte Schwächen in den Gesetzgebungsvorschlägen zu adressieren und die Fragmentierung der europäischen Finanzmärkte zu überwinden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000406",
+      "org_name": "Slow Food Deutschland e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000406/78156",
+      "regulatory_project_title": "Einführung und Ausweitung von Spiegelmaßnahmen für Import-Lebensmittel aus Drittstaaten zur Angleichung an EU-Standards",
+      "sending_date": "2026-04-05",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/52/773327/Stellungnahme-Gutachten-SG2606240068.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2606240068",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240068",
+      "summary": "Ziel des Regelungsvorhabens ist die Einführung und konsequente Ausweitung von sogenannten Spiegelmaßnahmen für importierte Lebensmittel aus Drittstaaten. Dabei sollen verbindliche Umwelt-, Sozial- und Gesundheitsstandards für Importe festgelegt werden, die denen innerhalb der Europäischen Union entsprechen. Dadurch soll sichergestellt werden, dass bei der Einfuhr von Lebensmitteln aus Nicht-EU-Ländern mindestens gleichwertige Anforderungen gelten wie für in der EU produzierte Lebensmittel.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000406",
+      "org_name": "Slow Food Deutschland e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000406/78156",
+      "regulatory_project_title": "Einführung und Ausweitung von Spiegelmaßnahmen für Import-Lebensmittel aus Drittstaaten zur Angleichung an EU-Standards",
+      "sending_date": "2026-04-05",
+      "upload_date": "2026-06-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/69/26/773329/Stellungnahme-Gutachten-SG2606240070.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606240070",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606240070",
+      "summary": "Ziel des Regelungsvorhabens ist die Einführung und konsequente Ausweitung von sogenannten Spiegelmaßnahmen für importierte Lebensmittel aus Drittstaaten. Dabei sollen verbindliche Umwelt-, Sozial- und Gesundheitsstandards für Importe festgelegt werden, die denen innerhalb der Europäischen Union entsprechen. Dadurch soll sichergestellt werden, dass bei der Einfuhr von Lebensmitteln aus Nicht-EU-Ländern mindestens gleichwertige Anforderungen gelten wie für in der EU produzierte Lebensmittel.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R006367",
       "org_name": "IH - Initiative Holzwärme",
@@ -32,7 +490,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die energetische Nutzung von Biomasse im Gebäudesektor und damit die Schnittstelle zur Wärmewende und zum Gebäudeenergiegesetz.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002822",
@@ -57,7 +515,7 @@
       ],
       "priority": 3,
       "gemini_relevanz": "Das GWB fällt in die Zuständigkeit des BMWK; die Stellungnahme betrifft die Marktüberwachung auf Kraftstoffmärkten.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002101",
@@ -86,7 +544,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Energieeffizienz und die Auswirkungen der Sektorkopplung auf den Strombedarf sind zentrale Aspekte der Energiepolitik und der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001459",
@@ -111,7 +569,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Betrifft EU-Energiegesetzgebung und regulatorische Rahmenbedingungen für den Strommarkt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001458",
@@ -136,7 +594,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Betrifft EU-Energiegesetzgebung und regulatorische Rahmenbedingungen für den Strommarkt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001053",
@@ -161,7 +619,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur Kraftwerksstrategie, H2-Ready-Kraftwerken und Kapazitätsmechanismen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001053",
@@ -210,7 +668,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Ausgestaltung des Strommarktdesigns und die wettbewerbliche Transformation des Energiesystems, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001053",
@@ -235,7 +693,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Betrifft die regulatorischen Rahmenbedingungen für ETS2-Zertifikate und Kapazitätszertifikate, die für die Energiepolitik und das Strommarktdesign relevant sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -268,7 +726,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung der CER-Richtlinie im KRITIS-Dachgesetz ist für die Versorgungssicherheit und Resilienz der Energieinfrastruktur von zentraler Bedeutung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003523",
@@ -763,7 +1221,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Waermewende und Gebaeudeenergie, welche unter die Sektorkopplung und Klimaschutzziele der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001544",
@@ -794,7 +1252,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Waermewende und Gebaeudeenergie, welche unter die Sektorkopplung und Klimaschutzziele der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001544",
@@ -827,7 +1285,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "KWK ist ein zentrales Thema der Unterabteilung IIIA (Stromerzeugung & Kraftwerke).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001358",
@@ -869,6 +1327,31 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zur Energieeffizienz und Umsetzung der EU-Gebäuderichtlinie (EPBD), relevant für die Klimaschutzziele.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R007027",
+      "org_name": "badenova AG & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007027/80034",
+      "regulatory_project_title": "EnWG-Novelle zur Umsetzung der EU-Gasbinnenmarktrichtline",
+      "sending_date": "2026-05-27",
+      "upload_date": "2026-06-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/96/72/772589/Stellungnahme-Gutachten-SG2606220095.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2606220095",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606220095",
+      "summary": "Die Bundesregierung <b>fordert praxisnahe Rahmenbedingungen</b> für die EnWG-Novelle zur Umsetzung des EU-Gasbinnenmarktpakets. Dabei stehen die <b>Anpassung des Verteilernetzentwicklungsplans</b> sowie eine <b>flexibilisierte Stilllegungsplanung</b> im Fokus. Zudem wird eine <b>Erweiterung der Finanzierungsmöglichkeiten</b> für Wasserstoffverteilnetze angestrebt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung von EU-Recht im Bereich Wasserstoff- und Gasinfrastruktur, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
       "gemini_status": "processed"
     },
     {
@@ -1078,6 +1561,62 @@
         {
           "code": "FOI_ENVIRONMENT_CLIMATE",
           "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000843",
+      "org_name": "Verband Deutscher Mineralbrunnen e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000843/79937",
+      "regulatory_project_title": "Nationale Wasserstrategie",
+      "sending_date": "2026-04-22",
+      "upload_date": "2026-06-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/fb/771582/Stellungnahme-Gutachten-SG2606220047.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2606220047",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606220047",
+      "summary": "Die NWS bündelt erstmals wasserbezogene Maßnahmen in allen relevanten Sektoren. Der VDM begrüßt die Strategie und die Ziele: Schutz aller Wasserressourcen; Vermeidung von Verschmutzungen sowie einer Überlastung der Wasserressourcen. VDM-Forderungen: Vorsorge- + Verursacherprinzip; Verbesserungsgebot bzw. Verschlechterungsverbot; Begrenzung der Risiken durch Stoffeinträge; hydrogeologisch begründeter strategischer Handlungsrahmen als belastbare Basis für bundesweit allgemeinverbindliche Regeln zur Entscheidung über Wassernutzungen; Resilienz der Wasserversorgung durch Redundanz zw. leitungsgebundener Versorgung und flaschengebundener Versorgung mit Mineralwasser; Wasser zum Verzehr hat oberste Priorität. Der VDM beteiligt sich am UBA-Projekt „Leitlinien für den Umgang mit Wasserknappheit“. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000843",
+      "org_name": "Verband Deutscher Mineralbrunnen e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000843/79937",
+      "regulatory_project_title": "Nationale Wasserstrategie",
+      "sending_date": "2026-05-22",
+      "upload_date": "2026-06-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/db/52/771584/Stellungnahme-Gutachten-SG2606220048.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606220048",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606220048",
+      "summary": "Die NWS bündelt erstmals wasserbezogene Maßnahmen in allen relevanten Sektoren. Der VDM begrüßt die Strategie und die Ziele: Schutz aller Wasserressourcen; Vermeidung von Verschmutzungen sowie einer Überlastung der Wasserressourcen. VDM-Forderungen: Vorsorge- + Verursacherprinzip; Verbesserungsgebot bzw. Verschlechterungsverbot; Begrenzung der Risiken durch Stoffeinträge; hydrogeologisch begründeter strategischer Handlungsrahmen als belastbare Basis für bundesweit allgemeinverbindliche Regeln zur Entscheidung über Wassernutzungen; Resilienz der Wasserversorgung durch Redundanz zw. leitungsgebundener Versorgung und flaschengebundener Versorgung mit Mineralwasser; Wasser zum Verzehr hat oberste Priorität. Der VDM beteiligt sich am UBA-Projekt „Leitlinien für den Umgang mit Wasserknappheit“. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
         }
       ],
       "priority": 2,
@@ -1700,6 +2239,35 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R006337",
+      "org_name": "Hamburger Energiewerke GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006337/79694",
+      "regulatory_project_title": "Vertrauensschutz bei der Anpassung der Netzentgeltbefreiung für bestehende Elektrolyseprojekte sichern",
+      "sending_date": "2026-03-19",
+      "upload_date": "2026-06-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/06/f3/773304/Stellungnahme-Gutachten-SG2606190005.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606190005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606190005",
+      "summary": "Die Interessenvertretung <b>fordert den Vertrauensschutz</b> für bestehende Elektrolyseprojekte bei der Anpassung der Netzentgeltregelungen. Es wird die <b>Beibehaltung der Netzentgeltbefreiung</b> nach § 118 EnWG sowie die <b>Ablehnung dynamischer Netzentgelte</b> aufgrund von RFNBO-Vorgaben verlangt. Ergänzend sollen <b>Anreize für netzdienliche Standorte</b> zur Systemeffizienzsteigerung gesetzt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die regulatorischen Rahmenbedingungen für Elektrolyseure und Netzentgelte, was Kernbereiche der Wasserstoff- und Strommarktregulierung sind.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R000549",
       "org_name": "Verein Deutscher Zementwerke e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R000549/79059",
@@ -2189,6 +2757,32 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Wettbewerbs- und Kartellrecht (GWB/UWG) ist für die Wettbewerbsfähigkeit im EU-Binnenmarkt und die Umsetzung des Green Deals (Green Claims Directive) für die Unterabteilung IIIA relevant.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R006423",
+      "org_name": "Holcim (Deutschland) GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006423/79005",
+      "regulatory_project_title": "Anpassung des EU-ETS1",
+      "sending_date": "2026-06-11",
+      "upload_date": "2026-06-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8a/9c/772807/Stellungnahme-Gutachten-SG2606180035.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2606180035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606180035",
+      "summary": "Die Interessenvertretung <b>gestaltet die Rahmenbedingungen</b> für den EU-Emissionshandel mit dem Ziel, die Wettbewerbsfähigkeit der Baustoffindustrie zu sichern. Im Fokus stehen dabei die <b>Anpassung von Zuteilungsregeln</b> sowie die Ausgestaltung der <b>Grenzausgleichsmechanismen (CBAM)</b>. Ziel ist die <b>Mitgestaltung der Dekarbonisierungsziele</b> im europäischen Marktdesign.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Betrifft den EU-Emissionshandel (EU-ETS) und CBAM, welche zentrale Instrumente der EU-Klimapolitik und Dekarbonisierung sind.",
       "gemini_status": "processed"
     },
     {
@@ -4056,6 +4650,31 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R006423",
+      "org_name": "Holcim (Deutschland) GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006423/79005",
+      "regulatory_project_title": "Aktualisierung der Industrieemissionsrichtlinie",
+      "sending_date": "2026-06-10",
+      "upload_date": "2026-06-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/be/99/772805/Stellungnahme-Gutachten-SG2606150017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606150017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606150017",
+      "summary": "Die Aktualisierung <b>integriert Abscheideanlagen</b> für CO2 in Klinker- und Zementwerken in die bestehende Richtlinie. Damit wird die <b>rechtliche Verankerung</b> von CCS-Technologien in energieintensiven Industrien vorangetrieben. Dies unterstützt die <b>Dekarbonisierung</b> der industriellen Energieerzeugung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Integration von CCS/CCU-Anlagen in Industrieanlagen ist ein zentrales Thema der Dekarbonisierungsstrategie des BMWE.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R003022",
       "org_name": "Pestizid Aktions-Netzwerk e.V. (PAN Germany)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003022/79119",
@@ -4369,6 +4988,33 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R000872",
+      "org_name": "Zentralverband der deutschen Werbewirtschaft ZAW e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000872/77889",
+      "regulatory_project_title": "Sachgerechte Einordnung des Digital-Omnibus-Gesetzgebungsvorschlags, insbesondere zu zentralen Cookie-Verwaltungsmechanismen",
+      "sending_date": "2026-04-10",
+      "upload_date": "2026-06-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/57/a0/772104/Stellungnahme-Gutachten-SG2606150059.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606150059",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606150059",
+      "summary": "Gegenstand des Regelungsvorhabens ist die angekündigte Digital-Omnibus-Gesetzgebung auf europäischer Ebene, mit der verschiedene datenschutzrechtliche Regelungen sowie Vorgaben der ePrivacy-Richtlinie weiterentwickelt und aufeinander abgestimmt werden sollen. Thematisiert werden dabei insbesondere Vorschläge zur Einführung zentraler Cookie-Verwaltungsmechanismen sowie zu neuen Verpflichtungen für digitale Dienste. ",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMI",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002822",
       "org_name": "UNITI Bundesverband EnergieMittelstand e.V. ",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002822/78978",
@@ -4597,7 +5243,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Transformation der Gasnetze, das EU-Gaspaket und die EnWG-Novelle, welche direkt in den Zuständigkeitsbereich der Energiepolitik und Netzregulierung fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004333",
@@ -7596,6 +8242,44 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R002055",
+      "org_name": "VIK Verband der Industriellen Energie- und Kraftwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002055/78170",
+      "regulatory_project_title": "Referentenentwurf StromVKG vom 27.04.2026",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2a/f3/771668/Stellungnahme-Gutachten-SG2606040025.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2606040025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606040025",
+      "summary": "Der Entwurf <b>regelt den Zubau</b> gesicherter Leistung zur <b>Aufrechterhaltung der Versorgungssicherheit</b>. Ziel ist die Kompensation verminderter Einspeisungen bei <b>Dunkelflauten</b>. Damit wird die <b>Kraftwerksstrategie</b> zur Sicherung des Stromsystems konkretisiert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das StromVKG ist ein Kerninstrument der Kraftwerksstrategie und Versorgungssicherheit des BMWE.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R001458",
       "org_name": "Bundesverband deutscher Banken e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R001458/78997",
@@ -7896,7 +8580,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Finanzierung und Bezahlbarkeit der Energiewende sowie die Optimierung von Netzausbau und -betrieb sind zentrale Aufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -7925,7 +8609,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren für Stromnetze ist ein Kernanliegen der Energiepolitik und für die Umsetzung der Energiewende essenziell.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -7954,7 +8638,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 4; die Beschleunigung von Planungs- und Genehmigungsverfahren für Stromnetze ist ein Kernanliegen der Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005804",
@@ -8472,6 +9156,31 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R005983",
+      "org_name": "ATC EH GmbH & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005983/77783",
+      "regulatory_project_title": "Prüfung und Anpassung der rechtlichen Rahmenbedingungen für beschleunigte Stromanschlüsse neuer Mobilfunkstandorte",
+      "sending_date": "2026-04-08",
+      "upload_date": "2026-06-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/70/45/772675/Stellungnahme-Gutachten-SG2606020026.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606020026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606020026",
+      "summary": "Prüfung und Anpassung der rechtlichen Rahmenbedingungen für schnelle und effiziente Stromanschlüsse neuer Mobilfunkstandorte mittels Fristen für Angebotserstellung, unverzüglicher Realisierung, erhöhter Transparenz bei den Kosten sowie den Netzverläufen, mehr Auswahlmöglichkeiten sowie einer Priorisierung von Mobilfunkstandorten bei der Stromanbindung durch Verteilnetzbetreiber.",
+      "recipients": [
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -13262,6 +13971,31 @@
         "BMF",
         "BMDS",
         "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/76314",
+      "regulatory_project_title": "verbraucherfreundliche Revision der europäischen Luftverkehrsdienste-Verordnung",
+      "sending_date": "2026-04-27",
+      "upload_date": "2026-05-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ab/df/773021/Stellungnahme-Gutachten-SG2605130044.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2605130044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2605130044",
+      "summary": "Die Europäische Kommission unterbreitet dieses Jahr einen Vorschlag für die Revision der Luftver-kehrsdienste-Verordnung. Es bedarf aus Deutschland (Ministerien und Parlament) wichtiger Impulse für eine verbraucherfeundliche Revision. Es gibt aus Sicht des vzbv Bedarf für eine Insolvenzabsicherung. Die bestehende Vorkasse-Praxis bedarf ebenso einer Änderung und sollte ähnlich wie im Pauschalreiserecht gestaltet sein. Für das große Handgepäck braucht es einer praxisgerechten Re-gelung mit einheitlichem Gepäckstandard (bis 115 cm Kantenlänge und bis 10 kg) und der kostenlosen Mitnahmemöglichkeit. Schließlich fordert der vzbv, dass Kinder mit ihren Begleitpersonen ohne Aufpreis zusammensitzen können und dass es auch künftig keine technischen Hürden beim Reisen gibt (Digitalzwang).",
+      "recipients": [
+        "BMJV",
+        "Bundestag"
       ],
       "fields": [
         {
@@ -18366,6 +19100,30 @@
         }
       ],
       "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003679",
+      "org_name": "Deutscher Designtag e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003679/75651",
+      "regulatory_project_title": "Für eine zukunftsfähige nationale und europäische Strategie der Kultur und Kreativwirtschaft",
+      "sending_date": "2026-04-22",
+      "upload_date": "2026-04-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f5/cc/773242/Stellungnahme-Gutachten-SG2604230019.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2604230019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2604230019",
+      "summary": "Der Deutsche Designtag e.V. unterstützt die „Koalition Kultur- und Kreativwirtschaft in Deutschland“ (k3d), die die Interessen der Kreativbranche fördert. Ziel ist die Verbesserung der Rahmenbedingungen für die Kultur- und Kreativwirtschaft (KKW), besonders durch Entwicklung einer nationalen Gesamtstrategie. Dazu wurde ein Positionspapier entwickelt, dessen Inhalte und Forderungen im Rahmen einer Anhörung am 22. April im Ausschuss für Kultur- und Medien durch Vertreter von k3d eingebracht wurden. Das Papier erläutert die Branche und befasst sich mit notwendigen regulatorischen Rahmenbedingungen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -42698,5 +43456,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 495
+  "gemini_filtered_out": 506
 }
