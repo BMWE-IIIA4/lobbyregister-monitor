@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-27T06:58:33.691534+02:00",
-  "newly_added": 34,
+  "generated_at": "2026-06-28T07:23:04.873379+02:00",
+  "newly_added": 4,
   "statements": [
     {
       "register_number": "R007773",
@@ -25,7 +25,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Messstellenbetriebsgesetz ist ein zentrales Instrument der Energiewende und fällt unter die Zuständigkeit für Strommarktregulierung und Digitalisierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007773",
@@ -50,7 +50,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Messstellenbetriebsgesetz ist ein zentrales Instrument der Energiewende und fällt unter die Zuständigkeit für Strommarktregulierung und Digitalisierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007773",
@@ -75,7 +75,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Messstellenbetriebsgesetz ist ein zentrales Instrument der Energiewende und fällt unter die Zuständigkeit für Strommarktregulierung und Digitalisierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007773",
@@ -100,7 +100,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EEG ist ein Kernbereich der Unterabteilung IIIA; Regelungen zum Messstellenbetrieb im EEG sind für die Umsetzung der Energiewende relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007773",
@@ -125,7 +125,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EEG ist ein Kernbereich der Unterabteilung IIIA; Regelungen zum Messstellenbetrieb im EEG sind für die Umsetzung der Energiewende relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006798",
@@ -150,7 +150,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Offshore-Windenergieausbau und regulatorische Anpassungen im WindSeeG, was direkt in den Bereich Erneuerbare Energien und EU-Kooperationen fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006798",
@@ -179,7 +179,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Ausgestaltung von Förderinstrumenten (CfD) für Erneuerbare Energien, ein zentrales Thema der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006798",
@@ -208,7 +208,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Netzanbindung von Offshore-Windparks und die Risikoverteilung zwischen Netzbetreibern und Entwicklern, relevant für Versorgungssicherheit und EE-Integration.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002297",
@@ -236,7 +236,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kraftwerksstrategie und Versorgungssicherheit, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001792",
@@ -272,7 +272,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zur energetischen Gebäudesanierung und stofflichen Nutzung von Biomasse im Rahmen der Wärmewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001152",
@@ -298,7 +298,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur Industriestrompreis-Debatte und Dekarbonisierung industrieller Prozesse.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -343,7 +343,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Klimapolitik, Emissionshandel (ETS) und regulatorische Rahmenbedingungen für Wasserstoff und Flexibilität, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000700",
@@ -368,7 +368,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Nutzung erneuerbarer Energien (Biokraftstoffe) im Wärmemarkt, was unter Sektorkopplung und Erneuerbare Energien fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006020",
@@ -1114,7 +1114,7 @@
       ],
       "priority": 3,
       "gemini_relevanz": "Das Thema betrifft die Umsetzung der Energieeffizienzrichtlinie und damit direkt die Energiepolitik und den Zuständigkeitsbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000569",
@@ -1139,7 +1139,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Ausgestaltung von Stromkostenentlastungen für die Industrie, was unter 'Energiepreise & -kosten' fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000569",
@@ -1164,6 +1164,35 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 1, betrifft die Ausgestaltung von Stromkostenentlastungen für die Industrie.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002402",
+      "org_name": "Equinor Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002402/78993",
+      "regulatory_project_title": "Gesetz zur Entwicklung und Förderung der Windenergie auf See",
+      "sending_date": "2026-06-03",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/4c/780456/Stellungnahme-Gutachten-SG2606250125.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2606250125",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250125",
+      "summary": "Das Vorhaben <b>fordert</b> eine <b>Genehmigungsbeschleunigung</b> sowie eine Anpassung des Ausschreibungsdesigns. Zudem wird eine <b>Neuregelung des § 81</b> zur <b>Synchronisierung von Netzanbindung</b> und Offshore-Windparks angestrebt. Ziel ist die effizientere Umsetzung der Windenergie auf See.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft Erneuerbare Energien und Offshore-Kooperationen, die in den Themenfeldern der Unterabteilung IIIA explizit genannt sind.",
       "gemini_status": "processed"
     },
     {
@@ -2776,7 +2805,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Betrifft EU-Gesetzgebung (Industrial Accelerator Act) und Industriepolitik im Kontext der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001152",
@@ -2806,7 +2835,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Energiepolitik, Strommarkt und industrielle Elektrifizierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001152",
@@ -2837,7 +2866,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Klimaschutz, industrielle Transformation und Finanzierungsbedarfe.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001152",
@@ -2863,6 +2892,61 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zur Waermewende und Gebaeudeenergieeffizienz im Rahmen der Klimaschutzziele.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002402",
+      "org_name": "Equinor Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002402/78993",
+      "regulatory_project_title": "Umsetzung EU Methanverordnung ",
+      "sending_date": "2026-06-19",
+      "upload_date": "2026-06-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/de/db/780454/Stellungnahme-Gutachten-SG2606230022.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606230022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606230022",
+      "summary": "Die Interessenvertretung <b>konkretisiert Umsetzungserfordernisse</b> für die EU-Methanverordnung. Dabei werden insbesondere die <b>Informationspflichten für Importeure</b> bei unbekannten Gasquellen sowie die <b>regulatorische Gleichwertigkeit</b> mit Norwegen thematisiert. Zudem besteht Klärungsbedarf hinsichtlich der technischen Anforderungen an Messverfahren.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Betrifft EU-Energiepolitik und Dekarbonisierung, zentrale Themen der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002402",
+      "org_name": "Equinor Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002402/78993",
+      "regulatory_project_title": "Technologieoffene Berücksichtigung von CO2-armen Wasserstoff",
+      "sending_date": "2026-05-07",
+      "upload_date": "2026-06-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3c/e7/780460/Stellungnahme-Gutachten-SG2606230020.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2606230020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606230020",
+      "summary": "Das Vorhaben <b>fordert</b> eine <b>gleichberechtigte Berücksichtigung</b> von CO2-armem Wasserstoff neben erneuerbarem Wasserstoff. Dies soll durch eine <b>technologieoffene Einbeziehung</b> in Förder- und Regulierungsmechanismen erreicht werden. Konkret wird die Zulassung als Erfüllungsoption bei der THG-Quote ab 2031 angestrebt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft Wasserstoffmarkt und regulatorische Rahmenbedingungen, Kernaufgaben der Unterabteilung IIIA.",
       "gemini_status": "processed"
     },
     {
@@ -7884,6 +7968,35 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R002402",
+      "org_name": "Equinor Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002402/78993",
+      "regulatory_project_title": "Übertragung Artikel 31(3) Richtlinie (EU) 2024/1788 in EnWG",
+      "sending_date": "2026-04-24",
+      "upload_date": "2026-06-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/50/f8/780458/Stellungnahme-Gutachten-SG2606120019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606120019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606120019",
+      "summary": "Das Vorhaben <b>kritisiert Abweichungen</b> zwischen der EU-Richtlinie 2024/1788 und dem Entwurf für § 114 EnWG. Diese Diskrepanzen führen zu <b>Umsetzungsproblemen</b> in der Praxis. Es wird eine <b>Anpassung des Gesetzestextes</b> gefordert, um die Rechtskonformität und Anwendbarkeit sicherzustellen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft EU-Energiegesetzgebung und Strommarktregulierung, direktes Aufgabengebiet der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R004333",
       "org_name": "Digitalcourage e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R004333/69702",
@@ -9456,7 +9569,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zum Strommarktdesign, Kapazitaetsmechanismen und StromVKG.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003512",

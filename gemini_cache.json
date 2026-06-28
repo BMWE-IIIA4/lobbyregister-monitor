@@ -7803,5 +7803,25 @@
     "relevant": false,
     "relevanz_grund": "Thematischer Schwerpunkt liegt auf Chemikalienpolitik und Gesundheitsschutz, kein direkter Energiebezug.",
     "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2606250125": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Erneuerbare Energien und Offshore-Kooperationen, die in den Themenfeldern der Unterabteilung IIIA explizit genannt sind.",
+    "zusammenfassung": "Das Vorhaben <b>fordert</b> eine <b>Genehmigungsbeschleunigung</b> sowie eine Anpassung des Ausschreibungsdesigns. Zudem wird eine <b>Neuregelung des § 81</b> zur <b>Synchronisierung von Netzanbindung</b> und Offshore-Windparks angestrebt. Ziel ist die effizientere Umsetzung der Windenergie auf See."
+  },
+  "SG2606230022": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft EU-Energiepolitik und Dekarbonisierung, zentrale Themen der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Interessenvertretung <b>konkretisiert Umsetzungserfordernisse</b> für die EU-Methanverordnung. Dabei werden insbesondere die <b>Informationspflichten für Importeure</b> bei unbekannten Gasquellen sowie die <b>regulatorische Gleichwertigkeit</b> mit Norwegen thematisiert. Zudem besteht Klärungsbedarf hinsichtlich der technischen Anforderungen an Messverfahren."
+  },
+  "SG2606230020": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Wasserstoffmarkt und regulatorische Rahmenbedingungen, Kernaufgaben der Unterabteilung IIIA.",
+    "zusammenfassung": "Das Vorhaben <b>fordert</b> eine <b>gleichberechtigte Berücksichtigung</b> von CO2-armem Wasserstoff neben erneuerbarem Wasserstoff. Dies soll durch eine <b>technologieoffene Einbeziehung</b> in Förder- und Regulierungsmechanismen erreicht werden. Konkret wird die Zulassung als Erfüllungsoption bei der THG-Quote ab 2031 angestrebt."
+  },
+  "SG2606120019": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft EU-Energiegesetzgebung und Strommarktregulierung, direktes Aufgabengebiet der Unterabteilung IIIA.",
+    "zusammenfassung": "Das Vorhaben <b>kritisiert Abweichungen</b> zwischen der EU-Richtlinie 2024/1788 und dem Entwurf für § 114 EnWG. Diese Diskrepanzen führen zu <b>Umsetzungsproblemen</b> in der Praxis. Es wird eine <b>Anpassung des Gesetzestextes</b> gefordert, um die Rechtskonformität und Anwendbarkeit sicherzustellen."
   }
 }
