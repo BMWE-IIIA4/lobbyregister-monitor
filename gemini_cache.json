@@ -7823,5 +7823,115 @@
     "relevant": true,
     "relevanz_grund": "Betrifft EU-Energiegesetzgebung und Strommarktregulierung, direktes Aufgabengebiet der Unterabteilung IIIA.",
     "zusammenfassung": "Das Vorhaben <b>kritisiert Abweichungen</b> zwischen der EU-Richtlinie 2024/1788 und dem Entwurf für § 114 EnWG. Diese Diskrepanzen führen zu <b>Umsetzungsproblemen</b> in der Praxis. Es wird eine <b>Anpassung des Gesetzestextes</b> gefordert, um die Rechtskonformität und Anwendbarkeit sicherzustellen."
+  },
+  "SG2606270003": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft Medienrecht und audiovisuelle Dienste ohne direkten Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Der Eintrag <b>lehnt</b> ein geplantes <b>Mediendienste-Investitionsverpflichtungs-Gesetz</b> ab oder fordert dessen verfassungsrechtliche Prüfung. Das Vorhaben sieht Investitionsverpflichtungen in europäische audiovisuelle Werke für Abrufdienste vor. Eine energiepolitische Relevanz ist nicht gegeben."
+  },
+  "SG2606270004": {
+    "relevant": false,
+    "relevanz_grund": "Die wirtschaftliche Filmförderung fällt nicht in den Aufgabenbereich der Energiepolitik oder der Unterabteilung IIIA.",
+    "zusammenfassung": "Der BKM <b>plant</b> eine <b>Überarbeitung der Richtlinien</b> für den Deutschen Filmförderfonds (DFFF) und den German Motion Picture Fonds (GMPF). Hierzu wurden Entwürfe zur Konsultation gestellt. Ein Bezug zu energiepolitischen Themen liegt nicht vor."
+  },
+  "SG2606260074": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft die Transformation von Gas- und Wasserstoffnetzen, was direkt in den Bereich Wasserstoff und Energienetze der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Der VKU <b>fordert</b> einen neuen <b>Ordnungsrahmen für Netzumstellungen</b> und Neubauten bei Gas- und Wasserstoff-Verteilernetzen. Dieser soll die Verzahnung mit dem Gebäudeenergiegesetz und der kommunalen Wärmeplanung sicherstellen. Zudem wird ein <b>Anschlussverweigerungs- und Kündigungsrecht</b> für Netzbetreiber und Kunden zur Vermeidung von Parallelinfrastrukturen verlangt."
+  },
+  "SG2606260075": {
+    "relevant": true,
+    "relevanz_grund": "Identisch mit Eintrag 3; betrifft die Transformation der Gas-/Wasserstoff-Infrastruktur.",
+    "zusammenfassung": "Der VKU <b>fordert</b> einen neuen <b>Ordnungsrahmen für Netzumstellungen</b> und Neubauten bei Gas- und Wasserstoff-Verteilernetzen. Dieser soll die Verzahnung mit dem Gebäudeenergiegesetz und der kommunalen Wärmeplanung sicherstellen. Zudem wird ein <b>Anschlussverweigerungs- und Kündigungsrecht</b> für Netzbetreiber und Kunden zur Vermeidung von Parallelinfrastrukturen verlangt."
+  },
+  "SG2606260076": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft die Kraftwerksstrategie und Versorgungssicherheit, was Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Die Forderung <b>unterstützt</b> die Schaffung neuer <b>steuerbarer Erzeugungskapazitäten</b> zur Sicherung der Energieversorgung bei Dunkelflauten. Dabei wird betont, dass das StromVKG <b>dezentrale und kommunale Kapazitäten</b> realistisch einbinden muss. Ziel ist die Ermöglichung kurzfristiger Neuinvestitionen unter Berücksichtigung der Kraft-Wärme-Kopplung."
+  },
+  "SG2606260062": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Wärmewende und regulatorische Rahmenbedingungen für die Fernwärmeversorgung, was unter Klimaschutz & Energiewende fällt.",
+    "zusammenfassung": "Der Verfasser <b>empfiehlt</b> die <b>Stärkung der Investitionssicherheit</b> durch eine rechtssichere Anpassung von <b>Preisanpassungsklauseln</b> im Rahmen der Novellierung. Zudem sollen <b>Vertragsanpassungsrechte</b> für Kunden europarechtskonform ausgestaltet werden, um den Brennstoffmix-Wandel abzubilden."
+  },
+  "SG2606260082": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Wärmewende und mietrechtliche Rahmenbedingungen für die Fernwärme, relevant für die Sektorkopplung und Wärmewende.",
+    "zusammenfassung": "Die Branche <b>kritisiert</b> die aktuelle <b>Wärmelieferverordnung</b> als Hemmnis für den Fernwärmeausbau. Sie <b>fordert</b> eine <b>Angleichung an das GEG</b>, um die klimaschutzorientierte Transformation im Mietmarkt zu ermöglichen und <b>Chancengleichheit</b> zwischen Eigenversorgung und gewerblicher Wärmelieferung herzustellen."
+  },
+  "SG2606260066": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Umsetzung der EU-Energieeffizienzrichtlinie und regulatorische Anforderungen an Unternehmen/Kommunen.",
+    "zusammenfassung": "Der Vorschlag <b>präzisiert</b> den <b>Anwendungsbereich der Energieauditpflicht</b> im EDL-G. Es wird gefordert, <b>kommunale Eigenbetriebe</b> von der Definition öffentlicher Stellen auszunehmen und <b>Ausnahmeregelungen für Leitzentralen</b> der Energie- und Wasserwirtschaft zu schaffen."
+  },
+  "SG2606260081": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Wärmewende, KWK und Wasserstoffnutzung, zentrale Themen der Abteilung IIIA.",
+    "zusammenfassung": "Der VKU <b>unterstützt</b> eine <b>umfassende Technologieoffenheit</b> für Wasserstoff und die Integration von <b>KWK-Technologien</b> in Hybridheizungen. Zudem wird die <b>Streichung der Biomasse-Deckelung</b> gefordert, um die Effizienz der Wärmewende zu steigern."
+  },
+  "SG2606260084": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Wärmewende, KWK und Wasserstoffnutzung, zentrale Themen der Abteilung IIIA.",
+    "zusammenfassung": "Der VKU <b>unterstützt</b> eine <b>umfassende Technologieoffenheit</b> für Wasserstoff und die Integration von <b>KWK-Technologien</b> in Hybridheizungen. Zudem wird die <b>Streichung der Biomasse-Deckelung</b> gefordert, um die Effizienz der Wärmewende zu steigern."
+  },
+  "SG2606260068": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft Abfallwirtschaft und Textilsammlung ohne direkten Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>fordert die Weiterentwicklung</b> bestehender Sammelstrukturen für Alttextilien anstelle einer vollständigen Ersetzung durch neue Systeme. Sie betont, dass die <b>Abfallrahmenrichtlinie</b> primär auf Länder ohne etablierte Infrastruktur abzielt. In Deutschland sollten daher <b>bewährte Sammelstrukturen</b> der öffentlich-rechtlichen Entsorgungsträger integriert werden."
+  },
+  "SG2606260070": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft Abfallwirtschaft und Textilsammlung ohne direkten Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>fordert die Weiterentwicklung</b> bestehender Sammelstrukturen für Alttextilien anstelle einer vollständigen Ersetzung durch neue Systeme. Sie betont, dass die <b>Abfallrahmenrichtlinie</b> primär auf Länder ohne etablierte Infrastruktur abzielt. In Deutschland sollten daher <b>bewährte Sammelstrukturen</b> der öffentlich-rechtlichen Entsorgungsträger integriert werden."
+  },
+  "SG2606260046": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zur Transformation der Gasnetze, zum Gas- und Wasserstoffbinnenmarkt-Paket und zum Ausstieg aus der fossilen Gasversorgung.",
+    "zusammenfassung": "Die Organisation <b>unterstützt die Umsetzung</b> des Gas- und Wasserstoffbinnenmarkt-Pakets zur Schaffung eines <b>planungssicheren Rahmens</b> für die Transformation der Gasnetze. Sie <b>fordert eine Einschränkung</b> der Anschluss- und Versorgungspflichten für Gasverteilernetzbetreiber im Zuge des Ausstiegs aus der fossilen Gasversorgung. Zudem wird bei den <b>Informationspflichten</b> zur Netzanschluss-Trennung Nachbesserungsbedarf angemeldet."
+  },
+  "SG2606260140": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft Gewässerschutz und Abwasserverordnung ohne direkten Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Der VKU <b>kritisiert die geplanten Änderungen</b> an der Abwasserverordnung als unzureichend für den Gewässerschutz. Er <b>fordert ein verpflichtendes Monitoring</b> vor der Einleitung sowie die Aufnahme spezifischer <b>Toxizitätsparameter</b>. Die aktuelle Regelung wird als Risiko für biologische Prozesse und die betriebliche Haftung bewertet."
+  },
+  "SG2606260144": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft Verpackungsgesetz und Bioabfallentsorgung ohne direkten Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>beantragt eine Ergänzung</b> des Verpackungsgesetzes zur Einordnung zellulosebasierter Getränkezubereitungshilfen. Sie <b>fordert die Beibehaltung</b> der gemeinsamen Sammlung mit Bioabfällen ab 2026. Zudem wird eine <b>Kostenerstattung</b> durch die Systeme an die öffentlich-rechtlichen Entsorgungsträger verlangt."
+  },
+  "SG2606260146": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft primär die Wasserrahmenrichtlinie und Umweltrecht, ohne direkten Bezug zu den energiepolitischen Kernaufgaben der Unterabteilung IIIA.",
+    "zusammenfassung": "Der VKU <b>fordert die Beibehaltung</b> des Verschlechterungsverbots im Rahmen der Wasserrahmenrichtlinie. Eine Aufweichung der Kriterien sowie Ausnahmen für den Bergbau werden <b>abgelehnt</b>, da dies die <b>Rechtssicherheit gefährdet</b> und den guten Gewässerzustand untergräbt. Die Organisation warnt vor <b>Umsetzungsdefiziten</b> und zusätzlichen Belastungen."
+  },
+  "SG2606260149": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Dekarbonisierung von Unternehmensflotten und Sektorkopplung/Energiewirtschaft, was unter Klimaschutz und Energiepolitik fällt.",
+    "zusammenfassung": "Der VKU <b>fordert praxistaugliche Ausnahmeregelungen</b> für kommunale und energiewirtschaftliche Fahrzeuge im Rahmen der Clean Corporate Vehicles Verordnung. Die aktuelle Einstufung als N1-Fahrzeuge <b>ignoriert spezifische Einsatzprofile</b>, die über den reinen Gütertransport hinausgehen. Es wird eine <b>Angleichung an das Saubere-Fahrzeuge-Beschaffungs-Gesetz</b> angestrebt."
+  },
+  "SG2606260150": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zur Stromnetzinfrastruktur, Netzausbau und Kosten der Energiewende.",
+    "zusammenfassung": "Der VKU <b>begrüßt die Aufhebung</b> des Vorrangs der Erdverkabelung bei HGÜ-Leitungen im Bundesbedarfsplangesetz. Die Rückkehr zur Freileitung wird als <b>entscheidender Hebel zur Kostensenkung</b> und Beschleunigung des Netzausbaus bewertet. Dies sei zwingend erforderlich, um die <b>Akzeptanz der Energiewende</b> langfristig zu sichern."
+  },
+  "SG2606260151": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Planung und Genehmigung von Energieinfrastruktur (Strom, Wärme, Gas) im Baurecht.",
+    "zusammenfassung": "Der VKU <b>begrüßt die Verfahrensbeschleunigungen</b> im Baugesetzbuch für Infrastrukturprojekte. Gleichzeitig wird die <b>Gewährleistung der Rechte</b> von Trägern öffentlicher Belange gefordert. Zudem wird eine <b>frühzeitige Einbindung</b> bei wassersensibler Stadtentwicklung angemahnt, um Zielkonflikte zu vermeiden."
+  },
+  "SG2606260152": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Auslegung des EnWG und die Rechtssicherheit bei Versorgungsunterbrechungen im Strom-/Gasmarkt.",
+    "zusammenfassung": "Der VKU <b>befürwortet eine Anpassung</b> des § 102 EnWG zur Klärung der zivilgerichtlichen Zuständigkeit bei Versorgungsunterbrechungen. Ziel ist die <b>Schaffung von Rechtsklarheit</b> im Einklang mit der bisherigen BGH-Rechtsprechung. Damit sollen <b>Abgrenzungsschwierigkeiten vermieden</b> und die Rechtssicherheit für Versorger gestärkt werden."
+  },
+  "SG2606260153": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft die Erneuerbaren Energien (Windkraft) und deren wirtschaftliche Rahmenbedingungen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Der Verfasser <b>empfiehlt die Prüfung</b> einer <b>gesetzlichen Pachthöhenbegrenzung</b> für Windenergieflächen. Ziel ist es, einen <b>Verdrängungswettbewerb</b> unter Projektierern zu verhindern und die wirtschaftliche Tragfähigkeit der Projekte zu sichern. Dabei wird betont, dass neue Regelungen <b>praktikabel ausgestaltet</b> sein müssen, um den weiteren Ausbau der Windenergie nicht zu hemmen."
+  },
+  "SG2606260155": {
+    "relevant": true,
+    "relevanz_grund": "Die Regulierung von Energiemärkten und die kartellrechtliche Aufsicht über Energieversorger sind zentrale Aspekte der Strommarktregulierung und Wettbewerbsfähigkeit.",
+    "zusammenfassung": "Der Verfasser <b>lehnt eine Verlängerung</b> der <b>besonderen Missbrauchsaufsicht</b> gemäß § 29 GWB ab. Er argumentiert, dass die allgemeinen Vorschriften der §§ 19, 20 GWB für die Energiemärkte ausreichen. Zudem wird die <b>Ablehnung einer verschuldensabhängigen Erlösabschöpfung</b> sowie der Zustellung von Auskunftsverlangen an allgemeine E-Mail-Adressen formuliert."
   }
 }

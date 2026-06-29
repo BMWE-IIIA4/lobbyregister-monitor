@@ -1,7 +1,59 @@
 {
-  "generated_at": "2026-06-28T07:23:04.873379+02:00",
-  "newly_added": 4,
+  "generated_at": "2026-06-29T07:57:39.755672+02:00",
+  "newly_added": 22,
   "statements": [
+    {
+      "register_number": "R001673",
+      "org_name": "Netflix Services Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001673/80805",
+      "regulatory_project_title": "Verhinderung oder alternativ verfassungs- und europarechtskonforme Ausgestaltung eines Mediendienste-Investitionsverpflichtungs-Gesetz",
+      "sending_date": "2026-05-14",
+      "upload_date": "2026-06-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/39/ec/780711/Stellungnahme-Gutachten-SG2606270003.pdf",
+      "pdf_pages": 34,
+      "sg_number": "SG2606270003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606270003",
+      "summary": "Das Mediendienste-Investitionsverpflichtungs-Gesetz soll eine Invetitionsverpflichtung in Europäische audiovisuelle Werke mit verschiedenen Subquoten und zusätzlichen Vorgaben zum frühzeitigen Rechteentzug für audiovisuelle Mediendienste auf Abruf einführen.",
+      "recipients": [
+        "BKAmt",
+        "BMJV",
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001673",
+      "org_name": "Netflix Services Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001673/80805",
+      "regulatory_project_title": "Novellierung Richtlinien des DFFF und GMPF (wirtschaftliche Filmförderung)",
+      "sending_date": "2026-06-01",
+      "upload_date": "2026-06-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a7/e1/780713/Stellungnahme-Gutachten-SG2606270004.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606270004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606270004",
+      "summary": "Der BKM plant im Rahmen der wirtschaftlichen Filmförderung die Überarbeitung der Richtlinien für den Deutschen Filmförderfonds (DFFF) und für den German Motion Picture Fonds (GMPF) und hat zu diesem Zweck Entwürfe für novellierte Richtlinien zur Konsultation gestellt.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007773",
       "org_name": "metiundo GmbH",
@@ -371,6 +423,430 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Gestaltung eines neuen Ordnungsrahmens für die Transformation von Gas-/Wasserstoff-Verteilernetzen",
+      "sending_date": "2026-04-30",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/69/85/780756/Stellungnahme-Gutachten-SG2606260074.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606260074",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260074",
+      "summary": "Der VKU <b>fordert</b> einen neuen <b>Ordnungsrahmen für Netzumstellungen</b> und Neubauten bei Gas- und Wasserstoff-Verteilernetzen. Dieser soll die Verzahnung mit dem Gebäudeenergiegesetz und der kommunalen Wärmeplanung sicherstellen. Zudem wird ein <b>Anschlussverweigerungs- und Kündigungsrecht</b> für Netzbetreiber und Kunden zur Vermeidung von Parallelinfrastrukturen verlangt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Transformation von Gas- und Wasserstoffnetzen, was direkt in den Bereich Wasserstoff und Energienetze der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Gestaltung eines neuen Ordnungsrahmens für die Transformation von Gas-/Wasserstoff-Verteilernetzen",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/11/780758/Stellungnahme-Gutachten-SG2606260075.pdf",
+      "pdf_pages": 25,
+      "sg_number": "SG2606260075",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260075",
+      "summary": "Der VKU <b>fordert</b> einen neuen <b>Ordnungsrahmen für Netzumstellungen</b> und Neubauten bei Gas- und Wasserstoff-Verteilernetzen. Dieser soll die Verzahnung mit dem Gebäudeenergiegesetz und der kommunalen Wärmeplanung sicherstellen. Zudem wird ein <b>Anschlussverweigerungs- und Kündigungsrecht</b> für Netzbetreiber und Kunden zur Vermeidung von Parallelinfrastrukturen verlangt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Identisch mit Eintrag 3; betrifft die Transformation der Gas-/Wasserstoff-Infrastruktur.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Kraftwerkstrategie, die kurzfristige Neuinvestitionen ermöglicht und KWK berücksichtigt",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d3/d7/780760/Stellungnahme-Gutachten-SG2606260076.pdf",
+      "pdf_pages": 30,
+      "sg_number": "SG2606260076",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260076",
+      "summary": "Die Forderung <b>unterstützt</b> die Schaffung neuer <b>steuerbarer Erzeugungskapazitäten</b> zur Sicherung der Energieversorgung bei Dunkelflauten. Dabei wird betont, dass das StromVKG <b>dezentrale und kommunale Kapazitäten</b> realistisch einbinden muss. Ziel ist die Ermöglichung kurzfristiger Neuinvestitionen unter Berücksichtigung der Kraft-Wärme-Kopplung.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Kraftwerksstrategie und Versorgungssicherheit, was Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Stärkung der Planungs- und Investitionssicherheit in der Fernwärmeversorgung ",
+      "sending_date": "2026-04-16",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7a/b7/780762/Stellungnahme-Gutachten-SG2606260062.pdf",
+      "pdf_pages": 25,
+      "sg_number": "SG2606260062",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260062",
+      "summary": "Der Verfasser <b>empfiehlt</b> die <b>Stärkung der Investitionssicherheit</b> durch eine rechtssichere Anpassung von <b>Preisanpassungsklauseln</b> im Rahmen der Novellierung. Zudem sollen <b>Vertragsanpassungsrechte</b> für Kunden europarechtskonform ausgestaltet werden, um den Brennstoffmix-Wandel abzubilden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Wärmewende und regulatorische Rahmenbedingungen für die Fernwärmeversorgung, was unter Klimaschutz & Energiewende fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Berücksichtigung der klimaschutzorientierten Transformation in der Wärmelieferverordnung",
+      "sending_date": "2026-05-08",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/d2/780764/Stellungnahme-Gutachten-SG2606260082.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2606260082",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260082",
+      "summary": "Die Branche <b>kritisiert</b> die aktuelle <b>Wärmelieferverordnung</b> als Hemmnis für den Fernwärmeausbau. Sie <b>fordert</b> eine <b>Angleichung an das GEG</b>, um die klimaschutzorientierte Transformation im Mietmarkt zu ermöglichen und <b>Chancengleichheit</b> zwischen Eigenversorgung und gewerblicher Wärmelieferung herzustellen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Wärmewende und mietrechtliche Rahmenbedingungen für die Fernwärme, relevant für die Sektorkopplung und Wärmewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Klarstellung des Anwendungsbereichs der Energieauditverpflichtung",
+      "sending_date": "2026-04-17",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/86/fe/780766/Stellungnahme-Gutachten-SG2606260066.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2606260066",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260066",
+      "summary": "Der Vorschlag <b>präzisiert</b> den <b>Anwendungsbereich der Energieauditpflicht</b> im EDL-G. Es wird gefordert, <b>kommunale Eigenbetriebe</b> von der Definition öffentlicher Stellen auszunehmen und <b>Ausnahmeregelungen für Leitzentralen</b> der Energie- und Wasserwirtschaft zu schaffen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung der EU-Energieeffizienzrichtlinie und regulatorische Anforderungen an Unternehmen/Kommunen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Optimierung von Gebäudeenergiegesetz und Wärmeplanungsgesetz",
+      "sending_date": "2026-05-06",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0d/be/780772/Stellungnahme-Gutachten-SG2606260081.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2606260081",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260081",
+      "summary": "Der VKU <b>unterstützt</b> eine <b>umfassende Technologieoffenheit</b> für Wasserstoff und die Integration von <b>KWK-Technologien</b> in Hybridheizungen. Zudem wird die <b>Streichung der Biomasse-Deckelung</b> gefordert, um die Effizienz der Wärmewende zu steigern.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Wärmewende, KWK und Wasserstoffnutzung, zentrale Themen der Abteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Optimierung von Gebäudeenergiegesetz und Wärmeplanungsgesetz",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ce/71/780774/Stellungnahme-Gutachten-SG2606260084.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2606260084",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260084",
+      "summary": "Der VKU <b>unterstützt</b> eine <b>umfassende Technologieoffenheit</b> für Wasserstoff und die Integration von <b>KWK-Technologien</b> in Hybridheizungen. Zudem wird die <b>Streichung der Biomasse-Deckelung</b> gefordert, um die Effizienz der Wärmewende zu steigern.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Wärmewende, KWK und Wasserstoffnutzung, zentrale Themen der Abteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Rechtssicherheit für die Transformation der Gasnetze",
+      "sending_date": "2026-04-10",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/97/b9/780782/Stellungnahme-Gutachten-SG2606260046.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2606260046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260046",
+      "summary": "Die Organisation <b>unterstützt die Umsetzung</b> des Gas- und Wasserstoffbinnenmarkt-Pakets zur Schaffung eines <b>planungssicheren Rahmens</b> für die Transformation der Gasnetze. Sie <b>fordert eine Einschränkung</b> der Anschluss- und Versorgungspflichten für Gasverteilernetzbetreiber im Zuge des Ausstiegs aus der fossilen Gasversorgung. Zudem wird bei den <b>Informationspflichten</b> zur Netzanschluss-Trennung Nachbesserungsbedarf angemeldet.",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zur Transformation der Gasnetze, zum Gas- und Wasserstoffbinnenmarkt-Paket und zum Ausstieg aus der fossilen Gasversorgung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Berücksichtigung kommunaler Interessen in der Clean Corporate Vehicles Verordnung ",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/8a/780792/Stellungnahme-Gutachten-SG2606260149.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606260149",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260149",
+      "summary": "Der VKU <b>fordert praxistaugliche Ausnahmeregelungen</b> für kommunale und energiewirtschaftliche Fahrzeuge im Rahmen der Clean Corporate Vehicles Verordnung. Die aktuelle Einstufung als N1-Fahrzeuge <b>ignoriert spezifische Einsatzprofile</b>, die über den reinen Gütertransport hinausgehen. Es wird eine <b>Angleichung an das Saubere-Fahrzeuge-Beschaffungs-Gesetz</b> angestrebt.",
+      "recipients": [
+        "BMUKN",
+        "BMV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Betrifft die Dekarbonisierung von Unternehmensflotten und Sektorkopplung/Energiewirtschaft, was unter Klimaschutz und Energiepolitik fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Stärkung der Systemresilienz durch das Bundesbedarfsplangesetz",
+      "sending_date": "2026-04-21",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/39/4c/780794/Stellungnahme-Gutachten-SG2606260150.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2606260150",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260150",
+      "summary": "Der VKU <b>begrüßt die Aufhebung</b> des Vorrangs der Erdverkabelung bei HGÜ-Leitungen im Bundesbedarfsplangesetz. Die Rückkehr zur Freileitung wird als <b>entscheidender Hebel zur Kostensenkung</b> und Beschleunigung des Netzausbaus bewertet. Dies sei zwingend erforderlich, um die <b>Akzeptanz der Energiewende</b> langfristig zu sichern.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zur Stromnetzinfrastruktur, Netzausbau und Kosten der Energiewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Baurecht soll Energietransformation erleichtern",
+      "sending_date": "2026-04-29",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3d/05/780796/Stellungnahme-Gutachten-SG2606260151.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2606260151",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260151",
+      "summary": "Der VKU <b>begrüßt die Verfahrensbeschleunigungen</b> im Baugesetzbuch für Infrastrukturprojekte. Gleichzeitig wird die <b>Gewährleistung der Rechte</b> von Trägern öffentlicher Belange gefordert. Zudem wird eine <b>frühzeitige Einbindung</b> bei wassersensibler Stadtentwicklung angemahnt, um Zielkonflikte zu vermeiden.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Planung und Genehmigung von Energieinfrastruktur (Strom, Wärme, Gas) im Baurecht.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Keine erstinstanzliche Zuständigkeit des Landgerichts bei Versorgungsunterbrechungen",
+      "sending_date": "2026-05-28",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a3/9e/780798/Stellungnahme-Gutachten-SG2606260152.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2606260152",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260152",
+      "summary": "Der VKU <b>befürwortet eine Anpassung</b> des § 102 EnWG zur Klärung der zivilgerichtlichen Zuständigkeit bei Versorgungsunterbrechungen. Ziel ist die <b>Schaffung von Rechtsklarheit</b> im Einklang mit der bisherigen BGH-Rechtsprechung. Damit sollen <b>Abgrenzungsschwierigkeiten vermieden</b> und die Rechtssicherheit für Versorger gestärkt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Auslegung des EnWG und die Rechtssicherheit bei Versorgungsunterbrechungen im Strom-/Gasmarkt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Notwendigkeit einer gesetzlichen Pachthöhenbegrenzung",
+      "sending_date": "2026-06-01",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a1/d3/780800/Stellungnahme-Gutachten-SG2606260153.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2606260153",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260153",
+      "summary": "Der Verfasser <b>empfiehlt die Prüfung</b> einer <b>gesetzlichen Pachthöhenbegrenzung</b> für Windenergieflächen. Ziel ist es, einen <b>Verdrängungswettbewerb</b> unter Projektierern zu verhindern und die wirtschaftliche Tragfähigkeit der Projekte zu sichern. Dabei wird betont, dass neue Regelungen <b>praktikabel ausgestaltet</b> sein müssen, um den weiteren Ausbau der Windenergie nicht zu hemmen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Erneuerbaren Energien (Windkraft) und deren wirtschaftliche Rahmenbedingungen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Keine Verlängerung der besonderen kartellrechtlichen Missbrauchsaufsicht über Energieversorger",
+      "sending_date": "2026-06-18",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/11/25/780804/Stellungnahme-Gutachten-SG2606260155.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2606260155",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260155",
+      "summary": "Der Verfasser <b>lehnt eine Verlängerung</b> der <b>besonderen Missbrauchsaufsicht</b> gemäß § 29 GWB ab. Er argumentiert, dass die allgemeinen Vorschriften der §§ 19, 20 GWB für die Energiemärkte ausreichen. Zudem wird die <b>Ablehnung einer verschuldensabhängigen Erlösabschöpfung</b> sowie der Zustellung von Auskunftsverlangen an allgemeine E-Mail-Adressen formuliert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Regulierung von Energiemärkten und die kartellrechtliche Aufsicht über Energieversorger sind zentrale Aspekte der Strommarktregulierung und Wettbewerbsfähigkeit.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R006020",
       "org_name": "Bundesverband für Alternative Proteinquellen e. V. ",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R006020/69898",
@@ -643,6 +1119,130 @@
         {
           "code": "FOI_ECONOMY_COMPETITION_LAW",
           "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Umsetzung der Herstellerverantwortung für Alttextilien unter Weiterentwicklung der bestehenden Strukturen",
+      "sending_date": "2026-04-24",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/cc/780778/Stellungnahme-Gutachten-SG2606260068.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2606260068",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260068",
+      "summary": "Die erweiterte Herstellerverantwortung für Alttextilien in der neuen Abfallrahmenrichtlinie ist offenkundig auf Länder ausgerichtet, in denen bislang kaum oder keine Textil-sammlungssysteme bestehen.\r\nDies ist in Deutschland nicht der Fall; hier gibt es tradierte und bewährte Sammelstrukturen, insbesondere der öffentlich-rechtlichen Entsorgungsträger (örE) und der gemeinnützigen Sammler. örE sammeln zuverlässig mit ortsangepasster und flächendeckender Infrastruktur auf geeigneten Flächen, zu denen sie häufig einen exklusiven, rechtlich gesicherten Zugang haben.\r\n\r\nIn Deutschland muss die Umsetzung der Abfallrahmenrichtlinie deshalb auf eine Weiterentwicklung und Integration der bestehenden Strukturen abzielen, nicht auf deren Ersetzung.\r\n",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Umsetzung der Herstellerverantwortung für Alttextilien unter Weiterentwicklung der bestehenden Strukturen",
+      "sending_date": "2026-06-24",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/91/b3/780780/Stellungnahme-Gutachten-SG2606260070.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2606260070",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260070",
+      "summary": "Die erweiterte Herstellerverantwortung für Alttextilien in der neuen Abfallrahmenrichtlinie ist offenkundig auf Länder ausgerichtet, in denen bislang kaum oder keine Textil-sammlungssysteme bestehen.\r\nDies ist in Deutschland nicht der Fall; hier gibt es tradierte und bewährte Sammelstrukturen, insbesondere der öffentlich-rechtlichen Entsorgungsträger (örE) und der gemeinnützigen Sammler. örE sammeln zuverlässig mit ortsangepasster und flächendeckender Infrastruktur auf geeigneten Flächen, zu denen sie häufig einen exklusiven, rechtlich gesicherten Zugang haben.\r\n\r\nIn Deutschland muss die Umsetzung der Abfallrahmenrichtlinie deshalb auf eine Weiterentwicklung und Integration der bestehenden Strukturen abzielen, nicht auf deren Ersetzung.\r\n",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Besserer Gewässerschutz bei der Abwasserverordnung",
+      "sending_date": "2026-04-01",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e0/be/780784/Stellungnahme-Gutachten-SG2606260140.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2606260140",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260140",
+      "summary": "VKU verlangt Änderungen an der Abwasserverordnung. Die geplanten Änderungen verbessern den Gewässerschutz nicht ausreichend. Toxische Stoffe können weiterhin in Kläranlagen\r\nund Gewässer gelangen; die aktuellen Anforderungen berücksichtigen die\r\nkomplexe Zusammensetzung von Abfällen nur unzureichend.Hemmende oder persistente\r\nStoffe werden weiterhin nicht ausreichend adressiert. Zudem wird die bisher\r\nverpflichtende Überprüfung der Giftigkeit abgeschwächt.Die unklaren Regelungen führen zu\r\nStörungen biologischer Prozesse und erhöhen betriebliche sowie haftungsrechtliche\r\nRisiken. Der VKU fordert daher ein verpflichtendes Monitoring vor Einleitung\r\nsowie die Aufnahme von Toxizitätsparametern wie Bioassays und Nitrifikationshem",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Zuordnung von zellulosebasierten Getränkezubereitungshilfen zur Bioabfallsammlung",
+      "sending_date": "2026-04-13",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cc/da/780786/Stellungnahme-Gutachten-SG2606260144.pdf",
+      "pdf_pages": 53,
+      "sg_number": "SG2606260144",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260144",
+      "summary": "Getränkezubereitungshilfen (auch zellulosebasierte wie insbesondere Tee- und Kaffeebeutel und -\r\npads) sind  ab dem 12.08.2026 als Verpackungen anzusehen. Das VerpackDG-E muss daher um Regelungen ergänzt werden, dass zellulosebasierte Getränkezubereitungshilfen weiterhin der gemeinsamen Sammlung mit anderen Bioabfällen zugeführt werden müssen.\r\n\r\nSchließlich ist im VerpackDG-E eine Regelung zu ergänzen, wonach die Systeme den öffentlichrechtlichenEntsorgungsträgern diejenigen Kosten zu erstatten haben, ",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000098",
+      "org_name": "VKU - Verband kommunaler Unternehmen e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000098/80702",
+      "regulatory_project_title": "Keine Absenkung des Schutzniveaus der Wasserrahmenrichtlinie",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-06-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d7/b7/780788/Stellungnahme-Gutachten-SG2606260146.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2606260146",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606260146",
+      "summary": "DER VKU fordert folgendes für die Revision der WRRR: Das Verschlechterungsverbotin ist ein zentraler, verbindlicher Schutzmechanismus. Seine jüngst präzisierten Kriterien schaffen notwendige Rechtssicherheit und dürfennicht erneut verändert werden, da dies zu höheren Belastungen, Risiken und Rechtsunsicherheiten führen würde. Niedrigere Schutzniveaus würden Umsetzungsdefizite\r\nverstärken, Fehlanreize für zusätzliche Belastungen setzen und die\r\nErreichung eines guten Gewässerzustands gefährden, insbesondere angesichts\r\nwachsender Nutzungskonflikte und klimatischer Veränderungen. Ausnahmen etwa für den strategischen Bergbau bergen erhebliche Risiken, da die dort entstehenden Schadstoffe kaum aus\r\ndem Gewässerkreislauf entfernbar sind und das Schutzniveau der WRRL untergraben\r\nwürden. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
         }
       ],
       "priority": 3,
@@ -1193,7 +1793,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Erneuerbare Energien und Offshore-Kooperationen, die in den Themenfeldern der Unterabteilung IIIA explizit genannt sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002111",
@@ -2922,7 +3522,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Betrifft EU-Energiepolitik und Dekarbonisierung, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002402",
@@ -2947,7 +3547,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Wasserstoffmarkt und regulatorische Rahmenbedingungen, Kernaufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003523",
@@ -7994,7 +8594,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Energiegesetzgebung und Strommarktregulierung, direktes Aufgabengebiet der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004333",
@@ -46425,5 +47025,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 538
+  "gemini_filtered_out": 545
 }
