@@ -1,7 +1,450 @@
 {
-  "generated_at": "2026-07-01T07:46:32.317843+02:00",
-  "newly_added": 230,
+  "generated_at": "2026-07-02T07:04:36.807790+02:00",
+  "newly_added": 45,
   "statements": [
+    {
+      "register_number": "R007371",
+      "org_name": "Industrieverband Pro-Fusion e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007371/75451",
+      "regulatory_project_title": "Organisation und Steuerung des Ziels Fusionskraftwerk in Deutschland",
+      "sending_date": "2026-03-04",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8d/aa/801111/Stellungnahme-Gutachten-SG2607010040.pdf",
+      "pdf_pages": 33,
+      "sg_number": "SG2607010040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010040",
+      "summary": "Der Industrieverband Pro-Fusion <b>unterstützt</b> die Bundesregierung bei der <b>Strukturierung des Fusions-Ökosystems</b>. Ziel ist die kommerzielle Nutzung der Fusion zur Energiegewinnung. Der Verband fordert hierfür <b>koordinative Maßnahmen</b> sowie die <b>Ausgestaltung finanzieller Förderungen</b>.",
+      "recipients": [
+        "BKAmt",
+        "BMFTR",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Da der Eintrag explizit an das BMWE adressiert ist und die strategische Ausrichtung der Energiewirtschaft betrifft, ist eine Prüfung im Kontext der langfristigen Szenarien und der Transformation des Energiesystems relevant.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006792",
+      "org_name": "VDE Verband der Elektrotechnik Elektronik Informationstechnik e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006792/81955",
+      "regulatory_project_title": "Stellungnahme auf Anfrage des BMWE zum RE FlexBG",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/da/800707/Stellungnahme-Gutachten-SG2607010052.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607010052",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010052",
+      "summary": "Der VDE <b>begrüßt</b> den Gesetzentwurf zur <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>. Er fordert eine <b>technologieoffene Ausgestaltung</b> unter Einbeziehung aller Flexibilisierungsoptionen. Zudem mahnt der Verband <b>vereinfachte Genehmigungen</b> und den Erhalt bestehender Privilegierungen an.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das FlexBG betrifft direkt die Strommarktregulierung, Netzoptimierung und Flexibilisierung, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003793",
+      "org_name": "Iberdrola Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003793/81921",
+      "regulatory_project_title": "Absicherung der Ausbauziele WindSeeG-Novelle",
+      "sending_date": "2026-04-22",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e0/a3/800026/Stellungnahme-Gutachten-SG2607010048.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607010048",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010048",
+      "summary": "Die Akteure <b>fordern</b> eine <b>Optimierung der Rahmenbedingungen</b> für den Offshore-Ausbau. Im Fokus steht dabei die <b>Anpassung des Ausschreibungs-Designs</b>. Ziel ist die verlässliche Absicherung der gesetzlichen Ausbauziele.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Offshore-Windenergie ist ein zentraler Bestandteil der EU-Energiepolitik und der nationalen Ausbauziele, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/81688",
+      "regulatory_project_title": "Änderung des Energiewirtschaftsrechts im Rahmen des Netzpakets (Netzanschluss, Netzausbau und Systemintegration erneuerbarer Energien)",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7c/f4/797816/Stellungnahme-Gutachten-SG2607010008.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607010008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010008",
+      "summary": "Die Akteure <b>lehnen investitionshemmende Regelungen</b> im Netzpaket ab, insbesondere den Redispatch-Vorbehalt. Sie <b>fordern die Stärkung dezentraler Energieprojekte</b>. Zudem wird eine umfassende <b>Reform von Netzanschluss und Netzausbau</b> zur Sicherstellung investitionsfreundlicher Rahmenbedingungen verlangt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzpaket und die Regelungen zu Netzanschluss, Netzausbau und Redispatch sind zentrale Themen der Strommarktregulierung und Versorgungssicherheit.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/81688",
+      "regulatory_project_title": "Ausgestaltung der EEG-Novelle 2027 im Hinblick auf Bürgerbeteiligung, Marktzugang und Systemintegration",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ea/26/797818/Stellungnahme-Gutachten-SG2607010010.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607010010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010010",
+      "summary": "Die Organisation <b>fordert</b> eine <b>investitionsfreundliche Ausgestaltung</b> der EEG-Novelle 2027. Dabei stehen die <b>Sicherung von Bestands- und Vertrauensschutz</b> sowie ein <b>gleichberechtigter Marktzugang</b> für Bürgerenergie im Fokus. Zudem wird eine stärkere <b>Integration von Speichern</b> und eine regionale Ausgewogenheit beim Windkraftausbau angemahnt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zu EEG-Finanzierung, Erneuerbaren Energien (national) und Systemintegration.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002756",
+      "org_name": "Bundesverband des Schornsteinfegerhandwerks - Zentralinnungsverband (ZIV) -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002756/81982",
+      "regulatory_project_title": "Änderungen am Gebäudemodernisierungsgesetz",
+      "sending_date": "2026-06-09",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e8/d4/800700/Stellungnahme-Gutachten-SG2607010060.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607010060",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010060",
+      "summary": "Die Organisation <b>empfiehlt</b> eine zielgerichtete Anpassung des Gebäudemodernisierungsgesetzes zur <b>Sicherstellung des EPBD-Vollzugs</b>. Gefordert wird die <b>Einbindung von Bezirksschornsteinfegern</b> als Prüfinstanz sowie der <b>Aufbau eines nationalen Gebäudekatasters</b>. Ziel ist die Schließung von Vollzugslücken und die Verbesserung der Datengrundlage für die Renovierungsstrategie.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezug zur Wärmewende und Umsetzung der EU-Gebäuderichtlinie (EPBD), relevant für die Sektorkopplung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001164",
+      "org_name": "Bundesverband Erdgas, Erdöl und Geoenergie e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001164/81655",
+      "regulatory_project_title": "Umsetzung der EU-Methanverordnung",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c7/98/797546/Stellungnahme-Gutachten-SG2607010003.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607010003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010003",
+      "summary": "Das BMWE <b>fordert eine praxistaugliche Umsetzung</b> der EU-Methanverordnung, um die <b>Versorgungssicherheit</b> nicht zu gefährden. Kritisiert werden <b>enge Fristen und komplexe Anforderungen</b>, die den Import von Erdgas ab 2027 erschweren könnten. Gleichzeitig wird das Ziel der <b>Reduktion von Methanemissionen</b> unterstützt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EU-Methanverordnung hat direkte Auswirkungen auf die Versorgungssicherheit mit Erdgas und die Klimaschutzziele im Energiesektor.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/81985",
+      "regulatory_project_title": "Änderungsvorschläge zum Windenergie-auf-See-Gesetz (WindSeeG) zur Einführung von CfDs und Optimierung des Offshore-Rechtsrahmens",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/be/bd/800651/Stellungnahme-Gutachten-SG2607010058.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2607010058",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010058",
+      "summary": "Der BDEW <b>fordert eine umfassende Novellierung</b> des WindSeeG zur Steigerung der <b>Investitionssicherheit</b>. Er empfiehlt die <b>Einführung zweiseitiger Differenzverträge (CfDs)</b> als neues Förderinstrument. Zudem wird die <b>gesetzliche Ermöglichung kombinierter Anschlusskonzepte</b> für Offshore-Elektrolyse sowie eine <b>Optimierung der Realisierungsfristen</b> verlangt.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Erneuerbaren Energien, Offshore-Windkraft und die regulatorischen Rahmenbedingungen für die Energiewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007371",
+      "org_name": "Industrieverband Pro-Fusion e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007371/75451",
+      "regulatory_project_title": "Organisation und Steuerung des Ziels Fusionskraftwerk in Deutschland",
+      "sending_date": "2026-01-16",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f2/fc/801109/Stellungnahme-Gutachten-SG2607010036.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607010036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010036",
+      "summary": "(1) Pro-Fusion ist der Industrieverband der deutschen Unternehmen im Bereich der Fusion und ein Kon-\r\nsortium von Interessenvertretern mit der gemeinsamen Vision, dass eine kommerzielle Nutzung der Fu-\r\nsion zur Energiegewinnung zu erheblichen Vorteilen für Umwelt, Gesellschaft und Wirtschaft führt. Der Verband will einen Beitrag zur Weiterentwicklung und Strukturierung der wirtschaftlichen Fusions-Eco-systems leisten. \r\nGemäß diesen Aufgaben und Zwecken möchten wir die Legislative und Executive dahingehend unterstützen, effiziente und effektive Maßnahmen zur Zielerreichung vorzusehen und durchzuführen. \r\nDies betrifft sowohl koordinative Vorgehensweisen, aber auch die Ausgestaltung finanzieller Förderungen.",
+      "recipients": [
+        "BMFTR"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001512",
+      "org_name": "OVID Verband der ölsaatenverarbeitenden Industrie in Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001512/81925",
+      "regulatory_project_title": "EU Entwaldungsverordnung",
+      "sending_date": "2026-06-05",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/18/bc/800042/Stellungnahme-Gutachten-SG2607010049.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607010049",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010049",
+      "summary": "Klärung der entscheidenden Anwendungsfragen und Implementation aller technischen Voraussetzungen den betroffenen Marktbeteiligten noch ausreichend Zeit bleiben muss, die betriebsinternen Vorbereitungen zu treffen und die technische Umsetzung zu gewährleisten.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001243",
+      "org_name": "Verband der Automobilindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001243/81411",
+      "regulatory_project_title": "Überarbeitung der Europäische Chemikalienverordnung zur Registrierung, Bewertung, Zulassung und Beschränkung chemischer Stoffe (REACH-Verordnung)",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d1/f2/800845/Stellungnahme-Gutachten-SG2607010062.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2607010062",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010062",
+      "summary": "Für die Automobilindustrie ist der Einsatz verschiedenster Chemikalien notwendig, um neue Technologien und innovative Werkstoffe zur Anwendung zu bringen und damit die Klimaschutzziele Deutschlands und Europas zu erreichen und wettbewerbsfähige sowie fortschrittliche Automobile herstellen zu können. Der VDA setzt sich für Verbesserungen der bestehenden REACH Verordnung im Hinblick auf den Abbau von Bürokratie, der Vermeidung von unverhältnismäßiger Dokumentation, der Erhöhung der Transparenz bei Entscheidungsprozessen, der stärkeren ministerielle sowie parlamentarische Beteiligung der Industrie bei Stoffbeschränkungen und dem Abbau von Doppelregulierungen sowie der Rückkehr zum risikobasierten Vorgehen bei Stoffbeschränkungen vor. ",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/81789",
+      "regulatory_project_title": "Vorschläge der EU-Kommission zur Integration des europäischen Kapitalmarkts (Market Integration and Supervisory Package - MISP)",
+      "sending_date": "2026-03-04",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/67/30/800692/Stellungnahme-Gutachten-SG2607010055.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2607010055",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010055",
+      "summary": "Es sollen integriertere, tiefere und effizientere EU-Kapitalmärkte gefördert werden, indem regulatorische, aufsichtsrechtliche und operative Hindernisse beseitigt werden, die wichtige Marktteilnehmer und Infrastrukturen behindern. Darüber hinaus soll der Rechtsrahmen im Hinblick auf die Nutzung von DLT modernisiert werden.",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/81789",
+      "regulatory_project_title": "Vorschläge der EU-Kommission zur Integration des europäischen Kapitalmarkts (Market Integration and Supervisory Package - MISP)",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/45/95/800694/Stellungnahme-Gutachten-SG2607010057.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607010057",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010057",
+      "summary": "Es sollen integriertere, tiefere und effizientere EU-Kapitalmärkte gefördert werden, indem regulatorische, aufsichtsrechtliche und operative Hindernisse beseitigt werden, die wichtige Marktteilnehmer und Infrastrukturen behindern. Darüber hinaus soll der Rechtsrahmen im Hinblick auf die Nutzung von DLT modernisiert werden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000962",
+      "org_name": "Interessengemeinschaft Tabakwirtschaft e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000962/81812",
+      "regulatory_project_title": "Tabaksteuergesetz",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/39/bb/798863/Stellungnahme-Gutachten-SG2607010024.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607010024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010024",
+      "summary": "Eine wissenschaftsbasierte Regulierung sollte anerkennen, dass nicht alle Erzeugnisse das gleiche Risikoprofil besitzen und sich am individuellen Risiko der einzelnen Erzeugnisse orientieren. Auch die Tabaksteuer sollte sich am Risikoprofil orientieren: Je schädlicher ein Erzeugnis, desto höher die Steuer.\r\nDies ermutigt Konsumenten auf risikoreduzierte Erzeugnisse umzusteigen und schafft Anreize für Unternehmen, kontinuierlich in Innovation und wissenschaftliche Forschung zu investieren.\r\nErforderliche gesetzliche Anpassungen sollten ausgewogen erfolgen, um den Handlungsspielraum des illegalen Handels mit Nikotinprodukten nicht unnötig zu vergrößern.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000398",
+      "org_name": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure e. V. (BSI)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000398/81969",
+      "regulatory_project_title": "Zollkonflikt zwischen der EU und den USA im Spirituosensektor",
+      "sending_date": "2026-04-16",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c6/40/799805/Stellungnahme-Gutachten-SG2607010043.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607010043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010043",
+      "summary": "Der BSI setzt sich gegen eine belastende Handelspolitik mit wechselseitigen Zöllen auf Spirituosen und für eine Rückkehr zum \"Zero-to-Zero-Zollabkommen\" zwischen der EU und den USA im Spirituosensektor  ein.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007660",
       "org_name": "Unbekannte Organisation",
@@ -25,7 +468,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die regulatorischen Rahmenbedingungen für Stromnetzinfrastruktur, welche für die Versorgungssicherheit und die Energiewende zentral sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007224",
@@ -50,7 +493,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau der Übertragungsnetze und die technologische Ausgestaltung, was für die Umsetzung der Energiewende essenziell ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007224",
@@ -75,7 +518,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau der Übertragungsnetze und die technologische Ausgestaltung, was für die Umsetzung der Energiewende essenziell ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007224",
@@ -100,7 +543,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau der Übertragungsnetze und die technologische Ausgestaltung, was für die Umsetzung der Energiewende essenziell ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007224",
@@ -125,7 +568,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau der Übertragungsnetze und die technologische Ausgestaltung, was für die Umsetzung der Energiewende essenziell ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007224",
@@ -152,7 +595,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau der Übertragungsnetze und die regulatorische Gestaltung der Netzinfrastruktur, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007224",
@@ -179,7 +622,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 1, betrifft die regulatorische Gestaltung der Netzinfrastruktur.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006923",
@@ -204,7 +647,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Energiepreise, Wettbewerbsfähigkeit und Industriestrompreise, welche Kernbereiche der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006923",
@@ -229,7 +672,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Betrifft EU-Beihilferecht, EU-Förderinstrumente und industrielle Wettbewerbsfähigkeit im Energiekontext.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006923",
@@ -258,7 +701,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Rohstoffpolitik ist für die Energiewende und die Versorgungssicherheit (insb. Wasserstoff/Batterien) von hoher Relevanz.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006623",
@@ -287,7 +730,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Synchronisierung von Netzausbau und Anlagenzubau sowie Netzanschlussverfahren, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006623",
@@ -316,7 +759,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau erneuerbarer Energien und Ausschreibungsdesigns, welche unter die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006589",
@@ -345,7 +788,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Netzentgelte sind ein zentraler Bestandteil der Strommarktregulierung und der Kostenstruktur der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006589",
@@ -370,7 +813,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Wärmewende und Sektorkopplung sind relevante Themenfelder der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006589",
@@ -395,7 +838,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Wärmewende und Sektorkopplung sind relevante Themenfelder der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006589",
@@ -422,7 +865,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das StromVKG fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Stromerzeugung & Kraftwerke).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005605",
@@ -447,7 +890,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Netzinfrastruktur und regulatorische Grundlagen für Stromnetze sind Kernaufgaben der Abteilung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004260",
@@ -487,7 +930,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Gebäudeenergieeffizienz und Wärmewende sind zentrale Themen der Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004260",
@@ -520,7 +963,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Gebäudeenergieeffizienz und technische Standards bei der Wärmewende fallen in den Zuständigkeitsbereich.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004260",
@@ -567,7 +1010,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Klimaschutzprogramm betrifft alle Kernbereiche der Energiepolitik des BMWE.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003891",
@@ -593,7 +1036,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Vorhaben betrifft direkt die Ausgestaltung der EEG-Ausschreibungen und die regulatorische Umsetzung des Net Zero Industry Acts im WindSeeG, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003891",
@@ -619,7 +1062,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Vorhaben betrifft direkt die Ausgestaltung der EEG-Ausschreibungen und die regulatorische Umsetzung des Net Zero Industry Acts im WindSeeG, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003891",
@@ -645,7 +1088,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Vorhaben betrifft direkt die Ausgestaltung der EEG-Ausschreibungen und die regulatorische Umsetzung des Net Zero Industry Acts im WindSeeG, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003891",
@@ -672,7 +1115,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Cybersicherheit von Energieinfrastrukturen und Windenergieanlagen ist ein kritischer Aspekt der Versorgungssicherheit im Zuständigkeitsbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003210",
@@ -709,7 +1152,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Versorgungssicherheit und die Ausgestaltung von Notfallinstrumenten im Gasmarkt sind zentrale Themen der Energiepolitik und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003210",
@@ -753,7 +1196,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Versorgungssicherheit und EU-Energiegesetzgebung im Kontext russischer Gasimporte.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003210",
@@ -791,7 +1234,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur Strommarktregulierung und Versorgungssicherheit (StromVKG).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003210",
@@ -836,7 +1279,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Sektorkopplung und Rahmenbedingungen für klimafreundliche Gase.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003210",
@@ -893,7 +1336,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Themenfeld EU-Energiebinnenmarkt und EU-Gesetzgebung sind Kernaufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003210",
@@ -939,7 +1382,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Gesetzgebung und Auswirkungen auf die Erdgasversorgung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003158",
@@ -977,7 +1420,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Emissionshandel (ETS) und Wettbewerbsfähigkeit der Industrie, fällt unter EU-Klimapolitik und Energiepreise.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1010,7 +1453,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1043,7 +1486,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1076,7 +1519,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1109,7 +1552,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1142,7 +1585,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kraftwerksstrategie und Kapazitätsmechanismen, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1175,7 +1618,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kraftwerksstrategie und Kapazitätsmechanismen, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1208,7 +1651,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kraftwerksstrategie und Kapazitätsmechanismen, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1242,7 +1685,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kraftwerksstrategie und Kapazitätsmechanismen, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1275,7 +1718,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kraftwerksstrategie und Kapazitätsmechanismen, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1308,7 +1751,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA hinsichtlich Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1341,7 +1784,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA hinsichtlich Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1375,7 +1818,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA hinsichtlich Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1408,7 +1851,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA hinsichtlich Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1441,7 +1884,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA hinsichtlich Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1466,7 +1909,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Umsetzung des Netzentwicklungsplans und die Anpassung des Bundesbedarfsplans, was direkt in den Bereich der Stromnetze und Versorgungssicherheit fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1491,7 +1934,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 1, betrifft die gesetzliche Verankerung von Netzausbaumaßnahmen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1520,7 +1963,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die EEG-Finanzierung und die Abwicklung von Umlagen, was Kernaufgaben der Abteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1553,7 +1996,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Kostenoptimierung der Energiewende und Netzinfrastruktur, was für die energiepolitische Strategie des BMWE zentral ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1586,7 +2029,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 4, betrifft die Kostenoptimierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1619,7 +2062,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Stromnetzbetrieb, Systemfragen und die Finanzierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1652,7 +2095,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Stromnetzbetrieb, Systemfragen und die Finanzierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1685,7 +2128,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Stromnetzbetrieb, Systemfragen und die Finanzierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1718,7 +2161,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Stromnetzbetrieb, Systemfragen und die Finanzierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1747,7 +2190,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Sicherheit kritischer Energieinfrastrukturen ist ein zentrales Element der Versorgungssicherheit und fällt in den Zuständigkeitsbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1776,7 +2219,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Umsetzung der Energiewende und die Optimierung von Genehmigungsverfahren, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1805,7 +2248,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Umsetzung der Energiewende und die Optimierung von Genehmigungsverfahren, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1834,7 +2277,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Umsetzung der Energiewende und die Optimierung von Genehmigungsverfahren, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -1863,7 +2306,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Umsetzung der Energiewende und die Optimierung von Genehmigungsverfahren, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002716",
@@ -1892,7 +2335,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die AGVO ist zentral für das EU-Beihilferecht im Bereich EE und Klimaschutz, was explizit unter den Themenfeldern der Unterabteilung IIIA gelistet ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002477",
@@ -1929,7 +2372,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt Offshore-Windenergie, Netzinfrastruktur und Wasserstoff, welche Kernbereiche der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002438",
@@ -1954,7 +2397,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das StromVKG ist ein zentrales Vorhaben der Unterabteilung IIIA zur Sicherung der Stromversorgung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002402",
@@ -1983,7 +2426,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Erneuerbare Energien (Offshore) und damit Kernbereiche der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002373",
@@ -2016,7 +2459,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Strommarktdesign, Versorgungssicherheit und Kraftwerksstrategie.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -2053,7 +2496,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Sektorkopplung, Wärmewende und Infrastrukturentwicklung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002202",
@@ -2098,7 +2541,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zu Wasserstoffmarkt, PtX-Technologien und Finanzierungsinstrumenten der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002168",
@@ -2123,7 +2566,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Kernbereich Strommarktdesign, Versorgungssicherheit und Kraftwerksstrategie.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002154",
@@ -2150,7 +2593,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die regulatorischen Rahmenbedingungen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002063",
@@ -2184,7 +2627,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt das Strom-Versorgungssicherheits- und Kapazitätengesetz (StromVKG), welches ein Kernbereich der Strommarktregulierung und Versorgungssicherheit der Unterabteilung IIIA ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002063",
@@ -2217,7 +2660,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das StromVKG betrifft direkt die Versorgungssicherheit Strom, Kraftwerksstrategie und Strommarktdesign, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002063",
@@ -2250,7 +2693,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das StromVKG betrifft direkt die Versorgungssicherheit Strom, Kraftwerksstrategie und Strommarktdesign, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001964",
@@ -2275,7 +2718,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Nationale Gebäuderenovierungsplan betrifft direkt die energetische Modernisierung und Dekarbonisierung des Gebäudebestands, was unter die Themenfelder Klimaschutz und Energieeffizienz der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -2300,7 +2743,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Wasserstoffstrategie und regulatorische Rahmenbedingungen für H2-Speicher, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -2325,7 +2768,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die EU-Finanzmarktregulierung (MiFID/EMIR) hat direkte Auswirkungen auf Energiehandelsgeschäfte und die Wettbewerbsfähigkeit von Energieunternehmen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2354,7 +2797,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anreizregulierung und Finanzierung des Stromnetzausbaus sind zentrale Aufgaben der Abteilung für Strommarktregulierung und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2395,7 +2838,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Kraftwerksstrategie und Kapazitätsmechanismen sind Kernbestandteile der Strommarktregulierung und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2436,7 +2879,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 4, betrifft direkt die strategische Planung der Stromversorgung und Netzstabilität.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2477,7 +2920,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen und die Versorgungssicherheit im Stromsektor.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2518,7 +2961,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen und die Versorgungssicherheit im Stromsektor.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2559,7 +3002,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen und die Versorgungssicherheit im Stromsektor.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2600,7 +3043,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen und die Versorgungssicherheit im Stromsektor.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2642,7 +3085,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen und die Versorgungssicherheit im Stromsektor.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2683,7 +3126,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Versorgungssicherheit, die Kraftwerksstrategie und das Strommarktdesign, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2720,7 +3163,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Finanzierung und Bezahlbarkeit der Energiewende sowie die Effizienz des Netzbetriebs sind zentrale Themen der Abteilung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2749,7 +3192,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Sicherheit kritischer Energieinfrastrukturen ist für die Versorgungssicherheit essenziell.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2779,7 +3222,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch zu Eintrag 3, Relevanz durch den Bezug zur kritischen Energieinfrastruktur gegeben.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -2816,7 +3259,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Offshore-Windenergie und deren Netzanbindung sind zentrale Bestandteile der nationalen Energiepolitik und der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001630",
@@ -2844,7 +3287,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Industriestrompreise und EU-Beihilferecht, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -2873,7 +3316,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Netzausbau und Szenariorahmen NEP, welche zentrale Themen der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -2907,7 +3350,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, Kernaufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -2940,7 +3383,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, Kernaufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -2973,7 +3416,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Kapazitätsmechanismen und Versorgungssicherheit, Kernaufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -3006,7 +3449,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Strommarktregulierung, Netzintegration und Flexibilisierung, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -3043,7 +3486,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Behandelt Finanzierung und Bezahlbarkeit der Energiewende sowie Netzbetrieb, was direkt in den Zuständigkeitsbereich der Abteilung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001531",
@@ -3076,7 +3519,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zu EU-Klimazielen 2040 und Wasserstoff/eFuels, was unter EU-Energiepolitik und Wasserstoffstrategie fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001531",
@@ -3109,7 +3552,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), ein zentrales Thema der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001531",
@@ -3146,7 +3589,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Binnenmarkt, Klimaschutz und Sektorkopplung (Kraftstoffe), was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001512",
@@ -3175,7 +3618,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die IED betrifft die Dekarbonisierung der Energieerzeugung und industrielle Klimaschutzvorgaben, die direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001501",
@@ -3202,7 +3645,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Cybersicherheit von Windenergieanlagen als kritische Infrastruktur ist ein zentrales Thema der Versorgungssicherheit und der Erneuerbaren Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001376",
@@ -3227,7 +3670,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Umsetzung der Erneuerbare-Energien-Richtlinie (REDIII), welche direkt in das Themenfeld EU-Energiepolitik und Erneuerbare Energien fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001354",
@@ -3261,7 +3704,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Redispatch-Regelungen und PPA-Marktbedingungen, welche zentrale Themen der Strommarktregulierung und Erneuerbaren Energien sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001354",
@@ -3300,7 +3743,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EEG-Reformen und Netzanschlusspakete, die direkte Auswirkungen auf den Ausbau erneuerbarer Energien und den PPA-Markt haben.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001348",
@@ -3339,7 +3782,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 3; betrifft EEG-Reformen und PPA-Marktbedingungen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001348",
@@ -3373,7 +3816,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Identisch mit Eintrag 2; betrifft Redispatch-Regelungen und PPA-Marktbedingungen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001281",
@@ -3399,7 +3842,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das StromVKG betrifft direkt die Kraftwerksstrategie und Versorgungssicherheit (Stromerzeugung & Kraftwerke).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001281",
@@ -3424,7 +3867,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Wärmeplanung ist ein zentrales Element der Sektorkopplung und Energiewende, welche in den Zuständigkeitsbereich der Abteilung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001191",
@@ -3461,7 +3904,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Netzausbau, Redispatch und Netzanschlussverfahren sind Kernaufgaben der Strommarktregulierung und Versorgungssicherheit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001191",
@@ -3490,7 +3933,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Erneuerbare-Energien-Gesetzgebung und den Ausbau der Windenergie, was direkt in den Aufgabenbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001190",
@@ -3519,7 +3962,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Versorgungssicherheit Strom und das StromVKG, welche zentrale Themen der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -3552,7 +3995,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die EEG-Novelle und die Integration erneuerbarer Energien in den Strommarkt, was Kernaufgaben der Unterabteilung IIIA darstellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001088",
@@ -3577,7 +4020,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Digitalisierung der Energiewende, Messstellenbetriebsgesetz (MsbG) und die Steuerung von Anlagen, was direkt in die Zuständigkeit der Abteilung für Strommarktregulierung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001063",
@@ -3603,7 +4046,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezieht sich auf die Novellierung des EnWG und die Ausgestaltung von Strommarkt-Plattformen, was Kernaufgaben der Abteilung IIIA darstellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001011",
@@ -3632,7 +4075,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Thematisiert den Ausbau von Photovoltaik-Freiflächenanlagen, der direkt die Erneuerbare-Energien-Politik und Flächennutzung im Kontext der Energiewende betrifft.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001011",
@@ -3675,7 +4118,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Gestaltung des Investitionsrahmens für Erneuerbare Energien und Energiespeicher, was zentral für die Strommarktgestaltung und Energiewende ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001011",
@@ -3700,7 +4143,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Behandelt regulatorische Hürden für dezentrale Energieversorgung und Sektorkopplung, was in den Zuständigkeitsbereich der Abteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001011",
@@ -3725,7 +4168,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Versorgungssicherheit und das Strommarktdesign, zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001011",
@@ -3760,7 +4203,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Netzanschlussverfahren und Netzausbau, essenziell für die Energiewende und Strommarktintegration.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001011",
@@ -3793,7 +4236,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Energieeffizienz ist ein zentrales Handlungsfeld der EU-Energiepolitik und nationalen Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000982",
@@ -3818,7 +4261,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Netzentgeltstruktur und damit die regulatorischen Rahmenbedingungen für Stromerzeuger.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000959",
@@ -3848,7 +4291,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Regulierung zu erneuerbaren Energien und Nachhaltigkeitskriterien (RED), relevant für die EU-Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000959",
@@ -3878,7 +4321,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EU-Nachhaltigkeitskriterien für erneuerbare Energien (RED), die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000959",
@@ -3913,7 +4356,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Fällt unter EU-Energieszenarien und EU-Zielarchitektur 2030/2040 sowie Erneuerbare-Energien-Richtlinie (RED).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000958",
@@ -3946,7 +4389,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Energiepreise, Wettbewerbsfähigkeit und klimarelevante Abgaben, die für die Unterabteilung IIIA relevant sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000958",
@@ -3972,7 +4415,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zum Clean Industrial Deal und zur Wettbewerbsfähigkeit im EU-Binnenmarkt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000958",
@@ -4000,7 +4443,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Strommarktregulierung, Energiepreise und EU-Beihilferecht.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -4037,7 +4480,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Gas- und Wasserstoffnetzplanung sowie regulatorische Rahmenbedingungen für erneuerbare Gase.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -4066,7 +4509,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Industriestrompreise und EU-Beihilferahmen (CISAF).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4107,7 +4550,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Kraftwerksstrategie, Versorgungssicherheit und Kapazitätsmechanismen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4140,7 +4583,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Strommarktdesign, Flexibilisierung und Speichertechnologien, die für die Versorgungssicherheit und das Stromsystem relevant sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4171,7 +4614,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "PFAS-Beschränkungen haben erhebliche Auswirkungen auf die industrielle Transformation, insbesondere bei Elektrolyseuren und Komponenten der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4206,7 +4649,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das GEG und die Waermewende sind zentrale Bestandteile der Energiepolitik und Sektorkopplung, die in den Aufgabenbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4242,7 +4685,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das GEG und die Waermewende sind zentrale Bestandteile der Energiepolitik und Sektorkopplung, die in den Aufgabenbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4277,7 +4720,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das GEG und die Waermewende sind zentrale Bestandteile der Energiepolitik und Sektorkopplung, die in den Aufgabenbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4312,7 +4755,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das GEG und die Waermewende sind zentrale Bestandteile der Energiepolitik und Sektorkopplung, die in den Aufgabenbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4341,7 +4784,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das New Legislative Framework betrifft die EU-Binnenmarktregulierung und technische Standards, die für die Energiebranche und den Anlagenbau relevant sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4366,7 +4809,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "CBAM ist ein zentrales Instrument der EU-Klimapolitik und hat direkte Auswirkungen auf die Wettbewerbsfähigkeit der deutschen Industrie im EU-Binnenmarkt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4391,7 +4834,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "CBAM ist ein zentrales Instrument der EU-Klimapolitik und hat direkte Auswirkungen auf die Wettbewerbsfähigkeit der deutschen Industrie im EU-Binnenmarkt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4417,7 +4860,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "EEG und WindSeeG sind Kerninstrumente der nationalen Erneuerbare-Energien-Politik und fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4442,7 +4885,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der CRMA betrifft die Rohstoffversorgung für die Energiewende und den Clean Industrial Deal, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000802",
@@ -4476,7 +4919,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket ist zentral für die Stromversorgungssicherheit und den Ausbau erneuerbarer Energien, beides Kernaufgaben der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000795",
@@ -4505,7 +4948,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "CBAM ist ein zentrales Instrument der EU-Klimapolitik und des EU-Binnenmarktes, was direkt die Wettbewerbsfähigkeit der Industrie und die EU-Energiepolitik berührt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -4534,6 +4977,106 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Flexibilisierung und Versorgungssicherheit, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R003029",
+      "org_name": "Orsted Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003029/81367",
+      "regulatory_project_title": "Novellierung WindSeeG",
+      "sending_date": "2026-04-22",
+      "upload_date": "2026-06-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d3/23/800369/Stellungnahme-Gutachten-SG2606300419.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606300419",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606300419",
+      "summary": "Die Organisation <b>kritisiert eine Regelungslücke</b> bei der <b>Rückgabe von bezuschlagten Flächen</b> im Rahmen der Novellierung des WindSeeG. Sie fordert eine präzisere gesetzliche Ausgestaltung für diesen Prozess. Dies soll die Planungssicherheit für Offshore-Windprojekte erhöhen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft Erneuerbare Energien (Offshore) und regulatorische Rahmenbedingungen für Flächenvergabe.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003029",
+      "org_name": "Orsted Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003029/81367",
+      "regulatory_project_title": "Vertrauensschutz und Investitionssicherheit mit künftiger Netzentgeltsystematik sicherstellen",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/77/33/800371/Stellungnahme-Gutachten-SG2606300420.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606300420",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606300420",
+      "summary": "Die Organisation <b>fordert den Vertrauensschutz</b> bei der <b>künftigen Netzentgeltsystematik</b>. Sie mahnt an, dass Investitionssicherheit für die Energiewende zwingend gewährleistet bleiben muss. Die Anpassung der Entgelte soll die wirtschaftliche Stabilität der Akteure nicht gefährden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft Strommarktregulierung und Investitionssicherheit für Netzinfrastruktur.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002297",
+      "org_name": "EnBW Energie Baden-Württemberg AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002297/81625",
+      "regulatory_project_title": "EU-Zölle auf grüne Ammoniakimporte",
+      "sending_date": "2026-04-17",
+      "upload_date": "2026-06-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8c/f4/798728/Stellungnahme-Gutachten-SG2606300423.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2606300423",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606300423",
+      "summary": "Die Organisation <b>beantragt die permanente Abschaffung</b> von <b>EU-Importzöllen</b> auf grüne Ammoniakimporte. Der aktuelle Zollsatz von 5,5 % wird als Hemmnis für den Aufbau einer grünen Wasserstoffwirtschaft gesehen. Eine Befreiung soll die Wettbewerbsfähigkeit importierter Energieträger verbessern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft EU-Energiepolitik, Wasserstoffmarkt und Importbedingungen für Energieträger.",
       "gemini_status": "processed"
     },
     {
@@ -5594,6 +6137,56 @@
         {
           "code": "FOI_EU_DOMESTIC_MARKET",
           "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001243",
+      "org_name": "Verband der Automobilindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001243/81411",
+      "regulatory_project_title": "Überarbeitung der Europäische Chemikalienverordnung zur Registrierung, Bewertung, Zulassung und Beschränkung chemischer Stoffe (REACH-Verordnung)",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-06-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a2/f1/789925/Stellungnahme-Gutachten-SG2606300146.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2606300146",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606300146",
+      "summary": "Für die Automobilindustrie ist der Einsatz verschiedenster Chemikalien notwendig, um neue Technologien und innovative Werkstoffe zur Anwendung zu bringen und damit die Klimaschutzziele Deutschlands und Europas zu erreichen und wettbewerbsfähige sowie fortschrittliche Automobile herstellen zu können. Der VDA setzt sich für Verbesserungen der bestehenden REACH Verordnung im Hinblick auf den Abbau von Bürokratie, der Vermeidung von unverhältnismäßiger Dokumentation, der Erhöhung der Transparenz bei Entscheidungsprozessen, der stärkeren ministerielle sowie parlamentarische Beteiligung der Industrie bei Stoffbeschränkungen und dem Abbau von Doppelregulierungen sowie der Rückkehr zum risikobasierten Vorgehen bei Stoffbeschränkungen vor. ",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001243",
+      "org_name": "Verband der Automobilindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001243/81411",
+      "regulatory_project_title": "Überarbeitung der Europäische Chemikalienverordnung zur Registrierung, Bewertung, Zulassung und Beschränkung chemischer Stoffe (REACH-Verordnung)",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-06-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/50/ed/789927/Stellungnahme-Gutachten-SG2606300147.pdf",
+      "pdf_pages": 21,
+      "sg_number": "SG2606300147",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606300147",
+      "summary": "Für die Automobilindustrie ist der Einsatz verschiedenster Chemikalien notwendig, um neue Technologien und innovative Werkstoffe zur Anwendung zu bringen und damit die Klimaschutzziele Deutschlands und Europas zu erreichen und wettbewerbsfähige sowie fortschrittliche Automobile herstellen zu können. Der VDA setzt sich für Verbesserungen der bestehenden REACH Verordnung im Hinblick auf den Abbau von Bürokratie, der Vermeidung von unverhältnismäßiger Dokumentation, der Erhöhung der Transparenz bei Entscheidungsprozessen, der stärkeren ministerielle sowie parlamentarische Beteiligung der Industrie bei Stoffbeschränkungen und dem Abbau von Doppelregulierungen sowie der Rückkehr zum risikobasierten Vorgehen bei Stoffbeschränkungen vor. ",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
         }
       ],
       "priority": 2,
@@ -7100,7 +7693,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Offshore-Windkraft und deren Ausschreibungsdesign sind zentrale Bestandteile der Erneuerbaren-Energien-Politik und der Netzplanung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005531",
@@ -7127,7 +7720,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Energieeffizienz im Gebäudesektor und das GEG sind relevante Themenfelder der Energiewende und Sektorkopplung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005342",
@@ -7156,7 +7749,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zur Energieeffizienz und Wärmewende im Gebäudesektor.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002296",
@@ -7191,7 +7784,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zu Wasserstoffinfrastruktur, Markthochlauf und Dekarbonisierung der Industrie.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002296",
@@ -7222,7 +7815,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zu EU-Klimapolitik, Wettbewerbsfähigkeit und Carbon Leakage.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002296",
@@ -7253,7 +7846,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zu Klimaschutz, industrieller Transformation und EU-Regulierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002287",
@@ -7278,7 +7871,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das GEG betrifft die energetische Gebäudeeffizienz und Sektorkopplung, was direkt in den Bereich Klimaschutz & Energiewende der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002184",
@@ -7304,7 +7897,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die CO2-Flottengrenzwerte haben direkte Auswirkungen auf die Sektorkopplung (Strom/Verkehr) und die Ladeinfrastruktur, welche für die Energiewende relevant sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002184",
@@ -7331,7 +7924,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Identisch zu Eintrag 3; die Thematik der Sektorkopplung und Ladeinfrastruktur ist für die Unterabteilung IIIA relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002184",
@@ -7357,7 +7950,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Regulierung von Unternehmensflotten berührt die Sektorkopplung und den Strombedarf durch E-Mobilität, was in den Bereich Klimaschutz & Energiewende fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001562",
@@ -7386,7 +7979,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die CSRD/CSDDD-Berichterstattung ist für die Transformation der Energiewirtschaft und die Finanzierung von Klimaschutzmaßnahmen (ESG-Kriterien) hochrelevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001063",
@@ -7411,7 +8004,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Energy Sharing und Netzzugangsprozesse sind zentrale Bestandteile der Strommarktregulierung und der Energiewende (EnWG).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007457",
@@ -11170,7 +11763,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Gebäudeenergiegesetz (GEG) ist für die Sektorkopplung und die Wärmewende zentral und fällt in den Zuständigkeitsbereich der Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003335",
@@ -11199,7 +11792,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zur EU-Gebäuderichtlinie (EPBD) und energetischen Sanierung im Kontext der Wärmewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002111",
@@ -12584,7 +13177,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur Kraftwerksstrategie und Versorgungssicherheit (Stromerzeugung & Kraftwerke).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001054",
@@ -12613,7 +13206,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zu EU-Industriepolitik, Low-Carbon-Kriterien und Förderinstrumenten für die Transformation.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002090",
@@ -14198,6 +14791,37 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt den Wasserstoffhochlauf, die Finanzierung des Wasserstoffkernnetzes und die Umsetzung des EU-Gaspakets, was Kernaufgaben der Unterabteilung IIIA sind.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R006183",
+      "org_name": "Miele & Cie. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006183/79324",
+      "regulatory_project_title": "Weiterentwicklung des CO2-Grenzausgleichsmechanismus ",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/56/d0/797689/Stellungnahme-Gutachten-SG2606220087.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606220087",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606220087",
+      "summary": "Miele <b>setzt sich für eine Erweiterung</b> des CBAM-Anwendungsbereichs auf <b>komplexe Produkte</b> wie Haushaltsgeräte ein. Zudem wird ein <b>Ausgleich für die Wettbewerbsfähigkeit</b> von EU-Exporten gefordert, um den steigenden CO2-Preisen entgegenzuwirken. Ziel ist die Förderung einer saubereren industriellen Produktion.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Bezug zu EU-Klimapolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt und industrieller Dekarbonisierung.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R004605",
@@ -16344,6 +16968,43 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R004297",
+      "org_name": "Gesellschaft für Alternative Ingenieurtechnische Anwendungen (GAIA) mbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004297/77609",
+      "regulatory_project_title": "Weiterentwicklung der rechtlichen Rahmenbedingungen für den Ausbau der Erneuerbaren Energien (Windenergie, Netze, Flächen, Strommarkt)",
+      "sending_date": "2026-06-17",
+      "upload_date": "2026-06-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/40/a7/798665/Stellungnahme-Gutachten-SG2606170031.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2606170031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606170031",
+      "summary": "Das Vorhaben <b>zielt auf die Weiterentwicklung</b> der gesetzlichen Rahmenbedingungen für den <b>Ausbau Erneuerbarer Energien</b> ab. Im Fokus stehen die <b>Beschleunigung von Genehmigungsverfahren</b>, die Flexibilisierung der Stromnetze sowie eine Reform des Strommarktdesigns. Ziel ist der Abbau von Hemmnissen und die Sicherung stabiler Investitionsbedingungen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zu Erneuerbaren Energien, Strommarktdesign und Netzausbau.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R007116",
       "org_name": "Bundesverband der deutschen Fischindustrie und des Fischgroßhandels e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R007116/79495",
@@ -18111,7 +18772,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt den Aufbau des Wasserstoffkernnetzes, die Transformation der Gasnetze und die regulatorischen Rahmenbedingungen (EnWG), welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003022",
@@ -18740,7 +19401,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Stärkung des EU-Binnenmarktes und europäischer Wertschöpfungsketten im Kontext industrieller Strategien ist für die EU-Energiepolitik und Wettbewerbsfähigkeit (Clean Industrial Deal) hochrelevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004333",
@@ -19902,6 +20563,448 @@
       "priority": 1,
       "gemini_relevanz": "Betrifft die Steuerung von Erzeugungsanlagen und die Optimierung des Netzbetriebs, was direkt in die Zuständigkeit der Strommarktregulierung und Erneuerbare-Energien-Politik fällt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Biogas-Privilegierungen in BauGB praxistauglich verankern & Satelliten-BHKW/Cluster rechtssicher ermöglichen.",
+      "sending_date": "2026-02-24",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3a/20/797962/Stellungnahme-Gutachten-SG2606100012.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2606100012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100012",
+      "summary": "Der FvB <b>begrüßt die Entfristung</b> von § 246d BauGB, <b>kritisiert jedoch bestehende Hemmnisse</b> für Biogasprojekte im Außenbereich. Der Verband <b>fordert eine Neufassung</b> der Regelungen für Satelliten-BHKW sowie die <b>Privilegierung von Wärmespeichern</b> und Leitungsinfrastruktur. Ziel ist die rechtssichere Ermöglichung von Biogas-Clustern und eine höhere Vollzugssicherheit.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezug zu Erneuerbaren Energien und Sektorkopplung (Biogas/Wärme).",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Biogas-Privilegierungen in BauGB praxistauglich verankern & Satelliten-BHKW/Cluster rechtssicher ermöglichen.",
+      "sending_date": "2026-04-29",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/af/88/797964/Stellungnahme-Gutachten-SG2606100015.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2606100015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100015",
+      "summary": "Der FvB <b>begrüßt die Entfristung</b> von § 246d BauGB, <b>kritisiert jedoch bestehende Hemmnisse</b> für Biogasprojekte im Außenbereich. Der Verband <b>fordert eine Neufassung</b> der Regelungen für Satelliten-BHKW sowie die <b>Privilegierung von Wärmespeichern</b> und Leitungsinfrastruktur. Ziel ist die rechtssichere Ermöglichung von Biogas-Clustern und eine höhere Vollzugssicherheit.",
+      "recipients": [
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezug zu Erneuerbaren Energien und Sektorkopplung (Biogas/Wärme).",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Ausschreibungsvolumen deutlich erhöhen & Flexibilisierung/Netzanschlussregeln für Biogas wirksam verbessern.",
+      "sending_date": "2026-03-30",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/88/fe/797966/Stellungnahme-Gutachten-SG2606100014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606100014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100014",
+      "summary": "Der Verband <b>fordert eine deutliche Erhöhung</b> der Ausschreibungsvolumina für Biomasse auf 2.500 MW/a sowie eine <b>Anpassung der Flexibilitätszuschläge</b>. Zudem wird die <b>Streichung des Maisdeckels</b> und eine verpflichtende Einführung flexibler Netzanschlussvereinbarungen verlangt. Ziel ist die Sicherung der Biomasse-Stromerzeugung und eine effiziente Umrüstung der Anlagen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezug zu Erneuerbaren Energien, EEG-Finanzierung und Flexibilisierung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Anwendungsbereich in AbwV strikt auf IED-Fälle begrenzen & keine Zusatzpflichten über EU-Vorgaben",
+      "sending_date": "2026-03-26",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/73/797968/Stellungnahme-Gutachten-SG2606100013.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2606100013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100013",
+      "summary": "Der FvB <b>kritisiert den Entwurf</b> zur Änderung der Abwasserverordnung aufgrund einer zu weiten Auslegung des Anwendungsbereichs für Vergärungsanlagen. Er <b>fordert eine strikte Begrenzung</b> auf IED-Tätigkeiten, um Doppelregulierungen zu vermeiden. Zudem wird eine <b>enge Anlehnung der Einleitparameter</b> an die BVT-Vorgaben verlangt.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft regulatorische Rahmenbedingungen für Biogasanlagen und deren Einordnung in das Immissionsschutzrecht, was die Sektorkopplung und Erneuerbare Energien berührt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Bioenergie stärker einbeziehen in Ausschreibungsdesign des StromVGK",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9b/da/797970/Stellungnahme-Gutachten-SG2606100030.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2606100030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100030",
+      "summary": "Die Bioenergieverbände <b>bewerten den Entwurf</b> zum Strom-Versorgungssicherheitsrecht aufgrund fehlender Höchstgebotswerte eingeschränkt. Sie <b>fordern eine Bio-Treppe</b> als Mindestanteil für erneuerbare Gase statt starrer CO2-Grenzwerte. Zudem soll die <b>Nutzung bestehender Standorte</b> für Biogas/Biomethan zur Flexibilisierung ermöglicht werden.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zur Kraftwerksstrategie und zum Strommarktdesign (Kapazitätsmechanismen), zentrale Themen der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Umsetzung des europäischen Gaspakets muss Biomethanausbau fördern",
+      "sending_date": "2026-04-21",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/d0/797972/Stellungnahme-Gutachten-SG2606100029.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2606100029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100029",
+      "summary": "Das HBB <b>kritisiert den Entwurf</b> zur Umsetzung des EU-Gaspakets, da Kündigungsoptionen für Netzanschlüsse Investitionen in Biomethan gefährden. Der Verband <b>fordert einen verlängerten Bestandsschutz</b> für Anlagen sowie eine Ausgleichsregelung bei Kündigungen. Zudem sollen <b>Netzentwicklungspläne</b> konsequent auf erneuerbare Gas-Potenziale ausgerichtet werden.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung des EU-Gas- und Wasserstoffbinnenmarktpakets sowie die Infrastrukturplanung für erneuerbare Gase.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Biomasse-Deckel in Wärmenetzen streichen & grünes Methan in der Wärmeplanung ohne Sonderhürden ermöglichen.",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a9/21/797974/Stellungnahme-Gutachten-SG2606100031.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2606100031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100031",
+      "summary": "Das HBB <b>kritisiert den Entwurf</b> zur WPG-Novelle wegen der strukturellen Unterschätzung leitungsgebundener Wärme im ländlichen Raum. Es <b>fordert die Streichung pauschaler Biomassebegrenzungen</b> in Wärmenetzen. Zudem soll der <b>Abbau unverhältnismäßiger Anforderungen</b> für grünes Methan die Nutzung in der Wärmeplanung erleichtern.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Berührt die Wärmeplanung und die Rolle biogener Energieträger in der Wärmewende, relevant für die Sektorkopplung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Bio-Treppe im GModG muss jährlich anwachsen & unnötige Restriktionen für Biomasse im Ordnungsrecht streichen.",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/34/797976/Stellungnahme-Gutachten-SG2606100032.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2606100032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100032",
+      "summary": "Die Bioenergieverbände <b>begrüßen das Ziel</b> eines flexibleren Rechtsrahmens, kritisieren jedoch die Regelungslücke bei der Bio-Treppe für neue Heizungen. Sie <b>fordern eine jährliche Steigerung</b> der Bio-Treppe bis zum vollständigen Erreichen im Jahr 2045. Des Weiteren wird die <b>Anpassung von Emissionswerten</b> und Förderbedingungen für Biomethan verlangt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft das Gebäudeenergiegesetz (GEG) und die Integration erneuerbarer Gase in den Wärmesektor.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Bioenergie stärker einbeziehen in Ausschreibungsdesign des StromVGK",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0d/67/799493/Stellungnahme-Gutachten-SG2606100007.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2606100007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100007",
+      "summary": "Die Verbände <b>kritisieren</b> den Entwurf zum Strom-Versorgungssicherheitsrecht und <b>fordern Anpassungen</b> beim Ausschreibungsdesign. Sie bemängeln das Fehlen eines realistischen Höchstgebotswerts und lehnen starre CO2-Grenzwerte ab. Stattdessen wird eine <b>Bio-Treppe</b> für erneuerbare Gase sowie der Erhalt von Biogas-Standorten zur Flexibilisierung des Stromsystems vorgeschlagen.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Kraftwerksstrategie und das Strommarkt-Design, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Vorschlag einer Nachfolgeregelung zur Gasnetzzugangsverordnung",
+      "sending_date": "2026-03-05",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/30/b4/799495/Stellungnahme-Gutachten-SG2606100005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2606100005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100005",
+      "summary": "Das HBB <b>schlägt Kernelemente</b> für eine Nachfolgeregelung zur Gasnetzzugangsverordnung vor, um Biomethaneinspeiseprojekte zu fördern. Gefordert werden ein <b>Kostendeckel für Einspeiser</b> sowie eine differenzierte Kostenteilung bei Netzverstärkungen. Zudem wird die <b>Fortführung der Kostenwälzung</b> für Biogas-Netzanschlüsse angemahnt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Gasnetzinfrastruktur und regulatorische Rahmenbedingungen für erneuerbare Gase, relevant für die Sektorkopplung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Umsetzung des europäischen Gaspakets muss Biomethanausbau fördern",
+      "sending_date": "2026-04-21",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a2/8a/799497/Stellungnahme-Gutachten-SG2606100006.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2606100006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100006",
+      "summary": "Das HBB <b>kritisiert</b> den Entwurf zur Umsetzung des EU-Gaspakets und <b>warnt vor Investitionsunsicherheit</b> durch Kündigungsrechte bei Biomethan-Netzanschlüssen. Es wird gefordert, den <b>Bestandsschutz</b> für Anlagen zu verlängern und Ausgleichsregelungen bei Trennungen zu schaffen. Zudem sollen Netzentwicklungspläne verstärkt <b>erneuerbare Gas-Potenziale</b> berücksichtigen.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung des EU-Gas- und Wasserstoffbinnenmarktpakets, ein zentrales Themenfeld der EU-Energiepolitik.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Biomasse-Deckel in Wärmenetzen streichen & grünes Methan in der Wärmeplanung ohne Sonderhürden ermöglichen.",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9d/d2/799499/Stellungnahme-Gutachten-SG2606100008.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2606100008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100008",
+      "summary": "Das HBB <b>kritisiert</b> den Entwurf zur WPG-Novelle und <b>fordert die Streichung</b> pauschaler Biomasse-Begrenzungen in Wärmenetzen. Zudem wird der <b>Abbau von Hürden</b> für grünes Methan in der Wärmeplanung verlangt. Weiterhin wird eine <b>Präzisierung der Holzbiomasse-Definition</b> sowie die Einstufung von biogenem Wasserstoff als EE-Energieträger angestrebt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Wärmeplanung und Sektorkopplung, welche für die Energiewende und das BMWE relevant sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Bio-Treppe im GModG muss jährlich anwachsen & unnötige Restriktionen für Biomasse im Ordnungsrecht streichen.",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ca/28/799501/Stellungnahme-Gutachten-SG2606100009.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2606100009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606100009",
+      "summary": "Die Verbände <b>begrüßen</b> das Ziel einer flexibleren Gebäudeenergie-Regulierung, <b>kritisieren</b> jedoch die aktuelle Ausgestaltung der Bio-Treppe. Sie fordern eine <b>jährliche Steigerung</b> der Bio-Treppe bis zum vollständigen Einsatz erneuerbarer Gase 2045. Zudem wird die <b>Nicht-Anrechenbarkeit</b> bereits im Ausland geförderter Importe sowie eine Anpassung der Emissionswerte gefordert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Gebäudeenergieeffizienz und den Einsatz erneuerbarer Energien im Wärmesektor.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R003753",
@@ -21125,7 +22228,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Neuregelung der EEG-Förderung und der Netzanschlussbedingungen sind zentrale Aufgaben der Unterabteilung IIIA im Bereich Erneuerbare Energien und Energienetze.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003839",
@@ -22736,7 +23839,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft direkt die Strommarktregulierung, Versorgungssicherheit und die Kraftwerksstrategie der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001998",
@@ -26333,7 +27436,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Umsetzung der Erneuerbare-Energien-Richtlinie (RED III) und die Regulierung von Biokraftstoffen im Rahmen der Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007206",
@@ -26364,7 +27467,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die regulatorischen Rahmenbedingungen für erneuerbare Energien und die Betrugsprävention bei Nachhaltigkeitszertifikaten.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R008020",
@@ -29843,7 +30946,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zur EU-Gesetzgebung und regulatorischen Rahmenbedingungen für Unternehmen im Kontext der Nachhaltigkeit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -29873,7 +30976,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zum EnWG, Stromnetzen und der Förderung von Energiegenossenschaften.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007116",
@@ -30971,7 +32074,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Weiterentwicklung des Redispatch-Rechtsrahmens und die regulatorische Behandlung dezentraler Erzeugungsstrukturen (Strommarktregulierung).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003266",
@@ -49924,6 +51027,278 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Biomasse diskriminierungsfrei nutzen & Förderrahmen für erneuerbare Wärme sichern",
+      "sending_date": "2026-01-05",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/64/bf/797950/Stellungnahme-Gutachten-SG2603120027.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2603120027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120027",
+      "summary": "Die Verbände <b>fordern die Fortführung</b> bewährter Regelungen zur <b>Sicherung erneuerbarer Wärme</b> und die Streichung diskriminierender Vorgaben für Biomasse. Erneuerbare Wärmequellen sollen <b>technologieoffen genutzt</b> werden können. Zudem wird verlangt, Anlagen zur Erzeugung erneuerbarer Gase als im überragenden öffentlichen Interesse einzustufen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft direkt die Energiepolitik, erneuerbare Wärme und regulatorische Rahmenbedingungen für Biomasse, die in den Zuständigkeitsbereich des BMWE fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Bioenergie als systemrelevanten, technologieoffenen Klimaschutzbaustein in allen Sektoren regulatorisch stärken und diskriminierungsfrei fördern.",
+      "sending_date": "2026-01-13",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/57/1f/797954/Stellungnahme-Gutachten-SG2603120030.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2603120030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120030",
+      "summary": "Die Verbände <b>fordern eine stärkere Einbindung</b> von Bioenergie als <b>technologieoffenen Klimaschutzbaustein</b> in allen Sektoren. Im Wärmebereich und bei industrieller Prozesswärme sollen regulatorische Restriktionen abgebaut werden. Zudem wird eine <b>Reform des EEG</b> sowie eine finanzielle Unterstützung für Negativemissionen durch BECCS/BECCU verlangt.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Behandelt die regulatorische Stärkung von Bioenergie in Strom-, Wärme- und Verkehrssektoren, was zentrale Themen der Energiepolitik und Sektorkopplung berührt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Bioenergie muss in allen energiepolitischen Regelwerken diskriminierungsfrei und technologieoffen behandelt werden.",
+      "sending_date": "2026-01-13",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4e/32/797956/Stellungnahme-Gutachten-SG2603120031.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2603120031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120031",
+      "summary": "Die Verbände <b>kritisieren regulatorische Benachteiligungen</b> von Bioenergie in zentralen energiepolitischen Regelwerken. Sie <b>fordern ein diskriminierungsfreies Level-Playing-Field</b> für Bioenergie in den Bereichen Wärme, Strom und Verkehr. Dabei werden insbesondere restriktive Primärenergiefaktoren und Förderausschlüsse als Hemmnisse identifiziert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Adressiert die energiepolitische Behandlung von Bioenergie in zentralen Regelwerken wie GEG, WPG und BEHG, was direkt in den Aufgabenbereich des BMWE fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Bestandsschutz sichern und nachhaltig erzeugtes Biomethan vollständig von unnötigen Emissionshandels- und Berichtspflichten befreien.",
+      "sending_date": "2026-01-30",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/08/99/797958/Stellungnahme-Gutachten-SG2603120032.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2603120032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120032",
+      "summary": "Die Verbände <b>fordern eine praxisnahe Umsetzung</b> der RED III sowie die <b>Sicherung des Bestandsschutzes</b> für Biogasanlagen im Rahmen des Emissionshandels. Die starre THG-Minderungsschwelle wird abgelehnt und stattdessen die Nutzung zertifizierter Realwerte vorgeschlagen. Zudem wird die <b>Befreiung von Berichtspflichten</b> für nachhaltiges Biomethan verlangt.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Umsetzung der RED III, Emissionshandel (ETS) und Berichtspflichten für Biomethan, was Kernbereiche der EU-Energiepolitik und nationalen Umsetzung darstellt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/70801",
+      "regulatory_project_title": "Düngegesetz praxistauglich reformieren: EU-konform, verursachergerecht und ohne zusätzliche Bürokratie für Biogasanlagen.",
+      "sending_date": "2026-02-06",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7e/8d/797960/Stellungnahme-Gutachten-SG2603120033.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2603120033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120033",
+      "summary": "Der Fachverband Biogas <b>begrüßt die Anpassung</b> des Düngegesetzes, <b>warnt jedoch vor zusätzlicher Bürokratie</b>. Er fordert eine <b>verursachergerechte Ausgestaltung</b> ohne unnötige Dokumentationspflichten. Zudem wird die Anerkennung freiwilliger Qualitätssicherungssysteme sowie eine <b>Praxistauglichkeit beim Monitoring</b> angemahnt.",
+      "recipients": [
+        "BMLEH",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft regulatorische Rahmenbedingungen für Biogasanlagen und damit die Erneuerbare-Energien-Infrastruktur sowie Monitoring-Vorgaben.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Bioenergie als systemrelevanten, technologieoffenen Klimaschutzbaustein in allen Sektoren regulatorisch stärken und diskriminierungsfrei fördern.",
+      "sending_date": "2026-01-13",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e6/40/799485/Stellungnahme-Gutachten-SG2603120012.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2603120012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120012",
+      "summary": "Die Bioenergieverbände <b>fordern eine stärkere Einbindung</b> der Bioenergie in das Klimaschutzprogramm. Sie verlangen die <b>Streichung regulatorischer Restriktionen</b> in GEG und WPG sowie eine <b>Reform des EEG</b>. Zudem wird eine finanzielle Unterstützung für <b>Negativemissionen durch BECCS/BECCU</b> angestrebt.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zu EEG-Reformen, Sektorkopplung, Wärmewende und industrieller Prozesswärme.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Bioenergie muss in allen energiepolitischen Regelwerken diskriminierungsfrei und technologieoffen behandelt werden.",
+      "sending_date": "2026-01-13",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f4/d7/799487/Stellungnahme-Gutachten-SG2603120013.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2603120013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120013",
+      "summary": "Die Bioenergieverbände <b>kritisieren regulatorische Benachteiligungen</b> der Bioenergie in zentralen energiepolitischen Regelwerken. Sie <b>fordern ein diskriminierungsfreies Level-Playing-Field</b> für Bioenergie in den Sektoren Wärme, Strom und Verkehr. Dabei werden insbesondere <b>restriktive Primärenergiefaktoren</b> und Förderausschlüsse bemängelt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Adressiert direkt das BMWE und betrifft zentrale energiepolitische Regelwerke wie GEG, WPG und EEW.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/73687",
+      "regulatory_project_title": "Bestandsschutz sichern und nachhaltig erzeugtes Biomethan vollständig von unnötigen Emissionshandels- und Berichtspflichten befreien.",
+      "sending_date": "2026-01-30",
+      "upload_date": "2026-03-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b1/cc/799489/Stellungnahme-Gutachten-SG2603120014.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2603120014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603120014",
+      "summary": "Die Bioenergieverbände <b>fordern eine praxisnahe Umsetzung</b> der RED III und die <b>Sicherung des Bestandsschutzes</b> für Biogasanlagen. Sie kritisieren die 70-Prozent-THG-Minderungsschwelle als marktfremd und <b>verlangen die Befreiung</b> von Emissionshandels- und Berichtspflichten für nachhaltiges Biomethan. Statt starrer Schwellen sollen <b>zertifizierte Realwerte</b> maßgeblich sein.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft Emissionshandel (EU-ETS), RED III-Umsetzung und damit zentrale EU-Energiepolitik.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R007027",
       "org_name": "badenova AG & Co. KG",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R007027/76688",
@@ -51119,7 +52494,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EEG-Anpassungen, Bürgerenergie und Netzanschlussfragen, die direkt in den Zuständigkeitsbereich der Abteilung fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -51153,7 +52528,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft EEG-Anpassungen, Bürgerenergie und Netzanschlussfragen, die direkt in den Zuständigkeitsbereich der Abteilung fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -51183,7 +52558,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Energiewirtschaftsgesetz (EnWG) ist zentraler Bestandteil der Strommarktregulierung und Versorgungssicherheit, die in den Themenfeldern der Unterabteilung IIIA verankert sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007880",
@@ -51312,6 +52687,30 @@
         {
           "code": "FOI_EU_LAWS",
           "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R005008",
+      "org_name": "OceanCare",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005008/73364",
+      "regulatory_project_title": "Einführung/Umsetzung des UNO Hochseeschutzabkommens ",
+      "sending_date": "2026-02-23",
+      "upload_date": "2026-03-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/06/801137/Stellungnahme-Gutachten-SG2603050032.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2603050032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603050032",
+      "summary": "Zweck des Vorhabens ist die Ratifizierung und Umsetzung des Hochseeschutzabkommens (BBNJ-Abkommen). OceanCare setzt sich für die baldige Ratifizierung und effektive Umsetzung des Abkommens in Deutschland ein, insbesondere, aber nicht ausschließlich, mit Blick auf die Bestimmungen zu den im Vertrag vorgesehenen Umweltverträglichkeitsprüfungen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
         }
       ],
       "priority": 2,
@@ -57809,7 +59208,32 @@
       ],
       "priority": 3,
       "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006201",
+      "org_name": "DGSV Deutscher Gutachter und Sachverständigen Verband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006201/70152",
+      "regulatory_project_title": "Stärkung der rechtlichen Rahmenbedingungen, Qualifikation und Transparenz im Sachverständigenwesen zum Schutz von Verbrauchern und Unternehmen",
+      "sending_date": "2026-01-02",
+      "upload_date": "2026-01-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/87/797466/Stellungnahme-Gutachten-SG2601020012.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2601020012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2601020012",
+      "summary": "Die Berufsbezeichnungen Gutachter und Sachverständiger sind in Deutschland nicht geschützt, sodass auch Unqualifizierte diese Titel führen können, was Fehlgutachten, Verunsicherung der Verbraucher, wirtschaftliche Schäden und mehr verursacht. Dem soll durch einen bundeseinheitlichen, gesetzlich geregelten und fälschungssicheren Sachverständigenausweis begegnet werden, der – nach dem Vorbild des Presseausweises – nur nachweislich qualifizierten, geprüften und fortgebildeten Fachleuten vorbehalten ist und Qualifikation, Professionalität sowie Berufsethik transparent dokumentiert. Der etablierte DGuSV-Sachverständigenausweis belegt bereits Akzeptanz und Praxistauglichkeit und unterstreichen den Bedarf nach einer einheitlichen gesetzlichen Lösung für alle Gutachterverbände.\r\n",
+      "recipients": [
+        "Bundestag",
+        "BMJV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 640
+  "gemini_filtered_out": 651
 }

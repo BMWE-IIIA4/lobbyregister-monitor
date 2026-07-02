@@ -9703,5 +9703,230 @@
     "relevant": true,
     "relevanz_grund": "Das Energiewirtschaftsgesetz (EnWG) ist zentraler Bestandteil der Strommarktregulierung und Versorgungssicherheit, die in den Themenfeldern der Unterabteilung IIIA verankert sind.",
     "zusammenfassung": "Die Organisation <b>fordert</b> eine <b>Anpassung des EnWG</b> zur Stärkung von Energiegenossenschaften. Dabei stehen insbesondere die <b>Neuregelung der Kundenanlagen</b> sowie die <b>Verbesserung von Netzanschlüssen</b> im Fokus. Ziel ist die Erleichterung der operativen Tätigkeit für genossenschaftliche Akteure im Stromnetz."
+  },
+  "SG2607010036": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema Fusionskraftwerke fällt nicht in den aktuellen Zuständigkeitsbereich der Unterabteilung IIIA, da es sich um eine langfristige Forschungstechnologie handelt, die nicht Teil der operativen Energiegesetzgebung oder der aktuellen Strommarktstrategie ist.",
+    "zusammenfassung": "Der Industrieverband Pro-Fusion <b>unterstützt</b> die Bundesregierung bei der <b>Strukturierung des Fusions-Ökosystems</b>. Ziel ist die kommerzielle Nutzung der Fusion zur Energiegewinnung. Der Verband fordert hierfür <b>koordinative Maßnahmen</b> sowie die <b>Ausgestaltung finanzieller Förderungen</b>."
+  },
+  "SG2607010040": {
+    "relevant": true,
+    "relevanz_grund": "Da der Eintrag explizit an das BMWE adressiert ist und die strategische Ausrichtung der Energiewirtschaft betrifft, ist eine Prüfung im Kontext der langfristigen Szenarien und der Transformation des Energiesystems relevant.",
+    "zusammenfassung": "Der Industrieverband Pro-Fusion <b>unterstützt</b> die Bundesregierung bei der <b>Strukturierung des Fusions-Ökosystems</b>. Ziel ist die kommerzielle Nutzung der Fusion zur Energiegewinnung. Der Verband fordert hierfür <b>koordinative Maßnahmen</b> sowie die <b>Ausgestaltung finanzieller Förderungen</b>."
+  },
+  "SG2607010052": {
+    "relevant": true,
+    "relevanz_grund": "Das FlexBG betrifft direkt die Strommarktregulierung, Netzoptimierung und Flexibilisierung, welche Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Der VDE <b>begrüßt</b> den Gesetzentwurf zur <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>. Er fordert eine <b>technologieoffene Ausgestaltung</b> unter Einbeziehung aller Flexibilisierungsoptionen. Zudem mahnt der Verband <b>vereinfachte Genehmigungen</b> und den Erhalt bestehender Privilegierungen an."
+  },
+  "SG2607010048": {
+    "relevant": true,
+    "relevanz_grund": "Die Offshore-Windenergie ist ein zentraler Bestandteil der EU-Energiepolitik und der nationalen Ausbauziele, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Die Akteure <b>fordern</b> eine <b>Optimierung der Rahmenbedingungen</b> für den Offshore-Ausbau. Im Fokus steht dabei die <b>Anpassung des Ausschreibungs-Designs</b>. Ziel ist die verlässliche Absicherung der gesetzlichen Ausbauziele."
+  },
+  "SG2607010008": {
+    "relevant": true,
+    "relevanz_grund": "Das Netzpaket und die Regelungen zu Netzanschluss, Netzausbau und Redispatch sind zentrale Themen der Strommarktregulierung und Versorgungssicherheit.",
+    "zusammenfassung": "Die Akteure <b>lehnen investitionshemmende Regelungen</b> im Netzpaket ab, insbesondere den Redispatch-Vorbehalt. Sie <b>fordern die Stärkung dezentraler Energieprojekte</b>. Zudem wird eine umfassende <b>Reform von Netzanschluss und Netzausbau</b> zur Sicherstellung investitionsfreundlicher Rahmenbedingungen verlangt."
+  },
+  "SG2607010010": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zu EEG-Finanzierung, Erneuerbaren Energien (national) und Systemintegration.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine <b>investitionsfreundliche Ausgestaltung</b> der EEG-Novelle 2027. Dabei stehen die <b>Sicherung von Bestands- und Vertrauensschutz</b> sowie ein <b>gleichberechtigter Marktzugang</b> für Bürgerenergie im Fokus. Zudem wird eine stärkere <b>Integration von Speichern</b> und eine regionale Ausgewogenheit beim Windkraftausbau angemahnt."
+  },
+  "SG2607010060": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zur Wärmewende und Umsetzung der EU-Gebäuderichtlinie (EPBD), relevant für die Sektorkopplung.",
+    "zusammenfassung": "Die Organisation <b>empfiehlt</b> eine zielgerichtete Anpassung des Gebäudemodernisierungsgesetzes zur <b>Sicherstellung des EPBD-Vollzugs</b>. Gefordert wird die <b>Einbindung von Bezirksschornsteinfegern</b> als Prüfinstanz sowie der <b>Aufbau eines nationalen Gebäudekatasters</b>. Ziel ist die Schließung von Vollzugslücken und die Verbesserung der Datengrundlage für die Renovierungsstrategie."
+  },
+  "SG2607010049": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld Agrar/Forstwirtschaft ohne direkten Bezug zur Energiepolitik.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine Klärung der Anwendungsfragen zur EU-Entwaldungsverordnung. Es wird eine <b>ausreichende Umsetzungsfrist</b> für Marktbeteiligte angemahnt, um die <b>technische Implementierung</b> und betriebsinterne Vorbereitungen zu gewährleisten."
+  },
+  "SG2607010062": {
+    "relevant": false,
+    "relevanz_grund": "Chemikalienrecht ohne direkten Bezug zur Energiepolitik oder Sektorkopplung.",
+    "zusammenfassung": "Der VDA <b>setzt sich für Verbesserungen</b> der REACH-Verordnung ein, um den <b>Abbau von Bürokratie</b> zu forcieren. Gefordert wird eine <b>Rückkehr zum risikobasierten Vorgehen</b> bei Stoffbeschränkungen sowie eine stärkere <b>industrielle Beteiligung</b> an Entscheidungsprozessen. Ziel ist die Sicherung der Wettbewerbsfähigkeit bei der Entwicklung innovativer Werkstoffe."
+  },
+  "SG2607010055": {
+    "relevant": false,
+    "relevanz_grund": "Finanzmarktregulierung ohne direkten Bezug zur Energiepolitik.",
+    "zusammenfassung": "Die Organisation <b>unterstützt</b> die Vorschläge zur <b>Integration des europäischen Kapitalmarkts</b>. Ziel ist die <b>Beseitigung regulatorischer Hindernisse</b> für Marktteilnehmer und Infrastrukturen. Zudem wird eine <b>Modernisierung des Rechtsrahmens</b> für die Nutzung von DLT angestrebt."
+  },
+  "SG2607010057": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft primär den Finanzsektor und die Kapitalmarktregulierung ohne direkten Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Die EU-Kommission <b>schlägt vor</b>, den europäischen Kapitalmarkt durch den Abbau regulatorischer Hindernisse zu vertiefen. Ziel ist die <b>Modernisierung des Rechtsrahmens</b> für Finanzinfrastrukturen. Zudem soll die <b>Nutzung von DLT</b> rechtlich ermöglicht werden."
+  },
+  "SG2607010003": {
+    "relevant": true,
+    "relevanz_grund": "Die EU-Methanverordnung hat direkte Auswirkungen auf die Versorgungssicherheit mit Erdgas und die Klimaschutzziele im Energiesektor.",
+    "zusammenfassung": "Das BMWE <b>fordert eine praxistaugliche Umsetzung</b> der EU-Methanverordnung, um die <b>Versorgungssicherheit</b> nicht zu gefährden. Kritisiert werden <b>enge Fristen und komplexe Anforderungen</b>, die den Import von Erdgas ab 2027 erschweren könnten. Gleichzeitig wird das Ziel der <b>Reduktion von Methanemissionen</b> unterstützt."
+  },
+  "SG2607010024": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft das Tabaksteuergesetz und die Gesundheitspolitik, was außerhalb der Zuständigkeit der Unterabteilung IIIA liegt.",
+    "zusammenfassung": "Es wird eine <b>wissenschaftsbasierte Regulierung</b> der Tabaksteuer gefordert, die sich am <b>individuellen Risikoprofil</b> der Erzeugnisse orientiert. Eine <b>risikoadäquate Besteuerung</b> soll Anreize für den Umstieg auf weniger schädliche Produkte schaffen. Zudem wird vor einer <b>Ausweitung des illegalen Handels</b> durch unausgewogene Anpassungen gewarnt."
+  },
+  "SG2607010058": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft direkt die Erneuerbaren Energien, Offshore-Windkraft und die regulatorischen Rahmenbedingungen für die Energiewende.",
+    "zusammenfassung": "Der BDEW <b>fordert eine umfassende Novellierung</b> des WindSeeG zur Steigerung der <b>Investitionssicherheit</b>. Er empfiehlt die <b>Einführung zweiseitiger Differenzverträge (CfDs)</b> als neues Förderinstrument. Zudem wird die <b>gesetzliche Ermöglichung kombinierter Anschlusskonzepte</b> für Offshore-Elektrolyse sowie eine <b>Optimierung der Realisierungsfristen</b> verlangt."
+  },
+  "SG2607010043": {
+    "relevant": false,
+    "relevanz_grund": "Der Zollkonflikt im Spirituosensektor hat keinen Bezug zur Energiepolitik oder den Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "Der BSI <b>setzt sich gegen eine belastende Handelspolitik</b> mit wechselseitigen Zöllen ein. Er <b>fordert die Rückkehr</b> zum Zero-to-Zero-Zollabkommen zwischen der EU und den USA. Ziel ist die <b>Vermeidung von Handelshemmnissen</b> im Spirituosensektor."
+  },
+  "SG2606300419": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Erneuerbare Energien (Offshore) und regulatorische Rahmenbedingungen für Flächenvergabe.",
+    "zusammenfassung": "Die Organisation <b>kritisiert eine Regelungslücke</b> bei der <b>Rückgabe von bezuschlagten Flächen</b> im Rahmen der Novellierung des WindSeeG. Sie fordert eine präzisere gesetzliche Ausgestaltung für diesen Prozess. Dies soll die Planungssicherheit für Offshore-Windprojekte erhöhen."
+  },
+  "SG2606300420": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Strommarktregulierung und Investitionssicherheit für Netzinfrastruktur.",
+    "zusammenfassung": "Die Organisation <b>fordert den Vertrauensschutz</b> bei der <b>künftigen Netzentgeltsystematik</b>. Sie mahnt an, dass Investitionssicherheit für die Energiewende zwingend gewährleistet bleiben muss. Die Anpassung der Entgelte soll die wirtschaftliche Stabilität der Akteure nicht gefährden."
+  },
+  "SG2606300423": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft EU-Energiepolitik, Wasserstoffmarkt und Importbedingungen für Energieträger.",
+    "zusammenfassung": "Die Organisation <b>beantragt die permanente Abschaffung</b> von <b>EU-Importzöllen</b> auf grüne Ammoniakimporte. Der aktuelle Zollsatz von 5,5 % wird als Hemmnis für den Aufbau einer grünen Wasserstoffwirtschaft gesehen. Eine Befreiung soll die Wettbewerbsfähigkeit importierter Energieträger verbessern."
+  },
+  "SG2606300146": {
+    "relevant": false,
+    "relevanz_grund": "Der Fokus liegt auf allgemeiner Chemikalienregulierung (REACH) und Industriepolitik, ohne direkten Bezug zu den spezifischen Energie-Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "Der VDA <b>setzt sich für Verbesserungen</b> der REACH-Verordnung ein, um den <b>Abbau von Bürokratie</b> zu forcieren. Gefordert werden zudem eine höhere Transparenz bei Entscheidungsprozessen sowie eine Rückkehr zum <b>risikobasierten Vorgehen</b> bei Stoffbeschränkungen. Ziel ist die Sicherung der Wettbewerbsfähigkeit der Automobilindustrie."
+  },
+  "SG2606300147": {
+    "relevant": false,
+    "relevanz_grund": "Der Fokus liegt auf allgemeiner Chemikalienregulierung (REACH) und Industriepolitik, ohne direkten Bezug zu den spezifischen Energie-Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "Der VDA <b>setzt sich für Verbesserungen</b> der REACH-Verordnung ein, um den <b>Abbau von Bürokratie</b> zu forcieren. Gefordert werden zudem eine höhere Transparenz bei Entscheidungsprozessen sowie eine Rückkehr zum <b>risikobasierten Vorgehen</b> bei Stoffbeschränkungen. Ziel ist die Sicherung der Wettbewerbsfähigkeit der Automobilindustrie."
+  },
+  "SG2606220087": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zu EU-Klimapolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt und industrieller Dekarbonisierung.",
+    "zusammenfassung": "Miele <b>setzt sich für eine Erweiterung</b> des CBAM-Anwendungsbereichs auf <b>komplexe Produkte</b> wie Haushaltsgeräte ein. Zudem wird ein <b>Ausgleich für die Wettbewerbsfähigkeit</b> von EU-Exporten gefordert, um den steigenden CO2-Preisen entgegenzuwirken. Ziel ist die Förderung einer saubereren industriellen Produktion."
+  },
+  "SG2606170031": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zu Erneuerbaren Energien, Strommarktdesign und Netzausbau.",
+    "zusammenfassung": "Das Vorhaben <b>zielt auf die Weiterentwicklung</b> der gesetzlichen Rahmenbedingungen für den <b>Ausbau Erneuerbarer Energien</b> ab. Im Fokus stehen die <b>Beschleunigung von Genehmigungsverfahren</b>, die Flexibilisierung der Stromnetze sowie eine Reform des Strommarktdesigns. Ziel ist der Abbau von Hemmnissen und die Sicherung stabiler Investitionsbedingungen."
+  },
+  "SG2606100012": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zu Erneuerbaren Energien und Sektorkopplung (Biogas/Wärme).",
+    "zusammenfassung": "Der FvB <b>begrüßt die Entfristung</b> von § 246d BauGB, <b>kritisiert jedoch bestehende Hemmnisse</b> für Biogasprojekte im Außenbereich. Der Verband <b>fordert eine Neufassung</b> der Regelungen für Satelliten-BHKW sowie die <b>Privilegierung von Wärmespeichern</b> und Leitungsinfrastruktur. Ziel ist die rechtssichere Ermöglichung von Biogas-Clustern und eine höhere Vollzugssicherheit."
+  },
+  "SG2606100015": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zu Erneuerbaren Energien und Sektorkopplung (Biogas/Wärme).",
+    "zusammenfassung": "Der FvB <b>begrüßt die Entfristung</b> von § 246d BauGB, <b>kritisiert jedoch bestehende Hemmnisse</b> für Biogasprojekte im Außenbereich. Der Verband <b>fordert eine Neufassung</b> der Regelungen für Satelliten-BHKW sowie die <b>Privilegierung von Wärmespeichern</b> und Leitungsinfrastruktur. Ziel ist die rechtssichere Ermöglichung von Biogas-Clustern und eine höhere Vollzugssicherheit."
+  },
+  "SG2606100014": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zu Erneuerbaren Energien, EEG-Finanzierung und Flexibilisierung.",
+    "zusammenfassung": "Der Verband <b>fordert eine deutliche Erhöhung</b> der Ausschreibungsvolumina für Biomasse auf 2.500 MW/a sowie eine <b>Anpassung der Flexibilitätszuschläge</b>. Zudem wird die <b>Streichung des Maisdeckels</b> und eine verpflichtende Einführung flexibler Netzanschlussvereinbarungen verlangt. Ziel ist die Sicherung der Biomasse-Stromerzeugung und eine effiziente Umrüstung der Anlagen."
+  },
+  "SG2606100013": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft regulatorische Rahmenbedingungen für Biogasanlagen und deren Einordnung in das Immissionsschutzrecht, was die Sektorkopplung und Erneuerbare Energien berührt.",
+    "zusammenfassung": "Der FvB <b>kritisiert den Entwurf</b> zur Änderung der Abwasserverordnung aufgrund einer zu weiten Auslegung des Anwendungsbereichs für Vergärungsanlagen. Er <b>fordert eine strikte Begrenzung</b> auf IED-Tätigkeiten, um Doppelregulierungen zu vermeiden. Zudem wird eine <b>enge Anlehnung der Einleitparameter</b> an die BVT-Vorgaben verlangt."
+  },
+  "SG2606100030": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zur Kraftwerksstrategie und zum Strommarktdesign (Kapazitätsmechanismen), zentrale Themen der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Bioenergieverbände <b>bewerten den Entwurf</b> zum Strom-Versorgungssicherheitsrecht aufgrund fehlender Höchstgebotswerte eingeschränkt. Sie <b>fordern eine Bio-Treppe</b> als Mindestanteil für erneuerbare Gase statt starrer CO2-Grenzwerte. Zudem soll die <b>Nutzung bestehender Standorte</b> für Biogas/Biomethan zur Flexibilisierung ermöglicht werden."
+  },
+  "SG2606100029": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Umsetzung des EU-Gas- und Wasserstoffbinnenmarktpakets sowie die Infrastrukturplanung für erneuerbare Gase.",
+    "zusammenfassung": "Das HBB <b>kritisiert den Entwurf</b> zur Umsetzung des EU-Gaspakets, da Kündigungsoptionen für Netzanschlüsse Investitionen in Biomethan gefährden. Der Verband <b>fordert einen verlängerten Bestandsschutz</b> für Anlagen sowie eine Ausgleichsregelung bei Kündigungen. Zudem sollen <b>Netzentwicklungspläne</b> konsequent auf erneuerbare Gas-Potenziale ausgerichtet werden."
+  },
+  "SG2606100031": {
+    "relevant": true,
+    "relevanz_grund": "Berührt die Wärmeplanung und die Rolle biogener Energieträger in der Wärmewende, relevant für die Sektorkopplung.",
+    "zusammenfassung": "Das HBB <b>kritisiert den Entwurf</b> zur WPG-Novelle wegen der strukturellen Unterschätzung leitungsgebundener Wärme im ländlichen Raum. Es <b>fordert die Streichung pauschaler Biomassebegrenzungen</b> in Wärmenetzen. Zudem soll der <b>Abbau unverhältnismäßiger Anforderungen</b> für grünes Methan die Nutzung in der Wärmeplanung erleichtern."
+  },
+  "SG2606100032": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft das Gebäudeenergiegesetz (GEG) und die Integration erneuerbarer Gase in den Wärmesektor.",
+    "zusammenfassung": "Die Bioenergieverbände <b>begrüßen das Ziel</b> eines flexibleren Rechtsrahmens, kritisieren jedoch die Regelungslücke bei der Bio-Treppe für neue Heizungen. Sie <b>fordern eine jährliche Steigerung</b> der Bio-Treppe bis zum vollständigen Erreichen im Jahr 2045. Des Weiteren wird die <b>Anpassung von Emissionswerten</b> und Förderbedingungen für Biomethan verlangt."
+  },
+  "SG2606100007": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Kraftwerksstrategie und das Strommarkt-Design, welche Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Die Verbände <b>kritisieren</b> den Entwurf zum Strom-Versorgungssicherheitsrecht und <b>fordern Anpassungen</b> beim Ausschreibungsdesign. Sie bemängeln das Fehlen eines realistischen Höchstgebotswerts und lehnen starre CO2-Grenzwerte ab. Stattdessen wird eine <b>Bio-Treppe</b> für erneuerbare Gase sowie der Erhalt von Biogas-Standorten zur Flexibilisierung des Stromsystems vorgeschlagen."
+  },
+  "SG2606100005": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Gasnetzinfrastruktur und regulatorische Rahmenbedingungen für erneuerbare Gase, relevant für die Sektorkopplung.",
+    "zusammenfassung": "Das HBB <b>schlägt Kernelemente</b> für eine Nachfolgeregelung zur Gasnetzzugangsverordnung vor, um Biomethaneinspeiseprojekte zu fördern. Gefordert werden ein <b>Kostendeckel für Einspeiser</b> sowie eine differenzierte Kostenteilung bei Netzverstärkungen. Zudem wird die <b>Fortführung der Kostenwälzung</b> für Biogas-Netzanschlüsse angemahnt."
+  },
+  "SG2606100006": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Umsetzung des EU-Gas- und Wasserstoffbinnenmarktpakets, ein zentrales Themenfeld der EU-Energiepolitik.",
+    "zusammenfassung": "Das HBB <b>kritisiert</b> den Entwurf zur Umsetzung des EU-Gaspakets und <b>warnt vor Investitionsunsicherheit</b> durch Kündigungsrechte bei Biomethan-Netzanschlüssen. Es wird gefordert, den <b>Bestandsschutz</b> für Anlagen zu verlängern und Ausgleichsregelungen bei Trennungen zu schaffen. Zudem sollen Netzentwicklungspläne verstärkt <b>erneuerbare Gas-Potenziale</b> berücksichtigen."
+  },
+  "SG2606100008": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Wärmeplanung und Sektorkopplung, welche für die Energiewende und das BMWE relevant sind.",
+    "zusammenfassung": "Das HBB <b>kritisiert</b> den Entwurf zur WPG-Novelle und <b>fordert die Streichung</b> pauschaler Biomasse-Begrenzungen in Wärmenetzen. Zudem wird der <b>Abbau von Hürden</b> für grünes Methan in der Wärmeplanung verlangt. Weiterhin wird eine <b>Präzisierung der Holzbiomasse-Definition</b> sowie die Einstufung von biogenem Wasserstoff als EE-Energieträger angestrebt."
+  },
+  "SG2606100009": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Gebäudeenergieeffizienz und den Einsatz erneuerbarer Energien im Wärmesektor.",
+    "zusammenfassung": "Die Verbände <b>begrüßen</b> das Ziel einer flexibleren Gebäudeenergie-Regulierung, <b>kritisieren</b> jedoch die aktuelle Ausgestaltung der Bio-Treppe. Sie fordern eine <b>jährliche Steigerung</b> der Bio-Treppe bis zum vollständigen Einsatz erneuerbarer Gase 2045. Zudem wird die <b>Nicht-Anrechenbarkeit</b> bereits im Ausland geförderter Importe sowie eine Anpassung der Emissionswerte gefordert."
+  },
+  "SG2603120027": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft direkt die Energiepolitik, erneuerbare Wärme und regulatorische Rahmenbedingungen für Biomasse, die in den Zuständigkeitsbereich des BMWE fallen.",
+    "zusammenfassung": "Die Verbände <b>fordern die Fortführung</b> bewährter Regelungen zur <b>Sicherung erneuerbarer Wärme</b> und die Streichung diskriminierender Vorgaben für Biomasse. Erneuerbare Wärmequellen sollen <b>technologieoffen genutzt</b> werden können. Zudem wird verlangt, Anlagen zur Erzeugung erneuerbarer Gase als im überragenden öffentlichen Interesse einzustufen."
+  },
+  "SG2603120030": {
+    "relevant": true,
+    "relevanz_grund": "Behandelt die regulatorische Stärkung von Bioenergie in Strom-, Wärme- und Verkehrssektoren, was zentrale Themen der Energiepolitik und Sektorkopplung berührt.",
+    "zusammenfassung": "Die Verbände <b>fordern eine stärkere Einbindung</b> von Bioenergie als <b>technologieoffenen Klimaschutzbaustein</b> in allen Sektoren. Im Wärmebereich und bei industrieller Prozesswärme sollen regulatorische Restriktionen abgebaut werden. Zudem wird eine <b>Reform des EEG</b> sowie eine finanzielle Unterstützung für Negativemissionen durch BECCS/BECCU verlangt."
+  },
+  "SG2603120031": {
+    "relevant": true,
+    "relevanz_grund": "Adressiert die energiepolitische Behandlung von Bioenergie in zentralen Regelwerken wie GEG, WPG und BEHG, was direkt in den Aufgabenbereich des BMWE fällt.",
+    "zusammenfassung": "Die Verbände <b>kritisieren regulatorische Benachteiligungen</b> von Bioenergie in zentralen energiepolitischen Regelwerken. Sie <b>fordern ein diskriminierungsfreies Level-Playing-Field</b> für Bioenergie in den Bereichen Wärme, Strom und Verkehr. Dabei werden insbesondere restriktive Primärenergiefaktoren und Förderausschlüsse als Hemmnisse identifiziert."
+  },
+  "SG2603120032": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Umsetzung der RED III, Emissionshandel (ETS) und Berichtspflichten für Biomethan, was Kernbereiche der EU-Energiepolitik und nationalen Umsetzung darstellt.",
+    "zusammenfassung": "Die Verbände <b>fordern eine praxisnahe Umsetzung</b> der RED III sowie die <b>Sicherung des Bestandsschutzes</b> für Biogasanlagen im Rahmen des Emissionshandels. Die starre THG-Minderungsschwelle wird abgelehnt und stattdessen die Nutzung zertifizierter Realwerte vorgeschlagen. Zudem wird die <b>Befreiung von Berichtspflichten</b> für nachhaltiges Biomethan verlangt."
+  },
+  "SG2603120033": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft regulatorische Rahmenbedingungen für Biogasanlagen und damit die Erneuerbare-Energien-Infrastruktur sowie Monitoring-Vorgaben.",
+    "zusammenfassung": "Der Fachverband Biogas <b>begrüßt die Anpassung</b> des Düngegesetzes, <b>warnt jedoch vor zusätzlicher Bürokratie</b>. Er fordert eine <b>verursachergerechte Ausgestaltung</b> ohne unnötige Dokumentationspflichten. Zudem wird die Anerkennung freiwilliger Qualitätssicherungssysteme sowie eine <b>Praxistauglichkeit beim Monitoring</b> angemahnt."
+  },
+  "SG2603120012": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zu EEG-Reformen, Sektorkopplung, Wärmewende und industrieller Prozesswärme.",
+    "zusammenfassung": "Die Bioenergieverbände <b>fordern eine stärkere Einbindung</b> der Bioenergie in das Klimaschutzprogramm. Sie verlangen die <b>Streichung regulatorischer Restriktionen</b> in GEG und WPG sowie eine <b>Reform des EEG</b>. Zudem wird eine finanzielle Unterstützung für <b>Negativemissionen durch BECCS/BECCU</b> angestrebt."
+  },
+  "SG2603120013": {
+    "relevant": true,
+    "relevanz_grund": "Adressiert direkt das BMWE und betrifft zentrale energiepolitische Regelwerke wie GEG, WPG und EEW.",
+    "zusammenfassung": "Die Bioenergieverbände <b>kritisieren regulatorische Benachteiligungen</b> der Bioenergie in zentralen energiepolitischen Regelwerken. Sie <b>fordern ein diskriminierungsfreies Level-Playing-Field</b> für Bioenergie in den Sektoren Wärme, Strom und Verkehr. Dabei werden insbesondere <b>restriktive Primärenergiefaktoren</b> und Förderausschlüsse bemängelt."
+  },
+  "SG2603120014": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Emissionshandel (EU-ETS), RED III-Umsetzung und damit zentrale EU-Energiepolitik.",
+    "zusammenfassung": "Die Bioenergieverbände <b>fordern eine praxisnahe Umsetzung</b> der RED III und die <b>Sicherung des Bestandsschutzes</b> für Biogasanlagen. Sie kritisieren die 70-Prozent-THG-Minderungsschwelle als marktfremd und <b>verlangen die Befreiung</b> von Emissionshandels- und Berichtspflichten für nachhaltiges Biomethan. Statt starrer Schwellen sollen <b>zertifizierte Realwerte</b> maßgeblich sein."
+  },
+  "SG2603050032": {
+    "relevant": false,
+    "relevanz_grund": "Das Hochseeschutzabkommen (BBNJ) betrifft den internationalen Meeresschutz und weist keinen direkten Bezug zu den energiepolitischen Kernaufgaben der Unterabteilung IIIA auf.",
+    "zusammenfassung": "OceanCare <b>setzt sich für die Ratifizierung</b> und effektive Umsetzung des Hochseeschutzabkommens (BBNJ) ein. Der Fokus liegt dabei insbesondere auf der <b>Durchführung von Umweltverträglichkeitsprüfungen</b> in internationalen Gewässern. Eine inhaltliche Verknüpfung zur nationalen oder europäischen Energiepolitik ist nicht gegeben."
+  },
+  "SG2601020012": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft das allgemeine Sachverständigenwesen und den Verbraucherschutz ohne spezifischen Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende.",
+    "zusammenfassung": "Der DGuSV <b>fordert</b> eine <b>gesetzliche Regelung</b> zur Einführung eines bundeseinheitlichen <b>Sachverständigenausweises</b>. Ziel ist der Schutz von Verbrauchern und Unternehmen vor unqualifizierten Gutachtern durch eine verpflichtende Dokumentation von Fachwissen und Berufsethik. Das Vorhaben soll die <b>Transparenz und Qualität</b> im Sachverständigenwesen durch einheitliche Standards sicherstellen."
   }
 }
