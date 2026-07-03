@@ -9928,5 +9928,170 @@
     "relevant": false,
     "relevanz_grund": "Das Thema betrifft das allgemeine Sachverständigenwesen und den Verbraucherschutz ohne spezifischen Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende.",
     "zusammenfassung": "Der DGuSV <b>fordert</b> eine <b>gesetzliche Regelung</b> zur Einführung eines bundeseinheitlichen <b>Sachverständigenausweises</b>. Ziel ist der Schutz von Verbrauchern und Unternehmen vor unqualifizierten Gutachtern durch eine verpflichtende Dokumentation von Fachwissen und Berufsethik. Das Vorhaben soll die <b>Transparenz und Qualität</b> im Sachverständigenwesen durch einheitliche Standards sicherstellen."
+  },
+  "SG2607020001": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft EU-Netzkodizes und technische Anforderungen an Stromerzeugungsanlagen, die direkt in den Bereich Strommarktregulierung und Netzbetrieb fallen.",
+    "zusammenfassung": "Der VDE <b>begrüßt</b> den überarbeiteten Entwurf des <b>NC RfG 2.0</b> und unterstützt dessen zügige Verabschiedung. Die Organisation empfiehlt redaktionelle Anpassungen an Artikel 29 sowie eine stärkere Berücksichtigung von <b>Grid-Forming-Fähigkeiten</b>. Zudem wird eine enge <b>Normenabstimmung</b> zur Sicherstellung der Systemstabilität befürwortet."
+  },
+  "SG2607020045": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld betrifft allgemeine EU-Fördermittelverwaltung und regionale Partnerschaftspläne ohne spezifischen Energiebezug.",
+    "zusammenfassung": "Die Organisation <b>setzt sich für</b> eine stärkere <b>Beteiligung von Regionen</b>, Kommunen und Sozialpartnern bei der Planung von EU-Fördermitteln ein. Ziel ist die Sicherstellung von <b>Transparenz</b> bei der Ausarbeitung der nationalen und regionalen Partnerschaftspläne. Eine breite Einbindung der Zivilgesellschaft soll die Umsetzung der Fördermaßnahmen verbessern."
+  },
+  "SG2607020059": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld betrifft Chemikalienrecht (REACH/CLP) und Umweltpolitik ohne direkten Bezug zur Energiepolitik oder Energiewirtschaft.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine konsequente Umsetzung und Weiterentwicklung des <b>Chemikalienrechts</b> nach aktuellem wissenschaftlichen Stand. Sie <b>lehnt Deregulierung</b> unter dem Vorwand der Vereinfachung ab, da dies Risiken für Mensch und Umwelt erhöhe. Stattdessen soll die EU <b>sichere Alternativen</b> fördern und eine evidenzbasierte Politik priorisieren."
+  },
+  "SG2607020009": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld betrifft Agrar- und Umweltrecht (Pflanzenschutz) ohne Bezug zum BMWE-Ressort.",
+    "zusammenfassung": "Der DBVW <b>begrüßt</b> Ansätze zum <b>Bürokratieabbau</b>, warnt jedoch vor einer Schwächung bestehender Umwelt- und Gewässerschutzstandards. Die Organisation <b>fordert</b>, die Frist für den <b>Sachkundenachweis</b> im Pflanzenschutz bei drei Jahren zu belassen. Fachliche Änderungen an Nachweis- und Berichtspflichten müssten sorgfältig ausgestaltet werden."
+  },
+  "SG2607020016": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld betrifft Wasserwirtschaft und Naturschutz ohne direkten Bezug zur Energiepolitik.",
+    "zusammenfassung": "Der DBVW <b>strebt an</b>, die Expertise der verbandlichen Wasserwirtschaft bei der Erstellung des <b>Nationalen Wiederherstellungsplans</b> einzubringen. Die Organisation <b>fordert</b> eine praxisnahe Ausgestaltung der Maßnahmen unter Berücksichtigung von <b>Flächenverfügbarkeiten</b> und finanzieller Ausstattung. Auswirkungen auf die Wasserwirtschaft sollen dabei angemessen berücksichtigt werden."
+  },
+  "SG2607020005": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zur Waermewende, Gebaeudeenergie und Erneuerbare-Energien-Integration.",
+    "zusammenfassung": "Die Interessenvertretung <b>fordert</b> ein regulatorisches Umfeld zur <b>Hebelung von Biomethanmengen</b> im Kontext der Grüngasquote. Dabei sollen <b>Kostensenkungspotenziale</b> durch den Abbau bürokratischer Nachweispflichten entlang der Wertschöpfungskette realisiert werden. Ziel ist die effizientere Nutzung erneuerbarer Gase für die Wärmewende."
+  },
+  "SG2607020039": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld Bankenunion und Finanzmarktregulierung liegt in der Zuständigkeit des BMF, kein direkter Energiebezug.",
+    "zusammenfassung": "Die Organisation <b>setzt sich für</b> die <b>Vollendung der Bankenunion</b> und eine stärkere Integration des europäischen Finanzmarktes ein. Durch die <b>Harmonisierung makroprudenzieller Vorgaben</b> und den Abbau nationaler Fragmentierungen soll die Wettbewerbsfähigkeit europäischer Banken gestärkt werden. Dies soll eine effizientere Finanzierung von Zukunftsfeldern ermöglichen."
+  },
+  "SG2607020040": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld Bankenunion und Finanzmarktregulierung liegt in der Zuständigkeit des BMF, kein direkter Energiebezug.",
+    "zusammenfassung": "Die Organisation <b>setzt sich für</b> die <b>Vollendung der Bankenunion</b> und eine stärkere Integration des europäischen Finanzmarktes ein. Durch die <b>Harmonisierung makroprudenzieller Vorgaben</b> und den Abbau nationaler Fragmentierungen soll die Wettbewerbsfähigkeit europäischer Banken gestärkt werden. Dies soll eine effizientere Finanzierung von Zukunftsfeldern ermöglichen."
+  },
+  "SG2607020015": {
+    "relevant": false,
+    "relevanz_grund": "Biotechnologie-Industrie ohne spezifischen Bezug zur Energiepolitik oder Sektorkopplung.",
+    "zusammenfassung": "Die Organisation <b>unterstützt</b> den geplanten <b>EU Biotech Act</b> zur Stärkung der Wettbewerbsfähigkeit der Biotechnologie-Branche. Ziel ist der <b>Abbau von Hürden</b> für Unternehmen sowie die Förderung des Innovationsstandorts Europa. Die Branche wird als zukunftsprägender Wirtschaftszweig mit hohen Spillover-Effekten hervorgehoben."
+  },
+  "SG2607020061": {
+    "relevant": false,
+    "relevanz_grund": "Themenfeld Wasserwirtschaft/Nationale Wasserstrategie liegt primär beim BMUV, kein direkter Energiebezug.",
+    "zusammenfassung": "Der Verband <b>fordert</b> bei den Leitlinien zur Wasserknappheit <b>sachgerechte Definitionen</b> und ein transparentes Indikatorensystem. Es wird eine <b>verhältnismäßige Abwägung</b> von Nutzungsbelangen verlangt. Ein Widerruf von Wasserentnahmerechten soll erst bei tatsächlicher Wasserknappheit und nicht bereits im Vorsorgebereich möglich sein."
+  },
+  "SG2607020063": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Ausgestaltung von Förderinstrumenten für stromintensive Unternehmen und damit die Wettbewerbsfähigkeit im EU-Binnenmarkt sowie Energiepreise.",
+    "zusammenfassung": "Die Organisation <b>fordert eine breite Palette an Gegenleistungsoptionen</b> bei der Ausgestaltung der Richtlinie. Sie <b>plädiert für eine wirtschaftlich sinnvolle Umsetzung</b>, die sich primär am <b>Beitrag zum Klimaschutz</b> orientiert. Eine Limitierung auf reine Systemkostensenkungen wird abgelehnt."
+  },
+  "SG2607020062": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft EU-Klimapolitik, Emissionshandel und Wettbewerbsfähigkeit, welche zentrale Themen der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Die Organisation <b>warnt vor einer Verschärfung der Wettbewerbsfähigkeit</b> durch den EU-Emissionshandel und <b>fordert eine Anpassung der Regelungen</b> zur Finanzierung der Transformation. Sie <b>kritisiert die Komplexität von CBAM</b> und verlangt die <b>Gleichberechtigung von Removal-Regelungen</b> wie BECCS und BECCU."
+  },
+  "SG2607020034": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft direkt das Strommarktdesign, Kapazitätsmechanismen und die Kraftwerksstrategie.",
+    "zusammenfassung": "Die Organisation <b>schlägt die Konkretisierung eines Ausschreibungssystems</b> für gesicherte Kraftwerkskapazitäten vor. Sie <b>fordert die Einführung eines technologieoffenen Kapazitätsmarktes</b>, um eine <b>Lücke von 25 GW</b> an steuerbaren Kapazitäten bis 2030 zu schließen."
+  },
+  "SG2607020036": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft direkt das Strommarktdesign, Kapazitätsmechanismen und die Kraftwerksstrategie.",
+    "zusammenfassung": "Die Organisation <b>schlägt die Konkretisierung eines Ausschreibungssystems</b> für gesicherte Kraftwerkskapazitäten vor. Sie <b>fordert die Einführung eines technologieoffenen Kapazitätsmarktes</b>, um eine <b>Lücke von 25 GW</b> an steuerbaren Kapazitäten bis 2030 zu schließen."
+  },
+  "SG2607020037": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft direkt das Strommarktdesign, Kapazitätsmechanismen und die Kraftwerksstrategie.",
+    "zusammenfassung": "Die Organisation <b>schlägt die Konkretisierung eines Ausschreibungssystems</b> für gesicherte Kraftwerkskapazitäten vor. Sie <b>fordert die Einführung eines technologieoffenen Kapazitätsmarktes</b>, um eine <b>Lücke von 25 GW</b> an steuerbaren Kapazitäten bis 2030 zu schließen."
+  },
+  "SG2607020038": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Kraftwerksstrategie und den Kapazitätsmarkt, welche Kernaufgaben der Unterabteilung IIIA (Strommarktdesign/Kraftwerke) sind.",
+    "zusammenfassung": "Die Bundesregierung <b>konkretisiert</b> die <b>Kraftwerksstrategie</b> zur Sicherung der Stromversorgung. Ziel ist die <b>Ausschreibung von 10 GW</b> initialer Leistung sowie die mittelfristige Etablierung eines <b>technologieoffenen Kapazitätsmarktes</b>. Damit soll eine Lücke von 25 GW steuerbarer Kapazität bis 2030 geschlossen werden."
+  },
+  "SG2607020022": {
+    "relevant": false,
+    "relevanz_grund": "Betrifft gesellschaftsrechtliche Rahmenbedingungen (EU Inc.) ohne direkten Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>setzt sich für den Verzicht</b> auf <b>insolvenzrechtliche Regelungen</b> im Rahmen des Vorschlags für ein 28. Regime ein. Insbesondere das <b>vereinfachte Liquidationsverfahren</b> für Startups wird abgelehnt. Eine Integration dieser Regelungen wird als nicht zielführend für den neuen gesellschaftsrechtlichen Rechtsrahmen bewertet."
+  },
+  "SG2607020069": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Sektorkopplung und Rahmenbedingungen für CO2-Emissionen im Verkehrssektor, was für die Energiewende und Klimaschutzziele relevant ist.",
+    "zusammenfassung": "Die Organisation <b>spricht sich für</b> eine <b>technologieoffene Ausgestaltung</b> der CO2-Emissionsregulierung für Pkw und leichte Nutzfahrzeuge aus. Gefordert werden ein begleitendes <b>Monitoring</b> sowie die Schaffung geeigneter <b>Rahmenbedingungen</b>. Dies soll die Erreichung der europäischen Klimaziele im Einklang mit der Sektorkopplung unterstützen."
+  },
+  "SG2607020031": {
+    "relevant": false,
+    "relevanz_grund": "Betrifft gesellschaftsrechtliche Harmonisierung (28. Regime) ohne Energiebezug.",
+    "zusammenfassung": "Der VID <b>befürwortet</b> das Konzept des 28. Regimes zur <b>rechtlichen Harmonisierung</b>, fordert jedoch ein in sich geschlossenes Regelwerk. Sollte ein fundiertes <b>Insolvenzrecht</b> nicht realisierbar sein, wird die <b>Zurückstellung des Vorhabens</b> oder die Streichung des entsprechenden Kapitels empfohlen. Ziel ist die Gewährleistung von Planungssicherheit für grenzüberschreitende Investitionen."
+  },
+  "SG2607020033": {
+    "relevant": false,
+    "relevanz_grund": "Betrifft gesellschaftsrechtliche Harmonisierung (28. Regime) ohne Energiebezug.",
+    "zusammenfassung": "Der VID <b>befürwortet</b> das Konzept des 28. Regimes zur <b>rechtlichen Harmonisierung</b>, fordert jedoch ein in sich geschlossenes Regelwerk. Sollte ein fundiertes <b>Insolvenzrecht</b> nicht realisierbar sein, wird die <b>Zurückstellung des Vorhabens</b> oder die Streichung des entsprechenden Kapitels empfohlen. Ziel ist die Gewährleistung von Planungssicherheit für grenzüberschreitende Investitionen."
+  },
+  "SG2607020029": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die regulatorischen Rahmenbedingungen für Pumpspeicherkraftwerke und damit die Stromerzeugung sowie die Genehmigungsverfahren für Energieinfrastruktur.",
+    "zusammenfassung": "Die Interessenvertretung <b>fordert die Streichung</b> der geplanten <b>Änderung des Wasserhaushaltsgesetzes</b>. Sie lehnt den Wegfall der befristeten Bewilligung für Pumpspeicherkraftwerke ab. Ziel ist die <b>Beibehaltung der Bewilligungspflicht</b> für Gewässerbenutzungen durch diese Anlagen."
+  },
+  "SG2607010078": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Genehmigungspraxis und Kompensationsmaßnahmen für Energieinfrastrukturprojekte (Netzausbau/Erneuerbare).",
+    "zusammenfassung": "Die Organisation <b>setzt sich für die Beibehaltung</b> der <b>Realkompensation</b> als vorrangiges Instrument bei Eingriffen in Natur und Landschaft ein. Sie warnt vor einer Ausweitung rein monetärer Ersatzzahlungen bei Energieinfrastrukturvorhaben. Die bestehenden naturschutzrechtlichen Regelungen sollen als <b>flächenbezogene Ausgleichsmaßnahmen</b> erhalten bleiben."
+  },
+  "SG2607010070": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema Arktis-Forschung und globale Klimaveränderungen ist zu allgemein und weist keinen direkten Bezug zu den spezifischen energiepolitischen Aufgabenfeldern der Unterabteilung IIIA auf.",
+    "zusammenfassung": "Die Nationalen Akademien der Wissenschaften der G7-Staaten <b>analysieren die Umweltveränderungen</b> in der Arktis. Der Bericht beleuchtet Auswirkungen auf <b>Klimastabilität</b>, Meeresspiegel und Artenvielfalt. Die Ergebnisse dienen als wissenschaftliche Beratungsgrundlage für das G7-Gipfeltreffen 2026."
+  },
+  "SG2607010041": {
+    "relevant": true,
+    "relevanz_grund": "Behandelt zentrale Themen der Unterabteilung IIIA wie Strommarktdesign, Versorgungssicherheit, Industriestrompreise und Wasserstoff.",
+    "zusammenfassung": "Die Organisation <b>fordert eine wettbewerbsfähige Ausrichtung</b> der Energiewende und schlägt einen <b>befristeten Industriestrompreis</b> vor. Zur Sicherung der Energieversorgung wird der Zubau von 20.000 MW steuerbarer Leistung bis 2030 angemahnt. Zudem werden <b>verlässliche Finanzierungsmodelle für Wasserstoff</b> sowie netzorientierte Regeln für den Ausbau von Photovoltaik und Speichern verlangt."
+  },
+  "SG2606300057": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft die Energieeffizienz im Gebäudesektor, was ein wesentlicher Bestandteil der nationalen Energie- und Klimapolitik ist.",
+    "zusammenfassung": "Die DENEFF <b>setzt sich für die Reduzierung</b> des Energiebedarfs im Gebäudebestand ein. Sie fordert eine <b>ambitionierte Umsetzung</b> der EU-Vorgaben zur Energieeffizienz. Der Fokus liegt dabei auf baulichen Maßnahmen sowie einer <b>rationellen Beheizung und Klimatisierung</b>."
+  },
+  "SG2606290088": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft primär Chemikalienregulierung (REACH/PFAS) und Medizinprodukte, nicht die Kernaufgaben der Unterabteilung IIIA (Energiepolitik/Strommarkt).",
+    "zusammenfassung": "Die Organisation <b>lehnt</b> einen pauschalen <b>Beschränkungsansatz von PFAS</b> ab. Sie <b>fordert</b> stattdessen eine <b>risikobasierte Bewertung</b> einzelner Produktgruppen. Insbesondere <b>Fluorpolymere</b> für Medizinprodukte sollen dauerhaft von Verboten ausgenommen werden."
+  },
+  "SG2606290057": {
+    "relevant": true,
+    "relevanz_grund": "Das StromVKG (Stromverbrauchs-Konditionen-Gesetz) ist direkt relevant für die Strommarktregulierung und Kraftwerksstrategie der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine Anpassung des Gesetzentwurfs zum StromVKG. Ziel ist die <b>Stärkung von Wettbewerb</b> und <b>Akteursvielfalt</b> im Strommarkt. Dies soll durch gezielte <b>Änderungen am Gesetzentwurf</b> erreicht werden."
+  },
+  "SG2606290058": {
+    "relevant": true,
+    "relevanz_grund": "Identisch mit Eintrag 2, direkte Relevanz zur Strommarktregulierung.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine Anpassung des Gesetzentwurfs zum StromVKG. Ziel ist die <b>Stärkung von Wettbewerb</b> und <b>Akteursvielfalt</b> im Strommarkt. Dies soll durch gezielte <b>Änderungen am Gesetzentwurf</b> erreicht werden."
+  },
+  "SG2606290188": {
+    "relevant": true,
+    "relevanz_grund": "Infrastrukturprojekte sind für die Energiewende und den Ausbau des Stromnetzes/Wasserstoffkernnetzes von zentraler Bedeutung.",
+    "zusammenfassung": "Die Organisation <b>unterstützt</b> das Infrastrukturzukunftsgesetz zur <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>. Sie <b>fordert</b> die <b>Reduzierung von Doppelstrukturen</b> sowie Anpassungen im Umwelt- und Verbandsklagerecht. Ziel ist die <b>Investitionsbeschleunigung</b> bei gleichzeitiger Wahrung von Schutzstandards."
+  },
+  "SG2606250122": {
+    "relevant": false,
+    "relevanz_grund": "Das GWB betrifft allgemeines Wettbewerbsrecht und hat keinen spezifischen Bezug zur Energiepolitik oder den Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "Der Verband <b>begrüßt</b> die <b>Änderungsvorschläge</b> zur 12. GWB-Novelle weitestgehend. Er <b>kritisiert</b> jedoch die geplanten Anpassungen bei den <b>Transaktionswertschwellen</b>. Diese werden als problematisch eingestuft."
+  },
+  "SG2606230014": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft die Alkoholregulierung und den freien Warenverkehr, weist jedoch keinen inhaltlichen Bezug zur Energiepolitik oder den Zuständigkeitsbereichen der Unterabteilung IIIA auf.",
+    "zusammenfassung": "Der VAB <b>kritisiert</b> polnische Gesetzentwürfe zur <b>Alkoholregulierung</b>. Die Regelungen stünden im <b>Widerspruch zu EU-Vorschriften</b>. Dies betreffe insbesondere den <b>freien Warenverkehr</b> im Binnenmarkt."
+  },
+  "SG2606230032": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft die Werbung für alkoholische Getränke und weist keinen inhaltlichen Bezug zur Energiepolitik oder den Zuständigkeitsbereichen der Unterabteilung IIIA auf.",
+    "zusammenfassung": "Der VAB <b>kritisiert</b> einen belgischen Gesetzentwurf zur <b>Werbung für alkoholische Getränke</b>. Die geplanten Regelungen stünden im <b>Widerspruch zu EU-Vorschriften</b>. Dies gefährde den <b>freien Warenverkehr</b> im Binnenmarkt."
+  },
+  "SG2604200003": {
+    "relevant": true,
+    "relevanz_grund": "Der Eintrag adressiert zentrale Themen der Unterabteilung IIIA wie Strommarktdesign, Versorgungssicherheit, Industriestrompreise und Wasserstofffinanzierung.",
+    "zusammenfassung": "Der Verband <b>fordert</b> eine <b>wettbewerbsfähige Ausrichtung</b> der Energiewende. Zur Sicherung der <b>Versorgungssicherheit</b> seien 20.000 MW steuerbare Leistung bis 2030 sowie ein <b>befristeter Industriestrompreis</b> notwendig. Zudem werden <b>verlässliche Finanzierungsmodelle</b> für Wasserstoff und eine <b>netzorientierte Flexibilisierung</b> des Stromsystems angemahnt."
   }
 }
