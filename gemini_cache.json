@@ -10093,5 +10093,45 @@
     "relevant": true,
     "relevanz_grund": "Der Eintrag adressiert zentrale Themen der Unterabteilung IIIA wie Strommarktdesign, Versorgungssicherheit, Industriestrompreise und Wasserstofffinanzierung.",
     "zusammenfassung": "Der Verband <b>fordert</b> eine <b>wettbewerbsfähige Ausrichtung</b> der Energiewende. Zur Sicherung der <b>Versorgungssicherheit</b> seien 20.000 MW steuerbare Leistung bis 2030 sowie ein <b>befristeter Industriestrompreis</b> notwendig. Zudem werden <b>verlässliche Finanzierungsmodelle</b> für Wasserstoff und eine <b>netzorientierte Flexibilisierung</b> des Stromsystems angemahnt."
+  },
+  "SG2607030012": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Strommarktdesign, Erneuerbare Energien und Finanzierungsinstrumente (PPA), die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Alterric <b>setzt sich für ein zukunftsfähiges Strommarktdesign ein</b>, um die Wettbewerbsfähigkeit erneuerbarer Energien langfristig zu sichern. Das Unternehmen <b>fordert staatliche Absicherungsinstrumente</b> sowie staatliche Garantien für private Stromlieferverträge (PPAs). Ziel ist die Verbesserung der Finanzierungskonditionen für kapitalintensive Projekte und die Sicherung wettbewerbsfähiger Strompreise."
+  },
+  "SG2607030003": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Versorgungssicherheit und Gasspeicher, welche für die Energiepolitik und das Marktdesign relevant sind.",
+    "zusammenfassung": "Die Interessenvertretung <b>gibt Impulse für ein neues Marktdesign</b> für Gasspeicher, um die Versorgungssicherheit nach Auslaufen der Füllstandsvorgaben 2027 zu gewährleisten. Gefordert wird eine <b>strategische Gasreserve</b> mit klaren Auslösekriterien. Zudem wird die <b>Weiterentwicklung marktorientierter Instrumente</b> wie Long Term Options (LTOs) angestrebt."
+  },
+  "SG2607030010": {
+    "relevant": true,
+    "relevanz_grund": "Das Energieeffizienzgesetz ist ein zentrales Instrument der EU-Energiepolitik und Energiegesetzgebung.",
+    "zusammenfassung": "Der Akteur <b>schlägt Änderungen an der Novelle</b> des Energieeffizienzgesetzes vor. Im Fokus steht dabei die <b>Konformitätsbewertungsstelle</b> im Kontext der Akkreditierung von Energiemanagementsystemen. Ziel ist die Beschleunigung der Umsetzung der europäischen Energieeffizienzrichtlinie."
+  },
+  "SG2607030011": {
+    "relevant": true,
+    "relevanz_grund": "EU-ETS und Carbon Leakage sind Kernbestandteile der EU-Klimapolitik und des Fit-for-55-Pakets.",
+    "zusammenfassung": "Die Organisation <b>fordert eine Reform des EU-ETS 1</b>, um den Schutz vor Carbon Leakage zu verstärken. Dies soll durch eine <b>Anpassung des BEHG</b> auf Bundesebene flankiert werden. Ziel ist die Sicherung der Wettbewerbsfähigkeit unter verschärften klimapolitischen Rahmenbedingungen."
+  },
+  "SG2607030004": {
+    "relevant": true,
+    "relevanz_grund": "Offshore-Windenergie ist ein zentrales Themenfeld der Unterabteilung IIIA (Offshore-Kooperationen/EE).",
+    "zusammenfassung": "Der BWO <b>unterstützt die Integration von Offshore-Windparks</b> in den Nationalen Wiederherstellungsplan. Die Organisation <b>betont den Beitrag zur Biodiversität</b> durch die Nutzung von Windparks als Trittsteine und Rückzugsräume. Zudem wird ein <b>Ansatz mit Augenmaß beim Rückbau</b> gefordert, um ökologisch wertvolle Strukturen zu erhalten."
+  },
+  "SG2607010053": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft direkt das Strommarktdesign, die Wettbewerbsfähigkeit erneuerbarer Energien und Finanzierungsinstrumente (PPAs), welche Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Alterric <b>setzt sich für</b> ein zukunftsfähiges <b>Strommarktdesign</b> ein, um die Wettbewerbsfähigkeit erneuerbarer Energien dauerhaft zu sichern. Zur Erreichung der Ausbauziele und zur Stärkung des Industriestandorts werden <b>staatliche Absicherungsinstrumente</b> sowie staatliche Garantien für <b>private Stromlieferverträge (PPAs)</b> gefordert. Zudem wird eine aktive Mitgestaltung bei Kapazitätsmärkten und Gebotszonen angestrebt."
+  },
+  "SG2606190082": {
+    "relevant": true,
+    "relevanz_grund": "Die Novellierung von EnWG und EEG sowie die Umsetzung der RED3-Richtlinie fallen unmittelbar in den Zuständigkeitsbereich der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Akteure <b>fordern</b> eine langfristige <b>politische Unterstützung</b> für den Ausbau von <b>Biomethan</b> zur Einspeisung in das öffentliche Gasnetz. Dies soll im Rahmen der anstehenden Novellierungen von EnWG und EEG sowie der Umsetzung der RED3-Richtlinie verankert werden."
+  },
+  "SG2606190062": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft die Abfallrahmenrichtlinie und EPR-Systeme für Textilien/Schuhe, was keinen direkten Bezug zur Energiepolitik oder den Themenfeldern der Unterabteilung IIIA aufweist.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine differenzierte <b>regulatorische Ausgestaltung</b> bei der Umsetzung der Abfallrahmenrichtlinie. Es wird argumentiert, dass <b>Schuhe</b> aufgrund ihrer spezifischen Material- und Nutzungsstruktur nicht pauschal gemeinsam mit Textilien in einem EPR-System reguliert werden sollten."
   }
 }
