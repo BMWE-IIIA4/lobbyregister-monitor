@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-04T06:41:01.661628+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-07-05T07:02:42.619401+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R003178",
@@ -27,7 +27,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Strommarktdesign, Erneuerbare Energien und Finanzierungsinstrumente (PPA), die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002373",
@@ -56,7 +56,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft Versorgungssicherheit und Gasspeicher, welche für die Energiepolitik und das Marktdesign relevant sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002362",
@@ -93,7 +93,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Energieeffizienzgesetz ist ein zentrales Instrument der EU-Energiepolitik und Energiegesetzgebung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002362",
@@ -127,7 +127,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "EU-ETS und Carbon Leakage sind Kernbestandteile der EU-Klimapolitik und des Fit-for-55-Pakets.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000252",
@@ -161,7 +161,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Offshore-Windenergie ist ein zentrales Themenfeld der Unterabteilung IIIA (Offshore-Kooperationen/EE).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006792",
@@ -1073,7 +1073,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt das Strommarktdesign, die Wettbewerbsfähigkeit erneuerbarer Energien und Finanzierungsinstrumente (PPAs), welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007371",
@@ -17143,7 +17143,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novellierung von EnWG und EEG sowie die Umsetzung der RED3-Richtlinie fallen unmittelbar in den Zuständigkeitsbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000549",
