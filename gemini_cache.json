@@ -10133,5 +10133,45 @@
     "relevant": false,
     "relevanz_grund": "Das Thema betrifft die Abfallrahmenrichtlinie und EPR-Systeme für Textilien/Schuhe, was keinen direkten Bezug zur Energiepolitik oder den Themenfeldern der Unterabteilung IIIA aufweist.",
     "zusammenfassung": "Die Organisation <b>fordert</b> eine differenzierte <b>regulatorische Ausgestaltung</b> bei der Umsetzung der Abfallrahmenrichtlinie. Es wird argumentiert, dass <b>Schuhe</b> aufgrund ihrer spezifischen Material- und Nutzungsstruktur nicht pauschal gemeinsam mit Textilien in einem EPR-System reguliert werden sollten."
+  },
+  "SG2607050003": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft den Telekommunikationsmarkt und Wettbewerbsrecht ohne direkten Bezug zur Energiepolitik oder den Zuständigkeitsbereich der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Interessenvertretung <b>fordert</b> die Bundesregierung auf, im <b>Vorabentscheidungsverfahren</b> des EuGH zu <b>Aktivierungsentgelten</b> eine Stellungnahme abzugeben. Der Fokus liegt dabei auf der rechtlichen Klärung im Telekommunikationssektor. Ein Bezug zur Energiegesetzgebung ist nicht gegeben."
+  },
+  "SG2607050004": {
+    "relevant": true,
+    "relevanz_grund": "Das Klimaschutzgesetz ist zentral für die Energiepolitik und die Erreichung der Klimaziele (Fit for 55, EU-Klimagesetz), welche in den Themenfeldern der Unterabteilung IIIA liegen.",
+    "zusammenfassung": "Die Initiative <b>schlägt</b> die <b>Einführung eines Maßnahmenprogramms</b> zur Erreichung der Klimaziele vor. Ziel ist die <b>gesetzliche Verankerung</b> verbindlicher Instrumente innerhalb des Klimaschutzgesetzes. Dies dient der Sicherstellung der nationalen Dekarbonisierungsziele."
+  },
+  "SG2607050006": {
+    "relevant": true,
+    "relevanz_grund": "Das Klimaschutzgesetz ist zentral für die Energiepolitik und die Erreichung der Klimaziele (Fit for 55, EU-Klimagesetz), welche in den Themenfeldern der Unterabteilung IIIA liegen.",
+    "zusammenfassung": "Die Initiative <b>schlägt</b> die <b>Einführung eines Maßnahmenprogramms</b> zur Erreichung der Klimaziele vor. Ziel ist die <b>gesetzliche Verankerung</b> verbindlicher Instrumente innerhalb des Klimaschutzgesetzes. Dies dient der Sicherstellung der nationalen Dekarbonisierungsziele."
+  },
+  "SG2607050007": {
+    "relevant": true,
+    "relevanz_grund": "Das Klimaschutzgesetz ist zentral für die Energiepolitik und die Erreichung der Klimaziele (Fit for 55, EU-Klimagesetz), welche in den Themenfeldern der Unterabteilung IIIA liegen.",
+    "zusammenfassung": "Die Initiative <b>schlägt</b> die <b>Einführung eines Maßnahmenprogramms</b> zur Erreichung der Klimaziele vor. Ziel ist die <b>gesetzliche Verankerung</b> verbindlicher Instrumente innerhalb des Klimaschutzgesetzes. Dies dient der Sicherstellung der nationalen Dekarbonisierungsziele."
+  },
+  "SG2607050008": {
+    "relevant": true,
+    "relevanz_grund": "Das Klimaschutzgesetz ist zentral für die Energiepolitik und die Erreichung der Klimaziele (Fit for 55, EU-Klimagesetz), welche in den Themenfeldern der Unterabteilung IIIA liegen.",
+    "zusammenfassung": "Die Initiative <b>schlägt</b> die <b>Einführung eines Maßnahmenprogramms</b> zur Erreichung der Klimaziele vor. Ziel ist die <b>gesetzliche Verankerung</b> verbindlicher Instrumente innerhalb des Klimaschutzgesetzes. Dies dient der Sicherstellung der nationalen Dekarbonisierungsziele."
+  },
+  "SG2607050005": {
+    "relevant": true,
+    "relevanz_grund": "Die Finanzierung der Transformation und Klimaschutzinvestitionen sind zentrale Bestandteile der Aufgaben der Unterabteilung IIIA (Klimaschutz & Energiewende).",
+    "zusammenfassung": "Die Organisation <b>fordert</b> die <b>Sicherung von Investitionen</b> für einen <b>sozialgerechten Klimaschutz</b> im Rahmen der künftigen Bundeshaushaltsgesetze. Ziel ist die finanzielle Absicherung der notwendigen klimapolitischen Transformationsprozesse. Dabei soll die soziale Ausgewogenheit der Maßnahmen im Fokus stehen."
+  },
+  "SG2607050009": {
+    "relevant": true,
+    "relevanz_grund": "Die EU-Governance-Verordnung und die Umsetzung von EU-Klimazielen fallen direkt in den Zuständigkeitsbereich der EU-Energiepolitik und Klimapolitik der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>unterstützt</b> die <b>nationale Umsetzung</b> des EU-Klimagesetzes sowie der EU-Governance-Verordnung. Dies umfasst die Anpassung nationaler Rahmenbedingungen an die übergeordneten europäischen Zielvorgaben. Der Fokus liegt auf der rechtssicheren Integration der EU-Vorgaben in das deutsche Rechtssystem."
+  },
+  "SG2607040002": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft verkehrsrechtliche Einstufungen von Kleinkrafträdern und Infrastrukturnutzung ohne direkten Bezug zur Sektorkopplung oder Energiewende.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
   }
 }
