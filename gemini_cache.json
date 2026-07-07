@@ -10173,5 +10173,115 @@
     "relevant": false,
     "relevanz_grund": "Das Thema betrifft verkehrsrechtliche Einstufungen von Kleinkrafträdern und Infrastrukturnutzung ohne direkten Bezug zur Sektorkopplung oder Energiewende.",
     "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2607060032": {
+    "relevant": false,
+    "relevanz_grund": "Der Fokus liegt auf Verbraucherschutz und Gewährleistungsrecht für Waren/Kfz, ohne direkten Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Der BVfK <b>fordert die Herausnahme von Kraftfahrzeugen</b> aus dem Anwendungsbereich der EU-Reparaturrichtlinie. Zudem wird eine <b>Einschränkung der Gewährleistungsverlängerung</b> auf spezifische Bauteile sowie ein <b>Wahlrecht bei Reparaturen</b> verlangt. Ziel ist die Vermeidung unverhältnismäßiger Belastungen für den Kfz-Handel."
+  },
+  "SG2607060033": {
+    "relevant": false,
+    "relevanz_grund": "Identisch mit Eintrag 1; kein Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Der BVfK <b>fordert die Herausnahme von Kraftfahrzeugen</b> aus dem Anwendungsbereich der EU-Reparaturrichtlinie. Zudem wird eine <b>Einschränkung der Gewährleistungsverlängerung</b> auf spezifische Bauteile sowie ein <b>Wahlrecht bei Reparaturen</b> verlangt. Ziel ist die Vermeidung unverhältnismäßiger Belastungen für den Kfz-Handel."
+  },
+  "SG2607060013": {
+    "relevant": true,
+    "relevanz_grund": "Das LIFE-Programm ist ein zentrales Finanzierungsinstrument für EU-Klimaschutzziele, die direkt in den Aufgabenbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Die Organisation <b>setzt sich für die Fortführung</b> des LIFE-Programms als eigenständiges Instrument im nächsten Mehrjährigen Finanzrahmen ein. Sie <b>kritisiert eine Eingliederung</b> in größere EU-Förderinstrumente, da dies die <b>Sichtbarkeit und Wirksamkeit</b> von Umwelt- und Klimaprojekten gefährden würde. Das Programm wird als essenzielle Brücke zwischen EU-Klimazielen und deren praktischer Umsetzung bewertet."
+  },
+  "SG2607060018": {
+    "relevant": false,
+    "relevanz_grund": "Thematisiert allgemeine Umweltverfahrensrechte (Fluglärm/Asbest) ohne Bezug zur Energieinfrastruktur oder Energiewende.",
+    "zusammenfassung": "Der Verband <b>begrüßt die Digitalisierung</b> und den Bürokratieabbau bei Umweltschutzverfahren grundsätzlich. Er <b>warnt jedoch vor einer Schwächung</b> der Beteiligungsrechte selbstnutzender Wohneigentümer durch verkürzte Fristen. Eine <b>wirksame Beteiligung</b> müsse trotz digitaler Verfahrenswege sichergestellt bleiben."
+  },
+  "SG2607060020": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zur EU-Netzkodex-Regulierung (RfG) und Anforderungen an Erneuerbare-Energien-Anlagen, was Kernaufgaben der Unterabteilung IIIA betrifft.",
+    "zusammenfassung": "Der BWE <b>fordert Änderungen</b> am Entwurf des EU-Netzkodex für Stromerzeuger (RfG). Er <b>lehnt eine Verpflichtung</b> zur Bereitstellung von Momentanreserve für Windenergieanlagen ab. Zudem wird die <b>Ablehnung einer Baupflicht</b> für Co-Located Speicher bei EE-Anlagen begründet."
+  },
+  "SG2607060010": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zu Finanzierungsbedarfen der Transformation und Klimaschutz/Energiewende.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> die <b>rechtliche Ausgestaltung</b> eines Sondervermögens zur Klimaneutralität. Dabei soll sichergestellt werden, dass Mittel ausschließlich in <b>zusätzliche Klimaschutzinvestitionen</b> fließen. Eine Finanzierung <b>fossiler Infrastruktur</b> wird explizit abgelehnt."
+  },
+  "SG2607060012": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zur Wärmewende und Gebäudeenergie.",
+    "zusammenfassung": "Die Organisation <b>bringt</b> eine <b>faktenbasierte Einordnung</b> in das Gesetzgebungsverfahren zum GModG ein. Ziel ist die Bewertung der Auswirkungen auf die <b>Wohnungswirtschaft</b> sowie die <b>energetische Sanierung</b>. Dabei werden Aspekte der Wärmeversorgung adressiert."
+  },
+  "SG2607060024": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft Pflanzenschutzmittel und Agrarrecht, kein Bezug zur Energiepolitik.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2607060029": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft veterinärrechtliche Importkontrollen und Lebensmittelsicherheit, kein Bezug zur Energiepolitik.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2607060030": {
+    "relevant": false,
+    "relevanz_grund": "Thema betrifft veterinärrechtliche Importkontrollen und Lebensmittelsicherheit, kein Bezug zur Energiepolitik.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2607060009": {
+    "relevant": true,
+    "relevanz_grund": "Das Wärmeplanungsgesetz ist ein zentrales Instrument der Wärmewende und Sektorkopplung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Die SWM <b>begrüßen die Zielsetzung</b> zur Vereinfachung der kommunalen Wärmeplanung. Sie <b>kritisieren erhebliche Defizite</b> beim Schutz von <b>Betriebs- und Geschäftsgeheimnissen</b> sowie <b>KRITIS-Informationen</b>. Eine praxisnahe Ausgestaltung sei für die Transformation der Wärmeversorgung essenziell."
+  },
+  "SG2607060035": {
+    "relevant": false,
+    "relevanz_grund": "Der Fokus liegt auf Land- und Forstwirtschaft sowie Naturschutzrecht ohne direkten Bezug zur Energiepolitik oder Strommarktdesign.",
+    "zusammenfassung": "Die AGDW und Familienbetriebe Land und Forst <b>lehnen den Entwurf ab</b>. Sie sehen <b>Risiken für Eigentumsrechte</b> und fordern eine <b>klare Zweckbindung</b> bei der Erhebung von Umwelt- und Artendaten. Die Regelungen müssten überarbeitet werden, um <b>indirekte Nutzungseinschränkungen</b> zu vermeiden."
+  },
+  "SG2607060022": {
+    "relevant": true,
+    "relevanz_grund": "Das FlexBG betrifft direkt die Flexibilisierung des Stromsystems und den Ausbau der Energieinfrastruktur, was Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Das Gesetz <b>soll die Errichtung und den Ausbau</b> der für die Energiewende erforderlichen <b>Energieinfrastruktur beschleunigen</b>. Ziel ist es, die <b>Versorgungssicherheit</b> zu gewährleisten und die <b>Flexibilität im Stromsystem</b> zu erhöhen."
+  },
+  "SG2607060023": {
+    "relevant": false,
+    "relevanz_grund": "Die Konsultation bezieht sich primär auf allgemeine umweltrechtliche Planungs- und Genehmigungsverfahren ohne spezifischen Energiebezug.",
+    "zusammenfassung": "Die Entwürfe zielen auf den <b>Abbau von Bürokratie</b> sowie die <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> ab. Dabei soll der Umweltschutz gewahrt bleiben. Die Maßnahmen dienen der Umsetzung der <b>Föderalen Modernisierungsagenda</b>."
+  },
+  "SG2607060002": {
+    "relevant": true,
+    "relevanz_grund": "Die Kraftwerksstrategie und Kapazitätsmechanismen sind zentrale Themen der Unterabteilung IIIA zur Sicherung der Stromversorgung.",
+    "zusammenfassung": "ENGIE <b>setzt sich für die Einführung</b> eines <b>zentralen Kapazitätsmarktes (ZKM)</b> ein. Durch <b>wettbewerbliche Ausschreibungen</b> sollen Investitionen in steuerbare Kapazitäten gesichert werden. Zudem wird eine <b>Berücksichtigung bestehender Kapazitäten</b> gefordert."
+  },
+  "SG2607060003": {
+    "relevant": true,
+    "relevanz_grund": "Betrifft Strommarktdesign, Kapazitätsmechanismen und Kraftwerksstrategie, welche Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "ENGIE <b>setzt sich für die Einführung eines zentralen Kapazitätsmarktes</b> (ZKM) in Deutschland ein. Ein solcher Mechanismus soll durch <b>wettbewerbliche Ausschreibungen</b> Investitionen in steuerbare Kapazitäten absichern. Zudem wird eine <b>Berücksichtigung bestehender Kapazitäten</b> gefordert, um einen transparenten Preisbildungsprozess zu gewährleisten."
+  },
+  "SG2607030026": {
+    "relevant": true,
+    "relevanz_grund": "Das StromVKG (Stromverbrauchs-Klimaschutzgesetz) fällt direkt in den Zuständigkeitsbereich der Stromerzeugung und Klimaschutz-Transformation.",
+    "zusammenfassung": "Die Akteure <b>fordern eine Ausgestaltung des StromVKG</b> im Sinne des Klima- und Umweltschutzes. Ziel ist die <b>konkrete gesetzliche Ausrichtung</b> der Regelungen auf die Erreichung der Klimaziele. Weitere Details zur inhaltlichen Umsetzung wurden nicht spezifiziert."
+  },
+  "SG2607020020": {
+    "relevant": true,
+    "relevanz_grund": "Die Umsetzung der EU-Energieeffizienzrichtlinie (EED) ist ein zentrales Thema der EU-Energiepolitik und Energiegesetzgebung.",
+    "zusammenfassung": "Es wird eine <b>beschleunigte Umsetzung der Energieeffizienzrichtlinie</b> (EED) gefordert, um die gesetzliche Frist bis Oktober 2025 einzuhalten. Die <b>Neufassung der EU-Vorgaben</b> erfordert eine zeitnahe Anpassung des nationalen Energieeffizienzgesetzes. Eine <b>praxistaugliche Ausgestaltung</b> der Richtlinienvorgaben steht dabei im Fokus."
+  },
+  "SG2607020021": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema Tabaksteuer hat keinen Bezug zur Energiepolitik oder den Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2606300197": {
+    "relevant": false,
+    "relevanz_grund": "Die Reform der Notfallversorgung und des Rettungsdienstes fällt unter Gesundheitspolitik und weist keinen Energiebezug auf.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2606300213": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema Rettungsdienst und SGB V fällt nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik).",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2606300148": {
+    "relevant": false,
+    "relevanz_grund": "Das Allgemeine Gleichbehandlungsgesetz (AGG) hat keinen inhaltlichen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
   }
 }
