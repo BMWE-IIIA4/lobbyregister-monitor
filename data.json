@@ -1,7 +1,133 @@
 {
-  "generated_at": "2026-07-08T06:20:20.525498+02:00",
-  "newly_added": 14,
+  "generated_at": "2026-07-09T07:04:49.800865+02:00",
+  "newly_added": 6,
   "statements": [
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/82761",
+      "regulatory_project_title": "Vereinfachungen am Regelungsrahmen für den SMRO",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/2d/809192/Stellungnahme-Gutachten-SG2607080022.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607080022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080022",
+      "summary": "E.ON <b>schlägt Vereinfachungen</b> für den Smart-Meter-Rollout vor, um diesen effizienter und kostengünstiger zu gestalten. Die Vorschläge umfassen die <b>Reduzierung der Tarifanwendungsfälle</b> sowie die <b>Abschaffung des wettbewerblichen Messstellenbetreibers</b>. Langfristig wird die Einführung eines kostengünstigen <b>Smart-Meter light</b> angestrebt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Smart-Meter-Rollout ist ein zentrales Element der Digitalisierung der Energiewende und fällt unter die Zuständigkeit für Strommarktregulierung und Flexibilisierung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/82717",
+      "regulatory_project_title": "Umsetzung der EU-Richtlinie 2024/1203 zum strafrechtlichen Umweltschutz - Forderung nach praxistauglicher 1:1-Umsetzung",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/52/08/809015/Stellungnahme-Gutachten-SG2607080015.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607080015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080015",
+      "summary": "Der BDEW <b>fordert eine 1:1-Umsetzung</b> der EU-Richtlinie zum strafrechtlichen Umweltschutz, um Rechtsunsicherheiten zu vermeiden. Er <b>lehnt nationale Verschärfungen</b> ab, die über die europäischen Mindeststandards hinausgehen. Ziel ist die <b>Vermeidung von Wettbewerbsnachteilen</b> für die deutsche Energiewirtschaft.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Umsetzung von EU-Umweltstrafrecht betrifft die regulatorischen Rahmenbedingungen für die Energiewirtschaft und fällt unter EU-Energie- und Klimapolitik.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/82717",
+      "regulatory_project_title": "Änderungsvorschläge zu wasserwirtschaftlichen Regelungen auf Bundes- und EU-Ebene",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a8/43/809019/Stellungnahme-Gutachten-SG2607080019.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607080019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080019",
+      "summary": "Der BDEW <b>setzt sich für praxistaugliche Regelungen</b> in der Wasserwirtschaft ein, insbesondere bei der Umsetzung der Kommunalen Abwasserrichtlinie. Er fordert eine <b>Beschleunigung von Infrastrukturprojekten</b> sowie verhältnismäßige Vorgaben zur <b>Wärmenutzung aus Abwasser</b>. Zudem betont der Verband die Notwendigkeit von <b>Resilienz und Cybersicherheit</b> für die öffentliche Wasserversorgung.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Wasserwirtschaft ist durch die Wärmenutzung aus Abwasser und die Resilienz kritischer Infrastrukturen eng mit der Energiepolitik verknüpft.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001517",
+      "org_name": "BDKO | Bundesverband der Deutschen Klein- und Obstbrenner e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001517/82726",
+      "regulatory_project_title": "Kontingenterhöhung Abfindungsbrennen auf 600L / Regulierungsabbau / Entbürokratisierung / Weiterentwicklung ",
+      "sending_date": "2026-07-07",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b8/48/808989/Stellungnahme-Gutachten-SG2607080016.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2607080016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080016",
+      "summary": "Kontingenterhöhung  von 300 L.A. auf 600 L.A. | Entbürokratisierung, Regulierungsabbau, Vereinheitlichung von Zoll-Formularen der HZAs | Weiterentwicklung/Vereinfachungen u.A. Neudefinition des landwirtschaftlichen Betriebes, Auslegung zur rechtlichen und wirtschaftlichen Unabhängigkeit, Anpassung Mindestflächen, Abschaffung unbilliger Härten, Kleinverschlussregelung auf 1000 lA anheben in Verbindung mit der Zulassung einfacher, technischer Möglichkeiten | Ausnahme der Zuckersteuer auf Spirituosen aus Abfindungsbetrieben | Keine Erhöhung der Ausbeutesätze | Anerkennung von Abfindungsalkohol als landwirtschaftliches Produkt  ",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMLEH",
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002571",
       "org_name": "LANXESS AG",
@@ -41,7 +167,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zu Energie, Klima und Wettbewerbsfähigkeit im EU-Binnenmarkt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001797",
@@ -74,7 +200,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur Versorgungssicherheit und EnWG-Änderungen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001500",
@@ -104,7 +230,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zum EU Industrial Accelerator Act und industrieller Transformation.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -157,7 +283,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Kernbereich EU-Energiepolitik, Wasserstoffmarkt und Dekarbonisierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -202,7 +328,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Wärmewende und regulatorische Rahmenbedingungen für Energieversorger, was unter Klimaschutz & Energiewende sowie Energiepreise fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002277",
@@ -1183,7 +1309,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Pumpspeicher sind essenziell für die Flexibilisierung des Strommarktes und die Versorgungssicherheit bei erneuerbaren Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006792",
@@ -2358,6 +2484,30 @@
         {
           "code": "FOI_ENVIRONMENT_CLIMATE",
           "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003630",
+      "org_name": "Bundesvereinigung Kreditankauf und Servicing e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003630/81645",
+      "regulatory_project_title": "Evaluierung des Kreditzweitmarktgesetzes",
+      "sending_date": "2026-02-06",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/61/e4/809137/Stellungnahme-Gutachten-SG2607010002.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607010002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010002",
+      "summary": "Das Kreditzweitmarktgesetz vom 22. Dezember 2023 (BGBl. 2023 I Nr. 411, S. 2) soll hinsichtlich seines administrativen und finanziellen Aufwandes für Kreditdienstleister, Kreditkäufer und Banken überprüft und ggf. angepasst werden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
         }
       ],
       "priority": 2,
@@ -54555,6 +54705,38 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R003496",
+      "org_name": "ARGE Netz GmbH & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003496/73433",
+      "regulatory_project_title": "Weiterentwicklung des EEGs",
+      "sending_date": "2026-01-06",
+      "upload_date": "2026-03-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/13/db/809166/Stellungnahme-Gutachten-SG2603060027.pdf",
+      "pdf_pages": 47,
+      "sg_number": "SG2603060027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2603060027",
+      "summary": "Die ARGE NETZ <b>setzt sich für</b> einen <b>zügigen Zubau der Erneuerbaren Energien</b> und deren Integration in ein Gesamtsystem ein. Hierfür wird eine <b>entsprechende Ausgestaltung des EEG</b> gefordert, insbesondere hinsichtlich des Ausschreibungsdesigns und der technischen Netzanschlussvorgaben. Ziel ist die Stärkung des erneuerbaren Mittelstands als treibende Kraft der Energiewende.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien und die Systemintegration, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R003523",
       "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/79500",
@@ -61729,5 +61911,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 690
+  "gemini_filtered_out": 692
 }

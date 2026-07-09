@@ -10353,5 +10353,35 @@
     "relevant": false,
     "relevanz_grund": "Die UTP-Durchsetzungsverordnung betrifft unlautere Handelspraktiken im Agrar- und Lebensmittelsektor und weist keinen Bezug zur Energiegesetzgebung oder den Themenfeldern der Unterabteilung IIIA auf.",
     "zusammenfassung": "Der Markenverband <b>fordert</b> die Schaffung <b>akzeptabler Rahmenbedingungen</b> für die Markenwirtschaft. Zudem wird ein <b>effektiver Rahmen</b> für die behördliche Zusammenarbeit bei grenzüberschreitenden Sachverhalten sowie die <b>Verhinderung von Forum Shopping</b> angestrebt."
+  },
+  "SG2607080022": {
+    "relevant": true,
+    "relevanz_grund": "Der Smart-Meter-Rollout ist ein zentrales Element der Digitalisierung der Energiewende und fällt unter die Zuständigkeit für Strommarktregulierung und Flexibilisierung.",
+    "zusammenfassung": "E.ON <b>schlägt Vereinfachungen</b> für den Smart-Meter-Rollout vor, um diesen effizienter und kostengünstiger zu gestalten. Die Vorschläge umfassen die <b>Reduzierung der Tarifanwendungsfälle</b> sowie die <b>Abschaffung des wettbewerblichen Messstellenbetreibers</b>. Langfristig wird die Einführung eines kostengünstigen <b>Smart-Meter light</b> angestrebt."
+  },
+  "SG2607080016": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft primär landwirtschaftliche Brennrechte und Zollrecht ohne direkten Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2607080015": {
+    "relevant": true,
+    "relevanz_grund": "Die Umsetzung von EU-Umweltstrafrecht betrifft die regulatorischen Rahmenbedingungen für die Energiewirtschaft und fällt unter EU-Energie- und Klimapolitik.",
+    "zusammenfassung": "Der BDEW <b>fordert eine 1:1-Umsetzung</b> der EU-Richtlinie zum strafrechtlichen Umweltschutz, um Rechtsunsicherheiten zu vermeiden. Er <b>lehnt nationale Verschärfungen</b> ab, die über die europäischen Mindeststandards hinausgehen. Ziel ist die <b>Vermeidung von Wettbewerbsnachteilen</b> für die deutsche Energiewirtschaft."
+  },
+  "SG2607080019": {
+    "relevant": true,
+    "relevanz_grund": "Die Wasserwirtschaft ist durch die Wärmenutzung aus Abwasser und die Resilienz kritischer Infrastrukturen eng mit der Energiepolitik verknüpft.",
+    "zusammenfassung": "Der BDEW <b>setzt sich für praxistaugliche Regelungen</b> in der Wasserwirtschaft ein, insbesondere bei der Umsetzung der Kommunalen Abwasserrichtlinie. Er fordert eine <b>Beschleunigung von Infrastrukturprojekten</b> sowie verhältnismäßige Vorgaben zur <b>Wärmenutzung aus Abwasser</b>. Zudem betont der Verband die Notwendigkeit von <b>Resilienz und Cybersicherheit</b> für die öffentliche Wasserversorgung."
+  },
+  "SG2607010002": {
+    "relevant": false,
+    "relevanz_grund": "Das Kreditzweitmarktgesetz betrifft das Finanzmarktrecht und hat keinen inhaltlichen Bezug zur Energiepolitik.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2603060027": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien und die Systemintegration, welche Kernaufgaben der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Die ARGE NETZ <b>setzt sich für</b> einen <b>zügigen Zubau der Erneuerbaren Energien</b> und deren Integration in ein Gesamtsystem ein. Hierfür wird eine <b>entsprechende Ausgestaltung des EEG</b> gefordert, insbesondere hinsichtlich des Ausschreibungsdesigns und der technischen Netzanschlussvorgaben. Ziel ist die Stärkung des erneuerbaren Mittelstands als treibende Kraft der Energiewende."
   }
 }
