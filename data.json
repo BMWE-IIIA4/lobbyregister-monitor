@@ -1,7 +1,231 @@
 {
-  "generated_at": "2026-07-09T07:04:49.800865+02:00",
-  "newly_added": 6,
+  "generated_at": "2026-07-10T06:59:16.173596+02:00",
+  "newly_added": 10,
   "statements": [
+    {
+      "register_number": "R006814",
+      "org_name": "Westfalen AG & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006814/82845",
+      "regulatory_project_title": "Novellierung des Gebäudeenergiegesetzes / Gebäudemodernisierungsgesetzes",
+      "sending_date": "2026-06-26",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d9/f4/810236/Stellungnahme-Gutachten-SG2607090031.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607090031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090031",
+      "summary": "Die Organisation <b>fordert die Beibehaltung</b> der regulatorischen Anreize zur <b>Verstetigung des Markthochlaufs von Wärmepumpen</b>. Zudem wird eine <b>verbindliche Verzahnung</b> von GEG und kommunaler Wärmeplanung angemahnt. Ziel ist die Sicherung des Ambitionsniveaus bei der energetischen Gebäudemodernisierung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Gebäudeenergiegesetz (GEG) und die kommunale Wärmeplanung sind zentrale Instrumente der Wärmewende und Sektorkopplung, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005566",
+      "org_name": "VNG Handel & Vertrieb GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005566/82869",
+      "regulatory_project_title": "Weiterentwicklung des Marktdesign für Gasspeicher in Deutschland",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/df/810364/Stellungnahme-Gutachten-SG2607090038.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607090038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090038",
+      "summary": "Die Organisation <b>schlägt ein neues Marktdesign</b> für Gasspeicher vor, um die <b>Versorgungssicherheit</b> über 2027 hinaus zu gewährleisten. Dabei wird eine <b>strategische Gasreserve</b> mit klaren Auslösekriterien sowie der Einsatz marktorientierter Instrumente wie <b>LTOs und SSBOs</b> befürwortet. Ziel ist die Balance zwischen physischer Absicherung und marktwirtschaftlicher Funktionsfähigkeit.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Versorgungssicherheit durch Gasspeicher ist ein Kernaspekt der Energiepolitik und der nationalen Energieinfrastruktur.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001856",
+      "org_name": "DuPont Deutschland Holding Gmbh & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001856/80685",
+      "regulatory_project_title": "EU Industrial Accelerator Act",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/16/4c/810297/Stellungnahme-Gutachten-SG2607090014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607090014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090014",
+      "summary": "Die Organisation <b>fordert die Stärkung</b> der europäischen Produktion durch die <b>Berücksichtigung funktionaler Batteriematerialien</b> im EU Industrial Accelerator Act. Ziel ist die <b>Sicherung der Wertschöpfungsketten</b> für kritische Energietechnologien im EU-Binnenmarkt. Dies unterstützt die industrielle Basis der europäischen Energiewende.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der EU Industrial Accelerator Act betrifft die europäische Industriepolitik und Wertschöpfungsketten für Energietechnologien, was unter den Clean Industrial Deal und die EU-Energiepolitik fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000424",
+      "org_name": "Deutscher Brauer-Bund e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000424/82738",
+      "regulatory_project_title": "Innovationsfreundliche Netzentgeltreform",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/94/aa/810020/Stellungnahme-Gutachten-SG2607090020.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607090020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090020",
+      "summary": "Zahlreiche Verbände <b>fordern</b> eine <b>Reform der Netzentgeltsystematik</b>, um die Elektrifizierung der Ernährungswirtschaft zu ermöglichen. Sie bemängeln aktuell <b>hohe Energiekosten</b> und <b>lange Netzanschlusszeiten</b>. Eine Anpassung ist für die <b>Investitionssicherheit</b> der energieintensiven Industrie essenziell.",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Netzentgeltreform ist ein zentrales Element der Strommarktregulierung und beeinflusst die Energiekosten sowie die Investitionssicherheit für die Industrie.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002706",
+      "org_name": "BKK Dachverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002706/82853",
+      "regulatory_project_title": "Eckpunkte für eine Nachhaltigkeitsstrategie im deutschen Gesundheitssystem",
+      "sending_date": "2026-06-03",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/71/810084/Stellungnahme-Gutachten-SG2607090024.pdf",
+      "pdf_pages": 46,
+      "sg_number": "SG2607090024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090024",
+      "summary": "Ziel ist es, die Eckpunkte unter Federführung des Bundesministeriums für Gesundheit zu einer verbindlichen Nachhaltigkeitsstrategie weiterzuentwickeln und in den anstehenden Strukturreformen des Gesundheitswesens fest zu verankern. Ein solcher Rahmen ist die zentrale Voraus- \r\nsetzung für die dringend erforderliche Transformation hin zu einem nachhaltigen, klimaneutralen Gesundheitswesen. Es formuliert keinen abschließenden Maßnahmenplan, sondern benennt die wesentlichen Handlungsbedarfe, strukturellen Voraussetzungen und strategischen Leitlinien.\r\nDie Eckpunkte benennen Handlungsbedarfe in 9 zentralen Bereichen: Governance, Prävention und Versorgungsplanung, ambulante, pflegerische und stationäre Versorgung, Arzneimittel, Medizinprodukte, Abfallreduktion, Transport und Digitalisierung. ",
+      "recipients": [
+        "BKAmt",
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/82806",
+      "regulatory_project_title": "Entwurf eines Gesetzes zur Stärkung der Natürlichen Infrastruktur und zur Fortentwicklung der naturschutzrechtlichen Eingriffsregelung",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7d/e4/809700/Stellungnahme-Gutachten-SG2607090002.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607090002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090002",
+      "summary": "Naturflächen, wie gesunde Böden, Wäler und Moore sollen rechtlich auf eine Stufe mit der \r\ntechnischen Infrastruktur gestellt werden. Damit soll der Naturschutz ein deutlich höheres \r\nGewicht in politischen Entscheidungen und Genehmigungsverfahren erhalten. Zentrales \r\nInstrument dafür ist, solche Naturschutzmaßnahmen als \"überragendes öffentliches Interesse\" \r\neinzustufen.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000424",
+      "org_name": "Deutscher Brauer-Bund e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000424/82738",
+      "regulatory_project_title": "Einführung eines belgischen Erlasses zur Werbung für alkoholhaltige Getränke ",
+      "sending_date": "2026-05-27",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/62/24/810016/Stellungnahme-Gutachten-SG2607090015.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607090015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090015",
+      "summary": "Die geplante belgische Regelung für einen Warnhinweis in der Werbung für alkoholische Getränke stößt vor dem Hintergrund  harmonisierter Rahmenbedingungen im EU-Binnenmarkt auf Kritik der Brauwirtschaft (TRIS-Notifizierungsverfahren 2024/0032/BE).",
+      "recipients": [
+        "BMLEH",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000289",
+      "org_name": "Fahrgastverband PRO BAHN e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000289/82878",
+      "regulatory_project_title": "Gesetz zur Stärkung der Natürlichen Infrastruktur",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f5/d0/810394/Stellungnahme-Gutachten-SG2607090039.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607090039",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607090039",
+      "summary": "Änderung des Bundesnaturschutzrechts; Einführung der Natürlichen Infrastruktur und Naturgutschriften; PRO BAHN fordert, Maßnahmen zum Ausbau des öffentlichen Verkehrs (Schiene, Reaktivierungen, Betriebshöfe usw.) bei den vorgesehenen Ausnahmen ausdrücklich zu berücksichtigen",
+      "recipients": [
+        "BMUKN",
+        "BMV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002309",
       "org_name": "E.ON SE",
@@ -34,7 +258,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Smart-Meter-Rollout ist ein zentrales Element der Digitalisierung der Energiewende und fällt unter die Zuständigkeit für Strommarktregulierung und Flexibilisierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -67,7 +291,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung von EU-Umweltstrafrecht betrifft die regulatorischen Rahmenbedingungen für die Energiewirtschaft und fällt unter EU-Energie- und Klimapolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -98,6 +322,32 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Wasserwirtschaft ist durch die Wärmenutzung aus Abwasser und die Resilienz kritischer Infrastrukturen eng mit der Energiepolitik verknüpft.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000424",
+      "org_name": "Deutscher Brauer-Bund e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000424/82738",
+      "regulatory_project_title": "Daten als Wettbewerbsvorteil sichern",
+      "sending_date": "2026-04-10",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/26/b0/810000/Stellungnahme-Gutachten-SG2607080018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607080018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080018",
+      "summary": "Eine Verbändeallianz <b>fordert</b> die Bundesregierung auf, sich für eine <b>stärkere Datennutzung</b> im EU-Rat einzusetzen. Sie plädiert für den <b>risikobasierten Ansatz</b> und den <b>Abbau von Bürokratie</b>, um die Wettbewerbsfähigkeit zu sichern. Dabei wird die <b>unternehmerische Freiheit</b> gegenüber einer Diskriminierung digitaler Geschäftsmodelle betont.",
+      "recipients": [
+        "BMJV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Wettbewerbsfähigkeit der europäischen Industrie und die Nutzung von Daten sind zentrale Aspekte des EU Green Deals und des Clean Industrial Deals.",
       "gemini_status": "processed"
     },
     {
@@ -14118,6 +14368,39 @@
       "priority": 2,
       "gemini_relevanz": "Bezug zur EU-Gebäuderichtlinie (EPBD) und energetischen Sanierung im Kontext der Wärmewende.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001444",
+      "org_name": "Kerntechnik Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001444/80513",
+      "regulatory_project_title": "Zweigleisige Strategie für nukleare Zukunftstechnologien in Deutschland: Langfristprojekt Fusion und Umsetzungspfad Small Modular Reactors (SMR)",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2e/40/809799/Stellungnahme-Gutachten-SG2606250058.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2606250058",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250058",
+      "summary": "Es wird eine <b>zweigleisige Strategie</b> für nukleare Zukunftstechnologien <b>vorgeschlagen</b>, die <b>Kernfusion</b> und <b>Small Modular Reactors (SMR)</b> umfasst. Die Umsetzung erfordert Anpassungen in der <b>Gesetzgebung und Regulierung</b> sowie bei <b>Betreiberstrukturen</b>. Zudem werden konkrete Schritte zur <b>Standortauswahl</b> und Fachkräftegewinnung gefordert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NUCLEAR",
+          "label": "Atomenergie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Kraftwerksstrategie und die Erforschung neuer Technologien zur Stromerzeugung fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002111",
@@ -54734,7 +55017,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien und die Systemintegration, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003523",
@@ -61911,5 +62194,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 692
+  "gemini_filtered_out": 696
 }

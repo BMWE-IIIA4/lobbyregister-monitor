@@ -10383,5 +10383,55 @@
     "relevant": true,
     "relevanz_grund": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien und die Systemintegration, welche Kernaufgaben der Unterabteilung IIIA sind.",
     "zusammenfassung": "Die ARGE NETZ <b>setzt sich für</b> einen <b>zügigen Zubau der Erneuerbaren Energien</b> und deren Integration in ein Gesamtsystem ein. Hierfür wird eine <b>entsprechende Ausgestaltung des EEG</b> gefordert, insbesondere hinsichtlich des Ausschreibungsdesigns und der technischen Netzanschlussvorgaben. Ziel ist die Stärkung des erneuerbaren Mittelstands als treibende Kraft der Energiewende."
+  },
+  "SG2607090031": {
+    "relevant": true,
+    "relevanz_grund": "Das Gebäudeenergiegesetz (GEG) und die kommunale Wärmeplanung sind zentrale Instrumente der Wärmewende und Sektorkopplung, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Die Organisation <b>fordert die Beibehaltung</b> der regulatorischen Anreize zur <b>Verstetigung des Markthochlaufs von Wärmepumpen</b>. Zudem wird eine <b>verbindliche Verzahnung</b> von GEG und kommunaler Wärmeplanung angemahnt. Ziel ist die Sicherung des Ambitionsniveaus bei der energetischen Gebäudemodernisierung."
+  },
+  "SG2607090038": {
+    "relevant": true,
+    "relevanz_grund": "Die Versorgungssicherheit durch Gasspeicher ist ein Kernaspekt der Energiepolitik und der nationalen Energieinfrastruktur.",
+    "zusammenfassung": "Die Organisation <b>schlägt ein neues Marktdesign</b> für Gasspeicher vor, um die <b>Versorgungssicherheit</b> über 2027 hinaus zu gewährleisten. Dabei wird eine <b>strategische Gasreserve</b> mit klaren Auslösekriterien sowie der Einsatz marktorientierter Instrumente wie <b>LTOs und SSBOs</b> befürwortet. Ziel ist die Balance zwischen physischer Absicherung und marktwirtschaftlicher Funktionsfähigkeit."
+  },
+  "SG2607090024": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft primär das Gesundheitswesen und die Strukturreformen des BMG; ein direkter energiepolitischer Bezug zur Unterabteilung IIIA ist nicht gegeben.",
+    "zusammenfassung": "Die Organisation <b>fordert die Weiterentwicklung</b> der Eckpunkte zu einer <b>verbindlichen Nachhaltigkeitsstrategie</b> für das Gesundheitswesen. Es werden <b>strukturelle Voraussetzungen</b> für eine Transformation hin zur Klimaneutralität in neun Handlungsfeldern benannt. Ein konkreter energiepolitischer Bezug zur Zuständigkeit der Unterabteilung IIIA ist nicht erkennbar."
+  },
+  "SG2607090014": {
+    "relevant": true,
+    "relevanz_grund": "Der EU Industrial Accelerator Act betrifft die europäische Industriepolitik und Wertschöpfungsketten für Energietechnologien, was unter den Clean Industrial Deal und die EU-Energiepolitik fällt.",
+    "zusammenfassung": "Die Organisation <b>fordert die Stärkung</b> der europäischen Produktion durch die <b>Berücksichtigung funktionaler Batteriematerialien</b> im EU Industrial Accelerator Act. Ziel ist die <b>Sicherung der Wertschöpfungsketten</b> für kritische Energietechnologien im EU-Binnenmarkt. Dies unterstützt die industrielle Basis der europäischen Energiewende."
+  },
+  "SG2607090002": {
+    "relevant": false,
+    "relevanz_grund": "Das Vorhaben betrifft das Naturschutzrecht und die Eingriffsregelung, ohne einen direkten Bezug zur Energieinfrastruktur oder den energiepolitischen Zielen der Unterabteilung IIIA.",
+    "zusammenfassung": "Die Organisation <b>schlägt die rechtliche Gleichstellung</b> von Naturflächen mit technischer Infrastruktur vor. Durch die Einstufung als <b>überragendes öffentliches Interesse</b> soll der Naturschutz in Genehmigungsverfahren gestärkt werden. Ein direkter Bezug zu energiepolitischen Vorhaben der Unterabteilung IIIA ist nicht gegeben."
+  },
+  "SG2607090015": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft das Werberecht für alkoholische Getränke und weist keinen inhaltlichen Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA auf.",
+    "zusammenfassung": "Die Brauwirtschaft <b>kritisiert</b> die geplante belgische Regelung für <b>Warnhinweise in der Werbung</b> für alkoholische Getränke. Sie verweist dabei auf die <b>harmonisierten Rahmenbedingungen</b> im EU-Binnenmarkt. Das Vorhaben wird im Rahmen eines <b>TRIS-Notifizierungsverfahrens</b> geprüft."
+  },
+  "SG2607090020": {
+    "relevant": true,
+    "relevanz_grund": "Die Netzentgeltreform ist ein zentrales Element der Strommarktregulierung und beeinflusst die Energiekosten sowie die Investitionssicherheit für die Industrie.",
+    "zusammenfassung": "Zahlreiche Verbände <b>fordern</b> eine <b>Reform der Netzentgeltsystematik</b>, um die Elektrifizierung der Ernährungswirtschaft zu ermöglichen. Sie bemängeln aktuell <b>hohe Energiekosten</b> und <b>lange Netzanschlusszeiten</b>. Eine Anpassung ist für die <b>Investitionssicherheit</b> der energieintensiven Industrie essenziell."
+  },
+  "SG2607090039": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft das Naturschutzrecht und den Ausbau des öffentlichen Verkehrs, ohne einen direkten Bezug zur Energiepolitik oder den Themenfeldern der Unterabteilung IIIA.",
+    "zusammenfassung": "PRO BAHN <b>fordert</b> bei der geplanten Änderung des Bundesnaturschutzrechts die <b>Berücksichtigung von Ausnahmen</b> für den <b>Ausbau des öffentlichen Verkehrs</b>. Dies betrifft insbesondere Schienenprojekte und Betriebshöfe. Das Gesetz zielt primär auf die Stärkung der <b>natürlichen Infrastruktur</b> ab."
+  },
+  "SG2607080018": {
+    "relevant": true,
+    "relevanz_grund": "Die Wettbewerbsfähigkeit der europäischen Industrie und die Nutzung von Daten sind zentrale Aspekte des EU Green Deals und des Clean Industrial Deals.",
+    "zusammenfassung": "Eine Verbändeallianz <b>fordert</b> die Bundesregierung auf, sich für eine <b>stärkere Datennutzung</b> im EU-Rat einzusetzen. Sie plädiert für den <b>risikobasierten Ansatz</b> und den <b>Abbau von Bürokratie</b>, um die Wettbewerbsfähigkeit zu sichern. Dabei wird die <b>unternehmerische Freiheit</b> gegenüber einer Diskriminierung digitaler Geschäftsmodelle betont."
+  },
+  "SG2606250058": {
+    "relevant": true,
+    "relevanz_grund": "Die Kraftwerksstrategie und die Erforschung neuer Technologien zur Stromerzeugung fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA.",
+    "zusammenfassung": "Es wird eine <b>zweigleisige Strategie</b> für nukleare Zukunftstechnologien <b>vorgeschlagen</b>, die <b>Kernfusion</b> und <b>Small Modular Reactors (SMR)</b> umfasst. Die Umsetzung erfordert Anpassungen in der <b>Gesetzgebung und Regulierung</b> sowie bei <b>Betreiberstrukturen</b>. Zudem werden konkrete Schritte zur <b>Standortauswahl</b> und Fachkräftegewinnung gefordert."
   }
 }
