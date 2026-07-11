@@ -1,7 +1,303 @@
 {
-  "generated_at": "2026-07-10T06:59:16.173596+02:00",
-  "newly_added": 10,
+  "generated_at": "2026-07-11T06:18:34.871374+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/82939",
+      "regulatory_project_title": "Novelle BEHG für Fortsetzung Preiskorridor auch in 2027",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/df/811235/Stellungnahme-Gutachten-SG2607100045.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2607100045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100045",
+      "summary": "Die Organisation <b>schlägt vor</b>, den <b>Preiskorridor</b> des BEHG aufgrund der Verschiebung des EU-ETSII um ein Jahr zu verlängern. Dies soll die <b>Umsetzung erleichtern</b> und den administrativen Aufwand minimieren. Ein Systemwechsel für das Jahr 2027 soll dadurch vermieden werden.",
+      "recipients": [
+        "BMJV",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Reform klimarelevanter Steuern/Abgaben und die Anpassung an EU-Klimapolitik (ETSII), was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/82888",
+      "regulatory_project_title": "Änderungsvorschläge zur Beschleunigung des 110-kV-Hochspannungsnetzausbaus",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/69/810630/Stellungnahme-Gutachten-SG2607100001.pdf",
+      "pdf_pages": 38,
+      "sg_number": "SG2607100001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100001",
+      "summary": "Die Organisation <b>fordert gesetzliche Änderungen</b> zur <b>Beschleunigung des Netzausbaus</b> im 110-kV-Bereich. Hierzu werden <b>Erleichterungen bei Umweltprüfungen</b> sowie eine Flexibilisierung von Planfeststellungsverfahren angestrebt. Zudem wird die Einbeziehung der Energieinfrastruktur in das Infrastruktur-Zukunftsgesetz verlangt.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMJV",
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Ausbau der Stromnetze (110-kV) ist ein zentrales Thema der Versorgungssicherheit und Energiewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/82888",
+      "regulatory_project_title": "Änderungsvorschläge zur Novelle des Energieeffizienzgesetzes und des EDL-G",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fd/c0/810670/Stellungnahme-Gutachten-SG2607100003.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607100003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100003",
+      "summary": "Die Organisation <b>fordert eine Beschränkung</b> der nationalen Umsetzung auf unionsrechtliche Mindestvorgaben und <b>lehnt zusätzliche nationale Anforderungen</b> ab. Ziel ist der <b>Abbau von Berichts- und Informationspflichten</b> sowie die Sicherstellung konsistenter Regelungen zwischen EED und EPBD. Zudem sollen rechtliche Hemmnisse für Energiedienstleistungen beseitigt werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Umsetzung der Energieeffizienzrichtlinie (EED) und die Gestaltung des Energieeffizienzgesetzes sind Kernbereiche der EU-Energiepolitik.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/82888",
+      "regulatory_project_title": "Änderungsvorschläge zur EU-Verordnung 2019/943 zu Netzentgelten und Smart Grids",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3c/54/810672/Stellungnahme-Gutachten-SG2607100002.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2607100002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100002",
+      "summary": "Die Organisation <b>lehnt verbindliche EU-weite Ausbauquoten</b> für Smart Meter ab und <b>fordert die Beibehaltung</b> nationaler, kostenorientierter Rolloutmodelle. Sie setzt sich für <b>nationale Gestaltungsspielräume</b> bei Netzentgelten ein. Zudem wird der Schutz bestehender Investitionen sowie eine Beschränkung der EU-Kommissionsbefugnisse auf technische Fragen gefordert.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Verordnung (EU) 2019/943 zum Elektrizitätsbinnenmarkt ist ein zentrales Themenfeld der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/82888",
+      "regulatory_project_title": "Änderungsvorschläge zum EU Grids Package für Energieinfrastruktur und Netzausbau",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/40/7a/810836/Stellungnahme-Gutachten-SG2607100013.pdf",
+      "pdf_pages": 36,
+      "sg_number": "SG2607100013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100013",
+      "summary": "Der BDEW <b>fordert Änderungen am EU Grids Package</b>, um die <b>Netzplanung und Genehmigungsverfahren</b> für Strom-, Gas- und Wasserstoffinfrastruktur praxistauglich zu gestalten. Er verlangt <b>konsistente Genehmigungsfristen</b> sowie <b>investitionsgerechte Regelungen</b> für den Netzausbau. Zudem plädiert der Verband für den Erhalt nationaler Gestaltungsspielräume und den <b>Abbau von Bürokratie</b> bei Infrastrukturvorhaben.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EU Grids Package betrifft direkt die EU-Energiegesetzgebung, den Netzausbau und die Wasserstoffinfrastruktur, welche Kernbereiche der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003483",
+      "org_name": "Deutscher Kartoffelhandelsverband e.V. (DKHV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003483/82895",
+      "regulatory_project_title": "Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (Packaging and Packaging Waste Regulation, PPWR)",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/67/f9/810765/Stellungnahme-Gutachten-SG2607100011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607100011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100011",
+      "summary": "Begleitung der Umsetzung der Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (Packaging and Packaging Waste Regulation – PPWR) sowie der Erarbeitung der hierzu vorgesehenen delegierten und Durchführungsrechtsakte. Ziel der Interessenvertretung ist die Berücksichtigung der besonderen Anforderungen des Kartoffelsektors bei der Ausgestaltung der Regelungen zu Verpackungsreduzierung, Wiederverwendung, Recyclingfähigkeit und Kennzeichnung sowie zu produktspezifischen Ausnahmen und Übergangsregelungen für Verpackungen von Speisekartoffeln und Kartoffelerzeugnissen.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000774",
+      "org_name": "Gesamtverband der Deutschen Versicherungswirtschaft e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000774/82892",
+      "regulatory_project_title": "Recht auf Vergessenwerden (RTBF - Right to be forgotten)",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/84/810721/Stellungnahme-Gutachten-SG2607100005.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607100005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100005",
+      "summary": "Die Diskussion über ein Recht auf Vergessenwerden für Menschen mit einer zurückliegenden Krebserkrankung betrifft ein sensibles Spannungsfeld: den berechtigten Wunsch der Betroffenen nach einem unbelasteten Neuanfang und die Frage, wie private Personenversicherung dauerhaft fair, bezahlbar und verlässlich funktionieren kann. Die Versicherungswirtschaft setzt sich für eine balancierte Lösung ein. Ein gut ausgestaltetes Recht auf Vergessenwerden kann einen wichtigen Beitrag für ehemalige Krebspatientinnen und -patienten beim finanziellen Neuanfang leisten. Voraussetzung ist, dass es sich an der tatsächlichen Risikolage und wissenschaftlichen Erkenntnissen orientiert. Nur dann wird es sowohl dem berechtigten Anliegen der Betroffenen als auch der Beitragsstabilität und Fairness gerecht.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000335",
+      "org_name": "Arbeitsgemeinschaft Deutscher Waldbesitzerverbände (AGDW) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000335/82929",
+      "regulatory_project_title": "Grundsätzliche Überarbeitung und Entschärfung des Gesetzes zur Stärkung der Natürlichen Infrastruktur (NatInfG)",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/6d/811152/Stellungnahme-Gutachten-SG2607100036.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2607100036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100036",
+      "summary": "Ablehnung des Gesetzesentwurfs in der vorliegenden Form und Forderung nach grundlegender Überarbeitung. ",
+      "recipients": [
+        "BMLEH",
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R006814",
       "org_name": "Westfalen AG & Co. KG",
@@ -37,7 +333,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Gebäudeenergiegesetz (GEG) und die kommunale Wärmeplanung sind zentrale Instrumente der Wärmewende und Sektorkopplung, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005566",
@@ -66,7 +362,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Versorgungssicherheit durch Gasspeicher ist ein Kernaspekt der Energiepolitik und der nationalen Energieinfrastruktur.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001856",
@@ -95,7 +391,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der EU Industrial Accelerator Act betrifft die europäische Industriepolitik und Wertschöpfungsketten für Energietechnologien, was unter den Clean Industrial Deal und die EU-Energiepolitik fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000424",
@@ -123,7 +419,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Netzentgeltreform ist ein zentrales Element der Strommarktregulierung und beeinflusst die Energiekosten sowie die Investitionssicherheit für die Industrie.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002706",
@@ -348,7 +644,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Wettbewerbsfähigkeit der europäischen Industrie und die Nutzung von Daten sind zentrale Aspekte des EU Green Deals und des Clean Industrial Deals.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001517",
@@ -14400,7 +14696,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Kraftwerksstrategie und die Erforschung neuer Technologien zur Stromerzeugung fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002111",
@@ -62194,5 +62490,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 696
+  "gemini_filtered_out": 699
 }
