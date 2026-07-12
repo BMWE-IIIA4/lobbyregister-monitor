@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T06:18:34.871374+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-07-12T06:29:52.957265+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R001118",
@@ -40,7 +40,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Reform klimarelevanter Steuern/Abgaben und die Anpassung an EU-Klimapolitik (ETSII), was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -87,7 +87,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Ausbau der Stromnetze (110-kV) ist ein zentrales Thema der Versorgungssicherheit und Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -124,7 +124,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung der Energieeffizienzrichtlinie (EED) und die Gestaltung des Energieeffizienzgesetzes sind Kernbereiche der EU-Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -168,7 +168,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Verordnung (EU) 2019/943 zum Elektrizitätsbinnenmarkt ist ein zentrales Themenfeld der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -222,7 +222,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EU Grids Package betrifft direkt die EU-Energiegesetzgebung, den Netzausbau und die Wasserstoffinfrastruktur, welche Kernbereiche der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003483",
