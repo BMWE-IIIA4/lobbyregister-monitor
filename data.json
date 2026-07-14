@@ -1,7 +1,424 @@
 {
-  "generated_at": "2026-07-13T06:35:27.284827+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-07-14T06:08:37.133908+02:00",
+  "newly_added": 17,
   "statements": [
+    {
+      "register_number": "R007393",
+      "org_name": "ACWA Power",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007393/83024",
+      "regulatory_project_title": "Beschleunigter Aufbau von Importinfrastruktur für Wasserstoffderivate (Ammoniak)",
+      "sending_date": "2026-06-16",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6f/6c/812180/Stellungnahme-Gutachten-SG2607130013.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2607130013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130013",
+      "summary": "Die Organisation <b>fordert</b> den <b>beschleunigten Aufbau von Importinfrastruktur</b> für Wasserstoffderivate. Insbesondere sollen <b>Ammoniak-Cracker</b> regulatorisch und finanziell als Infrastruktur abgesichert werden. Zudem wird eine <b>Beschleunigung von Genehmigungsverfahren</b> sowie die Etablierung tragfähiger Finanzierungsmodelle für den Hochlauf angestrebt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft den Ausbau der Wasserstoffinfrastruktur und die Umsetzung der Nationalen Wasserstoffstrategie, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007393",
+      "org_name": "ACWA Power",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007393/83024",
+      "regulatory_project_title": "Soft Loans als Finanzierungsinstrument für grüne Wasserstoffprojekte mit Exportbezug nach Deutschland",
+      "sending_date": "2026-06-07",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2d/5d/812182/Stellungnahme-Gutachten-SG2607130022.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607130022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130022",
+      "summary": "Die Organisation <b>setzt sich für die Einführung von Soft Loans</b> zur indirekten Förderung von Wasserstoffprojekten mit Exportbezug ein. Durch dieses Instrument sollen <b>CAPEX-Subventionen vermieden</b> und die <b>Einbindung deutscher Technologieanbieter</b> gestärkt werden. Ziel ist die Unterstützung des Importhochlaufs und die Verbesserung der internationalen Wettbewerbsposition.",
+      "recipients": [
+        "AA",
+        "BMF",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezieht sich auf die Finanzierung von Wasserstoffprojekten und den Importhochlauf, was für die EU-Energiepolitik und Wasserstoffstrategie relevant ist.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005893",
+      "org_name": "EDP Renewables Europe",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005893/83010",
+      "regulatory_project_title": "Weiterentwicklung des regulatorischen Rahmens im EEG und EnWG zur Unterstützung der Energiewende",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/20/fa/812092/Stellungnahme-Gutachten-SG2607130020.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607130020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130020",
+      "summary": "Die Organisation <b>strebt eine praxisgerechte Weiterentwicklung</b> des regulatorischen Rahmens im EEG und EnWG an. Dabei sollen die <b>Investitionssicherheit gestärkt</b> und der <b>Bürokratieabbau</b> vorangetrieben werden. Ziel ist die effiziente Integration erneuerbarer Energien in das Energiesystem zur Unterstützung der Klimaneutralität.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft direkt die Weiterentwicklung des EEG und EnWG, welche Kernbereiche der Energiegesetzgebung und Strommarktregulierung der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003052",
+      "org_name": "RheinEnergie AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003052/83023",
+      "regulatory_project_title": "Praxistaugliche Umsetzung des Wärmeplanungsgesetzes; Anpassung des § 32 WPG",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4d/68/812216/Stellungnahme-Gutachten-SG2607130023.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607130023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130023",
+      "summary": "Die Organisation <b>fordert eine gesetzliche Klarstellung</b> zur Abstimmung zwischen dem Wärmeplanungsgesetz und der Bundesförderung für effiziente Wärmenetze (BEW). Damit sollen <b>Rechtsunsicherheiten</b> für laufende Transformationsplanverfahren beseitigt werden. Die Anpassung des § 32 WPG ist für eine praxistaugliche Umsetzung zwingend erforderlich.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Wärmeplanungsgesetz (WPG) ist eng mit der Sektorkopplung und der Wärmewende verknüpft, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002381",
+      "org_name": "Deutscher Textilreinigungs-Verband DTV e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002381/78659",
+      "regulatory_project_title": "Bezahlbaren Zugang zu Wasserstoff und Prozesswärme für den Textilservice sichern",
+      "sending_date": "2026-02-10",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/b3/812113/Stellungnahme-Gutachten-SG2607130012.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607130012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130012",
+      "summary": "Die Organisation <b>fordert eine mittelstandsfreundliche Ausgestaltung</b> der Gas- und Wasserstoffinfrastruktur im Rahmen der EnWG-Novelle. Es wird ein <b>direkter Anschluss an das Wasserstoffnetz</b> für systemrelevante Großwäschereien verlangt. Zudem wird vor einer <b>Kostenfalle durch Netzentgelte</b> gewarnt, um die Wettbewerbsfähigkeit des Mittelstands zu sichern.",
+      "recipients": [
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Betrifft die Gas- und Wasserstoffinfrastruktur sowie die Wettbewerbsfähigkeit der Industrie, was unter Strommarktregulierung und Wasserstoff fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002381",
+      "org_name": "Deutscher Textilreinigungs-Verband DTV e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002381/78659",
+      "regulatory_project_title": "Netzstabilität und bezahlbare Strompreise für mittelständische KRITIS-Dienstleister garantieren",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/07/812115/Stellungnahme-Gutachten-SG2607130001.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607130001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130001",
+      "summary": "Der Verband <b>fordert</b> bei der Ausgestaltung des Kapazitätsmarktes eine <b>Begrenzung der Kostenbelastung</b> für energieintensive Unternehmen. Zudem soll die <b>Versorgungssicherheit</b> für KRITIS-Dienstleister durch eine <b>vorrangige Zuteilung</b> steuerbarer Kapazitäten im Ernstfall gewährleistet werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezug zum Stromversorgungssicherheitsgesetz (StromVKG), Kapazitätsmarkt und Versorgungssicherheit für kritische Infrastrukturen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/82983",
+      "regulatory_project_title": "Wärmewende - kommunal und technologieoffen",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7d/a2/811848/Stellungnahme-Gutachten-SG2607130008.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607130008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130008",
+      "summary": "Der Verband <b>fordert</b> eine technologieoffene Wärmewende, die sowohl auf Elektronen als auch auf Moleküle setzt. Zudem wird eine <b>rasche Umsetzung</b> der BNetzA-Festlegungsermächtigung als Basis für <b>H2-Transformationspläne</b> sowie die Stärkung der <b>kommunalen Wärmeplanung</b> angemahnt.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Bezug zur Wärmewende, H2-Transformationsplänen, WPG und GEG.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/82983",
+      "regulatory_project_title": "Erneuerbare-Energien-Gesetz zukunftsfähig machen (EEG-Novelle 2027)",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cf/1c/811850/Stellungnahme-Gutachten-SG2607130009.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607130009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130009",
+      "summary": "Thüga <b>begrüßt die Zielsetzung</b> der EEG-Novelle 2027 zur stärkeren Marktintegration erneuerbarer Energien. Der Verband fordert eine <b>praxistaugliche Ausgestaltung</b>, um den EE-Ausbau nicht zu gefährden. Insbesondere müssen <b>Investitions- und Planungssicherheit</b> bei Direktvermarktung und Speicherintegration gewahrt bleiben sowie eine konsistente Verzahnung mit dem Netz- und Messwesen erfolgen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Erneuerbare-Energien-Gesetzgebung (EEG) und die Integration von EE in den Strommarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/82983",
+      "regulatory_project_title": "Netzpaket (Gesetzesentwurf Änderung Energiewirtschaftsrechts zur Synchronisierung EE-und Netzausbau sowie Verbesserung Netzanschlussverfahrens)",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cf/4c/811852/Stellungnahme-Gutachten-SG2607130010.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607130010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130010",
+      "summary": "Der Verband <b>begrüßt den Ansatz</b> zur Senkung der Systemkosten und Synchronisierung von EE- und Netzausbau. Er <b>präferiert differenzierte Baukostenzuschüsse</b> und freiwillige FCAs gegenüber einem Redispatchvorbehalt. Zudem wird eine <b>lokale Nutzenkomponente</b> bei der Priorisierung von Netzanschlüssen gefordert.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzpaket adressiert die Synchronisierung von EE- und Netzausbau sowie Netzanschlussverfahren, welche zentrale Themen der Strommarktregulierung und Versorgungssicherheit sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002381",
+      "org_name": "Deutscher Textilreinigungs-Verband DTV e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002381/78659",
+      "regulatory_project_title": "    Textilservice-Modellen bei der Einführung der erweiterten Herstellerverantwortung (EPR) für Textilien berücksichtigen",
+      "sending_date": "2026-05-15",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bb/dc/812117/Stellungnahme-Gutachten-SG2607130005.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2607130005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130005",
+      "summary": "Der Deutsche Textilreinigungs-Verband setzt sich für eine unionsrechtskonforme und praxistaugliche Umsetzung der erweiterten Herstellerverantwortung (EPR) für Textilien und Schuhe ein. Ziel ist eine gesetzliche Klarstellung, dass Textilservice-Unternehmen (Textilleasing/-miete einschließlich Pflege, Reparatur und Rückführung) nicht als Hersteller im Sinne der Abfallrahmenrichtlinie gelten und daher nicht den EPR-Pflichten unterfallen. Zudem soll sich der Anwendungsbereich der EPR auf Konsumtextilien beschränken und gewerblich genutzte Textilien (B2B) ausnehmen. Bestehende, funktionierende Kreislauf- und Mehrwegsysteme des Textilservice sowie die besonderen Anforderungen an Berufs-, Schutz- und Hygienetextilien sind bei der nationalen Umsetzung ausdrücklich zu berücksichtigen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002381",
+      "org_name": "Deutscher Textilreinigungs-Verband DTV e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002381/78659",
+      "regulatory_project_title": "Rechtssicherheit für das zirkuläre Miettextil-Modell garantieren",
+      "sending_date": "2026-05-15",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fa/e5/812119/Stellungnahme-Gutachten-SG2607130007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607130007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130007",
+      "summary": "Wir begleiten die Umsetzung des Ökodesign-Modernisierungsgesetzes und fordern eine rechtsverbindliche Klarstellung, dass das Überlassen von Textilien im Leasing- oder Mietservice kein „Bereitstellen auf dem Markt“ darstellt. Textildienstleister sind Eigentümer und Endnutzer, keine Hersteller. Sie dürfen nicht mit den Kennzeichnungs- und Haftungspflichten der Ökodesign-Verordnung belastet werden, da sie keinen Einfluss auf das Produktdesign haben. Zudem lehnen wir produktspezifische ökologische Profile für Wäschereien ab; deren Ressourcenverbrauch wird bereits praxisgerecht über das Energieeffizienzgesetz (EnEfG) erfasst und lässt sich nicht auf Einzeltextilien herunterbrechen. Wir fordern den Schutz zirkulärer B2B-Mehrwegmodelle vor bürokratischen Doppelbelastungen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001458",
+      "org_name": "Bundesverband deutscher Banken e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001458/83002",
+      "regulatory_project_title": "Vorschläge zur Ausgestaltung des digitalen Euro (VO-E EU-Kommission zum digitalen Euro)",
+      "sending_date": "2026-07-13",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/35/a9/812010/Stellungnahme-Gutachten-SG2607130015.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607130015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130015",
+      "summary": "Konstruktive Begleitung zur Einführung eines digitalen Euros durch Einbringung folgender Kernvorschläge zum Zielbild des digitalen Euros: 1) Der digitale Euro sollte als Pendant zum Bargeld ausgestaltet sein; 2) Die EZB sollte den digitalen Euro als reines Zahlungsmittel emittieren, nicht als Zahlverfahren; 3) Der digitale Euro darf nicht der Wertaufbewahrung dienen; 4) Digitaler Euro ist nur mit einem Haltelimit sicher und wirtschaftlich; 5) Annahmeverpflichtung darf bestehende Zahlverfahren nicht benachteiligen; 6) Preise müssen sich im Markt bilden; 7) Der Privatsektor muss angemessen beteiligt werden; 8) Frontend-Dienste müssen der Wahlfreiheit unterliegen; 9) Akzeptanz beim Kunden muss durch Marktanalyse getestet werden. 10) Zeitnahe Einführung einer Wholesale-Settlement-Lösung ",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000755",
+      "org_name": "Verband der Privaten Bausparkassen e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000755/83021",
+      "regulatory_project_title": "Verhinderung der Umwandlung der UGP-Richtlinie in eine EU-Verordnung",
+      "sending_date": "2026-06-10",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/ab/811949/Stellungnahme-Gutachten-SG2607130014.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607130014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130014",
+      "summary": "Der Verband setzt sich gegen die Umwandlung der Richtlinie über unlautere Geschäftspraktiken (UGP-Richtlinie) in eine entsprechende EU-Verordnung ein. Die UGP-Richtlinie erlaubt den Mitgliedstaaten hinreichend Flexibilität, um unterschiedlichen nationalen Rechtstraditionen und Durchsetzungsmechanismen Rechnung zu tragen. Eine unmittelbar geltende UGP-Verordnung birgt das Risiko, Doppelstrukturen und Rechtsunsicherheiten zu induzieren. Dies würde zu bürokratischen Mehrbelastungen für die Wirtschaft führen, ohne dass hierdurch ein Nutzen für Verbraucherinnen und Verbraucher entsteht.",
+      "recipients": [
+        "BMJV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001118",
       "org_name": "Thüga Aktiengesellschaft",
@@ -293,6 +710,56 @@
         {
           "code": "FOI_ENVIRONMENT_CLIMATE",
           "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002061",
+      "org_name": "Allianz der Wissenschaftsorganisationen",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002061/82934",
+      "regulatory_project_title": "Bürokratieabbau Vergabrecht",
+      "sending_date": "2026-05-20",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/40/57/811627/Stellungnahme-Gutachten-SG2607100046.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607100046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100046",
+      "summary": "Unterstützung der geplanten Erleichterungen im Vergaberecht und einer Reduktion der Berichtspflichten. Angestrebt wird eine weitere Anhebung der Schwellenwerte und deren Vereinheitlichung.",
+      "recipients": [
+        "BMFTR",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001919",
+      "org_name": "Verband Sichere Digitale Identität e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001919/82889",
+      "regulatory_project_title": "Einführung der EUDI-Wallet in Deutschland",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/07/60/811813/Stellungnahme-Gutachten-SG2607100008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607100008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100008",
+      "summary": "Das Regelungsvorhaben betrifft die nationale Einführung der EUDI-Wallet sowie die hierfür erforderlichen rechtlichen, technischen und organisatorischen Rahmenbedingungen.",
+      "recipients": [
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
         }
       ],
       "priority": 2,
@@ -1856,6 +2323,32 @@
       "priority": 1,
       "gemini_relevanz": "Pumpspeicher sind essenziell für die Flexibilisierung des Strommarktes und die Versorgungssicherheit bei erneuerbaren Energien.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R008107",
+      "org_name": "Consolinno Energy GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008107/76492",
+      "regulatory_project_title": "Ausgestaltung der Bundesnetzagentur-Festlegung zur Umsetzung von Energy Sharing nach § 42c EnWG",
+      "sending_date": "2026-05-20",
+      "upload_date": "2026-07-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/11/65/811902/Stellungnahme-Gutachten-SG2607030013.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607030013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607030013",
+      "summary": "Die Initiative <b>schlägt vor</b>, die <b>regulatorischen Rahmenbedingungen</b> für Energy Sharing gemäß § 42c EnWG weiterzuentwickeln. Ziel ist die Etablierung <b>wettbewerblicher Umsetzungsmodelle</b> mittels virtueller Bilanzierungsgebiete. Zudem soll die <b>Integration flexibler Verbraucher</b> zur Stärkung von Energiegemeinschaften gefördert werden.",
+      "recipients": [
+        "Bundestag",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die regulatorische Ausgestaltung von Energy Sharing und Bürgerenergie, was direkt in den Bereich Erneuerbare Energien (national) und Strommarktregulierung fällt.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R006792",
@@ -37999,6 +38492,30 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R003514",
+      "org_name": "Bundesverband Güterkraftverkehr Logistik und Entsorgung (BGL) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003514/62030",
+      "regulatory_project_title": "Änderung des Energiesteuergesetzes",
+      "sending_date": "2026-04-17",
+      "upload_date": "2026-04-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e8/6b/811707/Stellungnahme-Gutachten-SG2604210023.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2604210023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2604210023",
+      "summary": "Der Gesetzentwurf trägt kurzfristig zur Abfederung des aktuellen Dieselpreisschocks bei. Aus Sicht des mittelständisch geprägten Transportgewerbes ist der Gesetzentwurf jedoch nicht ausreichend, um den gegenwärtigen existenzbedrohenden Kostenschock wirksam abzufedern. Die vorgesehenen Entlastungsmaßnahmen bleiben zu kurz, zu pauschal und strukturell unzureichend. Ohne ergänzende und zielgenaue Maßnahmen drohen Insolvenzen, Kapazitätsabbau und Beeinträchtigungen der Lieferketten, die zu rund 85 Prozent über den Straßengüterverkehr abgewickelt werden. Besonders kritisch ist , dass zentrale strukturelle Fehlbelastungen – insbesondere die CO2-Doppelbelastung aus nationalem Emissionshandel (BEHG) und CO2-Maut – weiterhin bestehen bleiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R006846",
       "org_name": "inetz GmbH",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R006846/71088",
@@ -62490,5 +63007,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 699
+  "gemini_filtered_out": 706
 }
