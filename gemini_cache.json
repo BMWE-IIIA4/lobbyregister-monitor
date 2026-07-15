@@ -10558,5 +10558,65 @@
     "relevant": false,
     "relevanz_grund": "Das Thema betrifft das Energiesteuergesetz im Kontext des Straßengüterverkehrs und der CO2-Maut, was primär der Verkehrspolitik ohne direkten Bezug zur Energiewende-Sektorkopplung zuzuordnen ist.",
     "zusammenfassung": "Der Gesetzentwurf <b>kritisiert</b> die <b>Entlastungsmaßnahmen</b> für das Transportgewerbe als strukturell unzureichend. Es wird vor <b>Insolvenzen und Kapazitätsabbau</b> gewarnt, sofern keine zielgenauen Maßnahmen erfolgen. Besonders bemängelt wird die fortbestehende <b>CO2-Doppelbelastung</b> durch den nationalen Emissionshandel und die CO2-Maut."
+  },
+  "SG2607140015": {
+    "relevant": false,
+    "relevanz_grund": "Das Thema betrifft ausschließlich die digitale Medizintechnologie und das Gesundheitswesen ohne Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA.",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2607140032": {
+    "relevant": true,
+    "relevanz_grund": "Das Energieeffizienzgesetz (EnEfG) fällt unter die Zuständigkeit für Energiegesetzgebung und Energieeffizienz.",
+    "zusammenfassung": "Der Verfasser <b>fordert eine gesetzliche Klarstellung</b> des Unternehmensbegriffs im EnEfG. Ziel ist die <b>Vermeidung von Rechtsunsicherheiten</b> bei der Einführung von Energie- oder Umweltmanagementsystemen. Eine präzise Definition soll die <b>konsistente Anwendung der Schwellenwerte</b> sicherstellen."
+  },
+  "SG2607140010": {
+    "relevant": true,
+    "relevanz_grund": "Die Regelung betrifft Batteriespeicher (BESS) und deren Flächenverfügbarkeit im Kontext der Energiewende.",
+    "zusammenfassung": "Der Entwurf <b>kritisiert die Einschränkung</b> der privilegierten Flächen für Batteriespeicher durch die Novelle des BauGB. Durch die <b>Herausnahme der ersten 100 Meter</b> ab dem Umspannwerk wird die nutzbare Fläche für Speicherprojekte verkleinert. Dies wird als <b>negativ für den Ausbau</b> der notwendigen Speicherkapazitäten bewertet."
+  },
+  "SG2607140029": {
+    "relevant": true,
+    "relevanz_grund": "Das Thema betrifft die EEG-Förderung und den Ausbau erneuerbarer Energien.",
+    "zusammenfassung": "Der Verfasser <b>fordert eine dauerhafte Einstufung</b> von schwimmenden PV-Anlagen als eigenständige EEG-Sonderanlage. Zur Deckung höherer Kosten wird ein <b>technologiespezifischer Vergütungszuschlag</b> von mindestens 2 ct/kWh verlangt. Zudem wird <b>Planungs- und Investitionssicherheit</b> für Projekte auf Baggerseen angemahnt."
+  },
+  "SG2607140014": {
+    "relevant": true,
+    "relevanz_grund": "Die REACH-Verordnung und PFAS-Beschränkungen haben erhebliche Auswirkungen auf die industrielle Wettbewerbsfähigkeit und die Energiebranche (z.B. Elektrolyseure).",
+    "zusammenfassung": "Der Verfasser <b>befürwortet eine risikodifferenzierte Regulierung</b> von PFAS anstelle pauschaler Verbote. Es wird eine <b>grundlegende Überarbeitung</b> des REACH-Beschränkungsverfahrens gefordert, um unverhältnismäßige Auswirkungen auf die Industrie zu vermeiden. Dabei sollen <b>langfristige Ausnahmen</b> für essenzielle High-Tech-Anwendungen sichergestellt werden."
+  },
+  "SG2607100016": {
+    "relevant": false,
+    "relevanz_grund": "Das Berufsrecht der Steuerberater fällt nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik).",
+    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+  },
+  "SG2606250074": {
+    "relevant": true,
+    "relevanz_grund": "Das GEIG (Gebäude-Elektromobilitätsinfrastruktur-Gesetz) ist für die Sektorkopplung und die Energiewende relevant.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> eine <b>Reform der GEIG</b> zur <b>E-Mobilität</b>. Ziel ist die verbesserte Ladeinfrastruktur für Bewohner von Mehrparteienhäusern. Dies soll die Sektorkopplung im Gebäudebereich vorantreiben."
+  },
+  "SG2606250067": {
+    "relevant": true,
+    "relevanz_grund": "Die Umsetzung der RED III (Erneuerbare-Energien-Richtlinie) ist ein zentrales Thema der EU-Energiepolitik.",
+    "zusammenfassung": "Die Organisation <b>fordert</b> die <b>Ausrichtung der RED III-Umsetzung</b> auf die <b>Förderung von Elektromobilität</b>. Damit soll der Anteil erneuerbarer Energien im Verkehrssektor gesteigert werden. Dies unterstützt die Dekarbonisierungsziele der EU."
+  },
+  "SG2606250068": {
+    "relevant": true,
+    "relevanz_grund": "Pkw-Flottengrenzwerte sind für die Sektorkopplung und die Klimaschutzziele im Energiebereich relevant.",
+    "zusammenfassung": "Die Organisation <b>empfiehlt</b> die <b>Beibehaltung der Pkw-Flottengrenzwerte</b> für 2035. Zudem soll an den bestehenden <b>utility factors</b> festgehalten werden. Dies dient der Planungssicherheit für die Transformation des Verkehrssektors."
+  },
+  "SG2606250073": {
+    "relevant": true,
+    "relevanz_grund": "CO2-Flottengrenzwerte für Lkw sind für die Sektorkopplung und die Klimaschutzziele im Energiebereich relevant.",
+    "zusammenfassung": "Die Organisation <b>unterstützt</b> die <b>Beibehaltung der CO2-Flottengrenzwerte</b> für Lkw auf EU-Ebene. Sie fordert die Bundesregierung zum aktiven Einsatz für diese Grenzwerte auf. Dies ist ein wesentlicher Bestandteil der europäischen Klimapolitik."
+  },
+  "SG2606250071": {
+    "relevant": true,
+    "relevanz_grund": "Bezug zur Sektorkopplung und EU-Klimapolitik im Rahmen des Automotive Package.",
+    "zusammenfassung": "T&E <b>unterstützt</b> die EU-Initiative Clean Corporate Vehicles und <b>fordert ambitionierte Elektrifizierungsziele</b> für Autos und Lieferwagen. Die Organisation appelliert an Deutschland, eine <b>positive Positionierung</b> zu diesem Gesetzesvorschlag einzunehmen. Ziel ist die Förderung der Dekarbonisierung im Verkehrssektor durch verbindliche Vorgaben."
+  },
+  "SG2605050003": {
+    "relevant": true,
+    "relevanz_grund": "Direkter Bezug zu Stromnetzregulierung, Netzentgelten und Investitionssicherheit für Erneuerbare Energien.",
+    "zusammenfassung": "Die Organisation <b>lehnt</b> dynamische Einspeisenetzentgelte aufgrund mangelnder Kalkulierbarkeit <b>ab</b> und <b>bevorzugt Baukostenzuschüsse</b> als Instrument der Netzfinanzierung. Sie <b>fordert Vertrauensschutz</b> für Bestands- und laufende Projekte ab dem Zeitpunkt der Gebotsabgabe. Zudem wird eine <b>Konsistenz zwischen AgNes-Prozess</b>, EEG-Reform und Netzpaket angemahnt."
   }
 }

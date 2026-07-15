@@ -1,7 +1,147 @@
 {
-  "generated_at": "2026-07-14T06:08:37.133908+02:00",
-  "newly_added": 17,
+  "generated_at": "2026-07-15T06:10:45.383901+02:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/83113",
+      "regulatory_project_title": "Unternehmensbegriff im EnEfG klarstellen",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/89/67/813276/Stellungnahme-Gutachten-SG2607140032.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607140032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140032",
+      "summary": "Der Verfasser <b>fordert eine gesetzliche Klarstellung</b> des Unternehmensbegriffs im EnEfG. Ziel ist die <b>Vermeidung von Rechtsunsicherheiten</b> bei der Einführung von Energie- oder Umweltmanagementsystemen. Eine präzise Definition soll die <b>konsistente Anwendung der Schwellenwerte</b> sicherstellen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Energieeffizienzgesetz (EnEfG) fällt unter die Zuständigkeit für Energiegesetzgebung und Energieeffizienz.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001496",
+      "org_name": "JUWI GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001496/75624",
+      "regulatory_project_title": "Novelle BauGB",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f7/41/812927/Stellungnahme-Gutachten-SG2607140010.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607140010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140010",
+      "summary": "Der Entwurf <b>kritisiert die Einschränkung</b> der privilegierten Flächen für Batteriespeicher durch die Novelle des BauGB. Durch die <b>Herausnahme der ersten 100 Meter</b> ab dem Umspannwerk wird die nutzbare Fläche für Speicherprojekte verkleinert. Dies wird als <b>negativ für den Ausbau</b> der notwendigen Speicherkapazitäten bewertet.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Regelung betrifft Batteriespeicher (BESS) und deren Flächenverfügbarkeit im Kontext der Energiewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000660",
+      "org_name": "Bundesverband Mineralische Rohstoffe e.V. (BV MIRO)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000660/83109",
+      "regulatory_project_title": "Schwimmende PV-Anlagen im EEG angemessen berücksichtigen und fördern",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/15/81/813246/Stellungnahme-Gutachten-SG2607140029.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607140029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140029",
+      "summary": "Der Verfasser <b>fordert eine dauerhafte Einstufung</b> von schwimmenden PV-Anlagen als eigenständige EEG-Sonderanlage. Zur Deckung höherer Kosten wird ein <b>technologiespezifischer Vergütungszuschlag</b> von mindestens 2 ct/kWh verlangt. Zudem wird <b>Planungs- und Investitionssicherheit</b> für Projekte auf Baggerseen angemahnt.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EEG-Förderung und den Ausbau erneuerbarer Energien.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/83092",
+      "regulatory_project_title": "Reach-Beschränkungsverfahren (PFAS)",
+      "sending_date": "2026-06-24",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1f/e5/813013/Stellungnahme-Gutachten-SG2607140014.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607140014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140014",
+      "summary": "Der Verfasser <b>befürwortet eine risikodifferenzierte Regulierung</b> von PFAS anstelle pauschaler Verbote. Es wird eine <b>grundlegende Überarbeitung</b> des REACH-Beschränkungsverfahrens gefordert, um unverhältnismäßige Auswirkungen auf die Industrie zu vermeiden. Dabei sollen <b>langfristige Ausnahmen</b> für essenzielle High-Tech-Anwendungen sichergestellt werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die REACH-Verordnung und PFAS-Beschränkungen haben erhebliche Auswirkungen auf die industrielle Wettbewerbsfähigkeit und die Energiebranche (z.B. Elektrolyseure).",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002310",
+      "org_name": "Medtronic GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002310/82313",
+      "regulatory_project_title": "Potenziale in der Versorgung mit Hilfe digitaler Medizintechnologien heben",
+      "sending_date": "2026-05-21",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ce/bc/813057/Stellungnahme-Gutachten-SG2607140015.pdf",
+      "pdf_pages": 24,
+      "sg_number": "SG2607140015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140015",
+      "summary": "Digitalisierung in der Versorgung wird insbesondere dann wirksam, wenn bisherige analoge Versorgungspfade durch neue technische Möglichkeiten, vor allem digital erweiterte Medizinprodukte, transformiert werden. \r\nIn einem sektorierten und hochgradig regulierten System stehen digitale Anwendungen, die gleichzeitig die Methode, die Zuständigkeit und die Arbeitsweise verändern, vor unüberwindlichen Hürden, denn sie brauchen gleichzeitig Veränderungen im Marktzugang, der Vergütung und den Leistungserbringerstrukturen, um ihre Wirkung zu entfalten. Es gilt, diese Hürden zu überwinden und neue Regelungsmechanismen zu etablieren, damit die Potenziale digitaler Medizintechnologien für die Versorgung gehoben werden können.",
+      "recipients": [
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007393",
       "org_name": "ACWA Power",
@@ -33,7 +173,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft den Ausbau der Wasserstoffinfrastruktur und die Umsetzung der Nationalen Wasserstoffstrategie, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007393",
@@ -65,7 +205,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezieht sich auf die Finanzierung von Wasserstoffprojekten und den Importhochlauf, was für die EU-Energiepolitik und Wasserstoffstrategie relevant ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005893",
@@ -100,7 +240,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft direkt die Weiterentwicklung des EEG und EnWG, welche Kernbereiche der Energiegesetzgebung und Strommarktregulierung der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003052",
@@ -129,7 +269,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Wärmeplanungsgesetz (WPG) ist eng mit der Sektorkopplung und der Wärmewende verknüpft, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002381",
@@ -164,7 +304,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Betrifft die Gas- und Wasserstoffinfrastruktur sowie die Wettbewerbsfähigkeit der Industrie, was unter Strommarktregulierung und Wasserstoff fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002381",
@@ -197,7 +337,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zum Stromversorgungssicherheitsgesetz (StromVKG), Kapazitätsmarkt und Versorgungssicherheit für kritische Infrastrukturen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -241,7 +381,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Bezug zur Wärmewende, H2-Transformationsplänen, WPG und GEG.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -277,7 +417,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Erneuerbare-Energien-Gesetzgebung (EEG) und die Integration von EE in den Strommarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -313,7 +453,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzpaket adressiert die Synchronisierung von EE- und Netzausbau sowie Netzanschlussverfahren, welche zentrale Themen der Strommarktregulierung und Versorgungssicherheit sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002381",
@@ -763,6 +903,30 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R007418",
+      "org_name": "Afileon Audit GmbH Wirtschaftsprüfungsgesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007418/80317",
+      "regulatory_project_title": "Berufsrecht der Steuerberater, Novellierung Steuerberatungsgesetz (StBerG)",
+      "sending_date": "2026-06-04",
+      "upload_date": "2026-07-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ca/90/812800/Stellungnahme-Gutachten-SG2607100016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607100016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607100016",
+      "summary": "Berufsrecht der Steuerberater, Novellierung Steuerberatungsgesetz (StBerG), gegen eine Verschärfung der Regelungen zum Fremdbesitzverbot",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
       "gemini_status": "filtered"
     },
     {
@@ -2348,7 +2512,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die regulatorische Ausgestaltung von Energy Sharing und Bürgerenergie, was direkt in den Bereich Erneuerbare Energien (national) und Strommarktregulierung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006792",
@@ -15190,6 +15354,174 @@
       "priority": 1,
       "gemini_relevanz": "Die Kraftwerksstrategie und die Erforschung neuer Technologien zur Stromerzeugung fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/79916",
+      "regulatory_project_title": "Reform der GEIG",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/f7/812607/Stellungnahme-Gutachten-SG2606250074.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2606250074",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250074",
+      "summary": "Die Organisation <b>fordert</b> eine <b>Reform der GEIG</b> zur <b>E-Mobilität</b>. Ziel ist die verbesserte Ladeinfrastruktur für Bewohner von Mehrparteienhäusern. Dies soll die Sektorkopplung im Gebäudebereich vorantreiben.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das GEIG (Gebäude-Elektromobilitätsinfrastruktur-Gesetz) ist für die Sektorkopplung und die Energiewende relevant.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/79916",
+      "regulatory_project_title": "Deutsche Umsetzung der RED III im Verkehr auf die Förderung von Elektromobilität ausrichten.",
+      "sending_date": "2026-02-04",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/50/6c/812609/Stellungnahme-Gutachten-SG2606250067.pdf",
+      "pdf_pages": 22,
+      "sg_number": "SG2606250067",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250067",
+      "summary": "Die Organisation <b>fordert</b> die <b>Ausrichtung der RED III-Umsetzung</b> auf die <b>Förderung von Elektromobilität</b>. Damit soll der Anteil erneuerbarer Energien im Verkehrssektor gesteigert werden. Dies unterstützt die Dekarbonisierungsziele der EU.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Umsetzung der RED III (Erneuerbare-Energien-Richtlinie) ist ein zentrales Thema der EU-Energiepolitik.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/79916",
+      "regulatory_project_title": "Pkw-Flottengrenzwerte",
+      "sending_date": "2026-02-04",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0f/f4/812611/Stellungnahme-Gutachten-SG2606250068.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2606250068",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250068",
+      "summary": "Die Organisation <b>empfiehlt</b> die <b>Beibehaltung der Pkw-Flottengrenzwerte</b> für 2035. Zudem soll an den bestehenden <b>utility factors</b> festgehalten werden. Dies dient der Planungssicherheit für die Transformation des Verkehrssektors.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Pkw-Flottengrenzwerte sind für die Sektorkopplung und die Klimaschutzziele im Energiebereich relevant.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/79916",
+      "regulatory_project_title": "CO2 Flottengrenzwerte Lkw",
+      "sending_date": "2026-04-09",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/97/4a/812613/Stellungnahme-Gutachten-SG2606250073.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2606250073",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250073",
+      "summary": "Die Organisation <b>unterstützt</b> die <b>Beibehaltung der CO2-Flottengrenzwerte</b> für Lkw auf EU-Ebene. Sie fordert die Bundesregierung zum aktiven Einsatz für diese Grenzwerte auf. Dies ist ein wesentlicher Bestandteil der europäischen Klimapolitik.",
+      "recipients": [
+        "BMUKN",
+        "BMV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "CO2-Flottengrenzwerte für Lkw sind für die Sektorkopplung und die Klimaschutzziele im Energiebereich relevant.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/79916",
+      "regulatory_project_title": "Clean Corporate Vehicles",
+      "sending_date": "2026-02-27",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/11/812615/Stellungnahme-Gutachten-SG2606250071.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606250071",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250071",
+      "summary": "T&E <b>unterstützt</b> die EU-Initiative Clean Corporate Vehicles und <b>fordert ambitionierte Elektrifizierungsziele</b> für Autos und Lieferwagen. Die Organisation appelliert an Deutschland, eine <b>positive Positionierung</b> zu diesem Gesetzesvorschlag einzunehmen. Ziel ist die Förderung der Dekarbonisierung im Verkehrssektor durch verbindliche Vorgaben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Bezug zur Sektorkopplung und EU-Klimapolitik im Rahmen des Automotive Package.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002111",
@@ -35232,6 +35564,39 @@
       "priority": 1,
       "gemini_relevanz": "Bezieht sich auf das StromVKG und die Investitionsbedingungen für steuerbare Kraftwerke, ein Kernbereich der Abteilung IIIA.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001496",
+      "org_name": "JUWI GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001496/75624",
+      "regulatory_project_title": "Vertrauensschutz und Investitionssicherheit mit künftiger Netzentgeltsystematik sicherstellen",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-05-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d8/00/812929/Stellungnahme-Gutachten-SG2605050003.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2605050003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2605050003",
+      "summary": "Die Organisation <b>lehnt</b> dynamische Einspeisenetzentgelte aufgrund mangelnder Kalkulierbarkeit <b>ab</b> und <b>bevorzugt Baukostenzuschüsse</b> als Instrument der Netzfinanzierung. Sie <b>fordert Vertrauensschutz</b> für Bestands- und laufende Projekte ab dem Zeitpunkt der Gebotsabgabe. Zudem wird eine <b>Konsistenz zwischen AgNes-Prozess</b>, EEG-Reform und Netzpaket angemahnt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zu Stromnetzregulierung, Netzentgelten und Investitionssicherheit für Erneuerbare Energien.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002090",
@@ -63007,5 +63372,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 706
+  "gemini_filtered_out": 708
 }
