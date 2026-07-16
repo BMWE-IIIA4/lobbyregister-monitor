@@ -7,8 +7,8 @@ Automatische Übersicht neuer Stellungnahmen und Gutachten aus dem [Lobbyregiste
 Jeden Tag um ca. 01:00 Uhr MEZ läuft automatisch ein Workflow, der:
 
 1. **Täglich** alle Stellungnahmen über die öffentliche [Lobbyregister-Suchschnittstelle](https://www.lobbyregister.bundestag.de) (`sucheDetailJson`) in einem gestreamten Durchgang abruft (alle Organisationen samt Stellungnahmen werden inline geliefert; Deduplizierung auf Stellungnahme-Ebene per SG-Nummer, sodass auch neue Stellungnahmen bereits bekannter Organisationen erfasst werden; bestehende Einträge bleiben stabil)
-2. Die Einträge per **Google Gemini 2.5 Pro** auf Energie- und Klimarelevanz prüft und Zusammenfassungen mit hervorgehobenen Schlüsselbegriffen erstellt (mit lokalem Cache für bereits geprüfte Einträge)
-3. Eine öffentlich zugängliche **Übersichtsseite** auf GitHub Pages aktualisiert – sortiert nach Datum des Uploads im Lobbyregister
+2. Die Einträge per **Google Gemini 3.1 Flash Lite** auf Energie- und Klimarelevanz prüft und Zusammenfassungen mit hervorgehobenen Schlüsselbegriffen erstellt, auf Basis des vollständigen PDF-Inhalts der jeweiligen Stellungnahme (Fallback auf Metadaten bei nicht extrahierbaren PDFs; mit lokalem Cache für bereits geprüfte Einträge)
+3. Eine öffentlich zugängliche **Übersichtsseite** auf GitHub Pages aktualisiert – sortiert nach Datum des Uploads im Lobbyregister, innerhalb eines Tages alphabetisch nach Regelungsvorhaben; zusammengehörige Stellungnahmen werden zu einem gemeinsamen Block zusammengefasst
 4. Jeden **Montag** eine **wöchentliche Zusammenfassungs-Mail** versendet (nur bei automatischem Trigger, nicht bei manuellen Starts)
 5. Jeden **Montag** einen **Statusbericht** durchführt (Selbsttest: API, Gemini, Seitenverfügbarkeit) und bei Problemen eine Mail an `ADMIN_EMAIL` sendet
 6. Ein **Workflow-Protokoll** mit Durchlauf-Statistiken archiviert
@@ -30,7 +30,7 @@ Jeden Tag um ca. 01:00 Uhr MEZ läuft automatisch ein Workflow, der:
 ```
 .github/workflows/update.yml     – Automatischer Tagesablauf (GitHub Actions)
 scripts/fetch_and_build.py       – Datenabruf (Suchschnittstelle, gestreamt), Filterung und Speicherung in data.json (kein HTML)
-scripts/gemini_enrich.py         – KI-Relevanzfilterung, Zusammenfassungen, finaler HTML-Rebuild
+scripts/gemini_enrich.py         – KI-Relevanzfilterung und Zusammenfassung (PDF-Volltext-basiert, Einzelverarbeitung), Gruppierung zusammengehöriger Stellungnahmen, finaler HTML-Rebuild
 scripts/send_email.py            – Wöchentlicher E-Mail-Versand (montags, nur automatisch)
 scripts/health_check.py          – Wöchentlicher Selbsttest und Admin-Bericht (montags)
 scripts/save_run_log.py          – Workflow-Protokoll (nach jedem Durchlauf)
@@ -50,4 +50,4 @@ Repository → Actions → „Lobbyregister Monitor" → Run workflow
 
 ## Datenquelle
 
-Alle Daten stammen direkt aus dem Lobbyregister des Deutschen Bundestages und werden unverändert weitergegeben. Beschreibungstexte werden per KI zusammengefasst; die Originaltexte bleiben in der Datendatei erhalten. Das Lobbyregistergesetz enthält keine konkrete Frist für die Veröffentlichung von Stellungnahmen; maßgeblich ist der Grundsatz der „unverzüglichen Veröffentlichung". Rechtsgrundlage: [Lobbyregistergesetz (LobbyRG)](https://www.lobbyregister.bundestag.de/informationen-und-hilfe/rechtsvorschriften-parlamentarische-materialien-gl-2022--863566).
+Alle Daten stammen direkt aus dem Lobbyregister des Deutschen Bundestages und werden unverändert weitergegeben. Beschreibungstexte werden per KI auf Basis des vollständigen PDF-Inhalts der jeweiligen Stellungnahme zusammengefasst (Fallback auf Metadaten bei nicht extrahierbaren PDFs); die Originaltexte bleiben in der Datendatei erhalten. Das Lobbyregistergesetz enthält keine konkrete Frist für die Veröffentlichung von Stellungnahmen; maßgeblich ist der Grundsatz der „unverzüglichen Veröffentlichung". Rechtsgrundlage: [Lobbyregistergesetz (LobbyRG)](https://www.lobbyregister.bundestag.de/informationen-und-hilfe/rechtsvorschriften-parlamentarische-materialien-gl-2022--863566).
