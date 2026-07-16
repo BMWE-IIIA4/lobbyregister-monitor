@@ -1,7 +1,7 @@
 """
 gemini_enrich.py
 ================
-Reichert die Lobbyregister-Daten mit Gemini Flash-Lite an.
+Reichert die Lobbyregister-Daten mit Gemini 2.5 Pro an.
 Mit Caching, Fail-Fast bei Quota-Limits und automatischem HTML-Rebuild.
 """
 
@@ -87,8 +87,10 @@ RELEVANZ_KATALOG = (
     "- Arbeitsrecht, Verbraucherschutz, Kulturpolitik ohne Energiebezug\n"
     "- Verteidigungspolitik, Gesundheitspolitik, Pharmarecht ohne Energiebezug\n"
     "- Verkehrspolitik ohne Bezug zu Sektorkopplung/E-Mobilitaet/Kraftstoffen\n"
-    "- Bauwesen ohne Bezug zu Gebaeudeenergie/Waermewende"
-    "- Wärmenetze, Fernwärme, BEG, energetische Sanierung"
+    "- Bauwesen ohne Bezug zu Gebaeudeenergie/Waermewende\n"
+    "- Prozesswärme, Wärmenetze, Wärmewende, Fernwärme, BEG, energetische Sanierung\n"
+    "- Gasspeicher\n"
+    "- Gebäudeenergiegesetz, Gebäudemodernisierungsgesetz"
 )
 
 # -- Gemini API & Cache --
