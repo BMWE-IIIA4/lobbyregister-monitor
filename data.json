@@ -1,7 +1,276 @@
 {
-  "generated_at": "2026-07-15T06:10:45.383901+02:00",
-  "newly_added": 12,
+  "generated_at": "2026-07-16T06:14:11.470496+02:00",
+  "newly_added": 15,
   "statements": [
+    {
+      "register_number": "R003270",
+      "org_name": "Green Legal Impact Germany e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003270/83163",
+      "regulatory_project_title": "Gesetz zur Stärkung der Natürlichen Infrastruktur",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ab/fa/813918/Stellungnahme-Gutachten-SG2607150027.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607150027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150027",
+      "summary": "Die Organisation <b>setzt sich für</b> ein <b>Gesetz zur Stärkung der natürlichen Infrastruktur</b> ein. Dabei wird eine <b>rechtliche Gleichstellung</b> mit der grauen Infrastruktur angestrebt. Ziel ist die langfristige Sicherung natürlicher Klimaschutzpotenziale.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema Klimaschutz und natürliche Infrastruktur berührt die langfristigen Klimaziele und die Flächennutzung für die Energiewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002885",
+      "org_name": "Bodensee-Stiftung - Internationale Stiftung für Natur und Kultur",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002885/83127",
+      "regulatory_project_title": "Stellungnahme zur Novelle des Erneuerbare-Energien-Gesetzes (EEG) ",
+      "sending_date": "2026-06-01",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/40/e9/813592/Stellungnahme-Gutachten-SG2607150007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607150007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150007",
+      "summary": "Die Bodensee-Stiftung <b>fordert die Streichung</b> der geplanten <b>EEG-Privilegierung für Moor-PV</b> aus dem Entwurf zu nehmen. Sie warnt vor dem Wegfall einer tragfähigen Nutzungsperspektive für die Wiedervernässung. Stattdessen wird der <b>Erhalt der Förderstruktur</b> und eine Koordination mit der Palu-Richtlinie empfohlen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zum EEG, zur Förderung erneuerbarer Energien und zur Sektorkopplung (Moor-PV).",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83148",
+      "regulatory_project_title": "Änderungsvorschläge zur umsatzsteuerlichen Behandlung von Emissions-, Gas- und Elektrizitätszertifikaten",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/0f/813796/Stellungnahme-Gutachten-SG2607150013.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607150013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150013",
+      "summary": "Der BDEW <b>fordert eine rechtssichere Ausgestaltung</b> der umsatzsteuerlichen Behandlung von Energie- und Emissionszertifikaten. Insbesondere wird eine <b>Erweiterung des Reverse-Charge-Verfahrens</b> sowie die Einbeziehung des <b>EU ETS 2</b> angestrebt. Zudem werden <b>gesetzliche Vereinfachungsregelungen</b> und eine unionsrechtskonforme Fortführung der Sonderregelungen angemahnt.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die umsatzsteuerliche Behandlung von Energie- und Emissionszertifikaten betrifft die Rahmenbedingungen des EU-Energiebinnenmarktes und die Kostenstruktur der Energiewirtschaft.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000855",
+      "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000855/83162",
+      "regulatory_project_title": "Gesetz zur Änderung des BEHG",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/65/813899/Stellungnahme-Gutachten-SG2607150026.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607150026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150026",
+      "summary": "Der MEW <b>setzt sich für eine Weiterentwicklung</b> des nationalen Emissionshandels ein. Ziel ist eine <b>praxistaugliche und wettbewerbsneutrale Ausgestaltung</b> des BEHG. Die Forderung zielt auf eine <b>rechtssichere Umsetzung</b> der gesetzlichen Rahmenbedingungen ab.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Brennstoffemissionshandelsgesetz (BEHG) ist ein zentrales Instrument der deutschen Klimapolitik und eng mit der EU-Klimapolitik sowie der Energiewende verknüpft.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002002",
+      "org_name": "Bundesärztekammer - Arbeitsgemeinschaft der deutschen Ärztekammern",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002002/83131",
+      "regulatory_project_title": "Schaffung einer Nachhaltigkeitsstrategie für das deutsche Gesundheitswesen",
+      "sending_date": "2026-06-03",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d5/7e/814037/Stellungnahme-Gutachten-SG2607150030.pdf",
+      "pdf_pages": 46,
+      "sg_number": "SG2607150030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150030",
+      "summary": "Erarbeitung einer Nachhaltigkeitsstrategie als zentrale Voraussetzung für die dringend erforderliche Transformation hin zu einem nachhaltigen, klimaneutralen Gesundheitswesen. \r\nDas Eckpunktepapier benennt wichtige Handlungsfelder und enthält einen Fahrplan zur Umsetzung der Nachhaltigkeitsstrategie sowie die Forderung nach Schaffung entsprechender \r\nGovernance-Strukturen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001500",
+      "org_name": "ZF Friedrichshafen AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001500/83177",
+      "regulatory_project_title": "Berücksichtigung von Zulieferer Wertschöpfung im Rahmen des EU Industrial Accelerator Acts",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/98/32/814081/Stellungnahme-Gutachten-SG2607150035.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607150035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150035",
+      "summary": "Berücksichtigung der Wertschöpfungsanteile von Automobilzulieferern im Rahmen des Gesetzgebungsprozesses zum EU Industrial Accelerator Act",
+      "recipients": [
+        "BMV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001089",
+      "org_name": "Bundesverband Paket- und Expresslogistik e. V. (BPEX)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001089/83161",
+      "regulatory_project_title": "Änderungsbedarf an der Postgesetz-Novelle",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/72/6e/813888/Stellungnahme-Gutachten-SG2607150023.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607150023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150023",
+      "summary": "Novellierung des bestehenden Postrechts, Forderung nach fairen Wettbewerbsbedingungen für alle Marktteilnehmer, Abschaffung von Privilegien des ehemaligen Staatskonzerns, Trennung der Märkte Brief und Paket",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001089",
+      "org_name": "Bundesverband Paket- und Expresslogistik e. V. (BPEX)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001089/83161",
+      "regulatory_project_title": "Änderungsbedarf an der Postgesetz-Novelle",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8a/f2/813890/Stellungnahme-Gutachten-SG2607150024.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607150024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150024",
+      "summary": "Novellierung des bestehenden Postrechts, Forderung nach fairen Wettbewerbsbedingungen für alle Marktteilnehmer, Abschaffung von Privilegien des ehemaligen Staatskonzerns, Trennung der Märkte Brief und Paket",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000613",
+      "org_name": "Deutsches Aktieninstitut e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000613/83129",
+      "regulatory_project_title": "Vorschläge zur Gestaltung der Kapitalmarktunion/Savings and Investment Union (SIU)",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/70/92/813601/Stellungnahme-Gutachten-SG2607150008.pdf",
+      "pdf_pages": 36,
+      "sg_number": "SG2607150008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150008",
+      "summary": "Das Deutsche Aktieninstitut sieht unter anderem in folgenden Punkten wichtige Elemente eines kohärenten Gesamtkonzepts für die Gestaltung der Kapitalmarktunion/Savings and Investment Union: stärkere Nutzung von Kapitalmarktanlagen in Rente und bei Vermögensbildung, Entlastung der Anlageberatung von bürokratischen Vorgaben, bessere Nutzung vorhandener Kapitalpools durch eine Reform der Streuungsregeln von Investmentfonds und eine bessere Bündelung der Liquidität in einzelnen Aktien, Vereinfachung von Berichtspflichten und Erleichterung von Kapitalaufnahmen von Unternehmen, eine praxisgerechte Wertpapieraufsicht mit einheitlichem Aufsichtsansatz und ein gutes Zusammenspiel zwischen Kapitalmarktfinanzierung und Bankenfinanzierung.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000510",
+      "org_name": "Bundesverband der Deutschen Sportartikel-Industrie e.V. (BSI)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000510/81125",
+      "regulatory_project_title": "ESPR - Delegierter Rechtsakt Textil",
+      "sending_date": "2026-05-15",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/a6/813852/Stellungnahme-Gutachten-SG2607150015.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607150015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150015",
+      "summary": "Begleitung des Vorbereitungsprozesses der Deutschen Position zur europäischen ESPR",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002309",
       "org_name": "E.ON SE",
@@ -33,7 +302,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Energieeffizienzgesetz (EnEfG) fällt unter die Zuständigkeit für Energiegesetzgebung und Energieeffizienz.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001496",
@@ -58,7 +327,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Regelung betrifft Batteriespeicher (BESS) und deren Flächenverfügbarkeit im Kontext der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000660",
@@ -89,7 +358,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EEG-Förderung und den Ausbau erneuerbarer Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000410",
@@ -115,6 +384,82 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die REACH-Verordnung und PFAS-Beschränkungen haben erhebliche Auswirkungen auf die industrielle Wettbewerbsfähigkeit und die Energiebranche (z.B. Elektrolyseure).",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/82623",
+      "regulatory_project_title": "Anpassung Dienstwagenbesteuerung",
+      "sending_date": "2026-06-01",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2b/24/814027/Stellungnahme-Gutachten-SG2607140035.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607140035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140035",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Verringerung des Dienstwagenprivilegs</b> für Verbrenner-Fahrzeuge. Ziel ist die <b>Schaffung von Anreizen</b> für die Nutzung von E-Autos. Dies soll zur <b>Erreichung der Klimaziele</b> im Verkehrssektor beitragen.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Bezug zur Sektorkopplung und Klimaschutz im Verkehrssektor, relevant für die Transformation der Energieinfrastruktur.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/82623",
+      "regulatory_project_title": "Unterstützung eines ambitionierten EU-Elektrifizierungsziels",
+      "sending_date": "2026-06-19",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/d0/814029/Stellungnahme-Gutachten-SG2607140034.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607140034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140034",
+      "summary": "Die Organisation <b>unterstützt</b> die Einführung eines <b>ambitionierten EU-Elektrifizierungsziels</b>. Dabei wird explizit der <b>Ausschluss von Atomstrom</b> gefordert. Dies dient der strategischen Ausrichtung der europäischen Energiepolitik.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zur EU-Energiepolitik und Dekarbonisierung der Energieerzeugung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000810",
+      "org_name": "Bundesverband Baustoffe - Steine und Erden e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000810/82432",
+      "regulatory_project_title": "Drittes Gesetzes zur Änderung des BEHG",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/4d/813991/Stellungnahme-Gutachten-SG2607140040.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2607140040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140040",
+      "summary": "Der Entwurf <b>schlägt vor</b>, den <b>CO2-Preis</b> für 2027 in einem <b>Korridor von 55 bis 65 Euro</b> zu fixieren. Dies erfordert eine <b>Änderung des BEHG</b>, um von der Kopplung an den EU-ETS 1 abzuweichen. Die Maßnahme dient der Umsetzung eines Koalitionsbeschlusses.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Relevanz für Energiepreise, Klimaschutz und die EU-Governance-Verordnung/EU-ETS.",
       "gemini_status": "processed"
     },
     {
@@ -15390,7 +15735,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das GEIG (Gebäude-Elektromobilitätsinfrastruktur-Gesetz) ist für die Sektorkopplung und die Energiewende relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003244",
@@ -15427,7 +15772,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung der RED III (Erneuerbare-Energien-Richtlinie) ist ein zentrales Thema der EU-Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003244",
@@ -15461,7 +15806,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Pkw-Flottengrenzwerte sind für die Sektorkopplung und die Klimaschutzziele im Energiebereich relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003244",
@@ -15492,7 +15837,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "CO2-Flottengrenzwerte für Lkw sind für die Sektorkopplung und die Klimaschutzziele im Energiebereich relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003244",
@@ -15521,7 +15866,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zur Sektorkopplung und EU-Klimapolitik im Rahmen des Automotive Package.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002111",
@@ -35596,7 +35941,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zu Stromnetzregulierung, Netzentgelten und Investitionssicherheit für Erneuerbare Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002090",
@@ -36521,6 +36866,40 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt das EEG-Ausschreibungsdesign, den Windenergieausbau und die systemische Netzintegration, was Kernaufgaben der Unterabteilung IIIA darstellt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R006928",
+      "org_name": "Elevion Energy & Engineering Solutions GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006928/73879",
+      "regulatory_project_title": "Stellungnahme GMG Eckpunktepapier",
+      "sending_date": "2026-04-29",
+      "upload_date": "2026-04-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a7/aa/813676/Stellungnahme-Gutachten-SG2604290025.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2604290025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2604290025",
+      "summary": "Die Stellungnahme <b>begrüßt</b> die <b>Eckpunkte zur Reform</b> des Gebäudeenergiegesetzes zur Reduzierung der politischen Unsicherheit. Sie <b>fordert stabile Rahmenbedingungen</b> für die Umsetzung von <b>Dekarbonisierungsprojekten</b>. Häufige Anpassungen werden als Investitionshemmnis kritisiert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Direkter Bezug zur Gebäudeenergie und den regulatorischen Rahmenbedingungen der Energiewende.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002456",
@@ -38040,6 +38419,43 @@
       "priority": 1,
       "gemini_relevanz": "Das Energieeffizienzgesetz (EnEfG) fällt direkt in den Zuständigkeitsbereich des BMWK und ist ein zentrales Instrument der Energiepolitik.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R007641",
+      "org_name": "IIP Neon GmbH, ein Unternehmen der DAH Group",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007641/75690",
+      "regulatory_project_title": "langfristiger Zugang von Biomethananlagen an das Gasnetz",
+      "sending_date": "2026-04-23",
+      "upload_date": "2026-04-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/d3/813536/Stellungnahme-Gutachten-SG2604230046.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2604230046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2604230046",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine <b>rechtliche Verankerung</b> für einen <b>langfristigen Gasnetzzugang</b> von Biomethananlagen. Ziel ist die <b>Investitionssicherheit</b> bei der Umsetzung des EU-Gas- und Wasserstoffbinnenmarktpakets im Rahmen der EnWG-Novelle. Damit soll die Einspeisung erneuerbarer Gase in die bestehende Infrastruktur dauerhaft gewährleistet werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Integration erneuerbarer Gase in die Infrastruktur sowie die Umsetzung von EU-Recht (Gas- und Wasserstoffbinnenmarktpaket), was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R003601",
@@ -63372,5 +63788,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 708
+  "gemini_filtered_out": 714
 }
