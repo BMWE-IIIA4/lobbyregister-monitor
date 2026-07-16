@@ -25,13 +25,13 @@ BERLIN_TZ = ZoneInfo("Europe/Berlin")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
-REQUEST_DELAY = 5.0
+REQUEST_DELAY = 15.0
 MAX_RETRIES = 3
 RETRY_DELAY = 10
 BATCH_SIZE = 5
 
-# Budget: max. API-Calls pro Lauf (Free Tier = 500/Tag, konservativer Puffer)
-MAX_AI_PER_RUN = 100
+# Budget: max. API-Calls pro Lauf (Free Tier gemini-2.5-pro: ~50 RPD, konservativer Puffer)
+MAX_AI_PER_RUN = 45
 
 DATA_PATH = Path("docs/data.json")
 CACHE_PATH = Path("docs/gemini_cache.json")
@@ -65,6 +65,7 @@ RELEVANZ_KATALOG = (
     "- DFBEW, Energiepolitische Beziehungen zu EU-Mitgliedstaaten, Norwegen, Schweiz, UK\n\n"
     "VERSORGUNGSSICHERHEIT STROM:\n"
     "- Monitoring Versorgungssicherheit, Kapazitaetsreserve, Netzreserve\n\n"
+    "- bnBm, besondere Netztechnische Betriebsmittel, zeitlich gestrecke Stillegung, zgS\n\n"
     "STROMMARKTDESIGN & -REGULIERUNG:\n"
     "- Kapazitaetsmechanismen, Boersenhandel/OTC-Maerkte, Regelenergien\n"
     "- Stromgebotszonen, Flexibilisierung, REMIT, Netzwerkcodes\n"
@@ -73,8 +74,6 @@ RELEVANZ_KATALOG = (
     "- Kohleausstieg, Kraftwerksstrategie, KWK (KWKG), Wasserstoffkraftwerke, StromVKG\n\n"
     "ERNEUERBARE ENERGIEN (NATIONAL):\n"
     "- EEG-Finanzierung, Besondere Ausgleichsregelung, PPA, Eigenverbrauch\n\n"
-    "WASSERSTOFF:\n"
-    "- Wasserstoffkernnetz, Elektrolyseure, RFNBO, Sektorkopplung\n\n"
     "KLIMASCHUTZ & ENERGIEWENDE:\n"
     "- Langfristszenarien, SES, Szenariorahmen NEP, Projektionsbericht\n"
     "- Sektorkopplung, Finanzierungsbedarfe Transformation\n"
@@ -89,6 +88,7 @@ RELEVANZ_KATALOG = (
     "- Verteidigungspolitik, Gesundheitspolitik, Pharmarecht ohne Energiebezug\n"
     "- Verkehrspolitik ohne Bezug zu Sektorkopplung/E-Mobilitaet/Kraftstoffen\n"
     "- Bauwesen ohne Bezug zu Gebaeudeenergie/Waermewende"
+    "- Wärmenetze, Fernwärme, BEG, energetische Sanierung"
 )
 
 # -- Gemini API & Cache --
