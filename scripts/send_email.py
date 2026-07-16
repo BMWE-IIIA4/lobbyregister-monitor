@@ -3,10 +3,16 @@ send_email.py
 =============
 Versendet die wöchentliche Übersichts-Mail mit neuen Stellungnahmen.
 Layout: tabellenbasiert (robust für Outlook/Exchange-Mailfilter).
+
+Zusammengehoerige Stellungnahmen (gleiches Regelungsvorhaben, gleiche
+Institution, gleiche Themenfelder, gleiches Hochladedatum) werden zu einem
+gemeinsamen Block zusammengefasst. Sortierung innerhalb eines Tages erfolgt
+alphabetisch nach Regelungsvorhaben.
 """
 
 import json
 import os
+import re
 import requests
 from datetime import timedelta, date
 from collections import defaultdict
@@ -30,7 +36,9 @@ def format_date_de(iso_date):
 
 
 def upload_delay_style(sending_raw, upload_raw):
-    """Gibt (css_farbe, tage) zurück: grün ≤7 Tage, gelb/orange ≤30, rot >30."""
+    """Gibt (css_farbe, tage) zurück: grün ≤7 Tage, gelb/orange ≤30, rot >30.
+    Der Verzug bezieht sich immer auf das Hochladedatum (Abstand zum
+    Einreichungsdatum beim Empfaenger)."""
     if not sending_raw or not upload_raw:
         return None, 0
     try:
@@ -49,7 +57,60 @@ def upload_delay_style(sending_raw, upload_raw):
         return None, 0
 
 
+# ── Gruppierung ────────────────────────────────────────────────────────────────
+
+def group_statements(statements):
+    """Gruppiert Stellungnahmen mit identischem Regelungsvorhaben, identischer
+    Institution, identischen Themenfeldern und identischem Hochladedatum zu
+    einem gemeinsamen Block."""
+    groups = {}
+    order = []
+    for stmt in statements:
+        field_key = tuple(sorted(f["code"] for f in stmt.get("fields", [])))
+        key = (
+            stmt.get("regulatory_project_title", ""),
+            stmt.get("org_name", ""),
+            field_key,
+            stmt.get("upload_date", ""),
+        )
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(stmt)
+
+    result = []
+    for key in order:
+        members = groups[key]
+        if len(members) == 1:
+            result.append(members[0])
+        else:
+            members_sorted = sorted(members, key=lambda m: m.get("sending_date") or "")
+            result.append({"_group": members_sorted})
+    return result
+
+
+def group_sort_key(item):
+    if isinstance(item, dict) and "_group" in item:
+        return item["_group"][0].get("regulatory_project_title", "").lower()
+    return item.get("regulatory_project_title", "").lower()
+
+
 # ── Karten-Rendering ───────────────────────────────────────────────────────────
+
+# Wiederverwendete Style-Strings.
+# Spaltenbreite: width="1" + white-space:nowrap ist der klassische E-Mail-Trick
+# fuer "so schmal wie inhaltlich noetig" (Outlook/Exchange-kompatibel), OHNE
+# eine harte Minimalbreite zu erzwingen – Innenabstand (padding) bleibt wie
+# bisher erhalten, nur die Spaltenbreite wird dynamisch statt fix.
+LABEL_GRAY = ('font-size:13px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
+              'white-space:nowrap;vertical-align:top;padding:2px 10px;background:#fafafa;line-height:1')
+VALUE_GRAY = 'font-size:14px;padding:2px 10px;background:#fafafa;vertical-align:top;line-height:1'
+LABEL_WHITE = ('font-size:13px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
+               'white-space:nowrap;vertical-align:top;padding:2px 10px;background:#fff;'
+               'border-top:1px solid #f1f5f9;line-height:1')
+VALUE_WHITE = ('font-size:14px;padding:2px 10px;background:#fff;vertical-align:top;'
+               'border-top:1px solid #f1f5f9;line-height:1')
+
 
 def render_entry_card(stmt):
     """Rendert eine einzelne Stellungnahme als HTML-Tabelle (email-robust)."""
@@ -104,16 +165,6 @@ def render_entry_card(stmt):
         f'↗ PDF ({pdf_pages} Seiten)</a>'
     ) if stmt.get("pdf_url") else ''
 
-    # Wiederverwendete Style-Strings
-    LABEL_GRAY = ('font-size:13px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
-                  'white-space:nowrap;vertical-align:top;padding:2px 10px;background:#fafafa;line-height:1')
-    VALUE_GRAY = 'font-size:14px;padding:2px 10px;background:#fafafa;vertical-align:top;line-height:1'
-    LABEL_WHITE = ('font-size:13px;color:#94a3b8;font-weight:bold;text-transform:uppercase;'
-                   'white-space:nowrap;vertical-align:top;padding:2px 10px;background:#fff;'
-                   'border-top:1px solid #f1f5f9;line-height:1')
-    VALUE_WHITE = ('font-size:14px;padding:2px 10px;background:#fff;vertical-align:top;'
-                   'border-top:1px solid #f1f5f9;line-height:1')
-
     return f'''
 <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e2e8f0;margin-bottom:10px;border-collapse:collapse">
   <tr>
@@ -121,7 +172,7 @@ def render_entry_card(stmt):
   </tr>
   {ai_warning}
   <tr>
-    <td width="175" style="{LABEL_GRAY};padding-top:3px">Bereitgestellt von</td>
+    <td width="1" style="{LABEL_GRAY};padding-top:3px">Bereitgestellt von</td>
     <td style="{VALUE_GRAY};padding-top:3px">{org_html}</td>
   </tr>
   <tr>
@@ -154,6 +205,147 @@ def render_entry_card(stmt):
 </table>'''
 
 
+def render_group_card(members):
+    """Rendert mehrere zusammengehoerige Stellungnahmen als einen gemeinsamen
+    Block (Tabelle). Identische Felder einzeilig, variierende Felder
+    nummeriert (1, 2, 3, ...).
+
+    Der Verzug (+X Tage) haengt an "Hochgeladen am": das Datum ist innerhalb
+    einer Gruppe identisch, die Verzugsanzeige zum jeweiligen sending_date
+    kann aber variieren und wird deshalb dort nummeriert, nicht bei
+    "Datum Stellungnahme".
+    """
+    first = members[0]
+    title = first["regulatory_project_title"]
+    org = first["org_name"]
+    org_url = first.get("org_url", "")
+    org_html = f'<a href="{org_url}" style="color:#004B87;text-decoration:none">{org}</a>' if org_url else org
+    upload_raw = first.get("upload_date")
+
+    sending_vals = [format_date_de(m.get("sending_date")) for m in members]
+    sending_display = sending_vals[0] if len(set(sending_vals)) == 1 else "<br>".join(
+        f"{i+1}) {v}" for i, v in enumerate(sending_vals)
+    )
+
+    upload_vals = []
+    for m in members:
+        color, diff = upload_delay_style(m.get("sending_date"), upload_raw)
+        delay_str = f" (+{diff} Tage)" if diff > 0 else ""
+        v = (f'<span style="color:{color}">{format_date_de(upload_raw)}{delay_str}</span>'
+             if color else f'{format_date_de(upload_raw)}{delay_str}')
+        upload_vals.append(v)
+    upload_display = upload_vals[0] if len(set(upload_vals)) == 1 else "<br>".join(
+        f"{i+1}) {v}" for i, v in enumerate(upload_vals)
+    )
+
+    recip_lists = [tuple(m.get("recipients", [])) for m in members]
+    if len(set(recip_lists)) == 1:
+        recip_badges = " ".join(
+            f'<span style="background:#eff6ff;color:#1e40af;font-size:13px;font-weight:bold;'
+            f'padding:1px 7px;border-radius:10px;border:1px solid #bfdbfe">{r}</span>'
+            for r in members[0].get("recipients", [])
+        )
+    else:
+        rows = []
+        for i, m in enumerate(members):
+            badges = " ".join(
+                f'<span style="background:#eff6ff;color:#1e40af;font-size:13px;font-weight:bold;'
+                f'padding:1px 7px;border-radius:10px;border:1px solid #bfdbfe">{r}</span>'
+                for r in m.get("recipients", [])
+            )
+            rows.append(f'<div style="margin-bottom:2px">{i+1}) {badges}</div>')
+        recip_badges = "".join(rows)
+
+    field_tags = " ".join(
+        f'<span style="background:#f1f5f9;color:#475569;font-size:13px;'
+        f'padding:1px 7px;border-radius:10px;border:1px solid #e2e8f0">{f["label"]}</span>'
+        for f in first.get("fields", [])
+    )
+
+    content_rows = []
+    link_rows = []
+    any_pending = False
+    for i, m in enumerate(members):
+        summary = m.get("summary", "") or "Keine Beschreibung verfügbar."
+        summary = summary.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+        summary = summary.replace('&lt;b&gt;', '<b style="background:#fef9c3;padding:1px 2px">')
+        summary = summary.replace('&lt;/b&gt;', '</b>')
+        if m.get("gemini_status") == "pending":
+            any_pending = True
+        content_rows.append(
+            f'<div style="margin-bottom:6px"><strong>{i+1})</strong> {summary}</div>'
+        )
+        sg_label = f' ({m.get("sg_number", "")})' if m.get("sg_number") else ""
+        pdf_pages = m.get("pdf_pages", 0)
+        stmt_link = (
+            f'<a href="{m.get("statement_url","")}" style="color:#004B87;text-decoration:none;margin-right:16px">'
+            f'↗ Stellungnahme im Lobbyregister{sg_label}</a>'
+        ) if m.get("statement_url") else ''
+        pdf_link = (
+            f'<a href="{m.get("pdf_url","")}" style="color:#004B87;text-decoration:none">'
+            f'↗ PDF ({pdf_pages} Seiten)</a>'
+        ) if m.get("pdf_url") else ''
+        link_rows.append(f'<div style="margin-bottom:2px">{i+1}) {stmt_link}{pdf_link}</div>')
+
+    content_html = "".join(content_rows)
+    links_html = "".join(link_rows)
+
+    ai_warning = ""
+    if any_pending:
+        ai_warning = (
+            '<tr><td colspan="2" style="padding:5px 12px;font-size:11px;'
+            'background:#fff3cd;color:#856404;border-bottom:1px solid #f1f5f9">'
+            '⚠️ Für mindestens eine Stellungnahme in diesem Block steht die KI-Prüfung noch aus</td></tr>'
+        )
+
+    return f'''
+<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e2e8f0;margin-bottom:10px;border-collapse:collapse">
+  <tr>
+    <td colspan="2" style="padding:6px 12px;font-size:15px;font-weight:bold;color:#0f172a;border-left:4px solid #004B87;border-bottom:1px solid #f1f5f9">
+      {title} <span style="font-size:12px;font-weight:normal;color:#64748b">({len(members)} zusammengehörige Stellungnahmen)</span>
+    </td>
+  </tr>
+  {ai_warning}
+  <tr>
+    <td width="1" style="{LABEL_GRAY};padding-top:3px">Bereitgestellt von</td>
+    <td style="{VALUE_GRAY};padding-top:3px">{org_html}</td>
+  </tr>
+  <tr>
+    <td style="{LABEL_GRAY}">Datum Stellungnahme</td>
+    <td style="{VALUE_GRAY}">{sending_display}</td>
+  </tr>
+  <tr>
+    <td style="{LABEL_GRAY};padding-bottom:3px">Hochgeladen am</td>
+    <td style="{VALUE_GRAY};padding-bottom:3px">{upload_display}</td>
+  </tr>
+  <tr>
+    <td style="{LABEL_WHITE};padding-top:3px">Adressaten</td>
+    <td style="{VALUE_WHITE};padding-top:3px">{recip_badges}</td>
+  </tr>
+  <tr>
+    <td style="{LABEL_WHITE};padding-bottom:3px">Themenfelder</td>
+    <td style="{VALUE_WHITE};padding-bottom:3px">{field_tags}</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="padding:6px 12px;font-size:14px;color:#334155;line-height:1.4;border-top:1px solid #f1f5f9">
+      <span style="font-size:11px;font-weight:bold;color:#94a3b8;text-transform:uppercase;display:block;margin-bottom:2px;line-height:1">Inhalt</span>
+      {content_html}
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="padding:5px 12px;font-size:13px;background:#f8fafc;border-top:1px solid #f1f5f9">
+      {links_html}
+    </td>
+  </tr>
+</table>'''
+
+
+def render_card_or_group(item):
+    if isinstance(item, dict) and "_group" in item:
+        return render_group_card(item["_group"])
+    return render_entry_card(item)
+
+
 # ── E-Mail-Aufbau ──────────────────────────────────────────────────────────────
 
 def build_email_html(statements, week_start, week_end):
@@ -167,7 +359,8 @@ def build_email_html(statements, week_start, week_end):
 
     day_sections = ""
     for iso_date in sorted(by_date.keys(), reverse=True):
-        day_stmts = sorted(by_date[iso_date], key=lambda x: x.get("priority", 99))
+        grouped = group_statements(by_date[iso_date])
+        grouped_sorted = sorted(grouped, key=group_sort_key)
 
         try:
             d = date.fromisoformat(iso_date)
@@ -178,7 +371,7 @@ def build_email_html(statements, week_start, week_end):
         except Exception:
             day_label = iso_date
 
-        cards = "".join(render_entry_card(s) for s in day_stmts)
+        cards = "".join(render_card_or_group(item) for item in grouped_sorted)
 
         day_sections += f'''
 <div style="margin-bottom:16px">
