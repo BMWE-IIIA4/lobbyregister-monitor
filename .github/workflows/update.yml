@@ -39,7 +39,7 @@ jobs:
           python-version: '3.11'
 
       - name: Abhaengigkeiten installieren
-        run: pip install requests ijson
+        run: pip install requests ijson pypdf
 
       - name: Datenbestand aus data-store-Branch laden
         # Persistenz der Bestandsdaten (data.json, gemini_cache.json,
