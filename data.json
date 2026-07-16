@@ -1,7 +1,542 @@
 {
-  "generated_at": "2026-07-16T06:14:11.470496+02:00",
-  "newly_added": 15,
+  "generated_at": "2026-07-16T20:46:46.766466+02:00",
+  "newly_added": 19,
   "statements": [
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/82923",
+      "regulatory_project_title": "Novellierung des Erneuerbare-Energie-Gesetzes (EEG) 2026",
+      "sending_date": "2026-06-22",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e5/0a/814458/Stellungnahme-Gutachten-SG2607160006.pdf",
+      "pdf_pages": 25,
+      "sg_number": "SG2607160006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160006",
+      "summary": "Der Bundesverband Erneuerbare Energie e.V. <b>fordert</b> im Zuge der anstehenden EEG-Novellierung eine langfristige <b>Planungssicherheit</b> für die Branche. Er plädiert für die Etablierung eines <b>modernen Förderrahmens</b>, der den aktuellen Marktanforderungen gerecht wird. Zur Steigerung der <b>Systemeffizienz</b> wird eine verstärkte Digitalisierung sowie eine konsequente Flexibilisierung der Anlagen gefordert. Zudem unterstreicht der Verband die Notwendigkeit, die <b>Versorgungssicherheit</b> durch ein dezentrales Back-up-System zu gewährleisten. Dieses soll primär auf steuerbaren Erneuerbaren Energien basieren, um die Stabilität des Stromnetzes langfristig zu sichern.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des EEG 2026 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die Systemintegration, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/83252",
+      "regulatory_project_title": "Künftige Ausgestaltung der EU-Kohäsionspolitik",
+      "sending_date": "2026-03-06",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/30/0a/814896/Stellungnahme-Gutachten-SG2607160042.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2607160042",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160042",
+      "summary": "Die EU <b>strebt</b> für die kommende Förderperiode 2028 bis 2034 eine umfassende <b>Vereinfachung der Strukturfondsverordnungen</b> an. Ziel ist es, den administrativen <b>Verwaltungsaufwand</b> für beteiligte Förderbanken signifikant zu reduzieren. Durch gestraffte Prozesse soll die <b>Effizienz bei der Mittelverwendung</b> gesteigert werden, um Investitionen in die Transformation zu beschleunigen. Die geplanten Erleichterungen sollen eine reibungslosere Umsetzung europäischer Förderprogramme ermöglichen. Damit wird die Grundlage für eine zielgerichtetere Unterstützung industrieller und energetischer Projekte im Rahmen der EU-Kohäsionspolitik geschaffen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die EU-Kohäsionspolitik ist ein zentrales Instrument zur Finanzierung der Energiewende und der industriellen Transformation, was direkte Berührungspunkte zu den Themenfeldern EU-Energiepolitik, Clean Industrial Deal und Finanzierungsbedarfe der Transformation aufweist.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/83252",
+      "regulatory_project_title": "Forderungen zur Stimulierung nachhaltiger Infrastrukturinvestitionen und Transformation",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/dc/814583/Stellungnahme-Gutachten-SG2607160010.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2607160010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160010",
+      "summary": "Die Organisation <b>fordert</b> eine gezielte <b>Stimulierung nachhaltiger Infrastrukturinvestitionen</b>, um die Herausforderungen der energetischen Transformation erfolgreich zu bewältigen. Zur Umsetzung werden <b>standardisierte ÖPP-Modelle</b> vorgeschlagen, die eine ganzheitliche Betrachtung der Wirtschaftlichkeit über den gesamten Lebenszyklus ermöglichen. Ein zentraler Punkt ist die notwendige <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> für Infrastrukturprojekte. Zudem wird die Einführung staatlicher <b>Garantiestrukturen</b> angeregt, um Investitionssicherheit zu erhöhen. Abschließend wird eine <b>breitere Finanzierungsbasis</b> gefordert, um den kommunalen Investitionsstau bei der Umsetzung der Energiewende aufzulösen.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Forderungen betreffen direkt die Finanzierung der Energiewende, die Beschleunigung von Genehmigungsverfahren für Infrastruktur sowie die Transformation des Energiesystems, welche in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/83252",
+      "regulatory_project_title": "Vorschläge zur Ausgestaltung des European Competitiveness Fund (ECF) und InvestEU im künftigen Mehrjähriger Finanzrahmen (MFR) 2028-34",
+      "sending_date": "2026-02-23",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/de/814819/Stellungnahme-Gutachten-SG2607160037.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607160037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160037",
+      "summary": "Die Organisation <b>schlägt</b> eine <b>praxistaugliche Ausgestaltung</b> des European Competitiveness Fund (ECF) sowie der InvestEU-Rahmenbedingungen für den kommenden Mehrjährigen Finanzrahmen vor. Ziel ist es, die <b>Beteiligung deutscher Förderbanken</b> an der Umsetzung der EU-Haushaltsgarantie signifikant zu erleichtern. Hierfür fordert sie die Schaffung verlässlicher Rahmenbedingungen sowie transparenter Beteiligungsstrukturen. Zudem wird eine <b>Vereinfachung der Governance-Anforderungen</b> sowie der Berichtspflichten angemahnt, um bürokratische Hürden abzubauen. Diese Maßnahmen sollen die Effizienz der Investitionsförderung im Kontext der europäischen Wettbewerbsfähigkeit stärken. Die Vorschläge zielen darauf ab, die <b>Finanzierung der industriellen Transformation</b> durch eine verbesserte Einbindung nationaler Akteure zu sichern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Finanzierungsinstrumente (ECF, InvestEU) im Rahmen des MFR, welche direkt die EU-Energiepolitik, den Clean Industrial Deal und die Finanzierung der industriellen Transformation berühren.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/83252",
+      "regulatory_project_title": "Vorschläge zur Ausgestaltung des European Competitiveness Fund (ECF) und InvestEU im künftigen Mehrjähriger Finanzrahmen (MFR) 2028-34",
+      "sending_date": "2026-03-06",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a2/7c/814898/Stellungnahme-Gutachten-SG2607160038.pdf",
+      "pdf_pages": 27,
+      "sg_number": "SG2607160038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160038",
+      "summary": "Die Organisation <b>schlägt vor</b>, den European Competitiveness Fund (ECF) sowie InvestEU im kommenden Mehrjährigen Finanzrahmen (MFR) 2028-34 strategisch auszugestalten. Ziel ist eine <b>stärkere Beteiligung deutscher Förderbanken</b> an der Umsetzung der EU-Haushaltsgarantie, um die industrielle Transformation effizient zu finanzieren. Hierfür werden <b>verlässliche Rahmenbedingungen</b> gefordert, die Investitionssicherheit für die beteiligten Akteure schaffen. Zudem wird eine <b>Vereinfachung der Governance-Strukturen</b> sowie der Berichtsanforderungen angestrebt, um bürokratische Hürden abzubauen. Durch <b>transparente Beteiligungsstrukturen</b> soll die praktische Umsetzbarkeit der EU-Förderinstrumente signifikant erhöht werden. Die Vorschläge zielen darauf ab, die Wettbewerbsfähigkeit im Rahmen des EU-Binnenmarktes durch eine zielgerichtete Finanzarchitektur zu stärken.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der European Competitiveness Fund (ECF) und InvestEU sind zentrale Instrumente der EU-Industriepolitik und Finanzierung der Transformation, die direkt unter die Themenfelder EU-Energiepolitik, Clean Industrial Deal und EU-Beihilferecht der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/83252",
+      "regulatory_project_title": "Vorschläge zur Festlegung eines Ausgabenverfolgungs- und Leistungsrahmens für den EU-Haushalt ab 2028 - 2034",
+      "sending_date": "2026-04-15",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/44/ae/814900/Stellungnahme-Gutachten-SG2607160044.pdf",
+      "pdf_pages": 21,
+      "sg_number": "SG2607160044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160044",
+      "summary": "Die EU-Kommission <b>schlägt ein neues Rahmenwerk</b> zur Ausgabenverfolgung und Leistungsmessung für den EU-Haushalt ab 2028 vor. Ziel ist eine präzisere Steuerung der finanziellen Mittel im Kontext der kommenden Haushaltsperiode. Dabei steht insbesondere die <b>Differenzierung zwischen Zuschüssen und Finanzinstrumenten</b> im Fokus der Analyse. Es wird gefordert, die unterschiedlichen Wirkungsweisen dieser Instrumente bei der <b>Leistungsbewertung der EU-Programme</b> stärker zu berücksichtigen. Dies ist entscheidend für die <b>Finanzierung der Energiewende</b> und die Umsetzung europäischer Klimaziele. Eine transparente Ausgabenverfolgung soll sicherstellen, dass Mittel effizient in die <b>Dekarbonisierung des Energiesystems</b> fließen. Die Neuregelung beeinflusst maßgeblich die zukünftigen Investitionsbedingungen für energiepolitische Vorhaben.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die EU-Haushaltsreform ab 2028 ist für die Finanzierung der EU-Energiepolitik, den Green Deal und die Transformation des Energiesystems von zentraler Bedeutung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001053",
+      "org_name": "European Energy Exchange AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001053/83257",
+      "regulatory_project_title": "Wasserstoff-Marktdesign weiterentwickeln",
+      "sending_date": "2026-07-16",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4a/9b/814909/Stellungnahme-Gutachten-SG2607160045.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607160045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160045",
+      "summary": "Die Initiative <b>fordert die Einführung notwendiger Regelungen</b> zur Etablierung eines funktionsfähigen <b>Wasserstoff-Handelsmarktes</b>. Dabei steht die <b>Ausgestaltung von Fördermechanismen</b>, insbesondere durch <b>Wasserstoff-CfDs</b>, im Fokus der strategischen Planung. Ziel ist es, diese Instrumente präzise auf die aktuellen Markterfordernisse abzustimmen, um Investitionssicherheit zu gewährleisten. Durch diese Maßnahmen soll ein <b>wettbewerblicher und liquider Wasserstoffmarkt</b> nachhaltig unterstützt werden. Die regulatorische Rahmensetzung dient somit der Beschleunigung des Markthochlaufs und der effizienten Integration von Wasserstoff in das bestehende Energiesystem.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie den Aufbau eines Wasserstoffmarktes, welche zentrale Aufgabenbereiche der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001053",
+      "org_name": "European Energy Exchange AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001053/83257",
+      "regulatory_project_title": "Nationaler Emissionshandel: Versteigerungen für 2026 und 2027 einführen und Übergang in das EU-ETS II ausgestalten",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d1/58/814911/Stellungnahme-Gutachten-SG2607160043.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607160043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160043",
+      "summary": "Die vorliegende Initiative <b>fordert die Implementierung</b> von Versteigerungen für den nationalen Emissionshandel in den Jahren 2026 und 2027. Ziel ist es, eine <b>rechtssichere Überführung</b> des nationalen Systems in das europäische <b>EU-ETS II</b> zu gewährleisten. Dabei soll der Übergangsprozess so gestaltet werden, dass eine <b>nahtlose Integration</b> der Sektoren in den europäischen Rahmen erfolgt. Die Maßnahme zielt darauf ab, Planungssicherheit für betroffene Akteure zu schaffen und die <b>Klimaschutzziele</b> effizient zu erreichen. Eine frühzeitige Ausgestaltung der regulatorischen Rahmenbedingungen ist hierfür essenziell, um <b>Marktverzerrungen</b> zu vermeiden. Die Koordination mit den europäischen Vorgaben steht dabei im Zentrum der strategischen Planung.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die Klimaschutz- und Energiepolitik sowie die Schnittstelle zwischen nationalen und europäischen Emissionshandelssystemen, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000996",
+      "org_name": "ITAD - Interessengemeinschaft der Thermischen Abfallbehandlungsanlagen in Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000996/82710",
+      "regulatory_project_title": "Nichteinbeziehung TAB in nEHS u. praxisnahe Überarbeitung des Versteigerungsverfahren 2027 und Emissionsberichterstattung.",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/17/99/814370/Stellungnahme-Gutachten-SG2607160002.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607160002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160002",
+      "summary": "Der ITAD <b>lehnt die Einbeziehung von Abfallverbrennungsanlagen</b> in das nationale Emissionshandelssystem (nEHS) weiterhin ab. Für das Versteigerungsverfahren 2027 <b>fordert der Verband höhere Versteigerungsmengen</b> sowie eine Anpassung der Nachkaufgrenzen und Kaufzeiträume. Zur Stabilisierung ab 2028 wird eine <b>Kopplung an den EU-ETS-I-Durchschnittspreis</b> vorgeschlagen, um eine verlässliche Preisbasis zu schaffen. Hinsichtlich der Emissionsberichterstattung (EBeV 2030) wird eine <b>kohlenstoffbasierte Bestimmung von Biomasseanteilen</b> angeregt, um fossile Emissionen präziser abzubilden. Zudem verlangt der Verband die Einführung <b>praxisgerechter Emissionsfaktoren</b> für verschiedene Abfallarten, um die regulatorische Belastung zu optimieren. Die Maßnahmen zielen darauf ab, die <b>Wettbewerbsfähigkeit und Planungssicherheit</b> der Anlagenbetreiber im Rahmen der Transformation zu sichern.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die Ausgestaltung des nationalen Emissionshandels (nEHS) und die Emissionsberichterstattung für Abfallverbrennungsanlagen, was direkt unter die Zuständigkeit für Klimaschutz und energiepolitische Rahmenbedingungen fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000981",
+      "org_name": "MAHLE International GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000981/83266",
+      "regulatory_project_title": "Ambitionierter Masterplan für Wasserstoff und strombasierte Kraftstoffe im Verkehr",
+      "sending_date": "2026-07-16",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ee/fb/814959/Stellungnahme-Gutachten-SG2607160047.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607160047",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160047",
+      "summary": "MAHLE <b>unterstützt</b> das Vorhaben der Bundesregierung zur Entwicklung eines <b>Masterplans für Wasserstoff</b> und strombasierte Kraftstoffe im Verkehr. Das Unternehmen fordert den <b>Abbau regulatorischer Hürden</b> entlang der gesamten Wertschöpfungskette, um den Markteintritt dieser Technologien zu beschleunigen. Ein zentraler Punkt ist dabei der zügige <b>Aufbau einer Wasserstofftankinfrastruktur</b>. Zudem wird eine <b>energiesteuerliche Gleichbehandlung</b> von Brennstoffzellentechnologien und Wasserstoffmotoren angestrebt. Abschließend plädiert MAHLE für eine stärkere <b>Berücksichtigung erneuerbarer Kraftstoffe</b> innerhalb der bestehenden CO2-Flottenregulierung.",
+      "recipients": [
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Strategie zur Wasserstoffnutzung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000980",
+      "org_name": "MAHLE GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000980/83263",
+      "regulatory_project_title": "Ambitionierter Masterplan für Wasserstoff und strombasierte Kraftstoffe im Verkehr",
+      "sending_date": "2026-07-16",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/16/9e/814942/Stellungnahme-Gutachten-SG2607160046.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607160046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160046",
+      "summary": "MAHLE <b>unterstützt</b> das Vorhaben der Bundesregierung zur Entwicklung eines Masterplans für Wasserstoff und strombasierte Kraftstoffe im Verkehr. Das Unternehmen fordert den <b>Abbau regulatorischer Hürden</b> entlang der gesamten Wertschöpfungskette, um den Markteintritt dieser Technologien zu beschleunigen. Ein zentraler Punkt ist dabei der zügige <b>Aufbau einer Wasserstofftankinfrastruktur</b>. Zudem wird eine <b>energiesteuerliche Gleichbehandlung</b> von Brennstoffzellen und Wasserstoffmotoren angestrebt. Abschließend plädiert MAHLE für eine stärkere <b>Berücksichtigung erneuerbarer Kraftstoffe</b> innerhalb der bestehenden CO2-Flottenregulierungen.",
+      "recipients": [
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Wasserstoffstrategie sowie die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83197",
+      "regulatory_project_title": "Vorschläge des BDEW zur Verbesserung der aktuellen und zukünftigen Situation von Netzreservekraftwerken",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/94/d9/814445/Stellungnahme-Gutachten-SG2607160005.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2607160005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160005",
+      "summary": "Der BDEW <b>schlägt Anpassungen</b> für die Netzreserve vor, um die <b>Versorgungssicherheit</b> angesichts steigender Kosten und technischer Herausforderungen zu gewährleisten. Die Organisation warnt vor einer <b>volkswirtschaftlichen Unverhältnismäßigkeit</b>, da die aktuelle Netzreserve aufgrund von Personalmangel, Brennstoffproblemen und dem hohen Alter der Anlagen zunehmend unzuverlässig wird. Zudem kritisiert der Verband, dass die derzeitige Struktur der Netzreserve die <b>Erreichung der Klimaziele</b> gefährdet und zu einem ineffizienten Anwachsen der Kapazitäten führt. Um die Verfügbarkeit der Kraftwerke kosteneffizient zu sichern, fordert der BDEW eine <b>Optimierung der Rahmenbedingungen</b> für bestehende und zukünftige Anlagen. Ziel ist es, die Netzreserve im Sinne des energiepolitischen Dreiecks aus Wirtschaftlichkeit, Versorgungssicherheit und Umweltverträglichkeit neu auszurichten. Die Vorschläge zielen darauf ab, die <b>Zuverlässigkeit der Kraftwerke</b> durch gezielte Maßnahmen trotz des fortschreitenden Kohleausstiegs und der Transformation des Stromsystems zu stabilisieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Versorgungssicherheit, die Netzreserve und die Kraftwerksstrategie, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002609",
+      "org_name": "Verband Wohneigentum e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002609/83187",
+      "regulatory_project_title": "Verlässliche Förderbedingungen für energetische Sanierung im selbstgenutzten Wohneigentum sichern",
+      "sending_date": "2026-07-16",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/06/814236/Stellungnahme-Gutachten-SG2607160001.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607160001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160001",
+      "summary": "Der Verband begrüßt einzelne soziale Verbesserungen der BEG-Förderreform, insbesondere den neuen Familienzuschlag und die gezielte Unterstützung besonders sanierungsbedürftiger Gebäude. Zugleich kritisiert er die kurzfristige Umsetzung ohne ausreichende Übergangsfristen sowie die parallele Kürzung wesentlicher Förderbestandteile, die Investitionsanreize für selbstnutzende Eigentümerinnen und Eigentümer schwächen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002101",
+      "org_name": "ZVEI e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002101/83188",
+      "regulatory_project_title": "Reform der Bundesförderung für effiziente Gebäude und zu den geänderten Förderrichtlinien",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a9/a9/814398/Stellungnahme-Gutachten-SG2607160004.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607160004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160004",
+      "summary": "Der ZVEI setzt sich für eine praxisnahe und bürokratiearme Ausgestaltung der Bundesförderung effiziente Gebäude (BEG) ein. In der Stellungnahme werden Hinweise für notwendige Präzisierungen und Anpassungen im Sinne der Planungssicherheit, Langfristigkeit und Handhabbarkeit der Förderrichtlinie genannt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001683",
+      "org_name": "Deutsche Umwelthilfe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001683/83241",
+      "regulatory_project_title": "Wir kritisieren die mangelhafte Umsetzung der EU-Gebäuderichtlinie. ",
+      "sending_date": "2026-06-09",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/34/9d/814798/Stellungnahme-Gutachten-SG2607160036.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607160036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160036",
+      "summary": "Die Streichung der 65%-Regel und die Einführung einer „Biotreppe“ kritisieren wir deutlich, da sie den Zielpfad zur Klimaneutralität im Gebäudesektor gefährden, Planungssicherheit für Haushalte und Handwerk reduzieren und Mieter:innen dem Risiko steigender Kosten durch Gasheizungen aussetzen. Wir fordern, dass die EPBD im Sinne des \"Efficiency First\" Prinzip umgesetzt wird, um das Potenzial der Richtlinie für den Sanierungshochlauf und einen verlässlichen Dekarbonisierungspfad im Gebäudesektor zu entfalten. Unter anderem sollen die Primärenergiefaktoren höher angesetzt und One-Stop-Shop eingeführt werden, sowie Mindesteffizienzstandarde auch für den Wohnbereich.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001474",
+      "org_name": "Deutsche Lufthansa Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001474/83214",
+      "regulatory_project_title": "Tarifbindung durch Positivanreize stärken",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/37/69/814745/Stellungnahme-Gutachten-SG2607160035.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607160035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160035",
+      "summary": "Die Lufthansa Group plädiert dafür, die Tarifbindung durch attraktive, bürokratiearme gesetzliche Rahmenbedingungen zu fördern, die den Mehrwert tariflicher Lösungen wieder sichtbar machen.",
+      "recipients": [
+        "BMAS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000056",
+      "org_name": "UFA GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000056/83254",
+      "regulatory_project_title": "Mediendienste-Investitionsverpflichtungsgesetz: Wettbewerbsfähige Rahmenbedingungen für die Film- und Fernsehproduktion in Deutschland",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e3/98/814852/Stellungnahme-Gutachten-SG2607160039.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607160039",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160039",
+      "summary": "Die UFA GmbH begleitet das Regelungsvorhaben eines Mediendienste-Investitionsverpflichtungsgesetzes mit Blick auf seine Auswirkungen auf den deutschen Produktionsstandort sowie die Finanzierung audiovisueller Inhalte. Ziel der Interessenvertretung ist es, praxistaugliche und wettbewerbsfähige Rahmenbedingungen für die Film- und Fernsehproduktion in Deutschland zu fördern und die Produktionsbranche in Deutschland nachhaltig zu stärken.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000056",
+      "org_name": "UFA GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000056/83254",
+      "regulatory_project_title": "Mediendienste-Investitionsverpflichtungsgesetz: Wettbewerbsfähige Rahmenbedingungen für die Film- und Fernsehproduktion in Deutschland",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3a/e2/814854/Stellungnahme-Gutachten-SG2607160040.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607160040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160040",
+      "summary": "Die UFA GmbH begleitet das Regelungsvorhaben eines Mediendienste-Investitionsverpflichtungsgesetzes mit Blick auf seine Auswirkungen auf den deutschen Produktionsstandort sowie die Finanzierung audiovisueller Inhalte. Ziel der Interessenvertretung ist es, praxistaugliche und wettbewerbsfähige Rahmenbedingungen für die Film- und Fernsehproduktion in Deutschland zu fördern und die Produktionsbranche in Deutschland nachhaltig zu stärken.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000056",
+      "org_name": "UFA GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000056/83254",
+      "regulatory_project_title": "Mediendienste-Investitionsverpflichtungsgesetz: Wettbewerbsfähige Rahmenbedingungen für die Film- und Fernsehproduktion in Deutschland",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/22/50/814856/Stellungnahme-Gutachten-SG2607160041.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607160041",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160041",
+      "summary": "Die UFA GmbH begleitet das Regelungsvorhaben eines Mediendienste-Investitionsverpflichtungsgesetzes mit Blick auf seine Auswirkungen auf den deutschen Produktionsstandort sowie die Finanzierung audiovisueller Inhalte. Ziel der Interessenvertretung ist es, praxistaugliche und wettbewerbsfähige Rahmenbedingungen für die Film- und Fernsehproduktion in Deutschland zu fördern und die Produktionsbranche in Deutschland nachhaltig zu stärken.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003270",
       "org_name": "Green Legal Impact Germany e.V.",
@@ -25,7 +560,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema Klimaschutz und natürliche Infrastruktur berührt die langfristigen Klimaziele und die Flächennutzung für die Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002885",
@@ -58,7 +593,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zum EEG, zur Förderung erneuerbarer Energien und zur Sektorkopplung (Moor-PV).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -87,7 +622,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die umsatzsteuerliche Behandlung von Energie- und Emissionszertifikaten betrifft die Rahmenbedingungen des EU-Energiebinnenmarktes und die Kostenstruktur der Energiewirtschaft.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000855",
@@ -120,7 +655,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Brennstoffemissionshandelsgesetz (BEHG) ist ein zentrales Instrument der deutschen Klimapolitik und eng mit der EU-Klimapolitik sowie der Energiewende verknüpft.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002002",
@@ -409,7 +944,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Bezug zur Sektorkopplung und Klimaschutz im Verkehrssektor, relevant für die Transformation der Energieinfrastruktur.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001667",
@@ -435,7 +970,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur EU-Energiepolitik und Dekarbonisierung der Energieerzeugung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000810",
@@ -460,7 +995,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Relevanz für Energiepreise, Klimaschutz und die EU-Governance-Verordnung/EU-ETS.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002310",
@@ -36899,7 +37434,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Direkter Bezug zur Gebäudeenergie und den regulatorischen Rahmenbedingungen der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002456",
@@ -38455,7 +38990,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Integration erneuerbarer Gase in die Infrastruktur sowie die Umsetzung von EU-Recht (Gas- und Wasserstoffbinnenmarktpaket), was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003601",
@@ -63788,5 +64323,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 714
+  "gemini_filtered_out": 721
 }
