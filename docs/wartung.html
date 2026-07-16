@@ -48,8 +48,8 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <ul>
   <li>Alle Eintr&auml;ge werden in <strong>einem gestreamten Durchgang</strong> &uuml;ber die &ouml;ffentliche Suchschnittstelle (<code>sucheDetailJson</code>) geladen – Organisationen samt Stellungnahmen kommen inline</li>
   <li>Deduplizierung auf <strong>Stellungnahme-Ebene</strong> (SG-Nummer): bestehende Eintr&auml;ge bleiben stabil, nur neue Stellungnahmen werden erg&auml;nzt – auch von bereits bekannten Organisationen</li>
-  <li>KI-Pr&uuml;fung (Gemini 3.1 Flash Lite) mit lokalem Cache – bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut verarbeitet</li>
-  <li>Budgetlimit: max. 100 KI-Calls pro Durchlauf (1 Call = 5 Stellungnahmen)</li>
+  <li>KI-Pr&uuml;fung (Gemini 2.5 Pro) mit lokalem Cache – bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut verarbeitet</li>
+  <li>Budgetlimit: max. 45 KI-Calls pro Durchlauf (1 Call = 5 Stellungnahmen)</li>
   <li>&Uuml;bersichtsseite auf GitHub Pages, sortiert nach Upload-Datum (aus der SG-Nummer abgeleitet)</li>
   <li>Ampelfarben zeigen Zeitverzug zwischen Stellungnahme-Datum und Upload an</li>
   <li>Filterung nach Regelungsvorhaben und Institutionen (kombinierbar)</li>
@@ -92,8 +92,8 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <ul>
   <li>Verwaltung: <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a></li>
   <li>Account: <strong>lobbyregister.bot@gmail.com</strong></li>
-  <li>Modell: <code>gemini-3.1-flash-lite-preview</code></li>
-  <li>Limits Free Tier: 15 Requests/Minute, 500 Requests/Tag</li>
+  <li>Modell: <code>gemini-2.5-pro</code></li>
+  <li>Limits Free Tier: 5 Requests/Minute, ~50 Requests/Tag</li>
 </ul>
 
 <h2>3. Dateien im Repository</h2>
