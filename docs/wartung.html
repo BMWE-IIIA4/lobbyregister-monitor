@@ -48,10 +48,11 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <ul>
   <li>Alle Eintr&auml;ge werden in <strong>einem gestreamten Durchgang</strong> &uuml;ber die &ouml;ffentliche Suchschnittstelle (<code>sucheDetailJson</code>) geladen – Organisationen samt Stellungnahmen kommen inline</li>
   <li>Deduplizierung auf <strong>Stellungnahme-Ebene</strong> (SG-Nummer): bestehende Eintr&auml;ge bleiben stabil, nur neue Stellungnahmen werden erg&auml;nzt – auch von bereits bekannten Organisationen</li>
-  <li>KI-Pr&uuml;fung (Gemini 2.5 Pro) mit lokalem Cache – bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut verarbeitet</li>
-  <li>Budgetlimit: max. 45 KI-Calls pro Durchlauf (1 Call = 5 Stellungnahmen)</li>
-  <li>&Uuml;bersichtsseite auf GitHub Pages, sortiert nach Upload-Datum (aus der SG-Nummer abgeleitet)</li>
+  <li>KI-Pr&uuml;fung (Gemini 3.1 Flash Lite) mit lokalem Cache – bereits gepr&uuml;fte Eintr&auml;ge werden nicht erneut verarbeitet. Grundlage der Zusammenfassung ist der <strong>PDF-Volltext</strong> der Stellungnahme (Fallback auf die Metadaten-Beschreibung, falls die PDF nicht extrahierbar ist, z.B. reiner Bild-Scan)</li>
+  <li>Budgetlimit: max. 450 KI-Calls pro Durchlauf (Einzelverarbeitung, 1 Call = 1 Stellungnahme)</li>
+  <li>&Uuml;bersichtsseite auf GitHub Pages, sortiert nach Upload-Datum (aus der SG-Nummer abgeleitet); innerhalb eines Tages alphabetisch nach Regelungsvorhaben</li>
   <li>Ampelfarben zeigen Zeitverzug zwischen Stellungnahme-Datum und Upload an</li>
+  <li>Zusammengeh&ouml;rige Stellungnahmen (gleiches Regelungsvorhaben, gleiche Institution, gleiche Themenfelder, gleiches Hochladedatum) werden zu einem gemeinsamen Block zusammengefasst</li>
   <li>Filterung nach Regelungsvorhaben und Institutionen (kombinierbar)</li>
 </ul>
 <p>Zus&auml;tzlich <strong>jeden Montag</strong>: Wochenmail (nur bei automatischem Trigger) und Selbsttest.</p>
@@ -92,8 +93,9 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <ul>
   <li>Verwaltung: <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a></li>
   <li>Account: <strong>lobbyregister.bot@gmail.com</strong></li>
-  <li>Modell: <code>gemini-2.5-pro</code></li>
-  <li>Limits Free Tier: 5 Requests/Minute, ~50 Requests/Tag</li>
+  <li>Modell: <code>gemini-3.1-flash-lite</code></li>
+  <li>Limits Free Tier: 10-15 Requests/Minute, 500 Requests/Tag</li>
+  <li><em>Hinweis: <code>gemini-2.5-pro</code> ist auf diesem Free-Tier-Account gesperrt (Kontingent = 0, per Test in der Google-AI-Studio-Ratenlimit-&Uuml;bersicht bei ai.dev/rate-limit verifiziert, Stand Juli 2026). Andere Modelle der 3.x/2.5-Generation (Flash, nicht Lite) haben dort nur 20 Requests/Tag Kontingent – <code>gemini-3.1-flash-lite</code> bleibt daher trotz geringerer Qualit&auml;t die praktikabelste Wahl.</em></li>
 </ul>
 
 <h2>3. Dateien im Repository</h2>
@@ -101,7 +103,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <tr><th>Datei</th><th>Funktion</th></tr>
   <tr><td><code>.github/workflows/update.yml</code></td><td>Workflow: Tagesablauf, Datenpersistenz (data-store-Branch), konditionale Mail</td></tr>
   <tr><td><code>scripts/fetch_and_build.py</code></td><td>Datenabruf (Suchschnittstelle <code>sucheDetailJson</code>, gestreamt mit ijson), Filterung, Speicherung in data.json – kein HTML</td></tr>
-  <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung, Zusammenfassung, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
+  <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung und Zusammenfassung auf Basis des PDF-Volltexts (Einzelverarbeitung), Gruppierung zusammengeh&ouml;riger Stellungnahmen, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
   <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/save_run_log.py</code></td><td>Workflow-Protokoll f&uuml;r Archivseite</td></tr>
@@ -119,7 +121,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <ol>
   <li><strong>Datenbestand laden</strong> &ndash; <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> aus dem separaten Branch <code>data-store</code> (Datenpersistenz)</li>
   <li><strong>fetch_and_build.py</strong> &ndash; gesamte Suchschnittstelle gestreamt laden, thematisch relevante Stellungnahmen extrahieren, auf SG-Nummer-Ebene deduplizieren, neue mit bestehenden Daten mergen (bestehende bleiben stabil), in data.json speichern (kein HTML)</li>
-  <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge per KI pr&uuml;fen (max. 100/Run), gecachte &uuml;berspringen, finales HTML mit Ampelfarben und Institutionsfilter bauen</li>
+  <li><strong>gemini_enrich.py</strong> &ndash; Neue Eintr&auml;ge einzeln per KI pr&uuml;fen (max. 450/Run, Grundlage: PDF-Volltext), gecachte &uuml;berspringen, zusammengeh&ouml;rige Stellungnahmen gruppieren, finales HTML mit Ampelfarben und Institutionsfilter bauen</li>
   <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in das Admin-Panel einsetzen</li>
   <li><strong>save_run_log.py</strong> &ndash; Durchlauf-Statistiken an <code>run_history.json</code> anh&auml;ngen</li>
   <li><strong>Datenbestand persistieren</strong> &ndash; aktualisierte <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> per <code>git commit</code>/<code>push</code> in den <code>data-store</code>-Branch zur&uuml;ckschreiben</li>
@@ -150,10 +152,10 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
 <h3>Gemini fehlgeschlagen</h3>
 <p>Erkennbar am gelben Warnbanner auf der Webseite.</p>
 <ul>
-  <li><strong>Quota:</strong> 500 req/Tag &ndash; Caching und Budgetlimit (100/Run) reduzieren den Verbrauch. Ausstehende Pr&uuml;fungen werden automatisch nachgeholt.</li>
-  <li><strong>Cache gel&ouml;scht:</strong> Nach Cache-L&ouml;schung m&uuml;ssen alle Eintr&auml;ge neu gepr&uuml;ft werden (&gt;100). Das holt sich &uuml;ber mehrere Tage automatisch auf.</li>
+  <li><strong>Quota:</strong> 500 req/Tag &ndash; Caching und Budgetlimit (450/Run) reduzieren den Verbrauch. Ausstehende Pr&uuml;fungen werden automatisch nachgeholt.</li>
+  <li><strong>Cache gel&ouml;scht:</strong> Nach Cache-L&ouml;schung m&uuml;ssen alle Eintr&auml;ge neu gepr&uuml;ft werden. Bei ca. 1.300 Bestandseintr&auml;gen und 450 Calls/Tag holt sich das &uuml;ber ca. 3 Tage automatisch auf.</li>
   <li><strong>Key abgelaufen:</strong> Neuen Key auf <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> erstellen und als Secret speichern</li>
-  <li><strong>Modell ge&auml;ndert:</strong> <code>GEMINI_MODEL</code> zentral in <code>scripts/config.py</code> anpassen (wird von gemini_enrich.py und health_check.py gemeinsam genutzt)</li>
+  <li><strong>Modell ge&auml;ndert:</strong> <code>GEMINI_MODEL</code> zentral in <code>scripts/config.py</code> anpassen (wird von gemini_enrich.py und health_check.py gemeinsam genutzt). Vor einem Wechsel unbedingt das tats&auml;chliche Free-Tier-Kontingent des Zielmodells unter <a href="https://ai.dev/rate-limit">ai.dev/rate-limit</a> pr&uuml;fen &ndash; die Kontingente variieren stark und &auml;ndern sich ohne Ank&uuml;ndigung.</li>
 </ul>
 
 <h3>Admin-Panel zeigt falsches Passwort</h3>
