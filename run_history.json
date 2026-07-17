@@ -1,6 +1,19 @@
 {
   "runs": [
     {
+      "timestamp": "2026-07-17T06:13:21.522457+02:00",
+      "run_number": "147",
+      "run_url": "https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/runs/29554275142",
+      "trigger": "Automatisch (täglich)",
+      "email_sent": false,
+      "metrics": {
+        "total_entries": 1438,
+        "new_entries": 0,
+        "pending_ai": 0,
+        "filtered_out": 721
+      }
+    },
+    {
       "timestamp": "2026-07-16T20:49:36.011190+02:00",
       "run_number": "146",
       "run_url": "https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/runs/29525285472",

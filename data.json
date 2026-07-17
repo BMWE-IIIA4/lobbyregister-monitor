@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T20:46:46.766466+02:00",
-  "newly_added": 19,
+  "generated_at": "2026-07-17T06:13:13.566415+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R002168",
@@ -35,7 +35,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novellierung des EEG 2026 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die Systemintegration, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001169",
@@ -60,7 +60,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die EU-Kohäsionspolitik ist ein zentrales Instrument zur Finanzierung der Energiewende und der industriellen Transformation, was direkte Berührungspunkte zu den Themenfeldern EU-Energiepolitik, Clean Industrial Deal und Finanzierungsbedarfe der Transformation aufweist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001169",
@@ -89,7 +89,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Forderungen betreffen direkt die Finanzierung der Energiewende, die Beschleunigung von Genehmigungsverfahren für Infrastruktur sowie die Transformation des Energiesystems, welche in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001169",
@@ -114,7 +114,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Finanzierungsinstrumente (ECF, InvestEU) im Rahmen des MFR, welche direkt die EU-Energiepolitik, den Clean Industrial Deal und die Finanzierung der industriellen Transformation berühren.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001169",
@@ -139,7 +139,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der European Competitiveness Fund (ECF) und InvestEU sind zentrale Instrumente der EU-Industriepolitik und Finanzierung der Transformation, die direkt unter die Themenfelder EU-Energiepolitik, Clean Industrial Deal und EU-Beihilferecht der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001169",
@@ -164,7 +164,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die EU-Haushaltsreform ab 2028 ist für die Finanzierung der EU-Energiepolitik, den Green Deal und die Transformation des Energiesystems von zentraler Bedeutung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001053",
@@ -189,7 +189,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie den Aufbau eines Wasserstoffmarktes, welche zentrale Aufgabenbereiche der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001053",
@@ -214,7 +214,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die Klimaschutz- und Energiepolitik sowie die Schnittstelle zwischen nationalen und europäischen Emissionshandelssystemen, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000996",
@@ -239,7 +239,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die Ausgestaltung des nationalen Emissionshandels (nEHS) und die Emissionsberichterstattung für Abfallverbrennungsanlagen, was direkt unter die Zuständigkeit für Klimaschutz und energiepolitische Rahmenbedingungen fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000981",
@@ -273,7 +273,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Strategie zur Wasserstoffnutzung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000980",
@@ -307,7 +307,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Wasserstoffstrategie sowie die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -344,7 +344,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Versorgungssicherheit, die Netzreserve und die Kraftwerksstrategie, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002609",
