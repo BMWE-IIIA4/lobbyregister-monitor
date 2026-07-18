@@ -1,7 +1,248 @@
 {
-  "generated_at": "2026-07-17T06:13:13.566415+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-07-18T06:06:04.471416+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/83205",
+      "regulatory_project_title": "Flexibilisierung des Stromsystems",
+      "sending_date": "2026-07-13",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/26/76/815507/Stellungnahme-Gutachten-SG2607170015.pdf",
+      "pdf_pages": 34,
+      "sg_number": "SG2607170015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170015",
+      "summary": "Das Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik IEE <b>empfiehlt</b> einen <b>beschleunigten Ausbau von Batteriespeichern</b> und Flexibilitätsoptionen im Stromsystem. Die Analyse verdeutlicht, dass durch eine gesteigerte Systemflexibilität <b>erhebliche Entlastungen</b> für Verbraucher sowie den Bundeshaushalt in Milliardenhöhe realisiert werden können. Die Untersuchung wurde im Auftrag führender Branchenverbände der Erneuerbaren Energien erstellt, um die <b>Effizienz der Energiewende</b> zu steigern. Dabei wird aufgezeigt, dass eine flexiblere Strominfrastruktur essenziell für die <b>Kostensenkung im Stromsektor</b> ist. Die Ergebnisse unterstreichen die Notwendigkeit, regulatorische Rahmenbedingungen für <b>Speichertechnologien</b> gezielt weiterzuentwickeln.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Flexibilisierung des Stromsystems, die Kapazitätsmechanismen sowie die Plattform Klimaneutrales Stromsystem, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002153",
+      "org_name": "Microsoft Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002153/83345",
+      "regulatory_project_title": "EU Cloud and AI Development Act",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/80/40/815758/Stellungnahme-Gutachten-SG2607170029.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607170029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170029",
+      "summary": "Microsoft <b>begrüßt</b> den Vorschlag zum EU Cloud and AI Development Act als essenziellen Beitrag zur Bereitstellung der für europäische KI-Ambitionen notwendigen Infrastruktur. Das Unternehmen <b>unterstützt</b> das Ziel der EU, zusätzliche <b>Rechenzentrumskapazitäten</b> aufzubauen, und bekräftigt seine Investitionsbereitschaft in diesen Bereich. Gleichzeitig fordert der Akteur eine <b>Stärkung des Vorschlags</b>, um eine höhere <b>Rechtsklarheit</b> innerhalb der Union zu gewährleisten. Ziel ist es, verlässliche Rahmenbedingungen für <b>nachhaltige Rechenzentrumsinvestitionen</b> zu schaffen. Die Interessenvertretung betont dabei die Notwendigkeit einer strategischen Ausrichtung, um den wachsenden Energiebedarf der KI-Entwicklung effizient und planbar in Europa abzubilden.",
+      "recipients": [
+        "BKAmt",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Vorschlag betrifft die Infrastruktur für Rechenzentren, welche als energieintensive Verbraucher und zentrale Bestandteile der digitalen Transformation direkt mit der Energiepolitik, der Versorgungssicherheit und den Zielen der EU-Energieeffizienz korrespondieren.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002153",
+      "org_name": "Microsoft Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002153/83345",
+      "regulatory_project_title": "EU Data Center Labelling Scheme",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/13/90/815778/Stellungnahme-Gutachten-SG2607170030.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607170030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170030",
+      "summary": "Microsoft <b>unterstützt</b> die Einführung eines EU-weiten Kennzeichnungssystems für Rechenzentren, um deren Nachhaltigkeitsleistung transparent abzubilden. Dabei wird die Nutzung der Kennzahlen <b>Renewable Energy Factor</b>, <b>Power Usage Effectiveness</b> sowie <b>Water Usage Effectiveness</b> als Indikatoren befürwortet. Die Interessenvertretung <b>fordert eine Nachbesserung</b> bei der Kalibrierung der spezifischen WUE-Bänder innerhalb des Labels. Ziel ist eine präzisere Erfassung der ökologischen Auswirkungen von Rechenzentren im Rahmen der europäischen Energieeffizienzstrategie. Die vorgeschlagenen Metriken sollen dabei helfen, wesentliche Aspekte der <b>Nachhaltigkeitsleistung</b> vergleichbar zu machen.",
+      "recipients": [
+        "BKAmt",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Energieeffizienz und die Nachhaltigkeitsvorgaben für Rechenzentren, welche unter die EU-Energiepolitik und die Dekarbonisierung der Energieerzeugung fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001350",
+      "org_name": "Trianel GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001350/83195",
+      "regulatory_project_title": "EU-Methanverordnung rechtssicher ausgestalten",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b8/d3/815171/Stellungnahme-Gutachten-SG2607170003.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607170003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170003",
+      "summary": "Die Organisation <b>fordert</b> eine <b>rechtssichere Ausgestaltung</b> der EU-Methanverordnung, um die ab 2027 geplanten Anpassungen in der Praxis umsetzbar zu machen. Kritisiert wird, dass die aktuellen Vorgaben für Importeure von fossilen Energieträgern wie Gas, Öl und Kohle derzeit nicht realisierbar sind. Es wird betont, dass die regulatorischen Anforderungen an die <b>Methan-Emissionsminderung</b> zwingend an die betrieblichen Realitäten angepasst werden müssen. Ziel ist es, die <b>Versorgungssicherheit</b> durch praktikable Rahmenbedingungen für den Import zu gewährleisten. Die Bundesregierung wird dazu aufgefordert, sich im weiteren Gesetzgebungsprozess für eine <b>praxistaugliche Umsetzung</b> einzusetzen.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EU-Methanverordnung betrifft die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83294",
+      "regulatory_project_title": "Einführung einer erbschaftsteuerlichen Begünstigung für PV-Freiflächenanlagen",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/11/fe/815300/Stellungnahme-Gutachten-SG2607170009.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607170009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170009",
+      "summary": "Der BDEW <b>fordert eine Anpassung</b> des Bewertungs- sowie des Erbschaftsteuergesetzes, um die steuerliche Begünstigung landwirtschaftlicher Flächen bei der Nutzung für <b>PV-Freiflächenanlagen</b> zu erhalten. Ziel ist es, den Verlust der steuerlichen Privilegierung zu verhindern, wenn Flächen zeitlich befristet für die <b>Energiewende</b> bereitgestellt werden. Der Verband plädiert primär für eine fortgesetzte Zuordnung zum <b>land- und forstwirtschaftlichen Vermögen</b>. Alternativ werden ein eigenständiger <b>Begünstigungstatbestand</b> oder pauschale Bewertungsabschläge vorgeschlagen. Diese Maßnahmen sollen die <b>Investitionssicherheit</b> für den Ausbau erneuerbarer Energien auf landwirtschaftlichen Flächen stärken. Die Initiative zielt darauf ab, steuerliche Hürden bei der Flächenbereitstellung für den <b>Photovoltaik-Ausbau</b> abzubauen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Rahmenbedingungen für den Ausbau von PV-Freiflächenanlagen, welche unter die Zuständigkeit der Erneuerbaren Energien (national) und die Finanzierungsaspekte der Energiewende fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007117",
+      "org_name": "Potsdam-Institut für Klimafolgenforschung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007117/82367",
+      "regulatory_project_title": "Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-04-13",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/54/fc/815721/Stellungnahme-Gutachten-SG2607170026.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607170026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170026",
+      "summary": "Das Gebäudemodernisierungsgesetz soll das Gebäudenergiegesetz ablösen. Es betrifft den Tausch von Heizsystemen. Bestehende gesetzliche Regelungen, die eine verpflichtende Quote von erneuerbaren Energien beim Heizungstausch vorsehen, sollen abgeschafft werden. Dies verändert die Lenkungswirkung von einer starken Elektrifizierung der Wärmebereitstellung (bisher), hin zu einer verlängerten Nutzungsdauer von fossilen Heizsystemen. Ein technologischer Lock-in von traditionellen Brennkesseln würde zu einer geringeren Emissionsminderung als unter der aktuellen Gesetzeslage, sowie zu einer verlängerten Importabhängigkeit von fossilen Brennstoffen führen. ",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMJV",
+        "BMAS",
+        "BMFTR",
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002756",
+      "org_name": "Bundesverband des Schornsteinfegerhandwerks - Zentralinnungsverband (ZIV) -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002756/81990",
+      "regulatory_project_title": "Änderung bei der Richtlinie für die Bundesförderung für effiziente Gebäude (BEG)",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/90/815686/Stellungnahme-Gutachten-SG2607170024.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607170024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170024",
+      "summary": "Ziel der Interessenvertretung ist eine praxistaugliche Anpassung des BEG-Richtlinienentwurfs, insbesondere beim iSFP-Bonus, WPB-Bonus, der Förderfähigkeit von Fachplanung und Baubegleitung, den GWP-Vorgaben für Wärmepumpen sowie dem Erhalt der Effizienzhaus-Stufe EH70.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001441",
+      "org_name": "Bundesverband der Unternehmensjuristinnen und Unternehmensjuristen e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001441/80843",
+      "regulatory_project_title": "Verhältnismäßige Anwendung der EU-Geldwäscheverordnung",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/de/99/815661/Stellungnahme-Gutachten-SG2607170023.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607170023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607170023",
+      "summary": "Der BUJ unterstützt die EU-Geldwäschebekämpfung, warnt aber vor unbeabsichtigten Folgen der AMLR für Industrie- und Handelsunternehmen. Diese dürfen nicht allein wegen verbundener Finanz- oder Verpflichteteneinheiten wie Finanzunternehmen behandelt werden. AML-Pflichten müssen risikobasiert, verhältnismäßig und auf tatsächlich relevante Tätigkeiten begrenzt bleiben. Der BUJ fordert klare Auslegungshilfen, gezielte Ausnahmen, vereinfachte Governance-/Reportingpflichten und angemessene Einbindung der Wirtschaft in AMLA-Prozesse. ",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002168",
       "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
@@ -64323,5 +64564,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 721
+  "gemini_filtered_out": 724
 }
