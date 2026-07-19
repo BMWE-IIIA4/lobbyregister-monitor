@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T06:06:04.471416+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-07-19T06:26:30.398314+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R002168",
@@ -35,7 +35,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Flexibilisierung des Stromsystems, die Kapazitätsmechanismen sowie die Plattform Klimaneutrales Stromsystem, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002153",
@@ -61,7 +61,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Vorschlag betrifft die Infrastruktur für Rechenzentren, welche als energieintensive Verbraucher und zentrale Bestandteile der digitalen Transformation direkt mit der Energiepolitik, der Versorgungssicherheit und den Zielen der EU-Energieeffizienz korrespondieren.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002153",
@@ -87,7 +87,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Energieeffizienz und die Nachhaltigkeitsvorgaben für Rechenzentren, welche unter die EU-Energiepolitik und die Dekarbonisierung der Energieerzeugung fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001350",
@@ -112,7 +112,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EU-Methanverordnung betrifft die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -149,7 +149,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Rahmenbedingungen für den Ausbau von PV-Freiflächenanlagen, welche unter die Zuständigkeit der Erneuerbaren Energien (national) und die Finanzierungsaspekte der Energiewende fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007117",
