@@ -1,7 +1,344 @@
 {
-  "generated_at": "2026-07-20T06:41:15.795097+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-07-21T06:20:12.511214+02:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R002782",
+      "org_name": "Linde GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002782/83414",
+      "regulatory_project_title": "Ausgestaltung einer Carbon Management Strategie und Änderung des Kohlendioxid-Speicherungsgesetzes ",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2b/9a/816400/Stellungnahme-Gutachten-SG2607200013.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607200013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200013",
+      "summary": "Linde <b>unterstützt</b> die Entwicklung einer <b>Carbon Management Strategie</b> sowie die <b>Novellierung des Kohlendioxidspeicherungsgesetzes</b>. Das Unternehmen verfügt über umfangreiche Expertise in der CO2-Abscheidung und -Aufbereitung zur industriellen Dekarbonisierung. Es wird gefordert, zeitnah <b>Rechts- und Planungssicherheit</b> für den Aufbau notwendiger Infrastrukturen zu gewährleisten. Zudem betont Linde die Notwendigkeit einer klaren regulatorischen Ausgestaltung für die gesamte <b>CO2-Wertschöpfungskette</b>. Ziel ist es, durch verlässliche Rahmenbedingungen Investitionen in CCUS-Projekte zu ermöglichen und zu beschleunigen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema Carbon Management Strategie (CMS) und die Novellierung des Kohlendioxidspeicherungsgesetzes (KSpG) fallen direkt unter die Zuständigkeit der Unterabteilung IIIA, insbesondere im Bereich CCS/CCU und Dekarbonisierung der Industrie.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002782",
+      "org_name": "Linde GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002782/83414",
+      "regulatory_project_title": "Nationale Umsetzung der EU Richtlinie 2023/2413 zur Überarbeitung der Erneuerbare-Energien-Richtlinie (RED III)",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8a/82/816402/Stellungnahme-Gutachten-SG2607200014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607200014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200014",
+      "summary": "Das Unternehmen Linde <b>wirbt für eine pragmatische Umsetzung</b> der RFNBO-Quoten aus der EU-Richtlinie RED III in nationales Recht. Es wird argumentiert, dass neben erneuerbarem Wasserstoff auch <b>kohlenstoffarmer Wasserstoff eine wichtige Rolle</b> bei der Erreichung der Klimaschutzziele spielt. Das Unternehmen fordert eine <b>Technologieoffenheit</b>, um die Energiewende kosteneffizient und zeitnah voranzutreiben. Zudem wird die <b>Schaffung eines ermöglichenden regulatorischen Rahmens</b> angemahnt, der Investitionssicherheit für Produzenten und Abnehmer bietet. Ziel ist es, durch langfristige Planungssicherheit die Dekarbonisierung der Industrie effektiv zu unterstützen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft direkt die EU-Energiesetzgebung (RED III), die regulatorischen Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Umsetzung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002782",
+      "org_name": "Linde GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002782/83414",
+      "regulatory_project_title": "Nationale Umsetzung der EU Richtlinie 2023/2413 zur Überarbeitung der Erneuerbare-Energien-Richtlinie (RED III)",
+      "sending_date": "2026-02-03",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/a8/816404/Stellungnahme-Gutachten-SG2607200017.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2607200017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200017",
+      "summary": "Linde <b>wirbt für eine pragmatische Umsetzung</b> der RFNBO-Quoten aus der RED III-Richtlinie in nationales Recht. Das Unternehmen <b>fordert Technologieoffenheit</b> bei der Förderung von Wasserstoff, um die Energiewende effizient zu gestalten. Dabei wird betont, dass neben erneuerbarem auch <b>kohlenstoffarmer Wasserstoff eine wichtige Rolle</b> für das Erreichen der Klimaschutzziele spielt. Um Investitionssicherheit für Produzenten und Abnehmer zu gewährleisten, wird die <b>Schaffung eines ermöglichenden regulatorischen Rahmens</b> angemahnt. Ziel ist eine kostengünstige Dekarbonisierung der Industrie durch langfristig verlässliche Rahmenbedingungen. Die Positionierung unterstreicht die Notwendigkeit, regulatorische Hürden für den Markthochlauf von Wasserstofftechnologien abzubauen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft direkt die Umsetzung der EU-Erneuerbare-Energien-Richtlinie (RED III) sowie die regulatorischen Rahmenbedingungen für erneuerbaren und kohlenstoffarmen Wasserstoff, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002782",
+      "org_name": "Linde GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002782/83414",
+      "regulatory_project_title": "Etablierung von Rahmenbedingungen für kohlenstoffarmen Wasserstoff gemäß Art. 9 der EU Gasbinnenmarktrichtlinie",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d4/94/816406/Stellungnahme-Gutachten-SG2607200015.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607200015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200015",
+      "summary": "Linde <b>unterstützt</b> die Einbeziehung von <b>kohlenstoffarmem Wasserstoff</b> als notwendige Ergänzung zu erneuerbarem Wasserstoff für eine effiziente Energiewende. Das Unternehmen <b>fordert geeignete Rahmenbedingungen</b> für die Produktion und den Einsatz dieser Energieträger, um Klimaschutzziele kostengünstig zu erreichen. Im Fokus steht dabei die Ausgestaltung des delegierten Rechtsaktes zur <b>Berechnungsmethodik der Treibhausgasemissionsreduktion</b>. Linde plädiert dafür, bei der Ermittlung vorgelagerter Emissionen neben Standardwerten zwingend auch <b>projektspezifische Werte</b> zuzulassen. Dies soll sicherstellen, dass besonders emissionsarme Projekte durch eine präzisere Bilanzierung nicht benachteiligt werden. Die Initiative zielt auf eine technologieoffene und wettbewerbsfähige Umsetzung der EU-Vorgaben ab.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren und kohlenstoffarmen Wasserstoff sowie die regulatorische Ausgestaltung der EU-Gasbinnenmarktrichtlinie, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002782",
+      "org_name": "Linde GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002782/83414",
+      "regulatory_project_title": "Etablierung von Rahmenbedingungen für kohlenstoffarmen Wasserstoff gemäß Art. 9 der EU Gasbinnenmarktrichtlinie",
+      "sending_date": "2026-02-03",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/43/816408/Stellungnahme-Gutachten-SG2607200016.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2607200016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200016",
+      "summary": "Linde <b>unterstützt</b> die Einbeziehung von <b>kohlenstoffarmem Wasserstoff</b> als notwendige Ergänzung zu erneuerbarem Wasserstoff für eine effiziente Energiewende. Das Unternehmen <b>fordert geeignete Rahmenbedingungen</b> für die Produktion und den Einsatz dieser Energieträger, um Klimaschutzziele kostengünstig zu erreichen. Im Fokus steht dabei die Ausgestaltung des delegierten Rechtsaktes zur <b>Berechnungsmethodik der Treibhausgasemissionsreduktion</b>. Linde plädiert dafür, bei der Ermittlung vorgelagerter Emissionen neben Standardwerten zwingend auch <b>projektspezifische Werte</b> zuzulassen. Dies soll sicherstellen, dass besonders emissionsarme Projekte durch eine präzisere Bilanzierung nicht benachteiligt werden. Die Initiative zielt auf eine technologieoffene und wettbewerbsfähige Umsetzung der EU-Vorgaben ab.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren und kohlenstoffarmen Wasserstoff sowie die regulatorische Ausgestaltung der EU-Gasbinnenmarktrichtlinie, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002477",
+      "org_name": "Amprion GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002477/83378",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-05-13",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a1/29/816247/Stellungnahme-Gutachten-SG2607200008.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607200008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200008",
+      "summary": "Das BMWK <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um die aktuelle Überlastung durch eine Vielzahl von Anfragen zu bewältigen. Das bisherige Verfahren gemäß KraftNAV erweist sich für die gestiegene Anzahl an Projekten, insbesondere bei <b>Großbatteriespeichern</b>, als ineffizient und nicht mehr zeitgemäß. Ziel ist die <b>Implementierung eines alternativen Verfahrens</b>, das eine effizientere Abwicklung der Netzanschlussanfragen ermöglicht. Dabei soll durch eine <b>Differenzierung oder Priorisierung nach Projektreife</b> sichergestellt werden, dass netzdienliche und realistische Vorhaben bevorzugt behandelt werden. Die Anpassung soll durch eine <b>Klarstellung in der KraftNAV</b> sowie ergänzende regulatorische Maßnahmen erreicht werden, um die <b>Netzanschlusskapazitäten</b> zielgerichtet zu vergeben.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzanschlussverfahren und die Integration von Erneuerbaren Energien sowie Speichern, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002226",
+      "org_name": "Umweltinstitut München - Verein zur Erforschung und Verminderung der Umweltbelastung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002226/83377",
+      "regulatory_project_title": "Angekündigte Abschaffung bzw. Novellierung des Gebäudeenergiegesetzes",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e1/f3/816173/Stellungnahme-Gutachten-SG2607200003.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2607200003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200003",
+      "summary": "Im Koalitionsvertrag hat die Bundesregierung die \"Abschaffung\" des Heizungsgesetzes angekündigt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002226",
+      "org_name": "Umweltinstitut München - Verein zur Erforschung und Verminderung der Umweltbelastung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002226/83377",
+      "regulatory_project_title": "Kürzung des Fördervolumens in der Bundesförderung für effiziente Gebäude",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/09/61/816175/Stellungnahme-Gutachten-SG2607200006.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607200006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200006",
+      "summary": "Die Bundesregierung plant Änderungen an der BEG-Förderung, mit denen zukünftig weniger Gelder für den Heizungstausch zur Verfügung stehen werden. Umweltverbände wurden dabei nicht ausreichend konsultiert.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001765",
+      "org_name": "Leibniz-Gemeinschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001765/83391",
+      "regulatory_project_title": "Neuregelung § 2b UStG",
+      "sending_date": "2026-05-20",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7e/c0/816257/Stellungnahme-Gutachten-SG2607200007.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607200007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200007",
+      "summary": "- Nutzung der Übergangsfrist von § 2b UStG zur Klärung der mit der Neuregelung verbundenen Folgen für wissenschaftliche Kooperationen\r\n- Besteuerung von gemeinsamen Berufungen und weiteren Kooperationen in der Wissenschaft verhindern durch Einführung einer Bereichsausnahme für Forschungskooperationen auf nationaler Ebene oder Einführung einer bereichsspezifischen Steuerbefreiung von Forschungseinrichtungen in der EU-Mehrwertsteuersystemrichtlinie\r\n",
+      "recipients": [
+        "BMFTR",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000748",
+      "org_name": "FGK - Fachverband Gebäude-Klima e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000748/83408",
+      "regulatory_project_title": "Bundesförderung effiziente Gebäude (BEG) verbessern",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9f/94/816318/Stellungnahme-Gutachten-SG2607200011.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2607200011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200011",
+      "summary": "Bei der Anpassung der BEG an das GModG besteht Verbesserungspotenzial.\r\n- Alle Verweise in den Förderrichtlinien sollten auf die neue Norm DIN/TS 18599 aktualisiert werden.\r\n- Zum Ausgleich der reduzierten Fördersummen sollte der Spielraum bei der Verbilligung der Kreditvergabe durch die KfW maximal genutzt werden, um die Förderanreize insgesamt weiter attraktiv zu halten.\r\n- In Bezug auf Wärmepumpen und Lüftung.besteht Handlungs- bzw. Verbesserungsbedarf bei:\r\n1. Netzdienlichkeit (TMA 3.4.3.)\r\n2. Kältemittel (TMA 3.4.4.)\r\n3. Ausschluss bei Fernwärme (TMA 3.1.)\r\n4. Wertschöpfungsbonus (BEG EM 8.4.6)\r\n5. Lüftungsanlagen (BEG EM TMA 2.1.)\r\n6. Effizienzhausnachweis (BEG WG TMA)\r\n7. Anforderungen an den Einsatz von Wärme aus erneuerbaren Energien eines Effizienzhauses (BEG WG TMA 3.)",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000384",
+      "org_name": "KOK - Bundesweiter Koordinierungskreis gegen Menschenhandel e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000384/83386",
+      "regulatory_project_title": "Nationales Umsetzungsgesetz zur Änderung der EU-Richtlinie zur Bekämpfung des Menschenhandels und zum Schutz seiner Opfer (2011/36/EU) ",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/fb/816154/Stellungnahme-Gutachten-SG2607200005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607200005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607200005",
+      "summary": "Die überarbeitete EU-Richtlinie zur Bekämpfung des Menschenhandels muss so in nationale Gesetzgebung implementiert werden, dass neben den notwendigen Änderungen bei den Straftatbeständen zu Menschenhandel und Ausbeutung auch Verbesserungen in den Bereichen Opferschutz und Opferrechte realisiert werden (bspw. beim Aufenthalt für Betroffene von Menschenhandel, Durchsetzung von Entschädigungsansprüchen, dem Non-Punishment Prinzip).",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002168",
       "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
@@ -21655,6 +21992,33 @@
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung des EU-Gas- und Wasserstoffbinnenmarktpakets sowie die Regulierung der H2-Infrastruktur sind zentrale Themen der Energiegesetzgebung der Unterabteilung IIIA.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R008120",
+      "org_name": "BALANCE Beteiligungsmanagement GmbH & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008120/79474",
+      "regulatory_project_title": "Änderung des Energiewirtschaftsgesetzes zur Umsetzung EU RL 2024/1788",
+      "sending_date": "2026-01-16",
+      "upload_date": "2026-06-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/94/816226/Stellungnahme-Gutachten-SG2606180007.pdf",
+      "pdf_pages": 31,
+      "sg_number": "SG2606180007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606180007",
+      "summary": "Die Interessenvertretung <b>kritisiert</b> den vorliegenden Entwurf zur Umsetzung der EU-Gasbinnenmarktrichtlinie als unzureichend für die Erreichung europäischer Klimaziele. Sie warnt vor einer Gefährdung der <b>Biomethanproduktion</b> und fordert eine stärkere <b>Förderung erneuerbarer Gase</b> im nationalen Rechtsrahmen. Zudem wird die <b>Sicherstellung der Versorgungssicherheit</b> sowie ein umfassender <b>Investitionsschutz für Biogasanlagen</b> angemahnt. Der Entwurf müsse zudem verhindern, dass wirtschaftliche Interessen der Netzbetreiber zulasten der Energieeffizienz priorisiert werden. Abschließend verlangt die Interessenvertretung <b>klare Vorgaben für Anschlusskosten</b> sowie einen wirksamen Schutz vor willkürlicher Netztrennung.",
+      "recipients": [
+        "BMLEH",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Änderung des Energiewirtschaftsgesetzes zur Umsetzung der EU-Gasbinnenmarktrichtlinie betrifft direkt die regulatorischen Rahmenbedingungen für erneuerbare Gase und die Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R006523",
@@ -64564,5 +64928,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 724
+  "gemini_filtered_out": 729
 }
