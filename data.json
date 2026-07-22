@@ -1,7 +1,276 @@
 {
-  "generated_at": "2026-07-21T06:20:12.511214+02:00",
-  "newly_added": 12,
+  "generated_at": "2026-07-22T06:22:06.251988+02:00",
+  "newly_added": 15,
   "statements": [
+    {
+      "register_number": "R004009",
+      "org_name": "AquaVentus Förderverein e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004009/80877",
+      "regulatory_project_title": "BSH-Konsultation: 2. Änderung des FEP 2025 (BSH, 19. Juni 2026)",
+      "sending_date": "2026-07-20",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ca/19/817223/Stellungnahme-Gutachten-SG2607210025.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607210025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210025",
+      "summary": "Das BSH <b>schlägt Änderungen</b> am Flächenentwicklungsplan 2025 vor, um den <b>Ausbau der Windenergie auf See</b> effizienter und verstetigter zu gestalten. Die Konsultation umfasst eine Überprüfung noch nicht bezuschlagter Flächen unter Berücksichtigung aktueller Entwicklungen seit Jahresbeginn. Für die Flächen N-10.1 und N-10.2 werden spezifische <b>Anpassungsoptionen</b> unter Einbeziehung des Energiegewinnungsbereichs SEN-1 zur Diskussion gestellt. Gleichzeitig wird die <b>Ausschreibung der Flächen</b> N-12.4 und N-12.5 ausgesetzt, was eine <b>Verschiebung der Inbetriebnahme</b> zur Folge hat. Diese Maßnahmen zielen darauf ab, die Planungssicherheit und die infrastrukturelle Integration der Offshore-Kapazitäten zu optimieren.",
+      "recipients": [
+        "BMWE",
+        "BMV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Anpassung des Flächenentwicklungsplans (FEP) für Offshore-Windenergie fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder 'Erneuerbare Energien' und 'Grenzüberschreitende EE-Kooperationsprojekte/Offshore-Kooperationen'.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83367",
+      "regulatory_project_title": "Änderungsvorschläge zu § 3a CO2KostAufG zur Biogaskostenaufteilung",
+      "sending_date": "2026-07-13",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ec/1a/816989/Stellungnahme-Gutachten-SG2607210008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607210008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210008",
+      "summary": "Der BDEW <b>fordert eine Änderung</b> des § 3a CO2KostAufG, um die verpflichtende Ausweisung individueller Biogas-Beschaffungskosten zu streichen. Ziel ist die Einführung einer <b>bürokratiearmen Regelung</b>, die den administrativen Aufwand für Energieversorger signifikant reduziert. Anstelle individueller Nachweise soll ein <b>einheitlicher Durchschnittspreis</b> für Biogaszertifikate als Basis für die Kostenaufteilung dienen. Der Verband betont dabei die Notwendigkeit, <b>Geschäftsgeheimnisse zu schützen</b> und die Rechtssicherheit für die betroffenen Unternehmen zu gewährleisten. Zudem wird angeregt, die <b>Detailregelungen auf Verordnungsebene</b> zu verlagern, um eine flexiblere und praxistauglichere Umsetzung zu ermöglichen. Diese Anpassungen sollen die praktische Anwendbarkeit der CO2-Kostenaufteilung im Wärmesektor verbessern.",
+      "recipients": [
+        "BMJV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Ausgestaltung von Kostenaufteilungsmechanismen bei CO2-Bepreisung und Biogas, was unter die Bereiche Energiepreise, Klimaschutz und regulatorische Rahmenbedingungen der Energiewirtschaft fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Faire Umsetzung der EU-Plattformrichtlinie",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d6/95/817433/Stellungnahme-Gutachten-SG2607210033.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210033",
+      "summary": "Die EU-Plattformrichtlinie soll prekäre Arbeitsverhältnisse in sichere abhängige Beschäftigung wandeln. Wir begrüßen den Schutz vor prekärer Beschäftigung und Ausbeutung. Die Richtlinie ist jedoch so schwammig, dass sie alle Bereiche der Wirtschaft treffen wird. Bei der Umsetzung in deutsches Reht darf diese EU-Regelung nicht zu noch größerer Verunsicherung der Wirtschaft führt, als es die Statusfeststellung in Deutschland bereits tut. Freiberuflichkeit und Solo-/Selbstständigkeit müssen rechtssicher und modern möglich sein. Gemäß der aktuellen Regelung kann jeder\r\nAuftraggeber, der eine digitale Projektmanagementsoftware verwendet, in die Situation kommen, als Plattform zu gelten. Das wollen wir verhindern.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Entschädigungsregelung im Falle des Einkommensverlustes durch staatliche Einschränkungen verbessern",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/e1/817435/Stellungnahme-Gutachten-SG2607210028.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210028",
+      "summary": "Während der Coronapandemie und der daraus resultierenden Schutzmaßnahmen für die Bevölkerung mussten viele Solo-/Selbstständige und Freiberufler den Geschäftsbetrieb einstellen, ohne dass ein Berufsverbot galt. Dadurch kamen sehr viele, gerade kleine und Kleinstunternehmen - darunter insbesondere Dolmetscher - in existenzielle Notlagen. Das Entwickeln und Aufbauen von finanziellen Hilfsmaßnahmen war langwierig und für viele sehr unklar. Hier muss eine Regelung im Infektionsschutzgesetz vorgesehen werden, die im Falle des Wiederauftretens einer vergleichbaren Situation eine klare Regelung der Entschädigung für den Eingriff in den Betriebsablauf dieser Unternehmen bereitstellt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Existenzsichernde Honorare für Dolmetscher und Übersetzer bei Beauftragung durch die öffentliche Hand",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/11/78/817437/Stellungnahme-Gutachten-SG2607210029.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210029",
+      "summary": "Qualifizierte Dolmetscher & Übersetzer sind in unterschiedlichsten Situationen, in denen Menschen in Deutschland mit dem Staat (oder viceversa) in Kontakt kommen, für die rechtssichere und rechtewahrende Kommunikation unerlässlich. Nur in den wenigsten Fällen haben Menschen, die (noch) nicht/nicht mehr ausreichend Deutsch sprechen, einen Anspruch darauf (zB §17 AsylG, §§7, 8 ProstG). Wenn Ämter und Behörden Dolmetscher & Übersetzer beauftragen, so werden sie in diesen Verwaltungsverfahren nach JVEG bezahlt. Statt §8 JVEG anzuwenden ist meist ein Rahmenvertrag nach §14 JVEG Voraussetzung, um überhaupt erstmals beauftragt zu werden. §14 JVEG sieht zwar eine Ober-, aber keine Untergrenze vor; überwiegend werden \"Dumpinghonorare\" gezahlt, teils als Entschädigung für (vermeintliche) Ehrenamtler",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Legaldefinition für Selbstständigkeit/selbstständige Erwerbstätigkeit einführen",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/77/3c/817439/Stellungnahme-Gutachten-SG2607210030.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210030",
+      "summary": "Selbstständige sind nicht eigenständig definiert, sondern ausschließlich in Abgrenzung etwa zu abhängig Beschäftigten. Dies hat unterschiedliche Auswirkungen, vor allem im Arbeits- und Sozialrecht (Statusfeststellungsverfahren, EU-Plattformrichtlinie), aber auch in der statistischen Erfassung Selbstständiger. Daher ist eine eindeutige, klar abgrenzbare Legaldefinition von Selbstständigkeit, selbstständiger Erwerbstätigkeit bzw. Selbstständigen erforderlich, die für alle Rechtsgebiete gleichmaßen gilt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Pfändungsschutz für alle staatlich anerkannten Verträge der privaten Altersvorsorge",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/38/b2/817441/Stellungnahme-Gutachten-SG2607210031.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210031",
+      "summary": "Nicht alle Verträge der Basisrente (\"Rürup\") sind pfändungssicher, abhängig ist dies von den konkreten Vertragsbedingungen. Auch unabhängig von einer staatlichen Förderung müssen alle privaten Altersvorsorgeverträge bei einer Insolvenz vor Forderungen geschützt werden, sodass sie tatsächlich der Altersvorsorge dienen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Fernunterrichtsschutzgesetz modernisieren oder abschaffen",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d9/50/817443/Stellungnahme-Gutachten-SG2607210032.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210032",
+      "summary": "Das Fernunterrichtsschutzgesetz ist aus der Zeit gefallen und spiegelt eine vollständig analoge Welt wieder, sodass es mittlerweile sogar berufliche Fort- und Weiterbildung erschwert oder gar verhindert. Das Fernunterrichtsschutzgesetzt muss mindestens praxisnah modernisiert oder abgeschafft werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/83483",
+      "regulatory_project_title": "Übersetzer und Dolmetscher als systemrelevante Berufe anerkennen",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/68/0d/817445/Stellungnahme-Gutachten-SG2607210036.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607210036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210036",
+      "summary": "Nicht nur in Ausnahmesituationen (Krisen-, Katastrophen-, Spannungs-, Kriegsfall, Pandemie) ist Kommunikation in einer Gesellschaft zentral. Damit auch diejenigen erreicht werden, die (noch) nicht (ausreichend) des Deutschen mächtig sind, sind Übersetzer und Dolmetscher unverzichtbare Bestandteile der Kommunikation. Während und im Zusammenhang mit der Corona-Pandemie wurden Übersetzer und Dolmetscher vom Gesetzgeber auch diesbezüglich nicht mitgedacht. Diese Berufe müssen als systemrelevant eingestuft werden, um Fehler nicht zu wiederholen. Nur so können sie systematisch mitgedacht werden (Einbeziehung in Schutz- und Sicherheitskonzepte, inkl. Selbstsschutz).",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001964",
+      "org_name": "Sozialverband VdK Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001964/83489",
+      "regulatory_project_title": "Konkrete Vorgaben für die Modernisierung von Gebäuden sowie den Einbau und Tausch von Heizungsanlagen mit erneuerbaren und fossilen Energien",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/26/b9/817173/Stellungnahme-Gutachten-SG2607210020.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2607210020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210020",
+      "summary": "Der Gesetzentwurf zum Gebäudemodernisierungsgesetz (GModG) sieht Änderungen des Gbäudeenergiegesetzes (GEG) sowie weiterer energierechtlicher Vorschriften vor. Ziel ist es, den regulatorischen Rahmen für die Modernisierung von Gebäuden und den Einsatz von Heizungsanlagen anzupassen sowie Vorhaben für den Heizungstausch und den Einsatz erneuerbarer als auch fossiler Energien neu zu regeln. ",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002782",
       "org_name": "Linde GmbH",
@@ -29,7 +298,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Carbon Management Strategie (CMS) und die Novellierung des Kohlendioxidspeicherungsgesetzes (KSpG) fallen direkt unter die Zuständigkeit der Unterabteilung IIIA, insbesondere im Bereich CCS/CCU und Dekarbonisierung der Industrie.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002782",
@@ -66,7 +335,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die EU-Energiesetzgebung (RED III), die regulatorischen Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Umsetzung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002782",
@@ -103,7 +372,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die Umsetzung der EU-Erneuerbare-Energien-Richtlinie (RED III) sowie die regulatorischen Rahmenbedingungen für erneuerbaren und kohlenstoffarmen Wasserstoff, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002782",
@@ -132,7 +401,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren und kohlenstoffarmen Wasserstoff sowie die regulatorische Ausgestaltung der EU-Gasbinnenmarktrichtlinie, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002782",
@@ -161,7 +430,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren und kohlenstoffarmen Wasserstoff sowie die regulatorische Ausgestaltung der EU-Gasbinnenmarktrichtlinie, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002477",
@@ -194,7 +463,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzanschlussverfahren und die Integration von Erneuerbaren Energien sowie Speichern, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002226",
@@ -1116,6 +1385,30 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R002059",
+      "org_name": "Deutsche Forschungsgemeinschaft e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002059/83078",
+      "regulatory_project_title": "Bürokratieabbau Vergaberecht",
+      "sending_date": "2026-05-20",
+      "upload_date": "2026-07-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/71/11/816727/Stellungnahme-Gutachten-SG2607160020.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607160020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607160020",
+      "summary": "Unterstützung der geplanten Erleichterungen im Vergaberecht und einer Reduktion der Berichtspflichten. Angestrebt wird eine weitere Anhebung der Schwellenwerte und deren Vereinheitlichung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R003270",
       "org_name": "Green Legal Impact Germany e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003270/83163",
@@ -1598,6 +1891,67 @@
         }
       ],
       "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003672",
+      "org_name": "Vereinigung für Stadt-, Regional- und Landesplanung (SRL) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003672/83445",
+      "regulatory_project_title": "Stellungnahme zur Änderung des Wärmeplanungsgesetzes  mit Blick auf die Auswirkungen für Kommunen",
+      "sending_date": "2026-05-07",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/37/3f/816829/Stellungnahme-Gutachten-SG2607140005.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607140005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140005",
+      "summary": "Die Stoßrichtung der Novelle, Vereinfachung für kleine Kommunen, Rechtssicherheit bei der Datenerhebung, ist im Kern nachvollziehbar. Aus stadtplanerischer Sicht zentral problematisch ist jedoch, dass die Novelle die Wärmeplanung weniger als integrierte räumliche Strategie und als Steuerungs-, sondern stärker als Bürokratiereduzierungsinstrument denkt, denn erste grobe Schätzungen gehen von einer Aufwandsreduktion auf nur noch 20 Prozent des vormaligen Aufwands aus. Letztlich stellt sich die Frage, ob damit auch damit ambitionierte Kommunen auf ihrem Weg der regionalen Wertschöpfung und damit Stärkung der lokalen Wirtschafskraft gar gezielt ausgebremst werden, da die Datenlagen oberflächlicher und grober und somit für Wirtschaftlichkeitsberechnungen schwieriger nutzbar werden.",
+      "recipients": [
+        "BMWE",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002287",
+      "org_name": "Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002287/81742",
+      "regulatory_project_title": "Kommunale Wärmeplanung stärken, Dekarbonisierung und sozialverträgliche Preisgestaltung von leitungsgebundener Wärmeversorgung sicherstellen",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-07-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/93/9d/816785/Stellungnahme-Gutachten-SG2607140002.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2607140002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607140002",
+      "summary": "Ziel ist es, die kommunale Wärmeplanung zu stärken und verbindlicher zu gestalten, damit der Ausstieg aus fossilen Energien vor Ort gelingt. Neben der STärkung des WÄrmeplanungsgesetzes gehört dazu, die ressourcenschonende Dekarbonisierung von Wärmenetzen und die sozialverträgliche Preisgestaltung der Nah- und Fernwärme sicherzustellen",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -2736,6 +3090,31 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R002287",
+      "org_name": "Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002287/81742",
+      "regulatory_project_title": "Vereinfachung und Beschleunigung der Genehmigungsverfahren für erneuerbare Energieprojekte und nachhaltige Verkehrsinfrastruktur",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6b/cb/816779/Stellungnahme-Gutachten-SG2607080005.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607080005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080005",
+      "summary": "Der vorliegende Entwurf <b>fordert</b> eine <b>Vereinfachung und Beschleunigung</b> der Genehmigungsverfahren für Projekte im Bereich der erneuerbaren Energien sowie der nachhaltigen Verkehrsinfrastruktur. Ziel ist es, den Ausbau der notwendigen Infrastruktur für die Energiewende effizienter zu gestalten, um gesetzte Klimaziele schneller zu erreichen. Dabei wird explizit betont, dass die bestehenden <b>Umwelt-, Natur- und Klimaschutzvorgaben</b> während der Verfahrensoptimierung nicht abgeschwächt werden dürfen. Die Initiative zielt darauf ab, bürokratische Hürden abzubauen, ohne dabei den hohen Standard des ökologischen Schutzes zu gefährden. Durch diese <b>Verfahrensbeschleunigung</b> soll die Realisierungsdauer von Projekten signifikant verkürzt werden. Der Bundestag ist als Adressat aufgefordert, entsprechende gesetzliche Rahmenbedingungen für eine <b>effizientere Projektabwicklung</b> zu schaffen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die Beschleunigung von Genehmigungsverfahren für erneuerbare Energieprojekte, was direkt unter die Zuständigkeit der Unterabteilung IIIA für Erneuerbare Energien und EU-Energiepolitik fällt.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R001517",
       "org_name": "BDKO | Bundesverband der Deutschen Klein- und Obstbrenner e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R001517/82726",
@@ -2752,6 +3131,30 @@
         "BMF",
         "BMLEH",
         "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002287",
+      "org_name": "Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002287/81742",
+      "regulatory_project_title": "Sicherstellung der Letztentscheidung des Bundestags über die Finanzierung von Bundesfernstraßen",
+      "sending_date": "2026-06-18",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/54/9e/816783/Stellungnahme-Gutachten-SG2607080004.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607080004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080004",
+      "summary": "Über die Finanzierung des Erhalts und des Aus- und Neubaus von Bundesfernstraßen soll weiterhin der Bundestag entscheiden, die Zweckbindung der Lkw-Mauteinahmen für den Erhalt und Aus- und Neubau von Bundesfernstraßen soll nicht ausgeweitet werden, der Bund soll Mautgläubiger bleiben.",
+      "recipients": [
         "Bundestag"
       ],
       "fields": [
@@ -22018,7 +22421,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Änderung des Energiewirtschaftsgesetzes zur Umsetzung der EU-Gasbinnenmarktrichtlinie betrifft direkt die regulatorischen Rahmenbedingungen für erneuerbare Gase und die Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006523",
@@ -64928,5 +65331,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 729
+  "gemini_filtered_out": 741
 }
