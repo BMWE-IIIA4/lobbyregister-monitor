@@ -1,7 +1,458 @@
 {
-  "generated_at": "2026-07-22T06:22:06.251988+02:00",
+  "generated_at": "2026-07-23T06:21:09.225197+02:00",
   "newly_added": 15,
   "statements": [
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/83545",
+      "regulatory_project_title": "Novellierung des Erneuerbare-Energie-Gesetzes (EEG) 2026",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/ef/817947/Stellungnahme-Gutachten-SG2607220006.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2607220006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220006",
+      "summary": "Der Bundesverband Erneuerbare Energie e.V. <b>fordert</b> im Zuge der anstehenden EEG-Novellierung eine langfristige <b>Planungssicherheit</b> für die Branche. Er plädiert für die Etablierung eines <b>modernen Förderrahmens</b>, der den aktuellen Marktanforderungen gerecht wird. Zur Steigerung der <b>Systemeffizienz</b> wird eine verstärkte Digitalisierung sowie eine konsequente Flexibilisierung der Stromerzeugung angemahnt. Zudem betont der Verband die Notwendigkeit, die <b>Versorgungssicherheit</b> durch ein dezentrales Back-up-System zu gewährleisten. Dieses soll primär auf <b>steuerbaren Erneuerbaren Energien</b> basieren, um die Stabilität des Stromnetzes langfristig zu sichern.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des EEG 2026 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die Systemintegration, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/83545",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9b/71/817959/Stellungnahme-Gutachten-SG2607220008.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2607220008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220008",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine Anpassung des Netzanschlusspakets, um die <b>Integration erneuerbarer Energien</b> durch eine Beschleunigung und Flexibilisierung der Netzanschlüsse maßgeblich zu verbessern. Zentral ist dabei der <b>Wegfall des Redispatch-Vorbehalts</b> sowie der entschädigungsfreien Abregelung, um Investitionssicherheit für Anlagenbetreiber zu gewährleisten. Zudem wird ein <b>Recht auf Überbauung</b> von Netzverknüpfungspunkten sowie die gemeinsame Nutzung von Anschlüssen und Speichern angestrebt. Zur Optimierung der Netzauslastung sollen <b>digitale Netzdaten</b> transparent bereitgestellt und verbindliche Fristen für den Anschluss etabliert werden. Abschließend wird die Weiterentwicklung des Instruments <b>Nutzen statt Abregeln</b> als notwendige Maßnahme zur Effizienzsteigerung im Stromsystem hervorgehoben.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Netzregulierung, Redispatch und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001087",
+      "org_name": "wpd onshore GmbH & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001087/83569",
+      "regulatory_project_title": "Verstetigung der Ausbaupfade im Erneuerbare-Energien-Gesetz",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bd/53/818167/Stellungnahme-Gutachten-SG2607220024.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607220024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220024",
+      "summary": "Die vorliegende Analyse <b>fordert eine rechtzeitige Novellierung</b> des Erneuerbare-Energien-Gesetzes, um die zum Jahresende 2026 auslaufende beihilferechtliche Genehmigung zu sichern. Aufgrund der neuen <b>EU-Strommarkt-Verordnung</b> ist Deutschland verpflichtet, ab Juli 2027 für Investitionen in neue Stromerzeugungsanlagen <b>zweiseitige Differenzverträge</b> oder gleichwertige Systeme einzuführen. Diese regulatorische Anpassung ist zwingend erforderlich, um die <b>direkte Preisstützung</b> für Erneuerbare-Energien-Anlagen rechtssicher fortzuführen. Eine frühzeitige gesetzliche Umsetzung soll dabei helfen, einen <b>Fadenriss beim Ausbau</b> von Wind- und Solarenergie zu verhindern. Ziel ist es, Investitionssicherheit für Marktteilnehmer zu gewährleisten und die nationalen Ausbaupfade trotz veränderter europäischer Rahmenbedingungen zu verstetigen. Die Planung muss dabei die spezifischen Anforderungen an die <b>neuen Stromerzeugungsanlagen</b> präzise berücksichtigen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, EU-Beihilferecht für EE sowie die Umsetzung der EU-Strommarkt-Verordnung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001087",
+      "org_name": "wpd onshore GmbH & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001087/83569",
+      "regulatory_project_title": "Die Synchronisierung des Ausbaus der Übertragungs- und Verteilnetzinfrastruktur mit dem Ausbau von Wind- und Solarenergie muss Hand in Hand gehen.",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/54/27/818169/Stellungnahme-Gutachten-SG2607220025.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2607220025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220025",
+      "summary": "Die Organisation <b>fordert</b> eine <b>Synchronisierung des Netzausbaus</b> mit der Errichtung von Wind- und Solaranlagen, um den Ausbau der Erneuerbaren Energien nicht zu gefährden. Sie <b>lehnt die Ausweisung von Engpassgebieten</b> durch Verteilnetzbetreiber ab und verlangt stattdessen verbindliche Transparenz bei der Vergabe von Netzanschlüssen. Zur Beschleunigung der Netzinfrastruktur sollen <b>Sanktionen bei Zielverfehlungen</b> eingeführt werden, um die Auflösung von Engpässen sicherzustellen. Zudem wird ein <b>Einfrieren von Projektgenehmigungen</b> bei Kapazitätslimitierungen gefordert, um Investitionssicherheit für Anlagenbetreiber zu gewährleisten. Schließlich <b>lehnt</b> die Organisation die Einführung eines <b>Redispatch-Vorbehalts</b> ab, da dieser zu erheblichen Finanzierungs- und Investitionsunsicherheiten führen würde.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Synchronisierung von Netzausbau und Erneuerbaren Energien, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Erneuerbare Energien) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000999",
+      "org_name": "Robert Bosch GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000999/83542",
+      "regulatory_project_title": "Industrial Accelerator Act: Förderung der Wettbewerbsfähigkeit und Resilienz europäischer Unternehmen",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ba/40/818028/Stellungnahme-Gutachten-SG2607220013.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607220013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220013",
+      "summary": "Der Industrial Accelerator Act <b>fordert</b> die Stärkung der <b>Wettbewerbsfähigkeit und Resilienz</b> europäischer Unternehmen durch gezielte politische Maßnahmen. Dabei soll die Zukunftsfähigkeit der Industrie primär durch <b>technologieoffene Investitionen</b> in moderne <b>Dekarbonisierungstechnologien</b> sichergestellt werden. Ein zentraler Pfeiler des Vorhabens ist die Gewährleistung einer dauerhaft <b>verlässlichen und erschwinglichen Energieversorgung</b> für den industriellen Sektor. Durch diese strategische Ausrichtung soll die industrielle Basis der EU gegenüber globalen Wettbewerbern abgesichert werden. Die Initiative zielt darauf ab, den Transformationsprozess hin zur Klimaneutralität mit den wirtschaftlichen Erfordernissen der Industrie in Einklang zu bringen.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Wettbewerbsfähigkeit der EU-Industrie, die Dekarbonisierung und die Sicherung einer erschwinglichen Energieversorgung, was zentrale Aufgabenbereiche der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit) darstellt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000999",
+      "org_name": "Robert Bosch GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000999/83542",
+      "regulatory_project_title": "Industrial Accelerator Act: Förderung der Wettbewerbsfähigkeit und Resilienz europäischer Unternehmen",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/de/5c/818030/Stellungnahme-Gutachten-SG2607220014.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2607220014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220014",
+      "summary": "Der Industrial Accelerator Act <b>fordert</b> eine gezielte Stärkung der <b>Wettbewerbsfähigkeit und Resilienz</b> europäischer Unternehmen. Zur Sicherung der industriellen Zukunftsfähigkeit wird eine verstärkte <b>Förderung technologieoffener Investitionen</b> in Dekarbonisierungstechnologien verlangt. Gleichzeitig soll die <b>verlässliche und erschwingliche Energieversorgung</b> der Industrie als Standortfaktor priorisiert werden. Die Initiative zielt darauf ab, den industriellen Wandel im Kontext des europäischen Green Deals aktiv zu unterstützen. Durch diese Maßnahmen soll die Abhängigkeit von externen Faktoren reduziert und die <b>industrielle Transformation</b> beschleunigt werden. Die Forderungen richten sich an die relevanten Bundesministerien und den Bundestag, um entsprechende politische Rahmenbedingungen auf EU-Ebene zu forcieren.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Wettbewerbsfähigkeit der EU-Industrie, die Dekarbonisierung und die Sicherung einer erschwinglichen Energieversorgung, was zentrale Aufgabenbereiche der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Strommarkt) darstellt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000916",
+      "org_name": "DVGW Deutscher Verein des Gas- und Wasserfaches e.V. - Technisch-wissenschaftlicher Verein",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000916/83554",
+      "regulatory_project_title": "Der DVGW möchte im RefE des EEG 2027 dauerhaft tragfähige Rahmenbedingungen für den Hochlauf von Biomethan und Wasserstoff sichern.",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/02/21/818066/Stellungnahme-Gutachten-SG2607220017.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607220017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220017",
+      "summary": "Der <b>DVGW unterstützt</b> die im Referentenentwurf zum EEG 2027 angestrebte Ausrichtung der Energiewende auf <b>Systemdienlichkeit, Kosteneffizienz und Versorgungssicherheit</b>. Gleichzeitig warnt der Verband davor, dass die Neuregelungen die notwendige Entwicklung <b>erneuerbarer Gase</b> wie Biomethan und grünen Wasserstoff gefährden könnten. Diese Energieträger seien für die <b>Dekarbonisierung</b> der Sektoren Strom, Wärme und Industrie sowie für die Bereitstellung flexibler Kapazitäten unverzichtbar. Der DVGW <b>fordert daher Anpassungen</b> an den geplanten Förder- und Ausschreibungsinstrumenten, um den <b>Hochlauf dieser Technologien</b> abzusichern. Ziel ist es, verlässliche Investitionsbedingungen zu schaffen, die den Beitrag von Gasen zum klimaneutralen Energiesystem dauerhaft gewährleisten. Die Stellungnahme zielt darauf ab, die regulatorischen Rahmenbedingungen für eine systemdienliche Integration von Wasserstoff und Biomethan im EEG-Kontext zu optimieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Referentenentwurf zum EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die unter die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83565",
+      "regulatory_project_title": "Industrial Accelerator Act der Europäischen Union",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0b/a3/818144/Stellungnahme-Gutachten-SG2607220022.pdf",
+      "pdf_pages": 22,
+      "sg_number": "SG2607220022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220022",
+      "summary": "Der BDEW <b>unterstützt</b> die Zielsetzung des Industrial Accelerator Act zur <b>Stärkung der Resilienz</b> europäischer Wertschöpfungsketten und zur Reduktion kritischer Abhängigkeiten. Der Verband fordert eine <b>praxistaugliche Ausgestaltung</b> der geplanten Maßnahmen, um unverhältnismäßige Bürokratiebelastungen sowie Wettbewerbsnachteile für die Energiewirtschaft zu vermeiden. Insbesondere bei Vorgaben zu öffentlichen Vergaben und Förderinstrumenten warnt der BDEW vor einer Verschärfung des Vergaberechts. Zudem wird gefordert, dass <b>Resilienzvorgaben</b> und Anforderungen an CO2-arme Produkte differenziert unter Berücksichtigung bestehender Lieferketten definiert werden. Eine Ausweitung regulatorischer Anforderungen vor einer fundierten <b>Evaluation aktueller Regelungen</b> wird explizit abgelehnt.",
+      "recipients": [
+        "AA",
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act betrifft direkt die EU-Energiepolitik, den Clean Industrial Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Themen der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83565",
+      "regulatory_project_title": "Änderungsvorschläge zum EU Grids Package für Energieinfrastruktur und Netzausbau",
+      "sending_date": "2026-07-21",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5d/21/817801/Stellungnahme-Gutachten-SG2607220001.pdf",
+      "pdf_pages": 31,
+      "sg_number": "SG2607220001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220001",
+      "summary": "Der BDEW <b>fordert Anpassungen</b> am EU Grids Package, um die <b>Netzinfrastruktur</b> für Strom, Gas und Wasserstoff effizienter zu gestalten. Die Organisation verlangt <b>konsistente Genehmigungsfristen</b> sowie eine Vereinfachung von Umweltprüfungen und Ersatzneubauten. Zudem wird eine <b>Reduzierung bürokratischer Hürden</b> bei PCI- und PMI-Verfahren angemahnt, um den Netzausbau zu beschleunigen. Der BDEW betont die Notwendigkeit <b>investitionsgerechter Regelungen</b> für die Wasserstoffinfrastruktur und eine stärkere Einbindung der Netzbetreiber. Abschließend wird die Wahrung nationaler Gestaltungsspielräume sowie die Einführung einheitlicher digitaler Verfahren gefordert, um die <b>Praxistauglichkeit der Netzplanung</b> sicherzustellen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EU Grids Package betrifft direkt die EU-Energiepolitik, die Netzregulierung und den Ausbau der Energieinfrastruktur, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/83564",
+      "regulatory_project_title": "EEG-Novelle \"EEG-2027\" - Hochlauf der EE-Erzeugung nicht ausbremsen",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/7d/818119/Stellungnahme-Gutachten-SG2607220019.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607220019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220019",
+      "summary": "Die vorliegende Kurzbeschreibung <b>fordert</b> eine <b>EEG-Novelle 2027</b>, um den <b>Hochlauf der EE-Erzeugung</b> nicht zu gefährden. Ziel ist es, die regulatorischen Rahmenbedingungen für den Ausbau erneuerbarer Energien im nationalen Kontext weiterzuentwickeln. Dabei steht die Sicherstellung einer kontinuierlichen und beschleunigten Energiewende im Vordergrund. Es wird impliziert, dass drohende regulatorische Hürden im Rahmen der Novellierung abgebaut werden müssen. Die Ausgestaltung der EEG-Finanzierung und die Zielerreichung der Klimaschutzvorgaben bilden hierbei den zentralen Fokus. Eine detaillierte inhaltliche Ausarbeitung liegt aufgrund des fehlenden Volltextes derzeit nicht vor.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung und die Ausbauziele, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/83564",
+      "regulatory_project_title": "Netzanschlusspaket - Letztverbraucher integrieren, Dekarbonisierung ermöglichen",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/89/818121/Stellungnahme-Gutachten-SG2607220020.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607220020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220020",
+      "summary": "Das vorliegende Netzanschlusspaket <b>schlägt Maßnahmen zur Integration von Letztverbrauchern</b> vor, um die <b>Dekarbonisierung des Stromsystems</b> effizient zu ermöglichen. Ziel ist es, die <b>Netzanschlussbedingungen</b> für neue Anlagen und Verbraucher zu optimieren, um den Ausbau erneuerbarer Energien zu beschleunigen. Dabei stehen die <b>Beschleunigung von Genehmigungsverfahren</b> sowie die <b>Digitalisierung der Netzanschlussprozesse</b> im Vordergrund. Durch eine verbesserte <b>Netzintegration</b> sollen Engpässe vermieden und die Flexibilität der Nachfrageseite gestärkt werden. Das Paket adressiert zudem die notwendige <b>Anpassung regulatorischer Rahmenbedingungen</b>, um Investitionssicherheit für Akteure im Strommarkt zu schaffen. Die Umsetzung soll maßgeblich zur Erreichung der nationalen Klimaziele beitragen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, die Integration von Letztverbrauchern und die Dekarbonisierung, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt- und Netzregulierung) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000284",
+      "org_name": "Institut für Klimaschutz, Energie und Mobilität e.V. (IKEM)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000284/83562",
+      "regulatory_project_title": "EEG 2027",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/07/818100/Stellungnahme-Gutachten-SG2607220018.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607220018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220018",
+      "summary": "Das Bundesministerium für Wirtschaft und Klimaschutz <b>plant die Novellierung</b> des Erneuerbare-Energien-Gesetzes (EEG) für das Jahr 2027. Ziel der <b>gesetzgeberischen Anpassung</b> ist die weitere <b>Beschleunigung des Ausbaus</b> erneuerbarer Energien zur Erreichung der nationalen Klimaziele. Dabei sollen bestehende <b>Förderstrukturen optimiert</b> und an die aktuellen Anforderungen des Strommarktdesigns angepasst werden. Die Novelle adressiert zudem die <b>Integration erneuerbarer Energien</b> in das Gesamtsystem sowie die notwendige <b>Finanzierungssicherheit</b> für Investoren. Weitere Details zur inhaltlichen Ausgestaltung der EEG-Novelle 2027 liegen derzeit noch nicht vor.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des Erneuerbare-Energien-Gesetzes (EEG) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter das Themenfeld 'Erneuerbare Energien (national)'.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002101",
+      "org_name": "ZVEI e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002101/83549",
+      "regulatory_project_title": "Stärkung der dezentralen und elektrischen Wärmeversorgung ",
+      "sending_date": "2026-05-06",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/2b/817999/Stellungnahme-Gutachten-SG2607220009.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607220009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220009",
+      "summary": "Der ZVEI begrüßt das mit der Änderung des Wärmeplanungsgesetzes verfolgte Ziel, die Wärmeplanung zu vereinfachen. Im Zuge dessen setzt er sich dafür ein, fossilfreie Wärmenetze sicherzustellen sowie dezentrale, elektrische Wärmeversorgungslösungen zu erhalten und zu stärken.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R004009",
       "org_name": "AquaVentus Förderverein e.V.",
@@ -26,7 +477,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des Flächenentwicklungsplans (FEP) für Offshore-Windenergie fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder 'Erneuerbare Energien' und 'Grenzüberschreitende EE-Kooperationsprojekte/Offshore-Kooperationen'.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -69,7 +520,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Ausgestaltung von Kostenaufteilungsmechanismen bei CO2-Bepreisung und Biogas, was unter die Bereiche Energiepreise, Klimaschutz und regulatorische Rahmenbedingungen der Energiewirtschaft fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003523",
@@ -269,6 +720,32 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002211",
+      "org_name": "Frauenhauskoordinierung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002211/83494",
+      "regulatory_project_title": "Reform des Kindschaftsrechts, Modernisierung von Sorgerecht, Umgangsrecht und Adoptionsrecht, Kindschaftsrechtsmodernisierungsgesetz, KiMoG",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/5c/817897/Stellungnahme-Gutachten-SG2607210040.pdf",
+      "pdf_pages": 21,
+      "sg_number": "SG2607210040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607210040",
+      "summary": "Diskussionsentwurf des Bundesministeriums der Justiz zu einem Entwurf eines Gesetzes zur Reform des Kindschaftsrechts – Modernisierung von Sorgerecht, Umgangsrecht und Adoptionsrecht (Kindschaftsrechtsmodernisierungsgesetz – KiMoG) ",
+      "recipients": [
+        "BMJV",
+        "BMBFSFJ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
       "gemini_status": "filtered"
     },
     {
@@ -3112,7 +3589,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die Beschleunigung von Genehmigungsverfahren für erneuerbare Energieprojekte, was direkt unter die Zuständigkeit der Unterabteilung IIIA für Erneuerbare Energien und EU-Energiepolitik fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001517",
@@ -17383,6 +17860,31 @@
       "priority": 2,
       "gemini_relevanz": "Bezug zur Sektorkopplung und EU-Klimapolitik im Rahmen des Automotive Package.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000845",
+      "org_name": "Michael Succow Stiftung",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000845/80536",
+      "regulatory_project_title": "EEG. Wiedervernässung der Böden auf entwässerten Photovoltaik Standorten",
+      "sending_date": "2026-05-14",
+      "upload_date": "2026-06-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6f/ad/817770/Stellungnahme-Gutachten-SG2606250083.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2606250083",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606250083",
+      "summary": "Die MSS <b>wirbt dafür</b>, bei der Planung von <b>Moor-PV-Projekten</b> auf entwässerten Standorten die Option einer <b>zukünftigen Wiedervernässung</b> rechtlich und technisch abzusichern. Hierbei soll sichergestellt werden, dass die Errichtung der Anlagen keine dauerhaften Hindernisse für spätere ökologische Aufwertungsmaßnahmen schafft. Zur Qualitätssicherung fordert die Organisation die Einführung <b>verbindlicher Standards</b> für hydrologische und bodenkundliche Gutachten. Diese sollen bereits im Genehmigungsprozess als zwingende Voraussetzung für die Projektplanung verankert werden. Ziel ist es, den Ausbau der Solarenergie mit den Erfordernissen des <b>Klimaschutzes und Bodenschutzes</b> in Einklang zu bringen. Durch diese Vorgaben sollen Fehlentwicklungen bei der Flächennutzung vermieden und die ökologische Integrität der Standorte langfristig gewahrt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die nationale Umsetzung der Erneuerbaren Energien (EEG) und die Flächennutzung für Photovoltaik-Anlagen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002111",
@@ -65331,5 +65833,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 741
+  "gemini_filtered_out": 743
 }
