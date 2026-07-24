@@ -1,7 +1,328 @@
 {
-  "generated_at": "2026-07-23T06:21:09.225197+02:00",
-  "newly_added": 15,
+  "generated_at": "2026-07-24T06:20:49.361477+02:00",
+  "newly_added": 11,
   "statements": [
+    {
+      "register_number": "R003737",
+      "org_name": "Arbeitsgemeinschaft Wasserkraftwerke Baden-Württemberg e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003737/83591",
+      "regulatory_project_title": "Stellungnahme zum EEG 2027 zur Sicherung und Stärkung der Kleinwasserkraft",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/65/5c/818567/Stellungnahme-Gutachten-SG2607230004.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2607230004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230004",
+      "summary": "Die Stellungnahme <b>fordert</b> eine gezielte <b>Sicherung und Stärkung der Kleinwasserkraft</b> im Rahmen der anstehenden EEG-Novelle 2027. Der Verfasser argumentiert, dass kleine Wasserkraftanlagen einen essenziellen Beitrag zur <b>grundlastfähigen Stromerzeugung</b> leisten und somit die Stabilität des Energiesystems unterstützen. Es wird <b>angemahnt</b>, die spezifischen Rahmenbedingungen für diese Anlagen so anzupassen, dass ihr <b>wirtschaftlicher Weiterbetrieb</b> langfristig gesichert bleibt. Zudem wird auf die Bedeutung der <b>dezentralen Energieeinspeisung</b> für die regionale Versorgungssicherheit hingewiesen. Die Forderungen zielen darauf ab, regulatorische Hürden abzubauen und die <b>Förderbedingungen</b> für den Bestand sowie für Modernisierungsmaßnahmen zu optimieren. Abschließend wird betont, dass die Kleinwasserkraft als unverzichtbarer Baustein der Energiewende im <b>Strommarktdesign</b> angemessen berücksichtigt werden muss.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die nationale Ausgestaltung des Erneuerbare-Energien-Gesetzes (EEG), welches unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/83656",
+      "regulatory_project_title": "Synchronisierung EE- und Netzausbau",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/8a/819116/Stellungnahme-Gutachten-SG2607230039.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607230039",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230039",
+      "summary": "Die vorliegende Analyse <b>empfiehlt eine stärkere regionale Steuerung</b> beim Ausbau von Erneuerbaren Energien, um den Anforderungen eines zunehmend volatilen Energiesystems gerecht zu werden. Der Zubau soll künftig gezielt dort erfolgen, wo er den <b>höchsten systemischen Nutzen</b> entfaltet. Zur Umsetzung werden verschiedene Instrumente wie <b>gezielte Ausschreibungsdesigns</b> und ein Bonus-/Malus-System vorgeschlagen. Zudem wird der <b>Redispatch-Vorbehalt</b> als steuerndes Element angeführt, um Netzengpässe effizienter zu bewirtschaften. Ergänzend wird das Konzept der <b>Einspeisesteckdose</b> als Anreizmechanismus für eine netzdienliche Standortwahl diskutiert. Ziel ist die langfristige Synchronisierung von Erzeugungsleistung und Netzkapazitäten zur Sicherung der Systemstabilität.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die systemische Synchronisierung von Erneuerbaren Energien und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Erneuerbare Energien) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001512",
+      "org_name": "OVID Verband der ölsaatenverarbeitenden Industrie in Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001512/83615",
+      "regulatory_project_title": "EEG 2027",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f0/3b/818787/Stellungnahme-Gutachten-SG2607230018.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2607230018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230018",
+      "summary": "Die Organisation <b>kritisiert</b> die bisherige Ausrichtung des EEG auf die öffentliche Netzeinspeisung als unzureichend für die industrielle Dekarbonisierung. Sie <b>fordert eine Neuausrichtung</b> der gesetzlichen Rahmenbedingungen, da die bisherige Förderlogik nicht auf die spezifischen Anforderungen der industriellen Prozesswärme- und Stromversorgung übertragbar ist. Die Mitgliedsunternehmen fokussieren sich zunehmend auf Anlagen zur <b>industriellen Selbst- und Direktversorgung</b> anstelle von Bioenergieanlagen zur Netzeinspeisung. Zukünftige Investitionen in dekarbonisierte Energieanlagen werden konsequent auf den Eigenverbrauch ausgelegt. Eine Anpassung des EEG 2027 ist daher notwendig, um die <b>industrielle Transformation</b> effektiv zu unterstützen. Die bestehende Systematik behindert aus Sicht der Unternehmen die notwendige <b>Flexibilisierung der Energieversorgung</b> in der Industrie.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EEG 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die Eigenversorgung und die industrielle Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001512",
+      "org_name": "OVID Verband der ölsaatenverarbeitenden Industrie in Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001512/83615",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/fc/818789/Stellungnahme-Gutachten-SG2607230019.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607230019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230019",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine Anpassung des Netzanschlusspakets, um die <b>Integration erneuerbarer Energien</b> durch eine Beschleunigung und Flexibilisierung der Anschlussprozesse zu optimieren. Zentral ist dabei der <b>Wegfall des Redispatch-Vorbehalts</b> sowie der entschädigungsfreien Abregelung, um Investitionssicherheit zu gewährleisten. Zudem wird die Einführung eines <b>Rechts auf Überbauung</b> von Netzverknüpfungspunkten sowie die gemeinsame Nutzung von Anschlüssen und Speichern angestrebt. Zur Verbesserung der Planungssicherheit sollen <b>digitale Netzdaten</b> bereitgestellt und verbindliche Ausbaufristen gesetzlich verankert werden. Abschließend wird eine Weiterentwicklung des Instruments <b>Nutzen statt Abregeln</b> zur effizienteren Steuerung der Netzauslastung vorgeschlagen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung, Redispatch und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001511",
+      "org_name": "EWS Elektrizitätswerke Schönau eG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001511/83620",
+      "regulatory_project_title": "Empfehlungen zur Verbesserung der EEG-Novelle für einen besseren Ausbau Erneuerbarer Energien",
+      "sending_date": "2026-07-23",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/4e/818759/Stellungnahme-Gutachten-SG2607230017.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607230017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230017",
+      "summary": "Das Papier <b>empfiehlt eine zielgerichtete Weiterentwicklung</b> des EEG, um den Ausbau erneuerbarer Energien unter Berücksichtigung aktueller energiewirtschaftlicher Herausforderungen zu beschleunigen. Dabei stehen <b>stärkere Anreize für Flexibilitäten</b>, Speichertechnologien und innovative Geschäftsmodelle im Fokus der regulatorischen Anpassungen. Die Autoren fordern eine <b>planungssichere Ausgestaltung von CfD</b> sowie eine verbesserte Absicherung für förderfreie Vermarktungsmodelle wie PPA. Zudem wird eine <b>Standardisierung der Netzanschlüsse</b> sowie eine Optimierung der Wirtschaftlichkeit für PV-Freiflächenanlagen und Kleinanlagen angemahnt. Zur Sicherung der Systemstabilität wird explizit der <b>Erhalt der Südquote</b> sowie eine effizientere Direktvermarktung als notwendig erachtet. Ziel der Maßnahmen bleibt die Transformation hin zu einer bürgernahen Energieversorgung auf Basis von 100 % erneuerbaren Energien.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EEG-Novelle, die unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'EU-Rahmenbedingungen EE-Fördersysteme' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001381",
+      "org_name": "Landvolk Niedersachsen Landesbauernverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001381/83653",
+      "regulatory_project_title": "Änderung des EEG",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/92/3b/818629/Stellungnahme-Gutachten-SG2607230006.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607230006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230006",
+      "summary": "Der vorliegende Vorschlag <b>fordert eine Anpassung des EEG</b>, um die landwirtschaftliche Nachnutzung von Flächen nach dem <b>Rückbau von PV-Anlagen</b> rechtlich abzusichern. Es wird verlangt, dass betroffene Flächen nach Ende der Betriebslaufzeit wieder uneingeschränkt landwirtschaftlich genutzt werden können. Zudem wird eine <b>steuerliche Klarstellung für Freiflächenanlagen</b> sowie die Einführung einer <b>Rückholklausel für Biodiversitätsmaßnahmen</b> angestrebt. Ein weiterer zentraler Punkt ist der <b>Wegfall der Verpflichtung zur Ausweisung von Ausgleichsflächen</b> für Photovoltaik-Projekte. Diese Maßnahmen sollen die Akzeptanz und Effizienz beim Ausbau der Solarenergie auf landwirtschaftlichen Flächen erhöhen. Die Initiative zielt darauf ab, bürokratische Hürden bei der Flächeninanspruchnahme abzubauen.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Änderung des EEG betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, insbesondere die Flächennutzung und regulatorische Anforderungen für Photovoltaik-Anlagen, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001243",
+      "org_name": "Verband der Automobilindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001243/83596",
+      "regulatory_project_title": "Beschleunigung von Netzanschlüssen durch Anpassung des Energiewirtschaftsgesetzes",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2f/13/818546/Stellungnahme-Gutachten-SG2607230002.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607230002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230002",
+      "summary": "Das Papier <b>fordert eine Beschleunigung von Netzanschlüssen</b> durch eine gezielte Anpassung des Energiewirtschaftsgesetzes. Zur Optimierung der Prozesse sollen <b>bundesweit einheitliche, digitale Antragsverfahren</b> sowie verbindliche Bearbeitungsfristen für Netzbetreiber eingeführt werden. Im Rahmen des sogenannten Netzpakets wird eine <b>explizite Priorisierung von Ladeinfrastruktur</b> bei Netzanschlüssen verlangt. Ergänzend dazu soll für Industriebetriebe eine <b>verbindliche Anschlussgarantie</b> mit klar definierten Zeitvorgaben etabliert werden. Diese Maßnahmen zielen darauf ab, bürokratische Hürden abzubauen und die notwendige Netzanbindung für die Sektorkopplung und industrielle Transformation sicherzustellen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Strommarktregulierung, Netzoptimierung und die Infrastrukturvoraussetzungen für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007075",
+      "org_name": "CHEM Trust Europe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007075/83634",
+      "regulatory_project_title": "Strikte Beschränkung von PFAS nach Anhang XVII der REACH-Verordnung umsetzen",
+      "sending_date": "2026-06-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a7/68/818992/Stellungnahme-Gutachten-SG2607230030.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607230030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230030",
+      "summary": "Die Verwendung von PFAS-Verbindungen soll auf EU-Ebene weitestgehend beschränkt werden. Ein entsprechender Vorschlag wurde von 5 Mitgliedsstaaten vorgelegt. \r\nZiel der Interessenvertretung ist es, dass nur für absolut notwendige Verwendungen Übergangsfristen geschaffen werden und diese so bemessen sind, dass ein rascher Ausstieg aus der Verwendung von PFAS möglich wird. Vorläufig ausgenommen Verwendungen sollen regelmäßig überprüft werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R007075",
+      "org_name": "CHEM Trust Europe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007075/83634",
+      "regulatory_project_title": "Strikte Beschränkung von PFAS nach Anhang XVII der REACH-Verordnung umsetzen",
+      "sending_date": "2026-06-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/be/818994/Stellungnahme-Gutachten-SG2607230031.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607230031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230031",
+      "summary": "Die Verwendung von PFAS-Verbindungen soll auf EU-Ebene weitestgehend beschränkt werden. Ein entsprechender Vorschlag wurde von 5 Mitgliedsstaaten vorgelegt. \r\nZiel der Interessenvertretung ist es, dass nur für absolut notwendige Verwendungen Übergangsfristen geschaffen werden und diese so bemessen sind, dass ein rascher Ausstieg aus der Verwendung von PFAS möglich wird. Vorläufig ausgenommen Verwendungen sollen regelmäßig überprüft werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001888",
+      "org_name": "Centralvereinigung Deutscher Wirtschaftsverbände für Handelsvermittlung und Vertrieb (CDH) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001888/83603",
+      "regulatory_project_title": "Mutterschutz für Selbständige",
+      "sending_date": "2026-06-17",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/64/e7/818666/Stellungnahme-Gutachten-SG2607230008.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2607230008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230008",
+      "summary": "Der Mutterschutz für Selbständige soll reformiert werden, um finanzielle Benachteiligungen abzubauen und Chancengleichheit zu schaffen. Wir fordern eine Steuerfinanzierung als vorrangige Option. Alternativ sind Versicherungsmodelle denkbar, die eine flexible, bedarfsgerechte Absicherung ermöglichen. Ein Umlagesystem analog zur U2-Umlage lehnen wir ab. Zudem setzen wir uns dafür ein, Hinzuverdienstmöglichkeiten während der Mutterschutzzeit zu schaffen.\r\n\r\n",
+      "recipients": [
+        "BMAS",
+        "BMBFSFJ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000881",
+      "org_name": "VID - Verband Insolvenzverwalter und Sachwalter Deutschlands ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000881/83592",
+      "regulatory_project_title": "28. Regime",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/61/50/818537/Stellungnahme-Gutachten-SG2607230001.pdf",
+      "pdf_pages": 39,
+      "sg_number": "SG2607230001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230001",
+      "summary": "Der VID befürwortet das Konzept des 28. Regimes grundsätzlich und sieht darin eine Chance zur weiteren rechtlichen Harmonisierung innerhalb der EU.\r\nAus Sicht des VID ist es für den Erfolg des Vorhabens erforderlich, dass der europ. Gesetzgeber ein umfassendes und in allen Teilen fundiertes Regelungswerk erarbeitet; dies schließt das Insolvenzrecht ausdrücklich ein. \r\nPraxisuntaugliche oder lückenhafte Regelungen liefen dem Ziel zuwider, Anreize und Planungssicherheit für (grenzüberschreitende) Investitionen zu schaffen.\r\nSollte die Erarbeitung eines in sich geschlossenen Insolvenzregimes zum gegenwärtigen Zeitpunkt nicht möglich sein, spricht sich der VID dafür aus, die Einführung eines 28. Regimes zurückzustellen. Zumindest sollte Kap. 10 des Vorschlags vollständig gestrichen werden.\r\n",
+      "recipients": [
+        "BMJV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002168",
       "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
@@ -35,7 +356,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novellierung des EEG 2026 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die Systemintegration, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002168",
@@ -66,7 +387,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Netzregulierung, Redispatch und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001087",
@@ -92,7 +413,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, EU-Beihilferecht für EE sowie die Umsetzung der EU-Strommarkt-Verordnung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001087",
@@ -118,7 +439,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Synchronisierung von Netzausbau und Erneuerbaren Energien, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Erneuerbare Energien) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000999",
@@ -155,7 +476,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Wettbewerbsfähigkeit der EU-Industrie, die Dekarbonisierung und die Sicherung einer erschwinglichen Energieversorgung, was zentrale Aufgabenbereiche der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit) darstellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000999",
@@ -192,7 +513,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Wettbewerbsfähigkeit der EU-Industrie, die Dekarbonisierung und die Sicherung einer erschwinglichen Energieversorgung, was zentrale Aufgabenbereiche der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Strommarkt) darstellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000916",
@@ -233,7 +554,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Referentenentwurf zum EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die unter die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -272,7 +593,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act betrifft direkt die EU-Energiepolitik, den Clean Industrial Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Themen der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -328,7 +649,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EU Grids Package betrifft direkt die EU-Energiepolitik, die Netzregulierung und den Ausbau der Energieinfrastruktur, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -353,7 +674,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung und die Ausbauziele, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -382,7 +703,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, die Integration von Letztverbrauchern und die Dekarbonisierung, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt- und Netzregulierung) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000284",
@@ -415,7 +736,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novellierung des Erneuerbare-Energien-Gesetzes (EEG) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter das Themenfeld 'Erneuerbare Energien (national)'.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002101",
@@ -17884,7 +18205,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die nationale Umsetzung der Erneuerbaren Energien (EEG) und die Flächennutzung für Photovoltaik-Anlagen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002111",
@@ -65833,5 +66154,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 743
+  "gemini_filtered_out": 747
 }
