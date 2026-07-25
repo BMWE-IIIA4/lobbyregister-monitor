@@ -1,7 +1,197 @@
 {
-  "generated_at": "2026-07-24T06:20:49.361477+02:00",
-  "newly_added": 11,
+  "generated_at": "2026-07-25T06:16:48.456739+02:00",
+  "newly_added": 6,
   "statements": [
+    {
+      "register_number": "R007626",
+      "org_name": "Verbändeallianz Energieintensive Ernährungsindustrie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007626/83708",
+      "regulatory_project_title": "Kernforderungen der energieintensiven Ernährungsindustrie",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-07-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5b/0e/819744/Stellungnahme-Gutachten-SG2607240019.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607240019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607240019",
+      "summary": "Die energieintensive Ernährungsindustrie <b>fordert</b> einen <b>sachgerechten Schutz vor Carbon Leakage</b>, um ihre internationale Wettbewerbsfähigkeit im Kontext der europäischen Klimapolitik zu sichern. Die Branche betont die Notwendigkeit, die Belastungen durch steigende Energiekosten und CO2-Bepreisung durch gezielte Entlastungsmechanismen abzufedern. Dabei wird eine <b>Angleichung der Rahmenbedingungen</b> an europäische Standards angestrebt, um Standortnachteile im globalen Wettbewerb zu vermeiden. Die Industrie warnt vor einer Abwanderung energieintensiver Produktionsprozesse in Regionen mit geringeren Klimaschutzauflagen. Zudem wird eine <b>Planungssicherheit für Investitionen</b> in die Dekarbonisierung der Produktion angemahnt. Abschließend unterstreicht der Sektor die Bedeutung einer <b>bezahlbaren Energieversorgung</b> als Grundvoraussetzung für die Transformation der Ernährungsindustrie.",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema Carbon Leakage und die Wettbewerbsfähigkeit der energieintensiven Industrie sind direkt mit den Themenfeldern EU-Energiepreise, Wettbewerbsfähigkeit im EU-Binnenmarkt sowie den EU-Rahmenbedingungen für EE-Fördersysteme der Unterabteilung IIIA verknüpft.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002130",
+      "org_name": "Bayernwerk AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002130/83681",
+      "regulatory_project_title": "Synchronisierung EE- und Netzausbau ",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c7/44/819592/Stellungnahme-Gutachten-SG2607240003.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607240003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607240003",
+      "summary": "Die Autoren <b>schlagen vor</b>, den Ausbau erneuerbarer Energien stärker <b>regional auszurichten</b>, um den Anforderungen eines zunehmend elektrifizierten und volatilen Energiesystems gerecht zu werden. Dabei soll der Zubau gezielt dort erfolgen, wo er den größten <b>systemischen Nutzen</b> entfaltet. Zur Umsetzung werden <b>regionale Steuerungsinstrumente</b> innerhalb der EEG-Förderung empfohlen, um Anreize für eine netzdienliche Standortwahl zu setzen. Als konkrete Mechanismen werden ein <b>Bonus-Malus-System</b> sowie das Konzept der <b>Einspeisesteckdose</b> angeführt. Ziel ist eine effizientere Synchronisierung von Erzeugungskapazitäten und Netzinfrastruktur zur Bewältigung der Energiewende.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien, Netze) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001657",
+      "org_name": "Der Mittelstand, BVMW e.V. Bundesverband mittelständische Wirtschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001657/83700",
+      "regulatory_project_title": "Novellierung des Erneuerbare-Energien-Gesetzes (EEG 2027)",
+      "sending_date": "2026-04-01",
+      "upload_date": "2026-07-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/fb/819807/Stellungnahme-Gutachten-SG2607240027.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607240027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607240027",
+      "summary": "Die Interessenvertretung <b>fordert eine Anpassung</b> der gesetzlichen Rahmenbedingungen für den Ausbau erneuerbarer Energien im Rahmen der EEG-Novelle 2027. Ziel ist ein <b>stärkerer Gleichlauf</b> zwischen der Erzeugungskapazität, dem Netzausbau sowie der Integration von Speichern und flexiblen Verbrauchern. Die Organisation <b>schlägt Modifikationen</b> bei Ausschreibungsdesigns, der Direktvermarktung und dem Umgang mit negativen Strompreisen vor, um die Wirtschaftlichkeit zu erhöhen. Zudem wird eine <b>Entlastung von Unternehmen</b> bei der Eigenversorgung und dem Strombezug angestrebt, indem bürokratische Meldepflichten und unverhältnismäßige Abgaben reduziert werden. Die <b>Vereinfachung der Eigenstromnutzung</b> und gemeinschaftlicher Strommodelle soll die Transformation des Energiesystems beschleunigen. Abschließend wird eine <b>Optimierung der Netzanschlussprozesse</b> gefordert, um die technische Integration erneuerbarer Energien effizienter zu gestalten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die Flexibilisierung des Strommarktes, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83696",
+      "regulatory_project_title": "Änderungsvorschläge zur 12. GWB-Novelle und Beendigung der Sonderregelung des § 29 GWB",
+      "sending_date": "2026-07-23",
+      "upload_date": "2026-07-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/78/2f/819385/Stellungnahme-Gutachten-SG2607240001.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607240001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607240001",
+      "summary": "Der BDEW <b>unterstützt</b> eine <b>praxisgerechte Ausgestaltung</b> der 12. GWB-Novelle, um kartellrechtliche Verfahren effizienter zu gestalten. Der Verband <b>fordert</b> dabei explizit, von einer erneuten Verlängerung des § 29 GWB abzusehen. Ziel ist die <b>Beendigung der sektorspezifischen Missbrauchsaufsicht</b> für die Energiewirtschaft. Stattdessen plädiert der BDEW für eine <b>Rückkehr zum einheitlichen Kartellrecht</b> auf Basis der allgemeinen GWB-Vorschriften. Durch diese Anpassung soll die regulatorische Komplexität für Energieunternehmen reduziert werden. Die Digitalisierung und Beschleunigung der Verfahren stehen dabei im Fokus der Verbandsinteressen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die regulatorischen Rahmenbedingungen der Energiewirtschaft, insbesondere die sektorspezifische Missbrauchsaufsicht und die Anwendung des allgemeinen Kartellrechts, was direkt in die Zuständigkeit der Energiepolitik und Marktregulierung fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002226",
+      "org_name": "Umweltinstitut München - Verein zur Erforschung und Verminderung der Umweltbelastung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002226/83393",
+      "regulatory_project_title": "Angekündigte Abschaffung bzw. Novellierung des Gebäudeenergiegesetzes",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-07-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/98/15/819885/Stellungnahme-Gutachten-SG2607240031.pdf",
+      "pdf_pages": 30,
+      "sg_number": "SG2607240031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607240031",
+      "summary": "Im Koalitionsvertrag hat die Bundesregierung die \"Abschaffung\" des Heizungsgesetzes angekündigt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001657",
+      "org_name": "Der Mittelstand, BVMW e.V. Bundesverband mittelständische Wirtschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001657/83700",
+      "regulatory_project_title": "Gebäudemodernisierungsgesetz (GMG)",
+      "sending_date": "2026-04-01",
+      "upload_date": "2026-07-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/09/ef/819805/Stellungnahme-Gutachten-SG2607240026.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607240026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607240026",
+      "summary": "Ziel der Interessenvertretung ist die Änderung der vorgesehenen Regelungen des Gebäudemodernisierungsgesetzes für bestehende Wohn- und Nichtwohngebäude. Insbesondere sollen Anforderungen an Heizungsanlagen, energetische Sanierungen, Modernisierungsmaßnahmen, Fristen, Nachweise und Beratungsleistungen für gewerblich genutzte Gebäude praxistauglich ausgestaltet werden. Angestrebt werden differenzierte Vorgaben für Produktions-, Lager-, Werkstatt- und Bürogebäude, verlässliche Übergangsfristen sowie eine Verzahnung gesetzlicher Pflichten mit verfügbaren Förderprogrammen und den betrieblichen Investitionszyklen mittelständischer Unternehmen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003737",
       "org_name": "Arbeitsgemeinschaft Wasserkraftwerke Baden-Württemberg e. V.",
@@ -25,7 +215,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die nationale Ausgestaltung des Erneuerbare-Energien-Gesetzes (EEG), welches unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -52,7 +242,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die systemische Synchronisierung von Erneuerbaren Energien und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Erneuerbare Energien) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001512",
@@ -85,7 +275,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EEG 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die Eigenversorgung und die industrielle Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001512",
@@ -118,7 +308,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung, Redispatch und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001511",
@@ -160,7 +350,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die EEG-Novelle, die unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'EU-Rahmenbedingungen EE-Fördersysteme' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001381",
@@ -193,7 +383,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Änderung des EEG betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, insbesondere die Flächennutzung und regulatorische Anforderungen für Photovoltaik-Anlagen, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001243",
@@ -222,7 +412,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Strommarktregulierung, Netzoptimierung und die Infrastrukturvoraussetzungen für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007075",
@@ -66154,5 +66344,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 747
+  "gemini_filtered_out": 749
 }
