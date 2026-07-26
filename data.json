@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T06:16:48.456739+02:00",
-  "newly_added": 6,
+  "generated_at": "2026-07-26T06:32:10.900013+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R007626",
@@ -41,7 +41,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Carbon Leakage und die Wettbewerbsfähigkeit der energieintensiven Industrie sind direkt mit den Themenfeldern EU-Energiepreise, Wettbewerbsfähigkeit im EU-Binnenmarkt sowie den EU-Rahmenbedingungen für EE-Fördersysteme der Unterabteilung IIIA verknüpft.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002130",
@@ -68,7 +68,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien, Netze) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001657",
@@ -101,7 +101,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novellierung des EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die Flexibilisierung des Strommarktes, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -134,7 +134,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die regulatorischen Rahmenbedingungen der Energiewirtschaft, insbesondere die sektorspezifische Missbrauchsaufsicht und die Anwendung des allgemeinen Kartellrechts, was direkt in die Zuständigkeit der Energiepolitik und Marktregulierung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002226",
