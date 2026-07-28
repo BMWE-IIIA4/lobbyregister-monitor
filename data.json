@@ -1,7 +1,477 @@
 {
-  "generated_at": "2026-07-27T06:42:35.582655+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-07-28T06:15:44.736407+02:00",
+  "newly_added": 15,
   "statements": [
+    {
+      "register_number": "R003891",
+      "org_name": "Vestas Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003891/83783",
+      "regulatory_project_title": "EEG - Gesetz für den Ausbau erneuerbarer Energien",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5b/e0/820803/Stellungnahme-Gutachten-SG2607270026.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607270026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270026",
+      "summary": "Die Initiative <b>schlägt die Einführung produktionsabhängiger Differenzverträge</b> für Windenergieanlagen an Land und auf See vor, um die Investitionssicherheit zu erhöhen. Dabei sollen die <b>Präqualifikationsanforderungen europaweit harmonisiert</b> und durch qualitative Nichtpreiskriterien ergänzt werden. Ein zentrales Anliegen ist die <b>Vermeidung bürokratischer Hürden</b> bei der Umsetzung des Net Zero Industry Acts im Windenergie-auf-See-Gesetz. Durch diese Maßnahmen soll die <b>Lieferkettenflexibilität gewahrt</b> und die industrielle Resilienz gestärkt werden. Die Vorschläge zielen darauf ab, den Ausbau erneuerbarer Energien effizienter zu gestalten und die Wettbewerbsfähigkeit der Branche zu sichern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, Ausschreibungsdesigns für Windenergie sowie die Umsetzung europäischer Vorgaben (Net Zero Industry Act), welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003891",
+      "org_name": "Vestas Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003891/83783",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/28/1e/820805/Stellungnahme-Gutachten-SG2607270033.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607270033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270033",
+      "summary": "Das <b>Netzanschlusspaket</b> <b>adressiert die zunehmenden Herausforderungen</b> bei der Anbindung von Erzeugungs-, Speicher- und Verbrauchsanlagen an das Stromnetz. Aufgrund der <b>zunehmenden Elektrifizierung</b> von Wärme und Verkehr sowie der steigenden Nachfrage durch Großbatteriespeicher und Rechenzentren stößt die bestehende Netzinfrastruktur an ihre Kapazitätsgrenzen. Das Vorhaben zielt darauf ab, den <b>Anlagenzubau</b> von Erneuerbaren Energien und Großverbrauchern <b>besser auf den Netzausbau abzustimmen</b>. Durch eine stärkere <b>Synchronisierung</b> soll die Netzstabilität trotz der massiven Beanspruchung durch neue Akteure gewährleistet werden. Die Initiative setzt damit eine zentrale Vorgabe des Koalitionsvertrages um, um den Ausbau der Energiewende effizienter zu gestalten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzintegration von Erneuerbaren Energien, Speichern und Großverbrauchern, was unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Versorgungssicherheit) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003891",
+      "org_name": "Vestas Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003891/83783",
+      "regulatory_project_title": "EEG - Gesetz für den Ausbau erneuerbarer Energien 2027",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8d/67/820807/Stellungnahme-Gutachten-SG2607270030.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607270030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270030",
+      "summary": "Das BMWE <b>schlägt</b> mit dem Referentenentwurf zum EEG 2027 ein zentrales Instrument zur <b>treibhausgasneutralen Stromversorgung</b> vor. Ziel ist ein <b>planbarer und kosteneffizienter Ausbau</b> der erneuerbaren Energien, der gleichzeitig die <b>Netzverträglichkeit</b> sicherstellt. Der Entwurf verfolgt einen pragmatischen Ansatz, um wirtschaftliche Wettbewerbsfähigkeit mit Klimaschutz und sozialer Ausgewogenheit zu vereinen. Dabei soll der Ausbaupfad stetig und unter verstärktem Fokus auf <b>marktorientierte Mechanismen</b> gestaltet werden. Innovationen spielen eine entscheidende Rolle, um die Transformation des Stromsektors erfolgreich und umweltverträglich zu steuern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EEG 2027 fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design & -Regulierung'.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002833",
+      "org_name": "BVES Bundesverband Energiespeicher Systeme e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002833/83743",
+      "regulatory_project_title": "Energiespeicher für ein erneuerbares Energiesystem - Novelle EEG 2026",
+      "sending_date": "2026-07-23",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f1/c9/820283/Stellungnahme-Gutachten-SG2607270006.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607270006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270006",
+      "summary": "Die Interessenvertretung <b>fordert eine Anpassung</b> des Referentenentwurfs zur EEG-Novelle 2026, um die <b>Integration von Energiespeichern</b> als essenzielle Flexibilitätsoption im Stromsystem zu stärken. Es wird kritisiert, dass geplante Abschöpfungsmechanismen und der Wegfall von Innovationsausschreibungen den wirtschaftlichen Ausbau von <b>Co-Location-Projekten</b> gefährden könnten. Zudem wird eine <b>Verbesserung der Rahmenbedingungen</b> für die Direktvermarktung gefordert, da die Einspeisevergütung für Kleinanlagen entfallen soll. Zur Beschleunigung der Energiewende verlangt das Papier zudem <b>vereinfachte Prozesse</b> für den Anschluss und Betrieb im Verteilnetz. Ziel ist es, durch diese regulatorischen Anpassungen die Investitionssicherheit für Speichertechnologien nachhaltig zu erhöhen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die EEG-Novellierung, die Integration von Energiespeichern als Flexibilitätsoption sowie die Rahmenbedingungen für Direktvermarktung und Netzanschlussprozesse, welche unter die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002833",
+      "org_name": "BVES Bundesverband Energiespeicher Systeme e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002833/83743",
+      "regulatory_project_title": "Netzanschlusspaket 2026 für Energiespeicher",
+      "sending_date": "2026-07-23",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3b/78/820285/Stellungnahme-Gutachten-SG2607270007.pdf",
+      "pdf_pages": 29,
+      "sg_number": "SG2607270007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270007",
+      "summary": "Die Interessenvertretung <b>fordert eine Weiterentwicklung des Netzanschlusspakets</b>, um die Verfahren für Energiespeicher effizienter und rechtssicherer zu gestalten. Ziel ist es, durch <b>verbindliche Fristen und transparente Priorisierungskriterien</b> die Planungssicherheit für neue Projekte signifikant zu erhöhen. Die Initiative verlangt zudem eine <b>diskriminierungsfreie Berücksichtigung von Energiespeichern</b> sowie die Schaffung von Anreizen für netzdienliche Flexibilitäten. Bestehende Regelungen in <b>kapazitätslimitierten Netzgebieten</b> sollen so angepasst werden, dass unverhältnismäßige Einschränkungen für Erzeugungsanlagen vermieden werden. Abschließend wird eine <b>Digitalisierung der Netzanschlussverfahren</b> angestrebt, um den administrativen Aufwand zu reduzieren und die Energiewende zu beschleunigen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Flexibilisierung des Strommarktes, die Integration von Speichern und die Optimierung von Netzanschlussverfahren, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarktdesign, Netzregulierung und Erneuerbare Energien) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001894",
+      "org_name": "Vonovia SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001894/83755",
+      "regulatory_project_title": "Referentenentwurf EEG 2027/Netzpaket: Mieterstrom, Direktvermarktung u. Speicher in Mehrfamilienhäusern/Quartieren praxistauglich ausgestalten",
+      "sending_date": "2026-07-27",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/95/fb/820361/Stellungnahme-Gutachten-SG2607270013.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607270013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270013",
+      "summary": "Die Interessenvertretung <b>fordert</b> im Rahmen des EEG 2027 eine <b>praxistaugliche Ausgestaltung</b> für dezentrale Erzeugungs- und Verbrauchskonzepte in Mehrfamilienhäusern und Quartieren. Zentral ist dabei die <b>Vereinheitlichung der Übergangsfristen</b> für die Netzbetreiberabnahme sowie eine <b>Verdopplung des Mieterstromzuschlags</b> für Anlagen bis 100 kW. Zudem wird der <b>Erhalt der Marktprämie</b> für direktvermarktete Anlagen unter 25 kW angemahnt, um die Wirtschaftlichkeit kleinerer Projekte zu sichern. Die Akteure verlangen eine explizite regulatorische Berücksichtigung von Quartierslösungen im Gesetzestext. Abschließend werden <b>planbare Netzanschlussbedingungen</b> mit verbindlichen Fristen und transparenten Verfahren gefordert, um Investitionssicherheit für die Energiewende im Gebäudesektor zu gewährleisten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Novellierung und damit zentrale Instrumente der nationalen Erneuerbare-Energien-Politik sowie die regulatorischen Rahmenbedingungen für dezentrale Stromerzeugung und Netzanschluss, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83734",
+      "regulatory_project_title": "Änderungsvorschläge zur Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets",
+      "sending_date": "2026-07-23",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/98/c5/820162/Stellungnahme-Gutachten-SG2607270001.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2607270001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270001",
+      "summary": "Der BDEW <b>fordert praxisgerechte Anpassungen</b> am Entwurf zur Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets, um die regulatorischen Rahmenbedingungen für die Energiewende zu optimieren. Die Organisation mahnt insbesondere <b>rechtssichere und bürokratiearme Regelungen</b> für die zukünftige Gas- und Wasserstoffnetzplanung an. Ein zentraler Fokus liegt dabei auf der effizienten Transformation sowie der geordneten Stilllegung bestehender Gasnetze. Zudem unterstreicht der Verband die Notwendigkeit vereinfachter Prozesse bei Netzanschlüssen, der Integration von Biomethan und dem Ausbau der Wasserstoffinfrastruktur. Weitere Forderungen umfassen klare Vorgaben für Wasserstoffspeicher, eine präzise Gas- und Wasserstoffkennzeichnung sowie eine deutliche <b>Planungs- und Genehmigungsbeschleunigung</b>. Durch diese Maßnahmen soll die <b>Transformation der Gasinfrastruktur</b> beschleunigt und die Versorgungssicherheit im Rahmen des europäischen Binnenmarktes gewährleistet werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets, welches direkt in die Zuständigkeit der Unterabteilung IIIA (EU-Energiepolitik, Wasserstoffmarkt, Infrastruktur) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/83737",
+      "regulatory_project_title": "Ausschreibungsedesign Windenergie Offshore",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/56/fe/820179/Stellungnahme-Gutachten-SG2607270002.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607270002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270002",
+      "summary": "Das Dokument <b>schlägt</b> eine <b>effiziente Ausgestaltung</b> des Ausschreibungsdesigns für Windenergie auf See vor, um den Ausbau der Offshore-Kapazitäten gezielt voranzutreiben. Dabei steht die <b>Realisierung von Windenergieparks</b> im Zentrum der strategischen Überlegungen. Durch eine optimierte Gestaltung der Ausschreibungsbedingungen sollen bestehende <b>Investitionsrisiken reduziert</b> werden. Ziel ist es, die <b>Realisierungswahrscheinlichkeit</b> geplanter Projekte signifikant zu erhöhen. Die Maßnahmen zielen darauf ab, die Rahmenbedingungen für Investoren zu stabilisieren und den Ausbaupfad der Offshore-Windenergie verlässlich zu unterstützen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die grenzüberschreitenden EE-Kooperationsprojekte, Offshore-Kooperationen sowie die nationale Erneuerbare-Energien-Politik und Stromerzeugung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/83737",
+      "regulatory_project_title": "Gesetzes zur Änderung des Energiewirtschaftsrechts (2026)",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5f/dc/820181/Stellungnahme-Gutachten-SG2607270003.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607270003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270003",
+      "summary": "Der Gesetzgeber <b>schlägt vor</b>, die geplante Novellierung des Energiewirtschaftsgesetzes (EnWG) zur <b>Anpassung des Windenergie-auf-See-Gesetzes</b> (WindSeeG) zu nutzen. Durch eine gezielte Synchronisation beider Regelwerke soll die <b>Investitionssicherheit</b> für Projektbetreiber maßgeblich gestärkt werden. Ziel der Initiative ist es, die <b>Realisierungswahrscheinlichkeit</b> von Offshore-Windprojekten durch verbesserte regulatorische Rahmenbedingungen zu erhöhen. Die vorgeschlagenen Änderungen zielen darauf ab, bestehende Hemmnisse im Ausbau der Windenergie auf See abzubauen. Damit soll ein wesentlicher Beitrag zur Beschleunigung der Energiewende und zur Erreichung der nationalen Ausbauziele geleistet werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt das Energiewirtschaftsgesetz (EnWG) und das Windenergie-auf-See-Gesetz (WindSeeG), welche zentrale Instrumente der Unterabteilung IIIA zur Steuerung der Stromerzeugung und Netzanbindung darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007999",
+      "org_name": "IG Infrarot Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007999/83749",
+      "regulatory_project_title": "Technologieoffenheit praxistauglich ausgestalten, und Betriebs-, Lebenszykluskosten der Infrarotheizung, berücksichtigen.",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a3/7d/820340/Stellungnahme-Gutachten-SG2607270011.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2607270011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270011",
+      "summary": "Gleichberechtigte Bewertung von Infrarotheizungen unter Berücksichtigung von Wirtschaftlichkeit, Systemeffizienz und Verhältnismäßigkeit.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002968",
+      "org_name": "Humane World for Animals Europe (ehemals Humane Society International) ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002968/73602",
+      "regulatory_project_title": "Anpassung der EU REACH Verordnung für eine Reduzierung von Tierversuchen",
+      "sending_date": "2026-06-27",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d8/6a/820731/Stellungnahme-Gutachten-SG2607270020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607270020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270020",
+      "summary": "1) Änderungen der Anforderungen an Tierversuche unter REACH, um den Einsatz von Tieren für Tierversuche zu reduzieren.  \r\n\r\n2) Aufnahme von alternativen Verfahren und Methoden, um den Einsatz von Tieren für die Sicherheitsanforderungen für Chemikalien zu reduzieren.  ",
+      "recipients": [
+        "BKAmt",
+        "BMFTR",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002968",
+      "org_name": "Humane World for Animals Europe (ehemals Humane Society International) ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002968/73602",
+      "regulatory_project_title": "European Biotech Act",
+      "sending_date": "2026-07-27",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/c2/820733/Stellungnahme-Gutachten-SG2607270018.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2607270018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270018",
+      "summary": "Als Tierschutzorganisation wollen wir erreichen, dass der Biotech Act tierfreie Forschungsmethoden (New Approach Methodologies, NAMs) konsequent fördert und priorisiert. \r\nKonkret fordern wir:\r\n\r\n1) NAMs als Standard in Forschung, Arzneimittelentwicklung und Regulierung zu verankern.\r\n2) Mehr finanzielle Förderung für die Entwicklung, Validierung und Anwendung tierfreier Methoden.\r\n3) Schnellere regulatorische Anerkennung von NAMs, damit sie Tierversuche ersetzen können.\r\n",
+      "recipients": [
+        "AA",
+        "BKAmt",
+        "BMFTR",
+        "BMG",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000337",
+      "org_name": "Bundesverband Direktvertrieb Deutschland (BDD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000337/83780",
+      "regulatory_project_title": "Mutterschutz für Selbständige verbessern",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/33/80/820823/Stellungnahme-Gutachten-SG2607270025.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2607270025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270025",
+      "summary": "Der Mutterschutz für Selbständige soll reformiert werden, um finanzielle Benachteiligungen abzubauen und Chancengleichheit zu schaffen. Wir fordern eine Steuerfinanzierung als vorrangige Option. Alternativ sind Versicherungsmodelle denkbar, die eine flexible, bedarfsgerechte Absicherung ermöglichen. Ein Umlagesystem analog zur U2-Umlage lehnen wir ab. Zudem setzen wir uns dafür ein, Zuverdienstmöglichkeiten während der Mutterschutzzeit zu schaffen.",
+      "recipients": [
+        "BMBFSFJ",
+        "BMG",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000337",
+      "org_name": "Bundesverband Direktvertrieb Deutschland (BDD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000337/83780",
+      "regulatory_project_title": "Referentenentwurf eines Gesetzes zur Erleichterung der Feststellung des Erwerbsstatus der Selbständigkeit im Sozialversicherungsrecht",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b5/6f/820825/Stellungnahme-Gutachten-SG2607270029.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607270029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270029",
+      "summary": "Ziel der Interessenvertretung ist eine grundlegende Überarbeitung des Referentenentwurfs zur sozialversicherungsrechtlichen Statusfeststellung. § 7 SGB IV soll vorrangig an § 611a BGB ausgerichtet und das Fehlen persönlicher Weisungsgebundenheit als zentrales Abgrenzungsmerkmal verankert werden. Hilfsweise sollen die Kriterien der vorgesehenen „neuen Selbständigkeit“ praxisgerecht angepasst, das Vertretungsrecht flexibilisiert, das Vorbeschäftigungsverbot gestrichen, eine gründungsfreundliche Karenzzeit vorgesehen und das Melde- und Beitragsverfahren auf eine Eigenmeldung der Selbständigen bei der Deutschen Rentenversicherung umgestellt werden. Zudem sollen die bestehenden Statusfeststellungsverfahren rechtssicherer und schneller ausgestaltet werden.",
+      "recipients": [
+        "BMAS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000337",
+      "org_name": "Bundesverband Direktvertrieb Deutschland (BDD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000337/83780",
+      "regulatory_project_title": "Referentenentwurf eines Gesetzes zur Erleichterung der Feststellung des Erwerbsstatus der Selbständigkeit im Sozialversicherungsrecht",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-07-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5b/1e/820827/Stellungnahme-Gutachten-SG2607270034.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607270034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607270034",
+      "summary": "Ziel der Interessenvertretung ist eine grundlegende Überarbeitung des Referentenentwurfs zur sozialversicherungsrechtlichen Statusfeststellung. § 7 SGB IV soll vorrangig an § 611a BGB ausgerichtet und das Fehlen persönlicher Weisungsgebundenheit als zentrales Abgrenzungsmerkmal verankert werden. Hilfsweise sollen die Kriterien der vorgesehenen „neuen Selbständigkeit“ praxisgerecht angepasst, das Vertretungsrecht flexibilisiert, das Vorbeschäftigungsverbot gestrichen, eine gründungsfreundliche Karenzzeit vorgesehen und das Melde- und Beitragsverfahren auf eine Eigenmeldung der Selbständigen bei der Deutschen Rentenversicherung umgestellt werden. Zudem sollen die bestehenden Statusfeststellungsverfahren rechtssicherer und schneller ausgestaltet werden.",
+      "recipients": [
+        "BMAS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007626",
       "org_name": "Verbändeallianz Energieintensive Ernährungsindustrie",
@@ -66344,5 +66814,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 749
+  "gemini_filtered_out": 755
 }
