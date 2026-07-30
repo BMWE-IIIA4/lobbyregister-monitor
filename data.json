@@ -1,7 +1,152 @@
 {
-  "generated_at": "2026-07-29T06:18:17.968125+02:00",
-  "newly_added": 10,
+  "generated_at": "2026-07-30T06:11:23.717586+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R002370",
+      "org_name": "Bayerische Motoren Werke Aktiengesellschaft ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002370/83843",
+      "regulatory_project_title": "Die BMW Group setzt sich für Freihandel ein bei der politischen Diskussion um den \"Industrial Acceleration Act\" (ehenals \"local content\").",
+      "sending_date": "2026-04-17",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4d/38/822379/Stellungnahme-Gutachten-SG2607290014.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607290014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290014",
+      "summary": "Die BMW Group <b>fordert</b> im Kontext des Industrial Acceleration Acts die <b>Vermeidung protektionistischer Maßnahmen</b>, um den freien Marktzugang im Automobilsektor zu sichern. Das Unternehmen warnt vor einer rein fahrzeugbasierten Differenzierung und <b>plädiert für einen Unternehmensansatz</b>, der die Wertschöpfung ins Verhältnis zum Umsatz setzt. Jegliche Vorgaben zu Einzelfahrzeug- oder Komponentennachweisen sollen auf <b>Ausnahmefälle beschränkt</b> bleiben und inhaltlich sowie zeitlich realistisch ausgestaltet werden. Zudem betont der Konzern, dass regulatorische Anforderungen <b>keine Konflikte mit Freihandelsabkommen</b> provozieren dürfen. Die BMW Group unterstreicht damit die Notwendigkeit, die <b>Wettbewerbsfähigkeit der europäischen Industrie</b> durch offene Märkte zu stärken.",
+      "recipients": [
+        "BKAmt",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Industrial Acceleration Act (IAA) berührt als EU-Gesetzgebungsinitiative die Wettbewerbsfähigkeit der Industrie und den EU-Binnenmarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung/Wettbewerbsfähigkeit) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/83818",
+      "regulatory_project_title": "Verbesserungen der Methanemissionsverordnung",
+      "sending_date": "2026-07-27",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a9/eb/821897/Stellungnahme-Gutachten-SG2607290002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607290002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290002",
+      "summary": "Der BDEW <b>kritisiert die bestehende Verunsicherung</b> am Markt, die durch ausstehende Umsetzungsschritte der Methanemissionsverordnung für Gasimporteure entsteht. Die Organisation <b>fordert eine Beschleunigung der Prozesse</b>, um die stufenweise Verschärfung der Anforderungen an Gasimporte planbar zu gestalten. In einer geplanten Stellungnahme sollen <b>konkrete Lösungsräume ausgelotet</b> werden, um die regulatorischen Unsicherheiten für die betroffenen Unternehmen zu minimieren. Ziel ist es, die <b>Umsetzungsschritte zu präzisieren</b> und die Versorgungssicherheit im Kontext der europäischen Klimaziele zu gewährleisten. Die <b>Anforderungen an Gasimporte</b> stehen dabei im Zentrum der notwendigen regulatorischen Anpassungen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Methanemissionsverordnung betrifft die EU-Energiepolitik, die Versorgungssicherheit und die Dekarbonisierung der Energieerzeugung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005549",
+      "org_name": "Klenk & Hoursch AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005549/83877",
+      "regulatory_project_title": "Geltende Vorschriften für Einwegkunststoffe in Feuchttüchern beibehalten",
+      "sending_date": "2026-03-05",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/dd/822101/Stellungnahme-Gutachten-SG2607290004.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607290004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290004",
+      "summary": "Es wird gefordert, dass die geltenden Vorschriften für Einwegkunststoffe in Feuchttüchern nicht ausgeweitet oder verteuert werden, sondern durch eine bessere Durchsetzung und fundiertere Daten verbessert werden sollten. Es wird ein stabiles Gebühreniveau angestrebt, eine Ausweitung der Herstellerverantwortung auf die Kosten der Abwasserinfrastruktur abgelegnr und eine evidenzbasierte Politikgestaltung, eine strengere Durchsetzung bestehender Verpflichtungen sowie eine stärkere Sensibilisierung der Verbraucher für die ordnungsgemäße Entsorgung gefordert. Dabei werden weiterhin Innovationen wie kunststofffreie Feuchttücher unterstützt.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002370",
+      "org_name": "Bayerische Motoren Werke Aktiengesellschaft ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002370/83843",
+      "regulatory_project_title": "Die Bundesregierung soll bei der nationalen Gesetzgebung zur EPBD Effizienzvorgaben schlank und pragmatisch umsetzen.",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1b/b1/822375/Stellungnahme-Gutachten-SG2607290022.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607290022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290022",
+      "summary": "Die BMW Group unterstützt das Ziel der EPBD, einen emissionsfreien Gebäudebestands bis zum Jahr 2050 zu erreichen. \r\nDamit der Weg zu Net Zero gelingt, ohne Wachstum und Wohlstand zu gefährden, ist ein Abbau regulatorischer Hürden unerlässlich. Klare Definitionen, praktikable Ausnahmeregelungen, realistische Umsetzungsfristen und technologieoffene Optionen sind entscheidend, um zusätzliche Belastungen für Unternehmen zu vermeiden.Die nationale Umsetzung der EPBD muss daher in enger Partnerschaft mit der Industrie und mit maximaler Pragmatik erfolgen – nur so gelingt eine kosteneffiziente Transformation der Unternehmensstandorte und die Sicherung der Wettbewerbsfähigkeit Deutschlands. ",
+      "recipients": [
+        "BMWE",
+        "Bundestag",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002370",
+      "org_name": "Bayerische Motoren Werke Aktiengesellschaft ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002370/83843",
+      "regulatory_project_title": "Die Bundesregierung soll bei der nationalen Gesetzgebung zur EPBD Effizienzvorgaben schlank und pragmatisch umsetzen.",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a6/61/822377/Stellungnahme-Gutachten-SG2607290023.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607290023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290023",
+      "summary": "Die BMW Group unterstützt das Ziel der EPBD, einen emissionsfreien Gebäudebestands bis zum Jahr 2050 zu erreichen. \r\nDamit der Weg zu Net Zero gelingt, ohne Wachstum und Wohlstand zu gefährden, ist ein Abbau regulatorischer Hürden unerlässlich. Klare Definitionen, praktikable Ausnahmeregelungen, realistische Umsetzungsfristen und technologieoffene Optionen sind entscheidend, um zusätzliche Belastungen für Unternehmen zu vermeiden.Die nationale Umsetzung der EPBD muss daher in enger Partnerschaft mit der Industrie und mit maximaler Pragmatik erfolgen – nur so gelingt eine kosteneffiziente Transformation der Unternehmensstandorte und die Sicherung der Wettbewerbsfähigkeit Deutschlands. ",
+      "recipients": [
+        "BMWE",
+        "Bundestag",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002733",
       "org_name": "Green Planet Energy eG",
@@ -25,7 +170,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Vorschlag betrifft die Umsetzung von Energy Sharing gemäß § 42c EnWG und damit die nationale Ausgestaltung der Erneuerbare-Energien-Regulierung, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002507",
@@ -58,7 +203,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEW (Energieeffizienz in der Wirtschaft) betrifft direkt die Themenfelder Klimaschutz, Energieeffizienz und die Dekarbonisierung der Industrie, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002101",
@@ -91,7 +236,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Netztransformation, Flexibilisierung und Investitionssicherheit, welche direkt in die Zuständigkeitsbereiche Strommarktregulierung, Erneuerbare Energien und Versorgungssicherheit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002101",
@@ -116,7 +261,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Marktintegration erneuerbarer Energien, die Digitalisierung des Energiesystems sowie Flexibilitätsoptionen, welche direkt in die Zuständigkeitsbereiche der Unterabteilung IIIA (Erneuerbare Energien, Strommarktdesign) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000996",
@@ -145,7 +290,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft den Netzanschluss von Anlagen und damit direkt die Themenfelder Strommarktregulierung sowie Investitionssicherheit für Dekarbonisierungsprojekte, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000611",
@@ -178,6 +323,33 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, den Ausbau erneuerbarer Energien und die Optimierung des Strommarktdesigns, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001822",
+      "org_name": "E.DIS AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001822/83803",
+      "regulatory_project_title": "Synchronisierung EE- und Netzausbau",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/08/c0/821969/Stellungnahme-Gutachten-SG2607280002.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607280002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607280002",
+      "summary": "Die vorliegende Analyse <b>fordert eine stärkere regionale Steuerung</b> beim Ausbau der Erneuerbaren Energien, um den Anforderungen eines zunehmend volatilen Energiesystems gerecht zu werden. Ziel ist es, den Zubau gezielt dort zu forcieren, wo er den <b>höchsten systemischen Nutzen</b> für die Netzstabilität entfaltet. Zur Umsetzung werden verschiedene Instrumente wie <b>regional ausgestaltete Ausschreibungen</b> sowie ein Bonus-/Malus-System vorgeschlagen. Ergänzend wird die Einführung eines <b>Redispatch-Vorbehalts</b> oder das Konzept der sogenannten <b>Einspeisesteckdose</b> als Anreizmechanismus diskutiert. Diese Maßnahmen sollen die Synchronisierung zwischen Erzeugungskapazitäten und Netzkapazitäten verbessern. Damit adressiert das Papier zentrale Herausforderungen der <b>Netzoptimierung und Flexibilisierung</b> im Kontext der Energiewende.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die systemische Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign, Netzregulierung und Erneuerbare Energien) fällt.",
       "gemini_status": "processed"
     },
     {
@@ -856,7 +1028,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Flexibilisierung des Stromsystems und die langfristige Strategie zur Klimaneutralität, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende / Strommarktdesign) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002226",
@@ -1135,6 +1307,64 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Strommarktregulierung, Netzoptimierung und die Infrastrukturvoraussetzungen für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002957",
+      "org_name": "naturstrom AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002957/83876",
+      "regulatory_project_title": "EE-Ausbau beschleunigen",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/06/b5/821904/Stellungnahme-Gutachten-SG2607230036.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2607230036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230036",
+      "summary": "Die vorliegende Eingabe <b>fordert eine Beschleunigung des Ausbaus erneuerbarer Energien</b> durch gezielte regulatorische Anpassungen. Dabei wird die <b>Weiterführung von Differenzverträgen (CfD)</b> als zentrales Instrument zur Investitionssicherheit hervorgehoben. Gleichzeitig soll die <b>Flexibilität für Marktteilnehmer</b> durch den Erhalt von Wechselmöglichkeiten zu Power Purchase Agreements (PPA) gewahrt bleiben. Zur effizienteren Flächennutzung wird eine <b>Verbesserung der Regionalsteuerung für Windenergie</b> angeregt. Zudem wird die <b>übergangsweise Beibehaltung der Förderung für Dach-Photovoltaik</b> als notwendige Maßnahme zur Aufrechterhaltung des Ausbautempos empfohlen. Diese Maßnahmen zielen darauf ab, die Transformation des Stromsystems unter Berücksichtigung ökonomischer Anreize zu forcieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Themenfelder 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design' der Unterabteilung IIIA, insbesondere die Ausgestaltung von Förderinstrumenten und Marktmechanismen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002957",
+      "org_name": "naturstrom AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002957/83876",
+      "regulatory_project_title": "Verhinderung Redispatch-Vorbehalt",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/43/95/821906/Stellungnahme-Gutachten-SG2607230037.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607230037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230037",
+      "summary": "Die vorliegende Eingabe <b>fordert die Verhinderung des Redispatch-Vorbehalts</b>, da dieser den <b>Ausbau erneuerbarer Energien</b> erheblich behindern könnte. Statt restriktiver Vorbehalte wird die Implementierung <b>konstruktiver Steuerungsinstrumente</b> zur Netzoptimierung angeregt. Zudem wird die <b>Verbesserung des Netzausbaus</b> als notwendige Maßnahme zur Sicherung der Energiewende hervorgehoben. Ein weiterer Schwerpunkt liegt auf der <b>Digitalisierung der Netzanschlussprozesse</b>, um administrative Hürden abzubauen. Durch diese Maßnahmen soll die Effizienz im Stromnetz gesteigert und die Integration erneuerbarer Erzeugungsanlagen beschleunigt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Redispatch und den Ausbau erneuerbarer Energien.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R007075",
@@ -2203,7 +2433,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, das Fit-for-55-Paket sowie die Weiterentwicklung der EU-Energiegesetzgebung, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002226",
@@ -67096,5 +67326,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 757
+  "gemini_filtered_out": 760
 }
