@@ -1,7 +1,110 @@
 {
-  "generated_at": "2026-07-30T06:11:23.717586+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-07-31T06:28:48.202826+02:00",
+  "newly_added": 4,
   "statements": [
+    {
+      "register_number": "R002297",
+      "org_name": "EnBW Energie Baden-Württemberg AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002297/83963",
+      "regulatory_project_title": "Gesetz für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der erneuerbaren Energien im Stromsektor (EEG 2027)",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/26/822936/Stellungnahme-Gutachten-SG2607300012.pdf",
+      "pdf_pages": 28,
+      "sg_number": "SG2607300012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300012",
+      "summary": "Der Entwurf für das <b>EEG 2027</b> <b>schlägt eine Neuausrichtung</b> der Rahmenbedingungen für den Ausbau erneuerbarer Energien im Stromsektor vor. Ziel ist eine <b>planbare und kosteneffiziente Transformation</b>, die insbesondere die <b>Netzverträglichkeit</b> des Ausbaus in den Fokus rückt. Die Regelungen adressieren spezifisch die <b>Windenergie an Land</b> sowie eine Anpassung des <b>Referenzertragsmodells</b> zur Steigerung der Effizienz. Zudem sollen <b>Planungs- und Genehmigungsverfahren</b> beschleunigt werden, um die nationalen Ausbauziele fristgerecht zu erreichen. Durch eine stärkere <b>Marktorientierung</b> soll die Integration der Erneuerbaren in das Stromsystem optimiert werden. Die Vorlage dient als Grundlage für die Abstimmung zwischen den beteiligten Bundesministerien und dem Bundestag.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EEG 2027 betrifft unmittelbar die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die strategische Ausrichtung der Energiewende, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000924",
+      "org_name": "Familienbetriebe Land und Forst e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000924/83950",
+      "regulatory_project_title": "EEG-Novelle 2027",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/92/c0/822803/Stellungnahme-Gutachten-SG2607300008.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2607300008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300008",
+      "summary": "Die Familienbetriebe Land und Forst e. V. <b>lehnen</b> die im Rahmen der EEG-Novelle 2027 geplante <b>gesetzliche Begrenzung von Grundstücksentgelten</b> für Windenergieanlagen ab. Der Verband kritisiert den geplanten <b>Pachtdeckel</b> als unzulässigen Eingriff in die <b>Vertragsfreiheit</b> und das Eigentumsrecht. Es wird argumentiert, dass kein nachweisbares <b>Marktversagen</b> vorliege, welches staatliche Regulierungen in diesem Bereich legitimieren würde. Zudem werden die mit der Obergrenze verbundenen Kontroll- und Zahlungspflichten als bürokratisch und rechtlich bedenklich eingestuft. Die Organisation fordert stattdessen einen marktorientierten Ausbau der erneuerbaren Energien ohne derartige preisliche Beschränkungen. Abschließend verweist der Verband auf erhebliche <b>verfassungsrechtliche Bedenken</b> gegen die geplante gesetzliche Neuregelung.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die Finanzierung und die Ausbauplanung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002370",
+      "org_name": "Bayerische Motoren Werke Aktiengesellschaft ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002370/83944",
+      "regulatory_project_title": "Cybersicherheit von ICT-Lieferketten im Rahmen des Cybersecurity Acts 2",
+      "sending_date": "2026-06-15",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d9/fb/822738/Stellungnahme-Gutachten-SG2607300003.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607300003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300003",
+      "summary": "Im Rahmen des Cybersecurity Act II (CSA2) soll die Regulierung von IKT-Lieferketten gestärkt werden. Dabei ist sicherzustellen, dass bestehende sektorspezifische Regelwerke im Automobilbereich, insbesondere UN R155, nicht durch zusätzliche horizontale Vorgaben überlagert oder dupliziert werden. Neue Anforderungen dürfen keine Wettbewerbsnachteile schaffen. Eine zusätzliche Regulierung des Fahrzeugbereichs ist nicht erforderlich, da bereits ein umfassender Rechtsrahmen besteht. Priorität sollte die konsequente und wirksame Durchsetzung bestehender Vorschriften haben. Zudem ist klar zwischen technischen Cybersicherheitsanforderungen und geopolitischen Zielsetzungen zu unterscheiden, um Handelshemmnisse und eine Fragmentierung globaler Wertschöpfungsketten zu vermeiden.",
+      "recipients": [
+        "BMF",
+        "BMI",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002370",
       "org_name": "Bayerische Motoren Werke Aktiengesellschaft ",
@@ -26,7 +129,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Industrial Acceleration Act (IAA) berührt als EU-Gesetzgebungsinitiative die Wettbewerbsfähigkeit der Industrie und den EU-Binnenmarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung/Wettbewerbsfähigkeit) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -68,6 +171,39 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Methanemissionsverordnung betrifft die EU-Energiepolitik, die Versorgungssicherheit und die Dekarbonisierung der Energieerzeugung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R007518",
+      "org_name": "KlimaUnion gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007518/81806",
+      "regulatory_project_title": "Ausgestaltung des Netzanschlusspakets: Redispatch-Vorbehalt, Baukostenzuschüsse und Priorisierungskriterien für Netzanschlüsse",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/53/0f/823190/Stellungnahme-Gutachten-SG2607290025.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2607290025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290025",
+      "summary": "Die <b>KlimaUnion gGmbH fordert</b> eine <b>marktwirtschaftliche Ausgestaltung</b> des Netzanschlusspakets, um die Effizienz beim Ausbau erneuerbarer Energien zu steigern. Anstelle eines starren Redispatch-Vorbehalts wird die Einführung <b>bundeseinheitlich standardisierter Netzanschlussvereinbarungen</b> vorgeschlagen, um den bestehenden EEG-Anschlussanspruch zu wahren. Zur Steuerung des Netzausbaus sollen <b>standortbezogene Preissignale</b> durch Baukostenzuschüsse und dynamische Netzentgelte etabliert werden. Zudem kritisiert die Organisation den aktuellen Flickenteppich bei den Anschlussbedingungen und verlangt <b>transparente Priorisierungskriterien</b> für Netzanschlüsse. Abschließend wird der <b>Erhalt der Netzentgeltbefreiung</b> für systemdienliche Batteriespeicher als notwendige Maßnahme zur Flexibilisierung des Stromsystems hervorgehoben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzanschlussbedingungen und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "gemini_status": "processed"
     },
     {
@@ -350,7 +486,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die systemische Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign, Netzregulierung und Erneuerbare Energien) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005919",
@@ -1331,7 +1467,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die Themenfelder 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design' der Unterabteilung IIIA, insbesondere die Ausgestaltung von Förderinstrumenten und Marktmechanismen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002957",
@@ -1364,7 +1500,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Redispatch und den Ausbau erneuerbarer Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007075",
@@ -67326,5 +67462,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 760
+  "gemini_filtered_out": 761
 }
