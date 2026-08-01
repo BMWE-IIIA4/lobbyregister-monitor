@@ -1,7 +1,85 @@
 {
-  "generated_at": "2026-07-31T06:28:48.202826+02:00",
+  "generated_at": "2026-08-01T06:25:44.076714+02:00",
   "newly_added": 4,
   "statements": [
+    {
+      "register_number": "R003174",
+      "org_name": "Bundesverband fuer Tiergesundheit e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003174/83993",
+      "regulatory_project_title": "Einführung einer elektronischen Packungsbeilage für Tierarzneimittel",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/13/a6/823419/Stellungnahme-Gutachten-SG2607310006.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607310006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310006",
+      "summary": "Der BfT spricht sich dafür aus, die Einführung elektronischer Packungsbeilagen für Tierarzneimittel gesetzlich zu ermöglichen. Die EU-Tierarzneimittel-Verordnung sieht bereits vor, dass Mitgliedstaaten Packungsbeilagen für Tierarzneimittel auf Papier, elektronisch oder in beiden Formen zulassen können. Das deutsche Tierarzneimittelgesetz (TAMG) schreibt bislang jedoch weiterhin die Papierform vor.\r\nDer BfT spricht sich daher, für eine zügige Öffnung des TAMG aus. Ziel ist eine praxistaugliche, sichere und bürokratiearme Lösung, die digitale Möglichkeiten nutzt und dauerhafte Doppelstrukturen vermeidet.",
+      "recipients": [
+        "BMDS",
+        "BMG",
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001300",
+      "org_name": "VinylPlus Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001300/84005",
+      "regulatory_project_title": "Referentenentwurf des Gesetzes zur Änderung des Kreislaufwirtschaftsgesetzes ",
+      "sending_date": "2026-07-31",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/88/823408/Stellungnahme-Gutachten-SG2607310005.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607310005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310005",
+      "summary": "Ziel der Interessenvertretung ist die Mitgestaltung einzelner Regelungen des Referentenentwurfs zur Novellierung des Kreislaufwirtschaftsgesetzes. Dies betrifft insbesondere die technologieoffene Ausgestaltung der Regelungen zur Abfallhierarchie und des Recyclingbegriffs zur technologieübergreifenden Nutzung von Recyclingverfahren einschließlich einer Legaldefinition von Sekundärrohstoffen, die Ausgestaltung der Abfallvermeidungsziele mit dem Ziel der Verringerung der Umweltwirkungen über den gesamten Produktlebenszyklus sowie bürokratiearme Regelungen für Organisationen der Produktverantwortung. Ziel ist eine kohärente Ausgestaltung der gesetzlichen Regelungen im Einklang mit den Vorgaben der EU-Abfallrahmenrichtlinie.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001300",
+      "org_name": "VinylPlus Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001300/84005",
+      "regulatory_project_title": "Einstufung und Kennzeichnung von Mono- und Di-ortho-Phthalat-Estern mit C4-C6-Alkylresten",
+      "sending_date": "2026-07-31",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/21/823571/Stellungnahme-Gutachten-SG2607310014.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607310014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310014",
+      "summary": "Stellungnahme zum laufenden CLH-Verfahren der ECHA zur harmonisierten Einstufung und Kennzeichnung von Mono- und Di-ortho-Phthalat-Estern mit C4–C6-Alkylresten. Der Fokus liegt auf den wissenschaftlichen und regulatorischen Anforderungen an eine harmonisierte Einstufung nach der CLP-Verordnung. Thematisiert werden insbesondere evidenzbasierte Stoffgruppierungen, transparente Read-across-Begründungen, eindeutig abgegrenzte Stoffidentitäten sowie verhältnismäßige Kriterien für die Einstufung von Stoffen und Gemischen. Mit der Stellungnahme bringt VinylPlus Deutschland seine fachliche Bewertung in den politischen und fachlichen Dialog mit den zuständigen Bundesministerien ein, um eine wissenschaftlich fundierte und praktikable Ausgestaltung der europäischen Chemikalienregulierung zu fördern.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002297",
       "org_name": "EnBW Energie Baden-Württemberg AG",
@@ -44,7 +122,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EEG 2027 betrifft unmittelbar die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die strategische Ausrichtung der Energiewende, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000924",
@@ -77,7 +155,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die Finanzierung und die Ausbauplanung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002370",
@@ -204,7 +282,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzanschlussbedingungen und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005549",
@@ -529,6 +607,34 @@
         "BMLEH"
       ],
       "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R008148",
+      "org_name": "Unbekannte Organisation",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008148/83785",
+      "regulatory_project_title": "Nationale Reforminitiative zur Stärkung von Tierschutz, Tierwohlprävention und institutionellen Schutzsystemen",
+      "sending_date": "2026-06-14",
+      "upload_date": "2026-07-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/b5/823823/Stellungnahme-Gutachten-SG2607280031.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2607280031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607280031",
+      "summary": "Ziel des Regelungsvorhabens ist die Prüfung und Entwicklung gesetzlicher Regelungen zur Stärkung von Tierschutz, Tierwohlprävention und institutionellen Schutzsystemen. Vorgeschlagen werden insbesondere Maßnahmen zur Verbesserung der Prävention schwerer Tierquälerei, zur Einführung behördlicher Frühwarn- und Kontrollstrukturen, zur Stärkung der Transparenz in der Tiermedizin, zum Schutz von Tierhaltern und Eigentümern sowie zur Verbesserung der Zusammenarbeit zuständiger Behörden. Zudem werden Änderungen bestehender bundesrechtlicher Vorschriften und die Prüfung neuer gesetzlicher Regelungen angeregt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
         {
           "code": "FOI_EU_LAWS",
           "label": "EU-Gesetzgebung"
@@ -67462,5 +67568,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 761
+  "gemini_filtered_out": 765
 }
