@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-02T06:28:49.376054+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-08-03T06:35:44.047200+02:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R002122",
+      "org_name": "Deutsche Welthungerhilfe e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002122/83608",
+      "regulatory_project_title": "Erhöhung, zumindest Beibehaltung, des Anteils am Bundeshaushalt für Entwicklungszusammenarbeit und Humanitäre Hilfe",
+      "sending_date": "2026-06-24",
+      "upload_date": "2026-08-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bc/cb/824358/Stellungnahme-Gutachten-SG2608020009.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2608020009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608020009",
+      "summary": "Die bezweckte Einflussnahme zielt auf die Erhöhung des Anteils am Bundeshaushalt für Entwicklungszusammenarbeit und Humanitäre Hilfe. Konkret soll eine Haushalt erreicht werden, in dem mindestens 0,7 Prozent der Bruttonationaleinkommens (BNE) für Entwicklungszusammenarbeit und humanitäre Hilfe bereitgestellt wird. Von diesen mindestens 0,7 Prozent sollen 0,2 Prozent des BNE für die sogenannten am wenigsten entwickelten Länder (least developed countries, LDCs) aufgewendet werden.",
+      "recipients": [
+        "AA",
+        "BMLEH",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003174",
       "org_name": "Bundesverband fuer Tiergesundheit e.V.",
@@ -67568,5 +67595,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 765
+  "gemini_filtered_out": 766
 }
