@@ -1,7 +1,145 @@
 {
-  "generated_at": "2026-08-03T06:35:44.047200+02:00",
-  "newly_added": 1,
+  "generated_at": "2026-08-04T06:18:38.230114+02:00",
+  "newly_added": 10,
   "statements": [
+    {
+      "register_number": "R001157",
+      "org_name": "8KU GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001157/84175",
+      "regulatory_project_title": "Verlängerung und Novellierung des Kraft-Wärme-Kopplungs-Gesetzes ",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8e/6d/825214/Stellungnahme-Gutachten-SG2608030024.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608030024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030024",
+      "summary": "Die vorliegende Initiative <b>fordert die Entfristung</b> des Kraft-Wärme-Kopplungs-Gesetzes sowie die <b>Streichung beihilferechtlicher Einschränkungen</b>. Auf Basis der ausstehenden Evaluierung soll die Rolle der KWK für eine <b>klimaneutrale Strom- und Wärmeversorgung</b> mittels Wasserstoff gestärkt werden. Der Fördermechanismus für KWK-Anlagen in der allgemeinen Versorgung soll durch eine <b>Reduzierung der geförderten Jahresstunden</b> hin zu einer reinen Leistungsprämie angepasst werden. Zudem wird die <b>Schaffung einer neuen Kategorie</b> für die Umrüstung von Bestandsanlagen auf Wasserstoffbetrieb angeregt. Abschließend wird eine <b>Ausweitung der Fernwärme-Fördermaßnahmen</b> innerhalb des Gesetzesrahmens verlangt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kraftwerksstrategie und die Transformation der Stromerzeugung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Richtlinie zur Schaffung eines Ordnungsrahmens für Maßnahmen im Bereich der Wasserpolitik",
+      "sending_date": "2026-04-17",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ea/d7/824958/Stellungnahme-Gutachten-SG2608030006.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608030006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030006",
+      "summary": "Die 2000 in Kraft getretene Wasserrahmenrichtlinie zielt u.a. darauf ab, bis 2015, mit Ausnahmen spätestens 2027, einen guten ökologischen und guten chemischen Zustand für Oberflächengewässer zu erreichen. Unser Anliegen ist eine schnellstmögliche, intensivierte und ambitionierte Umsetzung auch über das Jahr 2027 hinaus. Bestrebungen, die Richtlinie abzuschwächen, wollen wir entgegentreten.",
+      "recipients": [
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Richtlinie zur Schaffung eines Ordnungsrahmens für Maßnahmen im Bereich der Wasserpolitik",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/1d/824960/Stellungnahme-Gutachten-SG2608030007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608030007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030007",
+      "summary": "Die 2000 in Kraft getretene Wasserrahmenrichtlinie zielt u.a. darauf ab, bis 2015, mit Ausnahmen spätestens 2027, einen guten ökologischen und guten chemischen Zustand für Oberflächengewässer zu erreichen. Unser Anliegen ist eine schnellstmögliche, intensivierte und ambitionierte Umsetzung auch über das Jahr 2027 hinaus. Bestrebungen, die Richtlinie abzuschwächen, wollen wir entgegentreten.",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001157",
+      "org_name": "8KU GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001157/84175",
+      "regulatory_project_title": "Fokussierung der Wärmewende auf die kosteneffiziente Transformation der Infrastrukturen",
+      "sending_date": "2026-07-16",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8e/99/825216/Stellungnahme-Gutachten-SG2608030025.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608030025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030025",
+      "summary": "Fokussieren der Novelle Sinne einer kosteneffizienten und kundenfreundlichen Wärmewende und Effizienz bei Umbau der Infrastrukturen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002122",
       "org_name": "Deutsche Welthungerhilfe e.V. ",
@@ -28,6 +166,158 @@
       ],
       "priority": 3,
       "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "EEG Novellierung",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/56/824962/Stellungnahme-Gutachten-SG2607310015.pdf",
+      "pdf_pages": 23,
+      "sg_number": "SG2607310015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310015",
+      "summary": "Die <b>EEG-Novellierung</b> <b>fordert</b> eine konsequente Fortsetzung des ambitionierten Ausbaus erneuerbarer Energien sowie eine grundlegende <b>Neuausrichtung der Förderstrukturen</b>. Ziel ist die verstärkte <b>Integration von Flexibilitäten</b> in das Stromsystem, um die Stabilität bei steigenden Anteilen volatiler Erzeugung zu gewährleisten. Gleichzeitig soll der <b>Net Zero Industry Act</b> unter Berücksichtigung von Klima- und Biodiversitätsaspekten implementiert werden. Ein weiterer Schwerpunkt liegt auf der <b>Neuregelung der Wasserkraftvergütung</b>, um den ökologischen Schutz von Fließgewässern zu verbessern. Die Maßnahmen zielen darauf ab, den regulatorischen Rahmen an die aktuellen Erfordernisse der Energiewende anzupassen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EEG-Novellierung betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die nationale Erneuerbare-Energien-Politik, die EEG-Finanzierung und die Integration von Flexibilitäten im Stromsystem.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Verschärfung des BEHG",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6f/00/824964/Stellungnahme-Gutachten-SG2607310021.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2607310021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310021",
+      "summary": "Die Initiative <b>fordert eine Verschärfung</b> des nationalen Emissionshandels, um die Klimaschutzziele effektiver zu erreichen. Dabei steht die <b>Fortführung des CO2-Preiskorridors</b> im Zentrum der politischen Debatte. Ziel ist es, die <b>Lenkungswirkung</b> des Systems langfristig zu erhalten und zu stärken. Durch die Anpassung soll die <b>Transformation des Energiesektors</b> konsequent vorangetrieben werden. Die Maßnahme zielt darauf ab, die <b>Anreize für Emissionsminderungen</b> in den betroffenen Sektoren zu erhöhen. Eine präzise Ausgestaltung des nationalen Emissionshandels soll dabei die <b>Klimaschutzwirkung</b> maximieren.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Verschärfung des Brennstoffemissionshandelsgesetzes (BEHG) betrifft direkt die nationale Klimapolitik, die CO2-Bepreisung und die Lenkungswirkung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/95/49/824966/Stellungnahme-Gutachten-SG2607310019.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607310019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310019",
+      "summary": "Der vorliegende Entwurf <b>fordert den Erhalt und die Stärkung</b> des Europäischen Emissionshandelssystems (ETS 1) als primäres Instrument für den Klimaschutz. Dabei wird das <b>Verursacherprinzip</b> durch verlässliche CO2-Preispfade als essenziell für die Stromerzeugung und die energieintensive Industrie hervorgehoben. Ein zentraler Punkt ist der geplante <b>Phase-Out der kostenlosen Zuteilung</b> von Zertifikaten, um den Anreiz zur Dekarbonisierung zu erhöhen. Zudem wird verlangt, die durch den Handel generierten <b>Erlöse gezielt in die Klimaneutralität</b> zu investieren. Abschließend wird betont, dass die Transformation der Wirtschaft durch diese Maßnahmen <b>sozial gerecht gestaltet</b> werden muss. Die Maßnahmen zielen darauf ab, die Wettbewerbsfähigkeit der betroffenen Sektoren unter den Bedingungen des EU-Klimagesetzes zu sichern.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Europäische Emissionshandelssystem (ETS 1) ist ein zentrales Instrument der EU-Klimapolitik und fällt direkt unter die Zuständigkeit der Unterabteilung IIIA für EU-Klimapolitik und Fit for 55.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Netzanschlusspaket für Flexibilität und Erneuerbare Energien nutzen",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e4/1e/824968/Stellungnahme-Gutachten-SG2607310016.pdf",
+      "pdf_pages": 17,
+      "sg_number": "SG2607310016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310016",
+      "summary": "Die Initiative <b>fordert</b> eine strategische Ausrichtung des Netzanschlusspakets, um die <b>Planungs- und Investitionssicherheit</b> für Erneuerbare Energien dauerhaft zu gewährleisten. Durch eine gezielte <b>Digitalisierung der Stromnetze</b> soll der Netzausbau beschleunigt und die notwendige Infrastruktur für eine erfolgreiche Energiewende geschaffen werden. Ein zentraler Aspekt ist die <b>Integration von Flexibilität</b> in das Stromsystem, um auf die schwankende Einspeisung erneuerbarer Quellen effizient reagieren zu können. Zudem wird die <b>Elektrifizierung</b> als wesentlicher Treiber für die Dekarbonisierung vorangetrieben. Die Maßnahmen zielen darauf ab, regulatorische Hürden abzubauen und die Systemstabilität bei gleichzeitig steigendem Anteil erneuerbarer Energien zu sichern.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Flexibilisierung, Erneuerbare Energien und Netzregulierung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Überarbeitung der Klimaleitlinien für Außenwirtschaftsförderung ",
+      "sending_date": "2026-06-16",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d8/e2/824972/Stellungnahme-Gutachten-SG2607310022.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607310022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310022",
+      "summary": "Die Verfasser <b>fordern</b> die beteiligten Ministerien dazu auf, die <b>Sektorleitlinien</b> der Außenwirtschaftsförderung konsequent an einem <b>Klimaneutralitätspfad</b> auszurichten. Ziel ist es, die Instrumente der Exportförderung mit einer zukunftsorientierten industriellen Entwicklung in Einklang zu bringen. Dabei sollen insbesondere verbleibende <b>Schlupflöcher für fossile Energieträger</b> geschlossen werden. Die Forderung zielt auf die Etablierung eines <b>transparenten und wissenschaftsbasierten Rahmens</b> ab. Durch diese Anpassung soll die deutsche Außenwirtschaftspolitik glaubwürdig auf die globalen Klimaziele verpflichtet werden.",
+      "recipients": [
+        "AA",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "BMZ"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Überarbeitung der Klimaleitlinien für die Außenwirtschaftsförderung berührt direkt die energiepolitischen Ziele der Bundesregierung, insbesondere im Hinblick auf die Dekarbonisierung und die internationale Ausrichtung der Energie- und Industriepolitik.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R003174",
@@ -105,6 +395,40 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/83715",
+      "regulatory_project_title": "Klimafreundliche, sozial gerechte BEG",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/ac/824970/Stellungnahme-Gutachten-SG2607310020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607310020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310020",
+      "summary": "Neuausrichtung der Bundesförderung effizienter Gebäude (BEG) im Sinne des Klimaschutzes, der sozialen Gerechtigkeit und Kosteneffizienz. ",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -67595,5 +67919,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 766
+  "gemini_filtered_out": 770
 }
