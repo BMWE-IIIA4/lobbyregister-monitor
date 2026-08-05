@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-08-04T06:18:38.230114+02:00",
+  "generated_at": "2026-08-05T06:16:47.481200+02:00",
   "newly_added": 10,
   "statements": [
+    {
+      "register_number": "R008065",
+      "org_name": "Eine Erde. Das ökumenische Netzwerk ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008065/84229",
+      "regulatory_project_title": "Änderung/Ergänzung Klimaschutzgesetz",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/11/825779/Stellungnahme-Gutachten-SG2608040016.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608040016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040016",
+      "summary": "Die Bundesregierung <b>schlägt</b> die <b>Einführung eines Maßnahmenprogramms</b> im Rahmen des Klimaschutzgesetzes vor, um die verbindlichen Klimaziele abzusichern. Dieses Instrument soll sicherstellen, dass bei drohenden Zielverfehlungen in einzelnen Sektoren <b>nachsteuernde Maßnahmen</b> rechtzeitig eingeleitet werden. Durch die gesetzliche Verankerung wird die <b>Verbindlichkeit der Klimaschutzvorgaben</b> gestärkt und die sektorübergreifende Planung präzisiert. Das Programm zielt darauf ab, die <b>Transformation des Energiesystems</b> durch eine engmaschige Überwachung der Treibhausgasemissionen zu beschleunigen. Damit reagiert der Entwurf auf die Notwendigkeit einer konsistenten <b>Klimaschutz-Governance</b>, die sowohl nationale als auch europäische Zielvorgaben berücksichtigt.",
+      "recipients": [
+        "AA",
+        "BKAmt",
+        "BMF",
+        "BMJV",
+        "BMI",
+        "BMAS",
+        "BMBFSFJ",
+        "BMG",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMWSB",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Klimaschutzgesetz bildet den zentralen Rahmen für die nationale Klimapolitik und die langfristigen Szenarien der Energiewende, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R001157",
       "org_name": "8KU GmbH",
@@ -46,7 +84,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kraftwerksstrategie und die Transformation der Stromerzeugung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -141,6 +179,142 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R002269",
+      "org_name": "DIE STADTENTWICKLER.BUNDESVERBAND e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002269/83645",
+      "regulatory_project_title": "Änderung Wärmeplanungsgesetz: Vereinfachung bei Erhalt der strategischen Qualität der Wärmeplanung",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/62/6e/825731/Stellungnahme-Gutachten-SG2608030016.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2608030016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030016",
+      "summary": "Änderung Wärmeplanungsgesetz: Ziel sollte Vereinfachung bei Erhalt der strategischen Qualität und Steuerungsfähigkeit der Wärmeplanung sein. D.h. Wärmepläne müssen belastbare, vergleichbare und umsetzungsorientierte Grundlagen für kommunale Entscheidungen, Investitionen privater und öffentlicher Akteure sowie für die Erreichung der Klimaneutralitätsziele liefern. Sie sollteneiine ausreichende Orientierung für Bürger, Unternehmen, Netzbetreiber, Wohnungswirtschaft und kommunale Entscheidungsträger bieten. Erforderlich sind Mindeststandards für die Wärmeplanung, klare Anforderungen an Datenqualität und Plausibilisierung, belastbare Kriterien für Prüfgebiete, eine stärkere Verknüpfung mit Stadtentwicklung und Klimaanpassung sowie verbindlichere Anforderungen an Umsetzungsmaßnahmen.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002269",
+      "org_name": "DIE STADTENTWICKLER.BUNDESVERBAND e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002269/83645",
+      "regulatory_project_title": "Gesetz über die Feststellung des Bundeshaushalts für das Haushaltsjahr 2026: Stärkung Städtebauförderung und KfW 432",
+      "sending_date": "2026-02-23",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/63/825733/Stellungnahme-Gutachten-SG2608030026.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608030026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030026",
+      "summary": "Der Verband setzt sich für die Stärkung und Mittelerhöhung der Städtebauförderung auf 1,5 Mrd. Euro zum Ende der Legislaturperiode ein. Die Städtebauförderung ist eines der zentralen und wirksamsten Förderinstrumente in der Stadtentwicklung. \r\nIn den Kommunen bestehen gewaltige Investitionsbedarfe – in\r\nder sozialen, baulichen und technischen Infrastruktur und bei der städtebaulichen Erneuerung.\r\nDer Investitionsrückstand wird auf rund 215,7 Mrd. Euro geschätzt. Diese Defizite sind das Ergebnis langjähriger Unterinvestitionen und struktureller Funktionsverluste in Teilräumen der Städte und Gemeinden. Vor dem Hintergrund aktueller kommunaler Haushaltslagen bedarf zusätzlich wirksamer Maßnahmen, um den Kommunen kurzfristig die Nutzung der erhöhten Städtebaufördermittel zu ermöglichen. ",
+      "recipients": [
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002269",
+      "org_name": "DIE STADTENTWICKLER.BUNDESVERBAND e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002269/83645",
+      "regulatory_project_title": "Gesetz über die Feststellung des Bundeshaushalts für das Haushaltsjahr 2026: Stärkung Städtebauförderung und KfW 432",
+      "sending_date": "2026-05-28",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/94/f4/825735/Stellungnahme-Gutachten-SG2608030027.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608030027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030027",
+      "summary": "Der Verband setzt sich für die Stärkung und Mittelerhöhung der Städtebauförderung auf 1,5 Mrd. Euro zum Ende der Legislaturperiode ein. Die Städtebauförderung ist eines der zentralen und wirksamsten Förderinstrumente in der Stadtentwicklung. \r\nIn den Kommunen bestehen gewaltige Investitionsbedarfe – in\r\nder sozialen, baulichen und technischen Infrastruktur und bei der städtebaulichen Erneuerung.\r\nDer Investitionsrückstand wird auf rund 215,7 Mrd. Euro geschätzt. Diese Defizite sind das Ergebnis langjähriger Unterinvestitionen und struktureller Funktionsverluste in Teilräumen der Städte und Gemeinden. Vor dem Hintergrund aktueller kommunaler Haushaltslagen bedarf zusätzlich wirksamer Maßnahmen, um den Kommunen kurzfristig die Nutzung der erhöhten Städtebaufördermittel zu ermöglichen. ",
+      "recipients": [
+        "BMF",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002269",
+      "org_name": "DIE STADTENTWICKLER.BUNDESVERBAND e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002269/83645",
+      "regulatory_project_title": "Gesetz über die Feststellung des Bundeshaushalts für das Haushaltsjahr 2026: Stärkung Städtebauförderung und KfW 432",
+      "sending_date": "2026-06-26",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c4/2a/825737/Stellungnahme-Gutachten-SG2608030031.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608030031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030031",
+      "summary": "Der Verband setzt sich für die Stärkung und Mittelerhöhung der Städtebauförderung auf 1,5 Mrd. Euro zum Ende der Legislaturperiode ein. Die Städtebauförderung ist eines der zentralen und wirksamsten Förderinstrumente in der Stadtentwicklung. \r\nIn den Kommunen bestehen gewaltige Investitionsbedarfe – in\r\nder sozialen, baulichen und technischen Infrastruktur und bei der städtebaulichen Erneuerung.\r\nDer Investitionsrückstand wird auf rund 215,7 Mrd. Euro geschätzt. Diese Defizite sind das Ergebnis langjähriger Unterinvestitionen und struktureller Funktionsverluste in Teilräumen der Städte und Gemeinden. Vor dem Hintergrund aktueller kommunaler Haushaltslagen bedarf zusätzlich wirksamer Maßnahmen, um den Kommunen kurzfristig die Nutzung der erhöhten Städtebaufördermittel zu ermöglichen. ",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002122",
       "org_name": "Deutsche Welthungerhilfe e.V. ",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002122/83608",
@@ -196,7 +370,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novellierung betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die nationale Erneuerbare-Energien-Politik, die EEG-Finanzierung und die Integration von Flexibilitäten im Stromsystem.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -228,7 +402,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Verschärfung des Brennstoffemissionshandelsgesetzes (BEHG) betrifft direkt die nationale Klimapolitik, die CO2-Bepreisung und die Lenkungswirkung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -253,7 +427,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Europäische Emissionshandelssystem (ETS 1) ist ein zentrales Instrument der EU-Klimapolitik und fällt direkt unter die Zuständigkeit der Unterabteilung IIIA für EU-Klimapolitik und Fit for 55.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -288,7 +462,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Flexibilisierung, Erneuerbare Energien und Netzregulierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -317,6 +491,114 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Überarbeitung der Klimaleitlinien für die Außenwirtschaftsförderung berührt direkt die energiepolitischen Ziele der Bundesregierung, insbesondere im Hinblick auf die Dekarbonisierung und die internationale Ausrichtung der Energie- und Industriepolitik.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R005021",
+      "org_name": "Bellona Deutschland ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005021/83431",
+      "regulatory_project_title": "Verbesserung der Klima-Governance auf EU-Ebene, v.a in (EU) 2021/1119",
+      "sending_date": "2026-05-26",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9b/67/825998/Stellungnahme-Gutachten-SG2607310030.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2607310030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310030",
+      "summary": "Die vorliegende Initiative <b>fordert eine Optimierung der Klima-Governance</b> innerhalb der Verordnung (EU) 2021/1119, um die europäische Klimapolitik zielgerichteter auszugestalten. Dabei wird die <b>Einführung separater Zielvorgaben</b> für die Emissionsreduktion sowie für den Bereich LULUCF und die permanente CO2-Entnahme angestrebt. Ein wesentlicher Fokus liegt auf der <b>Sicherstellung der Kohärenz</b> zwischen den Klimazielen für die Jahre 2035 und 2040. Durch diese strukturelle Anpassung soll die <b>Planungssicherheit für die Transformation</b> des Energiesystems erhöht werden. Die Vorschläge zielen darauf ab, die regulatorische Klarheit im Rahmen des EU-Klimagesetzes zu schärfen. Damit soll eine konsistente <b>Dekarbonisierung der Energieerzeugung</b> und der Wirtschaftssektoren langfristig abgesichert werden.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik und das EU-Klimagesetz, welche explizit unter den Themenfeldern der Unterabteilung IIIA (EU-Klimapolitik, Fit for 55) gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005021",
+      "org_name": "Bellona Deutschland ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005021/83431",
+      "regulatory_project_title": "Aktionsplan Carbon Management als strategisch-klimapolitischer Rahmen  ",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/86/c5/826000/Stellungnahme-Gutachten-SG2607310031.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2607310031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310031",
+      "summary": "Der Aktionsplan <b>Carbon Management</b> <b>fordert die Verabschiedung</b> eines strategischen Rahmens zur <b>gezielten Nutzung von CCS</b> in der Industrie. Dabei sollen insbesondere <b>unvermeidbare Prozessemissionen</b> adressiert werden, um die industrielle Dekarbonisierung voranzutreiben. Es wird eine <b>klare Kriterienentwicklung</b> verlangt, die sich strikt am Klimanutzen orientiert und regionale Besonderheiten berücksichtigt. Zudem unterstreicht das Papier die Notwendigkeit für <b>Planungssicherheit und koordinierten Infrastrukturausbau</b>. Zur Umsetzung werden <b>effektive Förderinstrumente</b> sowie eine wissenschaftlich fundierte Bedarfsplanung als essenzielle Bausteine für die aktuelle Legislaturperiode identifiziert. Abschließend wird eine realistische Abwägung der Chancen und Risiken von <b>CCU-Technologien</b> angemahnt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema Carbon Management (CCS/CCU) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder EU-Klimapolitik, Dekarbonisierung und Industriepolitik.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005021",
+      "org_name": "Bellona Deutschland ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005021/83431",
+      "regulatory_project_title": "EnEfG 2026",
+      "sending_date": "2026-04-09",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/63/b8/826006/Stellungnahme-Gutachten-SG2607310028.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607310028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310028",
+      "summary": "Die Organisation <b>unterstützt</b> die <b>Novellierung des Energieeffizienzgesetzes</b> und plädiert für den Erhalt bewährter Regelungen bei gleichzeitiger gezielter Nachschärfung. Ziel dieser Anpassungen ist es, durch eine konsequente <b>Energieeinsparung in der Industrie</b> die betrieblichen Energiekosten nachhaltig zu senken. Durch diese Maßnahmen soll die <b>Wettbewerbsfähigkeit der Industrie</b> im internationalen Vergleich gestärkt werden. Zudem wird erwartet, dass die Effizienzsteigerungen einen wesentlichen Beitrag zur <b>Versorgungssicherheit</b> leisten. Flankierend dazu soll die <b>Dekarbonisierung</b> der industriellen Prozesse durch die gesetzlichen Vorgaben beschleunigt werden. Die Initiative zielt darauf ab, den industriellen Standort durch eine effizientere Energienutzung zukunftssicher aufzustellen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Energieeffizienzgesetz (EnEfG) ist ein zentrales Instrument der Energiepolitik und steht in direktem Zusammenhang mit den Themenfeldern 'EU-Energieeffizienz', 'Dekarbonisierung' sowie 'Wettbewerbsfähigkeit im EU-Binnenmarkt', die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005021",
+      "org_name": "Bellona Deutschland ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005021/83431",
+      "regulatory_project_title": "Mit dem Sondervermögen für Infrastruktur und Klimaneutralität die industrielle Transformation beschleunigen",
+      "sending_date": "2026-02-23",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/51/826008/Stellungnahme-Gutachten-SG2607310027.pdf",
+      "pdf_pages": 38,
+      "sg_number": "SG2607310027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310027",
+      "summary": "Das Papier <b>fordert</b> die Einrichtung eines <b>Sondervermögens für Infrastruktur und Klimaneutralität</b>, um die industrielle Transformation in Deutschland gezielt zu beschleunigen. Durch eine gezielte finanzielle Unterstützung sollen <b>grüne Leitmärkte</b> etabliert werden, die langfristig die Wettbewerbsfähigkeit der Industrie sichern. Die Initiative zielt darauf ab, notwendige Investitionen in die Infrastruktur zu bündeln und so die Dekarbonisierung der Wirtschaft effizient voranzutreiben. Dabei wird betont, dass eine verlässliche Finanzierungsgrundlage essenziell für den <b>industriellen Umbau</b> ist. Das Instrument soll als Katalysator dienen, um private Investitionen in klimafreundliche Technologien zu mobilisieren und die <b>Transformation zur Klimaneutralität</b> zu beschleunigen. Damit adressiert der Vorschlag zentrale Herausforderungen der energiepolitischen Zielarchitektur.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die Finanzierung der industriellen Transformation und den Aufbau grüner Leitmärkte, was direkt mit den Themenfeldern 'Klimaschutz & Energiewende' sowie 'Clean Industrial Deal' der Unterabteilung IIIA korrespondiert.",
       "gemini_status": "processed"
     },
     {
@@ -507,6 +789,32 @@
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die Finanzierung und die Ausbauplanung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R005021",
+      "org_name": "Bellona Deutschland ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005021/83431",
+      "regulatory_project_title": "Review des EU-Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-02-18",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/e9/826002/Stellungnahme-Gutachten-SG2607300019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607300019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300019",
+      "summary": "Das Bundesministerium für Wirtschaft und Klimaschutz <b>unterstützt die Stärkung</b> der europäischen Klimaschutzarchitektur im Rahmen des laufenden ETS-1 Reviews. Dabei werden konkrete <b>Anpassungsvorschläge</b> für das Emissionshandelssystem erarbeitet, um die Effektivität der CO2-Bepreisung zu gewährleisten. Gleichzeitig definiert das Ministerium <b>rote Linien</b>, um die Wettbewerbsfähigkeit der Industrie im EU-Binnenmarkt zu sichern. Die Positionierung zielt darauf ab, den <b>Transformationspfad</b> zur Klimaneutralität unter Berücksichtigung ökonomischer Rahmenbedingungen zu stabilisieren. Durch die gezielte Ausgestaltung des ETS-1 soll ein verlässlicher <b>Investitionsanreiz</b> für dekarbonisierte Technologien geschaffen werden. Die Abstimmung mit dem Bundestag dient der parlamentarischen Absicherung dieser energiepolitischen Weichenstellungen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das EU-Emissionshandelssystem (ETS 1) ist ein zentrales Instrument der EU-Klimapolitik und direkt mit den Themenfeldern EU-Klimagesetz, Fit for 55 und Dekarbonisierung der europäischen Energieerzeugung verknüpft.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002370",
@@ -67919,5 +68227,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 770
+  "gemini_filtered_out": 774
 }
