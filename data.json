@@ -1,7 +1,540 @@
 {
-  "generated_at": "2026-08-05T06:16:47.481200+02:00",
-  "newly_added": 10,
+  "generated_at": "2026-08-06T06:19:39.891841+02:00",
+  "newly_added": 23,
   "statements": [
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "EEG",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6a/ef/826336/Stellungnahme-Gutachten-SG2608050002.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2608050002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050002",
+      "summary": "Das Bundesministerium <b>schlägt vor</b>, das EEG 2027 zur Sicherung einer <b>bezahlbaren und kosteneffizienten Energiewende</b> grundlegend weiterzuentwickeln. Ziel der geplanten Neuregelung ist eine <b>erhöhte Versorgungssicherheit</b> durch eine verbesserte Integration erneuerbarer Energien in den Strommarkt. Ein zentraler Schwerpunkt liegt dabei auf dem konsequenten <b>Abbau bürokratischer Hürden</b> für Akteure im Energiesektor. Durch effizientere Rahmenbedingungen soll die Transformation des Energiesystems beschleunigt und gleichzeitig wirtschaftlich tragfähig gestaltet werden. Die Maßnahmen zielen darauf ab, die Marktintegration der Erneuerbaren zu stärken und die Effizienz der Förderstrukturen zu optimieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EEG 2027 fällt direkt in das Themenfeld 'Erneuerbare Energien (national)' und betrifft die EEG-Finanzierung sowie die Strommarktintegration, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "StromVKG",
+      "sending_date": "2026-05-18",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/c1/826338/Stellungnahme-Gutachten-SG2608050003.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608050003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050003",
+      "summary": "Das geplante StromVKG <b>schafft einen Kapazitätsmarkt</b>, um die Versorgungssicherheit im Zuge der Energiewende langfristig zu gewährleisten. Die Bundesregierung <b>setzt dabei auf wettbewerbliche Ausschreibungen</b>, um eine kosteneffiziente Ausgestaltung des Marktdesigns sicherzustellen. Durch diesen Mechanismus soll die <b>Dekarbonisierung des Kraftwerksparks</b> gezielt vorangetrieben werden. Das Gesetz dient als zentrales Instrument, um die notwendigen Investitionsanreize für steuerbare Kapazitäten zu setzen. Gleichzeitig soll die <b>Flexibilisierung des Stromsystems</b> unterstützt werden, um die Integration fluktuierender erneuerbarer Energien zu ermöglichen. Die Maßnahme adressiert somit die strategische Neuausrichtung der deutschen Stromerzeugung hin zu einem klimaneutralen System.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das StromVKG (Stromverstromungskapazitätsgesetz) fällt direkt unter die Zuständigkeit der Unterabteilung IIIA, insbesondere in den Bereichen Strommarktdesign, Kapazitätsmechanismen und Kraftwerksstrategie.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "Netzpaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fe/55/826340/Stellungnahme-Gutachten-SG2608050004.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608050004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050004",
+      "summary": "Das vorliegende Netzpaket <b>schlägt eine Beschleunigung und Effizienzsteigerung</b> bei Netzanschlüssen für Erzeuger, Speicher und Großverbraucher vor. Ziel ist es, den bestehenden <b>Anschlussstau abzubauen</b> und die administrativen Prozesse transparenter zu gestalten. Ein wesentlicher Schwerpunkt liegt auf der <b>Synchronisierung des Ausbaus erneuerbarer Energien</b> mit der notwendigen Netzinfrastruktur. Durch diese Maßnahmen sollen <b>Netzengpässe gezielt reduziert</b> werden, um die Stabilität des Stromsystems zu erhöhen. Zudem zielt das Vorhaben darauf ab, die <b>Abregelungen von Anlagen zu minimieren</b> und die damit verbundenen <b>Redispatchkosten nachhaltig zu senken</b>. Damit leistet das Paket einen direkten Beitrag zur Optimierung des Strommarktdesigns und zur effizienten Integration erneuerbarer Energien.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzpaket adressiert zentrale Aspekte der Strommarktregulierung, Netzoptimierung und Synchronisierung von Erneuerbaren Energien mit dem Netzausbau, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "FlexBG",
+      "sending_date": "2026-07-25",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/c7/826342/Stellungnahme-Gutachten-SG2608050005.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608050005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050005",
+      "summary": "Das FlexBG <b>schlägt vor</b>, regulatorische Hürden für den <b>Bau von Kraftwerken und Speichern</b> signifikant zu reduzieren. Ziel der Maßnahme ist die <b>Beschleunigung von Genehmigungsverfahren</b> für Anlagen, die einen Zuschlag nach dem StromVKG erhalten haben. Zudem sollen spezifische Regelungen für <b>Pumpspeicher</b> implementiert werden, um deren Beitrag zur Systemstabilität zu erhöhen. Durch diese Anpassungen soll die <b>Versorgungssicherheit</b> im Zuge der Transformation des Stromsystems gestärkt werden. Die Initiative zielt darauf ab, die <b>Flexibilisierung</b> des Strommarktes durch eine schnellere Realisierung notwendiger Kapazitäten voranzutreiben.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das FlexBG betrifft direkt die Themenfelder Stromerzeugung & Kraftwerke sowie Strommarktdesign, insbesondere im Kontext der Kraftwerksstrategie und der Beschleunigung von Infrastrukturprojekten zur Versorgungssicherheit.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "BauGB",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/39/39/826344/Stellungnahme-Gutachten-SG2608050007.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608050007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050007",
+      "summary": "Der Gesetzentwurf <b>beschleunigt und digitalisiert</b> maßgeblich die Planungs- und Genehmigungsverfahren für Infrastruktur- und Energieprojekte. Durch die Novellierung soll die Raum- und Bauplanung konsequent auf die Ziele des <b>Klimaschutzes</b> sowie die <b>Versorgungssicherheit</b> ausgerichtet werden. Die Neuregelungen zielen darauf ab, die Umsetzung der Energiewende durch <b>resiliente Energiestrukturen</b> auf kommunaler Ebene zu unterstützen. Dabei werden bürokratische Hürden abgebaut, um den Ausbau notwendiger Anlagen effizienter zu gestalten. Die Anpassungen schaffen zudem die planungsrechtlichen Voraussetzungen für eine schnellere Realisierung von Projekten im Bereich der erneuerbaren Energien. Insgesamt wird die <b>Planungssicherheit</b> für Investitionen in die energetische Infrastruktur durch die gesetzliche Neuausrichtung gestärkt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das BauGB ist als zentrales Planungsinstrument für die räumliche Steuerung von Energieinfrastruktur und Erneuerbare-Energien-Anlagen direkt relevant für die Aufgaben der Unterabteilung IIIA, insbesondere im Kontext der Beschleunigung von Energieprojekten.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "Infrastrukturzukunftsgesetz",
+      "sending_date": "2026-03-27",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/18/22/826346/Stellungnahme-Gutachten-SG2608050008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608050008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050008",
+      "summary": "Das geplante Infrastrukturzukunftsgesetz <b>beschleunigt und vereinfacht</b> maßgeblich die <b>Planungs- und Genehmigungsverfahren</b> für kritische Energie- und Verkehrsinfrastruktur. Ziel der Initiative ist die zügige Umsetzung von <b>Ausbau- und Modernisierungsprojekten</b>, um die nationale <b>Versorgungssicherheit</b> langfristig zu gewährleisten. Durch die gesetzlichen Anpassungen soll zudem die <b>Wettbewerbsfähigkeit</b> des Industriestandorts gestärkt werden. Gleichzeitig bildet das Vorhaben einen zentralen Baustein für die notwendige <b>Transformation</b> hin zu einer klimaneutralen Infrastruktur. Die Maßnahmen adressieren damit direkt die Engpässe bei der Realisierung komplexer Energieprojekte.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Infrastrukturzukunftsgesetz betrifft direkt die Beschleunigung von Genehmigungsverfahren für Energieinfrastruktur, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Stromnetze, Versorgungssicherheit, Energiewende) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "AgNes",
+      "sending_date": "2026-02-27",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/63/826348/Stellungnahme-Gutachten-SG2608050009.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608050009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050009",
+      "summary": "Die AgNes-Reform <b>schlägt eine Neugestaltung</b> der Netzentgelte vor, um die <b>Kosten der Energiewende</b> gerechter auf die Verbraucher zu verteilen. Durch eine <b>flexiblere Ausgestaltung</b> der Entgelte soll eine effizientere Auslastung der Stromnetze erreicht werden. Das Vorhaben zielt darauf ab, gezielte <b>Anreize für netzdienliches Verhalten</b> bei den Akteuren zu setzen. Damit soll die <b>Systemintegration erneuerbarer Energien</b> verbessert und die Belastung der Netzinfrastruktur reduziert werden. Die Reform adressiert somit zentrale Herausforderungen der <b>Strommarktregulierung</b> und der langfristigen Finanzierung der Transformation.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Projekt AgNes betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung und die Kostenstruktur der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "AgNes",
+      "sending_date": "2026-02-27",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d3/85/826350/Stellungnahme-Gutachten-SG2608050010.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608050010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050010",
+      "summary": "Die AgNes-Reform <b>schlägt eine Neugestaltung</b> der Netzentgelte vor, um die <b>Kosten der Energiewende</b> gerechter auf die Verbraucher zu verteilen. Durch eine <b>flexiblere Ausgestaltung</b> der Entgelte soll die <b>Effizienz der Stromnetze</b> signifikant gesteigert werden. Das Vorhaben zielt darauf ab, gezielte <b>Anreize für netzdienliches Verhalten</b> bei den Akteuren zu setzen. Damit soll eine stärkere <b>Systemdienlichkeit</b> im Strommarkt erreicht werden, um den Herausforderungen der Transformation zu begegnen. Die Reform adressiert somit zentrale Aspekte der Netzregulierung und der ökonomischen Steuerung des Energiesystems.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Projekt AgNes betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung und die Kostenstruktur der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "AgNes",
+      "sending_date": "2026-03-27",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b1/76/826352/Stellungnahme-Gutachten-SG2608050011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608050011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050011",
+      "summary": "Die AgNes-Reform <b>schlägt eine Neugestaltung</b> der Netzentgelte vor, um die <b>Kosten der Energiewende</b> gerechter auf die Verbraucher zu verteilen. Durch eine <b>flexiblere Ausgestaltung</b> der Entgelte soll die <b>Effizienz der Stromnetze</b> gesteigert werden. Das Vorhaben zielt darauf ab, gezielte <b>Anreize für netzdienliches Verhalten</b> bei den Akteuren zu setzen. Damit soll eine Überlastung der Infrastruktur vermieden und die <b>Systemstabilität</b> langfristig gesichert werden. Die Reform adressiert somit zentrale Herausforderungen der aktuellen Strommarktregulierung und der Netzintegration erneuerbarer Energien.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Projekt AgNes betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung und die Kostenstruktur der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "AgNes",
+      "sending_date": "2026-03-27",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/87/826354/Stellungnahme-Gutachten-SG2608050012.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608050012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050012",
+      "summary": "Die AgNes-Reform <b>schlägt eine Neugestaltung</b> der Netzentgelte vor, um die <b>Kosten der Energiewende</b> gerechter auf die Verbraucher zu verteilen. Durch eine <b>flexiblere Ausgestaltung</b> der Entgelte soll eine effizientere Auslastung der Stromnetze erreicht werden. Das Vorhaben zielt darauf ab, gezielte <b>Anreize für netzdienliches Verhalten</b> bei den Akteuren zu setzen. Damit soll die <b>Systemintegration</b> erneuerbarer Energien verbessert und die Belastung der Netzinfrastruktur optimiert werden. Die Reform adressiert somit zentrale Herausforderungen der <b>Strommarktregulierung</b> und der langfristigen Finanzierung der Transformation.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Projekt AgNes betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung und die Kostenstruktur der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003478",
+      "org_name": "Statkraft Markets GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003478/74658",
+      "regulatory_project_title": "AgNes",
+      "sending_date": "2026-04-15",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0e/11/826356/Stellungnahme-Gutachten-SG2608050013.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2608050013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050013",
+      "summary": "Die AgNes-Reform <b>schlägt eine Neugestaltung</b> der Netzentgelte vor, um die <b>Kosten der Energiewende</b> gerechter auf die Verbraucher zu verteilen. Durch eine <b>flexiblere Ausgestaltung</b> der Entgelte soll eine effizientere Auslastung der Stromnetze erreicht werden. Das Vorhaben zielt darauf ab, gezielte <b>Anreize für netzdienliches Verhalten</b> bei den Akteuren zu setzen. Damit soll die <b>Systemintegration erneuerbarer Energien</b> verbessert und die Belastung der Netzinfrastruktur reduziert werden. Die Reform adressiert somit zentrale Herausforderungen der <b>Strommarktregulierung</b> und der langfristigen Finanzierung der Transformation.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Projekt AgNes betrifft direkt die Themenfelder Strommarktdesign, Netzregulierung und die Kostenstruktur der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002049",
+      "org_name": "Deutscher Verband Flüssiggas e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002049/84293",
+      "regulatory_project_title": "Emissionshandel, Schwerpunkt Anerkennung biogener Flüssiggase",
+      "sending_date": "2026-08-05",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/ca/826704/Stellungnahme-Gutachten-SG2608050025.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608050025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050025",
+      "summary": "Der DVFG <b>fordert strukturelle Änderungen</b> an der Nachhaltigkeitsberichterstattung, um die <b>Anerkennung biogener Flüssiggase</b> im nationalen Emissionshandel zu ermöglichen. Aktuell ist eine Anrechnung aufgrund der bestehenden Infrastruktur und rechtlicher Hürden ausgeschlossen, da <b>Herkunftsnachweise</b> derzeit nicht zum Emissionsabzug berechtigen. Der Verband kritisiert die mangelnde Kompatibilität des gegenwärtigen Rechtssystems mit den Anforderungen der Flüssiggasbranche. Als Lösungsansatz wird die Einführung einer <b>eigenen Biobrennstoff-Nachhaltigkeitsverordnung</b> vorgeschlagen. Ziel ist es, die regulatorischen Rahmenbedingungen so anzupassen, dass biogene Anteile bei der Emissionsbilanzierung korrekt berücksichtigt werden können. Damit soll die <b>Dekarbonisierung</b> durch den Einsatz erneuerbarer Gase im bestehenden System gefördert werden.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft den nationalen Emissionshandel und die regulatorischen Rahmenbedingungen für biogene Brennstoffe, was direkt unter die Themenfelder Klimaschutz, Energiepolitik und Erneuerbare Energien der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001096",
+      "org_name": "AGFW | Der Energieeffizienzverband für Wärme, Kälte und KWK e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001096/82583",
+      "regulatory_project_title": "Verbesserung mit Fernwärmebezug im Rahmen des Netzanschlusspaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a6/2b/826389/Stellungnahme-Gutachten-SG2608050014.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608050014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050014",
+      "summary": "Der vorliegende Entwurf <b>schlägt eine grundlegende Fortentwicklung</b> des Rechtsrahmens für den <b>Netzanschluss</b> von Erzeugern, Verbrauchern und Stromspeichern an die Stromnetze vor. Ziel der Initiative ist es, die regulatorischen Bedingungen für den Anschluss an die <b>Stromnetze</b> effizienter und zukunftssicher zu gestalten. Dabei sollen insbesondere die Prozesse für die Integration neuer Akteure in das Stromsystem optimiert werden. Die Maßnahme adressiert die steigenden Anforderungen an die <b>Netzinfrastruktur</b> im Kontext der Energiewende. Durch die Anpassung der rechtlichen Rahmenbedingungen soll die <b>Systemintegration</b> von Erzeugungsanlagen und Speichern beschleunigt werden. Der Entwurf zielt darauf ab, Engpässe bei der Netzanbindung abzubauen und die <b>Netzanschlusskapazitäten</b> bedarfsgerecht zu erweitern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft die Fortentwicklung des Rechtsrahmens für den Netzanschluss von Erzeugern, Verbrauchern und Stromspeichern, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung und Netzanschluss) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002215",
+      "org_name": "BREKO Bundesverband Breitbandkommunikation e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002215/81968",
+      "regulatory_project_title": "Ausgestaltung und Vorschläge für eine wettbewerbsfördernde Änderung des TKG ",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/87/ab/826526/Stellungnahme-Gutachten-SG2608050021.pdf",
+      "pdf_pages": 33,
+      "sg_number": "SG2608050021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050021",
+      "summary": "Der BREKO begrüßt und unterstützt das mit den vorgeschlagenen Eckpunkten verfolgte Ziel, den Glasfaser- und Mobilfunkausbau in Deutschland mit gesetzgeberischen Maßnahmen zu vereinfachen und beschleunigen. Gleichzeitig begrüßt der BREKO auch den mit den Eckpunkten verfolgten Weg, schon vor einem Referentenentwurf darüber zu diskutieren, welche gesetzgeberischen Maßnahmen sinnvollerweise ergriffen werden sollten. Mit Blick auf den aktuellen Stand des Glasfaserausbaus in Deutschland plädiert der BREKO dafür, die geplanten Gesetzesänderungen ausschließlich auf Maßnahmen zu beschränken, die positive Anreize für weitere Investitionen in den Netzausbau setzen, Verwaltungsverfahren vereinfachen und bestehende Bürokratie abbauen. ",
+      "recipients": [
+        "BKAmt",
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002215",
+      "org_name": "BREKO Bundesverband Breitbandkommunikation e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002215/81968",
+      "regulatory_project_title": "Ausgestaltung und Vorschläge für eine wettbewerbsfördernde Änderung des TKG ",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0a/1e/826528/Stellungnahme-Gutachten-SG2608050022.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608050022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050022",
+      "summary": "Der BREKO begrüßt und unterstützt das mit den vorgeschlagenen Eckpunkten verfolgte Ziel, den Glasfaser- und Mobilfunkausbau in Deutschland mit gesetzgeberischen Maßnahmen zu vereinfachen und beschleunigen. Gleichzeitig begrüßt der BREKO auch den mit den Eckpunkten verfolgten Weg, schon vor einem Referentenentwurf darüber zu diskutieren, welche gesetzgeberischen Maßnahmen sinnvollerweise ergriffen werden sollten. Mit Blick auf den aktuellen Stand des Glasfaserausbaus in Deutschland plädiert der BREKO dafür, die geplanten Gesetzesänderungen ausschließlich auf Maßnahmen zu beschränken, die positive Anreize für weitere Investitionen in den Netzausbau setzen, Verwaltungsverfahren vereinfachen und bestehende Bürokratie abbauen. ",
+      "recipients": [
+        "BKAmt",
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001096",
+      "org_name": "AGFW | Der Energieeffizienzverband für Wärme, Kälte und KWK e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001096/82583",
+      "regulatory_project_title": "Vertretung von Belangen der Fernwärmebranche im Bezug auf das EEG",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/12/4d/826387/Stellungnahme-Gutachten-SG2608050015.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2608050015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050015",
+      "summary": "Sicherstellung von geeigneten Rahmenbedingungen für den Einsatz von Erneuerbaren Energien in der Wärmeerzeugung",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000774",
+      "org_name": "Gesamtverband der Deutschen Versicherungswirtschaft e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000774/83965",
+      "regulatory_project_title": "Steuervereinfachungspaket zur Straffung der Einhaltung der Vorschriften und zur Steigerung der Wettbewerbsfähigkeit des Binnenmarkts",
+      "sending_date": "2026-07-29",
+      "upload_date": "2026-08-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5d/9f/826810/Stellungnahme-Gutachten-SG2608050030.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608050030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608050030",
+      "summary": "Der GDV spricht sich dafür aus, dass die Bundesregierung den Vorschlags der EU-Kommission für ein Steuervereinfachungspaket unterstützen sollte.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R008065",
       "org_name": "Eine Erde. Das ökumenische Netzwerk ",
@@ -38,6 +571,97 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Klimaschutzgesetz bildet den zentralen Rahmen für die nationale Klimapolitik und die langfristigen Szenarien der Energiewende, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/84233",
+      "regulatory_project_title": "Novellierung des Erneuerbare-Energie-Gesetzes (EEG) 2026",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/8b/826191/Stellungnahme-Gutachten-SG2608040018.pdf",
+      "pdf_pages": 102,
+      "sg_number": "SG2608040018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040018",
+      "summary": "Der Bundesverband Erneuerbare Energie e.V. <b>fordert</b> im Zuge der anstehenden EEG-Novellierung eine <b>langfristige Planungssicherheit</b> für die Branche. Zentral ist dabei die Etablierung eines <b>modernen Förderrahmens</b>, der den aktuellen Marktanforderungen gerecht wird. Zur Steigerung der <b>Systemeffizienz</b> plädiert der Verband für eine konsequente <b>Digitalisierung und Flexibilisierung</b> der Energieinfrastruktur. Zudem wird die <b>Sicherstellung der Versorgungssicherheit</b> durch den Aufbau eines dezentralen Back-up-Systems auf Basis steuerbarer erneuerbarer Energien angemahnt. Diese Maßnahmen sollen den regulatorischen Rahmen für die Energiewende zukunftssicher gestalten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des EEG 2026 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die Systemintegration, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/84233",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a9/10/826193/Stellungnahme-Gutachten-SG2608040019.pdf",
+      "pdf_pages": 32,
+      "sg_number": "SG2608040019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040019",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine Anpassung des Netzanschlusspakets, um die <b>Integration erneuerbarer Energien</b> durch beschleunigte und flexibilisierte Prozesse maßgeblich zu verbessern. Zentral ist dabei der <b>Wegfall des Redispatch-Vorbehalts</b> sowie der entschädigungsfreien Abregelung, um Investitionssicherheit für Anlagenbetreiber zu gewährleisten. Zudem wird die Einführung eines <b>Rechts auf Überbauung</b> von Netzverknüpfungspunkten sowie die gemeinsame Nutzung von Anschlüssen und Speichern angestrebt. Zur Optimierung der Netzauslastung sollen <b>digitale Netz- und Kapazitätsdaten</b> transparent bereitgestellt und verbindliche Anschlussfristen gesetzlich verankert werden. Abschließend wird eine Weiterentwicklung des Instruments <b>Nutzen statt Abregeln</b> vorgeschlagen, um die Effizienz der Stromnetze bei hoher Einspeisung zu steigern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzanschlusspaket adressiert zentrale Aspekte der Strommarktregulierung, der Integration erneuerbarer Energien und der Netzoptimierung, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/84233",
+      "regulatory_project_title": "Referentenentwurf zur Änderung des Brennstoffemissionshandelsgesetzes (BEHG)",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/cd/826195/Stellungnahme-Gutachten-SG2608040021.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2608040021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040021",
+      "summary": "Die Interessenvertretung <b>schlägt eine Anpassung</b> des Brennstoffemissionshandelsgesetzes vor, um die nationale CO2-Bepreisung für das Jahr 2027 neu auszurichten. Aufgrund der Verschiebung des EU-ETS 2 auf 2028 wird eine <b>Erweiterung des Preiskorridors</b> von bisher 55 bis 65 Euro auf 45 bis 75 Euro gefordert. Der Entwurf adressiert zudem die notwendige <b>Anpassung der Versteigerungsmechanismen</b> sowie die Regelungen zur Nachveräußerung von Emissionszertifikaten. Ein weiterer Schwerpunkt liegt auf der technischen Ausgestaltung des <b>Übergangs in den EU-ETS 2</b>, um regulatorische Lücken zu vermeiden. Zudem werden klare Vorgaben zur <b>Vermeidung von Doppelbilanzierungen</b> sowie zum Umgang mit bereits eingelagerten Brennstoffmengen verlangt. Diese Maßnahmen sollen die <b>Planungssicherheit für Unternehmen</b> während der Übergangsphase zur europäischen Klimapolitik gewährleisten.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft die nationale CO2-Bepreisung und deren Schnittstelle zum EU-Emissionshandel, was direkt in die Zuständigkeit der Energie- und Klimapolitik der Unterabteilung IIIA fällt.",
       "gemini_status": "processed"
     },
     {
@@ -315,6 +939,31 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R000952",
+      "org_name": "Deutscher Anwaltverein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000952/84147",
+      "regulatory_project_title": "DAV sieht i. d. Leitlinien zu Transparenz- u. Kennzeichnungspflichten einen hilfreichen Beitrag zur prakt. Rechtsanwendung, regt aber Ergänzungen an.",
+      "sending_date": "2026-06-08",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5d/b4/826295/Stellungnahme-Gutachten-SG2608030008.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2608030008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030008",
+      "summary": "Naturgemäß können Leitlinien nicht sämtliche Fragen abdecken, die sich aufgrund der Umsetzung in der Praxis bei realen Use Cases stellen. Mit der Stellungnahme möchte der DAV jedoch aus praktischer Sicht Ergänzung des Leitlinien-Entwurfs bei einzelnen praxisrelevanten Punkten anregen.",
+      "recipients": [
+        "BMJV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002122",
       "org_name": "Deutsche Welthungerhilfe e.V. ",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002122/83608",
@@ -517,7 +1166,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik und das EU-Klimagesetz, welche explizit unter den Themenfeldern der Unterabteilung IIIA (EU-Klimapolitik, Fit for 55) gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005021",
@@ -547,7 +1196,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Carbon Management (CCS/CCU) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder EU-Klimapolitik, Dekarbonisierung und Industriepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005021",
@@ -573,7 +1222,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Energieeffizienzgesetz (EnEfG) ist ein zentrales Instrument der Energiepolitik und steht in direktem Zusammenhang mit den Themenfeldern 'EU-Energieeffizienz', 'Dekarbonisierung' sowie 'Wettbewerbsfähigkeit im EU-Binnenmarkt', die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005021",
@@ -599,7 +1248,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die Finanzierung der industriellen Transformation und den Aufbau grüner Leitmärkte, was direkt mit den Themenfeldern 'Klimaschutz & Energiewende' sowie 'Clean Industrial Deal' der Unterabteilung IIIA korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003174",
@@ -814,7 +1463,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das EU-Emissionshandelssystem (ETS 1) ist ein zentrales Instrument der EU-Klimapolitik und direkt mit den Themenfeldern EU-Klimagesetz, Fit for 55 und Dekarbonisierung der europäischen Energieerzeugung verknüpft.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002370",
@@ -840,6 +1489,34 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R005487",
+      "org_name": "Hansgrohe SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005487/82931",
+      "regulatory_project_title": "EnEfG - Warmwassereffizienz",
+      "sending_date": "2026-04-09",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/98/826883/Stellungnahme-Gutachten-SG2607300011.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607300011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300011",
+      "summary": "Warmwassereffizienz sollte als anrechenbarer Einsparbeitrag im Rahmen der Einsparpflichten öffentlicher Einrichtungen anerkannt werden. Die Operationalisierung der Energieeffizienzpflicht im Vergaberecht sollte Sanitärtechnik und Warmwasserlösungen als relevante Kategorie einschließen.  ",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -1018,6 +1695,32 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R005487",
+      "org_name": "Hansgrohe SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005487/82931",
+      "regulatory_project_title": "GModG - Warmwasser als Energieeffizienzpotenzial im Gebäudesektor anerkennen",
+      "sending_date": "2026-05-20",
+      "upload_date": "2026-07-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/bc/826881/Stellungnahme-Gutachten-SG2607290010.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607290010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607290010",
+      "summary": "Ziel ist es den Beitrag von (warm)wassersparende Produkte zur Energieeffizienz von Gebäude zu anerkennen. Abseits der Heizungstechnologie und der energetischen Qualität der Gebäudehülle kommt der Warmwasserverbrauch in Gebäude bei Energieeffizienzmaßnahmen kaum in Betracht, obwohl 16% des Endenergieverbrauchs in Gebäuden für die Warmwassererwärmung genutzt werden. Um das Potenzial der Warmwassereffizienz auszuschöpfen ist eine Berücksichtigung des Warmwassersverbrauchs im Energiebedarfsausweis von Gebäuden notwendig und könnte für mehr Transparenz sorgen und einen Anreiz zum Warmwassersparen setzen. Darüber hinaus sollte in Zukunft auch der Verbrauch von Warmwasser in die Standards für energieeffiziente Gebäude aufgenommen werden.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -68227,5 +68930,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 774
+  "gemini_filtered_out": 781
 }
