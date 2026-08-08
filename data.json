@@ -1,7 +1,229 @@
 {
-  "generated_at": "2026-08-07T05:54:43.249125+02:00",
-  "newly_added": 12,
+  "generated_at": "2026-08-08T04:57:37.946433+02:00",
+  "newly_added": 15,
   "statements": [
+    {
+      "register_number": "R002046",
+      "org_name": "Verband Biologie, Biowissenschaften und Biomedizin in Deutschland (VBIO e. V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002046/84423",
+      "regulatory_project_title": "Gesetz zur Stärkung der Natürlichen Infrastruktur und zur Fortentwicklung der naturschutzrechtlichen Eingriffsregelung ",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f5/7a/828069/Stellungnahme-Gutachten-SG2608070012.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608070012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070012",
+      "summary": "Die Kurzbeschreibung <b>kritisiert</b> die mangelnde <b>Rechtssicherheit</b> bei Flächen, die im überragenden öffentlichen Interesse stehen, aufgrund weitreichender Ausnahmeregelungen für Infrastrukturvorhaben. Da unter anderem <b>Energie- und Wasserstoffprojekte</b> bereits als überragend eingestuft sind, entstehen Zielkonflikte mit naturschutzrechtlichen Belangen. Zudem wird vor einer <b>Lockerung des Naturraumbezugs</b> bei Kompensationsmaßnahmen gewarnt, da dies die Gefahr lokaler <b>Biodiversitätsverluste</b> birgt. Es besteht die Sorge, dass durch die räumliche Entkopplung von Ausgleichsmaßnahmen keine adäquate Kompensation vor Ort stattfindet. Die Analyse verdeutlicht die Notwendigkeit, die <b>Interessen der Energiewende</b> mit den Anforderungen des Naturschutzes in Einklang zu bringen, um Planungssicherheit für kritische Infrastrukturen zu gewährleisten.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Gesetz berührt durch die Einstufung von Energie- und Wasserstoffinfrastruktur als überragendes öffentliches Interesse direkt die energiepolitischen Ziele und die Umsetzung der Energiewende der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007165",
+      "org_name": "Unbekannte Organisation",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007165/84435",
+      "regulatory_project_title": "Rechtsstatus und parlamentarische Kontrolle des Deutschen Instituts für Menschenrechte klarstellen",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c8/e3/828268/Stellungnahme-Gutachten-SG2608070024.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608070024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070024",
+      "summary": "Das Bundesverfassungsgericht hat die Frage, ob das Deutsche Institut für Menschenrechte als staatlich mandatierte Einrichtung oder als Nichtregierungsorganisation handelt, dem Parlament überlassen. Der Antrag der Fraktion Bündnis 90/Die Grünen (BT-Drs. 21/6347) fordert, die Berichterstattungsstelle Menschenhandel des Instituts gesetzlich zu verankern und dauerhaft aus dem Bundeshaushalt zu finanzieren. Das Projekt „Was ist eine Frau\" wendet sich gegen eine Verankerung ohne vorherige Klärung des Rechtsstatus und setzt sich für eine gesetzliche Klarstellung sowie eine wirksame parlamentarische Kontrolle ein. Nach den Recherchen der Initiative „Geschlecht zählt\" legt das Institut CEDAW und die Istanbul-Konvention transgenderideologisch aus.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_POLITICAL_PARTIES",
+          "label": "Politisches Leben, Parteien"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Sicherung der Rolle von Holzwärme im Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-08-03",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/09/4f/828299/Stellungnahme-Gutachten-SG2608070013.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608070013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070013",
+      "summary": "Der DEPV setzt sich in Bezug auf das GModG für folgende Anpassungen ein: Die Streichung des Bezugs zur Biomassestrom-Nachhaltigkeits-Verordnung und den damit verbundenen Bürokratiefaktor. Sowie den Ausschluss der Installation luftführender Pelletkaminöfen zu streichen und Holzheizungsanlagen bei der Anrechnung auf die Bio-Treppe gleichzubehandeln. Der Primärenergiefaktor für Holz soll so niedrig bleiben, wie es das EU-Recht erlaubt. Zudem sollen Öl- und Gasheizungen, die seit dem 01.01.2024 und vor Inkrafttreten des GModG in Bestandsgebäude eingebaut wurden und bereits der Biotreppe unterliegen, in § 43 Abs. 1 GModG einbezogen werden. Das Verbot fossiler Brennstoffe ab 2045 ist beizubehalten. Ziel ist eine praktikable, rechtssichere und klimazielkonforme Ausgestaltung des GModG.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Sicherung der Rolle von Holzwärme im Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-08-03",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4f/98/828303/Stellungnahme-Gutachten-SG2608070015.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608070015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070015",
+      "summary": "Der DEPV setzt sich in Bezug auf das GModG für folgende Anpassungen ein: Die Streichung des Bezugs zur Biomassestrom-Nachhaltigkeits-Verordnung und den damit verbundenen Bürokratiefaktor. Sowie den Ausschluss der Installation luftführender Pelletkaminöfen zu streichen und Holzheizungsanlagen bei der Anrechnung auf die Bio-Treppe gleichzubehandeln. Der Primärenergiefaktor für Holz soll so niedrig bleiben, wie es das EU-Recht erlaubt. Zudem sollen Öl- und Gasheizungen, die seit dem 01.01.2024 und vor Inkrafttreten des GModG in Bestandsgebäude eingebaut wurden und bereits der Biotreppe unterliegen, in § 43 Abs. 1 GModG einbezogen werden. Das Verbot fossiler Brennstoffe ab 2045 ist beizubehalten. Ziel ist eine praktikable, rechtssichere und klimazielkonforme Ausgestaltung des GModG.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/83510",
+      "regulatory_project_title": "Natürliche Infrastruktur stärken und Eingriffsregelung praxistauglich fortentwickeln",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/96/828205/Stellungnahme-Gutachten-SG2608070017.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608070017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070017",
+      "summary": "Die BAK hat sich im Rahmen der Verbändeanhörung zum Entwurf eines Gesetzes zur Stärkung der Natürlichen Infrastruktur und zur Fortentwicklung der naturschutzrechtlichen Eingriffsregelung positioniert. Sie unterstützt die Stärkung der Natürlichen Infrastruktur und die multifunktionale Flächennutzung. Zugleich setzt sie sich dafür ein, Naturschutzbelange gegenüber priorisierten Infrastrukturvorhaben nicht pauschal zurückzustellen, den räumlich-funktionalen Bezug von Kompensationsmaßnahmen zu sichern und den Vorrang der Realkompensation vor Ersatzzahlungen praktisch wirksam zu erhalten. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/83510",
+      "regulatory_project_title": "Bundesförderung für effiziente Gebäude planbar und praxistauglich ausgestalten",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/32/48/828207/Stellungnahme-Gutachten-SG2608070018.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2608070018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070018",
+      "summary": "Die BAK hat die Entwürfe der Förderrichtlinien BEG EM, BEG WG und BEG NWG sowie die überarbeitete WPB-Definition kommentiert und sich hierzu in mehreren Verbändegesprächen mit dem BMWE eingebracht. Ziel sind planbare, vollzugssichere und fachlich konsistente Förderbedingungen. Die BAK setzt sich unter anderem für angemessene Übergangsregelungen, eine stärkere Berücksichtigung von Gebäudehülle und systemischer Sanierung, praxistaugliche Regelungen für iSFP und Worst Performing Buildings sowie geeignete Anforderungen an Wärmenetze, Lüftung und Lebenszyklusbetrachtungen ein. ",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/83869",
+      "regulatory_project_title": "Entwurf eines Gesetzes zur Änderung des Wärmeplanungsgesetzes ",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/cd/828010/Stellungnahme-Gutachten-SG2608070009.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608070009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070009",
+      "summary": "Die Stadtwerke München (SWM) begrüßen grundsätzlich die Zielsetzung des Wärmeplanungsgesetzes (WPG), die kommunale Wärmeplanung zu vereinfachen, zu beschleunigen und auf eine belastbare Datengrundlage zu stellen. Gerade vor dem Hintergrund der notwendigen Transformation der Wärmeversorgung hin zu einer klimaneutralen Infrastruktur ist eine effiziente und praxisnahe Planung auf kommunaler Ebene von zentraler Bedeutung. Allerdings weist der vorliegende Gesetzentwurf aus Sicht der SWM erhebliche Defizite beim Umgang mit sensiblen Daten auf, insbesondere mit Betriebs- und Geschäftsgeheimnissen sowie Informationen zu kritischen Infrastrukturen (KRITIS).",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000598",
+      "org_name": "BAV - Bundesverband der Altholzaufbereiter und -verwerter e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000598/84400",
+      "regulatory_project_title": "Interessenvertretung zur Ausgestaltung der Novelle des Kreislaufwirtschaftsgesetzes, insbesondere zur Altholzaufbereitung und -verwertung",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/6b/827915/Stellungnahme-Gutachten-SG2608070004.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608070004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070004",
+      "summary": "Das Regelungsvorhaben zur Änderung des Kreislaufwirtschaftsgesetzes zielt darauf ab, Abfallvermeidung, Wiederverwendung und getrennte Sammlung zu stärken sowie die Kreislaufwirtschaft weiterzuentwickeln. Vorgesehen sind unter anderem Anpassungen zur Förderung der Wiederverwendung gebrauchstauglicher Gegenstände und zur Weiterentwicklung der Produktverantwortung. Zudem sollen Risiken für Menschen, Umwelt und Abfallbehandlungsanlagen, etwa durch unsachgemäß entsorgte Lithium-Batterien, stärker berücksichtigt und entsprechende Verantwortlichkeiten klarer geregelt werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002055",
       "org_name": "VIK Verband der Industriellen Energie- und Kraftwirtschaft e.V. ",
@@ -25,7 +247,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Gesetz betrifft die Umsetzung der EU-Energieeffizienzrichtlinie und die Novellierung des nationalen Energieeffizienzgesetzes, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Energieeffizienz) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002055",
@@ -54,7 +276,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, den Ausbau erneuerbarer Energien und die Synchronisierung von Anlagen- und Netzausbau, welche Kernaufgaben der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002055",
@@ -83,7 +305,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novelle betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die Ausbauziele im Stromsektor, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001981",
@@ -120,7 +342,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novelle des EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die Wirtschaftlichkeit von Projekten, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001981",
@@ -157,7 +379,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novelle des EnWG betrifft direkt die Themenfelder Strommarktregulierung, Netzoptimierung und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -202,7 +424,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Kraftwerksstrategie und Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -247,7 +469,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Kraftwerksstrategie und Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000335",
@@ -275,7 +497,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die geplante EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, insbesondere die Finanzierung und vertragliche Gestaltung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002055",
@@ -1012,6 +1234,167 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Beibehaltung der BEG EM, Verbesserung der Antragszahlen und Einsatz für die BEG Einzelmaßnahmen",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/27/31/828289/Stellungnahme-Gutachten-SG2608040004.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608040004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040004",
+      "summary": "Der DEPV setzt sich für die Beibehaltung der bewährten Systematik der Bundesförderung effiziente Gebäude (BEG EM) und für die Verbesserung, sprich Steigerung, der Antragszahlen der BEG ein, insbesondere in Bezug auf Holzheizungen. \r\nZudem fordert der DEPV eine bessere Kommunikation in Bezug auf die BEG, sowie eine Anpassung der Auslegungsregelungen mit dem Ziel der Vereinfachung der Anträge für Antragssteller und die Branche. Im Sinne des Verbraucherschutzes sollen auch Extremsituationen wie Hochwasser berücksichtigt werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Beibehaltung der BEG EM, Verbesserung der Antragszahlen und Einsatz für die BEG Einzelmaßnahmen",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/d1/828291/Stellungnahme-Gutachten-SG2608040005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608040005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040005",
+      "summary": "Der DEPV setzt sich für die Beibehaltung der bewährten Systematik der Bundesförderung effiziente Gebäude (BEG EM) und für die Verbesserung, sprich Steigerung, der Antragszahlen der BEG ein, insbesondere in Bezug auf Holzheizungen. \r\nZudem fordert der DEPV eine bessere Kommunikation in Bezug auf die BEG, sowie eine Anpassung der Auslegungsregelungen mit dem Ziel der Vereinfachung der Anträge für Antragssteller und die Branche. Im Sinne des Verbraucherschutzes sollen auch Extremsituationen wie Hochwasser berücksichtigt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Sicherung der Rolle von Holzwärme im Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2c/5b/828293/Stellungnahme-Gutachten-SG2608040001.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608040001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040001",
+      "summary": "Der DEPV setzt sich in Bezug auf das GModG für folgende Anpassungen ein: Die Streichung des Bezugs zur Biomassestrom-Nachhaltigkeits-Verordnung und den damit verbundenen Bürokratiefaktor. Sowie den Ausschluss der Installation luftführender Pelletkaminöfen zu streichen und Holzheizungsanlagen bei der Anrechnung auf die Bio-Treppe gleichzubehandeln. Der Primärenergiefaktor für Holz soll so niedrig bleiben, wie es das EU-Recht erlaubt. Zudem sollen Öl- und Gasheizungen, die seit dem 01.01.2024 und vor Inkrafttreten des GModG in Bestandsgebäude eingebaut wurden und bereits der Biotreppe unterliegen, in § 43 Abs. 1 GModG einbezogen werden. Das Verbot fossiler Brennstoffe ab 2045 ist beizubehalten. Ziel ist eine praktikable, rechtssichere und klimazielkonforme Ausgestaltung des GModG.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Sicherung der Rolle von Holzwärme im Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9b/28/828295/Stellungnahme-Gutachten-SG2608040002.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608040002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040002",
+      "summary": "Der DEPV setzt sich in Bezug auf das GModG für folgende Anpassungen ein: Die Streichung des Bezugs zur Biomassestrom-Nachhaltigkeits-Verordnung und den damit verbundenen Bürokratiefaktor. Sowie den Ausschluss der Installation luftführender Pelletkaminöfen zu streichen und Holzheizungsanlagen bei der Anrechnung auf die Bio-Treppe gleichzubehandeln. Der Primärenergiefaktor für Holz soll so niedrig bleiben, wie es das EU-Recht erlaubt. Zudem sollen Öl- und Gasheizungen, die seit dem 01.01.2024 und vor Inkrafttreten des GModG in Bestandsgebäude eingebaut wurden und bereits der Biotreppe unterliegen, in § 43 Abs. 1 GModG einbezogen werden. Das Verbot fossiler Brennstoffe ab 2045 ist beizubehalten. Ziel ist eine praktikable, rechtssichere und klimazielkonforme Ausgestaltung des GModG.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
+      "regulatory_project_title": "Sicherung der Rolle von Holzwärme im Gebäudemodernisierungsgesetz (GModG)",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/96/ad/828297/Stellungnahme-Gutachten-SG2608040003.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608040003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040003",
+      "summary": "Der DEPV setzt sich in Bezug auf das GModG für folgende Anpassungen ein: Die Streichung des Bezugs zur Biomassestrom-Nachhaltigkeits-Verordnung und den damit verbundenen Bürokratiefaktor. Sowie den Ausschluss der Installation luftführender Pelletkaminöfen zu streichen und Holzheizungsanlagen bei der Anrechnung auf die Bio-Treppe gleichzubehandeln. Der Primärenergiefaktor für Holz soll so niedrig bleiben, wie es das EU-Recht erlaubt. Zudem sollen Öl- und Gasheizungen, die seit dem 01.01.2024 und vor Inkrafttreten des GModG in Bestandsgebäude eingebaut wurden und bereits der Biotreppe unterliegen, in § 43 Abs. 1 GModG einbezogen werden. Das Verbot fossiler Brennstoffe ab 2045 ist beizubehalten. Ziel ist eine praktikable, rechtssichere und klimazielkonforme Ausgestaltung des GModG.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R001157",
       "org_name": "8KU GmbH",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R001157/84175",
@@ -1300,6 +1683,32 @@
       "recipients": [
         "BMJV",
         "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002821",
+      "org_name": "Verband der Sparda-Banken e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002821/82654",
+      "regulatory_project_title": "Wettbewerbsfähigkeit von Banken, insbesondere Genossenschaftsbanken",
+      "sending_date": "2026-07-27",
+      "upload_date": "2026-08-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7f/73/828106/Stellungnahme-Gutachten-SG2608030012.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608030012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608030012",
+      "summary": "Auf EU-Ebene besteht eine intensive Diskussion um die Wettbewerbsfähigkeit europäischer Banken, insbesondere im derzeitigen globalen Kontext. Hierbei wird insbesondere für kleine und mittlere Banken davon ausgegangen, dass eine Deregulierung jenseits des \"one size fits all\" Regulierungsansatzes stattfinden soll. Die EU-Kommission hat hierzu im 1. Halbjahr 2026 eine Konsultation durchgeführt, aus denen sich bedeutende Legislativakte ergeben können, die auch die Sparda-Banken betreffen. Der Verband bezweckt durch Diskussion auch mit politischen Entscheidern in Deutschland, dass regulatorische Erleichterungen für die Banken erfolgen, bspw. im Meldewesen und EK-Anforderungen. ",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "Bundestag"
       ],
       "fields": [
         {
@@ -2274,6 +2683,40 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die systemische Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign, Netzregulierung und Erneuerbare Energien) fällt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/83869",
+      "regulatory_project_title": "EEG 2027 Entwurf eines Gesetzes für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der EE im Stromsektor",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3f/28/828012/Stellungnahme-Gutachten-SG2607280030.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2607280030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607280030",
+      "summary": "Das Bundesministerium für Wirtschaft und Klimaschutz <b>präsentiert</b> mit dem Entwurf des EEG 2027 ein zentrales Instrument zur <b>treibhausgasneutralen Stromversorgung</b>. Der Gesetzentwurf zielt darauf ab, den Ausbau erneuerbarer Energien durch eine <b>planbare und kosteneffiziente Ausgestaltung</b> nachhaltig zu beschleunigen. Dabei soll ein <b>netzverträglicher und marktorientierter Ansatz</b> sicherstellen, dass die Energiewende sowohl wirtschaftlich wettbewerbsfähig als auch sozial ausgewogen bleibt. Durch den Fokus auf Innovationen soll die Transformation des Stromsektors pragmatisch und transparent vorangetrieben werden. Das Gesetz bildet somit das regulatorische Fundament für den wachsenden Anteil erneuerbarer Energien im deutschen Strommix. Die Maßnahmen adressieren die notwendige <b>Systemintegration</b>, um die Versorgungssicherheit während der Dekarbonisierung zu gewährleisten.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf des EEG 2027 betrifft unmittelbar die Kernaufgaben der Unterabteilung IIIA, insbesondere die nationale Ausgestaltung der Erneuerbaren-Energien-Förderung und die Zielarchitektur für eine treibhausgasneutrale Stromversorgung.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R005919",
@@ -3354,7 +3797,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die grenzüberschreitende EE-Kooperation, Offshore-Windenergie und die Wasserstoffstrategie, welche zentrale Bestandteile der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007075",
@@ -69316,5 +69759,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 784
+  "gemini_filtered_out": 797
 }
