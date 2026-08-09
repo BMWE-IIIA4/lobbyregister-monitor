@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T04:57:37.946433+02:00",
-  "newly_added": 15,
+  "generated_at": "2026-08-09T05:04:42.569004+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R002046",
@@ -25,7 +25,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Gesetz berührt durch die Einstufung von Energie- und Wasserstoffinfrastruktur als überragendes öffentliches Interesse direkt die energiepolitischen Ziele und die Umsetzung der Energiewende der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007165",
@@ -2716,7 +2716,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf des EEG 2027 betrifft unmittelbar die Kernaufgaben der Unterabteilung IIIA, insbesondere die nationale Ausgestaltung der Erneuerbaren-Energien-Förderung und die Zielarchitektur für eine treibhausgasneutrale Stromversorgung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005919",
