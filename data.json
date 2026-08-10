@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T05:04:42.569004+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-08-10T05:14:53.214964+02:00",
+  "newly_added": 1,
   "statements": [
     {
       "register_number": "R002046",
@@ -9975,6 +9975,32 @@
         {
           "code": "FOI_EU_LAWS",
           "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002650",
+      "org_name": "Bundesvereinigung gegen Fluglärm e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002650/81881",
+      "regulatory_project_title": "Luftfahrtstrategie der Bundesregierung",
+      "sending_date": "2026-05-08",
+      "upload_date": "2026-07-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/44/54/828431/Stellungnahme-Gutachten-SG2607010045.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607010045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607010045",
+      "summary": "Interessenvertretung im Zusammenhang mit der Luftfahrtstrategie der Bundesregierung. Hierzu gehören die Analyse und Bewertung des Strategiepapiers, die Erarbeitung und Veröffentlichung fachlicher Stellungnahmen und Handlungsempfehlungen, der Dialog mit Mitgliedern des Deutschen Bundestages, der Bundesregierung und den zuständigen Bundesministerien sowie die Mitwirkung an politischen und fachlichen Diskussionsprozessen. Ziel ist die stärkere Berücksichtigung von Klima-, Umwelt-, Gesundheits- und Lärmschutzbelangen sowie eine nachhaltige Ausrichtung der Luftverkehrspolitik.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
         }
       ],
       "priority": 2,
@@ -69759,5 +69785,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 797
+  "gemini_filtered_out": 798
 }
