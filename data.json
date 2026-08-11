@@ -1,7 +1,158 @@
 {
-  "generated_at": "2026-08-10T05:14:53.214964+02:00",
-  "newly_added": 1,
+  "generated_at": "2026-08-11T05:06:49.136371+02:00",
+  "newly_added": 6,
   "statements": [
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/84522",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/53/11/829063/Stellungnahme-Gutachten-SG2608100027.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608100027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100027",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine <b>Anpassung des Netzanschlusspakets</b>, um den Ausbau erneuerbarer Energien effizienter mit dem Netzausbau zu synchronisieren. Ziel ist es, die <b>Integration erneuerbarer Energieanlagen</b> durch eine Beschleunigung und Flexibilisierung der Anschlussverfahren maßgeblich zu verbessern. Hierzu wird unter anderem der Wegfall des Redispatch-Vorbehalts sowie eine <b>entschädigungsfreie Abregelung</b> kritisch hinterfragt. Zudem sollen <b>flexible Netzanschlussvereinbarungen</b> und ein Recht auf Überbauung von Netzverknüpfungspunkten etabliert werden. Die gemeinsame Nutzung von Anschlüssen und Speichern sowie die Bereitstellung digitaler Kapazitätsdaten sollen die Netzauslastung optimieren. Abschließend wird die Einführung verbindlicher Ausbaufristen sowie die Weiterentwicklung des Instruments <b>Nutzen statt Abregeln</b> als notwendig erachtet.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Netzoptimierung, Redispatch und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003427",
+      "org_name": "Wirtschaftsvereinigung Groß- und Außenhandel Hamburg e.V. I WGA",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003427/84508",
+      "regulatory_project_title": "Importabfertigung kontrollpflichtiger Waren",
+      "sending_date": "2026-06-24",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/93/828950/Stellungnahme-Gutachten-SG2608100022.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608100022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100022",
+      "summary": "Positionspapier mit Vorschlägen zur Verbesserung der europäischen Importabfertigung kontrollpflichtiger Waren. Die Beiträge basieren auf praktischen Erfahrungen aus der Importabwicklung im Hamburger Hafen und betreffen insbesondere die Weiterentwicklung des digitalen Kontrollsystems TRACES NT sowie risikobasierte Vereinfachungen veterinärrechtlicher Importkontrollen für nachweislich zuverlässige Wirtschaftsbeteiligte, unter Wahrung des bestehenden Schutzniveaus der Lebensmittelsicherheit.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002395",
+      "org_name": "Vereinigung der am Drogen- und Chemikalien-Gross und Aussenhandel beteiligten Firmen e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002395/84511",
+      "regulatory_project_title": "Ensuring a Legally Operable and Proportionate EU Import Pathway for Carmine (E 120) and Shellac (E 904)",
+      "sending_date": "2026-08-10",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/56/12/828968/Stellungnahme-Gutachten-SG2608100023.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608100023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100023",
+      "summary": "Ensuring a Legally Operable and Proportionate EU Import Pathway for Carmine (E 120) and Shellac (E 904) ",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000578",
+      "org_name": "Bundesverband Mineralische Kreislaufwirtschaft und nachhaltige Entsorgung e. V. (BMKE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000578/84149",
+      "regulatory_project_title": "Novellierung der Ersatzbaustoffverordnung",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/57/62/829091/Stellungnahme-Gutachten-SG2608100033.pdf",
+      "pdf_pages": 29,
+      "sg_number": "SG2608100033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100033",
+      "summary": "Korrektur einzelner Fehler und redaktioneller Imperfektionen, so z.B. Anpassung von § 19 Abs. 8 und Anlage 2 EBV, damit eine Verwendung von Baustoffrecycling-Material auf kiesigem Untergrund nicht wie aktuell komplett ausgeschlossen wird. Weiterführende Überarbeitung der Ersatzbaustoffverordnung im Sinne der Praxistauglichkeit. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/84510",
+      "regulatory_project_title": "Einführung einer Plastiksteuer",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8c/ef/828944/Stellungnahme-Gutachten-SG2608100021.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608100021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100021",
+      "summary": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/84510",
+      "regulatory_project_title": "Novellierung des Kreislaufwirtschaftsgesetzes",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/f2/828913/Stellungnahme-Gutachten-SG2608100020.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608100020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100020",
+      "summary": "Mit der geplanten Novelle soll das Kreislaufwirtschaftsgesetz (KrWG) an die novellierte Abfallrahmenrichtlinie sowie an weitere umsetzungsrelevante Rechtsänderungen angepasst werden. Zudem soll es die Erfüllung der Doppel-Recyclingquote nach dem Verpackungsrecht-Durchführungsgesetz ermöglichen und das chemische Recycling in die Abfallhierarchie aufnehmen.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002046",
       "org_name": "Verband Biologie, Biowissenschaften und Biomedizin in Deutschland (VBIO e. V.)",
@@ -69785,5 +69936,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 798
+  "gemini_filtered_out": 803
 }
