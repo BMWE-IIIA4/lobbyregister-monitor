@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-08-11T05:06:49.136371+02:00",
-  "newly_added": 6,
+  "generated_at": "2026-08-12T05:25:44.218284+02:00",
+  "newly_added": 4,
   "statements": [
+    {
+      "register_number": "R000729",
+      "org_name": "BDE Bundesverband der Deutschen Entsorgungs-, Wasser- und Kreislaufwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000729/84589",
+      "regulatory_project_title": "Waste Framework Direktive: Durchführungsrechtsakt zur Festlegung von Kriterien zur Bestimmung, wann Kunststoffabfälle nicht mehr als Abfall gelten",
+      "sending_date": "2026-07-02",
+      "upload_date": "2026-08-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/78/0d/829690/Stellungnahme-Gutachten-SG2608110021.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608110021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608110021",
+      "summary": "Der BDE <b>begrüßt</b> die geplante <b>Harmonisierung</b> der Kriterien für das Ende der Abfalleigenschaft von Kunststoffabfällen. Diese Maßnahme soll einen <b>leistungsfähigen europäischen Binnenmarkt</b> für Kunststoffrezyklate etablieren und den grenzüberschreitenden Handel erleichtern. Durch <b>einheitliche EU-weite Standards</b> werden bestehende Handelshemmnisse abgebaut und bürokratische Verwaltungsverfahren für Recyclingunternehmen signifikant vereinfacht. Die Initiative zielt darauf ab, das Vertrauen in <b>hochwertige Sekundärrohstoffe</b> nachhaltig zu stärken und deren Einsatz in der Industrie zu fördern. Damit wird eine wesentliche Voraussetzung geschaffen, um Kunststoffabfälle effizienter in den <b>Wirtschaftskreislauf zurückzuführen</b> und die Ressourceneffizienz zu steigern.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die Kreislaufwirtschaft und die Bereitstellung von Sekundärrohstoffen, welche für die industrielle Dekarbonisierung und die Wettbewerbsfähigkeit im EU-Binnenmarkt (Themenfeld EU-Energiepolitik/Industriepolitik) von hoher Relevanz sind.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R002168",
       "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
@@ -29,7 +55,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Netzoptimierung, Redispatch und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003427",
@@ -3951,6 +3977,72 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/83536",
+      "regulatory_project_title": "Erneuerbare-Energien-Gesetz zukunftsfähig machen (EEG-Novelle 2027)",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/62/61/829764/Stellungnahme-Gutachten-SG2607230029.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607230029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230029",
+      "summary": "Die Thüga <b>begrüßt die Zielsetzung</b> der EEG-Novelle 2027, erneuerbare Energien stärker in den Markt zu integrieren und die Kosteneffizienz zu steigern. Gleichzeitig mahnt das Unternehmen <b>Nachbesserungsbedarf an</b>, um die Praxistauglichkeit der Reform sicherzustellen und den weiteren Ausbau nicht zu gefährden. Zentrale Forderungen umfassen die Wahrung von <b>Investitions- und Planungssicherheit</b> bei Direktvermarktungspflichten und Abschöpfungsmechanismen. Zudem wird eine konsistente Verzahnung mit dem <b>Netz- und Messwesen</b> sowie eine effiziente <b>Speicherintegration</b> gefordert. Abschließend warnt der Akteur vor unnötigen IT- und Abwicklungsaufwänden, die den Transformationsprozess belasten könnten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die nationale Ausgestaltung des EEG, die Finanzierung von Erneuerbaren Energien sowie die Integration in den Strommarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/83536",
+      "regulatory_project_title": "Netzpaket (Gesetzesentwurf Änderung Energiewirtschaftsrechts zur Synchronisierung EE-und Netzausbau sowie Verbesserung Netzanschlussverfahrens)",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/32/d2/829766/Stellungnahme-Gutachten-SG2607230028.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607230028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607230028",
+      "summary": "Die Organisation <b>begrüßt</b> den <b>grundsätzlichen Ansatz</b> zur Senkung der Systemkosten sowie die Synchronisierung von EE- und Netzausbau. Sie <b>präferiert differenzierte Baukostenzuschüsse</b>, um eine gezielte Allokationswirkung zu erzielen, und spricht sich für die Einführung freiwilliger Financial Transmission Rights (FCA) aus. Den vorgeschlagenen <b>Redispatchvorbehalt</b> lehnt sie hingegen als derzeit ungeeignetes Instrument ab. Zudem fordert sie, dass bei der <b>Priorisierung von Netzanschlussbegehren</b> eine lokale Nutzenkomponente stärker berücksichtigt wird. Insgesamt zielt die Stellungnahme auf eine effizientere Ausgestaltung der Netzanschlussverfahren ab.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Gesetzesentwurf betrifft direkt die Themenfelder Strommarktregulierung, Netzoptimierung und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R007075",
       "org_name": "CHEM Trust Europe e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R007075/83634",
@@ -4463,6 +4555,47 @@
       "priority": 1,
       "gemini_relevanz": "Die Novellierung des Erneuerbare-Energien-Gesetzes (EEG) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter das Themenfeld 'Erneuerbare Energien (national)'.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/83536",
+      "regulatory_project_title": "Wasserstoffhochlauf vorantreiben  - Transformation der Gasnetze ermöglichen und Instrumente für die Marktdurchdringung etablieren",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-07-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e4/f4/829762/Stellungnahme-Gutachten-SG2607220005.pdf",
+      "pdf_pages": 17,
+      "sg_number": "SG2607220005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607220005",
+      "summary": "Das Papier <b>fordert</b> den zügigen <b>Wasserstoffhochlauf</b> durch den Aufbau einer leistungsfähigen Infrastruktur auf Fernleitungs- und Verteilnetzebene. Zur Erreichung der Klimaneutralität soll die bestehende <b>Gasnetzinfrastruktur</b> gezielt durch Umwidmungen und Ergänzungsneubauten transformiert werden. Hierfür werden angepasste <b>regulatorische Rahmenbedingungen</b> und Finanzierungsmodelle im Rahmen des EnWG sowie durch die Bundesnetzagentur angemahnt. Die Umsetzung des <b>EU-Gaspakets</b> in nationales Recht soll dabei als zentraler Hebel für die Transformation dienen. Ergänzend wird die Einführung konkreter Instrumente wie einer <b>Grüngasquote</b> vorgeschlagen, um die Marktdurchdringung von Wasserstoff signifikant zu beschleunigen. Die Einlassungen beziehen sich zudem auf die laufende Konsultation zum Greenpaper für die Transformation der Verteilernetze.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft den Wasserstoffhochlauf, die Transformation der Gasnetzinfrastruktur sowie regulatorische Rahmenbedingungen (EnWG, EU-Gaspaket), welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002101",
