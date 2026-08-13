@@ -1,7 +1,158 @@
 {
-  "generated_at": "2026-08-12T05:25:44.218284+02:00",
-  "newly_added": 4,
+  "generated_at": "2026-08-13T05:29:27.194481+02:00",
+  "newly_added": 10,
   "statements": [
+    {
+      "register_number": "R003267",
+      "org_name": "Bundesverband Deutscher Wasserkraftwerke e.V. (BDW e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003267/84577",
+      "regulatory_project_title": "Novelle des Erneuerbare Energien Gesetzes (EEG) 2027 - RefE des BMWE vom 22.04.2026",
+      "sending_date": "2026-04-24",
+      "upload_date": "2026-08-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ea/db/830325/Stellungnahme-Gutachten-SG2608120018.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608120018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608120018",
+      "summary": "Der Entwurf <b>fordert die Rücknahme des Förderstopps</b> für kleine Wasserkraftanlagen, der durch die geplante Streichung der Einspeisevergütung und den Ausschluss von der Marktprämie entstehen würde. Kritisiert wird, dass die Begründung für den Wegfall der Förderung auf die <b>stetige und planbare Erzeugung</b> der Wasserkraft nicht zutrifft. Zur Sicherung der <b>Anlagenwirtschaftlichkeit</b> wird die Einführung einer neuen Vergütungsklasse für Anlagen bis 100 kW vorgeschlagen. Angesichts gestiegener Betriebskosten wird zudem eine <b>allgemeine Anhebung der Vergütungssätze</b> in § 40 Abs. (1) empfohlen. Ziel ist es, den Fortbestand und den Ausbau dieser grundlastfähigen Technologie trotz verschärfter Rahmenbedingungen zu gewährleisten.",
+      "recipients": [
+        "BMLEH",
+        "BMUKN",
+        "BMWE",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Referentenentwurf zur EEG-Novelle 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003267",
+      "org_name": "Bundesverband Deutscher Wasserkraftwerke e.V. (BDW e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003267/84577",
+      "regulatory_project_title": "Referentenentwurf zur Novellierung des Erneuerbare-Energien-Gesetzes (EEG) 2027 vom 17.07.2026",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1c/61/830329/Stellungnahme-Gutachten-SG2608120015.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608120015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608120015",
+      "summary": "Die Interessenvertretung <b>fordert</b> im Rahmen der EEG-Novellierung 2027 die <b>Einführung einer neuen Vergütungsklasse</b> für Anlagen bis 100 kW sowie eine allgemeine <b>Anpassung der Vergütungssätze</b> an die gestiegenen Kosten. Nach der Abwendung des geplanten Förderstopps für Kleinanlagen unter 25 kW liegt der Fokus nun auf einer wirtschaftlichen Neuausrichtung der Förderstruktur. Ein zentraler Punkt ist die <b>Vergütung besonderer Systemleistungen</b> der Wasserkraft, um deren Beitrag zur <b>Netzstabilität und Versorgungssicherheit</b> explizit zu honorieren. Diese Leistungen sollen künftig bei der Bemessung der Marktwerte gemäß § 40 Abs. 1 EEG zwingend berücksichtigt werden. Die Anpassungen zielen darauf ab, die Zuverlässigkeit der Stromversorgung auch in Krisensituationen durch eine verbesserte Integration flexibler Erzeuger zu gewährleisten. Damit soll die Rolle der Wasserkraft als verlässlicher Akteur im Stromnetz gestärkt werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Referentenentwurf zur EEG-Novellierung 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die Finanzierungssystematik sowie die Systemintegration, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004605",
+      "org_name": "Deutscher Fleischer-Verband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004605/84631",
+      "regulatory_project_title": "Lebensmittelverschwendung auf praxisrelevante Bereiche beschränken",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-08-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c4/9b/830173/Stellungnahme-Gutachten-SG2608120007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608120007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608120007",
+      "summary": "Der Deutsche Fleischer-Verband e.V. zeigt auf, dass bei Regelugen zur Reduzierung von Lebensmittelverschwendungen nur auf vermeidbare Lebensmittelverschwendungen abgestellt werden kann.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001243",
+      "org_name": "Verband der Automobilindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001243/84647",
+      "regulatory_project_title": "Anpassung der Mehrwegquoten auf realistische Größen in der EU VO PPWR",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-08-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/40/f9/830020/Stellungnahme-Gutachten-SG2608120003.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608120003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608120003",
+      "summary": "Ziel des VDA ist es, Änderungen in der PPWR in Bezug auf die Mehrwegpflichten für Industrie- und Gewerbeverpackungen in das Omnibus-Paket zum Bürokratieabbau aufgenommen werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/84655",
+      "regulatory_project_title": "Sicherstellung von Kontinuität Ausbau  der Bundesförderung \"Energie- und Ressourceneffizienz in der Wirtschaft\" (EEW)",
+      "sending_date": "2026-07-05",
+      "upload_date": "2026-08-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ad/0f/830319/Stellungnahme-Gutachten-SG2608120017.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608120017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608120017",
+      "summary": "Die DENEFF setzt sich für eine verlässliche Fortführung und den Ausbau der Bundesförderung für Energieeffizienz in der Wirtschaft (EEW) ein. Die Förderung darf nicht von Haushaltsverhandlungen abhängig gemacht werden. Schnelle Bewilligungen und stabile Rahmenbedingungen entlasten Unternehmen und ermöglichen die Konzentration auf die Umsetzung. Vorgeschlagen werden u.a.: beschleunigte Förderverfahren, Ausbau der EEW zur zentralen Anlaufstelle für Effizienzprojekte, stärkere Berücksichtigung des gesamtwirtschaftlichen Nutzens, technologieoffene Förderung der industriellen Wärmewende, Gleichstellung von Energiedienstleistern bei Eigenleistungen sowie eine Stärkung des Förderwettbewerbs zur Effizienzsteigerung für Unternehmen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000729",
       "org_name": "BDE Bundesverband der Deutschen Entsorgungs-, Wasser- und Kreislaufwirtschaft e. V.",
@@ -26,7 +177,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die Kreislaufwirtschaft und die Bereitstellung von Sekundärrohstoffen, welche für die industrielle Dekarbonisierung und die Wettbewerbsfähigkeit im EU-Binnenmarkt (Themenfeld EU-Energiepolitik/Industriepolitik) von hoher Relevanz sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002168",
@@ -56,6 +207,35 @@
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Netzoptimierung, Redispatch und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002299",
+      "org_name": "Stiftung der deutschen Wirtschaft für die Nutzung und Erforschung der Windenergie auf See (Offshore-Stiftung)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002299/84204",
+      "regulatory_project_title": "Beschleunigung des Ausbaus der Windenergie zur Umsetzung der Ausbauziele",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/86/830054/Stellungnahme-Gutachten-SG2608100019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608100019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100019",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine konsequente <b>Beschleunigung des Windenergieausbaus</b>, um die gesetzlich verankerten Ziele in Deutschland fristgerecht zu erreichen. Dabei steht die <b>Umsetzung der Ausbauziele</b> im Zentrum, um die nationale Energiewende voranzutreiben. Es wird impliziert, dass bestehende regulatorische oder administrative Hürden abgebaut werden müssen, um die <b>Realisierung von Windkraftprojekten</b> zu forcieren. Eine effiziente Planung und Genehmigung ist hierbei als wesentlicher Hebel für den Erfolg der <b>Klimaschutzziele</b> identifiziert. Die Initiative zielt darauf ab, die notwendige Kapazitätserweiterung im Stromsektor sicherzustellen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die nationalen Ausbauziele für Erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R003427",
@@ -1411,6 +1591,35 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R002299",
+      "org_name": "Stiftung der deutschen Wirtschaft für die Nutzung und Erforschung der Windenergie auf See (Offshore-Stiftung)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002299/84204",
+      "regulatory_project_title": " Änderungsentwurf Windenergie-auf-See-Gesetzes zur Regelung der Errichtung und des Betriebs einer Rettungsinfrastruktur für die AWZ",
+      "sending_date": "2026-01-12",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8f/20/830056/Stellungnahme-Gutachten-SG2608040023.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608040023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040023",
+      "summary": "Die Initiative <b>schlägt vor</b>, eine dedizierte <b>Offshore-Rettungsinfrastruktur</b> für Windparks in der ausschließlichen Wirtschaftszone (AWZ) zu errichten und zu finanzieren. Aufgrund der zunehmenden Entfernung der Anlagen zur Küste können die etablierten <b>Rettungsfristen</b> durch landseitige Rettungskräfte künftig nicht mehr eingehalten werden. Der vorliegende Änderungsentwurf zum Windenergie-auf-See-Gesetz zielt darauf ab, die rechtlichen Rahmenbedingungen für diese notwendige Sicherheitsinfrastruktur zu schaffen. Die einbringende Stiftung fordert eine detaillierte <b>Begründung der ablehnenden Haltung</b> der Bundesregierung zu diesem Vorhaben. Ziel ist die Sicherstellung der <b>Arbeitssicherheit</b> beim planmäßigen <b>Offshore-Ausbau</b>. Die Initiative adressiert damit eine kritische Lücke in der operativen Absicherung der Energiewende auf See.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft die Offshore-Windenergie und die damit verbundene Infrastruktur in der AWZ, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/Offshore-Kooperationen) fällt.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R002566",
       "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
@@ -2184,6 +2393,31 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R005829",
+      "org_name": "Naturgarten Verein für naturnahe Garten- und  Landschaftsgestaltung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005829/64488",
+      "regulatory_project_title": "Klimaschutzgesetz: Vorgaben müssen durch ein ambitioniertes Klimaschutzprogramm für alle Bereiche erfüllt werden.",
+      "sending_date": "2026-03-18",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/08/829984/Stellungnahme-Gutachten-SG2607310002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607310002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310002",
+      "summary": "Die Organisation <b>fordert</b> ein ambitioniertes <b>Klimaschutzprogramm</b>, um die gesetzlichen Vorgaben des Bundes-Klimaschutzgesetzes konsequent umzusetzen. Dabei wird betont, dass die <b>Klimaziele</b> für alle Sektoren verbindlich erreicht werden müssen, um den Transformationspfad im kommenden Jahrzehnt zu sichern. Es wird eine <b>entschlossene Fortsetzung</b> der bisherigen Strategien angemahnt, um die <b>Klimaneutralität</b> zielgerichtet voranzutreiben. Die Forderung zielt darauf ab, durch konkrete Maßnahmenpakete die Einhaltung der <b>sektorspezifischen Emissionsminderungsziele</b> sicherzustellen. Damit soll die Planungssicherheit für die notwendige <b>energetische Transformation</b> der deutschen Wirtschaft gestärkt werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die nationale Klimaschutzpolitik und die Erfüllung gesetzlicher Klimaziele, welche direkt mit den Aufgaben der Unterabteilung IIIA (Klimaschutz & Energiewende) korrespondieren.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R003174",
       "org_name": "Bundesverband fuer Tiergesundheit e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003174/83993",
@@ -2293,6 +2527,30 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R005829",
+      "org_name": "Naturgarten Verein für naturnahe Garten- und  Landschaftsgestaltung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005829/64488",
+      "regulatory_project_title": "Nationaler Plan zur Wiederherstellung der Natur",
+      "sending_date": "2026-03-11",
+      "upload_date": "2026-07-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/67/9d/829980/Stellungnahme-Gutachten-SG2607310003.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607310003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607310003",
+      "summary": "Die zügige Umsetzung der Wiederherstellungsverordnung bietet die große Chance, erhebliche gesellschaftliche Kosten einzusparen, die Natur und uns als Gesellschaft widerstandsfähiger zu machen und zukünftige Naturkatastrophen abzumildern. Die Wiederherstellung unserer Natur ist eine dringend notwendige und sinnvolle Investition in unsere Zukunft. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -4007,7 +4265,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die nationale Ausgestaltung des EEG, die Finanzierung von Erneuerbaren Energien sowie die Integration in den Strommarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -4040,7 +4298,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Gesetzesentwurf betrifft direkt die Themenfelder Strommarktregulierung, Netzoptimierung und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007075",
@@ -4595,7 +4853,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft den Wasserstoffhochlauf, die Transformation der Gasnetzinfrastruktur sowie regulatorische Rahmenbedingungen (EnWG, EU-Gaspaket), welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002101",
@@ -7053,6 +7311,31 @@
         {
           "code": "FOI_ECONOMY_COMPETITION_LAW",
           "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002668",
+      "org_name": "Deutscher Reiseverband e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002668/82984",
+      "regulatory_project_title": "EU Passenger Package: Vorschläge der Kommission, grenzüberschreitende Bahnreisen und multimodale Mobilität attraktiver zu gestalten  ",
+      "sending_date": "2026-07-13",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/24/79/830224/Stellungnahme-Gutachten-SG2607130011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607130011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130011",
+      "summary": "Der Deutsche Reiseverband (DRV) begrüßt das Ziel der EU Kommission, den europäischen Personenverkehr einfacher, transparenter und kundenfreundlicher zu gestalten. Reiseveranstalter und Reisebüros unterstützen multimodale Reiseangebote seit vielen Jahren. Bahn-, Flug-, Bus- und Fährverbindungen werden bereits heute zu attraktiven Reisepaketen kombiniert. Voraussetzung für einen weiteren Ausbau solcher Angebote sind jedoch verlässliche rechtliche Rahmenbedingungen, diskriminierungsfreier Zugang zu Mobilitätsdaten, Einbeziehung aller Mobilitätsanbieter sowie eine ausgewogene Verteilung der Verantwortlichkeiten zwischen den beteiligten Marktakteuren. Wir bitten die Bundesregierung, insbesondere das federführende BMV, sich im Rahmen der Ratsverhandlungen in Brüssel hierfür einzusetzen.  ",
+      "recipients": [
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
         }
       ],
       "priority": 2,
@@ -70069,5 +70352,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 803
+  "gemini_filtered_out": 808
 }
