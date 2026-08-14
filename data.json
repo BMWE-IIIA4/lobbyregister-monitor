@@ -1,7 +1,174 @@
 {
-  "generated_at": "2026-08-13T05:29:27.194481+02:00",
-  "newly_added": 10,
+  "generated_at": "2026-08-14T05:26:52.807295+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/84667",
+      "regulatory_project_title": "EU - Konstrukt der Kundenanlage mittels konkreter Zahlen rechtssicher ausgestalten",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/56/c1/830578/Stellungnahme-Gutachten-SG2608130003.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608130003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130003",
+      "summary": "Das Ministerium <b>unterstützt</b> die <b>konkrete Ausgestaltung</b> des Konstrukts der Kundenanlage durch <b>festgelegte Grenzwerte</b> im EU-Recht. Bisher führten unbestimmte Rechtsbegriffe zu erheblicher Rechtsunsicherheit, die erst durch langwierige Gerichtsprozesse eingegrenzt werden konnte. Der aktuelle Vorschlag des Rates sieht nun quantitative Schwellenwerte für den Eigenverbrauch und die Anzahl der versorgten Haushalte vor, um diese Lücke zu schließen. Dabei ist für das Ministerium weniger die exakte Höhe der Zahlen entscheidend als vielmehr die <b>Einführung quantitativer Kriterien</b> an sich. Durch diese <b>präzisen Vorgaben</b> soll eine einheitliche und rechtssichere Anwendung im gesamten EU-Binnenmarkt gewährleistet werden. Die konkreten Zahlenwerte können im weiteren Gesetzgebungsverfahren noch angepasst werden, solange der Grundsatz der <b>quantitativen Definition</b> erhalten bleibt.",
+      "recipients": [
+        "AA",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Ausgestaltung des EU-Binnenmarktes für Elektrizität und die regulatorische Definition von Kundenanlagen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarktregulierung/EU-Binnenmarkt) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000810",
+      "org_name": "Bundesverband Baustoffe - Steine und Erden e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000810/84684",
+      "regulatory_project_title": "Entwurf eines Gesetzes über einen Zuschuss zu den Übertragungsnetzkosten für die Jahre 2027 bis 2029 ",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/75/c0/830923/Stellungnahme-Gutachten-SG2608130013.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608130013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130013",
+      "summary": "Der vorliegende Gesetzesentwurf <b>schlägt die Festsetzung</b> eines jährlichen <b>Bundeszuschusses</b> zu den Stromübertragungsnetzentgelten vor. Für den Zeitraum von 2027 bis 2029 soll eine jährliche <b>Finanzhilfe in Höhe von 5,525 Milliarden Euro</b> bereitgestellt werden. Ziel der Maßnahme ist die <b>Stabilisierung der Netzentgelte</b>, um die finanzielle Belastung für Stromverbraucher zu begrenzen. Durch die gesetzliche Fixierung soll eine <b>Planungssicherheit</b> für die kommenden Jahre geschaffen werden. Die Mittel dienen dazu, die steigenden Kosten im Übertragungsnetz zu decken, die maßgeblich durch den Ausbau der erneuerbaren Energien und die <b>Transformation des Stromsystems</b> getrieben werden. Der Entwurf adressiert damit die <b>Wettbewerbsfähigkeit</b> der Strompreise im deutschen Binnenmarkt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Gesetzesentwurf betrifft die Finanzierung der Stromübertragungsnetzentgelte, welche direkt in den Bereich Strommarktregulierung und Energiepreise/Kosten der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006568",
+      "org_name": "Harbour Energy Plc",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006568/84700",
+      "regulatory_project_title": "Erdölförderung auf der Bohr- und Förderinsel Mittelplate",
+      "sending_date": "2026-03-01",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/85/76/830841/Stellungnahme-Gutachten-SG2608130017.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608130017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130017",
+      "summary": "Das größte Erdölvorkommen Deutschlands liegt unter dem Nationalpark Schleswig-Holsteinisches Wattenmeer – einem hochsensiblen Ökosystem und Teil des UNESCO-Weltnaturerbes. Mit langjähriger geowissenschaftlicher Expertise, modernster Ingenieurskunst und viel Verantwortungsbewusstsein stellt Harbour Energy seit 1987 die sichere Gewinnung von bedeutenden Mengen Erdöl in einem Gebiet sicher, für das im Nachhinein strenge Naturschutzauflagen erlassen wurden und das hohe ökologische Bedeutung und besondere öffentliche Aufmerksamkeit vereint. \r\nSeit ihrer Erbauung beweist die Bohr- und Förderinsel Mittelplate, dass verantwortungsvolle Rohstoffproduktion und umfassender Umweltschutz vereinbar sind. Diese Zusammenhänge werden regelmäßigen maßgeblichen politischen Stakeholdern vermittelt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/84693",
+      "regulatory_project_title": "Beschleunigung von Planungs- und Genehmigungsverfahren bei Ausbau und Sanierung der Infrastrukturen im ÖPNV und Eisenbahnverkehr",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0c/8e/830790/Stellungnahme-Gutachten-SG2608130014.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2608130014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130014",
+      "summary": "Die Initiative verfolgt das Ziel, dass Planungs- und Genehmigungsverfahren im Zusammenhang mit dem Ausbau und der Sanierung der Infrastrukturen im ÖPNV und Eisenbahnverkehr vereinfacht und beschleunigt werden. Kernprobleme sind die Dauer von Genehmigungsverfahren, die Überkomplexität und Fragmentierung von Anforderungen und Verfahren, sehr weitreichende Rechtsschutzmöglichkeiten und ein nahezu unverhältnismäßiger Schutz bestimmter Rechtsgüter; insbesondere im Arten-, Natur- und Denkmalschutz.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/84693",
+      "regulatory_project_title": "Beschleunigung von Planungs- und Genehmigungsverfahren bei Ausbau und Sanierung der Infrastrukturen im ÖPNV und Eisenbahnverkehr",
+      "sending_date": "2026-07-03",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e6/7e/830792/Stellungnahme-Gutachten-SG2608130015.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2608130015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130015",
+      "summary": "Die Initiative verfolgt das Ziel, dass Planungs- und Genehmigungsverfahren im Zusammenhang mit dem Ausbau und der Sanierung der Infrastrukturen im ÖPNV und Eisenbahnverkehr vereinfacht und beschleunigt werden. Kernprobleme sind die Dauer von Genehmigungsverfahren, die Überkomplexität und Fragmentierung von Anforderungen und Verfahren, sehr weitreichende Rechtsschutzmöglichkeiten und ein nahezu unverhältnismäßiger Schutz bestimmter Rechtsgüter; insbesondere im Arten-, Natur- und Denkmalschutz.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000549",
+      "org_name": "Verein Deutscher Zementwerke e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000549/84699",
+      "regulatory_project_title": "UVP-Änderungsgesetz / Unnötige Doppelregulierung für BImSchG-Anlagen reduzieren",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dc/19/830851/Stellungnahme-Gutachten-SG2608130018.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608130018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130018",
+      "summary": "Der Regelungsentwurf enthält für die Zementindustrie kaum relevante Punkte. Weitere Ergänzungen sollten dahingehend erfolgen, dass Anlagen, die nach dem BImSchG genehmigt werden, von unnötiger Doppelregulierung im UVPG entlastet werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003267",
       "org_name": "Bundesverband Deutscher Wasserkraftwerke e.V. (BDW e.V.)",
@@ -33,7 +200,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Referentenentwurf zur EEG-Novelle 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003267",
@@ -63,7 +230,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Referentenentwurf zur EEG-Novellierung 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die Finanzierungssystematik sowie die Systemintegration, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004605",
@@ -154,6 +321,30 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/84657",
+      "regulatory_project_title": "Widersprüchliche Regelungen zur Aufzeichnung elektronischer Kommunikation im Wertpapier- und Kreditrecht",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-08-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c2/d0/830619/Stellungnahme-Gutachten-SG2608120021.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608120021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608120021",
+      "summary": "Weder die Wohnimmobilienkredit- noch die Verbraucherkreditrichtlinie fordern eine Aufzeichnung elektronischer Kommunikation, also insbesondere von Telefon- und Videogesprächen, obwohl dies im modernen Bankgeschäft mittlerweile alltäglich sein dürfte. Lediglich die Wertpapier-Richtlinie MiFid II fordert eine solche Aufzeichnung.  Der deutsche Gesetzgeber sollte sich auf europäischer Ebene für die Abschaffung der Pflicht zur Aufzeichnung elektronischer Kommunikation nach Art. 16 Abs. 7 MiFID II einsetzen.  ",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R000729",
       "org_name": "BDE Bundesverband der Deutschen Entsorgungs-, Wasser- und Kreislaufwirtschaft e. V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R000729/84589",
@@ -235,6 +426,39 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die nationalen Ausbauziele für Erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002020",
+      "org_name": "GermanZero e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002020/84517",
+      "regulatory_project_title": "Klimaschutz und Klimaanpassung als Gemeinschaftsaufgabe im Grundgesetz",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-08-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f8/8b/830588/Stellungnahme-Gutachten-SG2608100025.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608100025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100025",
+      "summary": "GermanZero e.V. <b>fordert die Verankerung</b> von Klimaschutz und Klimaanpassung als <b>Gemeinschaftsaufgabe im Grundgesetz</b>. Durch eine gezielte Ergänzung von Artikel 91a GG sollen die rechtlichen und finanziellen Rahmenbedingungen für eine umfassende Transformation auf allen staatlichen Ebenen gestärkt werden. Ziel ist es, Kommunen und Länder durch einen neuen <b>Finanzierungsmechanismus</b> in die Lage zu versetzen, notwendige <b>Klimainvestitionen</b> effizient umzusetzen. Die Initiative zielt darauf ab, die bisherigen Hürden bei der Finanzierung von Klimaschutzmaßnahmen abzubauen und eine bundesweite Kooperation zu institutionalisieren. Damit soll die <b>Umsetzung der Klimaziele</b> rechtlich abgesichert und finanziell dauerhaft unterfüttert werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Forderung betrifft die verfassungsrechtliche Verankerung von Klimaschutz und Klimaanpassung als Gemeinschaftsaufgabe, was direkte Auswirkungen auf die Finanzierungsstrukturen und die Umsetzung der nationalen Energiewende sowie die Klimaschutzziele der Unterabteilung IIIA hat.",
       "gemini_status": "processed"
     },
     {
@@ -1617,7 +1841,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft die Offshore-Windenergie und die damit verbundene Infrastruktur in der AWZ, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/Offshore-Kooperationen) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002566",
@@ -2415,7 +2639,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die nationale Klimaschutzpolitik und die Erfüllung gesetzlicher Klimaziele, welche direkt mit den Aufgaben der Unterabteilung IIIA (Klimaschutz & Energiewende) korrespondieren.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003174",
@@ -70352,5 +70576,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 808
+  "gemini_filtered_out": 813
 }
