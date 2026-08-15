@@ -1,7 +1,60 @@
 {
-  "generated_at": "2026-08-14T05:26:52.807295+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-08-15T04:16:12.410083+02:00",
+  "newly_added": 7,
   "statements": [
+    {
+      "register_number": "R006633",
+      "org_name": "Verband für nachhaltige Agri-Photovoltaik (VnAP) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006633/84737",
+      "regulatory_project_title": "Anpassung des Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsrechts (...)",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-08-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/ab/831335/Stellungnahme-Gutachten-SG2608140010.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608140010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608140010",
+      "summary": "Der Entwurf <b>schlägt Anpassungen</b> am Energiewirtschaftsrecht vor, um die regulatorischen Rahmenbedingungen für Endkundenmärkte und den Netzausbau zu präzisieren. Ein zentraler Fokus liegt dabei auf der <b>Regulierung hochaufgeständerter Solaranlagen</b>, um bestehende Unklarheiten in der Gesetzgebung zu beseitigen. Durch die <b>Verringerung von Missbrauchspotenzialen</b> soll die Rechtssicherheit für Anlagenbetreiber signifikant erhöht werden. Die Initiative zielt primär darauf ab, den <b>nachhaltigen Erhalt des Agri-PV-Segments</b> langfristig zu sichern. Damit soll die <b>Effizienz der Netzregulierung</b> gesteigert und die Integration erneuerbarer Energien in das Stromsystem optimiert werden.",
+      "recipients": [
+        "BMF",
+        "BMLEH",
+        "BMWE",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft das Energiewirtschaftsrecht, den Netzausbau sowie die Regulierung von Solaranlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000283",
+      "org_name": "Bundesvereinigung der Deutschen Ernährungsindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000283/84689",
+      "regulatory_project_title": "VerpackG - Umlage der EU Plastikabgabe und Schaffung europarechtskonformer Reform ",
+      "sending_date": "2026-07-31",
+      "upload_date": "2026-08-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/66/7d/831255/Stellungnahme-Gutachten-SG2608140006.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608140006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608140006",
+      "summary": "Wir sehen in einer wirksamen finanziellen Anreizstruktur für hochgradig recycelbare Verpackungen einen entscheidenden Hebel zu einer besseren Kreislaufführung. Mit dem Mindeststandard existiert in Deutschland bereits eine eindeutige und anerkannte Grundlage für die Bemessung des prozentualen Grades der Recyclingfähigkeit einer Verpackungseinheit. Ab 2028 würden diese Bemessungskriterien durch die von der EU-Kommission zu erstellenden Design-for-Recycling-Kriterien und Berechnungsvorschriften EU-weit harmonisiert (delegierte Rechtsakte nach Artikel 6 Absatz 4 EU-Verpackungsverordnung (PPWR)). Die Stufen einer Ökomodulierung der Lizenzentgelte für Verpackungen, wie sie in der PPWR vorgesehen",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001118",
       "org_name": "Thüga Aktiengesellschaft",
@@ -38,7 +91,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Ausgestaltung des EU-Binnenmarktes für Elektrizität und die regulatorische Definition von Kundenanlagen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarktregulierung/EU-Binnenmarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000810",
@@ -67,7 +120,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Gesetzesentwurf betrifft die Finanzierung der Stromübertragungsnetzentgelte, welche direkt in den Bereich Strommarktregulierung und Energiepreise/Kosten der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006568",
@@ -164,6 +217,58 @@
         {
           "code": "FOI_ENVIRONMENT_CLIMATE",
           "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000283",
+      "org_name": "Bundesvereinigung der Deutschen Ernährungsindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000283/84689",
+      "regulatory_project_title": "EU-Entwaldungsverordnung (EUDR)  (EU) 2023/1115) - praxistaugliche Umsetzung",
+      "sending_date": "2026-07-27",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b3/7d/831253/Stellungnahme-Gutachten-SG2608130020.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608130020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130020",
+      "summary": "Umsetzung der Verordnung zur Bereitstellung von Agrarrohstoffe, die mit Entwaldung und Waldschädigung in Verbindung stehen, u.a. Kaffee, Kakao, Palmöl, Rindfleisch und Soja sowie deren Import und Export. Sie trat im Juni 2023 in Kraft und verbietet den Handel mit Erzeugnissen aus Flächen, die nach 2020 entwaldet wurden. Die Umsetzung der europäischen Verordnung (EU) 2023/1115 wurde aufgrund von bestehenden Unklarheiten verschoben. Ziel ist eine praxistaugliche auch für KMU geeignete Umsetzung der entwaldungsfreien Lieferketten.\r\n",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000283",
+      "org_name": "Bundesvereinigung der Deutschen Ernährungsindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000283/84689",
+      "regulatory_project_title": "Überarbeitung der EU Abfallrahmenrichtlinie",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-08-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/d5/831257/Stellungnahme-Gutachten-SG2608130021.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608130021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608130021",
+      "summary": "Einführung eines Korrekturfaktors, der sicherstellen soll, dass die verbindlichen Reduktionsziele für Lebensmittelabfälle relativ zur produzierten Menge berechnet werden und nicht in absoluten Zahlen festgelegt werden. EU Abfallrahmenrichtlinie (EU) 2025/1892",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
         }
       ],
       "priority": 2,
@@ -371,6 +476,103 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R003955",
+      "org_name": "Bundesverband IT-Mittelstand e.V. (BITMi)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003955/74573",
+      "regulatory_project_title": "28. Regime der EU und Vorschlag für EU Inc. ",
+      "sending_date": "2026-04-24",
+      "upload_date": "2026-08-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4b/e9/831282/Stellungnahme-Gutachten-SG2608110028.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608110028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608110028",
+      "summary": "Der BITMi <b>unterstützt</b> die Einführung der <b>EU Inc.</b> als einheitliche, digitale Rechtsform zur Stärkung der europäischen Wirtschaft. Das vorgeschlagene <b>28. Regime</b> soll als EU-weites Regelwerk fungieren, um bürokratische <b>Hindernisse bei der Expansion</b> und Tätigkeit im Binnenmarkt abzubauen. Durch den Fokus auf <b>digitale Lösungen</b> soll die Gründung und grenzüberschreitende Geschäftstätigkeit für Unternehmen signifikant vereinfacht werden. Die Europäische Kommission hat diesen Vorschlag im März 2026 als Teil eines umfassenden Maßnahmenpakets zur <b>Wettbewerbsfähigkeit</b> vorgelegt. Ziel ist es, die Fragmentierung des Gesellschaftsrechts zu überwinden und einen einheitlichen Rechtsrahmen für den gesamten EU-Binnenmarkt zu schaffen. Damit soll die wirtschaftliche Dynamik innerhalb der Union gefördert und die Attraktivität des Standorts Europa gesteigert werden.",
+      "recipients": [
+        "BMJV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Vorschlag betrifft die Wettbewerbsfähigkeit der europäischen Wirtschaft und den EU-Binnenmarkt, was direkt mit den Themenfeldern 'EU-Energiepolitik' und 'Wettbewerbsfähigkeit im EU-Binnenmarkt' der Unterabteilung IIIA korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003955",
+      "org_name": "Bundesverband IT-Mittelstand e.V. (BITMi)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003955/74573",
+      "regulatory_project_title": "Digitale Souveränität zum Leitmotiv machen",
+      "sending_date": "2026-02-23",
+      "upload_date": "2026-08-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/91/9a/831276/Stellungnahme-Gutachten-SG2608110024.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608110024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608110024",
+      "summary": "Digitale Souveränität ist eine, wenn nicht die zentrale wirtschafts- und industriepolitische Aufgabe der nächsten Jahre. Deshalb muss sie das Leitmotiv für alle digitalpolitischen Bestrebungen dieses Jahrzehnts sein. Als BITMi setzen wir uns für eine ambitionierte Strategie hin zu mehr digitaler Souveränität Deutschlands ein. Wir definieren den Begriff als die Fähigkeit, die digitale Transformation in allen wesentlichen Bereichen nach eigenen Wertvorstellungen und mithilfe eigener, vertrauenswürdiger Lösungen „Made in Germany & Europe“ zu gestalten. Entlang dieser Definition fordern wir einseitige Abhängigkeiten von digitalen Technologien von nicht europäischen Anbietern abzubauen und konsequent auf europäische Anbieter zu setzen. ",
+      "recipients": [
+        "BKAmt",
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003955",
+      "org_name": "Bundesverband IT-Mittelstand e.V. (BITMi)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003955/74573",
+      "regulatory_project_title": "Digitale Souveränität zum Leitmotiv machen",
+      "sending_date": "2026-05-08",
+      "upload_date": "2026-08-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4d/2d/831278/Stellungnahme-Gutachten-SG2608110026.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608110026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608110026",
+      "summary": "Digitale Souveränität ist eine, wenn nicht die zentrale wirtschafts- und industriepolitische Aufgabe der nächsten Jahre. Deshalb muss sie das Leitmotiv für alle digitalpolitischen Bestrebungen dieses Jahrzehnts sein. Als BITMi setzen wir uns für eine ambitionierte Strategie hin zu mehr digitaler Souveränität Deutschlands ein. Wir definieren den Begriff als die Fähigkeit, die digitale Transformation in allen wesentlichen Bereichen nach eigenen Wertvorstellungen und mithilfe eigener, vertrauenswürdiger Lösungen „Made in Germany & Europe“ zu gestalten. Entlang dieser Definition fordern wir einseitige Abhängigkeiten von digitalen Technologien von nicht europäischen Anbietern abzubauen und konsequent auf europäische Anbieter zu setzen. ",
+      "recipients": [
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002168",
       "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/84522",
@@ -459,7 +661,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Forderung betrifft die verfassungsrechtliche Verankerung von Klimaschutz und Klimaanpassung als Gemeinschaftsaufgabe, was direkte Auswirkungen auf die Finanzierungsstrukturen und die Umsetzung der nationalen Energiewende sowie die Klimaschutzziele der Unterabteilung IIIA hat.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003427",
@@ -70576,5 +70778,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 813
+  "gemini_filtered_out": 818
 }
