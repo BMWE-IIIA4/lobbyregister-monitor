@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T04:16:12.410083+02:00",
-  "newly_added": 7,
+  "generated_at": "2026-08-16T04:23:20.203503+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R006633",
@@ -29,7 +29,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft das Energiewirtschaftsrecht, den Netzausbau sowie die Regulierung von Solaranlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000283",
@@ -503,7 +503,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Vorschlag betrifft die Wettbewerbsfähigkeit der europäischen Wirtschaft und den EU-Binnenmarkt, was direkt mit den Themenfeldern 'EU-Energiepolitik' und 'Wettbewerbsfähigkeit im EU-Binnenmarkt' der Unterabteilung IIIA korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003955",
