@@ -1,6 +1,19 @@
 {
   "runs": [
     {
+      "timestamp": "2026-08-17T04:22:29.134965+02:00",
+      "run_number": "178",
+      "run_url": "https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/runs/31987729389",
+      "trigger": "Automatisch (täglich)",
+      "email_sent": true,
+      "metrics": {
+        "total_entries": 1556,
+        "new_entries": 0,
+        "pending_ai": 0,
+        "filtered_out": 818
+      }
+    },
+    {
       "timestamp": "2026-08-16T04:23:35.954886+02:00",
       "run_number": "177",
       "run_url": "https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/runs/31921743434",
@@ -635,19 +648,6 @@
         "new_entries": 124,
         "pending_ai": 0,
         "filtered_out": 580
-      }
-    },
-    {
-      "timestamp": "2026-06-29T07:58:17.378115+02:00",
-      "run_number": "128",
-      "run_url": "https://github.com/BMWE-IIIA4/lobbyregister-monitor/actions/runs/28351720519",
-      "trigger": "Automatisch (täglich)",
-      "email_sent": true,
-      "metrics": {
-        "total_entries": 1043,
-        "new_entries": 22,
-        "pending_ai": 0,
-        "filtered_out": 545
       }
     }
   ]
