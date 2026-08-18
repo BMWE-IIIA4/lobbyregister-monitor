@@ -1,7 +1,110 @@
 {
-  "generated_at": "2026-08-17T04:22:09.636624+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-08-18T04:18:10.324711+02:00",
+  "newly_added": 3,
   "statements": [
+    {
+      "register_number": "R008138",
+      "org_name": "H2vorOrt",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008138/83769",
+      "regulatory_project_title": "Transformation der Gasnetze zur Klimaneutralität ermöglichen",
+      "sending_date": "2026-07-07",
+      "upload_date": "2026-08-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4a/6f/831597/Stellungnahme-Gutachten-SG2608170002.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2608170002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608170002",
+      "summary": "Die Initiative <b>fordert</b> die <b>Transformation der Gasnetzinfrastruktur</b> zur Erreichung der Klimaneutralität. Dabei steht der Aufbau eines <b>Wasserstoffnetzes</b> auf Fernleitungs- und Verteilnetzebene im Fokus, um die Nutzung von Wasserstoff und Biomethan zu ermöglichen. Die Umsetzung soll durch <b>regulatorische Rahmenbedingungen</b> im Energiewirtschaftsgesetz (EnWG) sowie durch spezifische Festlegungen der Bundesnetzagentur flankiert werden. Wesentliche Maßnahmen umfassen die <b>Umwidmung bestehender Leitungen</b>, gezielte Ergänzungsneubauten sowie die geordnete Stilllegung nicht mehr benötigter Infrastruktur. Zudem werden <b>Finanzierungsbedingungen für Verteilnetze</b> adressiert, um die notwendigen Investitionen in die Infrastruktur abzusichern. Ziel ist es, die Gasnetze als integralen Bestandteil einer klimaneutralen Energieversorgung zu etablieren.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Transformation der Gasnetzinfrastruktur hin zu Wasserstoff und Biomethan, was direkt mit der nationalen Kraftwerksstrategie, der Sektorkopplung und den regulatorischen Rahmenbedingungen für die Energiewende korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004009",
+      "org_name": "AquaVentus Förderverein e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004009/84771",
+      "regulatory_project_title": "Windenergie-auf-See-Gesetz - WindSeeG",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-08-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/c8/831653/Stellungnahme-Gutachten-SG2608170005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608170005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608170005",
+      "summary": "Der AquaVentus Förderverein <b>begrüßt</b> den Gesetzesentwurf zur <b>Beschleunigung des Wasserstoff-Markthochlaufes</b>. Die Einstufung der Wasserstofferzeugung auf See als <b>überragendes öffentliches Interesse</b> wird ausdrücklich unterstützt. Für den technologischen Erfolg ist ein <b>risikogerechtes Auktionsdesign</b> für die ersten Projekte zwingend erforderlich. Zudem fordert der Verein die gezielte Realisierung auf den <b>SEN-1 Flächen</b>. Abschließend wird die Notwendigkeit einer <b>europäisch angebundenen Sammelpipeline</b> für den Abtransport der produzierten Mengen betont.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das WindSeeG betrifft direkt die Offshore-Windenergie und die Erzeugung von erneuerbarem Wasserstoff auf See, was unter die Themenfelder 'Erneuerbare Energien' und 'EU-Rahmenbedingungen erneuerbarer Wasserstoff' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004009",
+      "org_name": "AquaVentus Förderverein e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004009/84771",
+      "regulatory_project_title": "BSH-Konsultation: 2. Änderung des FEP 2025 (BSH, 19. Juni 2026)",
+      "sending_date": "2026-08-11",
+      "upload_date": "2026-08-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/50/7d/831655/Stellungnahme-Gutachten-SG2608170004.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608170004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608170004",
+      "summary": "Das Bundesamt für Seeschifffahrt und Hydrographie (BSH) <b>schlägt Anpassungen</b> am Flächenentwicklungsplan 2025 vor, um den <b>Offshore-Ausbau</b> effizienter zu gestalten. Die Überprüfung der noch nicht bezuschlagten Flächen reagiert auf aktuelle Entwicklungen seit der ursprünglichen Planung im Januar 2026. Für die Flächen N-10.1 und N-10.2 werden verschiedene Optionen unter Einbeziehung des Energiegewinnungsbereichs SEN-1 zur <b>Optimierung der Flächennutzung</b> geprüft. Gleichzeitig wird die <b>Ausschreibung verschoben</b>, da die Flächen N-12.4 und N-12.5 nicht wie geplant im Jahr 2027 zur Vergabe kommen sollen. Diese Entscheidung führt zu einer <b>zeitlichen Verzögerung der Inbetriebnahme</b> dieser Windparks. Die Maßnahme zielt darauf ab, die <b>Verstetigung des Ausbaus</b> der Windenergie auf See unter veränderten Rahmenbedingungen sicherzustellen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Anpassung des Flächenentwicklungsplans (FEP) für Offshore-Windenergie betrifft direkt die Ausbauziele und die Infrastrukturplanung im Bereich Erneuerbare Energien, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R006633",
       "org_name": "Verband für nachhaltige Agri-Photovoltaik (VnAP) e.V.",
