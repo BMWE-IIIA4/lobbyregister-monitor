@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-18T04:18:10.324711+02:00",
-  "newly_added": 3,
+  "generated_at": "2026-08-19T04:20:58.218562+02:00",
+  "newly_added": 5,
   "statements": [
+    {
+      "register_number": "R001144",
+      "org_name": "World Vision Deutschland e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001144/84648",
+      "regulatory_project_title": "Erhöhung der Finanzmittel für kinderzentrierte Aktionsfelder der humanitären Hilfe, Übergangshilfe und Entwicklungszusammenarbeit",
+      "sending_date": "2026-08-18",
+      "upload_date": "2026-08-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/93/ec/832296/Stellungnahme-Gutachten-SG2608180013.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608180013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608180013",
+      "summary": "Kinderzentrierte Entwicklungszusammenarbeit und Humanitäre Hilfe erhöht nachweislich die Wirtschaftlichkeit und Wirksamkeit von ODA-Investitionen. Ein finanzieller Aufwuchs der Haushaltsmittel in Titeln, aus welchen zivilgesellschaftliche Träger Finanzierungen für die Umsetzung von Projekten der humanitären Hilfe (EP 05), Übergangshilfe und Entwicklungszusammenarbeit (EP 23) erhalten, stärkt Kindeswohl und mittelfristig die wirtschaftliche Entwicklung von Ländern niedrigen und mittleren Einkommens. Empfohlen wird kinderrelevante Budgetpositionen zu schützen und über 5 Jahre auf mindestens 10 Prozent der deutschen ODA zu steigern.",
+      "recipients": [
+        "AA",
+        "BKAmt",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R008138",
       "org_name": "H2vorOrt",
@@ -53,7 +80,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Transformation der Gasnetzinfrastruktur hin zu Wasserstoff und Biomethan, was direkt mit der nationalen Kraftwerksstrategie, der Sektorkopplung und den regulatorischen Rahmenbedingungen für die Energiewende korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004009",
@@ -78,7 +105,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das WindSeeG betrifft direkt die Offshore-Windenergie und die Erzeugung von erneuerbarem Wasserstoff auf See, was unter die Themenfelder 'Erneuerbare Energien' und 'EU-Rahmenbedingungen erneuerbarer Wasserstoff' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004009",
@@ -103,7 +130,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des Flächenentwicklungsplans (FEP) für Offshore-Windenergie betrifft direkt die Ausbauziele und die Infrastrukturplanung im Bereich Erneuerbare Energien, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006633",
@@ -912,6 +939,31 @@
       "priority": 2,
       "gemini_relevanz": "Das Gesetz berührt durch die Einstufung von Energie- und Wasserstoffinfrastruktur als überragendes öffentliches Interesse direkt die energiepolitischen Ziele und die Umsetzung der Energiewende der Unterabteilung IIIA.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R008170",
+      "org_name": "H2APEX Nova Holding GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008170/75265",
+      "regulatory_project_title": "Entwurf eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "sending_date": "2026-03-25",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f3/bd/831948/Stellungnahme-Gutachten-SG2608070019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608070019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070019",
+      "summary": "Der Entwurf <b>schlägt</b> eine <b>Weiterentwicklung der Treibhausgasminderungs-Quote</b> vor, um den Markthochlauf klimaneutraler Kraftstoffe gezielt zu beschleunigen. Im Zentrum steht dabei die <b>Stärkung von grünem Wasserstoff</b> sowie sogenannten RFNBOs innerhalb des Verkehrssektors. Durch die Anpassung der regulatorischen Rahmenbedingungen sollen langfristige Investitionssicherheit für die notwendige <b>Erzeugung und Infrastruktur</b> geschaffen werden. Die Maßnahme zielt darauf ab, den Einsatz <b>klimaneutraler Kraftstoffe</b> durch verlässliche Vorgaben effizienter zu gestalten. Damit leistet der Entwurf einen Beitrag zur Dekarbonisierung des Sektors und zur Umsetzung europäischer Vorgaben für erneuerbare Energien.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für erneuerbare Energien und Wasserstoff (RFNBO), welche direkt in das Aufgabengebiet der Unterabteilung IIIA (EU-Rahmenbedingungen erneuerbarer Wasserstoff) fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R007165",
@@ -8666,6 +8718,30 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R003945",
+      "org_name": "Deutscher Tierschutzbund e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003945/82693",
+      "regulatory_project_title": "Änderung der Tierschutzgesetzgebung des Bundes",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-07-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9c/ee/832085/Stellungnahme-Gutachten-SG2607080006.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2607080006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607080006",
+      "summary": "Der Deutsche Tierschutzbund strebt die Anpassung sämtlicher Tierschutzgesetzgebung an das Staatsziel Tierschutz im Grundgesetz an. Dies umfasst sämtliche Regelungen der landwirtschaftlichen Tierhaltung, der Haltung von Heimtieren, der Durchführung von Tierversuchen, dem Umgang mit Wildtieren sowie Fragen des praktischen Tierschutzes, also der Tierschutzvereine und Tierheime in Deutschland. Sämtliche politische Aktivitäten des Verbandes streben eine Verbesserung der Tierschutzgesetzgebung zum Wohl der Tiere an, speziell eine Novellierung des Tierschutzgesetzes sowie der Tierschutz-Nutztierhaltungsverordnungen (bestehend oder noch zu erlassen).",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002571",
       "org_name": "LANXESS AG",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002571/82573",
@@ -8866,6 +8942,48 @@
       "priority": 1,
       "gemini_relevanz": "Betrifft die Wärmewende und regulatorische Rahmenbedingungen für Energieversorger, was unter Klimaschutz & Energiewende sowie Energiepreise fällt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001817",
+      "org_name": "Deutscher Alpenverein e.V. (DAV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001817/67660",
+      "regulatory_project_title": "Änderung/ Ergänzung Klimaschutzgesetz",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-07-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d9/a1/832051/Stellungnahme-Gutachten-SG2607070002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607070002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607070002",
+      "summary": "Die Bundesregierung <b>schlägt die Einführung eines Maßnahmenprogramms</b> im Rahmen des Klimaschutzgesetzes vor, um die nationalen Klimaziele verbindlich zu erreichen. Dieses Instrument soll sicherstellen, dass bei drohenden Zielverfehlungen in einzelnen Sektoren <b>konkrete Nachsteuerungsmechanismen</b> greifen. Durch die verpflichtende Ausgestaltung des Programms wird die <b>sektorübergreifende Verantwortung</b> für die Einhaltung der Treibhausgasminderungsziele gestärkt. Die Neuregelung zielt darauf ab, die <b>Transformation des Energiesystems</b> durch eine engere Verzahnung von Klimaschutzvorgaben und sektoralen Maßnahmen zu beschleunigen. Damit wird ein <b>verbindlicher Rahmen für die Klimapolitik</b> geschaffen, der die langfristige Planungssicherheit für die Energiewirtschaft erhöht. Die Maßnahme dient der Umsetzung der nationalen Klimaschutzziele unter Berücksichtigung der europäischen Vorgaben.",
+      "recipients": [
+        "AA",
+        "BKAmt",
+        "BMF",
+        "BMJV",
+        "BMVg",
+        "BMI",
+        "BMAS",
+        "BMBFSFJ",
+        "BMDS",
+        "BMFTR",
+        "BMG",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMWSB",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Klimaschutzgesetz ist ein zentrales Instrument der deutschen Energie- und Klimapolitik und berührt direkt die Zuständigkeiten der Unterabteilung IIIA, insbesondere im Hinblick auf die Langfristszenarien, die Sektorkopplung und die Transformation des Energiesystems.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002277",
@@ -29160,6 +29278,33 @@
         "BKAmt",
         "BMUKN",
         "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002096",
+      "org_name": "game - Verband der deutschen Games-Branche",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002096/77723",
+      "regulatory_project_title": "EU-Gesetz über digitale Fairness (Digital Fairness Act)",
+      "sending_date": "2026-06-08",
+      "upload_date": "2026-06-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1b/9b/832155/Stellungnahme-Gutachten-SG2606160056.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2606160056",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606160056",
+      "summary": "Der game begrüßt grundsätzlich digitale Fairness und eine Vereinfachung der Vorschriften für Unternehmen in der EU. Allerdings müssen dafür die bewährten und gelernten Geschäftsmodelle und akzeptierte Geschäftspraktiken im Gesetzgebungsprozess verstanden werden, damit keine überschießenden Eingriffe in das Recht am eingerichteten und ausgeübten Gewerbebetrieb von Games-Unternehmen und die Vertragsfreiheit von Publishern und ihren Spielerinnen und Spielern vorgenommen werden. Insbesondere einen zusätzlichen und parallel anwendbaren Minderjährigen-Verbraucherschutz neben dem bereits bestehenden Jugendschutz sieht die Games-Branche skeptisch und befürchtet hier nicht nur eine Doppelregulierung, sondern eine faktische Verdrängung des bewährten Jugendschutzes in Deutschland. ",
+      "recipients": [
+        "BMJV",
+        "BMBFSFJ",
+        "BMFTR",
+        "Bundestag"
       ],
       "fields": [
         {
@@ -70881,5 +71026,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 818
+  "gemini_filtered_out": 821
 }
