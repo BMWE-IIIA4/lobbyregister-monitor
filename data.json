@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-08-19T04:20:58.218562+02:00",
-  "newly_added": 5,
+  "generated_at": "2026-08-20T04:19:42.578117+02:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R002090",
+      "org_name": "Deutscher Sparkassen- und Giroverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002090/84845",
+      "regulatory_project_title": "Vorschläge zur Weiterentwicklung des europäischen Verbraucherrechts im Zuge der Ausgestaltung und Umsetzung der Verbraucheragenda 2025 - 2030",
+      "sending_date": "2026-08-18",
+      "upload_date": "2026-08-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2c/05/832591/Stellungnahme-Gutachten-SG2608190010.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608190010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608190010",
+      "summary": "Wir setzen uns für einen wirksamen, verhältnismäßigen, kohärenten und praxistauglichen Verbraucherschutz ein. Dabei sollen nachweisbare Schutzbedarfe, die tatsächliche Wirkung bestehender Regelungen sowie die Belange von Wettbewerb, Innovation und praktischer Umsetzbarkeit berücksichtigt und unnötige Komplexität, Doppelregulierungen und Informationsüberlastung vermieden werden. Insbes. sprechen wir uns für eine grundsätzlich abschließende Harmonisierung im EU-Verbraucherrecht aus; soweit Umsetzungsspielräume bestehen, sollen nationale Verschärfungen vermieden werden. Weiterhin sollten die Ausweitung verbraucherschutzrechtlicher Regelungen auf Verträge zwischen Unternehmen (B2B) vermieden, Bürokratie bei Einführung neuer Regelungen abgebaut und ausreichende Übergangsfristen gewährt werden.",
+      "recipients": [
+        "BMF",
+        "BMJV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001144",
       "org_name": "World Vision Deutschland e. V.",
@@ -963,7 +992,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für erneuerbare Energien und Wasserstoff (RFNBO), welche direkt in das Aufgabengebiet der Unterabteilung IIIA (EU-Rahmenbedingungen erneuerbarer Wasserstoff) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007165",
@@ -8983,7 +9012,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Klimaschutzgesetz ist ein zentrales Instrument der deutschen Energie- und Klimapolitik und berührt direkt die Zuständigkeiten der Unterabteilung IIIA, insbesondere im Hinblick auf die Langfristszenarien, die Sektorkopplung und die Transformation des Energiesystems.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002277",
@@ -71026,5 +71055,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 821
+  "gemini_filtered_out": 822
 }
