@@ -1,7 +1,347 @@
 {
-  "generated_at": "2026-08-20T04:19:42.578117+02:00",
-  "newly_added": 1,
+  "generated_at": "2026-08-21T04:25:44.282148+02:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R002477",
+      "org_name": "Amprion GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002477/84941",
+      "regulatory_project_title": "Optimierung des Offshore-Wind-Ausbaus und der dazu gehörenden Netzinfrastruktur in der AWZ",
+      "sending_date": "2026-03-31",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a0/f3/833468/Stellungnahme-Gutachten-SG2608200030.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2608200030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200030",
+      "summary": "Die Initiative <b>schlägt eine Optimierung</b> des Offshore-Wind-Ausbaus sowie der zugehörigen Netzinfrastruktur in der deutschen Ausschließlichen Wirtschaftszone vor. Dabei sollen durch die <b>Weiterentwicklung technischer Standards</b> und Netzanschlussregeln sowie eine Anpassung des Ausschreibungsdesigns signifikante Effizienzgewinne erzielt werden. Ein besonderer Fokus liegt auf der <b>grenzüberschreitenden Zusammenarbeit</b> und der strategischen Einbindung der Wasserstoffproduktion. Durch eine effizientere Auslastung der Infrastruktur soll der <b>volkswirtschaftliche Nutzen maximiert</b> werden. Gleichzeitig zielt das Vorhaben darauf ab, die <b>finanzielle Belastung der Stromkunden</b> durch eine optimierte Kostenstruktur zu minimieren. Die Überprüfung der Flächenzuschnitte und des bestehenden Zielsystems dient dabei als zentrale Grundlage für die angestrebte <b>Effizienzsteigerung im Offshore-Bereich</b>.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die Netzoptimierung sowie die EU-Rahmenbedingungen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002756",
+      "org_name": "Bundesverband des Schornsteinfegerhandwerks - Zentralinnungsverband (ZIV) -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002756/84940",
+      "regulatory_project_title": "Änderungen am Gebäudemodernisierungsgesetz",
+      "sending_date": "2026-08-01",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/06/12/833412/Stellungnahme-Gutachten-SG2608200032.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608200032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200032",
+      "summary": "Das Gebäudemodernisierungsgesetz (GMG) sollte folgende Ziele verfolgen:  \r\n\r\nSicherstellung eines funktionierenden Vollzugs der EPBD\r\nVermeidung von Vollzugslücken nach Wegfall der bisherigen §§71–72 GEG\r\nEinbindung des bevollmächtigten Bezirksschornsteinfegers als hoheitliche Prüfinstanz\r\nAufbau eines nationalen Gebäudekatasters gemäß Artikel 22 EPBD\r\nSicherstellung der Inspektionspflichten gemäß Artikel 23 EPBD\r\nBeitrag zur Datengrundlage der Renovierungsstrategie gemäß Artikel 13 EPBD\r\n",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002756",
+      "org_name": "Bundesverband des Schornsteinfegerhandwerks - Zentralinnungsverband (ZIV) -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002756/84940",
+      "regulatory_project_title": "Änderungen am Gebäudemodernisierungsgesetz",
+      "sending_date": "2026-08-01",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/43/833414/Stellungnahme-Gutachten-SG2608200033.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608200033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200033",
+      "summary": "Das Gebäudemodernisierungsgesetz (GMG) sollte folgende Ziele verfolgen:  \r\n\r\nSicherstellung eines funktionierenden Vollzugs der EPBD\r\nVermeidung von Vollzugslücken nach Wegfall der bisherigen §§71–72 GEG\r\nEinbindung des bevollmächtigten Bezirksschornsteinfegers als hoheitliche Prüfinstanz\r\nAufbau eines nationalen Gebäudekatasters gemäß Artikel 22 EPBD\r\nSicherstellung der Inspektionspflichten gemäß Artikel 23 EPBD\r\nBeitrag zur Datengrundlage der Renovierungsstrategie gemäß Artikel 13 EPBD\r\n",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002756",
+      "org_name": "Bundesverband des Schornsteinfegerhandwerks - Zentralinnungsverband (ZIV) -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002756/84940",
+      "regulatory_project_title": "Änderung der Verordnung über die Überprüfung und Kehrung von Anlagen (Kehr- und Überprüfungsordnung - KÜO)",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/52/f0/833416/Stellungnahme-Gutachten-SG2608200029.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608200029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200029",
+      "summary": "Ziel ist es, auf neue Risiken in Bezug auf Betriebs- und Brandsicherheit, auf aktuelle Rechtsprechung den technischen Fortschritt, Emissionsziele sowie gestiegene Kosten zu reagieren. ",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002756",
+      "org_name": "Bundesverband des Schornsteinfegerhandwerks - Zentralinnungsverband (ZIV) -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002756/84940",
+      "regulatory_project_title": "Änderung der Verordnung über die Überprüfung und Kehrung von Anlagen (Kehr- und Überprüfungsordnung - KÜO)",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c1/bd/833418/Stellungnahme-Gutachten-SG2608200031.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608200031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200031",
+      "summary": "Ziel ist es, auf neue Risiken in Bezug auf Betriebs- und Brandsicherheit, auf aktuelle Rechtsprechung den technischen Fortschritt, Emissionsziele sowie gestiegene Kosten zu reagieren. ",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000552",
+      "org_name": "Verband der Hersteller von Textil-, Papier-, Leder- und Pelzhilfs- und -farbmitteln, Tensiden, Komplexbildnern, Antimikrobiellen Mitteln, Polymeren Flockungsmitteln, Kosmetischen Rohstoffen und Pharmazeutischen Hilfsstoffen oder verwandten Produkten e. V. - Verband TEGEWA e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000552/84906",
+      "regulatory_project_title": "EU-Kommunalabwasserrichtlinie (KARL)",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1e/8f/832995/Stellungnahme-Gutachten-SG2608200001.pdf",
+      "pdf_pages": 28,
+      "sg_number": "SG2608200001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200001",
+      "summary": "Mit Artikel 9,10, Anhang III der EU-Kommunalabwasserrichtlinie (KARL) wird eine erweiterte Herstellerverantwortung zur Implementierung einer vierten Reinigungsstufe in kommunalen Kläranlagen, u.a. für Kosmetikproduktehersteller, eingeführt, die eine Zahlungspflicht für bestimmte Substanzen, die als Mikroschadstoffe eingestuft werden, in einem Kosmetikprodukt auslösen, sofern dieser als Mikroschadstoff eingestufter Stoff weiterhin im Produkt, das in Verkehr gebracht werden soll, genutzt werden soll.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000335",
+      "org_name": "Arbeitsgemeinschaft Deutscher Waldbesitzerverbände (AGDW) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000335/84918",
+      "regulatory_project_title": "Anpassung bzw. Ergänzung des Aktionsprogramm Natürlicher Klimaschutz 2.0",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/99/7e/833134/Stellungnahme-Gutachten-SG2608200010.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608200010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200010",
+      "summary": "Die AGDW setzt sich für eine aktive nachhaltige Waldbewirtschaftung ein, die sich auch entsprechend im ANK 2.0 abbilden sollte. Extensivierung und Nutzungsverzicht werden dagegen skeptisch gesehen.",
+      "recipients": [
+        "BMLEH",
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000166",
+      "org_name": "Verband der Landwirtschaftskammern (VLK)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000166/84907",
+      "regulatory_project_title": "Entwurf einer Weiterentwicklung Aktionsprogramm Natürlicher Klimaschutz  (AKN 2.0)",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7f/e5/833003/Stellungnahme-Gutachten-SG2608200002.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608200002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200002",
+      "summary": "Das BMUKN hat den Entwurf einer Weiterentwicklung des Aktionsprogramms Natürlicher Klimaschutz (AKN 2.0) vorgelegt.\r\nDer VLK setzt sich in seiner Stellungnahme zum AKN 2.0 für eine bessere Beachtung landwirtschaftlicher Belange ein.\r\n",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000111",
+      "org_name": "Allianz der öffentlichen Wasserwirtschaft e.V. (AöW)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000111/84936",
+      "regulatory_project_title": "Aktionsprogramm Natürlicher Klimaschutz (ANK): Weiterentwicklung unter Berücksichtigung wasserwirtschaftlicher Belange",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5d/4c/833292/Stellungnahme-Gutachten-SG2608200024.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608200024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200024",
+      "summary": "Ziel der Interessenvertretung ist die Weiterentwicklung des Aktionsprogramms Natürlicher Klimaschutz (ANK) unter Berücksichtigung wasserwirtschaftlicher Belange. Dabei sollen insbesondere die Fördermaßnahmen zum Landschaftswasserhaushalt, Wasserrückhalt, zur Grundwasserneubildung sowie zur Gewässer- und Auenentwicklung praxisgerecht ausgestaltet und mit bestehenden wasserwirtschaftlichen Planungen und Umsetzungsstrukturen verknüpft werden. Zudem sollen Synergien mit Klimaanpassung, Hochwasserschutz und öffentlicher Wasserversorgung berücksichtigt werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000111",
+      "org_name": "Allianz der öffentlichen Wasserwirtschaft e.V. (AöW)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000111/84936",
+      "regulatory_project_title": "Änderung des Kreislaufwirtschaftsgesetzes (KrWG): Stärkung wasserwirtschaftlicher Belange bei Abfallberatung und Herstellerverantwortung",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/95/2c/833365/Stellungnahme-Gutachten-SG2608200025.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608200025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200025",
+      "summary": "Ziel der Interessenvertretung ist die Berücksichtigung wasserwirtschaftlicher Belange bei der Änderung des Kreislaufwirtschaftsgesetzes. Angestrebt werden eine praxisgerechte Flexibilisierung der Kaskadennutzung mit Blick auf Klärschlammverwertung und Phosphorrückgewinnung, weitergehende Regelungen zur sachgerechten Entsorgung von Feuchttüchern und Hygieneartikeln sowie die Einführung einer Herstellerverantwortung für hierdurch verursachte Entsorgungs- und Reparaturkosten in der Abwasserinfrastruktur. Zudem sollen Arzneimittel in die Beratungspflicht nach § 46 Abs. 3 KrWG aufgenommen werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000111",
+      "org_name": "Allianz der öffentlichen Wasserwirtschaft e.V. (AöW)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000111/84936",
+      "regulatory_project_title": "Aufnahme von Klimaanpassung und Hochwasserschutz als Gemeinschaftsaufgabe nach Art. 91a GG",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/83/bb/833367/Stellungnahme-Gutachten-SG2608200027.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608200027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200027",
+      "summary": "Ziel der Interessenvertretung ist die Erweiterung der Gemeinschaftsaufgaben nach Art. 91a GG um Klimaanpassung und Hochwasserschutz. Damit soll eine dauerhafte gemeinsame Finanzierungsverantwortung von Bund und Ländern für Maßnahmen der Klimaanpassung und des Hochwasserschutzes ermöglicht werden. Dies soll insbesondere auch kommunale und flussgebietsbezogene Maßnahmen sowie entsprechende Kooperationsstrukturen einbeziehen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000111",
+      "org_name": "Allianz der öffentlichen Wasserwirtschaft e.V. (AöW)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000111/84936",
+      "regulatory_project_title": "Aufnahme von Klimaanpassung und Hochwasserschutz als Gemeinschaftsaufgabe nach Art. 91a GG",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/3e/833369/Stellungnahme-Gutachten-SG2608200028.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608200028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200028",
+      "summary": "Ziel der Interessenvertretung ist die Erweiterung der Gemeinschaftsaufgaben nach Art. 91a GG um Klimaanpassung und Hochwasserschutz. Damit soll eine dauerhafte gemeinsame Finanzierungsverantwortung von Bund und Ländern für Maßnahmen der Klimaanpassung und des Hochwasserschutzes ermöglicht werden. Dies soll insbesondere auch kommunale und flussgebietsbezogene Maßnahmen sowie entsprechende Kooperationsstrukturen einbeziehen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002090",
       "org_name": "Deutscher Sparkassen- und Giroverband e.V.",
@@ -71055,5 +71395,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 822
+  "gemini_filtered_out": 833
 }
