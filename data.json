@@ -1,7 +1,139 @@
 {
-  "generated_at": "2026-08-21T04:25:44.282148+02:00",
-  "newly_added": 12,
+  "generated_at": "2026-08-22T04:17:36.570084+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/84977",
+      "regulatory_project_title": "Windenergie auf See Gesetz (WindSeeG)",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-08-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2c/1e/833932/Stellungnahme-Gutachten-SG2608210011.pdf",
+      "pdf_pages": 25,
+      "sg_number": "SG2608210011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608210011",
+      "summary": "Das Bundesministerium für Wirtschaft und Energie <b>schlägt eine Anpassung des Ausschreibungsdesigns</b> für Offshore-Windenergie vor, um den Ausbau effizienter zu gestalten. Dabei soll die <b>Meeresschutzkomponente erhalten</b> bleiben, während gleichzeitig <b>nicht-preisliche Kriterien</b> wie Meeresökologie, Zirkularität und Klimaschutz stärker gewichtet werden. Die <b>zentrale Voruntersuchung</b> für alle Flächen in der ausschließlichen Wirtschaftszone (AWZ) soll künftig verpflichtend umgesetzt werden. Zudem ist ein Prozess für eine <b>verstärkte internationale Koordination</b> der ökosystembasierten Meeresraumplanung vorgesehen. Abschließend zielt das Vorhaben auf eine <b>Überarbeitung der Beschleunigungsgesetzgebung</b> im Flächenentwicklungsplan ab, um die Realisierungszeiten für Windparks auf See signifikant zu verkürzen.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Windenergie-auf-See-Gesetz (WindSeeG) ist ein zentrales Instrument der deutschen Energiepolitik und fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere im Hinblick auf die Offshore-Kooperation, die Erneuerbaren-Energien-Gesetzgebung und die nationale Ausbauplanung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84982",
+      "regulatory_project_title": "Berücksichtigung EE-Wärme in SPD-Initiative Hitzeaktionsplan und UBA-Preisprognosen für Pellets anpassen",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-08-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fd/d3/833700/Stellungnahme-Gutachten-SG2608210004.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608210004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608210004",
+      "summary": "Die SPD fordert aktuell einen Hitzeaktionsplan, mit dem klimapolitische Forderungen einhergehen. Die Wärmewende mit Holz sollte dabei bedacht werden, da der erneuerbare Anteil am Wärmemarkt maßgeblich von Holzenergie getragen wird. Diese ist zudem bezahlbar, verlässlich und zumeist in Deutschland hergestellt. Umso problematischer ist der Kurs des Umweltbundesamtes (UBA), welches der Bundesregierung nachgelagert ist: Statt die energetische Holznutzung faktenbasiert zu bewerten, wird Holzwärme politisch und ideologisch delegitimiert. Dabei werden Holzpellets bei der Prognose an die Erdgaspreise gekoppelt, obwohl zentrale Kostentreiber des Gasmarktes für Pellets keine Relevanz haben. Die Preisprognose soll angepasst werden, dass Holzwärme nicht geschwächt, sondern sachlich eingeordnet wird.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84982",
+      "regulatory_project_title": "Berücksichtigung EE-Wärme in SPD-Initiative Hitzeaktionsplan und UBA-Preisprognosen für Pellets anpassen",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-08-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d0/c0/833702/Stellungnahme-Gutachten-SG2608210005.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608210005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608210005",
+      "summary": "Die SPD fordert aktuell einen Hitzeaktionsplan, mit dem klimapolitische Forderungen einhergehen. Die Wärmewende mit Holz sollte dabei bedacht werden, da der erneuerbare Anteil am Wärmemarkt maßgeblich von Holzenergie getragen wird. Diese ist zudem bezahlbar, verlässlich und zumeist in Deutschland hergestellt. Umso problematischer ist der Kurs des Umweltbundesamtes (UBA), welches der Bundesregierung nachgelagert ist: Statt die energetische Holznutzung faktenbasiert zu bewerten, wird Holzwärme politisch und ideologisch delegitimiert. Dabei werden Holzpellets bei der Prognose an die Erdgaspreise gekoppelt, obwohl zentrale Kostentreiber des Gasmarktes für Pellets keine Relevanz haben. Die Preisprognose soll angepasst werden, dass Holzwärme nicht geschwächt, sondern sachlich eingeordnet wird.",
+      "recipients": [
+        "BMUKN",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002566",
+      "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84982",
+      "regulatory_project_title": "Keine Förderung für Substitution der holzbasierten industriellen Wärmeproduktion durch elektrische Lösungen im ANK",
+      "sending_date": "2026-08-18",
+      "upload_date": "2026-08-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7c/29/833972/Stellungnahme-Gutachten-SG2608210015.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608210015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608210015",
+      "summary": "Bei der Weiterentwicklung des Aktionsprogramms Natürlicher Klimaschutz (ANK) will der DEPV insbesondere bei der „Maßnahme 2.e1: Holz- und sonstige Biomasse-nutzung an Klimaschutzwirkung ausrichten“ erreichen, dass es in der Industrie keine Förderung für die Substition holzbasierten Wärmeproduktion durch elektrische Lösungen geben wird. Die Förderprogramme im Heizungsmarkt fördern nicht den Einsatz von Pellets zur Wärmeerzeugung, sondern Investitionen in Holzanlagen und erneuerbare Heizungsanlagen generell. Das gilt auch für Modul 2 der Bundesförderung für Energie- und Ressourceneffizienz in der Wirtschaft (EEW) in Bezug auf Prozesswärmeanlagen. Wichtig ist, dass sich bei der Wärmewende weiterhin auf die Defossilisierung konzentriert wird und nicht die Dekarbonisierung im Vordergrund steht.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002477",
       "org_name": "Amprion GmbH",
@@ -37,7 +169,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die Netzoptimierung sowie die EU-Rahmenbedingungen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002756",
@@ -2570,6 +2702,33 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/82193",
+      "regulatory_project_title": "Europäischen Binnenmarkt verbraucherfreundlich gestalten",
+      "sending_date": "2026-06-19",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/07/68/833809/Stellungnahme-Gutachten-SG2608040011.pdf",
+      "pdf_pages": 31,
+      "sg_number": "SG2608040011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040011",
+      "summary": "Der Verbraucherzentrale Bundesverband (vzbv) <b>unterstützt</b> die im Arbeitsprogramm der Europäischen Kommission vorgesehene Initiative des <b>Citizens Omnibus</b> zur <b>Vereinfachung des Binnenmarktes</b>. Ziel des Vorhabens ist es, die regulatorischen Rahmenbedingungen für Bürgerinnen und Bürger in verschiedenen Konsumbereichen transparenter und zugänglicher zu gestalten. Der Verband fordert dabei eine konsequente Ausrichtung der EU-Binnenmarktregeln an den Bedürfnissen der Endverbraucher. Durch den Abbau bürokratischer Hürden soll die <b>Verbraucherfreundlichkeit</b> innerhalb der Europäischen Union nachhaltig gestärkt werden. Die Initiative zielt darauf ab, die <b>Wettbewerbsfähigkeit</b> durch eine stärkere Nutzerorientierung zu fördern und den Zugang zu grenzüberschreitenden Dienstleistungen zu erleichtern. Damit adressiert das Vorhaben zentrale Aspekte der europäischen Marktarchitektur, die auch für die Energiepolitik von hoher Relevanz sind.",
+      "recipients": [
+        "BMWE",
+        "BMJV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Citizens Omnibus betrifft die EU-Binnenmarktregulierung, welche direkt mit den Zuständigkeiten der Unterabteilung IIIA (EU-Energiepolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt) korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R002566",
       "org_name": "Deutscher Energieholz- und Pellet-Verband (DEPV)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002566/84184",
@@ -2728,6 +2887,30 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/82193",
+      "regulatory_project_title": "EU-Zollreform verbraucherfreundlich gestalten",
+      "sending_date": "2026-02-09",
+      "upload_date": "2026-08-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/97/56/833755/Stellungnahme-Gutachten-SG2608040014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608040014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608040014",
+      "summary": "Der vzbv unterstützt die Bestrebungen, Online-Marktplätze stärker in die Verantwortung zu nehmen.  Es sollte deutlicher formuliert werden, dass Marktplatzbetreiber zukünftig sicherstellen müssen, dass nur konforme Produkte in den Binnenmarkt gelangen. Der geplante Data Hub sollte schnellstmöglich  umgesetzt werden und die Regeln Anwendung finden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -3655,6 +3838,55 @@
         {
           "code": "FOI_ENVIRONMENT_CLIMATE",
           "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/82193",
+      "regulatory_project_title": "Stärkung der Verbraucherrechte bei Bahnreisen",
+      "sending_date": "2026-07-16",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/f0/833799/Stellungnahme-Gutachten-SG2607300007.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2607300007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300007",
+      "summary": "Der vzbv unterstützt das EU-Vorhaben zur Reform der Bahngastrechte und setzt sich für die Absenkung von Anforderungen einer \"einzige Fahrkarte\" ein. Es darf keine Ausnahmen beim Schutzumfang mit der \"einzigen Fahrkarte\" geben. Bei Problemen muss es für Reisende mehr Ansprechstellen zur Gel-tendmachung von Bahngastansprüchen geben.",
+      "recipients": [
+        "BMJV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/82193",
+      "regulatory_project_title": "Verbraucherfreundliche Wärmewende im Gebäudebereich",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-07-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7a/37/833803/Stellungnahme-Gutachten-SG2607300014.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2607300014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300014",
+      "summary": "Der vzbv setzt sich ein für klare und verbraucherfreundliche Leitplanken für die Wärmeversorgung, die Planungssicherheit schaffen, Fehlanreize zugunsten fossiler Heizungen vermeiden und Verbraucher:innen vor steigenden Energie- und Wohnkosten schützen",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
         }
       ],
       "priority": 1,
@@ -71395,5 +71627,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 833
+  "gemini_filtered_out": 839
 }
