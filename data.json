@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T04:17:36.570084+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-08-23T04:26:07.582955+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R001579",
@@ -36,7 +36,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Windenergie-auf-See-Gesetz (WindSeeG) ist ein zentrales Instrument der deutschen Energiepolitik und fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere im Hinblick auf die Offshore-Kooperation, die Erneuerbaren-Energien-Gesetzgebung und die nationale Ausbauplanung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002566",
@@ -2726,7 +2726,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Citizens Omnibus betrifft die EU-Binnenmarktregulierung, welche direkt mit den Zuständigkeiten der Unterabteilung IIIA (EU-Energiepolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt) korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002566",
