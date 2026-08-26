@@ -1,7 +1,405 @@
 {
-  "generated_at": "2026-08-25T04:20:37.806738+02:00",
-  "newly_added": 7,
+  "generated_at": "2026-08-26T04:27:02.407780+02:00",
+  "newly_added": 13,
   "statements": [
+    {
+      "register_number": "R004009",
+      "org_name": "AquaVentus Förderverein e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004009/85081",
+      "regulatory_project_title": "Netzentwicklungsplan Strom",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1a/92/834833/Stellungnahme-Gutachten-SG2608250006.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608250006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250006",
+      "summary": "Die vier deutschen Übertragungsnetzbetreiber <b>legen den Netzentwicklungsplan Strom vor</b>, um den notwendigen Ausbau der Übertragungsinfrastruktur für die Energiewende zu definieren. Das Dokument <b>identifiziert den erforderlichen Netzausbaubedarf</b>, um die steigenden Mengen an erneuerbaren Energien effizient in das Stromnetz zu integrieren. Dabei werden verschiedene Szenarien für die zukünftige Stromerzeugung und den Verbrauch analysiert, um die <b>Versorgungssicherheit langfristig zu gewährleisten</b>. Der Plan dient als Grundlage für die <b>Netzausbauplanung</b> und die Umsetzung der klimapolitischen Ziele der Bundesregierung. Er berücksichtigt dabei sowohl den Ausbau von Offshore-Windparks als auch die Anbindung neuer Lastzentren durch Sektorkopplung. Die <b>Optimierung der Netzstruktur</b> steht im Fokus, um Redispatch-Maßnahmen zu minimieren und die Effizienz des Stromsystems zu steigern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Netzentwicklungsplan (NEP) ist ein zentrales Instrument der Stromnetzplanung und steht in direktem Zusammenhang mit den Themenfeldern 'Strommarktdesign & -regulierung' sowie 'Klimaschutz & Energiewende' der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85098",
+      "regulatory_project_title": "Änderungsvorschläge an WPG und EnWG auf Bundesebene zur integrierten Energieinfrastrukturplanung",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6f/47/834931/Stellungnahme-Gutachten-SG2608250016.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2608250016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250016",
+      "summary": "Der BDEW <b>fordert</b> eine <b>bessere Abstimmung</b> der gesetzlichen Planungsprozesse für die kommunale Wärmeplanung sowie die Entwicklung der Strom-, Gas- und Wasserstoffnetze. Ziel ist eine <b>integrierte Energieinfrastrukturplanung</b>, die eine effiziente Zusammenarbeit zwischen Infrastrukturbetreibern und Kommunen sicherstellt. Hierfür wird ein <b>bedarfsgerechter Datenaustausch</b> zwischen den beteiligten Akteuren als essenziell erachtet. Zudem soll die Koordination zwischen benachbarten Kommunen gestärkt werden, um die Transformation der Energiesysteme zu beschleunigen. Die rechtlichen Rahmenbedingungen in WPG und EnWG sollen dabei so angepasst werden, dass sie <b>zusätzliche Bürokratie vermeiden</b> und praxistaugliche Abläufe ermöglichen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die integrierte Energieinfrastrukturplanung, welche direkt mit den Aufgabenbereichen Strommarktregulierung, Sektorkopplung und den gesetzlichen Rahmenbedingungen für Energienetze der Unterabteilung IIIA korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000788",
+      "org_name": "Bundesverband Bioenergie e.V. (BBE) und Fachverband Holzenergie (FVH) im BBE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000788/85083",
+      "regulatory_project_title": "Änderungen im Erneuerbare-Energien-Gesetz zur Stärkung der Bioenergiebranche",
+      "sending_date": "2026-07-29",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f9/0e/834888/Stellungnahme-Gutachten-SG2608250012.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2608250012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250012",
+      "summary": "Die Bioenergiebranche <b>fordert eine Anpassung des EEG</b>, um die wirtschaftliche Stabilität und Zukunftsfähigkeit der Branche zu sichern. Zentrales Anliegen ist der <b>Abbau von Bürokratie</b> sowie die Beseitigung regulatorischer Hemmnisse, die den Ausbau von Anlagen derzeit erschweren. Durch die <b>Stärkung von Anreizsystemen</b> sollen Investitionen in Erneuerbare-Energien-Anlagen gezielt gefördert werden. Zudem wird die <b>Ermöglichung neuer Geschäftsmodelle</b> angestrebt, um die Flexibilität der Branche zu erhöhen. Eine <b>praxisgerechte Umsetzung</b> bestehender Vorschriften soll dabei helfen, die Effizienz im operativen Betrieb zu steigern. Abschließend unterstreicht das Vorhaben die Bedeutung der Bioenergie für den <b>Umwelt- und Klimaschutz</b> im Rahmen der nationalen Energiewende.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000788",
+      "org_name": "Bundesverband Bioenergie e.V. (BBE) und Fachverband Holzenergie (FVH) im BBE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000788/85083",
+      "regulatory_project_title": "Änderungen im Erneuerbare-Energien-Gesetz zur Stärkung der Bioenergiebranche",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6b/ab/834890/Stellungnahme-Gutachten-SG2608250014.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2608250014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250014",
+      "summary": "Die Bioenergiebranche <b>fordert eine Anpassung</b> der gesetzlichen Rahmenbedingungen im EEG, um deren <b>Wirtschaftlichkeit nachhaltig zu stärken</b>. Zentrales Anliegen ist der <b>Abbau von Bürokratie</b> sowie die Beseitigung regulatorischer Hemmnisse, die den Ausbau von Anlagen derzeit erschweren. Durch die <b>Stärkung von Anreizsystemen</b> sollen Investitionen in Erneuerbare-Energien-Anlagen attraktiver gestaltet werden. Zudem wird die <b>Ermöglichung neuer Geschäftsmodelle</b> angestrebt, um die Flexibilität der Branche zu erhöhen. Eine praxisgerechte Umsetzung bestehender Vorschriften soll dabei helfen, die Effizienz im Betrieb zu steigern. Abschließend unterstreicht das Vorhaben die Bedeutung der Bioenergie für den <b>Umwelt- und Klimaschutz</b> im Rahmen der Energiewende.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000788",
+      "org_name": "Bundesverband Bioenergie e.V. (BBE) und Fachverband Holzenergie (FVH) im BBE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000788/85083",
+      "regulatory_project_title": "EEG schnell reformieren: Flexibilität sichern, Vergütung stärken, Kleinanlagen fördern.",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/2c/834892/Stellungnahme-Gutachten-SG2608250009.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608250009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250009",
+      "summary": "Die Bioenergieverbände <b>begrüßen das Biomassepaket</b>, fordern jedoch eine grundlegende Anpassung des EEG zur Sicherung der Anlagenbestände. Zur Steigerung der <b>betriebswirtschaftlichen Freiheit</b> wird die Einführung eines Strommengenmodells für eine flexiblere Fahrweise vorgeschlagen. Zudem verlangen die Verbände eine <b>Erhöhung der Vergütungssätze</b> sowie der Ausschreibungsvolumina, um neue Investitionsanreize zu schaffen. Für Kleinanlagen werden <b>verbesserte Rahmenbedingungen</b> durch höhere Zuschläge und verlängerte Anschlussregelungen angemahnt. Die Zulassung von Biomethan sowie die Anerkennung ökologisch wertvoller Substrate sollen die <b>Bioenergiepotenziale voll ausschöpfen</b>. Ziel dieser Maßnahmen ist die Stärkung der Versorgungssicherheit, des Klimaschutzes und der regionalen Wertschöpfung durch eine optimierte Nutzung der Bioenergie.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft direkt die EEG-Finanzierung, die Flexibilisierung der Stromerzeugung sowie die Förderung erneuerbarer Energien, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000788",
+      "org_name": "Bundesverband Bioenergie e.V. (BBE) und Fachverband Holzenergie (FVH) im BBE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000788/85083",
+      "regulatory_project_title": "Bestandsschutz sichern und nachhaltig erzeugtes Biomethan vollständig von unnötigen Emissionshandels- und Berichtspflichten befreien.",
+      "sending_date": "2026-04-21",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/39/2f/834894/Stellungnahme-Gutachten-SG2608250008.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2608250008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250008",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>begrüßt die Anpassung</b> der Emissionshandelsverordnung, <b>fordert</b> jedoch eine praxisnahe Umsetzung der RED III. Die Organisation verlangt die konsequente <b>Übernahme von Bestandsschutzregelungen</b> für Bestandsanlagen in das TEHG sowie die EU-ETS-Systeme. Die geplante 70-Prozent-THG-Minderungsschwelle für Biomethan wird als <b>marktfremd kritisiert</b>, da sie die Realität der Anlagenbetreiber ignoriert. Stattdessen sollen für die Bewertung des Energieträgers künftig <b>zertifizierte Realwerte</b> maßgeblich sein. Zudem wird eine <b>vollständige Befreiung</b> von Emissionshandels- und Berichtspflichten für nachhaltiges Biomethan angestrebt. Begründet wird dies mit dem Emissionsfaktor Null, wodurch bei einer Einbeziehung kein zusätzlicher Klimanutzen generiert würde.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für erneuerbare Energien (Biomethan), die Schnittstelle zum EU-Emissionshandel (ETS 1/2) sowie die Umsetzung der RED III, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000788",
+      "org_name": "Bundesverband Bioenergie e.V. (BBE) und Fachverband Holzenergie (FVH) im BBE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000788/85083",
+      "regulatory_project_title": "Kaskadennutzung im Ordnungsrecht streichen, Bio-Treppe schließen/verschärfen und Biomasse/Grüngase diskriminierungsfrei anrechenbar machen.",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2e/30/834898/Stellungnahme-Gutachten-SG2608250011.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2608250011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250011",
+      "summary": "Die Bioenergieverbände <b>kritisieren</b> die im Entwurf vorgesehene <b>ordnungsrechtliche Kaskadenpflicht</b> für Holz und fordern deren ersatzlose Streichung, da diese nicht RED-III-konform und in der Praxis kaum umsetzbar sei. Sie warnen vor einer Gefährdung der Wärmewende sowie etablierter Verwertungsketten durch diese Vorgaben. Zudem mahnen die Verbände die Schließung einer <b>Regelungslücke</b> an, die für seit Anfang 2024 installierte Öl- und Gasheizungen durch den Wegfall der bisherigen Bio-Treppe entstanden ist. Es wird vorgeschlagen, diese Anlagen in eine jährlich ansteigende <b>Bio-Treppe</b> zu überführen, die bis 2045 eine vollständige Anrechenbarkeit erreicht. Des Weiteren fordern die Verbände eine <b>diskriminierungsfreie Anrechenbarkeit</b> von Biomasse und Grüngasen. Abschließend lehnen sie die Anrechenbarkeit von importiertem Biomethan ab, sofern dieses im Herkunftsland bereits signifikant gefördert wurde.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die regulatorischen Rahmenbedingungen für Bioenergie und Biogas im Kontext der Wärmewende und der EU-Erneuerbare-Energien-Richtlinie (RED III), welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000549",
+      "org_name": "Verein Deutscher Zementwerke e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000549/85042",
+      "regulatory_project_title": "Reform der EU-Emissionshandelsrichtlinie",
+      "sending_date": "2026-08-14",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8c/fe/834608/Stellungnahme-Gutachten-SG2608250001.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608250001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250001",
+      "summary": "Die EU <b>evaluiert</b> im Sommer 2026 die <b>Marktstabilitätsreserve</b> sowie weitere zentrale Elemente des <b>Europäischen Emissionshandelssystems</b>. Ziel dieser Überprüfung ist es, die Wirksamkeit des Systems im Hinblick auf die Erreichung der verbindlichen <b>europäischen Klimaziele</b> zu bewerten. Dabei soll untersucht werden, ob eine <b>Anpassung der Rahmenbedingungen</b> notwendig ist, um die Dekarbonisierung der europäischen Wirtschaft weiter voranzutreiben. Die Analyse umfasst eine umfassende Bestandsaufnahme der bisherigen Instrumente zur Emissionsminderung. Auf Basis dieser Ergebnisse könnten <b>zusätzliche Maßnahmen</b> zur Stärkung des Zertifikatehandels eingeleitet werden. Der Prozess dient der langfristigen Sicherung der klimapolitischen Ambitionen innerhalb der EU.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Reform des EU-Emissionshandels (EU-ETS) und die Überprüfung der Marktstabilitätsreserve (MSR) fallen direkt in den Zuständigkeitsbereich der EU-Klimapolitik und der EU-Zielarchitektur 2030/2040 der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/85053",
+      "regulatory_project_title": "Ausschreibungsedesign Windenergie Offshore",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/24/834669/Stellungnahme-Gutachten-SG2608250002.pdf",
+      "pdf_pages": 72,
+      "sg_number": "SG2608250002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250002",
+      "summary": "Das Papier <b>schlägt</b> eine <b>effiziente Ausgestaltung</b> des Ausschreibungsdesigns für Windenergie auf See vor, um den Ausbau der Offshore-Windkraft gezielt voranzutreiben. Dabei steht die <b>Realisierung von Windenergieparks</b> im Zentrum der strategischen Überlegungen. Durch eine optimierte Gestaltung der Ausschreibungen sollen bestehende <b>Investitionsrisiken reduziert</b> werden. Ziel ist es, die <b>Realisierungswahrscheinlichkeit</b> der geplanten Projekte signifikant zu erhöhen. Die Maßnahmen zielen darauf ab, die Rahmenbedingungen für Investoren zu verbessern und die Effizienz im Ausschreibungsprozess zu steigern. Damit soll ein verlässlicher Beitrag zur Erreichung der nationalen Ausbauziele geleistet werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen sowie die nationale Umsetzung der Erneuerbaren Energien und die Stromerzeugung, welche Kernbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001008",
+      "org_name": "Deutsche Vereinigung für Wasserwirtschaft Abwasser und Abfall e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001008/85075",
+      "regulatory_project_title": "Rahmenbedingungen Phosphorrückgewinnungskapazitäten bis 2029 gem. Verpflichtungen der KlärschlammV, AbfklärV, DepV",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/00/834792/Stellungnahme-Gutachten-SG2608250005.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608250005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250005",
+      "summary": "Die Klärschlammverordnung bestimmt, dass ab 2029 alle kommunalen Klärschlämme einem\r\nPhosphorrecycling zuzuführen sind. Für die Sicherstellung der ordnungsgemäßen Entsorgung müssen bis 2029 große Kapazitäten zur thermischen Vorbehandlung von Klärschlamm sowie für ein Recycling bzw.\r\ndie Rückgewinnung des in den Aschen enthaltenen Phosphors aufgebaut werden. Aktuelle Prognosen weisen jedoch auf eine erhebliche Kapazitätslücke für die Phosphorrückgewinnung hin. Die DWA benennt den Handlungsbedarf für den Gesetz- und Verordnungsgeber auf Bundes- und Landesebene (u.a. Anpassung der Landesregelungen zu den Abwasserentgelten, Anpassung des Düngerechts, ggf. Zwischenlagermöglichkeiten) um möglichst ausreichende Kapazitäten bis 2029 aufzubauen, damit die rechtlichen Vorgaben erfüllt werden können.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000965",
+      "org_name": "BVI Bundesverband Investment und Asset Management",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000965/85105",
+      "regulatory_project_title": "Einführung einer Frühstart-Rente",
+      "sending_date": "2026-07-31",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dd/73/835045/Stellungnahme-Gutachten-SG2608250025.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608250025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250025",
+      "summary": "Die Bundesregierung plant eine sog. Frühstartrente für Kinder und Jugendliche von 6 bis 18 Jahren. Wir begrüßen die Einführung einer Frühstart-Rente und setzen uns dafür ein, dass sie Hand in Hand mit einer Reform der privaten geförderten Altersvorsorge geht. Damit das Konzept der Bundesregierung zur Förderung des Ausbaus der privaten Altersvorsorge erfolgreich wird, müssen die Ideen der Frühstart-Rente und ein Anschlussvorsorgeprodukt miteinander verbunden werden. Es ist daher sinnvoll, Fondssparpläne verstärkt für den Aufbau einer Frühstart-Rente zu nutzen.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85098",
+      "regulatory_project_title": "Änderungsvorschläge zum TKG-Änderungsgesetz 2026 für Glasfaserausbau und Investitionsschutz",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/9e/834975/Stellungnahme-Gutachten-SG2608250017.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2608250017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250017",
+      "summary": "Der BDEW fordert eine investitions- und wettbewerbsfreundliche Ausgestaltung des TKG-Änderungsgesetzes 2026. Er setzt sich für eine diskriminierungsfreie Kupfer-Glas-Migration mit transparenten Migrationsplänen und objektiven Abschaltkriterien ein. Der BDEW fordert eine grundlegende Überarbeitung der §§ 22a und 22b TKG-E, um zusätzliche Zugangs- und Entgeltregulierung zu begrenzen, freiwillige Open-Access-Modelle zu schützen und die wirtschaftliche Tragfähigkeit von Glasfaserinvestitionen zu sichern. Zudem fordert der BDEW, sicherheitssensible Infrastruktur- und Geodaten von zentralen Übermittlungs- und Speicherpflichten im Gigabit-Grundbuch auszunehmen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMDS",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000788",
+      "org_name": "Bundesverband Bioenergie e.V. (BBE) und Fachverband Holzenergie (FVH) im BBE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000788/85083",
+      "regulatory_project_title": "Biomasse-Deckel und Methan-Hürden im WPG abschaffen: Wärmenetze auch im ländlichen Raum verpflichtend prüfen, Biomasseanteile nicht begrenzen.",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-08-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/c0/834896/Stellungnahme-Gutachten-SG2608250010.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608250010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608250010",
+      "summary": "Das HBB kritisiert den RefE zur WPG-Novelle, weil er in der „kleinen Wärmeplanung“ leitungsgebundene Versorgung im ländlichen Raum strukturell unterschätzt: Kommunen sollen verpflichtend prüfen, ob Wärmenetze nach § 22a Abs. 2 geeignet sind und bei positivem Ergebnis „Prüfgebiet Wärmenetz“ ausweisen. Zudem sollen die pauschalen Biomassebegrenzungen in großen Wärmenetzen (>50 km) für neue Netze und für 2045 ersatzlos gestrichen werden. Für „grünes Methan“ fordert das HBB den Abbau unverhältnismäßiger Anforderungen (u. a. Streichung § 28 Abs. 2; Wegfall/Überarbeitung der „Wirtschaftlichkeits“-Hürde in § 22a Abs. 4 Satz 2) sowie die Streichung des bundeslandspezifischen Bedarfs-/Potenzialabgleichs (§ 28 Abs. 5 Satz 2). ",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001875",
       "org_name": "Siemens AG",
@@ -25,7 +423,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Änderung des Data Act betrifft die Nutzung industrieller Produktdaten und Cloud-Wechselvorgaben, was direkte Auswirkungen auf die Digitalisierung der Energiewirtschaft, die industrielle KI-Anwendung und die Wettbewerbsfähigkeit im EU-Binnenmarkt hat.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -522,7 +920,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Revision der CO2-Flottengesetzgebung für Pkw und Vans ist als Teil der EU-Klimapolitik und der Sektorkopplung (E-Mobilität) für die Unterabteilung IIIA relevant, da sie die EU-Zielarchitektur 2030/2040 sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt direkt beeinflusst.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002034",
@@ -547,7 +945,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Revision der CO2-Flottengesetzgebung für Pkw und Vans ist als Teil der EU-Klimapolitik und des 'Fit for 55'-Pakets direkt relevant für die EU-Energiepolitik und die Sektorkopplung, welche in den Aufgabenbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002034",
@@ -572,7 +970,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Revision der CO2-Flottengesetzgebung für Pkw und Vans ist als Teil der EU-Klimapolitik und des 'Fit for 55'-Pakets direkt relevant für die EU-Energiepolitik und die Sektorkopplung, welche in den Themenfeldern der Unterabteilung IIIA verankert sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002034",
@@ -597,7 +995,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Revision der CO2-Flottengesetzgebung für Pkw und Vans ist als Teil der EU-Klimapolitik und des 'Fit for 55'-Pakets direkt relevant für die Dekarbonisierungsstrategien und die Sektorkopplung im Rahmen der Energiepolitik.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002034",
@@ -622,7 +1020,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Industrial Accelerator Act betrifft die EU-Industriepolitik und Wettbewerbsfähigkeit, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit im EU-Binnenmarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002034",
@@ -647,7 +1045,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Industrial Accelerator Act betrifft die EU-Industriepolitik und Wettbewerbsfähigkeit, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt, Clean Industrial Deal) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002090",
@@ -71802,5 +72200,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 839
+  "gemini_filtered_out": 843
 }
