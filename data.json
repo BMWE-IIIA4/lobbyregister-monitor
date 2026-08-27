@@ -1,7 +1,127 @@
 {
-  "generated_at": "2026-08-26T04:27:02.407780+02:00",
-  "newly_added": 13,
+  "generated_at": "2026-08-27T13:06:12.520629+02:00",
+  "newly_added": 4,
   "statements": [
+    {
+      "register_number": "R002984",
+      "org_name": "easyJet Europe Airline GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002984/85168",
+      "regulatory_project_title": "Verhältnismäßige Umsetzung des Gesetzes zum Markthochlauf nachhaltiger Flugkraftstoffe",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/59/1f/835684/Stellungnahme-Gutachten-SG2608270006.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608270006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270006",
+      "summary": "easyJet <b>fordert eine verhältnismäßige Ausgestaltung</b> des Gesetzes zum Markthochlauf nachhaltiger Flugkraftstoffe (SAF), um die regulatorischen Vorgaben an die tatsächliche Marktentwicklung anzupassen. Die Fluggesellschaft <b>mahnt klare Ausnahmeregelungen</b> bei der Betankungspflicht an, um eine Überforderung der Branche zu vermeiden. Zudem wird die <b>Vermeidung doppelter finanzieller Belastungen</b> durch Gebühren oder Sanktionen verlangt. Die Airline <b>spricht sich gegen zusätzliche Ticketabgaben</b> zur Finanzierung des SAF-Hochlaufs aus. Stattdessen sollten Sanktionseinnahmen gezielt in die <b>Förderung des SAF-Hochlaufs</b> reinvestiert werden. Abschließend betont das Unternehmen die Notwendigkeit, die <b>Produktionskapazitäten zu steigern</b> und eine flächendeckende Verfügbarkeit an deutschen Flughäfen sicherzustellen.",
+      "recipients": [
+        "BMV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Dekarbonisierung des Verkehrs durch erneuerbare Kraftstoffe (SAF) und die damit verbundenen regulatorischen Rahmenbedingungen für den Markthochlauf, was in den Bereich der Energiepolitik und Klimaschutzstrategien der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002326",
+      "org_name": "BASF SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002326/85087",
+      "regulatory_project_title": "EU-Grenzausgleichmechanismus, EU-Emissionshandel und EU 2040 Klimaziel",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/89/dd/835605/Stellungnahme-Gutachten-SG2608270001.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608270001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270001",
+      "summary": "Die chemische Industrie <b>fordert</b> eine <b>wettbewerbsfähigkeitsfördernde Umsetzung</b> der EU-Beschlüsse zum Emissionshandel (ETS) und zum Grenzausgleichsmechanismus (CBAM). Die Branche verlangt den <b>Erhalt der freien Zuteilung</b> von Zertifikaten sowie eine Erweiterung der Sektorenliste für den Schutz vor indirekten CO2-Kosten. Zudem wird die <b>Berücksichtigung von CCU</b> im ETS für kurzlebige Produkte sowie die Anerkennung internationaler Zertifikate angemahnt. Eine Überführung in den CBAM wird aufgrund mangelnder Schutzwirkung für den Sektor explizit <b>abgelehnt</b>. Für das <b>EU-Klimaziel 2040</b> wird ein realistischer Abschmelzpfad gefordert, der zwingend an die Verfügbarkeit notwendiger infrastruktureller und wettbewerblicher Rahmenbedingungen gekoppelt sein muss. Die Industrie betont die Notwendigkeit eines effektiven <b>Carbon Leakage Schutzes</b> zur Sicherung der industriellen Basis.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, den EU-Emissionshandel (ETS) sowie den EU-Grenzausgleichsmechanismus (CBAM), welche zentrale Bestandteile der EU-Energie- und Industriepolitik und damit der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001137",
+      "org_name": "Vattenfall GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001137/85160",
+      "regulatory_project_title": "Änderung bestehender Rahmenbedingungen im Bereich Offshore",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d4/1c/835635/Stellungnahme-Gutachten-SG2608270003.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608270003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270003",
+      "summary": "Das Dokument <b>schlägt eine Optimierung</b> der bestehenden <b>Rahmenbedingungen</b> für den Offshore-Ausbau vor. Ziel ist eine gezielte <b>Anpassung des Ausschreibungs-Designs</b>, um die Effizienz und Attraktivität der Projekte zu steigern. Dabei sollen regulatorische Hürden abgebaut werden, um den Ausbau der erneuerbaren Energien auf See zu beschleunigen. Die vorgeschlagenen Maßnahmen zielen darauf ab, die <b>Investitionssicherheit</b> für Akteure im Bereich Offshore-Windkraft zu erhöhen. Zudem soll durch die Neugestaltung der Ausschreibungen eine <b>bessere Integration</b> in das Stromsystem erreicht werden. Diese Anpassungen sind essenziell, um die nationalen und europäischen Klimaziele im Sektor der Stromerzeugung fristgerecht zu erfüllen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen und die EU-Rahmenbedingungen für erneuerbare Energien, welche explizit in den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002046",
+      "org_name": "Verband Biologie, Biowissenschaften und Biomedizin in Deutschland (VBIO e. V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002046/84429",
+      "regulatory_project_title": "UVP - Anpassungsgesetz",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f7/4f/835622/Stellungnahme-Gutachten-SG2608270002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608270002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270002",
+      "summary": "Standards der UVP nicht weiter absenken (z. B. in Hinblick auf die Anhebung der Schwellenwerte für die zwingende UVP oder auf Ausnahmen von der standortbezogenen Vorprüfung bei Änderungsvorhaben). Datenerhebung beibehalten um Vergleichswerte (Baseline) zu sichern.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R004009",
       "org_name": "AquaVentus Förderverein e.V.",
@@ -29,7 +149,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Netzentwicklungsplan (NEP) ist ein zentrales Instrument der Stromnetzplanung und steht in direktem Zusammenhang mit den Themenfeldern 'Strommarktdesign & -regulierung' sowie 'Klimaschutz & Energiewende' der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -62,7 +182,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die integrierte Energieinfrastrukturplanung, welche direkt mit den Aufgabenbereichen Strommarktregulierung, Sektorkopplung und den gesetzlichen Rahmenbedingungen für Energienetze der Unterabteilung IIIA korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000788",
@@ -96,7 +216,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000788",
@@ -130,7 +250,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000788",
@@ -164,7 +284,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft direkt die EEG-Finanzierung, die Flexibilisierung der Stromerzeugung sowie die Förderung erneuerbarer Energien, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000788",
@@ -198,7 +318,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für erneuerbare Energien (Biomethan), die Schnittstelle zum EU-Emissionshandel (ETS 1/2) sowie die Umsetzung der RED III, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000788",
@@ -232,7 +352,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die regulatorischen Rahmenbedingungen für Bioenergie und Biogas im Kontext der Wärmewende und der EU-Erneuerbare-Energien-Richtlinie (RED III), welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000549",
@@ -261,7 +381,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Reform des EU-Emissionshandels (EU-ETS) und die Überprüfung der Marktstabilitätsreserve (MSR) fallen direkt in den Zuständigkeitsbereich der EU-Klimapolitik und der EU-Zielarchitektur 2030/2040 der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000252",
@@ -287,7 +407,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen sowie die nationale Umsetzung der Erneuerbaren Energien und die Stromerzeugung, welche Kernbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001008",
@@ -72200,5 +72320,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 843
+  "gemini_filtered_out": 844
 }
