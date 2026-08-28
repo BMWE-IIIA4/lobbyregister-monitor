@@ -1,7 +1,191 @@
 {
-  "generated_at": "2026-08-27T13:06:12.520629+02:00",
-  "newly_added": 4,
+  "generated_at": "2026-08-28T14:38:49.329737+02:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/85205",
+      "regulatory_project_title": "Finanzierung der Netzentgelte",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/24/7b/836024/Stellungnahme-Gutachten-SG2608280001.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608280001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280001",
+      "summary": "Die vorliegende Initiative <b>schlägt vor</b>, die <b>Netzentgelte</b> künftig direkt aus dem <b>Bundeshaushalt</b> zu finanzieren. Ziel dieser Maßnahme ist eine spürbare <b>Entlastung der Strompreise</b> für Endverbraucher und Unternehmen, um die Wettbewerbsfähigkeit des Industriestandorts Deutschland zu stärken. Durch die staatliche Übernahme der Kosten soll der finanzielle Druck auf die Netznutzer gemindert werden, der maßgeblich durch den notwendigen Netzausbau im Zuge der Energiewende entsteht. Die Debatte adressiert dabei die <b>Finanzierungslücke</b>, die durch den Wegfall des Wirtschaftsstabilisierungsfonds entstanden ist. Kritiker verweisen auf die haushaltspolitischen Herausforderungen und die Notwendigkeit einer dauerhaften, verlässlichen Finanzierungslösung. Eine solche Umstellung würde eine grundlegende <b>Reform der Netzentgeltstruktur</b> erfordern, um die systemische Stabilität der Stromnetze weiterhin zu gewährleisten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Finanzierung von Netzentgelten ist ein zentraler Bestandteil der Strommarktregulierung und der Kostenstruktur der Energiewende, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign, Stromerzeugung und Energiekosten) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/85205",
+      "regulatory_project_title": "ETS 1 - Konditionalitäten an Transformationsfähigkeit knüpfen",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3d/fb/836051/Stellungnahme-Gutachten-SG2608280004.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608280004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280004",
+      "summary": "Das BMUKN <b>fordert</b> im Rahmen des ETS 1-Review-Prozesses, die <b>Konditionalitäten</b> für die Zuteilung von Emissionsrechten stärker an die tatsächliche <b>Transformationsfähigkeit</b> der betroffenen Unternehmen zu knüpfen. Ziel ist es, die Anreizwirkung des EU-Emissionshandels für eine tiefgreifende Dekarbonisierung der Industrie zu erhöhen. Dabei soll sichergestellt werden, dass staatliche Unterstützung oder privilegierte Zuteilungen gezielt in <b>klimaneutrale Technologien</b> fließen. Der Prozess zielt darauf ab, die <b>EU-Klimaziele</b> durch eine effizientere Ausgestaltung der ETS-Mechanismen abzusichern. Gleichzeitig soll die <b>Wettbewerbsfähigkeit</b> der europäischen Industrie im Kontext des Fit-for-55-Pakets gewahrt bleiben. Die Ausgestaltung dieser Kriterien ist entscheidend für die künftige <b>Industrietransformation</b> und die Vermeidung von Carbon Leakage.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Review-Prozess zum EU-Emissionshandel (ETS 1) berührt unmittelbar die EU-Klimapolitik, die EU-Zielarchitektur 2030/2040 sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/85206",
+      "regulatory_project_title": "Neue UVgO als echtes eigenes Unterschwellenvergaberecht etablieren, das mittelständische Interessen berücksichtigt und fördert",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/56/02/836107/Stellungnahme-Gutachten-SG2608280007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608280007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280007",
+      "summary": "Wir unterstützen das mit dem Entwurf verbundene Ziel, die Unterschwellenvergabeordnung (UVgO) zu vereinfachen und die Vergabe von Aufträgen in der Unterschwelle dadurch zu beschleunigen. Wir begrüßen, dass der Losgrundsatz in der neuen Regelung beibehalten bleibt und dass auch die Neufassung der UvgO sicherstellt, dass nur Sonderregelungen Anwendung finden, wenn Planungsleistungen vergeben werden.  Die neue UVgO sollte ein echtes eigenes\r\nUnterschwellenvergaberecht etablieren und nicht mehr, wie bislang, mehr oder weniger eine Nachbildung der VgV darstellen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001924",
+      "org_name": "Bundesverband der Tabakwirtschaft und neuartiger Erzeugnisse (BVTE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001924/85199",
+      "regulatory_project_title": "Kreislaufwirtschaftsgesetz: Verordnungsermächtigung für mögliches Einweg-E-Zigaretten-Verbot unionsrechtlich unzulässig",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f8/5b/836034/Stellungnahme-Gutachten-SG2608280002.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608280002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280002",
+      "summary": "Der Referentenentwurf des Kreislaufwirtschaftsgesetzes beinhaltet eine Verordnungsermächtigung, die nach der Gesetzesbegründung die Rechtsgrundlage für ein mögliches nationales Verbot von Einweg-E-Zigaretten schaffen soll. Aus Sicht des BVTE bestehen ernsthafte Zweifel an der unionsrechtlichen Zulässigkeit der Verordnungsermächtigung. Zum einen stehen mit dem umfassenden Regelungsansatz der Batterieverordnung sowie den Rücknahmepflichten im ElekroG mildere Mittel zur Verfügung. Zum anderen muss ein nationales Verbot im Verordnungswege auf einer hinreichend bestimmten Ermächtigungsgrundlage beruhen.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001924",
+      "org_name": "Bundesverband der Tabakwirtschaft und neuartiger Erzeugnisse (BVTE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001924/85199",
+      "regulatory_project_title": "Kreislaufwirtschaftsgesetz: Verordnungsermächtigung für mögliches Einweg-E-Zigaretten-Verbot unionsrechtlich unzulässig",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b5/f4/836036/Stellungnahme-Gutachten-SG2608280003.pdf",
+      "pdf_pages": 23,
+      "sg_number": "SG2608280003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280003",
+      "summary": "Der Referentenentwurf des Kreislaufwirtschaftsgesetzes beinhaltet eine Verordnungsermächtigung, die nach der Gesetzesbegründung die Rechtsgrundlage für ein mögliches nationales Verbot von Einweg-E-Zigaretten schaffen soll. Aus Sicht des BVTE bestehen ernsthafte Zweifel an der unionsrechtlichen Zulässigkeit der Verordnungsermächtigung. Zum einen stehen mit dem umfassenden Regelungsansatz der Batterieverordnung sowie den Rücknahmepflichten im ElekroG mildere Mittel zur Verfügung. Zum anderen muss ein nationales Verbot im Verordnungswege auf einer hinreichend bestimmten Ermächtigungsgrundlage beruhen.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000111",
+      "org_name": "Allianz der öffentlichen Wasserwirtschaft e.V. (AöW)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000111/85223",
+      "regulatory_project_title": "Freistellung von Maßnahmen zur Erreichung der WRRL-Ziele von der UVP-Pflicht und UVP-Vorprüfung",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7f/c3/836207/Stellungnahme-Gutachten-SG2608280009.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608280009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280009",
+      "summary": "Ziel der Interessenvertretung ist, im Rahmen des UVP-Anpassungsgesetzes eine gesetzliche Regelung für Maßnahmen zur Erreichung der Ziele der Wasserrahmenrichtlinie zu schaffen, nach der diese typisierend von der UVP-Pflicht bzw. UVP-Vorprüfung freigestellt werden und nur in atypischen Fällen eine weitergehende Prüfung erfolgt. Die Regelung soll Neu- und Änderungsvorhaben erfassen und durch klar bestimmte Fallgruppen und Abgrenzungskriterien rechtssicher ausgestaltet werden. Ergänzend wird die Prüfung entsprechender Regelungen für bestimmte Hochwasserschutzmaßnahmen angestrebt.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000111",
+      "org_name": "Allianz der öffentlichen Wasserwirtschaft e.V. (AöW)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000111/85223",
+      "regulatory_project_title": "Freistellung von Maßnahmen zur Erreichung der WRRL-Ziele von der UVP-Pflicht und UVP-Vorprüfung",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/15/71/836209/Stellungnahme-Gutachten-SG2608280010.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2608280010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280010",
+      "summary": "Ziel der Interessenvertretung ist, im Rahmen des UVP-Anpassungsgesetzes eine gesetzliche Regelung für Maßnahmen zur Erreichung der Ziele der Wasserrahmenrichtlinie zu schaffen, nach der diese typisierend von der UVP-Pflicht bzw. UVP-Vorprüfung freigestellt werden und nur in atypischen Fällen eine weitergehende Prüfung erfolgt. Die Regelung soll Neu- und Änderungsvorhaben erfassen und durch klar bestimmte Fallgruppen und Abgrenzungskriterien rechtssicher ausgestaltet werden. Ergänzend wird die Prüfung entsprechender Regelungen für bestimmte Hochwasserschutzmaßnahmen angestrebt.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002984",
       "org_name": "easyJet Europe Airline GmbH",
@@ -30,7 +214,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, die Dekarbonisierung des Verkehrs durch erneuerbare Kraftstoffe (SAF) und die damit verbundenen regulatorischen Rahmenbedingungen für den Markthochlauf, was in den Bereich der Energiepolitik und Klimaschutzstrategien der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002326",
@@ -71,7 +255,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, den EU-Emissionshandel (ETS) sowie den EU-Grenzausgleichsmechanismus (CBAM), welche zentrale Bestandteile der EU-Energie- und Industriepolitik und damit der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001137",
@@ -96,6 +280,39 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen und die EU-Rahmenbedingungen für erneuerbare Energien, welche explizit in den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000828",
+      "org_name": "BAYERNOIL Raffineriegesellschaft mbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000828/85182",
+      "regulatory_project_title": "Umsetzung der RED III in nationales Recht",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/89/835759/Stellungnahme-Gutachten-SG2608270010.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608270010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270010",
+      "summary": "Bayernoil <b>setzt sich für eine ambitionierte Umsetzung</b> der RED III in nationales Recht ein. Das Unternehmen <b>fordert eine Erhöhung des THG-Minderungspfads</b> im Verkehrssektor, um die Dekarbonisierung voranzutreiben. Dabei wird eine <b>Gleichstellung von biogenem Wasserstoff und RFNBO</b> verlangt, um technologische Offenheit zu gewährleisten. Zudem soll der <b>Flug- und Schiffsverkehr in die THG-Quote</b> integriert werden, um die Anreizstrukturen zu erweitern. Abschließend plädiert das Unternehmen für die <b>Anrechnung von Recycled Carbon Fuels</b> auf die Erfüllung der Minderungsziele.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Umsetzung der RED III und die Ausgestaltung der THG-Quote fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere im Kontext der EU-Energiepolitik, Erneuerbare Energien und Sektorkopplung.",
       "gemini_status": "processed"
     },
     {
@@ -112,6 +329,78 @@
       "summary": "Standards der UVP nicht weiter absenken (z. B. in Hinblick auf die Anhebung der Schwellenwerte für die zwingende UVP oder auf Ausnahmen von der standortbezogenen Vorprüfung bei Änderungsvorhaben). Datenerhebung beibehalten um Vergleichswerte (Baseline) zu sichern.",
       "recipients": [
         "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006252",
+      "org_name": "Nexi Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006252/85178",
+      "regulatory_project_title": "Ergänzung der Kassenpflicht um eine verpflichtende digitale Zahlungsoption",
+      "sending_date": "2026-08-11",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/54/6d/835749/Stellungnahme-Gutachten-SG2608270009.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608270009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270009",
+      "summary": "Nexi unterstützt das Ziel des Referentenentwurfs des Bundesministeriums der Finanzen, durch die Einführung einer Kassenpflicht, elektronische Aufzeichnungssysteme und digitale Belege, Steuercompliance, Transparenz und Digitalisierung zu stärken. Ergänzend setzt sich Nexi dafür ein, die im Koalitionsvertrag vorgesehene Wahlfreiheit im Zahlungsverkehr umzusetzen. Unternehmen, die bei Vor-Ort-Geschäften Bargeld annehmen und unter die Kassenpflicht fallen, sollen mindestens eine gängige digitale Zahlungsoption anbieten. Die Regelung soll technologieoffen, bürokratiearm und ohne Mindestzahlbetrag oder Zusatzentgelt ausgestaltet werden. Für technische Störungen und Härtefälle sollen Ausnahmen gelten. Die Verpflichtung soll parallel zur Kassenpflicht ab 1. Januar 2028 gelten.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85195",
+      "regulatory_project_title": "Förderung und Umsetzung des autonomen Fahrens im ÖPNV",
+      "sending_date": "2026-02-12",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0f/50/835821/Stellungnahme-Gutachten-SG2608270014.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608270014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270014",
+      "summary": "Die Initiative verfolgt das Ziel, dass das autonome Fahren im ÖPNV stärker gefördert wird und in die flächendeckende Umsetzung kommt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85195",
+      "regulatory_project_title": "Förderung und Umsetzung des autonomen Fahrens im ÖPNV",
+      "sending_date": "2026-02-12",
+      "upload_date": "2026-08-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/d8/835846/Stellungnahme-Gutachten-SG2608270016.pdf",
+      "pdf_pages": 60,
+      "sg_number": "SG2608270016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608270016",
+      "summary": "Die Initiative verfolgt das Ziel, dass das autonome Fahren im ÖPNV stärker gefördert wird und in die flächendeckende Umsetzung kommt.",
+      "recipients": [
+        "Bundestag"
       ],
       "fields": [
         {
@@ -713,6 +1002,31 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die Netzoptimierung sowie die EU-Rahmenbedingungen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001170",
+      "org_name": "Thüringer Bauernverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001170/83506",
+      "regulatory_project_title": "Erneuerbare Energien Gesetz (EEG) 2027 und Netzanschlusspaket",
+      "sending_date": "2026-08-10",
+      "upload_date": "2026-08-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2e/db/836156/Stellungnahme-Gutachten-SG2608200006.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608200006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608200006",
+      "summary": "Das Bundesministerium für Wirtschaft und Energie <b>schlägt</b> mit dem Referentenentwurf zum EEG 2027 eine <b>Neuausrichtung des Ausbaus erneuerbarer Energien</b> vor. Ziel ist es, die Transformation des Stromsektors durch eine <b>planbare und kosteneffiziente Ausgestaltung</b> der Rahmenbedingungen zu beschleunigen. Der Entwurf fokussiert sich dabei insbesondere auf eine <b>netzverträgliche Integration</b> der Erzeugungsanlagen in das bestehende Stromsystem. Zudem soll durch eine stärkere <b>marktorientierte Steuerung</b> die Effizienz des Ausbaus gesteigert werden. Das begleitende Netzanschlusspaket zielt darauf ab, bürokratische Hürden abzubauen und die <b>Beschleunigung von Netzanschlüssen</b> für Erneuerbare-Energien-Anlagen zu forcieren. Damit reagiert das Ministerium auf die Notwendigkeit, die Kapazitäten für erneuerbaren Strom im Einklang mit den Klimazielen auszubauen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt die nationale Ausgestaltung der Erneuerbaren Energien (EEG), welche in den Themenfeldern der Unterabteilung IIIA explizit unter 'Erneuerbare Energien (National)' und 'Strommarktdesign' gelistet ist.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002756",
@@ -72320,5 +72634,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 844
+  "gemini_filtered_out": 852
 }
