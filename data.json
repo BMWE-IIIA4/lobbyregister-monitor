@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T14:38:49.329737+02:00",
-  "newly_added": 12,
+  "generated_at": "2026-08-29T09:47:36.490908+02:00",
+  "newly_added": 2,
   "statements": [
     {
       "register_number": "R000594",
@@ -25,7 +25,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Finanzierung von Netzentgelten ist ein zentraler Bestandteil der Strommarktregulierung und der Kostenstruktur der Energiewende, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign, Stromerzeugung und Energiekosten) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -54,6 +54,45 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Review-Prozess zum EU-Emissionshandel (ETS 1) berührt unmittelbar die EU-Klimapolitik, die EU-Zielarchitektur 2030/2040 sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R006653",
+      "org_name": "Roundtable Wärmewende",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006653/85228",
+      "regulatory_project_title": "Nutzung innovativer Förderinstrumente in der Energiewende",
+      "sending_date": "2026-02-12",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/59/9d/836288/Stellungnahme-Gutachten-SG2608280013.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608280013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280013",
+      "summary": "Das Papier <b>schlägt vor</b>, staatliche Zuschussmittel in der Wärmewende auf alternativlose Anwendungsfälle zu <b>konzentrieren</b>. Die Hauptlast der Finanzierung soll künftig durch <b>staatliche Förderkredite und Bürgschaften</b> getragen werden, wobei die Kreditbedingungen an realwirtschaftliche Vorgaben anzupassen sind. Zur Entlastung des Bundeshaushalts wird die Schaffung eines <b>nachhaltigen Finanzierungsinstrumentes außerhalb der Schuldenbremse</b> gefordert. Zudem wird eine <b>Aufstockung des Eigenkapitals</b> der Förderbanken angeregt, um die Investitionsfähigkeit zu stärken. Ergänzend sollen innovative Modelle wie <b>Bürgerfonds, Öffentlich-Private Kooperationen und Blended-Finance</b> verstärkt genutzt werden. Diese Maßnahmen zielen darauf ab, die Transformation trotz begrenzter öffentlicher Mittel effizient und nachhaltig zu finanzieren.",
+      "recipients": [
+        "BMF",
+        "BMWE",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Finanzierung der Energiewende, insbesondere durch innovative Instrumente und Förderstrukturen, was direkt mit den Themenfeldern 'Erneuerbare Energien (national)' und 'Klimaschutz & Energiewende' der Unterabteilung IIIA korrespondiert.",
       "gemini_status": "processed"
     },
     {
@@ -187,6 +226,52 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R006653",
+      "org_name": "Roundtable Wärmewende",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006653/85228",
+      "regulatory_project_title": "Umsetzung sektorübergreifender Planungen in der Wärmewende und Vernetzung mit Gebäuderecht",
+      "sending_date": "2026-02-12",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/54/836290/Stellungnahme-Gutachten-SG2608280014.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608280014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280014",
+      "summary": "Einführung einer sektorübergreifenden Planung nach dem Least Cost Planning-Prinzip auf kommunaler Ebene. Umsetzung der kommunalen Wärmeplanung als Energieleitplanung und damit Vernetzung der Wärmeplanung mit dem Gebäudemodernisierungsgesetz. Festhalten von Wärmenetzen als zentrale Infrastruktur der Wärmewende zur Integration erneuerbarer Energien, Abwärme und systemischer Lösungen. Wärmepumpen sollen als zentrale Technologie im Einzelgebäude eingesetzt werden, insbesondere dort, wo keine Wärmenetze verfügbar sind. Ihr Einsatz soll systemdienlich erfolgen und die Kapazitäten des Stromnetzes berücksichtigen. Fokussierung des öffentlichen Mitteleinsatzes auf sektorübergreifende Ansätze. Berücksichtigung des Umfelds und der Siedlungsstrukturen.",
+      "recipients": [
+        "BMF",
+        "BMWE",
+        "BMWSB"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002984",
       "org_name": "easyJet Europe Airline GmbH",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002984/85168",
@@ -313,7 +398,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung der RED III und die Ausgestaltung der THG-Quote fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere im Kontext der EU-Energiepolitik, Erneuerbare Energien und Sektorkopplung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002046",
@@ -1026,7 +1111,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft direkt die nationale Ausgestaltung der Erneuerbaren Energien (EEG), welche in den Themenfeldern der Unterabteilung IIIA explizit unter 'Erneuerbare Energien (National)' und 'Strommarktdesign' gelistet ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002756",
@@ -72634,5 +72719,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 852
+  "gemini_filtered_out": 853
 }
