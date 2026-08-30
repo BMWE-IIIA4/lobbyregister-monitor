@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T09:47:36.490908+02:00",
-  "newly_added": 2,
+  "generated_at": "2026-08-30T08:26:20.469334+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R000594",
@@ -93,7 +93,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Finanzierung der Energiewende, insbesondere durch innovative Instrumente und Förderstrukturen, was direkt mit den Themenfeldern 'Erneuerbare Energien (national)' und 'Klimaschutz & Energiewende' der Unterabteilung IIIA korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002429",
