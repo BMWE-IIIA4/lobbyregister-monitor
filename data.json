@@ -1,7 +1,260 @@
 {
-  "generated_at": "2026-08-31T08:53:07.741287+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-09-01T08:10:57.605686+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R000996",
+      "org_name": "ITAD - Interessengemeinschaft der Thermischen Abfallbehandlungsanlagen in Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000996/85250",
+      "regulatory_project_title": "Im UVP-Anpassungsgesetz klimafreundliche Änderungen an TAB (bspw. Effizienz, Wärmeauskopplung, Elektrifizierung in Anlage 1a UVPG privilegieren.",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0d/97/836514/Stellungnahme-Gutachten-SG2608310002.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608310002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310002",
+      "summary": "Der ITAD <b>begrüßt die Vereinfachung und Beschleunigung</b> von UVP-Verfahren für klimaschutzrelevante Änderungsvorhaben. Der Verband <b>fordert die Aufnahme thermischer Abfallbehandlungsanlagen</b> in die Privilegierung gemäß UVPG-E, um deren Beitrag zur Energiewende zu stärken. Konkret sollen Maßnahmen zur <b>Steigerung der Energieeffizienz</b>, zur <b>Wärmeauskopplung</b> sowie zur <b>Elektrifizierung fossil betriebener Nebenprozesse</b> explizit in Anlage 1a aufgenommen werden. Die Umsetzung soll an klare Kriterien und Schwellenwerte gebunden sein, um negative Umweltauswirkungen auszuschließen. Perspektivisch wird zudem die <b>Einbeziehung von CO2-Abscheidungstechnologien</b> als notwendiger Schritt zur Dekarbonisierung angeregt.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Inhalt betrifft die Dekarbonisierung von Energieerzeugungsanlagen und die Effizienzsteigerung durch Sektorkopplung, was direkt in die Zuständigkeit der Unterabteilung IIIA (Stromerzeugung & Kraftwerke / Klimaschutz) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000916",
+      "org_name": "DVGW Deutscher Verein des Gas- und Wasserfaches e.V. - Technisch-wissenschaftlicher Verein",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000916/85271",
+      "regulatory_project_title": "Verbesserung der Sicherheitsvorgaben für den Bau und Betrieb von Kohlendioxidleitungen.",
+      "sending_date": "2026-08-10",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/44/836683/Stellungnahme-Gutachten-SG2608310012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608310012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310012",
+      "summary": "Die Bundesregierung <b>plant die Einführung</b> einer Kohlendioxidleitungsverordnung, um den <b>Bau und Betrieb</b> von CO2-Infrastrukturen rechtlich zu fundieren. Ziel ist die Schaffung <b>bundesweit einheitlicher Sicherheitsvorgaben</b> für den Transport von abgeschiedenem Kohlendioxid. Durch die Verordnung sollen klare Standards für die <b>technische Überprüfung</b> der Leitungen etabliert werden. Dies dient der notwendigen <b>Regulierung der CCS-Infrastruktur</b> im Rahmen der nationalen Klimaschutzziele. Die Maßnahme soll die <b>Sicherheit der Infrastruktur</b> langfristig gewährleisten und den Ausbau der CO2-Abscheidung unterstützen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die CCS/CCU-Strategie und die regulatorischen Rahmenbedingungen für CO2-Infrastrukturen, welche unter die Zuständigkeit der Unterabteilung IIIA (Dekarbonisierung/Energieinfrastruktur) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000916",
+      "org_name": "DVGW Deutscher Verein des Gas- und Wasserfaches e.V. - Technisch-wissenschaftlicher Verein",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000916/85271",
+      "regulatory_project_title": "Effiziente Nutzung der offshore Windkraft, insb. durch flexible Regeln zu Elektrolyse-Kapazitäten.",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/28/f4/836685/Stellungnahme-Gutachten-SG2608310011.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608310011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310011",
+      "summary": "Der Referentenentwurf <b>reformiert das Windenergie-auf-See-Gesetz</b>, um den Ausbau der Offshore-Windkraft kosteneffizienter und resilienter zu gestalten. Die Neuregelung sieht ein <b>zweistufiges Ausschreibungsmodell</b> vor und führt strengere <b>Präqualifikationskriterien für Cyber- und Datensicherheit</b> ein. Zudem werden Anpassungen bei der Netzanbindung und der Flächenplanung vorgenommen, um die Infrastrukturplanung zu optimieren. Für die Wasserstoffproduktion werden <b>sonstige Energiegewinnungsbereiche für netzgekoppelte Elektrolyse</b> geöffnet. Gleichzeitig werden <b>hybride Konzepte</b> ermöglicht, wobei die Elektrolyse auf Windenergieflächen als Pilotanwendung auf 2,5 % der Netzanbindungskapazität begrenzt bleibt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt die Offshore-Windenergie, die Netzanbindung sowie die Integration von Wasserstoffelektrolyse, welche zentrale Themen der Unterabteilung IIIA (Erneuerbare Energien, Stromerzeugung und EU-Energiepolitik) sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85219",
+      "regulatory_project_title": "Änderungsvorschläge zur Neufassung des EU-Netzkodex für Stromerzeugungsanlagen",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/89/9f/836543/Stellungnahme-Gutachten-SG2608310004.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2608310004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310004",
+      "summary": "Der BDEW <b>fordert Änderungen</b> am EU-Netzkodex für Stromerzeugungsanlagen, um die regulatorischen Anforderungen für Bestandsanlagen zu präzisieren. Insbesondere sollen <b>routinemäßige Instandhaltungsmaßnahmen</b> von einer Einstufung als wesentliche Modernisierung ausgenommen werden. Der Verband verlangt, dass neue technische Anforderungen nur auf tatsächlich modernisierte Anlagenteile Anwendung finden. Zudem lehnt der BDEW eine <b>verpflichtende Kosten-Nutzen-Analyse</b> für Bestandsanlagen ab und plädiert für den Erhalt bestehender Ausnahmeregelungen durch Netzbetreiber. Anlagen, die vor Inkrafttreten des ursprünglichen Netzkodex angeschlossen wurden, sollen weiterhin vollständig vom Anwendungsbereich ausgenommen bleiben. Diese Anpassungen zielen darauf ab, die <b>Investitionssicherheit</b> zu erhöhen und den administrativen Aufwand für Betreiber zu begrenzen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Netzkodex für Stromerzeugungsanlagen (RfG) fällt direkt unter die Zuständigkeit der Unterabteilung IIIA im Bereich Strommarktregulierung und Netzwerkcodes.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85219",
+      "regulatory_project_title": "Beibehaltung von Anhang B der EU-Verordnung 838/2010 zu Übertragungsnetzentgelten",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0e/ca/836545/Stellungnahme-Gutachten-SG2608310005.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2608310005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310005",
+      "summary": "Der BDEW <b>fordert die Beibehaltung</b> von Anhang B der Verordnung (EU) Nr. 838/2010 bezüglich der Übertragungsnetzentgelte für Stromerzeuger. Die Organisation lehnt eine Aufhebung der bestehenden Vorgaben ab, solange keine tragfähige alternative Regelung für den europäischen Binnenmarkt vorliegt. Ziel dieser Positionierung ist die <b>Vermeidung von Wettbewerbsverzerrungen</b> zwischen Erzeugungsanlagen in benachbarten EU-Mitgliedstaaten. Durch die Begrenzung der Erzeugernetzentgelte soll zudem der <b>grenzüberschreitende Stromhandel</b> vor negativen Auswirkungen geschützt werden. Der Verband betont die Notwendigkeit stabiler Rahmenbedingungen, um die <b>Wettbewerbsfähigkeit im EU-Binnenmarkt</b> zu sichern. Eine vorzeitige Änderung ohne Ersatzlösung wird als Risiko für die Marktintegrität bewertet.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Strommarktregulierung und die Vorgaben zu Übertragungsnetzentgelten, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Strommarktregulierung) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/85268",
+      "regulatory_project_title": "Gesetz zur Verbesserung des Netzanschlussverfahrens",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/22/a3/836658/Stellungnahme-Gutachten-SG2608310009.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2608310009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310009",
+      "summary": "Das vorliegende Papier <b>fordert eine Reform des Netzanschlussverfahrens</b>, um dieses eng mit der EEG-Novelle zu verzahnen und konsistente Investitionssignale zu gewährleisten. Zur <b>Beschleunigung des Netzausbaus</b> sollen Standorte für erneuerbare Energien künftig systemorientiert gesteuert werden, um Engpässe und Systemkosten zu minimieren. Ein zentraler Punkt ist die <b>Überarbeitung des Redispatch-Vorbehalts</b>, wobei klare Regeln und eine Begrenzung der Risiken für Projektbetreiber gefordert werden. Zudem wird eine <b>regional differenzierte Gestaltung der Baukostenzuschüsse</b> angeregt, die fair in das bestehende Fördersystem integriert werden soll. Die <b>Digitalisierung der Verfahren</b> wird grundsätzlich unterstützt, wobei jedoch realistische Fristen und ein <b>Bestandsschutz für laufende Projekte</b> als essenziell erachtet werden. Abschließend wird auf die Notwendigkeit hingewiesen, sensible Netzdaten im Kontext von KRITIS-Anforderungen verstärkt zu schützen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Gesetz zur Verbesserung des Netzanschlussverfahrens betrifft direkt die Themenfelder Stromerzeugung, Erneuerbare Energien und Strommarktregulierung, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000611",
+      "org_name": "Stadtwerke München GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000611/85268",
+      "regulatory_project_title": "EEG 2027 Entwurf eines Gesetzes für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der EE im Stromsektor",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/9c/836660/Stellungnahme-Gutachten-SG2608310008.pdf",
+      "pdf_pages": 21,
+      "sg_number": "SG2608310008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310008",
+      "summary": "Das Bundesministerium für Wirtschaft und Klimaschutz <b>schlägt</b> mit dem Referentenentwurf zum EEG 2027 eine <b>Neuausrichtung des Ausbaus erneuerbarer Energien</b> vor. Ziel ist eine <b>treibhausgasneutrale Stromversorgung</b>, die durch eine gesteigerte Planbarkeit und Kosteneffizienz gekennzeichnet ist. Der Entwurf fokussiert auf eine <b>netzverträgliche Integration</b> der Erzeugungskapazitäten, um die Stabilität des Stromsystems langfristig zu sichern. Dabei soll ein marktorientierter Ansatz die wirtschaftliche Wettbewerbsfähigkeit des Standorts Deutschland stärken. Die Transformation wird als integrativer Prozess verstanden, der Klimaschutzziele mit sozialer Ausgewogenheit und technologischen Innovationen verknüpft. Das Gesetz dient als zentrales Steuerungsinstrument, um den wachsenden Anteil erneuerbarer Energien effizient in den Strommarkt zu überführen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf des EEG 2027 fällt direkt in die Zuständigkeit der Unterabteilung IIIA, insbesondere in die Themenfelder Erneuerbare Energien (national) sowie Strommarktdesign und -regulierung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/85281",
+      "regulatory_project_title": "Natürlichen Klimaschutz im Siedlungsraum qualitätsvoll und dauerhaft umsetzen",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-08-31",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/83/95/836742/Stellungnahme-Gutachten-SG2608310015.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608310015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608310015",
+      "summary": "Die BAK hat sich zur geplanten Weiterentwicklung des Aktionsprogramms Natürlicher Klimaschutz positioniert. Sie begrüßt die Fortführung und Intensivierung des natürlichen Klimaschutzes im Siedlungsraum sowie die Weiterentwicklung der kommunalen Förderung. Zugleich setzt sie sich für ambitioniertere Förderziele, eine stärkere Berücksichtigung von Qualität und Multifunktionalität bei Grün- und Freiflächen sowie eine Förderung der gesamten Umsetzungskette von Planung und Beteiligung bis zu Pflege, Monitoring und Evaluation ein. Darüber hinaus fordert sie eine verlässliche Finanzierung der Pflege, die stärkere Berücksichtigung von Umweltgerechtigkeit und der vielfältigen Funktionen von Grünflächen sowie die Einbeziehung der Landschaftsplanung in Fort- und Ausbildungsmaßnahmen.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000594",
       "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
@@ -72719,5 +72972,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 853
+  "gemini_filtered_out": 854
 }
