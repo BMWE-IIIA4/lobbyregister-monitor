@@ -1,7 +1,177 @@
 {
-  "generated_at": "2026-09-01T08:10:57.605686+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-09-02T07:37:20.981067+02:00",
+  "newly_added": 7,
   "statements": [
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/85331",
+      "regulatory_project_title": "Änderung und Überarbeitung der EEG Novelle 2027",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/65/fc/837088/Stellungnahme-Gutachten-SG2609010012.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2609010012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010012",
+      "summary": "E.ON <b>unterstützt</b> die geplante EEG-Novelle 2027 grundsätzlich, <b>fordert</b> jedoch Nachbesserungen bei der praktischen Ausgestaltung und Umsetzbarkeit. Das Unternehmen plädiert für ein <b>einfaches, PPA-freundliches Förderdesign</b>, das eine klare Trennung zwischen staatlicher Förderung und marktbasierten Vermarktungsformen sicherstellt. Zur Förderung der Direktvermarktung, insbesondere bei Kleinanlagen, werden <b>digitalisierte Prozesse</b> als essenziell erachtet. Zudem mahnt der Energieversorger <b>Investitionssicherheit durch Übergangsregelungen</b> an, die konsistent mit den Reformen im Messwesen und bei den Netzentgelten stehen müssen. Gleichzeitig <b>lehnt</b> E.ON <b>pauschale Mess- und Steuerpflichten</b> sowie starre Leistungsbegrenzungen ab, sofern diese keinen nachweisbaren Mehrwert bieten.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die Marktintegration, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000982",
+      "org_name": "MIBRAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000982/85315",
+      "regulatory_project_title": "Erhalt von auskömmlichen Förder- und Ausbaubedingungen für EE-Anlagen im EEG 2027",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/17/836954/Stellungnahme-Gutachten-SG2609010002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609010002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010002",
+      "summary": "Die MIBRAG <b>lehnt eine pauschale Begrenzung des Netzanschlusses</b> für Windenergieanlagen im Rahmen der geplanten EEG-Novelle ab. Das Unternehmen argumentiert, dass solche Beschränkungen den <b>Vertrauensschutz verletzen</b> und die tatsächlichen Kapazitäten der Netze ignorieren. Zudem warnt der Akteur davor, dass neue regulatorische Vorgaben <b>große PV-Projekte auf Bergbaufolgeflächen</b> wirtschaftlich gefährden könnten. Es wird daher gefordert, <b>praxisgerechte Übergangsregelungen</b> für laufende und geplante Vorhaben zu implementieren. Ziel der Forderung ist der <b>Erhalt attraktiver Förderbedingungen</b> für Erneuerbare-Energien-Projekte auf Rekultivierungsflächen. Die Stellungnahme zielt darauf ab, die Investitionssicherheit für die energetische Nachnutzung ehemaliger Tagebaugebiete langfristig zu sichern.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, Förderbedingungen für Erneuerbare Energien sowie netztechnische Rahmenbedingungen, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85342",
+      "regulatory_project_title": "Änderungsvorschläge zum Bundeshaushalt 2027, KTF und Sondervermögen Infrastruktur",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c8/8d/837198/Stellungnahme-Gutachten-SG2609010018.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609010018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010018",
+      "summary": "Der BDEW <b>fordert eine investive Ausrichtung</b> des Bundeshaushalts 2027 sowie des Klima- und Transformationsfonds, um die notwendige Transformation des Energiesystems sicherzustellen. Dabei sollen allgemeine Entlastungsmaßnahmen konsequent aus dem Kernhaushalt finanziert werden, um die Investitionskraft der Sondervermögen zu wahren. Der Verband <b>plädiert für zusätzliche Mittel</b> für den <b>Wasserstoffhochlauf</b>, den Ausbau der <b>Offshore-Windenergie</b> sowie für systemdienliche Elektrolyse und Speichertechnologien. Zudem wird eine verlässliche Finanzierung der Bundesförderung für effiziente Wärmenetze aus dem Kernhaushalt angemahnt. Abschließend <b>unterstreicht der BDEW die Notwendigkeit</b>, das <b>Strompreisentlastungsrecht</b> durch eine solide haushalterische Unterlegung abzusichern, um die Wettbewerbsfähigkeit der Industrie zu gewährleisten.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Forderungen betreffen zentrale Themen der Unterabteilung IIIA, insbesondere die Finanzierung der Energiewende, den Wasserstoffhochlauf, Offshore-Windenergie sowie die Strompreisentlastung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85342",
+      "regulatory_project_title": "Änderungsvorschläge zu Strompreisen, Strommarktdesign und Netzentgelten",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ed/f2/837200/Stellungnahme-Gutachten-SG2609010019.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2609010019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010019",
+      "summary": "Der BDEW <b>fordert</b> ein <b>kosteneffizientes Strommarktdesign</b> sowie eine Senkung der Stromsteuer auf das europäische Mindestmaß für alle Verbrauchergruppen. Der Verband <b>lehnt die Aufteilung der deutschen Stromgebotszone</b> sowie die Einführung von Einspeiseentgelten und volldynamischen Arbeitspreisen entschieden ab. Stattdessen wird eine <b>Netzentgeltreform</b> mit einer einfachen Systematik und einem Kapazitätspreis als zentralem Baustein präferiert. Zur Steigerung der Systemeffizienz setzt sich der BDEW für <b>zeitvariable Netzentgelte</b> und gezielte <b>Flexibilitätsanreize</b> ein. Ein Industriestrompreis soll nach Ansicht des Verbandes nur in einer zielgenauen und variablen Ausgestaltung Anwendung finden. Diese Positionen zielen darauf ab, die Wettbewerbsfähigkeit des Standorts zu sichern und die Transformation des Stromsystems wirtschaftlich zu flankieren.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere Strommarktdesign, Stromgebotszonen, Netzentgeltregulierung und Wettbewerbsfähigkeit der Strompreise.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000578",
+      "org_name": "Bundesverband Mineralische Kreislaufwirtschaft und nachhaltige Entsorgung e. V. (BMKE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000578/85324",
+      "regulatory_project_title": "Novellierung des Kreislaufwirtschaftsgesetzes",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c1/d7/837008/Stellungnahme-Gutachten-SG2609010004.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609010004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010004",
+      "summary": "Der BMKE setzt sich für ein Nachschärfen des §45 KrWG im Sinne einer rechtsverbindlichen Bevorzugungspflicht für die Öffentliche Hand sowie eine ausdrückliche Regelung in § 3 Abs. 8 KrWG ein, wonach der Bauherr bei Bau-, Rückbau- und Abbruchtätigkeiten als Abfallerzeuger der aus seinem Besitz stammenden Bau- und Abbruchabfälle gilt. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000996",
       "org_name": "ITAD - Interessengemeinschaft der Thermischen Abfallbehandlungsanlagen in Deutschland e.V.",
@@ -25,7 +195,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Inhalt betrifft die Dekarbonisierung von Energieerzeugungsanlagen und die Effizienzsteigerung durch Sektorkopplung, was direkt in die Zuständigkeit der Unterabteilung IIIA (Stromerzeugung & Kraftwerke / Klimaschutz) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000916",
@@ -50,7 +220,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die CCS/CCU-Strategie und die regulatorischen Rahmenbedingungen für CO2-Infrastrukturen, welche unter die Zuständigkeit der Unterabteilung IIIA (Dekarbonisierung/Energieinfrastruktur) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000916",
@@ -87,7 +257,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft direkt die Offshore-Windenergie, die Netzanbindung sowie die Integration von Wasserstoffelektrolyse, welche zentrale Themen der Unterabteilung IIIA (Erneuerbare Energien, Stromerzeugung und EU-Energiepolitik) sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -124,7 +294,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Netzkodex für Stromerzeugungsanlagen (RfG) fällt direkt unter die Zuständigkeit der Unterabteilung IIIA im Bereich Strommarktregulierung und Netzwerkcodes.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -161,7 +331,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Strommarktregulierung und die Vorgaben zu Übertragungsnetzentgelten, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Strommarktregulierung) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000611",
@@ -195,7 +365,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Gesetz zur Verbesserung des Netzanschlussverfahrens betrifft direkt die Themenfelder Stromerzeugung, Erneuerbare Energien und Strommarktregulierung, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000611",
@@ -229,7 +399,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf des EEG 2027 fällt direkt in die Zuständigkeit der Unterabteilung IIIA, insbesondere in die Themenfelder Erneuerbare Energien (national) sowie Strommarktdesign und -regulierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002429",
@@ -1207,6 +1377,72 @@
       "priority": 1,
       "gemini_relevanz": "Das Windenergie-auf-See-Gesetz (WindSeeG) ist ein zentrales Instrument der deutschen Energiepolitik und fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere im Hinblick auf die Offshore-Kooperation, die Erneuerbaren-Energien-Gesetzgebung und die nationale Ausbauplanung.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/84978",
+      "regulatory_project_title": "Erneuerbare-Energien-Gesetz zukunftsfähig machen (EEG-Novelle 2027)",
+      "sending_date": "2026-08-21",
+      "upload_date": "2026-08-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/e1/837056/Stellungnahme-Gutachten-SG2608210013.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2608210013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608210013",
+      "summary": "Die Thüga <b>begrüßt die Zielsetzung</b> der EEG-Novelle 2027, den Fokus verstärkt auf die <b>Markt- und Systemintegration</b> erneuerbarer Energien zu legen. Dabei wird eine Steigerung der Flexibilität sowie der Kosteneffizienz als notwendig erachtet, um den weiteren Ausbau der Erneuerbaren Energien sicherzustellen. Die Organisation mahnt jedoch <b>Nachbesserungsbedarf bei der Ausgestaltung</b> an, um die Praxistauglichkeit der Reform zu gewährleisten. Insbesondere fordert sie die Wahrung von <b>Investitions- und Planungssicherheit</b> bei Direktvermarktungspflichten und Abschöpfungsmechanismen. Zudem wird eine konsistente <b>Verzahnung mit dem Netz- und Messwesen</b> sowie eine effiziente Speicherintegration gefordert. Abschließend warnt die Thüga vor unnötigen IT- und Abwicklungsaufwänden, die den Transformationsprozess behindern könnten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die nationale Ausgestaltung des EEG, die Finanzierung von Erneuerbaren Energien sowie die Integration in das Strommarktdesign, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/84978",
+      "regulatory_project_title": "Netzpaket (Gesetzesentwurf Änderung Energiewirtschaftsrechts zur Synchronisierung EE-und Netzausbau sowie Verbesserung Netzanschlussverfahrens)",
+      "sending_date": "2026-08-21",
+      "upload_date": "2026-08-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/b4/837058/Stellungnahme-Gutachten-SG2608210014.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608210014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608210014",
+      "summary": "Die Organisation <b>begrüßt</b> den grundsätzlichen Ansatz zur <b>Senkung der Systemkosten</b> sowie die notwendige <b>Synchronisierung von EE- und Netzausbau</b>. Sie <b>präferiert</b> dabei die Einführung differenzierter Baukostenzuschüsse, um eine stärkere Allokationswirkung zu erzielen. Zudem wird der Einsatz freiwilliger Financial Transmission Rights (FCA) befürwortet, während ein <b>Redispatchvorbehalt</b> als derzeit ungeeignetes Instrument abgelehnt wird. Bei der <b>Priorisierung von Netzanschlussbegehren</b> fordert die Organisation eine stärkere Berücksichtigung lokaler Nutzenkomponenten. Insgesamt zielt die Stellungnahme auf eine effizientere Gestaltung der Netzanschlussverfahren ab.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzpaket betrifft direkt die Themenfelder Strommarkt-Design, Netzoptimierung, Redispatch und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002566",
@@ -72972,5 +73208,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 854
+  "gemini_filtered_out": 855
 }
