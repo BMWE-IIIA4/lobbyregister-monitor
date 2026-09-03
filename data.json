@@ -1,7 +1,306 @@
 {
-  "generated_at": "2026-09-02T07:37:20.981067+02:00",
-  "newly_added": 7,
+  "generated_at": "2026-09-03T07:37:16.060345+02:00",
+  "newly_added": 11,
   "statements": [
+    {
+      "register_number": "R002063",
+      "org_name": "LEAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002063/85381",
+      "regulatory_project_title": "EEG 2027",
+      "sending_date": "2026-09-02",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5f/69/837602/Stellungnahme-Gutachten-SG2609020009.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2609020009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020009",
+      "summary": "Ein Akteur <b>fordert eine Anpassung</b> des Entwurfs zum EEG 2027 hinsichtlich der <b>Gleichstellung von PV-Freiflächenanlagen</b> mit Anlagen auf sonstigen baulichen Anlagen. Kritisiert wird die geplante Neuregelung in § 24 Abs. 3, da diese die bisherige Privilegierung von PV-Anlagen auf sonstigen baulichen Anlagen aufheben würde. Konkret wird verlangt, dass diese Anlagen weiterhin von der <b>Zusammenfassung für den 50 MW-Förderdeckel ausgenommen</b> bleiben. Die Argumentation zielt darauf ab, die <b>Investitionssicherheit für PV-Projekte</b> auf baulichen Anlagen zu wahren. Eine Einbeziehung in den Förderdeckel könnte andernfalls den <b>Ausbau erneuerbarer Energien</b> an diesen Standorten unnötig erschweren. Die vorgeschlagene Änderung soll sicherstellen, dass die <b>Förderbedingungen für PV-Anlagen</b> auf baulichen Strukturen attraktiv bleiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf zum EEG 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die Ausgestaltung von Förderdeckeln und die regulatorischen Rahmenbedingungen für Photovoltaik-Freiflächenanlagen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002063",
+      "org_name": "LEAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002063/85381",
+      "regulatory_project_title": "EEG 2027",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/20/83/837604/Stellungnahme-Gutachten-SG2609020010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609020010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020010",
+      "summary": "Ein Akteur <b>fordert eine Anpassung</b> des Entwurfs zum EEG 2027 hinsichtlich der regulatorischen Behandlung von Photovoltaik-Anlagen. Konkret wird kritisiert, dass die geplante <b>Gleichstellung von PV-Freiflächenanlagen</b> mit Anlagen auf sonstigen baulichen Anlagen zu einer ungünstigen Anrechnung auf den <b>50 MW-Förderdeckel</b> führt. Es wird verlangt, dass PV-Anlagen auf sonstigen baulichen Anlagen weiterhin von dieser <b>Zusammenfassungsregelung ausgenommen</b> bleiben. Diese Änderung soll verhindern, dass die <b>Ausbauziele für PV-Anlagen</b> auf baulichen Strukturen durch die Deckelung der Freiflächenanlagen negativ beeinflusst werden. Die Forderung zielt darauf ab, die <b>Investitionssicherheit</b> für Projekte außerhalb klassischer Freiflächen zu wahren und die Transformation des Stromsystems effizient voranzutreiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf zum EEG 2027 betrifft direkt die Ausgestaltung der Erneuerbare-Energien-Förderung und die regulatorischen Rahmenbedingungen für PV-Freiflächenanlagen, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/EEG) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85420",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fd/12/837830/Stellungnahme-Gutachten-SG2609020031.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609020031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020031",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von klimaneutralen Bussen sowie den notwendigen Umbau von Betriebshöfen und Werkstätten. Ziel ist die Dekarbonisierung des öffentlichen Personennahverkehrs durch den Einsatz alternativer Antriebe. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Für den Zeitraum bis 2035 wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> veranschlagt. Diese Investitionen sind essenziell, um die <b>Sektorkopplung</b> zwischen Energie- und Verkehrswende voranzutreiben. Die Maßnahme adressiert dabei sowohl die Fahrzeugbeschaffung als auch die erforderliche <b>Lade- und Wartungsinfrastruktur</b>.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000730",
+      "org_name": "N-ERGIE Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000730/85364",
+      "regulatory_project_title": "Abregelung von Erzeugungsanlagen",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7d/ce/837499/Stellungnahme-Gutachten-SG2609020001.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609020001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020001",
+      "summary": "Das Regelungsvorhaben <b>schlägt eine Anpassung</b> der bundesgesetzlichen Vorgaben im EnWG vor, um die <b>Abregelung von PV-Anlagen</b> effizienter zu gestalten. Aktuell führt die verpflichtende <b>Steuerung am Wechselrichter</b> dazu, dass der Eigenverbrauch während der Abregelung unterbunden wird, was zu wirtschaftlichen Nachteilen für Unternehmen und Kommunen führt. Durch eine Umstellung auf die <b>Steuerung am Netzverknüpfungspunkt</b> soll die Einspeisung reduziert werden, während der <b>Eigenverbrauch erhalten bleibt</b>. Dies zielt darauf ab, die <b>Wirtschaftlichkeit der Anlagen</b> zu verbessern und die Akzeptanz der Energiewende zu erhöhen. Da die technischen Voraussetzungen bereits weitgehend bestehen, wird eine zeitnahe gesetzliche Umsetzung gefordert, um bestehende Konflikte zu minimieren.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die netztechnische Steuerung von Erzeugungsanlagen und die Optimierung des Eigenverbrauchs, was direkt in die Zuständigkeit der Unterabteilung IIIA für Strommarktdesign, Netzregulierung und Erneuerbare Energien fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000730",
+      "org_name": "N-ERGIE Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000730/85364",
+      "regulatory_project_title": "Nachbesserungen Referentenentwurf EEG 2027",
+      "sending_date": "2026-08-21",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d3/81/837501/Stellungnahme-Gutachten-SG2609020006.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609020006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020006",
+      "summary": "Der Referentenentwurf <b>schlägt Anpassungen</b> für das EEG 2027 sowie ein begleitendes Netzanschlusspaket vor, um die <b>Netzintegration erneuerbarer Energien</b> effizienter zu gestalten. Die geplanten Regelungen fokussieren sich auf die <b>Steuerbarkeit von Erzeugungsanlagen</b> sowie eine Optimierung des Einspeisemanagements. Zudem adressiert das Vorhaben die Rahmenbedingungen für <b>Biomasse und Speichertechnologien</b>, um deren Rolle im Stromsystem zu stärken. Ein weiterer Schwerpunkt liegt auf der <b>Vereinfachung energierechtlicher Vorgaben</b>, um bürokratische Hürden bei Netzanschlüssen abzubauen. Abschließend werden Anpassungen beim <b>Eigenverbrauch</b> definiert, um die Anreize für eine dezentrale Stromnutzung weiterzuentwickeln.",
+      "recipients": [
+        "BMLEH",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Referentenentwurf zum EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die Netzintegration und die regulatorischen Vorgaben für Erzeugungsanlagen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/85305",
+      "regulatory_project_title": "Naturschutzr. Eingriffsregelung praxistauglich umsetzen; Gleichstellung der öffentl. Wasserversorgung bei überragendem öffentl. Interesse",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8d/a0/837760/Stellungnahme-Gutachten-SG2609020030.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609020030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020030",
+      "summary": "Der DBVW begrüßt weitgehend die beabsichtigten Änderungen im Naturschutzrecht, vor allem die Ausdehnung der Flächensuchkulisse sowie die Erleichterung der Nutzung von Ersatzgeld bei Hochwasserschutzprojekten. Negativ gesehen wird aber, dass die natürliche Infrastruktur mit überragendem öffentlichen Interesse ausgestattet wird, ohne dass die überragend bedeutsame öffentliche Wasserversorgung dem formal gleichgestellt wird, was zu späteren Konflikten führen kann.\r\n\r\n\r\n",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/85305",
+      "regulatory_project_title": "Die Weiterentwicklung des ANK wird begrüßt, jedoch die Berücksichtigung technischer Wasserregulierungsmaßnahmen angeregt. ",
+      "sending_date": "2026-06-18",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7f/6c/837762/Stellungnahme-Gutachten-SG2609020029.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609020029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020029",
+      "summary": "Der WVT begrüßt die Weiterentwicklung des ANK, das Bekenntnis zur Freiwilligkeit der Maßnahmen sowie die grundsätzliche Förderstruktur und die beschriebenen Förderprojekte, vor allem die Aufnahme des wichtigen Landschaftswasserhaushalts und die Betonung der Wichtigkeit natürlicher Gewässerstrukturen. Bedenken werden bei diesem Themenbereich aber hinsichtlich einer alleinigen Fokussierung auf natürliche Gewässerstrukturen zwecks Stärkung des Wasserrückhalts in der Fläche geäußert, da die stark volatilen und durch den Klimawandel verstärkten wasserwirtschaftlichen Gegebenheiten (z.B. Dürren, Starkregen) oft auch steuerbare und damit technische Wasserregulierung (für Abfluss und Rückhalt) erfordern können.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/85305",
+      "regulatory_project_title": "Forderung nach Erleichterungen bei Hochwasserschutz und Grundwasserentnahmen; Gewässerrenaturierungen weitgehend UVP-frei.",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/02/be/837764/Stellungnahme-Gutachten-SG2609020028.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609020028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020028",
+      "summary": "Der WVT regt an, im UVGP auch bisher nicht bei der Beschleunigung berücksichtigte Projekte des Hochwasserschutzes sowie Grundwasserentnahmen, vor allem für die Wasserversorgung, durch Herausnahme aus der UVP-Pflicht oder Anhebung von Schwellenwerten zu vereinfachen und damit zu beschleunigen. Gleichfalls spricht er sich dafür aus, die typischen Gewässerentwicklungsprojekte zur Erreichung der Ziele der EG-WRRL bzw. der §§ 27 bis 31 WHG soweit wie möglich von UVP-Pflichten freizustellen, weil negative Umweltauswirkungen hierbei regelmäßig unbedeutend oder nicht vorhanden sind.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/85305",
+      "regulatory_project_title": "Regelungsänderungen sollen Vollzug der Ersatzbaustoffverordnung vereinfachen, Bürokratie abbauen und bestehende Unklarheiten beseitigen",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/51/bc/837766/Stellungnahme-Gutachten-SG2609020027.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609020027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020027",
+      "summary": "Der DBVW begrüßt grundsätzlich das Anliegen des Verordnungsgebers, den Vollzug der Ersatzbaustoffverordnung zu vereinfachen, bürokratischen Aufwand zu reduzieren und bestehende Unklarheiten zu beseitigen. Aus Sicht der Wasserwirtschaft darf eine Vereinfachung jedoch nicht zu einer Schwächung des Grundwasser- und Trinkwasserschutzes führen. Die öffentliche Wasserversorgung ist auf einen vorsorgenden und langfristig wirksamen Schutz der Grundwasserressourcen angewiesen. Vor diesem Hintergrund sieht der DBVW bei einzelnen Regelungen des Entwurfs Nachbesserungsbedarf.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85367",
+      "regulatory_project_title": "Ergänzung der AVBFernwärmeV zur Anpassung der Preisanpassungsklauseln an die Dekarbonisierung",
+      "sending_date": "2026-06-15",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b1/50/837491/Stellungnahme-Gutachten-SG2609020003.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2609020003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020003",
+      "summary": "Der BDEW setzt sich dafür ein, dass die in der AVBFernwärmeV geregelten Preisanpassungsklauseln künftig so ausgestaltet werden, dass sie die Kostenentwicklungen der Dekarbonisierung, des Aus- und Umbaus der Wärmenetze sowie verlässliche Kalkulationsgrundlagen für Fernwärmekunden sachgerecht abbilden. Die bestehenden Vorgaben sollen weiterentwickelt werden, um unter veränderten Marktbedingungen eine realistische und transparente Preisbildung zu gewährleisten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85367",
+      "regulatory_project_title": "Änderungsvorschläge zur Weiterentwicklung der AVBFernwärmeV, der Kartellrechtlichen Praxis und der WärmeLV statt Einführung neuer Fernwärmeregulierung",
+      "sending_date": "2026-06-15",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/97/3f/837493/Stellungnahme-Gutachten-SG2609020005.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2609020005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020005",
+      "summary": "Der BDEW lehnt die Einführung eines neuen Regulierungsrahmens für Fernwärmenetze (inkl. Entflechtung/Netzregulierung, Ausschreibungspflichten für Wegerechte und Price-Cap-Ansatz auf Wärmepumpen-Vollkostenbasis) ab, da dies Investitionen, Planungssicherheit und Wärmewende gefährden kann. Der BDEW setzt sich ein für die Weiterentwicklung des bestehenden Rechtsrahmens (insb. AVBFernwärmeV und WärmeLV), Stärkung und ggf. Verpflichtung der Preistransparenz (mit Datenkonsistenz zu anderen Pflichten) sowie die Nutzung/Wirksamkeitsprüfung der Universalschlichtungsstelle des Bundes statt einer neuen Fernwärme-Schlichtungsstelle. Der BDEW fordert, die kartellrechtliche Missbrauchsaufsicht als zielgenaues Instrument beizubehalten und weiterzuentwickeln. ",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002309",
       "org_name": "E.ON SE",
@@ -34,7 +333,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die Marktintegration, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000982",
@@ -63,7 +362,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, Förderbedingungen für Erneuerbare Energien sowie netztechnische Rahmenbedingungen, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -108,7 +407,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Forderungen betreffen zentrale Themen der Unterabteilung IIIA, insbesondere die Finanzierung der Energiewende, den Wasserstoffhochlauf, Offshore-Windenergie sowie die Strompreisentlastung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -146,7 +445,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere Strommarktdesign, Stromgebotszonen, Netzentgeltregulierung und Wettbewerbsfähigkeit der Strompreise.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000578",
@@ -1409,7 +1708,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die nationale Ausgestaltung des EEG, die Finanzierung von Erneuerbaren Energien sowie die Integration in das Strommarktdesign, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -1442,7 +1741,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzpaket betrifft direkt die Themenfelder Strommarkt-Design, Netzoptimierung, Redispatch und den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002566",
@@ -73208,5 +73507,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 855
+  "gemini_filtered_out": 861
 }
