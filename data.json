@@ -1,7 +1,112 @@
 {
-  "generated_at": "2026-09-03T07:37:16.060345+02:00",
-  "newly_added": 11,
+  "generated_at": "2026-09-04T07:43:04.357249+02:00",
+  "newly_added": 7,
   "statements": [
+    {
+      "register_number": "R002020",
+      "org_name": "GermanZero e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002020/85439",
+      "regulatory_project_title": "Klimaschutz im Haushaltsgesetz 2027",
+      "sending_date": "2026-09-02",
+      "upload_date": "2026-09-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/06/a0/837972/Stellungnahme-Gutachten-SG2609030003.pdf",
+      "pdf_pages": 28,
+      "sg_number": "SG2609030003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609030003",
+      "summary": "Der Entwurf <b>schlägt vor</b>, die <b>Aufteilung des Staatshaushaltes</b> grundlegend anzupassen, um dem <b>Klimaschutz</b> eine höhere Priorität einzuräumen. Durch <b>multiple Änderungen</b> im Haushaltsgesetz 2027 soll die staatliche Finanzplanung stärker an den Zielen der Energiewende ausgerichtet werden. Die Initiative zielt darauf ab, die <b>Finanzierungsbedarfe der Transformation</b> durch eine gezielte Umschichtung öffentlicher Mittel abzusichern. Dabei steht die strukturelle Verankerung ökologischer Nachhaltigkeitskriterien in der Haushaltsführung im Vordergrund. Die geplanten Maßnahmen sollen sicherstellen, dass klimapolitische Vorgaben bei der Mittelvergabe künftig ein höheres Gewicht erhalten. Eine detaillierte Ausgestaltung der haushaltspolitischen Instrumente bleibt jedoch abzuwarten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Inhalt betrifft die Finanzierung der Transformation und klimarelevante Steuern/Abgaben, welche unter das Themenfeld 'Klimaschutz & Energiewende' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/85454",
+      "regulatory_project_title": "Keine Abschwächung von EU-Naturschutzgesetzen durch Umwelt-Omnibus",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/d2/838069/Stellungnahme-Gutachten-SG2609030006.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609030006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609030006",
+      "summary": "Das Ministerium <b>lehnt</b> eine <b>Abschwächung des EU-Naturschutzrechts</b> im Rahmen des geplanten Umwelt-Omnibus-Pakets der EU-Kommission ab. Die Initiative kritisiert insbesondere den geplanten <b>Stresstest</b> für die FFH- und Vogelschutzrichtlinie als Gefahr für bestehende Umweltstandards. Ziel der Positionierung ist es, die <b>Qualität der Umweltprüfverfahren</b> trotz des politischen Drucks zur Beschleunigung von Genehmigungsprozessen zu wahren. Es wird befürchtet, dass eine Aufweichung der rechtlichen Rahmenbedingungen langfristig die Akzeptanz und Rechtssicherheit für den Ausbau der Energieinfrastruktur gefährdet. Das Ministerium fordert stattdessen eine <b>effiziente Verfahrensgestaltung</b>, die ohne eine substanzielle <b>Aushöhlung des Naturschutzes</b> auskommt. Damit soll sichergestellt werden, dass die Transformation des Energiesystems im Einklang mit den europäischen Umweltvorgaben erfolgt.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft die Beschleunigung von Umweltprüfverfahren für Energieinfrastruktur und Erneuerbare Energien, was direkt die EU-Energiepolitik und die Umsetzung der EU-Zielarchitektur (Fit for 55) der Unterabteilung IIIA berührt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007523",
+      "org_name": "traceless materials",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007523/85431",
+      "regulatory_project_title": "Naturpolymere regulatorisch absichern",
+      "sending_date": "2026-08-11",
+      "upload_date": "2026-09-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5f/44/837942/Stellungnahme-Gutachten-SG2609030002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609030002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609030002",
+      "summary": "Naturpolymere regulatorisch absichern indem sie als eigenständige Materialkategorie mit angepassten Verwertungsanforderungen anerkannt werden (PPWR)",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000211",
+      "org_name": "Pro Generika e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000211/85468",
+      "regulatory_project_title": "Possible Restriction of PFAS: impact on critical medicines supply",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e4/78/838157/Stellungnahme-Gutachten-SG2609030007.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609030007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609030007",
+      "summary": "In der EU wird ein weitgehendes Verbot von PFAS-Substanzen diskutiert. Diese umfangreiche Substanzgruppe ist in vielen Arzneimitteln enthalten und in noch größerem Umfang in Produktionsanlagen oder Verpackungen. Da eine Änderung von Wirkstoffen im Wesentlichen ausgeschlossen und eine Änderung von Produktion oder Verpackung im pharmazeutischen Bereich ein höchst aufwendiger Prozess ist, würde ein umfangreiches Verbot die anderweitigen Bemühungen um eine stabile Arzneimittelversorgung konterkarieren und voraussichtlich zu akuten Engpässen und zu einer Produktionsverlagerung noch weiter in Drittstaaten führen. Insofern ist bei den anstehenden EU-Verhandlungen aus unserer Sicht ein sehr weitgehendes Übergangsregime dringend geboten. (Schreiben Europ. Dachverband Medicines for Europe).",
+      "recipients": [
+        "BMG",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002063",
       "org_name": "LEAG GmbH",
@@ -29,7 +134,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf zum EEG 2027 betrifft direkt die nationale Förderung erneuerbarer Energien, die Ausgestaltung von Förderdeckeln und die regulatorischen Rahmenbedingungen für Photovoltaik-Freiflächenanlagen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002063",
@@ -58,7 +163,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf zum EEG 2027 betrifft direkt die Ausgestaltung der Erneuerbare-Energien-Förderung und die regulatorischen Rahmenbedingungen für PV-Freiflächenanlagen, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/EEG) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -83,7 +188,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000730",
@@ -113,7 +218,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die netztechnische Steuerung von Erzeugungsanlagen und die Optimierung des Eigenverbrauchs, was direkt in die Zuständigkeit der Unterabteilung IIIA für Strommarktdesign, Netzregulierung und Erneuerbare Energien fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000730",
@@ -143,7 +248,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Referentenentwurf zum EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die Netzintegration und die regulatorischen Vorgaben für Erzeugungsanlagen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003565",
@@ -448,6 +553,31 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R006778",
+      "org_name": "BEW Berliner Energie und Wärme GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006778/85464",
+      "regulatory_project_title": "Einführung einer Grüngasquote sollte unbürokratisch erfolgen",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a3/75/838114/Stellungnahme-Gutachten-SG2609010007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609010007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010007",
+      "summary": "Der Verfasser <b>fordert</b> eine <b>unbürokratische Ausgestaltung</b> der Grüngasquote, um die Effizienz der Klimaschutzinstrumente zu wahren. Es wird verlangt, dass sämtliche Brennstoffeinsätze, die bereits dem <b>EU ETS 1</b> unterliegen, von der Quote <b>ausgenommen</b> werden, um eine <b>Doppelbelastung</b> zu vermeiden. Zudem warnt das Papier vor einer <b>Diskriminierung von KWK-Anlagen</b> gegenüber reinen Gaskraftwerken durch zusätzliche Kostenbelastungen. Eine Einbeziehung der KWK in die Quote bei gleichzeitiger Befreiung reiner Stromerzeugungsanlagen würde die Wettbewerbsfähigkeit der Fernwärmesysteme gefährden. Die vorgeschlagene Anpassung soll somit eine konsistente regulatorische Behandlung sicherstellen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Ausgestaltung von Klimaschutzinstrumenten und die Regulierung von Gas- und KWK-Anlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Stromerzeugung & Kraftwerke / Klimaschutz) fällt.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R000578",
       "org_name": "Bundesverband Mineralische Kreislaufwirtschaft und nachhaltige Entsorgung e. V. (BMKE)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R000578/85324",
@@ -469,6 +599,30 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006778",
+      "org_name": "BEW Berliner Energie und Wärme GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006778/85464",
+      "regulatory_project_title": "Das Wärmeplanungsgesetz sollte mit EU-Vorgaben synchronisiert werden.",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0c/8d/838116/Stellungnahme-Gutachten-SG2609010008.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609010008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010008",
+      "summary": "Momentan bestehen im Wärmeplanungsgesetz und bestehenden EU-Vorgaben unterschiedliche Vorgaben bei einigen Regelungen. Um die EU-Vorgaben umzusetzen und nicht verschiedene Vorgaben nebeneinander bestehen zu lassen, sollte das Wärmeplanungsgesetz (WPG) mit EU Vorgaben synchronisiert werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -991,6 +1145,30 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/85454",
+      "regulatory_project_title": "KrWG-Novelle: Verbindliche Ressourcenziele, Abfallvermeidung, Wiederverwendung und Stärkung der Abfallhierarchie",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-08-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/01/838025/Stellungnahme-Gutachten-SG2608280005.pdf",
+      "pdf_pages": 34,
+      "sg_number": "SG2608280005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608280005",
+      "summary": "Der WWF setzt sich für eine ambitionierte KrWG-Novelle ein, die Primärrohstoffverbrauch und absolute Abfallmengen verbindlich senkt. Gefordert werden ein Zielpfad für den Rohstoffkonsum (RMC) auf höchstens 8 Tonnen pro Kopf und Jahr bis 2045 mit Zwischenzielen, Monitoring und Nachsteuerung sowie wirksame Pflichten zur Förderung der Wiederverwendung spätestens ab 2030. Die Abfallhierarchie und Kaskadennutzung sind zu sichern. Chemisches Recycling soll nur für geeignete Stoffströme und unter überprüfbaren Umwelt- und Transparenzkriterien zum Einsatz kommen. Zudem soll die Obhutspflicht erhalten, die kreislauforientierte öffentliche Beschaffung gestärkt und verbindliche Vorgaben für ressourcenschonendes und zirkuläres Bauen geschaffen werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -73507,5 +73685,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 861
+  "gemini_filtered_out": 865
 }
