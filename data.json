@@ -1,7 +1,160 @@
 {
-  "generated_at": "2026-09-04T07:43:04.357249+02:00",
-  "newly_added": 7,
+  "generated_at": "2026-09-05T07:31:50.972724+02:00",
+  "newly_added": 5,
   "statements": [
+    {
+      "register_number": "R003052",
+      "org_name": "RheinEnergie AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003052/85500",
+      "regulatory_project_title": "Änderung der IAA  sodass Klimaschutz- und Industrieziele verfolgt werden, ohne öffentliche geprägte Energieunternehmen zu benachteiligen ",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9b/bb/838454/Stellungnahme-Gutachten-SG2609040008.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609040008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609040008",
+      "summary": "Die Interessenvertretung <b>fordert eine Anpassung des IAA</b>, um Klimaschutz- und Industrieziele mit fairen Wettbewerbsbedingungen in Einklang zu bringen. Dabei soll sichergestellt werden, dass <b>öffentlich geprägte Energieunternehmen nicht benachteiligt</b> werden. Ziel ist es, <b>zusätzliche Kosten und Bürokratie zu reduzieren</b>, um den <b>Ausbau der Energie- und Netzinfrastruktur</b> nicht zu verteuern oder zu verzögern. Die Organisation plädiert dafür, industriepolitische Ziele primär über <b>Förderprogramme und Investitionsanreize</b> zu steuern. Vergabevorgaben sollen hingegen nicht als primäres Instrument für diese Ziele genutzt werden. Durch diese Anpassungen soll die Effizienz bei der Umsetzung der Energiewende gesteigert werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Interessenvertretung betrifft direkt die regulatorischen Rahmenbedingungen für den Ausbau der Energie- und Netzinfrastruktur sowie die Wettbewerbsbedingungen für Energieunternehmen, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002787",
+      "org_name": "terranets bw GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002787/85493",
+      "regulatory_project_title": "Änderung des geplanten Industrial Accelerator Acts (IAA) der EU",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3a/a1/838411/Stellungnahme-Gutachten-SG2609040006.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609040006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609040006",
+      "summary": "Die Bundesregierung <b>fordert</b> eine <b>Anpassung des geplanten Industrial Accelerator Acts</b> der EU, um faire Wettbewerbsbedingungen im Energiesektor zu gewährleisten. Ziel der Initiative ist es, <b>Wettbewerbsvorteile für öffentlich geprägte Energieunternehmen</b> zu unterbinden, die durch staatliche Strukturen entstehen könnten. Die Bundesregierung soll sich hierzu aktiv auf EU-Ebene positionieren, um eine <b>Verzerrung des EU-Binnenmarktes</b> zu verhindern. Durch die Intervention soll sichergestellt werden, dass private und öffentliche Akteure unter gleichen Bedingungen agieren können. Die Maßnahme zielt darauf ab, die <b>Wettbewerbsfähigkeit</b> der europäischen Energiewirtschaft langfristig zu sichern und eine einseitige Marktdominanz zu vermeiden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft die EU-Energiepolitik, die Wettbewerbsfähigkeit im EU-Binnenmarkt sowie EU-Beihilferecht, welche explizit zu den Themenfeldern der Unterabteilung IIIA gehören.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002297",
+      "org_name": "EnBW Energie Baden-Württemberg AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002297/85532",
+      "regulatory_project_title": "EU Industrial Accelerator Act, Vorgaben für die öffentliche Auftragsvergabe",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5a/04/838642/Stellungnahme-Gutachten-SG2609040013.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609040013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609040013",
+      "summary": "Der <b>Industrial Accelerator Act</b> <b>schlägt vor</b>, die <b>europäische Wertschöpfung</b> durch eine gezielte Steuerung der <b>öffentlichen Auftragsvergabe</b> zu stärken. Ziel des Vorhabens ist es, strategische Abhängigkeiten in Lieferketten zu verringern und die <b>Resilienz</b> der Industrie zu erhöhen. Ein wesentlicher Schwerpunkt liegt dabei auf der <b>Dekarbonisierung</b> der energieintensiven Industriezweige innerhalb der EU. Durch verbindliche Vorgaben bei öffentlichen Beschaffungsprozessen soll eine regulierte Nachfrage erzeugt werden, um Leitmärkte für nachhaltige Technologien zu etablieren. Diese Maßnahme soll als zentrales Instrument dienen, um die industrielle Wettbewerbsfähigkeit im Rahmen des europäischen Binnenmarktes langfristig zu sichern.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungskette, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006726",
+      "org_name": "Sandoz Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006726/85512",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8e/38/838506/Stellungnahme-Gutachten-SG2609040010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609040010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609040010",
+      "summary": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001385",
+      "org_name": "HEXAL AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001385/85511",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e6/8f/838495/Stellungnahme-Gutachten-SG2609040009.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609040009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609040009",
+      "summary": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002020",
       "org_name": "GermanZero e.V.",
@@ -25,7 +178,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Inhalt betrifft die Finanzierung der Transformation und klimarelevante Steuern/Abgaben, welche unter das Themenfeld 'Klimaschutz & Energiewende' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -54,7 +207,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft die Beschleunigung von Umweltprüfverfahren für Energieinfrastruktur und Erneuerbare Energien, was direkt die EU-Energiepolitik und die Umsetzung der EU-Zielarchitektur (Fit for 55) der Unterabteilung IIIA berührt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007523",
@@ -575,7 +728,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Ausgestaltung von Klimaschutzinstrumenten und die Regulierung von Gas- und KWK-Anlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Stromerzeugung & Kraftwerke / Klimaschutz) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000578",
@@ -73685,5 +73838,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 865
+  "gemini_filtered_out": 867
 }
