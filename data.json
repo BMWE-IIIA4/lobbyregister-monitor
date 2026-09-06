@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T07:31:50.972724+02:00",
-  "newly_added": 5,
+  "generated_at": "2026-09-06T07:44:36.524826+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R003052",
@@ -35,7 +35,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Interessenvertretung betrifft direkt die regulatorischen Rahmenbedingungen für den Ausbau der Energie- und Netzinfrastruktur sowie die Wettbewerbsbedingungen für Energieunternehmen, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002787",
@@ -70,7 +70,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft die EU-Energiepolitik, die Wettbewerbsfähigkeit im EU-Binnenmarkt sowie EU-Beihilferecht, welche explizit zu den Themenfeldern der Unterabteilung IIIA gehören.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002297",
@@ -105,7 +105,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungskette, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006726",
