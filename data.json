@@ -1,7 +1,32 @@
 {
-  "generated_at": "2026-09-06T07:44:36.524826+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-09-07T07:54:46.389991+02:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R006893",
+      "org_name": "Unbekannte Organisation",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006893/85544",
+      "regulatory_project_title": "Förderung der Offshore Wind Zulieferindustrie im Rahmen des Gesetzes zur Förderung der Windenergie auf See",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-09-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e4/be/838932/Stellungnahme-Gutachten-SG2609060001.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609060001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609060001",
+      "summary": "Die vorliegende Initiative <b>fordert</b> eine gezielte <b>Förderung der Offshore-Wind-Zulieferindustrie</b>, um das industrielle Wachstum und die Wertschöpfung in Deutschland zu stärken. Dabei wird betont, dass eine enge Korrelation zwischen dem Ausbau der Windenergie auf See und den gesetzlichen Rahmenbedingungen besteht. Die Akteure verlangen spezifische <b>Änderungen an der WindaufSeeG-Novelle</b>, um die notwendigen industriellen Kapazitäten abzusichern. Diese Anpassungen werden als maßgeblich für die Erreichung der energiepolitischen Ziele und die wirtschaftliche Wettbewerbsfähigkeit im Sektor angesehen. Durch die Stärkung der Zulieferkette soll die <b>Wertschöpfung im Offshore-Bereich</b> nachhaltig gesteigert werden. Die Initiative unterstreicht damit die Notwendigkeit einer industriepolitischen Flankierung der <b>Energiewende-Ziele</b>.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Windenergie, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'EU-Energiepolitik' (Offshore-Kooperationen) der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R003052",
       "org_name": "RheinEnergie AG",
