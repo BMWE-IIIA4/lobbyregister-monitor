@@ -1,7 +1,360 @@
 {
-  "generated_at": "2026-09-07T07:54:46.389991+02:00",
-  "newly_added": 1,
+  "generated_at": "2026-09-08T07:47:41.637540+02:00",
+  "newly_added": 17,
   "statements": [
+    {
+      "register_number": "R003891",
+      "org_name": "Vestas Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003891/85576",
+      "regulatory_project_title": "WindSeeG - Gesetz zur Entwicklung und Förderung der Windenergie auf See",
+      "sending_date": "2026-08-16",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/54/76/839267/Stellungnahme-Gutachten-SG2609070011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609070011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070011",
+      "summary": "Das vorliegende Vorhaben <b>schlägt eine Deckelung der Gebotskomponenten</b> im WindSeeG vor, um die Finanzierung von Offshore-Windenergieprojekten zu stabilisieren. Durch die <b>Einführung von Differenzverträgen</b> soll die Planungssicherheit für Projektentwickler maßgeblich erhöht werden. Ziel ist es, den <b>Kostensenkungsdruck auf Hersteller</b> und Zulieferer zu mindern, um notwendige Skalierungseffekte in der Produktion zu ermöglichen. Gleichzeitig wird eine <b>Vermeidung bürokratischer Anforderungen</b> im Kontext des Net Zero Industry Acts angestrebt. Damit soll die <b>Lieferkettenflexibilität gewahrt</b> und die industrielle Resilienz im Sektor gestärkt werden. Die Maßnahmen zielen darauf ab, die Rahmenbedingungen für den Ausbau der Windenergie auf See effizienter und investitionssicherer zu gestalten.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das WindSeeG betrifft direkt die Offshore-Windenergie, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Grenzueberschreitende EE-Kooperationsprojekte/Offshore-Kooperationen' der Unterabteilung IIIA faellt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002747",
+      "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002747/85558",
+      "regulatory_project_title": "H2-Unterquote im Rahmen der Grüngasquote",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2d/f9/839165/Stellungnahme-Gutachten-SG2609070003.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609070003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070003",
+      "summary": "Die Interessenvertretung <b>fordert die Einführung einer Wasserstoff-Unterquote</b> innerhalb der bestehenden Grüngasquote. Ziel dieser Maßnahme ist die gezielte <b>Markthochlaufunterstützung für erneuerbaren Wasserstoff</b> durch verbindliche Beimischungsvorgaben. Durch die Unterquote soll die <b>Nachfrage nach grünem Wasserstoff</b> im Gasnetz verlässlich gesteigert werden. Dies soll Investitionssicherheit für Erzeuger schaffen und die <b>Dekarbonisierung der Gasinfrastruktur</b> beschleunigen. Die Initiative zielt darauf ab, die regulatorischen Rahmenbedingungen für den <b>Einsatz von RFNBOs</b> im nationalen Kontext zu präzisieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Umsetzung von Wasserstoffstrategien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002450",
+      "org_name": "Mainova AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002450/85587",
+      "regulatory_project_title": "Industrial Accelerator Act (IAA)",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c1/d0/839407/Stellungnahme-Gutachten-SG2609070015.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609070015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070015",
+      "summary": "Die Verfasser <b>kritisieren</b> den Industrial Accelerator Act (IAA) aufgrund seiner potenziell negativen Auswirkungen auf die kommunale Daseinsvorsorge und den Netzausbau. Die geplanten europäischen Beschaffungsvorgaben für öffentliche Unternehmen führen nach Einschätzung der Autoren zu <b>komplexeren Vergabeverfahren</b> und einer <b>Gefährdung der Wirtschaftlichkeit</b>. Durch die einseitige Belastung kommunaler Energieversorger entstehen zudem <b>Wettbewerbsverzerrungen</b> gegenüber privaten Akteuren. Die Regelungen bergen das Risiko, die <b>Beschaffung und Energiewende erheblich zu verteuern</b>. Angesichts dieser Bedenken wird eine <b>substanzielle Anpassung</b> des Gesetzesentwurfs unter Einbeziehung der kommenden Vergaberechtsnovelle gefordert. Ziel ist es, die europäische Industriepolitik nicht zulasten der kommunalen Infrastrukturentwicklung zu gestalten.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiepolitik, den EU-Binnenmarkt sowie die Rahmenbedingungen für den Netzausbau und die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/84813",
+      "regulatory_project_title": "Einsatz für ambitioniertere Flottengrenzwerte Pkw auf EU-Ebene",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/92/839346/Stellungnahme-Gutachten-SG2609070010.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2609070010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070010",
+      "summary": "Die Organisation <b>fordert</b> eine <b>ambitionierte Verschärfung der CO2-Flottengrenzwerte</b> für Pkw im Rahmen der anstehenden EU-Revision im Jahr 2026. Ziel ist es, die <b>Dekarbonisierung des Verkehrssektors</b> durch strengere Vorgaben für Fahrzeughersteller konsequent voranzutreiben. Dabei wird betont, dass die <b>Klimaschutzziele</b> der Europäischen Union nur durch eine konsequente Transformation der Antriebstechnologien erreicht werden können. Die Initiative zielt darauf ab, den Markthochlauf emissionsfreier Fahrzeuge durch verbindliche regulatorische Rahmenbedingungen auf EU-Ebene zu beschleunigen. Eine <b>Anpassung der Flottenstandards</b> wird als zentrales Instrument zur Erreichung der europäischen Klimaneutralität angesehen. Die Forderung unterstreicht die Notwendigkeit, die <b>Sektorkopplung</b> zwischen Energie- und Verkehrspolitik stärker in den Fokus der europäischen Gesetzgebung zu rücken.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Sektorkopplung, welche unter die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001496",
+      "org_name": "JUWI GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001496/85574",
+      "regulatory_project_title": "Entwurf eines Gesetzes für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der erneuerbaren Energien im Stromsektor",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cc/4d/839293/Stellungnahme-Gutachten-SG2609070012.pdf",
+      "pdf_pages": 17,
+      "sg_number": "SG2609070012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070012",
+      "summary": "Die Organisation <b>kritisiert</b> den vorliegenden Gesetzentwurf zum Ausbau erneuerbarer Energien und fordert substanzielle Nachbesserungen an den regulatorischen Rahmenbedingungen. Insbesondere wird die <b>Änderung des Referenzertragsmodells</b> sowie die Einführung einer <b>Pachtpreisbegrenzung</b> aufgrund drohender Bürokratie und Rechtsunsicherheit abgelehnt. Zudem bemängelt die Organisation das Fehlen konkreter Impulse für den <b>PPA-Markthochlauf</b> sowie für netzdienliche Geschäftsmodelle. Zur Stärkung der Investitionssicherheit wird die <b>Addition der NZIA-Ausschreibungsmengen</b> auf die regulären Volumina angeregt. Ergänzend schlägt die Organisation die Implementierung eines <b>Marktwertkorridors</b> vor, um steigende Kosten und Risiken im EE-Sektor effektiv abzufedern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Gesetzentwurf betrifft direkt die nationale Ausbauplanung erneuerbarer Energien, das EEG-Finanzierungssystem sowie netzrelevante regulatorische Rahmenbedingungen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001496",
+      "org_name": "JUWI GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001496/85574",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/2b/839328/Stellungnahme-Gutachten-SG2609070013.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2609070013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070013",
+      "summary": "Das Unternehmen JUWI <b>begrüßt das Ziel</b>, Netzanschlussverfahren durch <b>Standardisierung und Digitalisierung</b> zu beschleunigen, mahnt jedoch gleichzeitig <b>erheblichen Nachbesserungsbedarf</b> bei kritischen Regelungen an. Es wird befürchtet, dass bestehende Vorschriften den Anschluss erneuerbarer Energien erschweren und zusätzliche <b>Investitionsrisiken</b> für Projektentwickler schaffen könnten. Zudem kritisiert der Akteur die Gefahr uneinheitlicher Verfahrensweisen bei den verschiedenen Netzbetreibern. Zur Sicherung des weiteren Ausbaus fordert JUWI eine <b>kohärente Abstimmung</b> zwischen dem Netzanschlusspaket, der EEG-Novelle und der Netzentgeltsystematik. Nur durch eine solche Harmonisierung lassen sich widersprüchliche Steuerungssignale vermeiden und die notwendige <b>Investitionssicherheit</b> für die Energiewende gewährleisten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die regulatorischen Rahmenbedingungen für den Ausbau erneuerbarer Energien und die Netzintegration, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000730",
+      "org_name": "N-ERGIE Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000730/85569",
+      "regulatory_project_title": "EU Industrial Accelerator Act, Vorgaben für die öffentliche Auftragsvergabe",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/28/db/839251/Stellungnahme-Gutachten-SG2609070008.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609070008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070008",
+      "summary": "Der geplante <b>EU Industrial Accelerator Act</b> <b>schlägt vor</b>, die öffentliche Auftragsvergabe als zentrales Instrument zur <b>Stärkung der europäischen Wertschöpfung</b> einzusetzen. Durch gezielte Vorgaben bei der Beschaffung soll eine <b>regulierte Nachfrage</b> geschaffen werden, um strategische Abhängigkeiten in Lieferketten zu reduzieren. Ein wesentliches Ziel des Vorhabens ist die <b>Dekarbonisierung der energieintensiven Industrie</b> innerhalb der EU. Zudem soll die <b>Resilienz strategischer Lieferketten</b> durch die Etablierung von Leitmärkten nachhaltig erhöht werden. Das Instrument zielt darauf ab, die Wettbewerbsfähigkeit des europäischen Industriestandorts im Kontext des Green Deals zu sichern. Die Umsetzung erfordert eine enge Abstimmung zwischen den beteiligten Bundesressorts zur Ausgestaltung der Vergabekriterien.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungskette, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000134",
+      "org_name": "ENGIE Deutschland AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000134/83567",
+      "regulatory_project_title": "Investitionssicherheit beim EEG",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2a/e9/839077/Stellungnahme-Gutachten-SG2609070001.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609070001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070001",
+      "summary": "Die vorliegende Novelle zum Erneuerbaren-Energien-Gesetz <b>erschwert die Planung und Finanzierung</b> neuer Projekte durch weitreichende regulatorische Anpassungen. Die geplanten Änderungen umfassen insbesondere eine neue <b>Wirkleistungsbegrenzung</b> sowie einen restriktiven <b>Redispatch-Vorbehalt</b> für Anlagenbetreiber. Zudem wird durch die Einführung eines <b>Pachtdeckels</b> die wirtschaftliche Kalkulationsgrundlage für Investoren maßgeblich beeinflusst. Kritiker sehen in diesen Maßnahmen eine Gefährdung der notwendigen <b>Investitionssicherheit</b> für den weiteren Ausbau erneuerbarer Energien. Die Neuregelungen greifen tief in die bestehenden Finanzierungsstrukturen ein und könnten die Realisierung künftiger Vorhaben verzögern. Eine detaillierte Prüfung der Auswirkungen auf die Projektrentabilität ist für die weitere Umsetzung der Energiewende zwingend erforderlich.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007346",
+      "org_name": "EQT Partners GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007346/85543",
+      "regulatory_project_title": "Vorschlag der Europäischen Kommission einer Verordnung über ein 28. Regime für Unternehmen (EU Inc.)",
+      "sending_date": "2026-09-07",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c3/ff/839447/Stellungnahme-Gutachten-SG2609070018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609070018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070018",
+      "summary": "Als Verwalter des Scaleup-Europe-Fonds setzt sich EQT dafür ein, dass die EU Inc. (28. Regime) einen einheitlichen Rahmen für Mitarbeiterkapitalbeteiligung und ein zentrales EU-weites digitales Unternehmensregister schafft, einen diskriminierungsfreien Zugang ohne Branchen-, Größen- oder Innovationskriterien sowie eine freie Sitzwahl gewährleistet.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMJV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003523",
+      "org_name": "Bundesverband der Dolmetscher und Übersetzer e.V. (BDÜ)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003523/85407",
+      "regulatory_project_title": "Interessen freiberuflicher Übersetzer und Dolmetscher bei der Reform der Altersvorsorge berücksichtigen",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/30/5a/839424/Stellungnahme-Gutachten-SG2609070016.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609070016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070016",
+      "summary": "Die durch das Bundesministerium für Arbeit und Soziales eingesetzte Alterssicherungskommission (ASK) sollte Vorschläge entwickeln, \"die eine verlässliche Absicherung im Alter gewährleisten, ohne die Beitragszahlenden sowie den Bundeshaushalt dauerhaft zu überfordern\". In ihrem Abschlussbericht spricht die ASK 33 Empfehlungen aus, von denen 2 Empfehlungen an bisher nicht rentenversicherungspflichtige Selbstständige gerichtet sind. Diese sind aus Sicht des BDÜ jedoch zu oberflächlich behandelt woden, für eine faire Umsetzung sind Augenmaß und weitere Reformen erforderlich.",
+      "recipients": [
+        "BMAS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001008",
+      "org_name": "Deutsche Vereinigung für Wasserwirtschaft Abwasser und Abfall e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001008/85564",
+      "regulatory_project_title": "Aktionsprogramm Natürlicher Klimaschutz",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4b/ff/839235/Stellungnahme-Gutachten-SG2609070007.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609070007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070007",
+      "summary": "Stellungnahme der DWA zur Weiterentwicklung des Aktionsprogramms Natürlicher Klimaschutz, Entwurf des Bundesumweltministeriums vom 6. August 2026, Die DWA unterstützt die Priorisierung natürlicher Klimaschutzmaßnahmen und regt insbesondere eine stärkere Berücksichtigung des Landschaftswasserhaushalts, den Abbau von Umsetzungshemmnissen, ein systematisches Wirkungsmonitoring sowie die Stärkung von Umsetzungs- und Planungskapazitäten an. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000689",
+      "org_name": "Bundesvereinigung der Arbeitsgemeinschaften der Notärzte Deutschlands (BAND e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000689/85545",
+      "regulatory_project_title": "Reform der Notfall- und Akutversorgung: Rettungsdienst und Finanzierung ",
+      "sending_date": "2026-09-07",
+      "upload_date": "2026-09-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9d/a3/839454/Stellungnahme-Gutachten-SG2609070019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609070019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609070019",
+      "summary": "Vorschlägen der Regierungskommission für eine moderne und\r\nbedarfsgerechte Krankenhausversorgung zur „Reform der\r\nNotfall- und Akutversorgung: Rettungsdienst und Finanzierung“\r\nvom 7. September 2023",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R006893",
       "org_name": "Unbekannte Organisation",
@@ -25,7 +378,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Windenergie, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'EU-Energiepolitik' (Offshore-Kooperationen) der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003052",
@@ -754,6 +1107,117 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Ausgestaltung von Klimaschutzinstrumenten und die Regulierung von Gas- und KWK-Anlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Stromerzeugung & Kraftwerke / Klimaschutz) fällt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/85330",
+      "regulatory_project_title": "Industrial Accelerator Act (IAA): Beschaffungsvorgaben schaffen unnötige Hürden für kommunale Energieversorger",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/00/8c/839208/Stellungnahme-Gutachten-SG2609010011.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609010011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010011",
+      "summary": "Die Verfasser <b>kritisieren</b> den Industrial Accelerator Act (IAA) aufgrund seiner negativen Auswirkungen auf die kommunale Daseinsvorsorge. Die geplanten <b>europäischen Beschaffungsvorgaben</b> für öffentliche Unternehmen führen laut Analyse zu komplexeren Vergabeverfahren und einer <b>Gefährdung der Wirtschaftlichkeit</b> beim Netzausbau. Es wird gewarnt, dass die Regelungen den <b>Wettbewerb verzerren</b>, da sie kommunale Energieversorger gegenüber privaten Anbietern benachteiligen. Zudem besteht die Sorge, dass die Energiewende durch steigende Kosten und bürokratische Hürden erheblich verlangsamt wird. Die Organisation <b>fordert substanzielle Anpassungen</b> des Gesetzesentwurfs. Dabei soll insbesondere die Abstimmung mit der anstehenden <b>europäischen Vergaberechtsnovelle</b> sichergestellt werden.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiepolitik, den EU-Binnenmarkt sowie die Wettbewerbsfähigkeit von Energieversorgern, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/85330",
+      "regulatory_project_title": "Industrial Accelerator Act (IAA): Beschaffungsvorgaben schaffen unnötige Hürden für kommunale Energieversorger",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b5/63/839210/Stellungnahme-Gutachten-SG2609010013.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609010013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010013",
+      "summary": "Die Verfasser <b>kritisieren</b> den Industrial Accelerator Act (IAA) aufgrund seiner negativen Auswirkungen auf die kommunale Daseinsvorsorge. Die geplanten <b>europäischen Beschaffungsvorgaben</b> für öffentliche Unternehmen führen laut Analyse zu komplexeren Vergabeverfahren und erhöhten Rechtsrisiken. Dies gefährdet maßgeblich das <b>Tempo und die Wirtschaftlichkeit des Netzausbaus</b> sowie die allgemeine Energiewende. Zudem wird vor <b>Wettbewerbsverzerrungen</b> zwischen kommunalen und privaten Energieversorgern gewarnt, da die Regelungen die Beschaffungskosten signifikant in die Höhe treiben könnten. Die Organisation <b>fordert substanzielle Anpassungen</b> des Gesetzesentwurfs unter Berücksichtigung der anstehenden Vergaberechtsnovelle. Ziel ist es, eine europäische Industriepolitik zu verhindern, die einseitig zulasten der kommunalen Energieversorgung geht.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt EU-Energiepolitik, den EU-Binnenmarkt sowie die Wettbewerbsfähigkeit und Wirtschaftlichkeit der Energieinfrastruktur, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001118",
+      "org_name": "Thüga Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001118/85330",
+      "regulatory_project_title": "Industrial Accelerator Act (IAA): Beschaffungsvorgaben schaffen unnötige Hürden für kommunale Energieversorger",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/1e/839212/Stellungnahme-Gutachten-SG2609010014.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609010014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609010014",
+      "summary": "Der Verfasser <b>kritisiert</b> den Industrial Accelerator Act (IAA) aufgrund der geplanten <b>europäischen Beschaffungsvorgaben</b> für öffentliche Unternehmen. Es wird befürchtet, dass die neuen Regelungen die <b>kommunale Daseinsvorsorge</b> durch komplexere Vergabeverfahren und erhöhte Rechtsrisiken schwächen. Die <b>Wirtschaftlichkeit des Netzausbaus</b> sei gefährdet, da die Vorgaben zu weniger Bietern und einer Verteuerung der Energiewende führen könnten. Zudem wird eine <b>Wettbewerbsverzerrung</b> zwischen kommunalen und privaten Energieversorgern moniert. Die Organisation <b>fordert substanzielle Anpassungen</b> des Gesetzesentwurfs unter Einbeziehung der anstehenden Vergaberechtsnovelle. Ziel ist es, die europäische Industriepolitik nicht zulasten der kommunalen Akteure umzusetzen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiepolitik, den EU-Binnenmarkt sowie die Rahmenbedingungen für Energieversorger und den Netzausbau, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R000578",
@@ -2740,6 +3204,33 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/84813",
+      "regulatory_project_title": "Nationale Umsetzung des ETS in der Schifffahrt vorantreiben",
+      "sending_date": "2026-07-28",
+      "upload_date": "2026-08-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/24/839348/Stellungnahme-Gutachten-SG2608180010.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2608180010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608180010",
+      "summary": "Die Organisation <b>fordert</b> eine konsequente <b>nationale Umsetzung</b> der Ausweitung des europäischen Zertifikatehandels auf den Sektor Schifffahrt. Dabei soll sichergestellt werden, dass die nationalen Regelungen strikt die bestehenden <b>EU-Vorgaben einhalten</b>. Ein zentraler Aspekt des Vorschlags ist die zweckgebundene Verwendung der generierten Einnahmen. Diese sollen gezielt in die <b>Transformation der Schifffahrt</b> reinvestiert werden, um den technologischen Wandel zu beschleunigen. Durch diesen Mechanismus soll die Wettbewerbsfähigkeit der Branche im Rahmen der europäischen Klimaziele gestärkt werden. Die Initiative zielt darauf ab, die <b>Dekarbonisierung</b> des maritimen Sektors durch finanzielle Anreize effektiv voranzutreiben.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS) sowie die Dekarbonisierung des Energiesektors, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R001144",
       "org_name": "World Vision Deutschland e. V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R001144/84648",
@@ -2764,6 +3255,30 @@
         }
       ],
       "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/84813",
+      "regulatory_project_title": "Position zum geplanten Aktionsplan Nachhaltigkeit",
+      "sending_date": "2026-08-03",
+      "upload_date": "2026-08-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/39/91/839350/Stellungnahme-Gutachten-SG2608180011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608180011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608180011",
+      "summary": "Erklärung unserer Position und Forderungen im Bereich Nachhaltigkeit (SDG)",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -73863,5 +74378,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 867
+  "gemini_filtered_out": 872
 }
