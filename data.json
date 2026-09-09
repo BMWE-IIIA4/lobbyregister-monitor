@@ -1,7 +1,94 @@
 {
-  "generated_at": "2026-09-08T07:47:41.637540+02:00",
-  "newly_added": 17,
+  "generated_at": "2026-09-09T07:51:43.003303+02:00",
+  "newly_added": 3,
   "statements": [
+    {
+      "register_number": "R002785",
+      "org_name": "MVV Energie AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002785/85605",
+      "regulatory_project_title": "Industrial Accelerator Act der EU: Vorgaben für die öffentliche Auftragsvergabe und Beschaffung",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/91/07/839638/Stellungnahme-Gutachten-SG2609080005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609080005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609080005",
+      "summary": "Der geplante <b>Industrial Accelerator Act</b> der EU <b>unterstützt die industrielle Transformation</b> und die Stärkung der europäischen Wertschöpfungsketten. Die Initiative <b>nutzt die öffentliche Auftragsvergabe</b> als strategisches Instrument, um eine gezielte Nachfrage nach klimafreundlichen Produkten zu generieren. Dabei soll die <b>Resilienz der Lieferketten</b> durch regulatorische Vorgaben nachhaltig erhöht werden. Gleichzeitig betont das Vorhaben die Notwendigkeit, <b>faire Wettbewerbsbedingungen</b> innerhalb des europäischen Binnenmarktes zu wahren. Die Ausgestaltung der Beschaffungskriterien muss somit eine Balance zwischen ökologischer Transformation und ökonomischer Stabilität finden. Eine detaillierte Analyse der Auswirkungen auf die europäische Energie- und Industriepolitik bleibt aufgrund der frühen Phase abzuwarten.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act berührt direkt die EU-Energiepolitik, den Clean Industrial Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006344",
+      "org_name": "Arbeitsgemeinschaft Christlicher Mediziner (ACM)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006344/85635",
+      "regulatory_project_title": "Wir verweisen auf Mindestanforderungen an ein Gesetz zur Regelung des assistierten Suizids in Deutschland zum Schutz vulnerabler Personengruppen",
+      "sending_date": "2026-09-08",
+      "upload_date": "2026-09-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/85/99/839852/Stellungnahme-Gutachten-SG2609080013.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609080013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609080013",
+      "summary": "Die ACM hat sich in der Vergangenheit wiederholt mit konstruktiven Vorschlägen zur gesetzlichen Regelung des assistierten Suizids in Deutschland eingebracht.\r\nKernforderungen betreffen die Sicherstellung der Freiverantwortlichkeit, die Verhinderung einer Normalisierung in der Gesellschaft sowie die Ermöglichung zur Überprüfung und wissenschaftlichen Begleitung der Suizidassistenz.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002258",
+      "org_name": "ProVeg e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002258/85288",
+      "regulatory_project_title": "Evidenzbasierte und effiziente Umsetzung des Novel-Food-Zulassungsverfahrens auf europäischer Ebene",
+      "sending_date": "2026-06-03",
+      "upload_date": "2026-09-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e3/55/839856/Stellungnahme-Gutachten-SG2609080012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609080012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609080012",
+      "summary": "ProVeg. e. V. spricht dafür aus, staatliche Beratungsangebote für jene Firmen zu schaffen, die das europäische Zulassungsverfahren für neuartige Lebensmittel durchlaufen möchten. Darüber hinaus setzt sich ProVeg e. V. dafür ein, dass sich die in Ministerräten agierenden Repräsentanten der Bundesregierung auf europäischer Ebene für eine evidenzbasierte und effiziente Umsetzung des Novel-Food-Verfahrens einsetzen. Ziel ist es, bestehende regulatorische und bürokratische Prozess zu optimieren und dadurch in der Bearbeitung zu beschleunigen, um so innovative Lebensmitteltechnologien durch einen reibungslosen und wissenschaftlich fundierten Zulassungsprozess zu fördern.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003891",
       "org_name": "Vestas Deutschland",
@@ -26,7 +113,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das WindSeeG betrifft direkt die Offshore-Windenergie, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Grenzueberschreitende EE-Kooperationsprojekte/Offshore-Kooperationen' der Unterabteilung IIIA faellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002747",
@@ -59,7 +146,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Umsetzung von Wasserstoffstrategien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002450",
@@ -90,7 +177,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiepolitik, den EU-Binnenmarkt sowie die Rahmenbedingungen für den Netzausbau und die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001667",
@@ -119,7 +206,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Sektorkopplung, welche unter die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001496",
@@ -156,7 +243,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Gesetzentwurf betrifft direkt die nationale Ausbauplanung erneuerbarer Energien, das EEG-Finanzierungssystem sowie netzrelevante regulatorische Rahmenbedingungen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001496",
@@ -185,7 +272,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die regulatorischen Rahmenbedingungen für den Ausbau erneuerbarer Energien und die Netzintegration, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000730",
@@ -220,7 +307,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungskette, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik, Clean Industrial Deal, Wettbewerbsfähigkeit) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000134",
@@ -245,7 +332,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007346",
@@ -1143,7 +1230,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiepolitik, den EU-Binnenmarkt sowie die Wettbewerbsfähigkeit von Energieversorgern, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -1180,7 +1267,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt EU-Energiepolitik, den EU-Binnenmarkt sowie die Wettbewerbsfähigkeit und Wirtschaftlichkeit der Energieinfrastruktur, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001118",
@@ -1217,7 +1304,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiepolitik, den EU-Binnenmarkt sowie die Rahmenbedingungen für Energieversorger und den Netzausbau, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000578",
@@ -3228,7 +3315,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS) sowie die Dekarbonisierung des Energiesektors, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001144",
@@ -74378,5 +74465,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 872
+  "gemini_filtered_out": 874
 }
