@@ -1,7 +1,433 @@
 {
-  "generated_at": "2026-09-09T07:51:43.003303+02:00",
-  "newly_added": 3,
+  "generated_at": "2026-09-10T07:46:10.737030+02:00",
+  "newly_added": 13,
   "statements": [
+    {
+      "register_number": "R003890",
+      "org_name": "Landesverband Erneuerbare Energien Schleswig-Holstein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003890/85649",
+      "regulatory_project_title": "Umsetzung 100% erneuerbares Energiesystem und Implementierung neues Strommarktdesign",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/8c/839963/Stellungnahme-Gutachten-SG2609090003.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609090003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090003",
+      "summary": "Der vorliegende Entwurf <b>fordert eine technologieoffene Ausgestaltung</b> der Kapazitätsreserve unter Einbeziehung ungenutzter Bioenergie-Potenziale. Zur Sicherung des weiteren Ausbaus erneuerbarer Energien wird eine <b>zeitnahe Reform des EEG-Fördermechanismus</b> unter Wahrung der Beihilfekonformität angemahnt. Dabei wird die <b>Marktprämie als bewährtes Instrument</b> gegenüber theoretischen Investitionskostenmodellen bevorzugt. Ergänzend wird die <b>Einführung eines produktionsabhängigen Claw-Back-Mechanismus</b> nach EU-Vorbild der Differenzverträge (CfD) vorgeschlagen. Abschließend wird betont, dass bei allen regulatorischen Anpassungen die <b>Erhaltung der Akteursvielfalt</b> zwingend berücksichtigt werden muss.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Ausgestaltung des Strommarktdesigns, die Reform der EEG-Förderung sowie die Kapazitätsreserve.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003890",
+      "org_name": "Landesverband Erneuerbare Energien Schleswig-Holstein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003890/85649",
+      "regulatory_project_title": "Umsetzung 100% erneuerbares Energiesystem und Implementierung neues Strommarktdesign",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/06/dc/839965/Stellungnahme-Gutachten-SG2609090004.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609090004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090004",
+      "summary": "Der vorliegende Entwurf <b>fordert eine technologieoffene Ausgestaltung</b> der Kapazitätsreserve unter Einbeziehung ungenutzter Bioenergie-Potenziale. Zur Sicherung des weiteren Ausbaus erneuerbarer Energien wird eine <b>zeitnahe Reform des EEG-Fördermechanismus</b> unter Wahrung der Beihilfekonformität angemahnt. Dabei wird die <b>Marktprämie als bewährtes Instrument</b> gegenüber theoretischen Investitionskostenmodellen bevorzugt. Ergänzend wird die Einführung eines <b>produktionsabhängigen Claw-Back-Mechanismus</b> nach EU-Vorbild der Differenzverträge (CfD) vorgeschlagen. Abschließend wird betont, dass bei allen regulatorischen Anpassungen die <b>Akteursvielfalt konsequent berücksichtigt</b> werden muss, um die Transformation des Strommarktes erfolgreich zu gestalten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Ausgestaltung des Strommarktdesigns, die Reform der EEG-Förderung sowie die Kapazitätsreserve.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003890",
+      "org_name": "Landesverband Erneuerbare Energien Schleswig-Holstein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003890/85649",
+      "regulatory_project_title": "Änderung des EnWG zu Netzausbau und Netzanschlussverfahren",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3b/b2/839967/Stellungnahme-Gutachten-SG2609090005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609090005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090005",
+      "summary": "Die Organisation <b>warnt vor einer Aufweichung des Einspeisevorrangs</b> für erneuerbare Energien, da dies zu erheblicher Rechtsunsicherheit führt und <b>Investitionsentscheidungen verzögert</b>. Ein geplanter <b>Redispatchvorbehalt</b> wird kritisch gesehen, da er die Energieversorgung verteuert und zusätzliche Unsicherheiten schafft. Statt restriktiver Eingriffe empfiehlt die Organisation, die bestehende Infrastruktur durch eine <b>effizientere Nutzung</b> zu optimieren. Das Stromsystem soll stattdessen durch gezielte Anreize für <b>Flexibilität bei Verbrauch und Erzeugung</b> besser auf die Integration von EE-Strom ausgerichtet werden. Zudem wird gefordert, bei allen regulatorischen Vorhaben den <b>Erhalt der Akteursvielfalt</b> und KMU-geprägter Strukturen sicherzustellen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft direkt die Strommarktregulierung, den Netzausbau und die Integration erneuerbarer Energien, welche Kernaufgaben der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003890",
+      "org_name": "Landesverband Erneuerbare Energien Schleswig-Holstein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003890/85649",
+      "regulatory_project_title": "Änderung des EnWG zu Netzausbau und Netzanschlussverfahren",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/67/839969/Stellungnahme-Gutachten-SG2609090006.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609090006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090006",
+      "summary": "Die Organisation <b>warnt vor einer Aufweichung des Einspeisevorrangs</b> für erneuerbare Energien, da dies zu erheblicher Rechtsunsicherheit führt und <b>Investitionsentscheidungen verzögert</b>. Ein geplanter <b>Redispatchvorbehalt</b> wird kritisch gesehen, da er die Energieversorgung verteuern und Investitionen hemmen würde. Stattdessen wird eine <b>effizientere Nutzung der vorhandenen Infrastruktur</b> gefordert, um das Stromsystem flexibler und steuerbarer zu gestalten. Die Integration von EE-Strom soll primär durch <b>Anreize für Flexibilitäten</b> bei Verbrauch und Erzeugung erreicht werden. Zudem betont die Organisation, dass bei allen regulatorischen Vorhaben der <b>Erhalt der Akteursvielfalt</b> und KMU-geprägter Strukturen zwingend berücksichtigt werden muss.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft direkt die Strommarktregulierung, Netzanschlussverfahren und die Integration erneuerbarer Energien, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002954",
+      "org_name": "ENTEGA AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002954/85657",
+      "regulatory_project_title": "Wettbewerbsnachteile für öffentlich geprägte Energieunternehmen in Folge des EU Industrial Accelerator Acts verhindern",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/66/01/840070/Stellungnahme-Gutachten-SG2609090015.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609090015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090015",
+      "summary": "Öffentliche Energieunternehmen <b>warnen vor Wettbewerbsverzerrungen</b> durch den geplanten EU Industrial Accelerator Act (IAA). Die Organisation <b>fordert faire Wettbewerbsbedingungen</b> zwischen öffentlich geprägten und privaten Akteuren bei der Nutzung der öffentlichen Auftragsvergabe als industriepolitisches Instrument. Es besteht die Sorge, dass die neuen Beschaffungsvorgaben für klimafreundliche Technologien die <b>Marktstruktur negativ beeinflussen</b> könnten. Zudem wird vor <b>steigenden Energiepreisen</b> gewarnt, die als direkte Folge der Umsetzung des IAA für Endverbraucher und Unternehmen entstehen könnten. Im weiteren Gesetzgebungsverfahren soll daher eine <b>Harmonisierung industriepolitischer Ziele</b> mit den Prinzipien des EU-Binnenmarktes sichergestellt werden. Ziel ist es, die <b>Wettbewerbsfähigkeit der Energiebranche</b> trotz der forcierten Nachfrage nach europäischen Technologien zu wahren.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Energiepolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt sowie die industriepolitische Ausrichtung der Energiebranche, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002373",
+      "org_name": "VNG AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002373/85020",
+      "regulatory_project_title": "Anpassung des Entwurfs eines Gesetzes zur Modernisierung des Städtebau- und Raumordnungsrechts",
+      "sending_date": "2026-09-07",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/16/88/840129/Stellungnahme-Gutachten-SG2609090021.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609090021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090021",
+      "summary": "Die VNG <b>fordert</b> im Rahmen der BauGB-Novelle <b>planungsrechtliche Erleichterungen</b> für den Hochlauf von Wasserstoff und Biogas. Konkret wird die <b>Privilegierung untertägiger Wasserstoffspeicher</b> im Außenbereich sowie für Anlagen zur Wasserstoffherstellung verlangt. Zudem soll die Zulässigkeit dieser Anlagen in Gewerbe- und Industriegebieten rechtssicher geklärt werden. Hinsichtlich der Bioenergie spricht sich die Interessenvertretung für eine <b>Entfristung der Sonderregelungen</b> für Biogasanlagen und Biomethan aus. Ergänzend wird eine <b>Überprüfung bestehender Kapazitätsbegrenzungen</b> angeregt, um die Effizienz der Anlagen zu steigern. Ziel der Maßnahmen ist die <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> für eine erfolgreiche Energiewende.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die planungsrechtliche Erleichterung für den Hochlauf von Wasserstoff und Biogas, was direkt mit den Zuständigkeiten der Unterabteilung IIIA für Wasserstoffmarkt und Erneuerbare Energien korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85375",
+      "regulatory_project_title": "Änderungsvorschläge zum EEG 2027 für einen planbaren, kosteneffizienten und netzverträglichen Ausbau erneuerbarer Energien",
+      "sending_date": "2026-09-08",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/8a/840094/Stellungnahme-Gutachten-SG2609090017.pdf",
+      "pdf_pages": 125,
+      "sg_number": "SG2609090017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090017",
+      "summary": "Der BDEW <b>fordert eine Neuausrichtung des EEG 2027</b>, um einen planbaren, kosteneffizienten und netzverträglichen Ausbau erneuerbarer Energien sicherzustellen. Zentral ist dabei die <b>Einführung eines zusätzlichen Ausschreibungsvolumens</b> von 12 GW für Windenergie an Land zur Beschleunigung der Energiewende. Zudem plädiert der Verband für eine <b>vereinfachte Übererlösabschöpfung</b>, bei der die Marktprämie flexibel auch negative Werte annehmen kann. Hinsichtlich der Digitalisierung der Energiewende spricht sich der BDEW gegen eine Absenkung der Schwelle für <b>intelligente Messsysteme</b> auf 2 kW aus und empfiehlt die Beibehaltung der 7-kW-Grenze. Ziel der Vorschläge ist ein regulatorischer Rahmen, der die <b>Systemintegration stärkt</b> und die Effizienz des Ausbaus erhöht. Die Forderungen zielen darauf ab, Investitionssicherheit für Marktteilnehmer zu schaffen und die Netzverträglichkeit der Erzeugungskapazitäten zu verbessern.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft direkt die Weiterentwicklung des EEG, die Ausbauziele für Windenergie an Land sowie regulatorische Rahmenbedingungen für die Systemintegration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85375",
+      "regulatory_project_title": "Änderungsvorschläge zur Reform des EU-Emissionshandelssystems ETS 1",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/33/44/840098/Stellungnahme-Gutachten-SG2609090016.pdf",
+      "pdf_pages": 27,
+      "sg_number": "SG2609090016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090016",
+      "summary": "Der BDEW <b>fordert</b> eine <b>verlässliche Reform</b> des EU-Emissionshandelssystems ETS 1, um langfristige Investitionssicherheit zu gewährleisten. Die Organisation verlangt ein stabiles <b>CO2-Preissignal</b> sowie einen robusten Minderungspfad zur Erreichung der Klimaziele. Bei der Integration von Kohlenstoffentnahmen und internationalen Gutschriften mahnt der Verband die Implementierung geeigneter <b>Korrekturmechanismen</b> an. Zudem plädiert der BDEW für praxistaugliche <b>Benchmarks</b> bei der kostenlosen Zuteilung von Zertifikaten und eine sachgerechte Berücksichtigung der Fernwärme. Hinsichtlich der Abfallverbrennung werden spezifische Schwellenwerte als notwendig erachtet. Abschließend betont der Verband die Bedeutung einer <b>regelbasierten Marktstabilitätsreserve</b>, um die notwendige Liquidität im europäischen Emissionshandel dauerhaft sicherzustellen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, den EU Green Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001358",
+      "org_name": "Bundesverband für Energie- und Wasserdatenmanagement e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001358/85643",
+      "regulatory_project_title": "Submetering im Messstellenbetriebsgesetz",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9c/c4/839927/Stellungnahme-Gutachten-SG2609090001.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609090001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090001",
+      "summary": "Teilnahme an Konsultationen des BMWEs zum MsbG (z.B. AG DigiEW, Konsultation nach §48 MsbG).\r\nGespräche mit Ministerien und Abgeordneten zu den unterschieden zwischen Submetering und Messung von Hauptzählern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/85375",
+      "regulatory_project_title": "Umsetzung einer möglichen Grüngasquote - Aspekte aus Handels- und Vertriebssicht",
+      "sending_date": "2026-09-08",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/35/840096/Stellungnahme-Gutachten-SG2609090018.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2609090018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090018",
+      "summary": "Der BDEW setzt sich für eine praktikable und umsetzbare Ausgestaltung einer möglichen Grüngasquote im Gebäudebestand ein. Dabei fordert der BDEW einfache und bürokratiearme Regelungen, die bestehende Instrumente berücksichtigen sowie Anforderungen an Zertifizierung, Nachweisführung, Register, Handelbarkeit und Gaskennzeichnung sachgerecht ausgestalten und den Wasserstoffhochlauf nicht gefährden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000199",
+      "org_name": "Parlamentwatch e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000199/85654",
+      "regulatory_project_title": "Reform der jetzigen Regelungen zum Lobby-Fußabdruck per Gesetz (legislativ und exekutiv)",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/7e/840022/Stellungnahme-Gutachten-SG2609090010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609090010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090010",
+      "summary": "Das Bundeskabinett hat beschlossen, ab dem 1. Juni 2024 einen exekutiven Fußabdruck zu \"wesentlichen\" Lobbyeinflüssen auf Gesetzesentwürfe einzuführen. Diese Regelung ist in Theorie und Praxis unzureichend. abgeordnetenwatch setzt sich daher für einen umfassenderen legislativen und exekutiven Lobby-Fußabdruck per Gesetz ein, der insbesondere folgende Fragen beantwortet: Wie verlief die Entstehungsgeschichte des Gesetzgebungsverfahrens? Welche Lobbyist:innen haben bei einem Gesetzentwurf in welcher Form mitgewirkt? Wie erfolgreich waren sie bei ihrer Einflussnahme?",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_POLITICAL_PARTIES",
+          "label": "Politisches Leben, Parteien"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000199",
+      "org_name": "Parlamentwatch e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000199/85654",
+      "regulatory_project_title": "Reform der Regelungen zum Umgang mit (finanziellen) Interessenkonflikten in der Bundesregierung und im Bundestag",
+      "sending_date": "2026-09-02",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ec/81/840024/Stellungnahme-Gutachten-SG2609090009.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609090009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090009",
+      "summary": "Die Regelungen zum Umgang mit (finanziellen) Interessenkonflikten in Bundesregierung und Bundestag sind reformbedürftig. Wir setzen uns für eine gesetzlich verpflichtende Regelung für MdB, Regierungsmitglieder und hochrangige Regierungsvertreter:innen zur regelmäßigen Offenlegung ihrer finanziellen Interessen ein, um ihre politische Integrität sicherzustellen. \r\nDazu gehören:\r\n- gesetzlich geregelte Offenlegungspflichten zu finanziellen Interessen: Unternehmensbeteiligungen und die daraus erzielten Einkünfte und andere Vermögenswerte bei Unternehmen sowie Verbindlichkeiten\r\n- für Regierungsmitglieder und Regierungsvertreter:innen sollen diese Transparenzpflichten neu eingeführt werden; für MdB sollten sie ausgeweitet und der bisher geltende Schwellenwert von 5 Prozent abgeschafft werden",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_POLITICAL_PARTIES",
+          "label": "Politisches Leben, Parteien"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000199",
+      "org_name": "Parlamentwatch e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000199/85654",
+      "regulatory_project_title": "Reform der Regelungen zum Umgang mit (finanziellen) Interessenkonflikten in der Bundesregierung und im Bundestag",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7a/d0/840026/Stellungnahme-Gutachten-SG2609090011.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609090011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090011",
+      "summary": "Die Regelungen zum Umgang mit (finanziellen) Interessenkonflikten in Bundesregierung und Bundestag sind reformbedürftig. Wir setzen uns für eine gesetzlich verpflichtende Regelung für MdB, Regierungsmitglieder und hochrangige Regierungsvertreter:innen zur regelmäßigen Offenlegung ihrer finanziellen Interessen ein, um ihre politische Integrität sicherzustellen. \r\nDazu gehören:\r\n- gesetzlich geregelte Offenlegungspflichten zu finanziellen Interessen: Unternehmensbeteiligungen und die daraus erzielten Einkünfte und andere Vermögenswerte bei Unternehmen sowie Verbindlichkeiten\r\n- für Regierungsmitglieder und Regierungsvertreter:innen sollen diese Transparenzpflichten neu eingeführt werden; für MdB sollten sie ausgeweitet und der bisher geltende Schwellenwert von 5 Prozent abgeschafft werden",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_POLITICAL_PARTIES",
+          "label": "Politisches Leben, Parteien"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002785",
       "org_name": "MVV Energie AG",
@@ -39,7 +465,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act berührt direkt die EU-Energiepolitik, den Clean Industrial Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006344",
@@ -74465,5 +74891,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 874
+  "gemini_filtered_out": 879
 }
