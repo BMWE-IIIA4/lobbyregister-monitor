@@ -1,7 +1,119 @@
 {
-  "generated_at": "2026-09-10T07:46:10.737030+02:00",
-  "newly_added": 13,
+  "generated_at": "2026-09-11T07:46:13.760640+02:00",
+  "newly_added": 9,
   "statements": [
+    {
+      "register_number": "R007923",
+      "org_name": "green flexibility development gmbh",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007923/85713",
+      "regulatory_project_title": "Rahmenbedingungen für BESS",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-09-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6c/43/840508/Stellungnahme-Gutachten-SG2609100009.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609100009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609100009",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine <b>Berücksichtigung von BESS-Projekten</b> im Rahmen des geplanten Netzpakets des BMWE. Das Vorhaben zielt darauf ab, das <b>Netzanschluss- und Vorrangsrecht</b> für Erneuerbare-Energien-Anlagen in stark belasteten Netzgebieten grundlegend zu modifizieren. Durch die geplante Einführung eines neuen <b>Priorisierungssystems für Netzanschlussbegehren</b> besteht das Risiko, dass Batteriespeicher gegenüber anderen Anlagen benachteiligt werden. Die Akteure mahnen an, dass die regulatorischen Vorgaben die <b>Systemdienlichkeit von Speichern</b> nicht untergraben dürfen. Ziel ist die Sicherstellung fairer Rahmenbedingungen, um die notwendige Flexibilisierung des Stromsystems durch Speichertechnologien nicht zu gefährden. Eine entsprechende Anpassung der gesetzlichen Vorgaben soll verhindern, dass BESS-Projekte bei der Netzanbindung ins Hintertreffen geraten.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzanschlussregulierung und die Integration von Batteriespeichersystemen (BESS), welche unter die Themenfelder 'Strommarktdesign & -regulierung' sowie 'Erneuerbare Energien' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002101",
+      "org_name": "ZVEI e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002101/85683",
+      "regulatory_project_title": "IAA: Resilienz zum Business Case machen ",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0f/fb/840281/Stellungnahme-Gutachten-SG2609100002.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2609100002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609100002",
+      "summary": "Der ZVEI <b>fordert eine außenwirtschaftspolitisch ausgerichtete Industriepolitik</b>, um die Resilienz der europäischen Wirtschaft als zentralen Business Case zu etablieren. Die Organisation <b>plädiert für eine gezielte Förderung europäischer Wertschöpfungsketten</b> durch den Einsatz öffentlicher Mittel. Dabei wird angeregt, die Instrumente des IAA <b>technologieoffen und anschlussfähig</b> für weitere Sektoren zu gestalten. Zur Entlastung der Unternehmen wird eine <b>KMU-freundliche Umsetzung</b> durch digitale Unterstützungssysteme wie einen Compliance Calculator vorgeschlagen. Ziel ist es, die <b>Wettbewerbsfähigkeit im EU-Binnenmarkt</b> durch klare regulatorische Rahmenbedingungen und eine effiziente administrative Abwicklung zu stärken.",
+      "recipients": [
+        "BKAmt",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der ZVEI-Vorschlag zur Industriepolitik und zum IAA (Industry Acceleration Act) berührt direkt die EU-Energiepolitik, den Clean Industrial Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000569",
+      "org_name": "Industrieverband Massivumformung e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000569/85720",
+      "regulatory_project_title": "Strompreiskompensation",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/83/02/840567/Stellungnahme-Gutachten-SG2609100014.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609100014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609100014",
+      "summary": "Der vorliegende Antrag <b>fordert die nachträgliche Anerkennung</b> des Teilsektors der Metallverarbeitung für die <b>Strompreiskompensation</b>. Konkret soll die Branche der Herstellung von Schmiede-, Press-, Zieh- und Stanzteilen sowie pulvermetallurgischen Erzeugnissen (NACE 25.50) in den Kreis der anspruchsberechtigten Sektoren aufgenommen werden. Ziel dieser Maßnahme ist die <b>Entlastung energieintensiver Unternehmen</b> von indirekten CO2-Kosten, um deren <b>internationale Wettbewerbsfähigkeit</b> zu sichern. Die Einbeziehung soll sicherstellen, dass betroffene Betriebe nicht aufgrund von Wettbewerbsnachteilen durch EU-Klimaschutzvorgaben abwandern. Der Antrag adressiert damit die <b>Vermeidung von Carbon Leakage</b> innerhalb des europäischen Binnenmarktes. Eine positive Entscheidung würde die betroffenen Unternehmen rückwirkend in die bestehende Förderstruktur integrieren.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Strompreiskompensation ist ein zentrales Instrument zur Sicherung der Wettbewerbsfähigkeit energieintensiver Industrien im EU-Binnenmarkt und fällt unter die Zuständigkeit für Energiepreise und Wettbewerbsfähigkeit.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002211",
+      "org_name": "Frauenhauskoordinierung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002211/85707",
+      "regulatory_project_title": " Bundeshaushalt 2027: Sicherung der Finanzierung von Gewaltschutz und Bekämpfung des Menschenhandels",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f4/6b/840419/Stellungnahme-Gutachten-SG2609100007.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609100007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609100007",
+      "summary": "Frauenhauskoordinierung setzt sich dafür ein, dass die im Plan 17 des Bundeshaushalts 2027 vorgesehenen Mittel für Gewaltschutz und -prävention nicht gekürzt, sondern mindestens tarif- und inflationsgerecht erhöht werden. Ziel ist die langfristige Sicherung der bundesweiten fachlichen Vernetzungs- und Koordinierungsstrukturen, die zur Bekämpfung häuslicher und geschlechtsspezifischer Gewalt, zum Schutz Betroffener sowie zur fachpolitischen Weiterentwicklung des Hilfesystems beitragen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003890",
       "org_name": "Landesverband Erneuerbare Energien Schleswig-Holstein e.V. ",
@@ -33,7 +145,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Ausgestaltung des Strommarktdesigns, die Reform der EEG-Förderung sowie die Kapazitätsreserve.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -66,7 +178,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Ausgestaltung des Strommarktdesigns, die Reform der EEG-Förderung sowie die Kapazitätsreserve.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -99,7 +211,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die Strommarktregulierung, den Netzausbau und die Integration erneuerbarer Energien, welche Kernaufgaben der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -132,7 +244,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die Strommarktregulierung, Netzanschlussverfahren und die Integration erneuerbarer Energien, welche Kernaufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002954",
@@ -167,7 +279,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Energiepolitik, Wettbewerbsfähigkeit im EU-Binnenmarkt sowie die industriepolitische Ausrichtung der Energiebranche, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002373",
@@ -196,7 +308,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die planungsrechtliche Erleichterung für den Hochlauf von Wasserstoff und Biogas, was direkt mit den Zuständigkeiten der Unterabteilung IIIA für Wasserstoffmarkt und Erneuerbare Energien korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -241,7 +353,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft direkt die Weiterentwicklung des EEG, die Ausbauziele für Windenergie an Land sowie regulatorische Rahmenbedingungen für die Systemintegration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -278,7 +390,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, den EU Green Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001358",
@@ -2973,6 +3085,107 @@
       "priority": 2,
       "gemini_relevanz": "Die Änderung des Data Act betrifft die Nutzung industrieller Produktdaten und Cloud-Wechselvorgaben, was direkte Auswirkungen auf die Digitalisierung der Energiewirtschaft, die industrielle KI-Anwendung und die Wettbewerbsfähigkeit im EU-Binnenmarkt hat.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/85014",
+      "regulatory_project_title": "Strompreise senken",
+      "sending_date": "2026-05-04",
+      "upload_date": "2026-08-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/99/93/840471/Stellungnahme-Gutachten-SG2608240011.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2608240011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608240011",
+      "summary": "Der <b>vzbv fordert</b> eine <b>Senkung der Stromsteuer</b> für sämtliche Verbrauchergruppen, um die finanzielle Belastung durch Energiekosten zu reduzieren. Ergänzend dazu verlangt der Verband eine <b>Reduzierung der Strompreisumlagen</b>, um die Endverbraucherpreise nachhaltig zu entlasten. Diese Maßnahmen zielen darauf ab, die <b>Wettbewerbsfähigkeit</b> und Bezahlbarkeit der Energieversorgung im Kontext der laufenden Energiewende zu sichern. Die Forderungen adressieren direkt die staatlich beeinflussbaren Preisbestandteile, die einen wesentlichen Teil der Stromrechnung ausmachen. Eine Umsetzung dieser Vorschläge würde eine <b>Anpassung der fiskalischen Rahmenbedingungen</b> für den Strommarkt erfordern. Damit unterstreicht der vzbv die Notwendigkeit einer <b>sozialverträglichen Gestaltung</b> der Energiekosten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Energiepreise und -kosten sowie die Reform klimarelevanter Steuern und Abgaben, welche explizit in den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/85014",
+      "regulatory_project_title": "Strompreise senken",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-08-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c3/07/840473/Stellungnahme-Gutachten-SG2608240012.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608240012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608240012",
+      "summary": "Der Verbraucherzentrale Bundesverband (vzbv) <b>fordert</b> eine <b>Senkung der Stromsteuer</b> für sämtliche Verbrauchergruppen. Zudem verlangt der Verband eine <b>Reduzierung der Strompreisumlagen</b>, um die finanzielle Belastung der Endkunden zu verringern. Diese Maßnahmen zielen darauf ab, die <b>Endverbraucherpreise</b> im Stromsektor spürbar zu entlasten. Die Initiative adressiert damit die aktuelle <b>Wettbewerbsfähigkeit</b> und die Bezahlbarkeit der Energiewende für private Haushalte. Eine konkrete Ausgestaltung der steuerlichen Entlastung oder eine Gegenfinanzierung der Umlagensenkung wird in der Kurzbeschreibung nicht weiter spezifiziert.",
+      "recipients": [
+        "BMJV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Forderung betrifft direkt die Energiepreise und -kosten sowie die Gestaltung von Abgaben und Umlagen, welche unter das Themenfeld 'Energiepreise & -kosten' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/85014",
+      "regulatory_project_title": "Aktive Teilhabe der Verbraucher:innen am Energiemarkt",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/63/f6/840477/Stellungnahme-Gutachten-SG2608240013.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2608240013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608240013",
+      "summary": "Die vorliegende Kurzbeschreibung <b>fordert den Abbau bürokratischer Hürden</b>, um eine breitere <b>aktive Teilhabe von Verbraucher:innen</b> an der dezentralen Energiewende zu ermöglichen. Ein wesentlicher Fokus liegt dabei auf der Bereitstellung <b>kostengünstiger und funktionsfähiger Stromzähler</b> als technische Voraussetzung für die Marktbeteiligung. Zudem wird betont, dass die <b>Netzbetreiber ihre energiewirtschaftlichen Prozesse</b> an die Anforderungen einer stärkeren Verbraucherpartizipation anpassen müssen. Ziel ist es, die Flexibilität im Stromsystem durch eine stärkere Einbindung privater Akteure zu erhöhen. Die Umsetzung erfordert eine effiziente Gestaltung der regulatorischen Rahmenbedingungen für dezentrale Marktteilnehmer. Damit soll die <b>dezentrale Energiewende</b> durch eine verbesserte technische und administrative Infrastruktur gestärkt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die aktive Teilhabe von Verbrauchern am Energiemarkt ist ein zentraler Aspekt der Flexibilisierung und Sektorkopplung, welche unter die Themenfelder Strommarktdesign und Erneuerbare Energien (national) der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001211",
+      "org_name": "Verbraucherzentrale Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001211/85014",
+      "regulatory_project_title": "Aktive Teilhabe der Verbraucher:innen am Energiemarkt",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-08-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/93/81/840479/Stellungnahme-Gutachten-SG2608240014.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2608240014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608240014",
+      "summary": "Die Initiative <b>fordert den Abbau bürokratischer Hürden</b>, um eine breitere <b>aktive Teilhabe von Verbraucher:innen</b> an der dezentralen Energiewende zu ermöglichen. Ein zentraler Punkt ist die Bereitstellung von <b>kostengünstigen und funktionsfähigen Stromzählern</b> als technische Voraussetzung für die Marktintegration. Zudem wird betont, dass die <b>Netzbetreiber ihre energiewirtschaftlichen Prozesse</b> an die Anforderungen einer dezentralen Erzeugung anpassen müssen. Ziel ist es, die Flexibilisierung des Stromsystems durch eine stärkere Einbindung privater Akteure voranzutreiben. Die <b>Optimierung der regulatorischen Rahmenbedingungen</b> soll dabei den Zugang zum Energiemarkt erleichtern und die Effizienz der Sektorkopplung steigern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die aktive Teilhabe von Verbrauchern am Energiemarkt ist ein zentraler Aspekt der Flexibilisierung und Sektorkopplung, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign & -regulierung) fällt.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R001579",
@@ -19759,6 +19972,37 @@
       "priority": 1,
       "gemini_relevanz": "Betrifft die Energieeffizienz im Gebäudesektor, was ein wesentlicher Bestandteil der nationalen Energie- und Klimapolitik ist.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R007721",
+      "org_name": "EDF power solutions Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007721/76091",
+      "regulatory_project_title": "Änderung des Baugesetzbuches (\"Baugesetzbuch-Upgrade\")",
+      "sending_date": "2026-06-16",
+      "upload_date": "2026-06-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/0a/840524/Stellungnahme-Gutachten-SG2606300363.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2606300363",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606300363",
+      "summary": "Das geplante Baugesetzbuch-Upgrade <b>schlägt eine Anpassung</b> der planungsrechtlichen Rahmenbedingungen für <b>Batteriespeicher</b> vor. Ziel der Initiative ist die <b>Erweiterung der Außenbereichsprivilegierung</b>, um den Ausbau von Speicherkapazitäten im Stromnetz zu beschleunigen. Durch die rechtliche Privilegierung sollen <b>Genehmigungsverfahren vereinfacht</b> und beschleunigt werden, um die notwendige Flexibilisierung des Stromsystems zu unterstützen. Die Maßnahme adressiert damit einen kritischen Engpass bei der <b>Integration erneuerbarer Energien</b> in das nationale Stromnetz. Die Änderung soll den rechtlichen Rahmen für großskalige Speicherprojekte außerhalb von Siedlungsgebieten rechtssicher gestalten. Damit leistet das Vorhaben einen Beitrag zur <b>Versorgungssicherheit</b> und zur effizienten Nutzung fluktuierender Stromerzeugung.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Anpassung der Außenbereichsprivilegierung für Batteriespeicher berührt direkt die Themenfelder Stromerzeugung, Netzintegration und die notwendige Infrastruktur für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002709",
@@ -74891,5 +75135,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 879
+  "gemini_filtered_out": 880
 }
