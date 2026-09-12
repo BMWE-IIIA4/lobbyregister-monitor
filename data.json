@@ -1,7 +1,412 @@
 {
-  "generated_at": "2026-09-11T07:46:13.760640+02:00",
-  "newly_added": 9,
+  "generated_at": "2026-09-12T07:34:24.959071+02:00",
+  "newly_added": 14,
   "statements": [
+    {
+      "register_number": "R008042",
+      "org_name": "metrify smart metering GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008042/85733",
+      "regulatory_project_title": "Beschleunigung des Smart-Meter-Rollouts durch Sicherung des Wettbewerbs, Digitalisierung des Messwesens und Prozessoptimierung ",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ec/98/840826/Stellungnahme-Gutachten-SG2609110007.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609110007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110007",
+      "summary": "Die Initiative <b>fordert eine Beschleunigung des Smart-Meter-Rollouts</b>, um die notwendige digitale Infrastruktur für die Energiewende zu etablieren. Eine flächendeckende <b>Digitalisierung der Niederspannung</b> wird als essenzielle Voraussetzung für die Steuerung und Integration dezentraler Erzeugungsanlagen identifiziert. Durch die <b>Optimierung von Messprozessen</b> und die Sicherung des Wettbewerbs soll die Effizienz im Messwesen gesteigert werden. Die Maßnahme zielt darauf ab, die <b>Transformation des Energiesystems</b> kosteneffizient zu gestalten und die Flexibilisierung des Strommarktes zu unterstützen. Eine verbesserte <b>digitale Infrastruktur für Messung und Steuerung</b> ist dabei zentral, um die Herausforderungen der Sektorkopplung und der erneuerbaren Energien zu bewältigen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Energienetze und die Integration erneuerbarer Energien, was direkt unter die Zuständigkeit der Unterabteilung IIIA für Strommarktdesign, Netzregulierung und die Transformation des Stromsystems fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002663",
+      "org_name": "L'Oreal Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002663/85748",
+      "regulatory_project_title": "Territorial Supply Constraints",
+      "sending_date": "2026-07-11",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/e0/840921/Stellungnahme-Gutachten-SG2609110015.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609110015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110015",
+      "summary": "Die Organisation <b>lehnt</b> neue <b>Rechtsvorschriften</b> gegen <b>Territorial Supply Constraints</b> (TSCs) ab, da sie das geltende Wettbewerbsrecht bereits für ausreichend hält. Sie argumentiert, dass eine <b>Marktaufteilung</b> entlang nationaler Grenzen bereits heute durch EU-Wettbewerbsbehörden streng sanktioniert wird. Zusätzliche Regulierungen werden als unnötige <b>bürokratische Hemmnisse</b> eingestuft, die den freien Warenverkehr innerhalb der Union behindern könnten. Stattdessen wird auf die bestehende Rechtslage verwiesen, die eine angemessene Kontrolle gewährleistet. Eine Verschärfung der Regeln hätte laut Einschätzung negative Auswirkungen auf die <b>Wettbewerbsfähigkeit</b> im Binnenmarkt. Die Position unterstreicht die Effizienz der aktuellen Durchsetzungspraxis gegenüber neuen legislativen Eingriffen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die Wettbewerbsfähigkeit im EU-Binnenmarkt und die regulatorischen Rahmenbedingungen für den freien Handel, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Strommarktdesign) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/85741",
+      "regulatory_project_title": "KOM-Entwurf für europäische Vergabe darf nicht zur Absenkung bewährter Schutzstandards für Planungsbüros führen",
+      "sending_date": "2026-08-03",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/36/20/840874/Stellungnahme-Gutachten-SG2609110011.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609110011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110011",
+      "summary": "Die Bundesarchitektenkammer <b>kritisiert</b> den <b>KOM-Entwurf für eine EU-Vergabeverordnung</b> und warnt vor einer <b>Absenkung bewährter Schutzstandards</b> für Planungsbüros. Während das Ziel eines vereinheitlichten Binnenmarkts grundsätzlich unterstützt wird, befürchtet die Organisation den Verlust nationaler Regelungen zur Qualitätssicherung. Zentral gefordert wird die <b>Sicherung der Losvergabe</b> als Instrument des Mittelstandsschutzes sowie der Erhalt von Planungswettbewerben als eigenständige Verfahren. Zudem mahnt die Kammer eine <b>faire Vergütung</b> von Planungsleistungen an, um die fachliche Qualität nicht zu gefährden. Insgesamt wird ein modernes Vergaberecht gefordert, das Effizienz und Transparenz nicht zulasten des fairen Wettbewerbs umsetzt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Entwurf betrifft die EU-Binnenmarktregulierung und Vergaberecht, welche direkte Auswirkungen auf die Umsetzung von Energieinfrastrukturprojekten und die Wettbewerbsfähigkeit im EU-Energiebinnenmarkt haben.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/85735",
+      "regulatory_project_title": "Novellierung des Erneuerbare-Energien-Gesetzes (EEG) 2027",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8c/9c/840814/Stellungnahme-Gutachten-SG2609110006.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609110006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110006",
+      "summary": "Der <b>Bundesverband Erneuerbare Energie e.V. (BEE) fordert</b> im Zuge der anstehenden EEG-Novellierung 2027 eine umfassende Anpassung der gesetzlichen Rahmenbedingungen. Zentral ist dabei die <b>Gewährleistung von Planungssicherheit</b> für Investoren durch einen modernisierten Förderrahmen. Zudem wird eine <b>Stärkung der Systemeffizienz</b> angestrebt, die insbesondere durch eine verstärkte Digitalisierung und Flexibilisierung der Stromerzeugung erreicht werden soll. Ein weiterer Schwerpunkt liegt auf der <b>Sicherstellung der Versorgungssicherheit</b>, welche durch ein dezentrales Back-up-System auf Basis steuerbarer erneuerbarer Energien realisiert werden soll. Die Vorschläge zielen darauf ab, die Transformation des Energiesystems durch mehr Transparenz und technologische Anpassungen effizienter zu gestalten.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die strategische Ausrichtung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/85735",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/69/41/840816/Stellungnahme-Gutachten-SG2609110003.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609110003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110003",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine Anpassung des Netzanschlusspakets, um die <b>Integration erneuerbarer Energien</b> durch eine Beschleunigung und Flexibilisierung der Netzanschlussprozesse zu optimieren. Zentral ist dabei der <b>Wegfall des Redispatch-Vorbehalts</b> sowie der entschädigungsfreien Abregelung, um die Wirtschaftlichkeit der Anlagen zu sichern. Zudem wird die Einführung eines <b>Rechts auf Überbauung</b> von Netzverknüpfungspunkten sowie die gemeinsame Nutzung von Anschlüssen und Speichern angestrebt. Zur Verbesserung der Planungssicherheit sollen <b>verbindliche Ausbau- und Anschlussfristen</b> etabliert und digitale Kapazitätsdaten transparent bereitgestellt werden. Abschließend wird eine Weiterentwicklung des Instruments <b>Nutzen statt Abregeln</b> vorgeschlagen, um die Effizienz des Gesamtsystems zu steigern.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Redispatch, Netzoptimierung sowie die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002049",
+      "org_name": "Deutscher Verband Flüssiggas e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002049/85745",
+      "regulatory_project_title": "Emissionshandel, Schwerpunkt Anerkennung biogener Flüssiggase",
+      "sending_date": "2026-09-10",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/89/41/840887/Stellungnahme-Gutachten-SG2609110012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609110012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110012",
+      "summary": "Der Deutsche Verband Flüssiggas (DVFG) <b>fordert strukturelle Änderungen</b> an der Nachhaltigkeitsberichterstattung, um die <b>Anerkennung biogener Flüssiggase</b> im nationalen Emissionshandel zu ermöglichen. Aktuell ist eine Anrechnung aufgrund der bestehenden Rechtslage und der spezifischen Infrastruktur der Branche nicht umsetzbar. Der Verband kritisiert, dass derzeitige Herkunftsnachweise nicht zum <b>Emissionsabzug</b> berechtigen. Als Lösungsansatz wird die Einführung einer <b>eigenen Biobrennstoff-Nachhaltigkeitsverordnung</b> vorgeschlagen. Ziel ist es, die regulatorischen Hürden für den Einsatz erneuerbarer Gase im Rahmen der <b>Dekarbonisierung</b> zu beseitigen. Damit soll die Gleichstellung biogener Energieträger mit anderen erneuerbaren Optionen im nationalen <b>Emissionshandelssystem</b> sichergestellt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft den nationalen Emissionshandel (nEHS) und die Integration biogener Brennstoffe, was direkt in die Zuständigkeit der Unterabteilung IIIA für Klimaschutz und Energiepolitik fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001190",
+      "org_name": "ONTRAS Gastransport GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001190/85775",
+      "regulatory_project_title": "EU Industrial Accelerator Act, Vorgaben für die öffentliche Auftragsvergabe",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d5/02/841125/Stellungnahme-Gutachten-SG2609110025.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609110025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110025",
+      "summary": "Der geplante <b>Industrial Accelerator Act</b> <b>schlägt vor</b>, die öffentliche Auftragsvergabe als zentrales Instrument zur <b>Stärkung der europäischen Wertschöpfung</b> einzusetzen. Durch gezielte Vorgaben bei der Beschaffung soll eine <b>regulierte Nachfrage</b> geschaffen werden, um Leitmärkte für klimafreundliche Technologien zu etablieren. Ziel des Vorhabens ist es, die <b>Resilienz strategischer Lieferketten</b> zu erhöhen und die Abhängigkeiten von Drittstaaten zu verringern. Gleichzeitig soll der Rechtsrahmen dazu beitragen, die <b>energieintensive Industrie</b> effektiv zu <b>dekarbonisieren</b>. Die Initiative zielt darauf ab, die Wettbewerbsfähigkeit des europäischen Industriestandorts im Kontext des Green Deals nachhaltig zu sichern. Die Umsetzung erfordert eine enge Abstimmung zwischen den beteiligten Bundesressorts und den europäischen Institutionen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungsketten, was in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit des EU-Binnenmarktes der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006726",
+      "org_name": "Sandoz Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006726/85728",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/85/27/840849/Stellungnahme-Gutachten-SG2609110009.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609110009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110009",
+      "summary": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002002",
+      "org_name": "Bundesärztekammer - Arbeitsgemeinschaft der deutschen Ärztekammern",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002002/85716",
+      "regulatory_project_title": "Impulse des 130. Deutschen Ärztetages für die Bewältigung der aktuellen Herausforderungen im Gesundheitswesen",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/65/e3/840933/Stellungnahme-Gutachten-SG2609110016.pdf",
+      "pdf_pages": 276,
+      "sg_number": "SG2609110016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110016",
+      "summary": "Der 130. Deutsche Ärztetag hat sich intensiv mit Fragen der Gesundheits-, Sozial- und Berufspolitik befasst und eine Vielzahl von Beschlüssen gefasst. Die Beschlüsse enthalten Forderungen zur nachhaltigen Finanzierung und strukturellen Weiterentwicklung des Gesundheitswesens, zur Sicherung der ambulanten und stationären Versorgung, zur Weiterentwicklung der ärztlichen Ausbildung und ärztlicher Nachwuchsförderung bis hin zu Fragen der Digitalisierung, des Datenschutzes und des Einsatzes Künstlicher Intelligenz in der Medizin. Auch Prävention und Gesundheitsförderung, gesundheitlicher Klimaschutz und Klimaanpassung sowie die Stärkung der Krisenresilienz des Gesundheitswesens sind Gegenstand der Beschlüsse. Einen Schwerpunkt des Ärztetages bildeten suchtmedizinische Fragestellungen.\r\n",
+      "recipients": [
+        "BKAmt",
+        "BMJV",
+        "BMI",
+        "BMAS",
+        "BMBFSFJ",
+        "BMDS",
+        "BMG",
+        "BMLEH",
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/85754",
+      "regulatory_project_title": "Vorschläge zur Vereinfachung des europäischen, kapitalmarktrechtlichen Meldewesens",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/37/00/840999/Stellungnahme-Gutachten-SG2609110019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609110019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110019",
+      "summary": "Bewusstsein für die Optimierung des kapitalmarktrechtlichen Meldewesens schaffen. Sicherung bzw. Verbesserung der Datenqualität unter gleichzeitiger Entlastung von Aufsichtsbehörden und Meldepflichtigen.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/85754",
+      "regulatory_project_title": "Verzicht auf weitergehende Eingriffe in die Preisgestaltung bei Basiskonten.",
+      "sending_date": "2026-05-13",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/6c/840970/Stellungnahme-Gutachten-SG2609110017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609110017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110017",
+      "summary": "Wir setzen uns dafür ein, auf weitere Beschränkungen im Hinblick auf die Preisgestaltung bei Basiskonten zu verzichten.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMJV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/85754",
+      "regulatory_project_title": "Vorschläge zur Ausgestaltung des EU Cloud and AI Development Act (CADA)",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/35/17/840895/Stellungnahme-Gutachten-SG2609110013.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609110013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110013",
+      "summary": "Ziel der Einflussnahme ist eine technologieoffene, risikobasierte und mit bestehenden Finanzmarktregelungen, insbesondere DORA, kohärente Ausgestaltung des Cloud and AI Development Act (CADA). Dabei sollen Doppelregulierung und unverhältnismäßige zusätzliche Pflichten für Kreditinstitute vermieden, die Anbieter- und Technologiewahlfreiheit erhalten sowie der Zugang zu leistungsfähigen internationalen Cloud-, KI- und Modellökosystemen gesichert werden. Zudem soll eine verpflichtende Ausweitung von Souveränitätsanforderungen auf Finanzinstitute nicht erfolgen.",
+      "recipients": [
+        "BMF",
+        "BMDS"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/85754",
+      "regulatory_project_title": "Klarstellung, dass Regressionsmodelle und vergleichbare statistische Verfahren kein KI-System im Sinne von Art. 3 Nr. 1 KI-Verordnung sind.",
+      "sending_date": "2026-04-30",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/c2/840912/Stellungnahme-Gutachten-SG2609110014.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609110014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110014",
+      "summary": "Wir setzen uns dafür ein, dass die Verwendung traditioneller statistischer Verfahren in ihrer stand-alone-Anwendung nicht als KI im Sinne von Art. 3 Nr. 1 KI-Verordnung eingeordnet wird. Dies gilt insbesondere für Verfahren, die keine Formen des maschinellen Lernens oder der Selbstoptimierung aufweisen. Erfasst sind dabei insbesondere lineare Modelle, verallgemeinerte lineare Modelle (GLMs), logistische Regression sowie vergleichbare etablierte statistische Methoden, sofern sie als eigenständige Modelle eingesetzt werden und ihre Entscheidungslogik vollständig nachvollziehbar und reproduzierbar ist, um die Verhältnismäßigkeit und praktische Anwendbarkeit der EU-Vorschriften nachhaltig zu gewährleisten.",
+      "recipients": [
+        "BMF",
+        "BMDS",
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/85754",
+      "regulatory_project_title": "Umsetzung harmonisierter Vorschriften zur künstlichen Intelligenz (Digital Omnibus on AI)",
+      "sending_date": "2026-02-23",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b3/90/840972/Stellungnahme-Gutachten-SG2609110018.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609110018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110018",
+      "summary": "Wir unterstützen die Vorschläge der Europäischen Kommission COM(2025)836 („Digital Omnibus on AI“), die Anwendung der KI-Verordnung (EU) 2024/1689 in der Praxis zu erleichtern, administrative Belastungen zu reduzieren und damit Innovation und Wettbewerbsfähigkeit in Europa zu stärken.",
+      "recipients": [
+        "BMF",
+        "BMDS"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007923",
       "org_name": "green flexibility development gmbh",
@@ -36,7 +441,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzanschlussregulierung und die Integration von Batteriespeichersystemen (BESS), welche unter die Themenfelder 'Strommarktdesign & -regulierung' sowie 'Erneuerbare Energien' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002101",
@@ -63,7 +468,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der ZVEI-Vorschlag zur Industriepolitik und zum IAA (Industry Acceleration Act) berührt direkt die EU-Energiepolitik, den Clean Industrial Deal sowie die Wettbewerbsfähigkeit im EU-Binnenmarkt, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000569",
@@ -88,7 +493,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Strompreiskompensation ist ein zentrales Instrument zur Sicherung der Wettbewerbsfähigkeit energieintensiver Industrien im EU-Binnenmarkt und fällt unter die Zuständigkeit für Energiepreise und Wettbewerbsfähigkeit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002211",
@@ -3109,7 +3514,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Energiepreise und -kosten sowie die Reform klimarelevanter Steuern und Abgaben, welche explizit in den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001211",
@@ -3135,7 +3540,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Forderung betrifft direkt die Energiepreise und -kosten sowie die Gestaltung von Abgaben und Umlagen, welche unter das Themenfeld 'Energiepreise & -kosten' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001211",
@@ -3160,7 +3565,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die aktive Teilhabe von Verbrauchern am Energiemarkt ist ein zentraler Aspekt der Flexibilisierung und Sektorkopplung, welche unter die Themenfelder Strommarktdesign und Erneuerbare Energien (national) der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001211",
@@ -3185,7 +3590,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die aktive Teilhabe von Verbrauchern am Energiemarkt ist ein zentraler Aspekt der Flexibilisierung und Sektorkopplung, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign & -regulierung) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -20002,7 +20407,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung der Außenbereichsprivilegierung für Batteriespeicher berührt direkt die Themenfelder Stromerzeugung, Netzintegration und die notwendige Infrastruktur für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002709",
@@ -75135,5 +75540,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 880
+  "gemini_filtered_out": 887
 }
