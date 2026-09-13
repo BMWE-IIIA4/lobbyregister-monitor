@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T07:34:24.959071+02:00",
-  "newly_added": 14,
+  "generated_at": "2026-09-13T07:53:42.742349+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R008042",
@@ -38,7 +38,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Energienetze und die Integration erneuerbarer Energien, was direkt unter die Zuständigkeit der Unterabteilung IIIA für Strommarktdesign, Netzregulierung und die Transformation des Stromsystems fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002663",
@@ -63,7 +63,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die Wettbewerbsfähigkeit im EU-Binnenmarkt und die regulatorischen Rahmenbedingungen für den freien Handel, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik & Strommarktdesign) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002429",
@@ -92,7 +92,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Entwurf betrifft die EU-Binnenmarktregulierung und Vergaberecht, welche direkte Auswirkungen auf die Umsetzung von Energieinfrastrukturprojekten und die Wettbewerbsfähigkeit im EU-Energiebinnenmarkt haben.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002168",
@@ -127,7 +127,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Novellierung des EEG 2027 betrifft direkt die nationalen Rahmenbedingungen für Erneuerbare Energien, die EEG-Finanzierung sowie die strategische Ausrichtung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002168",
@@ -158,7 +158,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarkt-Design, Redispatch, Netzoptimierung sowie die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002049",
@@ -191,7 +191,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft den nationalen Emissionshandel (nEHS) und die Integration biogener Brennstoffe, was direkt in die Zuständigkeit der Unterabteilung IIIA für Klimaschutz und Energiepolitik fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001190",
@@ -222,7 +222,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungsketten, was in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit des EU-Binnenmarktes der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006726",
