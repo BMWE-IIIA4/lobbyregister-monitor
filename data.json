@@ -1,7 +1,192 @@
 {
-  "generated_at": "2026-09-14T08:00:19.860179+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-09-15T08:00:41.390924+02:00",
+  "newly_added": 6,
   "statements": [
+    {
+      "register_number": "R002954",
+      "org_name": "ENTEGA AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002954/85825",
+      "regulatory_project_title": "Digitalisierung der Energiewende in den Verteilnetzen um die Situation aller Netznutzer zu verbessern (Energiewende-Digitalisierungs-Allianz)",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7f/a9/841812/Stellungnahme-Gutachten-SG2609140011.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609140011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140011",
+      "summary": "Die Energiewende-Digitalisierungs-Allianz <b>fordert eine Beschleunigung und bundesweite Vereinheitlichung</b> der Digitalisierungsprozesse in den Verteilnetzen. Ziel ist es, die <b>Situation aller Netznutzer</b> durch verbindliche Standards und <b>effektiv durchsetzbare Ansprüche</b> gegenüber den Netzbetreibern zu verbessern. Das vorgelegte Policy Paper adressiert die bestehenden Defizite bei Netzanschluss und -nutzung für industrielle Verbraucher sowie Einspeiser erneuerbarer Energien. Zur Umsetzung werden <b>30 konkrete Einzelmaßnahmen</b> in den zentralen Regelwerken EnWG, EEG und MessbG vorgeschlagen. Damit soll die <b>Netzintegration beschleunigt</b> und die <b>Rechtssicherheit für Netznutzer</b> signifikant erhöht werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Verteilnetze, die für die Integration erneuerbarer Energien und die Stabilität des Stromsystems (Strommarkt-Design/Netzoptimierung) essenziell ist und direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001890",
+      "org_name": "Volkswagen Group Charging GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001890/85806",
+      "regulatory_project_title": "Ermöglichung des bidirektionalen Ladens von Elektrofahrzeugen zur wirtschaftliche Nutzung als mobiler Speicher im Energiesystem",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ae/82/841634/Stellungnahme-Gutachten-SG2609140001.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609140001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140001",
+      "summary": "Der Antrag <b>fordert die Schaffung regulatorischer Rahmenbedingungen</b>, um das bidirektionale Laden von Elektrofahrzeugen sowohl im privaten als auch im öffentlichen Bereich technisch und wirtschaftlich zu ermöglichen. Ziel ist die <b>Nutzung von E-Fahrzeugen als mobile Speicher</b>, um deren Flexibilität aktiv in das Energiesystem einzubinden. Hierfür wird eine <b>wirtschaftliche Gleichstellung mit stationären Speichern</b> angestrebt, insbesondere durch die Befreiung von Steuern, Abgaben und Umlagen. Zudem sollen durch die Anpassung der Rahmenbedingungen attraktive <b>Geschäftsmodelle für V2H- und V2G-Anwendungen</b> gefördert werden. Die Maßnahme zielt darauf ab, die allgemeine <b>Wirtschaftlichkeit von Speichern</b> im Stromnetz zu verbessern und somit die Systemintegration erneuerbarer Energien zu unterstützen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Flexibilisierung des Strommarktes, die Sektorkopplung sowie die Integration von Speichern in das Energiesystem, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001890",
+      "org_name": "Volkswagen Group Charging GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001890/85806",
+      "regulatory_project_title": "Entwurf eines Gesetzes für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der erneuerbaren Energien im Stromsektor",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/65/62/841733/Stellungnahme-Gutachten-SG2609140008.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609140008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140008",
+      "summary": "Das Bundesministerium für Wirtschaft und Energie <b>schlägt</b> mit dem vorliegenden Gesetzentwurf einen <b>planbaren und kosteneffizienten Ausbau</b> der erneuerbaren Energien vor. Ziel ist die <b>Sicherung der Klimaziele</b> durch eine konsequente Steigerung des Anteils erneuerbarer Energien am Bruttostromverbrauch auf 80 Prozent bis zum Jahr 2030. Der Entwurf sieht hierfür die <b>Verstetigung der Ausbaupfade</b> sowie die Beibehaltung der bisherigen Ausschreibungsmengen vor. Durch eine <b>netzverträgliche und marktorientierte Ausgestaltung</b> soll die Transformation des Stromsektors effizient vorangetrieben werden. Mit der Einleitung der Länder- und Verbändeanhörung am 17.07.2026 wurde der formale Beteiligungsprozess für dieses Vorhaben gestartet.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Gesetzentwurf betrifft direkt die Themenfelder 'Erneuerbare Energien (national)' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA, da er den Ausbaupfad und die Ausschreibungsmengen für erneuerbare Energien im Stromsektor regelt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000335",
+      "org_name": "Arbeitsgemeinschaft Deutscher Waldbesitzerverbände (AGDW) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000335/85831",
+      "regulatory_project_title": "Aufhebung der Wiederherstellungs-Verordnung (W-VO)",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/43/93/841890/Stellungnahme-Gutachten-SG2609140017.pdf",
+      "pdf_pages": 43,
+      "sg_number": "SG2609140017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140017",
+      "summary": "Die AGDW <b>setzt sich für eine Aufhebung</b> der EU-Wiederherstellungs-Verordnung ein, da sie die aktuelle Fassung als <b>nicht umsetzbar</b> bewertet. Die Organisation kritisiert, dass ein alleiniger Kabinettsbeschluss ohne die <b>Beteiligung der Bundesländer</b> dem nationalen Kompetenzgefüge widerspreche. Es wird gefordert, die verfassungsrechtlichen Zuständigkeiten bei der Umsetzung von EU-Vorgaben stärker zu berücksichtigen. Die AGDW warnt vor den administrativen und rechtlichen Hürden, die durch das aktuelle Regelwerk entstehen. Eine grundlegende Überarbeitung oder Aufhebung wird als notwendig erachtet, um die <b>Planungssicherheit</b> für betroffene Flächennutzer zu gewährleisten. Die Forderung richtet sich an mehrere Bundesministerien sowie den Bundestag, um eine <b>Anpassung der nationalen Umsetzung</b> zu erreichen.",
+      "recipients": [
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die EU-Wiederherstellungs-Verordnung (Nature Restoration Law) hat direkte Auswirkungen auf die Flächennutzung für Erneuerbare-Energien-Projekte und die EU-Zielarchitektur, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003956",
+      "org_name": "Nitratinitiative",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003956/85814",
+      "regulatory_project_title": "Verminderung und Vermeidung von Nitrateinträgen in unsere Gewässer",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e7/f3/841777/Stellungnahme-Gutachten-SG2609140010.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2609140010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140010",
+      "summary": "Das konkrete Regelungsvorhaben hat folgende Ziele:\r\nNitrateinträge an der Quelle vermeiden\r\nNitrateinträge vermindern\r\nDüngung effizient auszugestalten (ohne Nährstoffverluste)\r\neinheitliche effiziente praktikable Stoffstrombilanz\r\nEinführung eines Wirkungsmonitorings",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85832",
+      "regulatory_project_title": "Förderung des ÖPNV und Eisenbahnverkehrs im Bundeshaushalt 2027",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d6/3a/841911/Stellungnahme-Gutachten-SG2609140018.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2609140018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140018",
+      "summary": "Die Initiative hat zum Ziel, dass im Bundeshaushalt 2027 sowie im Wirtschaftsplan des Sondervermögens Klima- und Transformationsfonds (KTF) 2027 die Förderprogramme und Investitionszuschüsse für den ÖPNV und Eisenbahnverkehr aufgestockt werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R008042",
       "org_name": "metrify smart metering GmbH",
@@ -75540,5 +75725,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 887
+  "gemini_filtered_out": 889
 }
