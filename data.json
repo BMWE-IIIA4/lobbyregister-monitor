@@ -1,7 +1,276 @@
 {
-  "generated_at": "2026-09-15T08:00:41.390924+02:00",
-  "newly_added": 6,
+  "generated_at": "2026-09-16T07:51:34.357764+02:00",
+  "newly_added": 11,
   "statements": [
+    {
+      "register_number": "R006792",
+      "org_name": "VDE Verband der Elektrotechnik Elektronik Informationstechnik e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006792/82059",
+      "regulatory_project_title": "Technische Empfehlungen zum GE Ausbau der erneuerbaren Energien im Stromsektor (EEG 2027)",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8d/ec/842319/Stellungnahme-Gutachten-SG2609150023.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609150023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150023",
+      "summary": "Der VDE <b>unterstützt den beschleunigten Rollout</b> intelligenter Messsysteme, um die Beobachtbarkeit von EEG-Anlagen zu verbessern. Eine <b>pauschale Steuerbarkeitspflicht</b> für Kleinanlagen zwischen 2 und 7 kW lehnt der Verband hingegen als derzeit nicht notwendig ab. Stattdessen sollte eine <b>bedarfsorientierte Steuerung</b> nur bei tatsächlicher netztechnischer oder marktlicher Notwendigkeit erfolgen. Zur Vermeidung von Ineffizienzen fordert der VDE eine <b>einheitliche technische Architektur</b> und warnt vor der Etablierung von Parallelstrukturen wie einem „Smart Meter Light“. Abschließend mahnt der Verband eine <b>frühzeitige Einbindung des VDE FNN</b> in die technische Ausgestaltung der EEG-Novelle an.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die technische Ausgestaltung des EEG 2027, die Digitalisierung der Energiewende sowie die Steuerbarkeit von Anlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001334",
+      "org_name": "bvse - Bundesverband Sekundärrohstoffe und Entsorgung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001334/85864",
+      "regulatory_project_title": "XXVI. Hauptgutachten \"Wettbewerb 2026\" Monopolkommission",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/31/86/842250/Stellungnahme-Gutachten-SG2609150021.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609150021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150021",
+      "summary": "Der bvse <b>unterstützt</b> die im Hauptgutachten der Monopolkommission enthaltenen <b>Wettbewerbsempfehlungen</b> und fordert deren Umsetzung durch die Bundesregierung. Das Gutachten zielt darauf ab, die <b>Marktstrukturen</b> zu optimieren und einen <b>fairen Wettbewerb</b> innerhalb der deutschen Wirtschaft zu gewährleisten. Der Verband betont dabei insbesondere die Notwendigkeit einer <b>mittelstandsfreundlichen Ausrichtung</b> der regulatorischen Rahmenbedingungen. Durch die Aufgreifung dieser Vorschläge soll die Funktionsfähigkeit der Märkte langfristig gesichert werden. Die Stellungnahme unterstreicht die Bedeutung der Monopolkommission als Impulsgeber für eine wettbewerbsorientierte Wirtschaftspolitik.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Gutachten der Monopolkommission zum Wettbewerb betrifft die ordnungspolitischen Rahmenbedingungen des Strommarktes und die Wettbewerbsfähigkeit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarktregulierung und EU-Energiepolitik) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85859",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-10",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/20/cb/842178/Stellungnahme-Gutachten-SG2609150013.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609150013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150013",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von klimaneutralen Bussen sowie den Umbau der zugehörigen Betriebshöfe. Zur Erreichung der verkehrspolitischen Klimaziele wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> bis zum Jahr 2035 veranschlagt. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Durch die <b>Umstellung auf alternative Antriebe</b> soll ein wesentlicher Beitrag zur Dekarbonisierung des öffentlichen Personennahverkehrs geleistet werden. Die notwendige Anpassung der Werkstattinfrastruktur wird dabei als kritischer Erfolgsfaktor für die <b>Sektorkopplung</b> hervorgehoben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85859",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-10",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/95/2f/842180/Stellungnahme-Gutachten-SG2609150014.pdf",
+      "pdf_pages": 23,
+      "sg_number": "SG2609150014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150014",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von Bussen mit alternativen Antrieben sowie den notwendigen Umbau von Betriebshöfen. Zur Erreichung der Klimaziele im öffentlichen Personennahverkehr wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> bis zum Jahr 2035 veranschlagt. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Neben der reinen Fahrzeugbeschaffung umfasst das Vorhaben auch die notwendige <b>Anpassung der Werkstattinfrastruktur</b> für neue Antriebstechnologien. Damit soll die <b>Dekarbonisierung des ÖPNV</b> durch eine gezielte Sektorkopplung vorangetrieben werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002096",
+      "org_name": "game - Verband der deutschen Games-Branche",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002096/85844",
+      "regulatory_project_title": "Call for Evidence der Europäischen Kommission zu einer KI-Strategie für den Kultur- und Kreativsektor",
+      "sending_date": "2026-09-15",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4b/14/842073/Stellungnahme-Gutachten-SG2609150008.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2609150008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150008",
+      "summary": "Die Stellungnahme wendet sich an die Europäische Kommission im Rahmen ihres Call for Evidence zu einer KI-Strategie für den Kultur- und Kreativsektor (veröffentlicht am 29.07.2026, Konsultationsfrist bis 11.09.2026). Mit der Interessenvertretung soll auf die inhaltliche Ausgestaltung dieser künftigen, noch nicht veröffentlichten EU-Strategie Einfluss genommen werden, bevor die Kommission sie formuliert und vorlegt. Im Fokus stehen dabei die Berücksichtigung der Games-Branche als Kultur- und Kreativsektor, der Umgang mit Urheberrecht und Rechtevorbehalten im KI-Kontext, mögliche Transparenz- und Regulierungspflichten für KI-Anbieter und -Nutzer sowie der Zugang der Branche zu EU-Förderprogrammen und ihre Einbindung in die Governance der Strategie.",
+      "recipients": [
+        "BMJV",
+        "BMFTR"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001334",
+      "org_name": "bvse - Bundesverband Sekundärrohstoffe und Entsorgung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001334/85864",
+      "regulatory_project_title": "Gesetz zur Stärkung eines modernen, digitalen und und wirksamen Umweltschutzes",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/14/88/842244/Stellungnahme-Gutachten-SG2609150018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609150018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150018",
+      "summary": "Der bvse e.V. bemängelt, dass den beteiligten Verbänden nicht genügend Zeit für eine vertiefte Stellungnahme gegeben wurde. Verschiedene Punkte müssen angepasst werden. Die dringend erforderliche Entbürokratisierung und Beschleunigung von Genehmigungsverfahren bleibt aus",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001334",
+      "org_name": "bvse - Bundesverband Sekundärrohstoffe und Entsorgung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001334/85864",
+      "regulatory_project_title": "Gesetz zur Ablösung des Abfallverbringungsgesetzes",
+      "sending_date": "2026-07-07",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/81/842246/Stellungnahme-Gutachten-SG2609150019.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609150019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150019",
+      "summary": "Grundsätzlich sieht der bvse e.V. die Notwendigkeit, das Abfallverbringungsgesetz an die nun geltende Abfallverbringungsverordnung (EU) 2024/1157 anzupassen. Allerdings ist es aus Sicht der Verbandes zwingend erforderlich, die europarechtlichen Vorgaben nicht über das unionsrechtlich erforderliche Mindestmaß hinaus umsetzen. Wir können nicht akzeptieren, dass euroopäische Vorgaben immer wieder durch zusätzliche nationale Regelungen verschärft werden. Das Gesetzesentwurf sollte entsprechend angepasst werden. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001334",
+      "org_name": "bvse - Bundesverband Sekundärrohstoffe und Entsorgung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001334/85864",
+      "regulatory_project_title": "Gesetz zur Änderung des Kreislaufwirtschaftgesetzes",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/24/60/842248/Stellungnahme-Gutachten-SG2609150020.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609150020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150020",
+      "summary": "Aus Sicht des bvse e.V. bedarf der Entwurf in mehreren Punkten einer Nachschärfung, damit die angestrebten Ziele auch tatsächlich erreicht werden. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/85859",
+      "regulatory_project_title": "Förderung des ÖPNV und Eisenbahnverkehrs im Bundeshaushalt 2027",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/50/a8/842032/Stellungnahme-Gutachten-SG2609150004.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609150004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150004",
+      "summary": "Die Initiative hat zum Ziel, dass im Bundeshaushalt 2027 sowie im Wirtschaftsplan des Sondervermögens Klima- und Transformationsfonds (KTF) 2027 die Förderprogramme und Investitionszuschüsse für den ÖPNV und Eisenbahnverkehr aufgestockt werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000496",
+      "org_name": "Industrieverband Körperpflege- und Waschmittel e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000496/85848",
+      "regulatory_project_title": "EU-Kommunalabwasserrichtlinie",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1a/bc/842120/Stellungnahme-Gutachten-SG2609150010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609150010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609150010",
+      "summary": "Erweiterte Herstellerverantwortung: Schaffung eines fairen, gerechten und transparenten Rechtsrahmens mit einer fairen Kostenverteilung",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002954",
       "org_name": "ENTEGA AG",
@@ -30,7 +299,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Verteilnetze, die für die Integration erneuerbarer Energien und die Stabilität des Stromsystems (Strommarkt-Design/Netzoptimierung) essenziell ist und direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001890",
@@ -63,7 +332,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Flexibilisierung des Strommarktes, die Sektorkopplung sowie die Integration von Speichern in das Energiesystem, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001890",
@@ -100,7 +369,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Gesetzentwurf betrifft direkt die Themenfelder 'Erneuerbare Energien (national)' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA, da er den Ausbaupfad und die Ausschreibungsmengen für erneuerbare Energien im Stromsektor regelt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000335",
@@ -129,7 +398,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die EU-Wiederherstellungs-Verordnung (Nature Restoration Law) hat direkte Auswirkungen auf die Flächennutzung für Erneuerbare-Energien-Projekte und die EU-Zielarchitektur, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003956",
@@ -185,6 +454,30 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000406",
+      "org_name": "Slow Food Deutschland e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000406/85876",
+      "regulatory_project_title": "Einführung und Ausweitung von Spiegelmaßnahmen für Import-Lebensmittel aus Drittstaaten zur Angleichung an EU-Standards",
+      "sending_date": "2026-01-23",
+      "upload_date": "2026-09-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4e/13/842292/Stellungnahme-Gutachten-SG2609140014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609140014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609140014",
+      "summary": "Ziel des Regelungsvorhabens ist die Einführung und konsequente Ausweitung von sogenannten Spiegelmaßnahmen für importierte Lebensmittel aus Drittstaaten. Dabei sollen verbindliche Umwelt-, Sozial- und Gesundheitsstandards für Importe festgelegt werden, die denen innerhalb der Europäischen Union entsprechen. Dadurch soll sichergestellt werden, dass bei der Einfuhr von Lebensmitteln aus Nicht-EU-Ländern mindestens gleichwertige Anforderungen gelten wie für in der EU produzierte Lebensmittel.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -75725,5 +76018,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 889
+  "gemini_filtered_out": 896
 }
