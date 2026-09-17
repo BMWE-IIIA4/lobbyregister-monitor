@@ -1,7 +1,218 @@
 {
-  "generated_at": "2026-09-16T07:51:34.357764+02:00",
-  "newly_added": 11,
+  "generated_at": "2026-09-17T07:58:51.602994+02:00",
+  "newly_added": 9,
   "statements": [
+    {
+      "register_number": "R002733",
+      "org_name": "Green Planet Energy eG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002733/85906",
+      "regulatory_project_title": "Green Planet Energy hat gemeinsam mit Bürgerwerke, EWS Schönau und Naturstrom Kernpunkte zu den aktuellen Entwürfen EEG und Netzpaket eingebracht. ",
+      "sending_date": "2026-09-15",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/19/3a/842522/Stellungnahme-Gutachten-SG2609160015.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609160015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160015",
+      "summary": "Ein Bündnis aus vier Ökostrom-Anbietern <b>fordert investitionsfreundliche Rahmenbedingungen</b> für den weiteren Ausbau erneuerbarer Energien im Rahmen der aktuellen EEG- und Netzpaket-Entwürfe. Die Akteure verlangen primär die <b>Streichung des Redispatchvorbehalts</b>, um die Einspeisung erneuerbarer Energien nicht unnötig zu behindern. Zudem plädieren sie für eine <b>Stärkung lokaler Baukostenzuschüsse</b> sowie eine systemdienliche Anschlussleistung zur effizienteren Netznutzung. Ein weiterer Schwerpunkt liegt auf der <b>Sicherung der Zukunft von PPAs</b> als wichtigem Finanzierungsinstrument für den Markt. Abschließend warnt das Bündnis vor einem <b>überstürzten Wegfall der EEG-Förderung</b> für kleine Photovoltaik-Anlagen, um die Akzeptanz und den Ausbau in der Breite nicht zu gefährden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Stellungnahme adressiert zentrale Aspekte der nationalen Erneuerbaren-Energien-Politik, insbesondere EEG-Rahmenbedingungen, Redispatch-Regelungen und PPA-Marktentwicklungen, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/85787",
+      "regulatory_project_title": "Einführung eines Kapazitätsmarktes",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/85/842405/Stellungnahme-Gutachten-SG2609160005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609160005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160005",
+      "summary": "Nach dem Ausstieg aus der Kernenergie und dem angekündigten Ausstieg aus der Kohlenverstromung braucht es nun zeitnah einen Kapazitätsmarkt, um Versorgungssicherheit zu gewährleisten. Über einen Kapazitätsmarkt stehen je nach Bedarf die passenden Erzeugungskapazitäten mit den passenden Charakteristika am passenden Ort zur Verfügung oder alternativ Speicher oder steuerbare Verbraucher, die (einen Teil der) Last für festgelegte Zeitpunkte reduzieren können.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/85787",
+      "regulatory_project_title": "Synchronisierung EE- und Netzausbau",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4d/d2/842407/Stellungnahme-Gutachten-SG2609160002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609160002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160002",
+      "summary": "Das Dokument <b>fordert</b> eine <b>regionale Steuerung</b> beim Ausbau von Erneuerbaren Energien, um den Anforderungen eines volatilen Energiesystems gerecht zu werden. Ziel ist es, den Zubau gezielt dort zu forcieren, wo er den <b>höchsten systemischen Nutzen</b> für das Stromnetz bietet. Zur Umsetzung werden spezifische Instrumente wie <b>gezielte Ausschreibungen</b>, ein Bonus-/Malus-System sowie der <b>Redispatch-Vorbehalt</b> vorgeschlagen. Ergänzend wird das Konzept der <b>Einspeisesteckdose</b> als Anreizmechanismus für eine netzdienliche Standortwahl angeführt. Diese Maßnahmen sollen die Synchronisierung zwischen Erzeugungskapazitäten und Netzkapazitäten verbessern und die Effizienz der Energiewende steigern.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeitsbereiche 'Erneuerbare Energien (national)' und 'Strommarktdesign & -regulierung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/85787",
+      "regulatory_project_title": "Synchronisierung EE- und Netzausbau",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/b6/842409/Stellungnahme-Gutachten-SG2609160003.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2609160003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160003",
+      "summary": "Das Dokument <b>empfiehlt</b> eine <b>regionale Steuerung</b> des Ausbaus von Erneuerbaren Energien, um den Anforderungen eines zunehmend volatilen Energiesystems gerecht zu werden. Ziel ist es, Erzeugungskapazitäten primär dort zu errichten, wo sie den <b>höchsten systemischen Nutzen</b> für das Stromnetz bieten. Zur Umsetzung werden gezielte <b>Anreizmechanismen</b> vorgeschlagen, die über die EEG-Ausschreibungen gesteuert werden sollen. Als konkrete Instrumente werden ein <b>Bonus-/Malus-System</b> sowie ein <b>Redispatch-Vorbehalt</b> angeführt. Ergänzend wird das Konzept der <b>Einspeisesteckdose</b> als methodischer Ansatz zur besseren Synchronisierung von Erzeugung und Netzkapazitäten diskutiert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeitsbereiche 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design & -Regulierung' (Redispatch, Netzoptimierung) der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000549",
+      "org_name": "Verein Deutscher Zementwerke e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000549/85889",
+      "regulatory_project_title": "Keine Umschichtung der Emissionshandels-Einnahmen in den allgemeinen Haushalt. Klima- und Transformationsfonds (KTF) auskömmlich finanzieren",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2d/65/842395/Stellungnahme-Gutachten-SG2609160004.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609160004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160004",
+      "summary": "Die Bundesregierung <b>plant eine Gesetzesänderung</b>, um einen Teil der Einnahmen aus dem EU-Emissionshandel (ETS 1) künftig direkt in den <b>Kernhaushalt umzuschichten</b>. Durch diese Anpassung des KTF-Gesetzes im Rahmen des Haushaltsbegleitgesetzes soll die dortige Haushaltslücke geschlossen werden. Künftig sollen die Erlöse primär in den Kernhaushalt fließen, während der Klima- und Transformationsfonds nur noch die verbleibenden Restmittel erhält. Für das Jahr 2027 wird ein Betrag von 2,7 Mrd. € prognostiziert, der somit nicht mehr für die <b>Dekarbonisierungsförderung</b> zur Verfügung steht. Kritiker fordern eine <b>auskömmliche Finanzierung</b> des KTF, um die notwendige <b>Transformation der Industrie</b> nicht zu gefährden. Die Maßnahme reduziert die finanzielle Flexibilität für klimapolitische Investitionen erheblich.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Finanzierung des Klima- und Transformationsfonds (KTF) sowie die Verwendung von ETS-1-Einnahmen, was direkt unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Finanzierungsbedarfe Transformation' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/85909",
+      "regulatory_project_title": "KI-Strategie der EU KOMM für den Kultur- und Kreativsektor praxisgerecht absichern und wirtschaftlich tragfähig umsetzen",
+      "sending_date": "2026-09-11",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/66/842647/Stellungnahme-Gutachten-SG2609160026.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2609160026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160026",
+      "summary": "Die BAK ist Teil der Koalition Kultur- und Kreativwirtschaft in Deutschland (k3d), die sich für eine zukunftsfähige nationale und europäische Strategie der Kultur- und Kreativwirtschaft (KKW) einsetzt. k3d fordert für die Ausgestaltung und Umsetzung der europäischen KI-Strategie menschliche Kreativität und aktive kulturelle Praxis zu stärken; KI-Innovationen zu ermöglichen und Wettbewerb zu stärken; faire Wertschöpfung und einen funktionierenden Lizenzmarkt zu sichern; faire digitale Märkte zu gewährleisten; die Folgen entlang der gesamten Wertschöpfungskette zu betrachten; die Kultur- und Kreativwirtschaft für die KI-Transformation zu befähigen; europäische Souveränität und Vielfalt zu sichern und KI-Regulierung risikobasiert und verhältnismäßig auszugestalten. ",
+      "recipients": [
+        "BKAmt",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002019",
+      "org_name": "VKS - Verband der Kali- und Salzindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002019/85913",
+      "regulatory_project_title": "Novelle Ersatzbaustoffverordnung",
+      "sending_date": "2026-08-03",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/ee/842508/Stellungnahme-Gutachten-SG2609160013.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609160013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160013",
+      "summary": "Ziel der Novelle, Vewertung mineralischer Ersatzbaustoffe zu erleichtern, ist grundsätzlich positiv. Hierfür sollten aber noch weitere Erleichterungen vorgesehen und zusätzliche Erschwernisse (wie z.B. ein zusätzliches wasserrechtliches Erlaubnisverfahren) vermieden werden. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002019",
+      "org_name": "VKS - Verband der Kali- und Salzindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002019/85913",
+      "regulatory_project_title": "Umweltschutz-Modernisierungsgesetz und -Verordnung",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/21/2e/842563/Stellungnahme-Gutachten-SG2609160017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609160017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160017",
+      "summary": "Das Ziel, Genehmigungsverfahren zu beschleunigen und bestehende Bürokratielasten  abzubauen, wird zwar grundsätzlich begrüßt. Nicht nachvollziehbar sind aber die vorgeschlagenen Änderungen des Wasserhaushaltsgesetzes und des Bundesnaturschutzgesetzes (Umgang mit naturschutzrechtlichen Daten). Diese könnten in der Praxis zu weiteren Erschwernissen in den Genehmigungsverfahren führen. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R006792",
       "org_name": "VDE Verband der Elektrotechnik Elektronik Informationstechnik e.V.",
@@ -25,7 +236,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die technische Ausgestaltung des EEG 2027, die Digitalisierung der Energiewende sowie die Steuerbarkeit von Anlagen, was direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001334",
@@ -50,7 +261,7 @@
       ],
       "priority": 3,
       "gemini_relevanz": "Das Gutachten der Monopolkommission zum Wettbewerb betrifft die ordnungspolitischen Rahmenbedingungen des Strommarktes und die Wettbewerbsfähigkeit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarktregulierung und EU-Energiepolitik) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -75,7 +286,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -100,7 +311,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002096",
@@ -701,6 +912,39 @@
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungsketten, was in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit des EU-Binnenmarktes der Unterabteilung IIIA fällt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R006686",
+      "org_name": "Fluence Energy GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006686/85408",
+      "regulatory_project_title": "Festlegungsverfahren der Bundesnetzagentur für eine allgemeine Netzentgeltsystematik (AgNES)",
+      "sending_date": "2026-02-27",
+      "upload_date": "2026-09-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2d/14/842337/Stellungnahme-Gutachten-SG2609110010.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609110010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609110010",
+      "summary": "Fluence <b>unterstützt</b> im Rahmen des AgNES-Verfahrens der Bundesnetzagentur eine <b>praxisgerechte Ausgestaltung</b> der künftigen Netzentgelte für Stromspeicher. Das laufende Festlegungsverfahren zielt darauf ab, ab 2029 ein neues bundesweites System zur Finanzierung und Preissteuerung der Netznutzungskosten zu etablieren. Dabei steht insbesondere die Neuregelung der <b>Speichernetzentgelte</b> im Fokus, da die bisherige Befreiung gemäß § 118 Abs. 6 EnWG ausläuft. Das Unternehmen fordert hierbei eine <b>investitionsfreundliche Gestaltung</b>, um die Wirtschaftlichkeit von Batteriespeichern langfristig zu sichern. Zudem wird ein besonderer Wert auf angemessene <b>Übergangs- und Vertrauensschutzregeln</b> für bestehende Anlagen gelegt. Die Neuregelung ist entscheidend für die Integration flexibler Kapazitäten in das künftige Strommarktdesign.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Netzentgeltsystematik und die regulatorischen Rahmenbedingungen für Stromspeicher, welche direkt unter die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung und Netzbetrieb) fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R006726",
@@ -76018,5 +76262,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 896
+  "gemini_filtered_out": 899
 }
