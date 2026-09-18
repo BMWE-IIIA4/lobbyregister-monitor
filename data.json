@@ -1,7 +1,148 @@
 {
-  "generated_at": "2026-09-17T07:58:51.602994+02:00",
-  "newly_added": 9,
+  "generated_at": "2026-09-18T07:45:00.903797+02:00",
+  "newly_added": 5,
   "statements": [
+    {
+      "register_number": "R002503",
+      "org_name": "HanseWerk AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002503/85984",
+      "regulatory_project_title": "Richtige Weichen für eine klimafreundliche Energieversorgung stellen",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-09-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b4/57/843105/Stellungnahme-Gutachten-SG2609170018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609170018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609170018",
+      "summary": "Das Dokument <b>fordert</b> eine strategische Neuausrichtung für eine <b>klimafreundliche Energieversorgung</b> durch einen konsequent <b>netzorientierten EE-Ausbau</b>. Zur Sicherung einer bezahlbaren Energiewende wird der <b>netzdienliche Einsatz von Speichern</b> und Flexibilitäten als essenziell erachtet. Zudem wird die <b>Digitalisierung der Netze</b> zur Optimierung der Kapazitätsnutzung und Sektorenkopplung nachdrücklich befürwortet. Eine zukunftsfähige Regulierung soll den Aufbau eines <b>Klimaneutralitätsnetzes</b> rechtlich absichern. Zur Umsetzung dieser Ziele wird eine umfassende <b>Beschleunigung der Genehmigungsverfahren</b> auf allen Netzebenen angemahnt. Abschließend wird der <b>Abbau von Bürokratie</b> sowie die Modernisierung der Netzanschlussverfahren als notwendige Voraussetzung für den Erfolg der Transformation hervorgehoben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Text adressiert zentrale Aspekte der Unterabteilung IIIA, insbesondere den netzorientierten Ausbau erneuerbarer Energien, die Flexibilisierung des Strommarktes sowie die regulatorischen Rahmenbedingungen für das Klimaneutralitätsnetz.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001128",
+      "org_name": "Energieintensive Industrien in Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001128/85944",
+      "regulatory_project_title": "ETS-1-Erlöse weiterhin für Transformation und Industriestandort nutzen",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-09-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/80/00/842789/Stellungnahme-Gutachten-SG2609170003.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609170003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609170003",
+      "summary": "Die Organisation <b>fordert</b>, die Einnahmen aus dem EU-ETS 1 weiterhin <b>vollständig dem Klima- und Transformationsfonds (KTF)</b> zuzuführen. Eine <b>Umschichtung in den Bundeshaushalt</b> wird explizit abgelehnt, um die finanzielle Basis für die industrielle Transformation zu sichern. Die Mittel sollen gezielt zur <b>Stärkung des Industriestandorts</b> und zur Förderung der Dekarbonisierung eingesetzt werden. Eine Zweckentfremdung der Erlöse könnte die notwendigen Investitionen in die <b>klimaneutrale Transformation</b> gefährden. Die Sicherung dieser Finanzierungsquelle ist essenziell für die Umsetzung der energiepolitischen Ziele und die <b>Wettbewerbsfähigkeit der Industrie</b> im europäischen Kontext.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Verwendung von ETS-1-Erlösen betrifft direkt die Finanzierung der Energiewende, den Klimaschutz und die Wettbewerbsfähigkeit der Industrie, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Klimaschutz & Energiewende, EU-Klimapolitik) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/85946",
+      "regulatory_project_title": "Änderung der IAA-Beschaffungsvorgaben für Energieunternehmen",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0e/94/842883/Stellungnahme-Gutachten-SG2609170007.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609170007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609170007",
+      "summary": "Das Bundesministerium für Wirtschaft und Energie <b>fordert eine Anpassung</b> der Beschaffungsvorgaben im Industrial Accelerator Act, um <b>Wettbewerbsverzerrungen</b> zwischen öffentlich geprägten Energieunternehmen und privaten Akteuren zu verhindern. Die geplanten Regelungen zur Beschaffung von <b>Netto-Null-Technologien</b> müssen so ausgestaltet sein, dass sie keine einseitigen Nachteile für Sektorenauftraggeber schaffen. Zudem verlangt das Ministerium eine <b>angemessene Berücksichtigung von Mehrkosten</b> innerhalb des bestehenden Regulierungsrahmens für Netzbetreiber. Ziel ist es, die <b>Finanzierung der Energieinfrastruktur</b> sicherzustellen und zusätzliche finanzielle Belastungen zu vermeiden, die den notwendigen Ausbau gefährden könnten. Die Vorgaben sollen somit die <b>Wettbewerbsfähigkeit im EU-Binnenmarkt</b> wahren und gleichzeitig die klimafreundliche Transformation der Energiewirtschaft unterstützen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft direkt die EU-Gesetzgebung (Industrial Accelerator Act), Wettbewerbsbedingungen im EU-Binnenmarkt sowie die Finanzierung und Regulierung von Energieinfrastrukturen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001128",
+      "org_name": "Energieintensive Industrien in Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001128/85944",
+      "regulatory_project_title": "Entlastung Gasumlage, Energiesteuern und Gasnetzentgelte ",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e7/ba/842787/Stellungnahme-Gutachten-SG2609170002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609170002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609170002",
+      "summary": "Gezielte Entlastungen bei Gasumlagen, Energiesteuern und Gasnetzentgelten ",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002733",
       "org_name": "Green Planet Energy eG",
@@ -25,36 +166,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Stellungnahme adressiert zentrale Aspekte der nationalen Erneuerbaren-Energien-Politik, insbesondere EEG-Rahmenbedingungen, Redispatch-Regelungen und PPA-Marktentwicklungen, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
-    },
-    {
-      "register_number": "R002309",
-      "org_name": "E.ON SE",
-      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/85787",
-      "regulatory_project_title": "Einführung eines Kapazitätsmarktes",
-      "sending_date": "2026-09-14",
-      "upload_date": "2026-09-16",
-      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/85/842405/Stellungnahme-Gutachten-SG2609160005.pdf",
-      "pdf_pages": 5,
-      "sg_number": "SG2609160005",
-      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160005",
-      "summary": "Nach dem Ausstieg aus der Kernenergie und dem angekündigten Ausstieg aus der Kohlenverstromung braucht es nun zeitnah einen Kapazitätsmarkt, um Versorgungssicherheit zu gewährleisten. Über einen Kapazitätsmarkt stehen je nach Bedarf die passenden Erzeugungskapazitäten mit den passenden Charakteristika am passenden Ort zur Verfügung oder alternativ Speicher oder steuerbare Verbraucher, die (einen Teil der) Last für festgelegte Zeitpunkte reduzieren können.",
-      "recipients": [
-        "BMWE",
-        "Bundestag"
-      ],
-      "fields": [
-        {
-          "code": "FOI_ENERGY_RENEWABLE",
-          "label": "Erneuerbare Energie"
-        },
-        {
-          "code": "FOI_ENERGY_OVERALL",
-          "label": "Energie (allgemein)"
-        }
-      ],
-      "priority": 1,
-      "gemini_status": "pending"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -80,7 +192,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeitsbereiche 'Erneuerbare Energien (national)' und 'Strommarktdesign & -regulierung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -106,7 +218,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Synchronisierung von EE-Ausbau und Netzausbau, was direkt in die Zuständigkeitsbereiche 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design & -Regulierung' (Redispatch, Netzoptimierung) der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000549",
@@ -138,7 +250,37 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Finanzierung des Klima- und Transformationsfonds (KTF) sowie die Verwendung von ETS-1-Einnahmen, was direkt unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Finanzierungsbedarfe Transformation' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/85787",
+      "regulatory_project_title": "Einführung eines Kapazitätsmarktes",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/85/842405/Stellungnahme-Gutachten-SG2609160005.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609160005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160005",
+      "summary": "Die vorliegende Initiative <b>fordert die zeitnahe Einführung eines Kapazitätsmarktes</b>, um die Versorgungssicherheit nach dem Kernenergie- und Kohleausstieg langfristig zu gewährleisten. Ein solches Marktdesign soll sicherstellen, dass bedarfsgerechte <b>Erzeugungskapazitäten mit spezifischen Charakteristika</b> an den notwendigen Standorten jederzeit verfügbar sind. Ergänzend dazu sieht das Konzept die Einbindung von <b>Speichern sowie steuerbaren Verbrauchern</b> vor, die durch Lastreduktion zur Systemstabilität beitragen können. Die Maßnahme zielt darauf ab, die Flexibilität des Stromsystems durch eine gezielte <b>Bereitstellung von Kapazitäten</b> zu erhöhen. Damit soll eine verlässliche Stromversorgung auch in Zeiten geringer Einspeisung aus erneuerbaren Energien sichergestellt werden. Die Umsetzung wird als notwendiger Schritt für die <b>Transformation des Strommarktes</b> in Richtung Klimaneutralität bewertet.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "processed",
+      "gemini_relevanz": "Das Thema Kapazitätsmarkt fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder 'Versorgungssicherheit Strom' sowie 'Strommarktdesign & -regulierung'."
     },
     {
       "register_number": "R002429",
@@ -944,7 +1086,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Netzentgeltsystematik und die regulatorischen Rahmenbedingungen für Stromspeicher, welche direkt unter die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung und Netzbetrieb) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006726",
@@ -2687,6 +2829,34 @@
         }
       ],
       "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002253",
+      "org_name": "Mastercard",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002253/83307",
+      "regulatory_project_title": "Förderung gleicher Wettbewerbsbedingungen für alle Marktteilnehmer bei Einführung des digitalen Euro",
+      "sending_date": "2026-09-02",
+      "upload_date": "2026-09-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/18/842820/Stellungnahme-Gutachten-SG2609020026.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609020026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609020026",
+      "summary": "Mastercard setzt sich für eine offene Infrastruktur, ein faires Kompensationsmodell sowie gleiche Wettbewerbsbedingungen („Level Playing Field“) ein.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -76262,5 +76432,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 899
+  "gemini_filtered_out": 901
 }
