@@ -1,7 +1,225 @@
 {
-  "generated_at": "2026-09-18T07:45:00.903797+02:00",
-  "newly_added": 5,
+  "generated_at": "2026-09-19T07:40:29.783938+02:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R005120",
+      "org_name": "Enpal B.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005120/84088",
+      "regulatory_project_title": "Kraftwerksstrategie: Handlungsempfehlungen für einen volkswirtschaftlich effizienten Kapazitätsmechanismus",
+      "sending_date": "2026-03-04",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/ba/843438/Stellungnahme-Gutachten-SG2609180022.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2609180022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180022",
+      "summary": "Das Dokument <b>schlägt</b> einen <b>volkswirtschaftlich effizienten Kapazitätsmechanismus</b> vor, um die Versorgungssicherheit im Rahmen der Kraftwerksstrategie zu gewährleisten. Dabei werden konkrete Handlungsempfehlungen formuliert, um den notwendigen Zubau steuerbarer Erzeugungskapazitäten zu fördern. Ziel ist es, die <b>Investitionssicherheit</b> für wasserstofffähige Gaskraftwerke zu erhöhen und gleichzeitig die Kosten für das Stromsystem zu optimieren. Die Ausgestaltung soll sicherstellen, dass die <b>Dekarbonisierung</b> der Stromerzeugung mit einer stabilen Netzversorgung einhergeht. Zudem wird die <b>Wettbewerbsfähigkeit</b> des Industriestandorts durch ein effizientes Marktdesign adressiert. Die Empfehlungen dienen dem Bundestag als Entscheidungsgrundlage für die <b>regulatorische Umsetzung</b> der zukünftigen Strommarktarchitektur.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die 'Kraftwerksstrategie' und 'Kapazitätsmechanismen', welche explizit unter den Themenfeldern 'Stromerzeugung & Kraftwerke' sowie 'Strommarktdesign & -regulierung' der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002833",
+      "org_name": "BVES Bundesverband Energiespeicher Systeme e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002833/86003",
+      "regulatory_project_title": "Erhalt der Privilegierung Batteriespeicher im Außenbereich",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8f/23/843339/Stellungnahme-Gutachten-SG2609180014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609180014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180014",
+      "summary": "Der BVES <b>fordert den Erhalt der Privilegierung</b> für Batteriespeicher im Außenbereich gemäß § 35 Abs. 1 Nr. 12 BauGB. Der Verband <b>lehnt die Einführung eines Mindestabstands</b> von 100 Metern zu Umspannwerken explizit ab, da dies die Projektentwicklung einschränken würde. Stattdessen <b>schlägt der Verband eine Neudefinition</b> der Privilegierung vor, die sich am baurechtlichen Begriff der räumlichen Nähe orientiert. Ziel dieser Anpassung ist es, die <b>Rechtssicherheit für Speicherprojekte</b> zu erhöhen und den Ausbau notwendiger Speicherkapazitäten nicht durch restriktive Abstandsregelungen zu behindern. Die <b>Flexibilisierung des Stromsystems</b> hängt maßgeblich von derartigen regulatorischen Rahmenbedingungen ab, um die Netzstabilität bei steigendem Anteil fluktuierender Erneuerbarer Energien zu gewährleisten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die regulatorischen Rahmenbedingungen für Batteriespeicher, die als essenzielle Flexibilitätsoptionen für das Strommarktdesign und die Integration erneuerbarer Energien in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001681",
+      "org_name": "Volkswagen AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001681/85957",
+      "regulatory_project_title": "24.010_Umsetzung der EU AFIR (Alternative Fuel Infrastructure Regulation)",
+      "sending_date": "2026-03-04",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/9b/843353/Stellungnahme-Gutachten-SG2609180015.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609180015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180015",
+      "summary": "Die Organisation <b>begrüßt</b> die <b>verbindlichen Vorgaben</b> der EU-Verordnung AFIR zur Schaffung einer flächendeckenden Ladeinfrastruktur. Gleichzeitig <b>fordert</b> sie eine <b>Erhöhung der Ausbauziele</b>, um den steigenden Anforderungen der Elektromobilität gerecht zu werden. Insbesondere wird eine <b>höhere Ladeleistung</b> in Kilowatt sowie eine <b>Beschleunigung des Infrastrukturausbaus</b> angemahnt. Diese Maßnahmen seien notwendig, um die Transformation des Verkehrssektors im Einklang mit den europäischen Klimazielen erfolgreich zu gestalten. Die Stellungnahme unterstreicht die Notwendigkeit einer ambitionierteren Umsetzung auf nationaler Ebene.",
+      "recipients": [
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die AFIR (Alternative Fuel Infrastructure Regulation) ist ein zentraler Bestandteil der EU-Energie- und Verkehrspolitik, der die Infrastruktur für alternative Kraftstoffe regelt und somit direkt die EU-Zielarchitektur sowie die Sektorkopplung betrifft.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001681",
+      "org_name": "Volkswagen AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001681/85957",
+      "regulatory_project_title": "24.029_Ausgestaltung der Anpassung der EU Ökodesignverordnung",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4a/9d/843355/Stellungnahme-Gutachten-SG2609180013.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609180013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180013",
+      "summary": "Die vorliegende Initiative <b>präzisiert</b> die <b>Anforderungen an Automobilkomponenten</b> im Rahmen der EU-Ökodesignverordnung. Dabei steht insbesondere die <b>Ausgestaltung des Digitalen Produktpasses</b> im Fokus, um die Kreislaufwirtschaft und Ressourceneffizienz zu stärken. Die Umsetzung erfolgt durch spezifische <b>delegierte Rechtsakte (DAs) und Durchführungsrechtsakte (IAs)</b>, die den regulatorischen Rahmen für die Industrie definieren. Ziel ist es, einheitliche Standards für die ökologische Gestaltung von Produkten innerhalb des EU-Binnenmarktes zu etablieren. Die Maßnahme zielt darauf ab, die <b>Nachhaltigkeit von Fahrzeugteilen</b> über den gesamten Lebenszyklus hinweg zu verbessern. Damit leistet das Vorhaben einen wesentlichen Beitrag zur <b>Dekarbonisierung der industriellen Wertschöpfungsketten</b> im Einklang mit dem EU Green Deal.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die EU-Ökodesignverordnung fällt unter die EU-Energiegesetzgebung und die EU-Klimapolitik, welche zentrale Themenfelder der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000008",
+      "org_name": "TÜV-Verband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000008/85990",
+      "regulatory_project_title": "Reform der Better Regulation Agenda der EU",
+      "sending_date": "2026-09-11",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/89/8d/843236/Stellungnahme-Gutachten-SG2609180003.pdf",
+      "pdf_pages": 43,
+      "sg_number": "SG2609180003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180003",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine <b>evidenzbasierte und transparente Ausgestaltung</b> der EU-Better-Regulation-Agenda gemäß COM(2026) 380. Dabei sollen <b>methodisch belastbare Folgenabschätzungen</b> auch bei Trilogänderungen zwingend durchgeführt werden, um die Qualität der Gesetzgebung zu sichern. Zudem wird eine konsequente <b>Ex-post-Evaluierung</b> sowie eine frühzeitige Einbindung der Stakeholder durch transparente Konsultationen verlangt. Die Umsetzung im Binnenmarkt soll durch klare Anforderungen an die Behörden-Readiness gestärkt und <b>unnötiges Gold-Plating vermieden</b> werden. Abschließend wird eine Aktualisierung der Interinstitutionellen Vereinbarung über bessere Rechtsetzung angestrebt, um die <b>Vollzugstauglichkeit der Regulierungsmaßnahmen</b> langfristig zu gewährleisten.",
+      "recipients": [
+        "BMAS",
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Better Regulation Agenda betrifft die methodischen Rahmenbedingungen für EU-Energiegesetzgebung und den EU-Binnenmarkt, welche zentrale Arbeitsfelder der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000008",
+      "org_name": "TÜV-Verband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000008/85990",
+      "regulatory_project_title": "Reform der Better Regulation Agenda der EU",
+      "sending_date": "2026-09-11",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/78/1c/843238/Stellungnahme-Gutachten-SG2609180004.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2609180004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180004",
+      "summary": "Die Interessenvertretung <b>fordert</b> eine <b>evidenzbasierte und transparente Ausgestaltung</b> des EU-Better-Regulation-Rahmens gemäß COM(2026) 380. Dabei sollen <b>methodisch belastbare Folgenabschätzungen</b> auch bei Trilogänderungen zwingend durchgeführt werden, um die Qualität der Gesetzgebung zu sichern. Zudem wird eine konsequente <b>Ex-post-Evaluierung</b> sowie eine frühzeitige Einbindung der Akteure durch transparente Konsultationen angemahnt. Die Umsetzung im Binnenmarkt soll durch klare Anforderungen an die Behörden-Readiness gestärkt und <b>unnötiges Gold-Plating vermieden</b> werden. Perspektivisch wird eine Aktualisierung der Interinstitutionellen Vereinbarung über bessere Rechtsetzung angestrebt, um die <b>Vollzugstauglichkeit der EU-Regulierungen</b> langfristig zu gewährleisten.",
+      "recipients": [
+        "BMAS",
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Better Regulation Agenda betrifft die methodischen Rahmenbedingungen für EU-Gesetzgebungsprozesse, die unmittelbar die Energiegesetzgebung und die Umsetzung von EU-Richtlinien (z.B. RED, Strommarktdesign) in der Unterabteilung IIIA beeinflussen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005120",
+      "org_name": "Enpal B.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005120/84088",
+      "regulatory_project_title": "Ausgestaltung von GEG/BEG",
+      "sending_date": "2026-05-22",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/52/33/843434/Stellungnahme-Gutachten-SG2609180021.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609180021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180021",
+      "summary": "Ausgestaltung des Förderrahmens für die Wärmepumpe.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003225",
+      "org_name": "Deutsches Studierendenwerk",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003225/86015",
+      "regulatory_project_title": "Ausnahme von Verpflichtung zur Annahme von Bargeld für Verpflegungseinrichtungen von Studierendenwerken",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ec/33/843429/Stellungnahme-Gutachten-SG2609180023.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609180023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180023",
+      "summary": "Die Verpflichtung zur Annahme von Bargeld für Verpflegungseinrichtungen von Studierendenwerken erhebliche organisatorische, personelle und finanzielle Belastungen mit sich bringen wird, möchten wir die Bundesregierung nachdrücklich bitten, auf die Europäische Kommission dahingehend einzuwirken, die im Verordnungsvorschlag (2023/0208 COD) vorgesehene Möglichkeit zur Schaffung zusätzlicher Ausnahmen durch delegierte Rechtsakte zu nutzen und eine ausdrückliche Ausnahme für Mensen und Cafeterien an/in Universitäten und Hochschulen vorzusehen.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002503",
       "org_name": "HanseWerk AG",
@@ -29,7 +247,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Text adressiert zentrale Aspekte der Unterabteilung IIIA, insbesondere den netzorientierten Ausbau erneuerbarer Energien, die Flexibilisierung des Strommarktes sowie die regulatorischen Rahmenbedingungen für das Klimaneutralitätsnetz.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001128",
@@ -57,7 +275,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Verwendung von ETS-1-Erlösen betrifft direkt die Finanzierung der Energiewende, den Klimaschutz und die Wettbewerbsfähigkeit der Industrie, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Klimaschutz & Energiewende, EU-Klimapolitik) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -104,7 +322,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die EU-Gesetzgebung (Industrial Accelerator Act), Wettbewerbsbedingungen im EU-Binnenmarkt sowie die Finanzierung und Regulierung von Energieinfrastrukturen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001128",
@@ -279,7 +497,7 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Thema Kapazitätsmarkt fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder 'Versorgungssicherheit Strom' sowie 'Strommarktdesign & -regulierung'."
     },
     {
@@ -76432,5 +76650,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 901
+  "gemini_filtered_out": 903
 }
