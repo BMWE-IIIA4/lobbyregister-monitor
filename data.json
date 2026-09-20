@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T07:40:29.783938+02:00",
-  "newly_added": 8,
+  "generated_at": "2026-09-20T07:58:52.812560+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R005120",
@@ -25,7 +25,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die 'Kraftwerksstrategie' und 'Kapazitätsmechanismen', welche explizit unter den Themenfeldern 'Stromerzeugung & Kraftwerke' sowie 'Strommarktdesign & -regulierung' der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002833",
@@ -54,7 +54,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die regulatorischen Rahmenbedingungen für Batteriespeicher, die als essenzielle Flexibilitätsoptionen für das Strommarktdesign und die Integration erneuerbarer Energien in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001681",
@@ -81,7 +81,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die AFIR (Alternative Fuel Infrastructure Regulation) ist ein zentraler Bestandteil der EU-Energie- und Verkehrspolitik, der die Infrastruktur für alternative Kraftstoffe regelt und somit direkt die EU-Zielarchitektur sowie die Sektorkopplung betrifft.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001681",
@@ -106,7 +106,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die EU-Ökodesignverordnung fällt unter die EU-Energiegesetzgebung und die EU-Klimapolitik, welche zentrale Themenfelder der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000008",
@@ -138,7 +138,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Better Regulation Agenda betrifft die methodischen Rahmenbedingungen für EU-Energiegesetzgebung und den EU-Binnenmarkt, welche zentrale Arbeitsfelder der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000008",
@@ -170,7 +170,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Better Regulation Agenda betrifft die methodischen Rahmenbedingungen für EU-Gesetzgebungsprozesse, die unmittelbar die Energiegesetzgebung und die Umsetzung von EU-Richtlinien (z.B. RED, Strommarktdesign) in der Unterabteilung IIIA beeinflussen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005120",
