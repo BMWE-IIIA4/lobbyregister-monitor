@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-20T07:58:52.812560+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-09-21T08:05:11.429836+02:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R001655",
+      "org_name": "RWE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001655/86031",
+      "regulatory_project_title": "\"Netze-Paket\", neue Regelungen zum Netzanschluss von EE",
+      "sending_date": "2026-09-16",
+      "upload_date": "2026-09-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/af/843849/Stellungnahme-Gutachten-SG2609200002.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609200002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609200002",
+      "summary": "Das Ministerium <b>kritisiert</b> den im „Netze-Paket“ enthaltenen <b>Redispatch-Vorbehalt</b> und fordert dessen Streichung oder eine deutlich verträglichere Ausgestaltung für Erzeuger. Während das Paket grundsätzlich sinnvolle Ansätze wie eine erhöhte <b>Netztransparenz</b>, einen neuen <b>Reservierungsmechanismus</b> und die Einführung von <b>BKZ</b> enthält, wird der Redispatch-Vorschlag als problematisch eingestuft. Es wird darauf hingewirkt, dass dieser Mechanismus zwingend als <b>Notfallmaßnahme</b> mit einem sehr eng begrenzten Anwendungsbereich definiert wird. Ziel ist es, die Belastungen für Anlagenbetreiber zu minimieren und die Investitionssicherheit für den Ausbau erneuerbarer Energien zu wahren. Die Abstimmung mit dem BMF, dem BMUKN und dem Bundestag soll sicherstellen, dass die regulatorischen Rahmenbedingungen den Netzausbau nicht unnötig behindern.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft den Netzanschluss von Erneuerbaren Energien (EE) und damit zentrale Aspekte der Strommarktregulierung, des Redispatch-Managements sowie der nationalen Erneuerbare-Energien-Politik, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R005120",
       "org_name": "Enpal B.V.",
