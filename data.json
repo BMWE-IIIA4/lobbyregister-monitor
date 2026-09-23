@@ -1,7 +1,668 @@
 {
-  "generated_at": "2026-09-22T07:59:55.674675+02:00",
-  "newly_added": 18,
+  "generated_at": "2026-09-23T07:46:27.171171+02:00",
+  "newly_added": 23,
   "statements": [
+    {
+      "register_number": "R002957",
+      "org_name": "naturstrom AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002957/86230",
+      "regulatory_project_title": "EE-Ausbau beschleunigen",
+      "sending_date": "2026-09-15",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f2/19/845932/Stellungnahme-Gutachten-SG2609220033.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609220033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220033",
+      "summary": "Der vorliegende Entwurf <b>fordert</b> eine konsequente <b>Beschleunigung des EE-Ausbaus</b> durch eine gezielte Weiterentwicklung der bestehenden Förderinstrumente. Dabei soll insbesondere der Einsatz von <b>Differenzverträgen (CfD)</b> gestärkt werden, während gleichzeitig die <b>Wechselmöglichkeiten zu PPA</b> für Anlagenbetreiber gewahrt bleiben müssen. Zur Optimierung der Flächennutzung wird eine verbesserte <b>Regionalsteuerung für Windenergie</b> angemahnt, um den Ausbau effizienter zu gestalten. Zudem wird die <b>übergangsweise Beibehaltung der Förderung für Dach-PV</b> als essenziell für die Erreichung der Ausbauziele eingestuft. Diese Maßnahmen zielen darauf ab, die Investitionssicherheit zu erhöhen und die Transformation des Stromsystems voranzutreiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die nationale Förderung und regulatorische Ausgestaltung der Erneuerbaren Energien (EEG, PPA, PV-Förderung), welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/86205",
+      "regulatory_project_title": "E.ON bittet um angemessene Regulierung bei der Digitalisierungsagenda und bei der Ausgestaltung des KRITIS DG ",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/45/57/845777/Stellungnahme-Gutachten-SG2609220025.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609220025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220025",
+      "summary": "E.ON <b>fordert eine angemessene Regulierung</b> im Rahmen der Digitalisierungsagenda sowie bei der Ausgestaltung des KRITIS-Dachgesetzes. Das Unternehmen <b>ordnet den Netzzugang für Rechenzentren</b> neu ein und berücksichtigt dabei insbesondere die Möglichkeiten zur Eigenerzeugung. Zudem werden <b>Lösungsansätze für die Energieeffizienz</b> von Rechenzentren präsentiert, um deren Betrieb nachhaltiger zu gestalten. E.ON unterstreicht dabei die <b>strategische Bedeutung der Verfügbarkeit</b> dieser Infrastrukturen für das Gelingen der Energiewende. Die Ausführungen zielen darauf ab, regulatorische Hürden abzubauen und die <b>Schnittstelle zwischen Digitalisierung und Stromnetz</b> effizienter zu gestalten. Damit soll die notwendige Kapazität für den wachsenden Bedarf an Rechenleistung sichergestellt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Netzinfrastruktur, die Digitalisierung der Energiewende sowie die Versorgungssicherheit und Effizienz von Rechenzentren, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Versorgungssicherheit) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002297",
+      "org_name": "EnBW Energie Baden-Württemberg AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002297/86237",
+      "regulatory_project_title": "Gesetz zur Optimierung und Absicherung des Ausbaus der Windenergie auf See (WindseeG)",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/71/44/846002/Stellungnahme-Gutachten-SG2609220038.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2609220038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220038",
+      "summary": "Die Interessenvertretung <b>begleitet das Gesetzgebungsverfahren</b> zur Novellierung des Windenergie-auf-See-Gesetzes (WindSeeG) sowie flankierender energiewirtschaftsrechtlicher Regelungen. Ziel ist die <b>Optimierung der gesetzlichen Rahmenbedingungen</b> für den Ausbau der Offshore-Windenergie in Deutschland. Dabei stehen insbesondere die <b>Ausschreibungsdesigns und Flächenentwicklungspläne</b> im Fokus der parlamentarischen und ministeriellen Beratungen. Zudem werden Anforderungen an die <b>Offshore-Netzanbindung</b> sowie die Integration von <b>Wasserstoffinfrastruktur auf See</b> adressiert. Ein weiterer Schwerpunkt liegt auf der Ausgestaltung internationaler Kooperationsprojekte und der regulatorischen Ermöglichung einer <b>Überbauung von Windparkflächen</b>. Die Maßnahmen zielen darauf ab, die Planung, Genehmigung und praktische Umsetzung der Offshore-Projekte effizienter zu gestalten.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das WindSeeG ist zentral für die Offshore-Windenergie, die unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Grenzueberschreitende EE-Kooperationsprojekte' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002063",
+      "org_name": "LEAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002063/86177",
+      "regulatory_project_title": "Änderung des Gesetzes zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5e/d5/845570/Stellungnahme-Gutachten-SG2609220009.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609220009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220009",
+      "summary": "Der vorliegende Entwurf <b>schlägt eine Anpassung</b> der gesetzlichen Rahmenbedingungen vor, um die <b>Synchronisierung von Anlagenzubau und Netzausbau</b> effizienter zu gestalten. Ziel ist eine präzisere <b>Austarierung von Engpassgebieten</b>, um den Ausbau der erneuerbaren Energien besser mit der vorhandenen Netzkapazität in Einklang zu bringen. Durch eine <b>Erhöhung der Netzausbaugeschwindigkeit</b> soll der Transformation des Stromsystems Rechnung getragen werden. Zudem sieht das Vorhaben eine <b>Transparenzsteigerung bei Netzanschlüssen</b> vor, um Planungssicherheit für Investoren zu schaffen. Die Maßnahmen adressieren zentrale Herausforderungen bei der Netzintegration und zielen auf eine Beschleunigung der administrativen Prozesse ab.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzanschlussverfahren und die Synchronisierung von Erneuerbaren-Energien-Anlagen mit dem Netzausbau, was unter die Zuständigkeit der Unterabteilung IIIA für Strommarktdesign, Netzregulierung und Erneuerbare Energien fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001655",
+      "org_name": "RWE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001655/86234",
+      "regulatory_project_title": "Anpassung des WindSeeG zur Stärkung von Investitionssicherheit, Projektrealisierung und Wettbewerbsfähigkeit der Offshore-Windindustrie.",
+      "sending_date": "2026-08-21",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2a/7b/845965/Stellungnahme-Gutachten-SG2609220037.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609220037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220037",
+      "summary": "Die Initiative <b>fordert eine Anpassung des WindSeeG</b>, um die <b>Investitionssicherheit</b> und Wettbewerbsfaehigkeit der Offshore-Windindustrie nachhaltig zu staerken. Im Zentrum steht die <b>Einfuehrung indexierter CfDs</b>, um die Wirtschaftlichkeit der Projekte unter volatilen Marktbedingungen abzusichern. Zudem werden <b>verlaengerte Projektlaufzeiten</b> vorgeschlagen, um die Realisierungschancen zu erhoehen. Ein weiterer Schwerpunkt liegt auf der <b>Begrenzung wirtschaftlicher Risiken</b>, die insbesondere durch verzoegerte Netzanbindungen entstehen. Abschliessend wird die <b>Schaffung verlaesslicher Perspektiven</b> fuer bereits vergebene Flaechen angemahnt, um Planungssicherheit fuer Investoren zu gewaehrleisten.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Windenergie, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Grenzueberschreitende EE-Kooperationsprojekte/Offshore-Kooperationen' der Unterabteilung IIIA faellt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001655",
+      "org_name": "RWE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001655/86234",
+      "regulatory_project_title": "EU-Emissionshandelssystem (EU-ETS)",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/a0/845967/Stellungnahme-Gutachten-SG2609220036.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609220036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220036",
+      "summary": "Die Europäische Kommission <b>plant</b> für das dritte Quartal 2026 eine <b>Anpassung des EU-Emissionshandelssystems</b>. Dabei soll das System als <b>zentrales Klimaschutzinstrument</b> in Europa fortgeführt und in seiner Funktionsweise optimiert werden. Die Initiative zielt auf eine <b>Weiterentwicklung der Rahmenbedingungen</b> ab, um die europäischen Klimaziele effizienter zu erreichen. Durch die geplante Überarbeitung soll die <b>Lenkungswirkung des CO2-Preises</b> innerhalb des EU-Binnenmarktes gestärkt werden. Der Vorschlag wird maßgeblich die <b>Dekarbonisierung der Industrie</b> und des Energiesektors beeinflussen. Die konkreten Details zur Ausgestaltung der Reform werden im weiteren Verlauf des Gesetzgebungsprozesses erwartet.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das EU-Emissionshandelssystem (EU-ETS) ist ein zentrales Instrument der EU-Klimapolitik und direkt mit den Themenfeldern EU-Klimagesetz, Fit for 55 und der Dekarbonisierung der europäischen Energieerzeugung verknüpft, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001655",
+      "org_name": "RWE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001655/86234",
+      "regulatory_project_title": "Vereinfachung der EU-Finanzmarktregulierung im Rahmen der EU Simplification Agenda",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9f/fd/845969/Stellungnahme-Gutachten-SG2609220034.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609220034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220034",
+      "summary": "Das Ministerium <b>unterstützt</b> die <b>Vereinfachung der EU-Finanzmarktregulierung</b> im Rahmen der EU Simplification Agenda. Ziel ist es, durch gezielte Anpassungen der Regelwerke wie MiFID/MiFIR, EMIR und SFTR die <b>regulatorischen Belastungen</b> für nichtfinanzielle Energieunternehmen signifikant zu senken. Diese Entlastung soll die <b>europäische Wettbewerbsfähigkeit</b> stärken und die notwendigen Investitionen in die <b>Energiewende</b> erleichtern. Das Positionspapier adressiert hierbei insbesondere die Komplexität der Meldepflichten, die für Energieunternehmen im operativen Geschäft hinderlich sind. Durch eine effizientere Ausgestaltung der Finanzmarktregeln soll ein investitionsfreundlicheres Umfeld für Akteure im Energiesektor geschaffen werden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Finanzmarktregulierung (MiFID/MiFIR, EMIR), welche direkte Auswirkungen auf die Wettbewerbsfähigkeit und die regulatorische Belastung von Energieunternehmen hat und somit in den Bereich EU-Energiepolitik und Wettbewerbsfähigkeit fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001655",
+      "org_name": "RWE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001655/86234",
+      "regulatory_project_title": "Umsetzung der Richtlinie (EU) 2026/799 zur Harmonisierung bestimmter Aspekte des Insolvenzrechts",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/59/845971/Stellungnahme-Gutachten-SG2609220035.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609220035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220035",
+      "summary": "Die vorliegende Stellungnahme <b>fordert</b> eine <b>Stärkung des vertraglichen Liquidationsnetting</b> im Rahmen der Umsetzung der EU-Insolvenzrichtlinie. Ziel ist es, die Rechtssicherheit für Akteure an den Energiemärkten durch eine Anpassung des § 104 InsO zu erhöhen. Insbesondere soll der <b>Anwendungsbereich</b> auf <b>Herkunfts-, Nachhaltigkeits- und Emissionszertifikate</b> ausgeweitet werden, um die spezifischen Risiken im Bereich der erneuerbaren Energien abzusichern. Eine solche Erweiterung würde die Stabilität bei der Abwicklung von Energiehandelsgeschäften im Insolvenzfall signifikant verbessern. Die Maßnahme zielt darauf ab, die <b>Wettbewerbsfähigkeit und Investitionssicherheit</b> für Projekte im Bereich der erneuerbaren Energien zu gewährleisten. Damit wird eine engere Verzahnung von Insolvenzrecht und den Anforderungen moderner Strommärkte angestrebt.",
+      "recipients": [
+        "BMF",
+        "BMJV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Inhalt betrifft die regulatorische Absicherung von Energiemärkten und die Erweiterung insolvenzrechtlicher Schutzmechanismen für erneuerbare Energien und Zertifikate, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung/Erneuerbare Energien) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001514",
+      "org_name": "bayernets",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001514/86151",
+      "regulatory_project_title": "EU Industrial Accelerator Act, Vorgaben für die öffentliche Auftragsvergabe",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/80/9f/845433/Stellungnahme-Gutachten-SG2609220001.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609220001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220001",
+      "summary": "Der <b>Industrial Accelerator Act</b> <b>zielt darauf ab</b>, die europäische Wertschöpfung zu stärken und strategische Abhängigkeiten in der Industrie zu verringern. Das Gesetz <b>fokussiert auf die Dekarbonisierung</b> der energieintensiven Industrie sowie die Erhöhung der Resilienz kritischer Lieferketten. Als zentrales Steuerungsinstrument wird die <b>öffentliche Auftragsvergabe</b> genutzt, um gezielt eine regulierte Nachfrage zu erzeugen. Durch entsprechende <b>Vorgaben bei Beschaffungsprozessen</b> sollen Leitmärkte für klimafreundliche Technologien geschaffen werden. Diese Maßnahmen sollen die Wettbewerbsfähigkeit des europäischen Binnenmarktes im Kontext der Energiewende sichern. Der Entwurf adressiert dabei direkt die Schnittstelle zwischen Industriepolitik und energiepolitischen Zielsetzungen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungsketten, was in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/86217",
+      "regulatory_project_title": "Anpassung der Inhalte des Netzanschlusspakets",
+      "sending_date": "2026-09-16",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/15/5a/845865/Stellungnahme-Gutachten-SG2609220031.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609220031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220031",
+      "summary": "Der Kabinettsbeschluss <b>schlägt eine Anpassung</b> des Energiewirtschaftsrechts vor, um den <b>Anlagenzubau mit dem Netzausbau</b> effizienter zu synchronisieren. Ziel ist eine <b>ausgewogene Ausgestaltung</b> der Interessen zwischen Netzbetreibern und Anschlusspetenten hinsichtlich Entschädigungsregelungen bei Engpässen. Zudem sollen <b>netzvertragliche Regelungen</b> sowie die Wirkleistungsbegrenzung präzisiert werden, um die operative Flexibilität zu erhöhen. Eine zentrale Forderung ist die <b>Synchronisierung mit der Netzentgeltsystematik</b> (AgNes), um regulatorische Konsistenz zu gewährleisten. Abschließend wird die Einführung eines <b>praxistauglichen Priorisierungsverfahrens</b> für Netzanschlussanfragen angestrebt, um die Verfahrenssicherheit zu verbessern.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzanschlussverfahren, die Synchronisierung von Anlagen- und Netzausbau sowie die regulatorischen Rahmenbedingungen für Netzbetreiber und Erzeuger, was in den Bereich Strommarktdesign und Erneuerbare Energien der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/86219",
+      "regulatory_project_title": "Änderungsvorschläge zum Windenergie-auf-See-Gesetz (WindSeeG) zur Einführung von CfDs und Optimierung des Offshore-Rechtsrahmens",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/41/845748/Stellungnahme-Gutachten-SG2609220012.pdf",
+      "pdf_pages": 51,
+      "sg_number": "SG2609220012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220012",
+      "summary": "Der BDEW <b>fordert eine umfassende Novellierung</b> des Windenergie-auf-See-Gesetzes, um die Investitionssicherheit und Realisierungsfähigkeit im Offshore-Bereich zu stärken. Als zentrales Instrument wird die <b>Einführung zweiseitiger Differenzverträge</b> (CfDs) vorgeschlagen, um die Finanzierung der Projekte effizienter zu gestalten. Zudem plädiert der Verband für eine <b>Reduktion der Bebauungsdichte</b>, um die Volllaststunden der Anlagen zu optimieren. Ein weiterer Schwerpunkt liegt auf der <b>gesetzlichen Ermöglichung kombinierter Anschlusskonzepte</b> für die Offshore-Wasserstofferzeugung durch Elektrolyse. Zur Verbesserung der operativen Rahmenbedingungen verlangt der BDEW zudem eine <b>Reform des Ausschreibungsdesigns</b> sowie eine Anpassung der Realisierungsfristen. Abschließend werden praxistaugliche Regelungen für den <b>Weiterbetrieb bestehender Offshore-Windparks</b> angemahnt.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag",
+        "BKAmt",
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Windenergie, den Rechtsrahmen für Erneuerbare Energien sowie die Ausgestaltung von Förderinstrumenten, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/86219",
+      "regulatory_project_title": "Änderungsvorschläge zur Novelle der EU-Strombinnenmarktverordnung für Stromrechnungen",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/dc/845752/Stellungnahme-Gutachten-SG2609220023.pdf",
+      "pdf_pages": 24,
+      "sg_number": "SG2609220023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220023",
+      "summary": "Der BDEW <b>fordert Änderungen</b> am Entwurf zur <b>EU-Strombinnenmarktverordnung</b>, um nationale Spielräume bei der Netzregulierung zu wahren. Der Verband <b>lehnt pauschale Rolloutquoten</b> für Smart Meter sowie verpflichtende Effizienzvergleiche für Verteilnetzbetreiber ab. Stattdessen soll die Ausgestaltung von <b>Netzentgelten und Leistungsindikatoren</b> weiterhin in der Kompetenz nationaler Regulierungsbehörden verbleiben. Zudem warnt der BDEW vor einer obligatorischen Kostenbeteiligung für Einspeiser und <b>mahnt Bestandsschutzregelungen</b> für bestehende Anlagen an. Weitere Forderungen betreffen die Anpassung von Datenpflichten, delegierten Rechtsakten sowie die <b>Priorisierung von Netzanschlüssen</b>. Ziel ist es, die regulatorische Flexibilität zu erhalten und unverhältnismäßige Belastungen für die Netzbetreiber zu vermeiden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die EU-Strombinnenmarktverordnung, die unter das Themenfeld 'Strommarktdesign & -regulierung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/86166",
+      "regulatory_project_title": "Netzanschlusspaket",
+      "sending_date": "2026-06-11",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c8/bb/845691/Stellungnahme-Gutachten-SG2609220004.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2609220004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220004",
+      "summary": "Der HDE <b>fordert</b> ein <b>angemessenes Rollenverständnis der Verteilnetzbetreiber</b> im Kontext des Netzanschlusspakets. Ziel ist es, die <b>Prozesse für Netzanschlüsse</b> effizienter und transparenter zu gestalten, um den Ausbau erneuerbarer Energien und die Sektorkopplung zu beschleunigen. Dabei steht die <b>Rollenverteilung zwischen Netzbetreibern</b> und Anschlussnutzern im Fokus, um bürokratische Hürden abzubauen. Eine klare Definition der Verantwortlichkeiten soll die <b>Investitionssicherheit für Unternehmen</b> erhöhen. Zudem wird eine stärkere <b>Kundenorientierung bei Netzanschlussprozessen</b> angemahnt, um die Transformation des Energiesystems praxisnah zu unterstützen. Da kein Volltext vorliegt, beschränkt sich die Analyse auf diese grundlegende Forderung zur regulatorischen Ausgestaltung.",
+      "recipients": [
+        "Bundestag",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema Netzanschlusspaket betrifft direkt die Strommarktregulierung, Netzoptimierung und die Rahmenbedingungen für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/86166",
+      "regulatory_project_title": "Zuschuss zu Übertragungsnetzentgelte ",
+      "sending_date": "2026-06-11",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/e1/845693/Stellungnahme-Gutachten-SG2609220007.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609220007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220007",
+      "summary": "Der HDE <b>fordert eine Erhöhung sowie Verstetigung</b> des staatlichen Zuschusses zu den Übertragungsnetzentgelten. Ziel dieser Maßnahme ist die <b>Entlastung der Endverbraucher</b> und eine <b>Stabilisierung der Stromkosten</b> für den Handel. Durch die finanzielle Unterstützung soll die <b>Wettbewerbsfähigkeit</b> der Unternehmen im EU-Binnenmarkt gestärkt werden. Die Organisation betont, dass die derzeitigen Netzentgelte eine erhebliche Belastung darstellen, die durch eine verlässliche staatliche Förderung abgefedert werden muss. Eine langfristige Planungssicherheit bei den Netzentgelten wird als essenziell für die <b>Planungssicherheit der Wirtschaft</b> angesehen. Die Forderung zielt darauf ab, die <b>finanzielle Belastung durch den Netzausbau</b> gerechter zu verteilen und die Energiekosten für den Sektor dauerhaft zu begrenzen.",
+      "recipients": [
+        "Bundestag",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik der Übertragungsnetzentgelte und deren staatliche Bezuschussung fällt direkt unter die Zuständigkeit der Unterabteilung IIIA, insbesondere in den Bereichen Strommarktregulierung, Energiepreise und Wettbewerbsfähigkeit.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/86166",
+      "regulatory_project_title": "StromVKG",
+      "sending_date": "2026-06-11",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ff/d3/845695/Stellungnahme-Gutachten-SG2609220008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609220008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220008",
+      "summary": "Das geplante <b>StromVKG</b> <b>schlägt vor</b>, den <b>Aufbau gesicherter Leistung</b> im deutschen Stromsystem gezielt zu forcieren. Ziel des Vorhabens ist es, die notwendigen Investitionsanreize für steuerbare Kraftwerkskapazitäten zu schaffen, um die Versorgungssicherheit langfristig zu gewährleisten. Durch die Bereitstellung dieser Kapazitäten soll die Stabilität des Stromnetzes auch in Zeiten geringer Einspeisung aus erneuerbaren Energien sichergestellt werden. Das Gesetz adressiert damit eine zentrale Herausforderung der Energiewende im Kontext der geplanten <b>Kraftwerksstrategie</b>. Es dient als regulatorisches Instrument, um die <b>Systemstabilität</b> bei gleichzeitigem Kohleausstieg und steigendem Strombedarf zu sichern. Die Ausgestaltung zielt darauf ab, die <b>Investitionssicherheit</b> für Betreiber von Kraftwerken zu erhöhen, die kurzfristig auf den Bedarf des Strommarktes reagieren können.",
+      "recipients": [
+        "Bundestag",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das StromVKG (Stromverfügbarkeitsgesetz) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere in die Themenfelder 'Stromerzeugung & Kraftwerke' sowie 'Versorgungssicherheit Strom'.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003945",
+      "org_name": "Deutscher Tierschutzbund e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003945/86162",
+      "regulatory_project_title": "Änderung der Tierschutzgesetzgebung des Bundes",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d6/6f/845467/Stellungnahme-Gutachten-SG2609220002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609220002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220002",
+      "summary": "Der Deutsche Tierschutzbund strebt die Anpassung sämtlicher Tierschutzgesetzgebung an das Staatsziel Tierschutz im Grundgesetz an. Dies umfasst sämtliche Regelungen der landwirtschaftlichen Tierhaltung, der Haltung von Heimtieren, der Durchführung von Tierversuchen, dem Umgang mit Wildtieren sowie Fragen des praktischen Tierschutzes, also der Tierschutzvereine und Tierheime in Deutschland. Sämtliche politische Aktivitäten des Verbandes streben eine Verbesserung der Tierschutzgesetzgebung zum Wohl der Tiere an, speziell eine Novellierung des Tierschutzgesetzes sowie der Tierschutz-Nutztierhaltungsverordnungen (bestehend oder noch zu erlassen).",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001317",
+      "org_name": "Open Source Business Alliance - Bundesverband für digitale Souveränität e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001317/86241",
+      "regulatory_project_title": "Vorrang für Open Source Software in Beschaffung und Vergaberecht",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9f/e9/846030/Stellungnahme-Gutachten-SG2609220040.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609220040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220040",
+      "summary": "Wir fordern, dass der Staat (sowohl auf Bundes- als auch EU-Ebene) seine Verantwortung als Ankerkunde wahrnimmt und zur Stärkung der digitalen Souveränität der öffentlichen Verwaltung einen Vorrang für Open Source Software im Vergaberecht verankert.\r\n\r\nEs soll festgelegt werden: Open Source Software soll in Beschaffung und Vergabe zum Standard werden (Open Source als Default). Dem Prinzip »Public Money Public Code« folgend, soll der Staat mit öffentlichen Geldern finanzierte Software immer unter einer Open-Source-Lizenz veröffentlichen, sodass die Software in der Folge von jedermann frei genutzt werden kann. Wenn in einem Vergabeverfahren sowohl proprietäre als auch Open-Source-Lösungen zur Auswahl stehen, sollen die Open-Source-Lösungen bevorzugt ausgewählt werden (Open Source First).",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000760",
+      "org_name": "Verband der Mineralfarbenindustrie e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000760/86153",
+      "regulatory_project_title": "Europäische Trinkwasserrichtlinie DWD",
+      "sending_date": "2026-09-08",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a6/b1/845495/Stellungnahme-Gutachten-SG2609220003.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609220003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220003",
+      "summary": "Forderung dass Ausnahmen für Pigmente aus der nationalen Gesetzgebung auf europäische Ebene übertragen werden, Positivliste",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/86166",
+      "regulatory_project_title": "GEIG",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/24/845697/Stellungnahme-Gutachten-SG2609220010.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2609220010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220010",
+      "summary": "Das GEIG verpflichtet Immobilieneigentümer zum Aufbau von Ladesäuleninfrastruktur. \r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/86166",
+      "regulatory_project_title": "GModG",
+      "sending_date": "2026-05-11",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/18/845699/Stellungnahme-Gutachten-SG2609220011.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2609220011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220011",
+      "summary": "Das GModG gibt weitreichenden Vorgaben zur Dekarbonisierungs des Gebäudesektors \r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/86166",
+      "regulatory_project_title": "Regionale Beschränkungen in den Lieferbeziehungen",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/22/845703/Stellungnahme-Gutachten-SG2609220017.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609220017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220017",
+      "summary": "Der HDE unterstützt daher die Entscheidung der Europäischen Kommission, diese regionale Handelsbeschränkungen als Hemmnis des freien Binnenmarkts zu definieren und fordert sie auf, gegen diese Beschränkungen des freien Warenverkehrs im Binnenmarkt schnell, effizient und bürokratiearm vorzugehen.\r\n",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000398",
+      "org_name": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure e. V. (BSI)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000398/86211",
+      "regulatory_project_title": "PPWR: Verbändeallianz zum Schutz von Kleinstunternehmen",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9c/e8/845767/Stellungnahme-Gutachten-SG2609220026.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609220026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220026",
+      "summary": "Der BSI fordert im Rahmen einer Verbändeallianz eine schnelle Klarstellung, wer laut PPWR bei zusammengesetzten Verpackungen als „Erzeuger“ gilt und die entsprechenden Pflichten trägt. Verhindert werden soll, dass Kleinstunternehmen durch zusätzliche Bürokratie belastet und von der PPWR-Ausnahme faktisch ausgeschlossen werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000398",
+      "org_name": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure e. V. (BSI)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000398/86211",
+      "regulatory_project_title": "PPWR: Verbändeallianz zum Schutz von Kleinstunternehmen",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-09-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/79/74/845769/Stellungnahme-Gutachten-SG2609220027.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609220027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609220027",
+      "summary": "Der BSI fordert im Rahmen einer Verbändeallianz eine schnelle Klarstellung, wer laut PPWR bei zusammengesetzten Verpackungen als „Erzeuger“ gilt und die entsprechenden Pflichten trägt. Verhindert werden soll, dass Kleinstunternehmen durch zusätzliche Bürokratie belastet und von der PPWR-Ausnahme faktisch ausgeschlossen werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001681",
       "org_name": "Volkswagen AG",
@@ -32,7 +693,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Dekarbonisierung des Verkehrssektors, welche durch die Sektorkopplung und die Auswirkungen auf die Stromnachfrage (E-Mobilität) direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Klimapolitik/Fit for 55) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -58,7 +719,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kraftwerksstrategie und das StromVKG-E, welche explizit unter den Themenfeldern 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000982",
@@ -83,7 +744,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Netzregulierung und die Kostenstruktur der Stromerzeugung, welche unter die Themenfelder 'Strommarktdesign & -regulierung' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -120,7 +781,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft direkt die Netzanschlussverfahren im EnWG und EEG, welche für die Umsetzung der Energiewende, den Ausbau erneuerbarer Energien und die Strommarktregulierung (Unterabteilung IIIA) von zentraler Bedeutung sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -149,7 +810,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Änderung des § 46a EnWG betrifft die regulatorischen Rahmenbedingungen für Konzessionsverfahren und den Datenaustausch zwischen Netzbetreibern und Kommunen, was direkt in den Bereich der Strommarktregulierung und Netzbetriebsführung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000611",
@@ -185,7 +846,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Netzanschlussverfahren, die direkte Auswirkungen auf die Integration erneuerbarer Energien, die Netzausbaugeschwindigkeit und die Systemeffizienz haben, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003753",
@@ -1039,7 +1700,7 @@
       ],
       "priority": 3,
       "gemini_relevanz": "Die europäische KI-Recheninfrastruktur ist aufgrund des massiven Strombedarfs und der notwendigen Integration in das europäische Energienetz sowie der energiepolitischen Relevanz für die industrielle Wettbewerbsfähigkeit (Clean Industrial Deal) für die Unterabteilung IIIA relevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002096",
@@ -2586,7 +3247,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungsketten, was in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit des EU-Binnenmarktes der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006344",
@@ -77196,5 +77857,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 913
+  "gemini_filtered_out": 921
 }
