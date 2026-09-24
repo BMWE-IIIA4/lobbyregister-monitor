@@ -1,7 +1,152 @@
 {
-  "generated_at": "2026-09-23T07:46:27.171171+02:00",
-  "newly_added": 23,
+  "generated_at": "2026-09-24T08:00:24.969611+02:00",
+  "newly_added": 5,
   "statements": [
+    {
+      "register_number": "R002747",
+      "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002747/86309",
+      "regulatory_project_title": "Verlässliche und langfristige Finanzierungsbedingungen für den Wasserstoffhochlauf",
+      "sending_date": "2026-08-18",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dd/4d/846610/Stellungnahme-Gutachten-SG2609230046.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609230046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230046",
+      "summary": "Die Organisation <b>fordert</b> verlässliche und langfristige <b>Finanzierungsbedingungen</b> für den <b>Wasserstoffhochlauf</b> in Deutschland. Um die notwendige Planungssicherheit für Investoren zu gewährleisten, wird die Einrichtung eines dedizierten <b>Haushaltstitels</b> für <b>Wasserstoff-CfDs</b> (Carbon Contracts for Difference) vorgeschlagen. Diese Maßnahme soll als stabiles Fundament dienen, um die Transformation der Industrie hin zu klimaneutralen Prozessen zu beschleunigen. Durch eine solche finanzielle Absicherung sollen die spezifischen Markthochlauf-Risiken für Wasserstofftechnologien adressiert werden. Die Forderung richtet sich an den Bundestag, um die notwendigen haushaltspolitischen Weichenstellungen für die nationale Wasserstoffstrategie vorzunehmen. Damit soll die Wettbewerbsfähigkeit der deutschen Industrie im Rahmen der europäischen Energiepolitik gestärkt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/85674",
+      "regulatory_project_title": "Einsatz für ambitioniertere Flottengrenzwerte Pkw auf EU-Ebene",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8b/df/846669/Stellungnahme-Gutachten-SG2609230049.pdf",
+      "pdf_pages": 38,
+      "sg_number": "SG2609230049",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230049",
+      "summary": "Die Organisation <b>fordert</b> eine <b>ambitioniertere Ausgestaltung</b> der <b>CO2-Flottengrenzwerte</b> für Pkw im Rahmen der anstehenden Revision im Jahr 2026. Ziel ist es, durch strengere Vorgaben die <b>Dekarbonisierung des Verkehrssektors</b> im Einklang mit den europäischen Klimazielen voranzutreiben. Die Initiative zielt darauf ab, die <b>europäischen Klimastandards</b> frühzeitig zu verschärfen, um die Transformation zur Elektromobilität zu beschleunigen. Dabei wird betont, dass eine klare regulatorische Planungssicherheit für die Industrie essenziell ist. Die Forderung unterstreicht die Notwendigkeit, die <b>EU-Klimapolitik</b> konsequent an den Erfordernissen des Green Deals auszurichten. Eine frühzeitige Festlegung soll zudem die Wettbewerbsfähigkeit europäischer Hersteller im globalen Markt für emissionsfreie Fahrzeuge sichern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Sektorkopplung, welche unter die Zuständigkeit der Unterabteilung IIIA fallen, insbesondere im Kontext der EU-Zielarchitektur und der Dekarbonisierung.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/86312",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2a/d0/846654/Stellungnahme-Gutachten-SG2609230047.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609230047",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230047",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von Bussen mit alternativen Antrieben sowie den notwendigen Umbau der Betriebshöfe. Zur Erreichung der Klimaziele im öffentlichen Personennahverkehr wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> bis zum Jahr 2035 veranschlagt. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Neben der Fahrzeugbeschaffung umfasst das Vorhaben auch die notwendige Anpassung der Werkstattinfrastruktur für <b>klimaneutrale Antriebstechnologien</b>. Damit soll die <b>Sektorkopplung</b> im Bereich der Mobilität gestärkt und die Dekarbonisierung des ÖPNV beschleunigt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000335",
+      "org_name": "Arbeitsgemeinschaft Deutscher Waldbesitzerverbände (AGDW) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000335/86249",
+      "regulatory_project_title": "Änderung der EEG-Novelle 2027",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cd/0d/846096/Stellungnahme-Gutachten-SG2609230001.pdf",
+      "pdf_pages": 24,
+      "sg_number": "SG2609230001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230001",
+      "summary": "Die Initiative <b>fordert die Streichung des Pachtdeckels</b> im Rahmen der anstehenden EEG-Novelle 2027, um die wirtschaftlichen Rahmenbedingungen für Flächeneigentümer zu verbessern. Es wird eine <b>angemessene Vergütung</b> der Eigentümer verlangt, um die Akzeptanz für den Ausbau erneuerbarer Energien zu sichern. Zudem warnt das Papier vor <b>unangemessenen Sanktionen</b>, die den Ausbauprozess behindern könnten. Ein weiterer Schwerpunkt liegt auf dem <b>Schutz bestehender Verträge</b>, um Planungssicherheit für alle beteiligten Akteure zu gewährleisten. Abschließend wird die <b>Wahrung sensibler Daten</b> gefordert, um die Vertraulichkeit in den vertraglichen Beziehungen zu wahren.",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die geplante Änderung der EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, insbesondere die Vergütungsstrukturen und vertraglichen Regelungen für Flächeneigentümer, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000122",
+      "org_name": "Verband Beratender Ingenieure VBI",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000122/86278",
+      "regulatory_project_title": "EU Public Procurement Act",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2e/f2/846348/Stellungnahme-Gutachten-SG2609230007.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2609230007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230007",
+      "summary": "Die Bundesregierung <b>fordert</b> im Rahmen des EU Public Procurement Act eine <b>weitere Harmonisierung</b> durch eine Richtlinie anstelle einer unmittelbar geltenden Verordnung. Ziel ist die Durchsetzung <b>planungs- und mittelstandsgerechter Regelungen</b> innerhalb des europäischen Vergaberechts. Dabei soll insbesondere die <b>Qualität bei Planungsleistungen</b> stärker gewichtet und die <b>Trennung von Planung und Bau</b> grundsätzlich beibehalten werden. Zudem wird die Sicherung der <b>Fach- und Teillosvergabe</b> sowie der Erhalt von Planungswettbewerben als essenziell erachtet. Abschließend verlangt die Position eine angemessene Vergütung planerischer Vorleistungen sowie wirksame Mechanismen gegen ungewöhnlich niedrige Angebote.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der EU Public Procurement Act betrifft die Wettbewerbsfähigkeit und Rahmenbedingungen im EU-Binnenmarkt, was direkt die Zuständigkeit der Unterabteilung IIIA für EU-Energiepolitik und Wettbewerbsfähigkeit berührt.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R002957",
       "org_name": "naturstrom AG",
@@ -25,7 +170,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die nationale Förderung und regulatorische Ausgestaltung der Erneuerbaren Energien (EEG, PPA, PV-Förderung), welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -54,7 +199,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Netzinfrastruktur, die Digitalisierung der Energiewende sowie die Versorgungssicherheit und Effizienz von Rechenzentren, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Versorgungssicherheit) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002297",
@@ -102,7 +247,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das WindSeeG ist zentral für die Offshore-Windenergie, die unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Grenzueberschreitende EE-Kooperationsprojekte' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002063",
@@ -131,7 +276,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzanschlussverfahren und die Synchronisierung von Erneuerbaren-Energien-Anlagen mit dem Netzausbau, was unter die Zuständigkeit der Unterabteilung IIIA für Strommarktdesign, Netzregulierung und Erneuerbare Energien fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -157,7 +302,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Windenergie, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Grenzueberschreitende EE-Kooperationsprojekte/Offshore-Kooperationen' der Unterabteilung IIIA faellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -190,7 +335,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das EU-Emissionshandelssystem (EU-ETS) ist ein zentrales Instrument der EU-Klimapolitik und direkt mit den Themenfeldern EU-Klimagesetz, Fit for 55 und der Dekarbonisierung der europäischen Energieerzeugung verknüpft, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -215,7 +360,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Finanzmarktregulierung (MiFID/MiFIR, EMIR), welche direkte Auswirkungen auf die Wettbewerbsfähigkeit und die regulatorische Belastung von Energieunternehmen hat und somit in den Bereich EU-Energiepolitik und Wettbewerbsfähigkeit fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -241,7 +386,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Inhalt betrifft die regulatorische Absicherung von Energiemärkten und die Erweiterung insolvenzrechtlicher Schutzmechanismen für erneuerbare Energien und Zertifikate, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung/Erneuerbare Energien) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001514",
@@ -272,7 +417,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Industrial Accelerator Act (IAA) adressiert direkt die Dekarbonisierung der energieintensiven Industrie und die Stärkung der europäischen Wertschöpfungsketten, was in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -304,7 +449,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzanschlussverfahren, die Synchronisierung von Anlagen- und Netzausbau sowie die regulatorischen Rahmenbedingungen für Netzbetreiber und Erzeuger, was in den Bereich Strommarktdesign und Erneuerbare Energien der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -341,7 +486,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Windenergie, den Rechtsrahmen für Erneuerbare Energien sowie die Ausgestaltung von Förderinstrumenten, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -374,7 +519,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die EU-Strombinnenmarktverordnung, die unter das Themenfeld 'Strommarktdesign & -regulierung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000479",
@@ -400,7 +545,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Netzanschlusspaket betrifft direkt die Strommarktregulierung, Netzoptimierung und die Rahmenbedingungen für die Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000479",
@@ -426,7 +571,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik der Übertragungsnetzentgelte und deren staatliche Bezuschussung fällt direkt unter die Zuständigkeit der Unterabteilung IIIA, insbesondere in den Bereichen Strommarktregulierung, Energiepreise und Wettbewerbsfähigkeit.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000479",
@@ -452,7 +597,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das StromVKG (Stromverfügbarkeitsgesetz) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere in die Themenfelder 'Stromerzeugung & Kraftwerke' sowie 'Versorgungssicherheit Strom'.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003945",
