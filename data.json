@@ -1,7 +1,520 @@
 {
-  "generated_at": "2026-09-24T08:00:24.969611+02:00",
-  "newly_added": 5,
+  "generated_at": "2026-09-25T08:03:01.715994+02:00",
+  "newly_added": 29,
   "statements": [
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/86380",
+      "regulatory_project_title": "Grundversorgung stärken, Kosten senken",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/d7/847150/Stellungnahme-Gutachten-SG2609240033.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609240033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240033",
+      "summary": "E.ON <b>setzt sich für den Erhalt</b> der bestehenden Grund- und Ersatzversorgung als resiliente Säule der Daseinsvorsorge ein. Das Unternehmen betont, dass dieses System seit über zwei Jahrzehnten eine <b>unterbrechungsfreie Energieversorgung</b> für Haushalte und Kleingewerbe sicherstellt. Durch eine langfristige Beschaffungsstrategie sollen insbesondere in volatilen Marktphasen <b>Preisstabilität und Transparenz</b> für Endkunden gewährleistet werden. Zur Entlastung der Verbraucher fordert der Energieversorger einen gezielten <b>Bürokratieabbau</b> innerhalb der regulatorischen Rahmenbedingungen. Zudem wird der verstärkte Einsatz <b>digitaler Prozesse</b> als notwendiges Mittel zur Senkung der operativen Kosten in der Grundversorgung identifiziert. Die Positionierung unterstreicht die Bedeutung des EnWG für die Aufrechterhaltung der Versorgungssicherheit in Krisenzeiten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Grund- und Ersatzversorgung gemäß EnWG, welche als zentrales Element der Versorgungssicherheit und Preisstabilität im Strommarkt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001243",
+      "org_name": "Verband der Automobilindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001243/86385",
+      "regulatory_project_title": "Für eine umsichtige Ausrichtung der Beziehungen zu China ",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/31/87/847203/Stellungnahme-Gutachten-SG2609240041.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609240041",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240041",
+      "summary": "Der VDA <b>lehnt zusätzliche Zölle</b> auf chinesische Elektrofahrzeuge ab und warnt vor einer Gefährdung der globalen Zusammenarbeit. Die Organisation <b>fordert stattdessen einen Dialog</b> statt Abschottung, um die für die Transformation unverzichtbaren Wirtschaftsbeziehungen zu China zu sichern. Ein <b>De-Risking mit Augenmaß</b> soll dabei helfen, die Wettbewerbsfähigkeit in Deutschland und Europa zu stärken, ohne einen Handelskonflikt zu provozieren. Die Zollerhebung sollte nach Ansicht des Verbandes bis zum Erreichen einer <b>Verhandlungslösung ausgesetzt</b> werden. Zudem drängt der VDA auf <b>faire Marktzugangsbedingungen</b> in China sowie auf eine Klärung bei bestehenden Exportrestriktionen. Die aktuelle handelspolitische Strategie wird als ungeeignet bewertet, um die industrielle Leistungsfähigkeit nachhaltig zu fördern.",
+      "recipients": [
+        "AA",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument betrifft die Wettbewerbsfähigkeit der deutschen Industrie im Kontext der EU-Handelspolitik und Energie-Transformation, was direkt mit den Themenfeldern EU-Energiepreise, Wettbewerbsfähigkeit im EU-Binnenmarkt und internationale Energiebeziehungen korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/86362",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a4/a7/846932/Stellungnahme-Gutachten-SG2609240019.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240019",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von Bussen mit alternativen Antrieben sowie den notwendigen Umbau von Betriebshöfen. Zur Erreichung der Klimaziele im öffentlichen Personennahverkehr wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> bis zum Jahr 2035 veranschlagt. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Neben der Fahrzeugbeschaffung umfasst das Vorhaben auch die notwendige Anpassung der Werkstattinfrastruktur für <b>klimaneutrale Antriebstechnologien</b>. Damit adressiert das Vorhaben zentrale Aspekte der <b>Sektorkopplung</b> und der Dekarbonisierung des Verkehrssektors. Eine langfristige finanzielle Absicherung wird als essenziell für die erfolgreiche Transformation des ÖPNV angesehen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/86362",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0a/cd/846946/Stellungnahme-Gutachten-SG2609240020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240020",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von Bussen mit alternativen Antrieben sowie den notwendigen Umbau der Betriebshöfe. Zur Erreichung der Klimaziele im öffentlichen Personennahverkehr wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> bis zum Jahr 2035 veranschlagt. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Neben der Fahrzeugbeschaffung umfasst das Vorhaben auch die notwendige Anpassung der Werkstattinfrastruktur für <b>klimaneutrale Antriebstechnologien</b>. Damit soll die <b>Sektorkopplung</b> im Bereich der Mobilität gestärkt und die Dekarbonisierung des ÖPNV beschleunigt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/86362",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/31/b3/846955/Stellungnahme-Gutachten-SG2609240021.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240021",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von Bussen mit alternativen Antrieben sowie den Umbau der zugehörigen Betriebshöfe. Ziel ist die Dekarbonisierung des öffentlichen Personennahverkehrs durch eine gezielte <b>Transformation der Fahrzeugflotten und Infrastruktur</b>. Für den Zeitraum bis 2035 wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> veranschlagt. Die Mittel sollen dabei sowohl aus dem Bundeshaushalt als auch aus dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Durch die Investitionen in Werkstätten und Ladeinfrastruktur soll die technische Basis für einen klimaneutralen ÖPNV langfristig gesichert werden. Die Maßnahme unterstreicht die Notwendigkeit einer finanziellen Flankierung der <b>Sektorkopplung im Verkehrsbereich</b> zur Erreichung der Klimaziele.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder Klimaschutz & Energiewende sowie die Finanzierungsbedarfe der Transformation fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/86362",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ba/ee/846965/Stellungnahme-Gutachten-SG2609240022.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240022",
+      "summary": "Die Initiative <b>fordert</b> eine <b>Fortschreibung und Aufstockung der Fördermittel</b> für den Ankauf von Bussen mit alternativen Antrieben sowie den notwendigen Umbau von Betriebshöfen. Zur Erreichung der Klimaziele im öffentlichen Personennahverkehr wird ein <b>gesamter Förderbedarf von 23,5 Mrd. Euro</b> bis zum Jahr 2035 veranschlagt. Die Mittel sollen gezielt aus dem Bundeshaushalt sowie dem <b>Klima- und Transformationsfonds (KTF)</b> bereitgestellt werden. Neben der Fahrzeugbeschaffung umfasst das Vorhaben auch die notwendige Anpassung der Werkstattinfrastruktur für <b>klimaneutrale Antriebstechnologien</b>. Damit adressiert das Vorhaben zentrale Aspekte der <b>Sektorkopplung</b> und der Dekarbonisierung des Verkehrssektors. Eine langfristige finanzielle Absicherung wird als essenziell für die erfolgreiche Transformation des ÖPNV angesehen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/86248",
+      "regulatory_project_title": "Änderungsvorschläge zum EEG 2027 für einen planbaren, kosteneffizienten und netzverträglichen Ausbau erneuerbarer Energien",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e8/7e/846760/Stellungnahme-Gutachten-SG2609240004.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609240004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240004",
+      "summary": "Der <b>BDEW fordert</b> eine <b>Neuausrichtung des EEG 2027</b>, um den Ausbau erneuerbarer Energien planbarer, kosteneffizienter und netzverträglicher zu gestalten. Zentral ist dabei die <b>Erhöhung des Ausschreibungsvolumens</b> für Windenergie an Land um 12 GW. Zudem wird eine vereinfachte <b>Ausgestaltung der Übererlösabschöpfung</b> angemahnt, um bürokratische Hürden abzubauen. Bei der Digitalisierung der Energiewende plädiert der Verband für die Beibehaltung der 7-kW-Schwelle für den Einbau intelligenter Messsysteme. Des Weiteren soll die <b>Wirkleistungsbegrenzung</b> flexibler gestaltet werden, um bidirektionales Laden und eine bedarfsgerechte Einspeisung nicht zu behindern. Diese Maßnahmen sollen die <b>Marktorientierung</b> des Ausbaus stärken und die Systemintegration der Erneuerbaren verbessern.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien sowie netztechnische Anforderungen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/86248",
+      "regulatory_project_title": "Änderung der EU-Delegierten Verordnung 2023/1184 zu RFNBO-Produktionskriterien",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/26/846762/Stellungnahme-Gutachten-SG2609240001.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240001",
+      "summary": "Der BDEW <b>fordert Anpassungen</b> der Delegierten Verordnung (EU) 2023/1184, um die <b>Produktionsbedingungen für RFNBOs</b> zu erleichtern. Die Organisation verlangt eine <b>Verschiebung der Zusätzlichkeitsanforderungen</b> bis zum Jahr 2035, um die Markthochlaufphase zu unterstützen. Zudem soll die Einführung der <b>stündlichen Korrelation</b> für die Stromnutzung ebenfalls bis 2035 ausgesetzt werden, um die Flexibilität der Erzeugung zu wahren. Ergänzend wird eine <b>Absenkung des Schwellenwerts</b> für Ausnahmen in Gebotszonen mit hohem Erneuerbaren-Anteil von 90 auf 80 Prozent angestrebt. Diese Maßnahmen sollen die regulatorischen Hürden für den Aufbau einer Wasserstoffwirtschaft in der EU reduzieren.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000415",
+      "org_name": "DSLV Bundesverband Spedition und Logistik e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000415/86369",
+      "regulatory_project_title": "Energiepolitische Rahmenbedingungen für die Elektrifizierung des Logistiksektors (Netzausbau, Strom-steuer/Netzentgelte)",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/eb/ee/847126/Stellungnahme-Gutachten-SG2609240032.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2609240032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240032",
+      "summary": "Der DSLV <b>fordert</b> verbesserte energiepolitische Rahmenbedingungen zur <b>Elektrifizierung des Logistiksektors</b>. Der Verband verlangt eine <b>beschleunigte Netzausbauplanung</b>, die den steigenden Strombedarf und Lastspitzen proaktiv berücksichtigt. Zudem wird eine <b>Absenkung des Stromsteuersatzes</b> auf das EU-Mindestmaß sowie die Einführung <b>netzdienlicher Netzentgelte</b> zur Anreizsetzung für flexibles Laden angestrebt. Zur Förderung von Logistikstandorten als Energie-Hubs sollen regulatorische Hürden durch eine <b>standortbezogene Letztverbraucherfiktion</b> abgebaut werden. Dies soll die rechtssichere Stromabgabe an Dritte ermöglichen, ohne die Unternehmen als Energieversorger einzustufen. Die Maßnahmen zielen darauf ab, die notwendige Infrastruktur für eine klimaneutrale Logistik effizient und planungssicher zu gestalten.",
+      "recipients": [
+        "BMV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, Netzausbauplanung, Strompreisgestaltung und regulatorische Rahmenbedingungen für die Elektrifizierung, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003031",
+      "org_name": "Wir! Stiftung Pflegender Angehöriger",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003031/86387",
+      "regulatory_project_title": "Stellungnahme zum Entwurf des Pflegeneuordnungsgesetz - PNOG. Position pflegender Angehöriger, Bedarfsorientierung, Zukunft",
+      "sending_date": "2026-06-08",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/52/847242/Stellungnahme-Gutachten-SG2609240043.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609240043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240043",
+      "summary": "Die Stellungnahme zum Entwurf des Pflegeneuordnungsgesetz (PNOG) soll die Bedarfe pflegender Angehöriger im Zusammenhang mit Finanzierung sowie der Neuordnung von Pflegeleistungen  bei Unterstützungs- und Entlastungsleistungen, bei Beratung und Pflegeplanung verdeutlichen.\r\nPartizipation und Zukunftsplanungen werden thematisiert-",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003031",
+      "org_name": "Wir! Stiftung Pflegender Angehöriger",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003031/86387",
+      "regulatory_project_title": "Stellungnahme zum Entwurf des Pflegeneuordnungsgesetz - PNOG. Position pflegender Angehöriger, Bedarfsorientierung, Zukunft",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/af/0d/847244/Stellungnahme-Gutachten-SG2609240044.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240044",
+      "summary": "Die Stellungnahme zum Entwurf des Pflegeneuordnungsgesetz (PNOG) soll die Bedarfe pflegender Angehöriger im Zusammenhang mit Finanzierung sowie der Neuordnung von Pflegeleistungen  bei Unterstützungs- und Entlastungsleistungen, bei Beratung und Pflegeplanung verdeutlichen.\r\nPartizipation und Zukunftsplanungen werden thematisiert-",
+      "recipients": [
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003031",
+      "org_name": "Wir! Stiftung Pflegender Angehöriger",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003031/86387",
+      "regulatory_project_title": "Stellungnahme zum Entwurf des Pflegeneuordnungsgesetz - PNOG. Position pflegender Angehöriger, Bedarfsorientierung, Zukunft",
+      "sending_date": "2026-06-07",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dc/96/847246/Stellungnahme-Gutachten-SG2609240045.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240045",
+      "summary": "Die Stellungnahme zum Entwurf des Pflegeneuordnungsgesetz (PNOG) soll die Bedarfe pflegender Angehöriger im Zusammenhang mit Finanzierung sowie der Neuordnung von Pflegeleistungen  bei Unterstützungs- und Entlastungsleistungen, bei Beratung und Pflegeplanung verdeutlichen.\r\nPartizipation und Zukunftsplanungen werden thematisiert-",
+      "recipients": [
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/86380",
+      "regulatory_project_title": "Rechtsrahmen für Dekarbonisierung, Investitionen und Verbraucherschutz im Wärmenetzbereich modernisieren",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8b/f1/847152/Stellungnahme-Gutachten-SG2609240034.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609240034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240034",
+      "summary": "Die Eckpunkte für das Wärmenetzpaket bilden eine wichtige Grundlage für die Weiterentwicklung der regulatorischen Rahmenbedingungen für Ausbau und Dekarbonisierung von Wärmenetzen. Hierzu sollen Dekarbonisierungsinvestitionen umfassend anerkannt und langfristig refinanzierbar ausgestaltet, Preisbildungs- und Preisänderungsmechanismen rechtssicher geregelt sowie Transparenz- und Verbraucherschutzanforderungen verhältnismäßig umgesetzt werden. Zudem sollen die Finanzierung der Wärmenetztransformation durch einen verlässlichen Förderrahmen abgesichert und Hemmnisse im Gebäude- und Mietrecht abgebaut werden. Die primärenergetische Bewertung von Wärmenetzen sollte Dekarbonisierungsleistungen angemessen berücksichtigen und Investitionsentscheidungen ermöglichen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001291",
+      "org_name": "Deutscher Verein für öffentliche und private Fürsorge e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001291/86389",
+      "regulatory_project_title": "Strategie der Europäischen Union gegen Armut umsetzen",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6a/9e/847287/Stellungnahme-Gutachten-SG2609240049.pdf",
+      "pdf_pages": 26,
+      "sg_number": "SG2609240049",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240049",
+      "summary": "Die Bundesregierung soll sich für die Umsetzung der Strategie der Europäischen Union gegen Armut einsetzen 1.) auf EU-Ebene durch ihr Handeln im Rat und 2.) in Deutschland durch einen wirksamen, bürokratiearmen und kohärenten Umsetzungsprozess. Der Deutsche Verein sieht Armut und soziale Ausgrenzung als multidimensionale Herausforderungen: Maßnahmen zur Bekämpfung von Armut in allen Altersgruppen sind zu kombinieren mit Maßnahmen zu übergreifenden Herausforderungen wie Diskriminierung, Wohnkosten und Zugang zu monetären Leistungen und Dienstleistungen.",
+      "recipients": [
+        "BKAmt",
+        "BMAS",
+        "BMBFSFJ",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001116",
+      "org_name": "Prepaid Verband Deutschland e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001116/86367",
+      "regulatory_project_title": "Rahmenbedingungen für Sachbezüge",
+      "sending_date": "2026-07-23",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cb/94/847087/Stellungnahme-Gutachten-SG2609240028.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609240028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240028",
+      "summary": "Positionspapier 2026 und Impulspapier zur Bundestagswahl 2025 - Anregungen des PVD\r\n(betroffenes Recht, v. a. Einkommenssteuergesetz)\r\n1. Steuervereinfachungen bei Mitarbeiter-Benefits & Arbeitnehmereinkünften: Pauschalierungen und Vereinfachungen bei Sachbezügen weiter ausbauen.\r\n2. Steuerfreigrenze für Sachbezüge anpassen; Nutzung von Prepaid-Karten und Gutscheine als Sachbezug ausweiten; makroökonomische Entwicklungen berücksichtigen.\r\n3.  Verpflegungszuschüsse an heutige Arbeitswelt anpassen: kumulativer Einsatz mehrerer Essensgutscheine ermöglichen.\r\n4. Prepaid-Produkte bei staatlichen Leistungen einsetzen: digitale, einfache Ausgabe.\r\n5. Europäische Vorgaben praxisnah umsetzen.",
+      "recipients": [
+        "BMF",
+        "BMAS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000989",
+      "org_name": "Vereinigung der Bayerischen Wirtschaft e. V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000989/86210",
+      "regulatory_project_title": "Rasche Realisierung des Nordzulaufs zum Brennerbasistunnel",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b3/e8/846829/Stellungnahme-Gutachten-SG2609240008.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240008",
+      "summary": "Die Brennerstrecke ist eine Zentralachse des Güterverkehrs in Europa. Der EU-Binnenmarkt ist aber nur so gut wie der freie Fluss des Warenverkehrs. Ziel ist ein klimagerechter freier Warenverkehr, der die Bedürfnisse der Bevölkerung, der Wirtschaft und der Umwelt gleichermaßen achtet. Wir brauchen eine klare zeitliche Perspektive für Planung und Bau der Nordzulaufstrecke zum Brenner-Basistunnel. Es muss auch entsprechende Verlademöglichkeiten geben, inklusive des Baus neuer Terminals. Die Schnittstellen zwischen Schiene und Straße gilt es, zügig zu verbessern und eine Tank- und Ladeinfrastruktur für alternative Kraftstoffe aufzubauen.",
+      "recipients": [
+        "BMV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000612",
+      "org_name": "Verband der deutschen Lack- und Druckfarbenindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000612/86366",
+      "regulatory_project_title": "Erhalten von Konservierungsmitteln im Bewertungsprozess der Europäischen Biozidprodukteverordnung",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fe/46/847080/Stellungnahme-Gutachten-SG2609240027.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2609240027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240027",
+      "summary": "Im Rahmen des Genehmigungsverfahrens von Biozidwirkstoffen unter der BPB (Verordnung ( EU ) Nr. 528/2012 ), welche für die Herstellung von Farben und Lacken relevant sind, setzt sich der VdL für ein wissenschaftliches und risikobasiertes Vorgehen ein, bei dem auch die Auswirkungen auf die Lack- und Druckfarbenindustrie adäquat berücksichtigt werden.\r\n",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000292",
+      "org_name": "EVVC e.V. - Europäischer Verband der Veranstaltungs-Centren e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000292/83817",
+      "regulatory_project_title": "Berücksichtigung der Veranstaltungswirtschaft im TKG-Änderungsgesetz 2026",
+      "sending_date": "2026-09-10",
+      "upload_date": "2026-09-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/7c/846974/Stellungnahme-Gutachten-SG2609240023.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609240023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609240023",
+      "summary": "Einführung der PMSE-Dienste als bedeutender Sektor (§2 Abs. 8 neu) und Erhaltung der Bundesnetzagentur als koordinierende Stelle im Bereich der Funkfrequenzen (§91 Abs. 1 Satz 4).",
+      "recipients": [
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002747",
       "org_name": "Vereinigung der Fernleitungsnetzbetreiber Gas e.V. (FNB Gas e.V.)",
@@ -33,7 +546,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001667",
@@ -58,7 +571,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Sektorkopplung, welche unter die Zuständigkeit der Unterabteilung IIIA fallen, insbesondere im Kontext der EU-Zielarchitektur und der Dekarbonisierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -83,7 +596,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000335",
@@ -112,7 +625,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die geplante Änderung der EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, insbesondere die Vergütungsstrukturen und vertraglichen Regelungen für Flächeneigentümer, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000122",
@@ -145,6 +658,146 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der EU Public Procurement Act betrifft die Wettbewerbsfähigkeit und Rahmenbedingungen im EU-Binnenmarkt, was direkt die Zuständigkeit der Unterabteilung IIIA für EU-Energiepolitik und Wettbewerbsfähigkeit berührt.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000053",
+      "org_name": "Verband der Deutschen Biokraftstoffindustrie e.V (VDB)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000053/86305",
+      "regulatory_project_title": "Anpassung der Treibhausgasquote zur nationalen Umsetzung der Reform der EU-Erneuerbare-Energien-Richtlinie im Bereich Verkehr",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/e8/847101/Stellungnahme-Gutachten-SG2609230042.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609230042",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230042",
+      "summary": "Die vorliegende Initiative <b>fordert eine Ausweitung</b> des Geltungsbereichs der Treibhausgasquote gemäß BImSchG auf Kraftstoffe in der Luft- und Schifffahrt. Ziel ist die <b>nationale Umsetzung</b> der EU-Erneuerbare-Energien-Richtlinie zur Förderung nachhaltiger Energieträger. Zudem wird eine <b>Erhöhung der Treibhausgasquote</b> angestrebt, um die Dekarbonisierungsziele im Verkehrssektor ambitionierter zu verfolgen. Parallel dazu soll die <b>Unterquote für fortschrittliche Biokraftstoffe</b> angehoben werden, um den Einsatz innovativer Energieträger zu forcieren. Diese Maßnahmen dienen der <b>Stärkung der Sektorkopplung</b> und der Erreichung der europäischen Klimaziele durch eine konsequente <b>Anpassung der regulatorischen Rahmenbedingungen</b>.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Anpassung der Treibhausgasquote zur Umsetzung der EU-Erneuerbare-Energien-Richtlinie (RED) betrifft direkt die Sektorkopplung und die Dekarbonisierung des Verkehrssektors, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/EU-Energiepolitik) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000053",
+      "org_name": "Verband der Deutschen Biokraftstoffindustrie e.V (VDB)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000053/86305",
+      "regulatory_project_title": "Vorgaben zur Nachhaltigkeitszertifizierung von Biokraftstoffen",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d2/f3/847103/Stellungnahme-Gutachten-SG2609230040.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609230040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230040",
+      "summary": "Die vorliegende Initiative <b>fordert eine Verschärfung</b> der Vorgaben zur <b>Nachhaltigkeitszertifizierung</b> für fortschrittliche Biokraftstoffe. Ziel dieser regulatorischen Anpassung ist eine effektive <b>Betrugsprävention</b> innerhalb der Lieferketten. Durch strengere Kontrollmechanismen soll die Integrität der ökologischen Nachweise sichergestellt werden. Dies ist notwendig, um die Anrechnung von Biokraftstoffen auf die nationalen und europäischen Klimaziele verlässlich zu gestalten. Die Maßnahme adressiert bestehende Schwachstellen in den aktuellen Zertifizierungsverfahren. Damit soll ein Missbrauch der Förderinstrumente für erneuerbare Energien konsequent unterbunden werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Nachhaltigkeitskriterien für erneuerbare Energien, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/EU-Energiepolitik) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000053",
+      "org_name": "Verband der Deutschen Biokraftstoffindustrie e.V (VDB)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000053/86305",
+      "regulatory_project_title": "Vorgaben zur Nachhaltigkeitszertifizierung von Biokraftstoffen",
+      "sending_date": "2026-09-10",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/cb/847105/Stellungnahme-Gutachten-SG2609230041.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609230041",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230041",
+      "summary": "Die vorliegende Initiative <b>fordert strengere Vorgaben</b> bei der <b>Nachhaltigkeitszertifizierung</b> für fortschrittliche Biokraftstoffe. Ziel dieser regulatorischen Verschärfung ist eine effektive <b>Betrugsprävention</b> innerhalb der Lieferketten. Durch präzisere Kontrollmechanismen soll die Integrität der als nachhaltig deklarierten Kraftstoffe sichergestellt werden. Dies ist notwendig, um die Glaubwürdigkeit der <b>Erneuerbare-Energien-Richtlinie</b> zu wahren und den Missbrauch von Zertifikaten zu unterbinden. Die Maßnahme zielt darauf ab, die <b>Transparenz</b> bei der Anrechnung von Biokraftstoffen auf nationale und europäische Klimaziele zu erhöhen. Eine konsequente Umsetzung soll sicherstellen, dass nur tatsächlich nachhaltig produzierte Energieträger gefördert werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Nachhaltigkeitskriterien für erneuerbare Energien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/EU-Energiepolitik) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000053",
+      "org_name": "Verband der Deutschen Biokraftstoffindustrie e.V (VDB)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000053/86305",
+      "regulatory_project_title": "Vorgaben zur Nachhaltigkeitszertifizierung von Biokraftstoffen",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-09-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e6/33/847107/Stellungnahme-Gutachten-SG2609230044.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609230044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609230044",
+      "summary": "Die Bundesregierung <b>fordert strengere Vorgaben</b> bei der Nachhaltigkeitszertifizierung für fortschrittliche Biokraftstoffe. Ziel dieser regulatorischen Verschärfung ist eine effektive <b>Betrugsprävention</b> innerhalb der Lieferketten. Durch präzisere Zertifizierungsstandards soll die <b>Integrität der Nachhaltigkeitsnachweise</b> sichergestellt werden. Dies ist notwendig, um die <b>Anrechnung auf Klimaziele</b> im Verkehrssektor verlässlich zu gestalten. Die Maßnahme adressiert bestehende Schwachstellen bei der Überprüfung der Rohstoffherkunft. Damit soll die <b>Glaubwürdigkeit der Energiewende</b> im Bereich der Biokraftstoffe langfristig gestärkt werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMZ",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Nachhaltigkeitskriterien für erneuerbare Energien und Biokraftstoffe, welche direkt in den Bereich der Erneuerbaren Energien (national) sowie die EU-Klimapolitik und RED-Richtlinien fallen.",
       "gemini_status": "processed"
     },
     {
@@ -1364,6 +2017,30 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R005537",
+      "org_name": "Stadtwerke Düsseldorf AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005537/85177",
+      "regulatory_project_title": "Bündelung von Themen in einem Wärmenetzgesetz",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-09-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4c/0f/847426/Stellungnahme-Gutachten-SG2609180020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609180020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609180020",
+      "summary": "Die Bundesregierung plant, ein neues Wärmegesetz zu verabschieden und dort die Ergebnisse des im Frühjahrs 2026 durchgeführten Stakeholderprozesses zum Wärmenetzpaket einfließen zu lassen. Mehrere seit Jahren diskutierte Reformvorhaben im Bereich der Fernwärme sollten in einem Wärmenetzgesetz gebündelt und zeitnah umgesetzt werden. Beispielsweise die überarbeitete AVB Fernwärme oder eine neu gefasste Wärmelieferverordnung. Die aktuellen regulatorischen Rahmenbedingungen insbesondere das GModG schaffen für den Fernwärmeausbau zusätzliche Herausforderungen. Um die Ziele der kommunalen Wärmeplanung umzusetzen und erhebliche Investitionen in Wärmenetze anzureizen, sind verlässliche und investitionsfreundliche Rahmenbedingungen erforderlich.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -2851,6 +3528,30 @@
         }
       ],
       "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R004605",
+      "org_name": "Deutscher Fleischer-Verband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004605/85699",
+      "regulatory_project_title": "Praxisnahe Ausgestaltung des Tierhaltungskennzeichnungsgesetzes",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-09-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f2/70/846916/Stellungnahme-Gutachten-SG2609100004.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609100004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609100004",
+      "summary": "Der Regelungsentwurf sieht eine Anpassung und Erweiterung des Tierhaltungskennzeichnungsgesetzes vor. Der DFV fordert praxisrelevante Anpassungen im Hinblick auf die Kennzeichnung, insbesondere in der Theke, das Unterlassens der Ausweitung des Anwendungsbereichs auf die Außer-Haus-Verpflegung und die verarbeitete Ware und keinen weiteren Auffbau unverhältnismäßiger Bürokratie.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -6773,6 +7474,92 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R003336",
+      "org_name": "Deutsche Energie-Agentur GmbH (dena)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003336/83913",
+      "regulatory_project_title": "Forderung von Nachschärfungen im Rahmen des Gesetzgebungsverfahrens zum GModG (Gebäudemodernisierungsgesetz)",
+      "sending_date": "2026-04-02",
+      "upload_date": "2026-08-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3b/72/846816/Stellungnahme-Gutachten-SG2608190013.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608190013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608190013",
+      "summary": "Das Bündnis Gebäudewende fordert, dass das Gebäudemodernisierungsgesetz eine verlässliche, bezahlbare und klimafreundliche Wärmeversorgung gewährleistet. Dabei sollten nicht nur kurzfristige Investitionsentscheidungen berücksichtigt werden, sondern auch mittel- und langfristige Auswirkungen für den Wirtschaftsstandort Deutschland – insbesondere, ob Produktionskapazitäten, Wertschöpfung, Arbeitsplätze und Sozialabgaben im Inland entstehen oder finanzielle Mittel in den Import fossiler Energieträger fließen. \r\nDie Mitglieder des BGW appellieren an den Gesetzgeber, die Anpassungen des GModG im anstehenden Verfahren so auszugestalten, dass die Gebäudebranche weiterhin ein starker Wirtschaftsfaktor bleibt und gleichzeitig eine hohe gesellschaftliche Akzeptanz für die Wärmewende erreicht wird.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003336",
+      "org_name": "Deutsche Energie-Agentur GmbH (dena)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003336/83913",
+      "regulatory_project_title": "Forderung von Nachschärfungen im Rahmen des Gesetzgebungsverfahrens zum GModG (Gebäudemodernisierungsgesetz)",
+      "sending_date": "2026-06-10",
+      "upload_date": "2026-08-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ee/8c/846818/Stellungnahme-Gutachten-SG2608190014.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2608190014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608190014",
+      "summary": "Das Bündnis Gebäudewende fordert, dass das Gebäudemodernisierungsgesetz eine verlässliche, bezahlbare und klimafreundliche Wärmeversorgung gewährleistet. Dabei sollten nicht nur kurzfristige Investitionsentscheidungen berücksichtigt werden, sondern auch mittel- und langfristige Auswirkungen für den Wirtschaftsstandort Deutschland – insbesondere, ob Produktionskapazitäten, Wertschöpfung, Arbeitsplätze und Sozialabgaben im Inland entstehen oder finanzielle Mittel in den Import fossiler Energieträger fließen. \r\nDie Mitglieder des BGW appellieren an den Gesetzgeber, die Anpassungen des GModG im anstehenden Verfahren so auszugestalten, dass die Gebäudebranche weiterhin ein starker Wirtschaftsfaktor bleibt und gleichzeitig eine hohe gesellschaftliche Akzeptanz für die Wärmewende erreicht wird.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R001667",
       "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/84813",
@@ -6952,6 +7739,64 @@
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des Flächenentwicklungsplans (FEP) für Offshore-Windenergie betrifft direkt die Ausbauziele und die Infrastrukturplanung im Bereich Erneuerbare Energien, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001828",
+      "org_name": "thyssenkrupp Steel Europe AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001828/84800",
+      "regulatory_project_title": "Emissionshandel an die Realität im Jahr 2026 anpassen",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-08-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/db/5b/847232/Stellungnahme-Gutachten-SG2608170011.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2608170011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608170011",
+      "summary": "Die Industrie <b>fordert eine Anpassung des EU-ETS</b> an die tatsächliche Transformationsgeschwindigkeit, um Wettbewerbsnachteile und Investitionsstaus zu vermeiden. Ein <b>gebremster Anstieg der CO2-Kosten</b> wird als notwendig erachtet, um die industrielle Wertschöpfung in Europa zu sichern. Zudem wird die <b>Verlängerung der kostenlosen Zuteilung</b> über das Jahr 2040 hinaus verlangt, um <b>Carbon Leakage zu verhindern</b> und die Wirtschaftlichkeit bestehender Anlagen während der Übergangsphase zu gewährleisten. Die EU-Kommission wird aufgefordert, diese Aspekte in der anstehenden Reform zu berücksichtigen und <b>gesetzlich zu verankern</b>. Ziel ist eine <b>Synchronisation von Transformationsrealität und Industriepolitik</b>, um den Industriestandort langfristig zu stabilisieren.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, die Wettbewerbsfähigkeit der Industrie im EU-Binnenmarkt sowie die regulatorischen Rahmenbedingungen des EU-ETS, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001828",
+      "org_name": "thyssenkrupp Steel Europe AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001828/84800",
+      "regulatory_project_title": "Emissionshandel an die Realität im Jahr 2026 anpassen",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-08-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0c/65/847234/Stellungnahme-Gutachten-SG2608170012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2608170012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608170012",
+      "summary": "Die Industrie <b>fordert eine Anpassung des EU-ETS</b> an die tatsächliche Transformationsgeschwindigkeit, um Wettbewerbsnachteile und Investitionsstaus zu vermeiden. Ein <b>gebremster Anstieg der CO2-Kosten</b> wird als notwendig erachtet, um die industrielle Wertschöpfung in Europa zu sichern. Zudem wird die <b>Verlängerung der kostenlosen Zuteilung</b> über das Jahr 2040 hinaus verlangt, um <b>Carbon Leakage zu verhindern</b> und den wirtschaftlichen Betrieb bestehender Anlagen während der Übergangsphase zu gewährleisten. Die anstehende Reform der EU-Kommission soll diese industriepolitischen Aspekte zwingend berücksichtigen. Ziel ist es, die <b>Transformationsrealität mit dem Klimaschutz</b> in Einklang zu bringen, um den Industriestandort langfristig zu stabilisieren.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, die Wettbewerbsfähigkeit der Industrie im EU-Binnenmarkt sowie die regulatorischen Rahmenbedingungen des EU-ETS, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R006633",
@@ -14122,6 +14967,32 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R008243",
+      "org_name": "Reckitt Benckiser Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008243/81062",
+      "regulatory_project_title": "Sexualaufklärung junger Menschen verbessern",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c8/fe/846747/Stellungnahme-Gutachten-SG2607150036.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2607150036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150036",
+      "summary": "Angestrebt wird eine bundesweite Stärkung der sexuellen Aufklärung junger Menschen und der Prävention von STIs. Im Mittelpunkt steht die Frage, wie die Bundesebene die Länder und weitere zuständige Akteure dieses Thema unterstützen können. Dies kann insb. durch gesundheitspolitische Entscheidungen und Programme des Bundes erfolgen, etwa im Rahmen der Präventionsstrategie des BMG. Weitere Ansatzpunkte sind: Förderung von Informations- und Präventionsangeboten sowie eine bessere Vernetzung von Bund, Ländern, Fachorganisationen und Beratungsstellen. Ziel ist eine zeitgemäße, altersgerechte und evidenzbasierte Aufklärung, die die Gesundheitskompetenz junger Menschen stärkt und zur Prävention von STI, ungewollten Schwangerschaften, sexualisierter Gewalt und Desinformation beiträgt.",
+      "recipients": [
+        "BMBFSFJ",
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
       "gemini_status": "filtered"
     },
     {
@@ -78002,5 +78873,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 921
+  "gemini_filtered_out": 935
 }
