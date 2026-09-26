@@ -1,7 +1,504 @@
 {
-  "generated_at": "2026-09-25T08:03:01.715994+02:00",
-  "newly_added": 29,
+  "generated_at": "2026-09-26T08:00:59.583091+02:00",
+  "newly_added": 16,
   "statements": [
+    {
+      "register_number": "R008042",
+      "org_name": "metrify smart metering GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008042/86421",
+      "regulatory_project_title": "Beschleunigung des Smart-Meter-Rollouts durch Sicherung des Wettbewerbs, Digitalisierung des Messwesens und Prozessoptimierung ",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6a/6c/847637/Stellungnahme-Gutachten-SG2609250011.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609250011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250011",
+      "summary": "Die Initiative <b>fordert eine Beschleunigung des Smart-Meter-Rollouts</b>, um die notwendige digitale Infrastruktur für die Energiewende flächendeckend zu etablieren. Eine <b>effiziente Digitalisierung der Niederspannung</b> wird dabei als zentrale Voraussetzung für die erfolgreiche Transformation des Energiesystems identifiziert. Durch die <b>Optimierung von Mess- und Steuerungsprozessen</b> soll die Integration erneuerbarer Energien kostengünstiger gestaltet werden. Zudem wird die <b>Sicherung des Wettbewerbs</b> im Messwesen als wesentlicher Hebel für den Fortschritt hervorgehoben. Die Maßnahmen zielen darauf ab, die <b>technische Flexibilisierung des Stromnetzes</b> voranzutreiben und die netzseitigen Anforderungen der Sektorkopplung zu erfüllen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Energienetze und die notwendige Infrastruktur für die Integration erneuerbarer Energien, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Energiewende) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002202",
+      "org_name": "Power to X Allianz (PtX Allianz)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002202/86420",
+      "regulatory_project_title": "Anpassung der Rahmenbedingungen für Investitionen in PtX- und Wasserstoffprojekte",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a6/b2/847628/Stellungnahme-Gutachten-SG2609250010.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609250010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250010",
+      "summary": "Die Organisation <b>fordert eine verbesserte finanzielle Ausstattung</b> bestehender Förderinstrumente, um den <b>Hochlauf grüner PtX-Produkte</b> effektiv zu beschleunigen. Im Fokus stehen dabei insbesondere die Instrumente <b>H2Global</b> sowie die <b>European Hydrogen Bank</b> im Rahmen des 'Auction as a Service'-Modells. Ergänzend wird die <b>Entwicklung weiterer Maßnahmen</b> angeregt, um die Investitionssicherheit entlang der gesamten Wertschöpfungskette zu erhöhen. Ziel ist es, gezielte <b>Anreize für die Produktion</b>, den Transport sowie die industrielle Anwendung von Wasserstoff zu schaffen. Durch diese Anpassungen sollen die Finanzierungsperspektiven für großskalige Wasserstoffprojekte nachhaltig verbessert werden. Die Initiative adressiert damit zentrale Herausforderungen bei der Etablierung eines wettbewerbsfähigen Wasserstoffmarktes.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), den EU-Wasserstoffmarkt sowie die Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002020",
+      "org_name": "GermanZero e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002020/86440",
+      "regulatory_project_title": "Klimaschutz im Haushaltsgesetz 2027",
+      "sending_date": "2026-09-25",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/da/847816/Stellungnahme-Gutachten-SG2609250034.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609250034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250034",
+      "summary": "Der Entwurf <b>schlägt vor</b>, die <b>Haushaltsplanung 2027</b> grundlegend an klimapolitischen Zielen auszurichten. Durch <b>multiple Änderungen</b> soll der <b>Klimaschutz</b> bei der Verteilung staatlicher Mittel ein deutlich höheres Gewicht erhalten. Ziel ist es, die <b>Finanzierung der Transformation</b> durch eine gezielte Priorisierung im Staatshaushalt sicherzustellen. Die Maßnahmen zielen darauf ab, die <b>klimarelevante Steuerung</b> der öffentlichen Ausgaben zu stärken. Damit soll die notwendige finanzielle Basis für die Erreichung der nationalen Klimaziele geschaffen werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Inhalt betrifft die Finanzierung der Transformation und klimarelevante Steuern/Abgaben, welche unter das Themenfeld 'Klimaschutz & Energiewende' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Schaffung grüner Leitmärkte für emissionsarme Produkte",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/67/09/847830/Stellungnahme-Gutachten-SG2609250037.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2609250037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250037",
+      "summary": "Die Initiative <b>schlägt die Schaffung grüner Leitmärkte</b> vor, um die Markt-Etablierung emissionsarmer Produkte langfristig zu sichern. Als zentrales Instrument werden <b>schrittweise ansteigende verpflichtende Quoten</b> für umweltfreundlichere Erzeugnisse empfohlen. Durch diesen Mechanismus soll eine <b>technologische Transformation</b> in sämtlichen Industriebereichen eingeleitet werden. Die Einführung soll dabei sozial tragfähig gestaltet werden, um die Wettbewerbsfähigkeit zu erhalten. Der Ansatz zielt insbesondere auf Produkte ab, die auf Basis von <b>grünem Wasserstoff</b> hergestellt werden. Ergänzend wird auf das bestehende Regelungsvorhaben zum <b>Hochlauf der Wasserstoff-Marktwirtschaft</b> verwiesen. Damit soll eine verlässliche Nachfragebasis für klimaneutrale industrielle Produktionsverfahren geschaffen werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die industrielle Dekarbonisierung, den Einsatz von grünem Wasserstoff und die Transformation der Industrie, welche direkt in die Zuständigkeit der Unterabteilung IIIA (EU-Energiepolitik, Wasserstoffmarkt, Klimaschutz) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Änderung im EEG zur besseren Ermöglichung von Sektorenkopplung",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/b4/847832/Stellungnahme-Gutachten-SG2609250027.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609250027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250027",
+      "summary": "Die vorliegende Initiative <b>fordert eine Änderung des § 21b Abs. 2 EEG</b>, um die derzeitige <b>Blockade der Sektorenkopplung</b> aufzuheben. Die geltende starre prozentuale Aufteilung der Veräußerungsformen verhindert eine notwendige <b>Reaktion auf Anforderungen der Netzbetreiber</b>. Durch eine flexiblere Ausgestaltung soll die <b>Systemdienlichkeit</b> der Anlagen erhöht werden. Dies ist eine essenzielle Voraussetzung für den <b>Hochlauf der Wasserstoff-Marktwirtschaft</b>. Die Anpassung wird im Kontext der übergeordneten Maßnahmen zur grünen Wasserstoffstrategie als zwingend erachtet. Ziel ist es, regulatorische Hürden abzubauen, die eine effiziente Integration erneuerbarer Energien in andere Sektoren derzeit noch behindern.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die EEG-Regulierung und die Sektorenkopplung, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design & -Regulierung' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Stärkung der Offshore-Elektrolyse in der Nationalen Wasserstoffstrategie",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9c/48/847834/Stellungnahme-Gutachten-SG2609250030.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609250030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250030",
+      "summary": "Die Organisation <b>fordert</b> eine <b>Verdopplung der Ausschreibungen</b> für Offshore-Wind-Wasserstofferzeugung auf mindestens 2 GW, um den technologischen Vorsprung Deutschlands zu sichern. Zur Erreichung dieses Ziels sollen weitere Flächen in der deutschen ausschließlichen Wirtschaftszone verbindlich ausgewiesen werden. Zudem wird eine zügige Umsetzung der SEN-1-Ausschreibungen mit geringem zeitlichen Versatz angemahnt. Die Ausgestaltung der <b>Pönalen</b> soll verhältnismäßig erfolgen, um Investitionssicherheit zu gewährleisten. Parallel dazu ist die <b>Realisierung von Anbindungspipelines</b> als notwendige Infrastrukturmaßnahme sicherzustellen. Abschließend wird auf das übergeordnete Regelungsvorhaben zum <b>Hochlauf der grünen Wasserstoff-Marktwirtschaft</b> verwiesen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die nationale Wasserstoffstrategie sowie die Erneuerbare-Energien-Politik, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Stärkung der Offshore-Elektrolyse in der Nationalen Wasserstoffstrategie",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/28/2f/847836/Stellungnahme-Gutachten-SG2609250033.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609250033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250033",
+      "summary": "Die Organisation <b>fordert</b> eine <b>Verdopplung der Ausschreibungen</b> für Offshore-Wind-Wasserstofferzeugung auf mindestens 2 GW, um den technologischen Vorsprung Deutschlands zu sichern. Zur Umsetzung dieses Ziels sollen weitere Flächen in der deutschen ausschließlichen Wirtschaftszone verbindlich ausgewiesen werden. Die Ausschreibungen für SEN-1-Flächen sind zügig und mit minimalem zeitlichen Versatz voranzutreiben. Zudem wird eine <b>verhältnismäßige Ausgestaltung von Pönalen</b> sowie die konsequente <b>Realisierung von Anbindungspipelines</b> verlangt. Die Forderungen ergänzen das bestehende Regelungsvorhaben zum <b>Hochlauf der grünen Wasserstoff-Marktwirtschaft</b>. Damit soll die industrielle Basis für eine effiziente <b>Offshore-Elektrolyse</b> gestärkt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Strategie zur Stromerzeugung und Wasserstoffwirtschaft, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Privilegierung von Elektrolyseuren und Wasserstoffspeichern im baurechtlichen Außenbereich",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/20/847838/Stellungnahme-Gutachten-SG2609250032.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609250032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250032",
+      "summary": "Der vorliegende Vorschlag <b>fordert eine baurechtliche Privilegierung</b> für Elektrolyseure und Wasserstoffspeicher im Außenbereich, um den Hochlauf der Wasserstoffwirtschaft zu beschleunigen. Dabei soll die Privilegierung an eine Leistungskopplung von unter 50 % der installierten Erneuerbare-Energien-Anlagen gebunden sein. Für Anlagen ohne räumlichen Zusammenhang zu Erzeugungsanlagen wird eine <b>Privilegierung bis zu einer Gesamtleistung von 5 MW</b> angestrebt. Der Gesetzgeber wird aufgefordert, bestehende <b>Beschränkungen bei Anlagengröße und Flächenverbrauch</b> grundlegend zu überarbeiten. Die Initiative verweist zudem auf das übergeordnete Regelungsvorhaben zur <b>Beschleunigung der grünen Wasserstoff-Marktwirtschaft</b>. Ziel ist es, durch <b>planungsrechtliche Erleichterungen</b> den Ausbau der notwendigen Infrastruktur effizienter zu gestalten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für Wasserstoffinfrastruktur und Erneuerbare Energien, welche direkt in die Zuständigkeit der Unterabteilung IIIA (EU-Energiepolitik, Erneuerbare Energien, Wasserstoffmarkt) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Praxisnahe Anforderungen an den Stromnetzanschluss für Elektrolyseure ",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/76/a9/847840/Stellungnahme-Gutachten-SG2609250029.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609250029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250029",
+      "summary": "Der Deutsche Wasserstoff-Verband (DWV) <b>schlägt eine zeitlich gestufte Einführung</b> der Anforderungen an den Stromnetzanschluss für Elektrolyseure vor, um den Hochlauf der Wasserstoffproduktion nicht zu gefährden. Die Organisation warnt vor <b>technischen und wirtschaftlichen Unsicherheiten</b>, die durch aktuell überzogene Anforderungen für Unternehmen entstehen. Es wird ein <b>abgestimmter Hochlauffahrplan</b> zwischen allen beteiligten Akteuren gefordert, um Planungssicherheit zu gewährleisten. Ziel ist es, die <b>grüne Wasserstoffproduktion</b> in Deutschland effizient zu skalieren. Gleichzeitig soll sichergestellt werden, dass der Betrieb der Anlagen <b>keine unvertretbaren Risiken</b> für die Stabilität des Stromnetzes verursacht. Die vorgeschlagene Phasenlösung soll den Ausbau der Elektrolysekapazitäten beschleunigen und gleichzeitig die Netzverträglichkeit wahren.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft den Hochlauf der Wasserstoffwirtschaft, die Integration von Elektrolyseuren in das Stromnetz sowie die regulatorischen Rahmenbedingungen für den Netzanschluss, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien, Wasserstoff) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Einführung eines Absicherungsinstruments für Wasserstoff-Zwischenhändler ",
+      "sending_date": "2026-08-18",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/20/d9/847842/Stellungnahme-Gutachten-SG2609250036.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609250036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250036",
+      "summary": "Der vorliegende Vorschlag <b>fordert die Einführung eines Absicherungsinstruments</b> für Wasserstoff-Zwischenhändler, um die Marktintegration zu beschleunigen. Durch den Einsatz von <b>Garantieinstrumenten oder Differenzverträgen</b> sollen die finanziellen Risiken beim Handel mit Wasserstoff signifikant reduziert werden. Ziel ist es, die hohen <b>Risikoprämien für den Wasserstoffbezug</b> und -verkauf zu senken, die derzeit die wirtschaftliche Skalierung hemmen. Ein solches Instrument soll die <b>Investitionssicherheit für Akteure</b> in der frühen Marktphase erhöhen und die Liquidität im Wasserstoffhandel fördern. Die Maßnahme adressiert damit zentrale Hürden beim Aufbau einer <b>europäischen Wasserstoffinfrastruktur</b> und unterstützt die Dekarbonisierungsziele der Bundesregierung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren Wasserstoff sowie die Stromerzeugung und Kraftwerksstrategie, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Aufschiebung der EU-Kritieren an die grüne Wasserstoffherstellung",
+      "sending_date": "2026-07-21",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4c/8a/847844/Stellungnahme-Gutachten-SG2609250025.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609250025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250025",
+      "summary": "Die Bundesregierung <b>fordert</b> eine <b>Aufschiebung der EU-Kriterien</b> für die Herstellung von grünem Wasserstoff, um die regulatorische Belastung zu reduzieren. Konkret sollen die Anforderungen an die <b>Zusätzlichkeit</b> sowie die <b>temporale und geografische Korrelation</b> zeitlich gestreckt werden. Hierfür soll die Regierung aktiv <b>Partner unter den EU-Mitgliedstaaten</b> gewinnen, um eine gemeinsame Position zu etablieren. Nach einer erfolgreichen Anpassung auf europäischer Ebene ist eine zügige <b>Überführung in nationales Recht</b> vorgesehen. Ziel dieses Vorhabens ist die Schaffung von notwendiger <b>Planungssicherheit</b> für Investoren und Akteure im Wasserstoffmarkt. Durch die Verzögerung der strengen Vorgaben soll der Markthochlauf beschleunigt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit im Aufgabenbereich der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002003",
+      "org_name": "Deutscher Wasserstoff-Verband (DWV) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002003/85116",
+      "regulatory_project_title": "Aufschiebung der EU-Kritieren an die grüne Wasserstoffherstellung",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2b/20/847846/Stellungnahme-Gutachten-SG2609250031.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609250031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250031",
+      "summary": "Die Bundesregierung <b>fordert</b> eine <b>Aufschiebung der EU-Kriterien</b> für die Herstellung von grünem Wasserstoff, um die regulatorischen Anforderungen an Zusätzlichkeit sowie temporale und geografische Korrelation zu lockern. Ziel dieses Vorstoßes ist es, durch die Gewinnung europäischer Partner eine <b>schnelle Planungssicherheit</b> für Investoren zu schaffen. Die geplanten Erleichterungen sollen anschließend zügig in <b>nationales Recht</b> überführt werden. Durch die Verzögerung der strengen Vorgaben soll der <b>Hochlauf der Wasserstoffwirtschaft</b> beschleunigt werden. Die Initiative adressiert damit zentrale Hemmnisse bei der Umsetzung der europäischen Wasserstoffstrategie. Eine koordinierte Vorgehensweise auf EU-Ebene wird als essenziell für die Wettbewerbsfähigkeit der deutschen Industrie erachtet.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit zum Aufgabenbereich der Unterabteilung IIIA gehören.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001350",
+      "org_name": "Trianel GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001350/86417",
+      "regulatory_project_title": "EEG-Novelle Ausbau von Wind und PV erhalten",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8b/8e/847598/Stellungnahme-Gutachten-SG2609250008.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609250008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250008",
+      "summary": "Die vorliegende Initiative <b>fordert die Fortsetzung des Ausbaus</b> erneuerbarer Energien durch eine gezielte EEG-Novelle. Dabei soll insbesondere die <b>Stärkung marktlicher Instrumente</b> wie Power Purchase Agreements (PPA) im Vordergrund stehen, um die Investitionssicherheit zu erhöhen. Gleichzeitig wird ein <b>Verzicht auf bürokratische Hürden</b>, explizit im Hinblick auf einen Pachtendeckel, angemahnt. Ziel ist es, die Rahmenbedingungen für Windkraft und Photovoltaik effizienter zu gestalten. Durch den Abbau regulatorischer Hemmnisse soll die <b>Wettbewerbsfähigkeit der Erneuerbaren</b> gestärkt werden. Die Maßnahmen zielen darauf ab, die <b>Energiewende-Ziele</b> durch eine stärkere Marktintegration zu erreichen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Novellierung und den Ausbau erneuerbarer Energien, welche unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86450",
+      "regulatory_project_title": "Erhalt von Energieeinsparzielen für die BReg sowie Energieeffizienzregelungen für Unternehmen und den öffentlichen Sektor",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ee/b4/847921/Stellungnahme-Gutachten-SG2609250043.pdf",
+      "pdf_pages": 23,
+      "sg_number": "SG2609250043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250043",
+      "summary": "Die DENEFF <b>setzt sich für die Beibehaltung</b> bestehender Energieeinsparziele ein und <b>lehnt eine Absenkung</b> der Vorgaben für Wirtschaft und öffentliche Hand entschieden ab. Der Verband fordert die <b>vollständige Umsetzung EU-rechtlicher Vorgaben</b> unter strikter Anwendung des „Efficiency First“-Prinzips. Zur Erreichung der Ziele sollen gezielte Maßnahmen zur <b>Steigerung der Energieeffizienz</b> sowie eine verstärkte <b>Abwärmenutzung</b> implementiert werden. Zudem mahnt die Organisation die <b>Beseitigung regulativer Hindernisse</b> für Energiedienstleistungen an, um die Transformation in der Industrie und im öffentlichen Sektor zu beschleunigen. Die Positionierung zielt darauf ab, den regulatorischen Rahmen für Energieeffizienz trotz wirtschaftlicher Herausforderungen stabil zu halten.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Energieeffizienzrichtlinie und deren nationale Umsetzung, was direkt in den Bereich EU-Energiepolitik und Energieeffizienz der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86450",
+      "regulatory_project_title": "Erhalt von Energieeinsparzielen für die BReg sowie Energieeffizienzregelungen für Unternehmen und den öffentlichen Sektor",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/28/fe/847933/Stellungnahme-Gutachten-SG2609250044.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609250044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250044",
+      "summary": "Die DENEFF <b>setzt sich für die Beibehaltung</b> bestehender Energieeffizienzziele ein und <b>lehnt eine Absenkung</b> der Vorgaben für die Bundesregierung sowie die Wirtschaft ab. Der Verband fordert die <b>konsequente Umsetzung EU-rechtlicher Vorgaben</b>, insbesondere unter Anwendung des „Efficiency First“-Prinzips. Zur Erreichung der Ziele sollen gezielte Maßnahmen zur <b>Steigerung der Energieeffizienz</b> in der öffentlichen Hand und der Industrie implementiert werden. Ein besonderer Fokus liegt dabei auf der <b>Nutzung von Abwärme</b> als zentralem Hebel für die Transformation. Zudem verlangt die DENEFF die <b>Beseitigung regulatorischer Hindernisse</b>, um den Markt für Energiedienstleistungen zu stärken und Investitionen zu erleichtern. Die Forderungen zielen darauf ab, den Transformationsprozess durch klare gesetzliche Rahmenbedingungen zu beschleunigen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Energieeffizienzpolitik, die Umsetzung von EU-Vorgaben (Energieeffizienzrichtlinie) sowie die regulatorischen Rahmenbedingungen für Unternehmen und den öffentlichen Sektor, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86450",
+      "regulatory_project_title": "Erhalt von Energieeinsparzielen für die BReg sowie Energieeffizienzregelungen für Unternehmen und den öffentlichen Sektor",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-09-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e1/1f/847935/Stellungnahme-Gutachten-SG2609250045.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609250045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609250045",
+      "summary": "Die DENEFF <b>setzt sich für die Beibehaltung</b> bestehender Energieeffizienzziele ein und <b>lehnt eine Absenkung</b> der Vorgaben für die Bundesregierung sowie die Wirtschaft ab. Der Verband fordert die <b>konsequente Umsetzung EU-rechtlicher Vorgaben</b>, insbesondere unter Anwendung des „Efficiency First“-Prinzips. Zur Erreichung der Ziele sollen gezielte Maßnahmen zur <b>Steigerung der Energieeffizienz</b> in der öffentlichen Hand und der Industrie implementiert werden. Ein besonderer Fokus liegt dabei auf der <b>Nutzung von Abwärme</b> als zentralem Hebel für die Transformation. Zudem verlangt die DENEFF die <b>Beseitigung regulatorischer Hindernisse</b>, um den Markt für Energiedienstleistungen zu stärken und Investitionen zu erleichtern. Die Forderungen zielen darauf ab, den gesetzlichen Rahmen für Energieeffizienz zu stabilisieren und durch den Abbau von Barrieren die praktische Umsetzung zu beschleunigen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Energieeffizienzpolitik, die Umsetzung von EU-Vorgaben (Energieeffizienzrichtlinie) sowie die regulatorischen Rahmenbedingungen für Unternehmen und den öffentlichen Sektor, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R002309",
       "org_name": "E.ON SE",
@@ -29,7 +526,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Grund- und Ersatzversorgung gemäß EnWG, welche als zentrales Element der Versorgungssicherheit und Preisstabilität im Strommarkt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001243",
@@ -59,7 +556,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument betrifft die Wettbewerbsfähigkeit der deutschen Industrie im Kontext der EU-Handelspolitik und Energie-Transformation, was direkt mit den Themenfeldern EU-Energiepreise, Wettbewerbsfähigkeit im EU-Binnenmarkt und internationale Energiebeziehungen korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -84,7 +581,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -109,7 +606,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -134,7 +631,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder Klimaschutz & Energiewende sowie die Finanzierungsbedarfe der Transformation fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -159,7 +656,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -204,7 +701,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien sowie netztechnische Anforderungen, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -247,7 +744,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000415",
@@ -277,7 +774,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Sektorkopplung, Netzausbauplanung, Strompreisgestaltung und regulatorische Rahmenbedingungen für die Elektrifizierung, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003031",
@@ -690,7 +1187,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung der Treibhausgasquote zur Umsetzung der EU-Erneuerbare-Energien-Richtlinie (RED) betrifft direkt die Sektorkopplung und die Dekarbonisierung des Verkehrssektors, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/EU-Energiepolitik) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000053",
@@ -726,7 +1223,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Nachhaltigkeitskriterien für erneuerbare Energien, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/EU-Energiepolitik) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000053",
@@ -762,7 +1259,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Nachhaltigkeitskriterien für erneuerbare Energien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Erneuerbare Energien/EU-Energiepolitik) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000053",
@@ -798,7 +1295,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Nachhaltigkeitskriterien für erneuerbare Energien und Biokraftstoffe, welche direkt in den Bereich der Erneuerbaren Energien (national) sowie die EU-Klimapolitik und RED-Richtlinien fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002957",
@@ -7767,7 +8264,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, die Wettbewerbsfähigkeit der Industrie im EU-Binnenmarkt sowie die regulatorischen Rahmenbedingungen des EU-ETS, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001828",
@@ -7796,7 +8293,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, die Wettbewerbsfähigkeit der Industrie im EU-Binnenmarkt sowie die regulatorischen Rahmenbedingungen des EU-ETS, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006633",
