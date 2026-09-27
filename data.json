@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-09-26T08:00:59.583091+02:00",
-  "newly_added": 16,
+  "generated_at": "2026-09-27T08:28:30.143469+02:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R001348",
+      "org_name": "Shell Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001348/86455",
+      "regulatory_project_title": "Praxisnahe Umsetzung der EU-Methanverordnung 2024/1787",
+      "sending_date": "2026-07-14",
+      "upload_date": "2026-09-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bb/be/848106/Stellungnahme-Gutachten-SG2609260001.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609260001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609260001",
+      "summary": "Die Organisation <b>fordert eine praxisnahe Umsetzung</b> der EU-Methanverordnung 2024/1787, um die regulatorischen Anforderungen mit der operativen Realität in Einklang zu bringen. Insbesondere wird eine <b>zeitliche Abstimmung der MRV-Anforderungen</b> angemahnt, da die notwendigen Standards und akkreditierten Prüfstellen ab 2027 noch nicht flächendeckend verfügbar sein könnten. Ziel ist es, die <b>rechtssichere Erfüllung der Pflichten</b> für importiertes Rohöl und Erdgas sicherzustellen, ohne die Versorgungssicherheit zu gefährden. Dabei wird betont, dass eine bloße Aussetzung von Sanktionen nicht ausreicht, um die regulatorischen Herausforderungen zu bewältigen. Stattdessen wird eine <b>gezielte Anpassung der Verordnung</b> angestrebt, um <b>belastbare Nachweisverfahren</b> zu etablieren. Die Forderung zielt darauf ab, bürokratische Hürden bei der <b>Reduzierung von Methanemissionen</b> im Energiesektor effektiv zu minimieren.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EU-Methanverordnung betrifft die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit bei Erdgasimporten, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R008042",
       "org_name": "metrify smart metering GmbH",
@@ -38,7 +78,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Energienetze und die notwendige Infrastruktur für die Integration erneuerbarer Energien, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Energiewende) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002202",
@@ -87,7 +127,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), den EU-Wasserstoffmarkt sowie die Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002020",
@@ -112,7 +152,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Inhalt betrifft die Finanzierung der Transformation und klimarelevante Steuern/Abgaben, welche unter das Themenfeld 'Klimaschutz & Energiewende' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -138,7 +178,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die industrielle Dekarbonisierung, den Einsatz von grünem Wasserstoff und die Transformation der Industrie, welche direkt in die Zuständigkeit der Unterabteilung IIIA (EU-Energiepolitik, Wasserstoffmarkt, Klimaschutz) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -168,7 +208,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die EEG-Regulierung und die Sektorenkopplung, welche unter die Themenfelder 'Erneuerbare Energien (national)' sowie 'Strommarkt-Design & -Regulierung' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -197,7 +237,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die nationale Wasserstoffstrategie sowie die Erneuerbare-Energien-Politik, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -226,7 +266,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO) sowie die nationale Strategie zur Stromerzeugung und Wasserstoffwirtschaft, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -251,7 +291,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für Wasserstoffinfrastruktur und Erneuerbare Energien, welche direkt in die Zuständigkeit der Unterabteilung IIIA (EU-Energiepolitik, Erneuerbare Energien, Wasserstoffmarkt) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -285,7 +325,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft den Hochlauf der Wasserstoffwirtschaft, die Integration von Elektrolyseuren in das Stromnetz sowie die regulatorischen Rahmenbedingungen für den Netzanschluss, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien, Wasserstoff) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -314,7 +354,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Rahmenbedingungen für erneuerbaren Wasserstoff sowie die Stromerzeugung und Kraftwerksstrategie, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -339,7 +379,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit im Aufgabenbereich der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002003",
@@ -366,7 +406,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit zum Aufgabenbereich der Unterabteilung IIIA gehören.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001350",
@@ -391,7 +431,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Novellierung und den Ausbau erneuerbarer Energien, welche unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000255",
@@ -427,7 +467,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Energieeffizienzrichtlinie und deren nationale Umsetzung, was direkt in den Bereich EU-Energiepolitik und Energieeffizienz der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000255",
@@ -462,7 +502,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Energieeffizienzpolitik, die Umsetzung von EU-Vorgaben (Energieeffizienzrichtlinie) sowie die regulatorischen Rahmenbedingungen für Unternehmen und den öffentlichen Sektor, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000255",
@@ -497,7 +537,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Energieeffizienzpolitik, die Umsetzung von EU-Vorgaben (Energieeffizienzrichtlinie) sowie die regulatorischen Rahmenbedingungen für Unternehmen und den öffentlichen Sektor, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
