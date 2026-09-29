@@ -1,7 +1,1275 @@
 {
-  "generated_at": "2026-09-28T08:36:42.117994+02:00",
-  "newly_added": 1,
+  "generated_at": "2026-09-29T08:44:22.579126+02:00",
+  "newly_added": 46,
   "statements": [
+    {
+      "register_number": "R000008",
+      "org_name": "TÜV-Verband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000008/86553",
+      "regulatory_project_title": "Überarbeitung des New Legislative Framework - Anpassung an Digitalisierung und Kreislaufwirtschaft",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-09-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/60/a7/849410/Stellungnahme-Gutachten-SG2609290002.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609290002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609290002",
+      "summary": "Die Interessensvertretung <b>fordert eine zielgerichtete Weiterentwicklung</b> des New Legislative Framework (NLF) unter Beibehaltung des bewährten risikobasierten Ansatzes. Dabei soll der bestehende regulatorische Werkzeugkasten um <b>digitale Prozesse und neue Prüfmethoden</b> ergänzt werden, um den Anforderungen der modernen Industrie gerecht zu werden. Ein zentraler Bestandteil der Reformvorschläge ist die Integration von <b>Transparenzinstrumenten wie dem digitalen Produktpass</b>. Ziel ist es, die Schutzziele für Verbraucher und Anwender mit der <b>Wettbewerbsfähigkeit im EU-Binnenmarkt</b> in Einklang zu bringen. Die Anpassungen sollen insbesondere die <b>Digitalisierung und Kreislaufwirtschaft</b> stärker in den Fokus der Produktregulierung rücken. Durch diese Modernisierung soll das Vertrauen in harmonisierte Produkte gestärkt und gleichzeitig die regulatorische Effizienz gesteigert werden.",
+      "recipients": [
+        "BMAS",
+        "BMDS",
+        "BMG",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Überarbeitung des New Legislative Framework (NLF) betrifft den EU-Binnenmarkt und die regulatorischen Rahmenbedingungen für Produkte, was direkte Auswirkungen auf die Energieeffizienz-Anforderungen, die Kreislaufwirtschaft und die Digitalisierung von Energieanlagen und -komponenten hat.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007773",
+      "org_name": "metiundo GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007773/86529",
+      "regulatory_project_title": "Änderungen des Messstellenbetriebsgesetzes und Änderungen des Energiewirtschaftsrechtes",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/13/2b/849022/Stellungnahme-Gutachten-SG2609280066.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280066",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280066",
+      "summary": "Die Interessenvertretung <b>adressiert</b> die geplante <b>Energierechtsnovelle</b> mit Fokus auf das Messstellenbetriebsgesetz. Sie <b>betont die Bedeutung</b> spezifischer Regelungen für die <b>wirtschaftlichen Rahmenbedingungen</b> des wettbewerblichen Messstellenbetriebs. Dabei wird insbesondere auf die <b>praktische Umsetzung</b> und die <b>Beschleunigung des Rollouts</b> intelligenter Messsysteme verwiesen. Ziel ist es, praxisrelevante Aspekte frühzeitig in den Gesetzgebungsprozess einzubringen. Die Ausgestaltung der gesetzlichen Vorgaben soll sicherstellen, dass der Wettbewerb im Messwesen gestärkt und die Digitalisierung der Energiewende effizient vorangetrieben wird. Es wird eine Berücksichtigung der operativen Anforderungen gefordert, um Investitionssicherheit für die beteiligten Akteure zu gewährleisten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des Messstellenbetriebsgesetzes betrifft direkt die regulatorischen Rahmenbedingungen für intelligente Messsysteme (Smart Meter Rollout), welche als essenzielle Infrastruktur für das Strommarktdesign und die Digitalisierung der Energiewende unter die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007773",
+      "org_name": "metiundo GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007773/86529",
+      "regulatory_project_title": "Änderungen des Messstellenbetriebsgesetzes und Änderungen des Energiewirtschaftsrechtes",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/09/849024/Stellungnahme-Gutachten-SG2609280067.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609280067",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280067",
+      "summary": "Die Interessenvertretung <b>adressiert</b> die geplante <b>Energierechtsnovelle</b> und deren Auswirkungen auf den <b>wettbewerblichen Messstellenbetrieb</b>. Dabei steht die Ausgestaltung der gesetzlichen Rahmenbedingungen im Fokus, welche die <b>wirtschaftliche Umsetzbarkeit</b> des Rollouts intelligenter Messsysteme maßgeblich beeinflussen. Es wird gefordert, praxisrelevante Aspekte des Messstellenbetriebs stärker im Gesetzgebungsverfahren zu berücksichtigen, um die <b>Geschwindigkeit des Rollouts</b> zu optimieren. Die Stellungnahme zielt darauf ab, die operativen Herausforderungen für Marktteilnehmer bei der Implementierung der neuen Vorgaben zu adressieren. Ziel ist die Sicherstellung effizienter Rahmenbedingungen für die digitale Infrastruktur der Energiewende.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Novellierung des Messstellenbetriebsgesetzes betrifft direkt die regulatorischen Rahmenbedingungen für intelligente Messsysteme (Smart Meter Rollout), welche als essenzielle Infrastruktur für das Strommarktdesign und die Digitalisierung der Energiewende unter die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007773",
+      "org_name": "metiundo GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007773/86529",
+      "regulatory_project_title": "EEG-Novelle 2027",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/69/02/849026/Stellungnahme-Gutachten-SG2609280068.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280068",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280068",
+      "summary": "Die Interessensvertretung <b>praezisiert</b> ihre Position zur geplanten <b>EEG-Novelle 2027</b> im Hinblick auf den <b>Messstellenbetrieb</b>. Dabei werden spezifische Regelungsinhalte kritisch beleuchtet, die den operativen Betrieb von Anlagen zur Erzeugung erneuerbarer Energien betreffen. Ziel ist es, die Sichtweise der Branche in den laufenden Gesetzgebungsprozess einzubringen, um die <b>technische Integration</b> und regulatorische Konformität sicherzustellen. Die Stellungnahme zielt darauf ab, die <b>Rahmenbedingungen</b> für den Messstellenbetrieb so zu gestalten, dass sie die Ziele der Energiewende unterstützen. Es wird eine <b>praxisnahe Ausgestaltung</b> der gesetzlichen Vorgaben gefordert, um bürokratische Hürden für Anlagenbetreiber zu minimieren. Die Eingabe dient als Grundlage für die parlamentarische Beratung und die ministerielle Prüfung der geplanten Anpassungen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EEG-Novelle 2027 fällt direkt in das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA, da sie die regulatorischen Rahmenbedingungen für die Finanzierung und den Betrieb von EE-Anlagen sowie den Messstellenbetrieb adressiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006923",
+      "org_name": "PowerCo SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006923/86491",
+      "regulatory_project_title": "Output-orientierte Unterstützung für europäische Batteriezellfertigung",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/79/ac/848635/Stellungnahme-Gutachten-SG2609280016.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280016",
+      "summary": "PowerCo setzt sich für eine output-orientierte Förderung der europäischen Batteriezellfertigung ein, die sich über den europäischen Innovation Fund finanziert. Ferner soll die Förderung einen Platz im nächsten Mehrjährigen Finanzrahmen (MFF) der EU erhalten. Ziel der zeitlich begrenzten Förderung ist es, europäische Standortnachteile gegenüber Drittstaaten auszugleichen, resiliente Lieferketten im Mobilitätssektor zu stärken und einer wettbewerbsfähige Zellproduktion in Europa abzusichern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R002953",
+      "org_name": "Deutsche Kreditbank AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002953/86545",
+      "regulatory_project_title": "EEG 2027 und Netzanschlusspaket",
+      "sending_date": "2026-09-25",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d0/1c/849143/Stellungnahme-Gutachten-SG2609280080.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280080",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280080",
+      "summary": "Die Organisation <b>unterstützt</b> die geplante Weiterentwicklung des EEG 2027 sowie des Netzanschlusspakets zur <b>effizienteren Verzahnung</b> von Erneuerbaren-Ausbau und Stromnetzen. Ziel ist es, den Ausbau der erneuerbaren Energien <b>marktnäher und kosteneffizienter</b> zu gestalten. Dabei wird jedoch davor gewarnt, dass neue regulatorische Anforderungen die <b>Finanzierbarkeit von Wind- und Photovoltaikprojekten</b> gefährden könnten. Um die notwendigen privaten Investitionen zu sichern, seien über die gesamte Laufzeit hinweg <b>kalkulierbare Rahmenbedingungen</b> zwingend erforderlich. Die Stellungnahme betont die Notwendigkeit einer Balance zwischen regulatorischer Steuerung und Investitionssicherheit für die Energiewende.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, den Ausbau erneuerbarer Energien sowie die Verzahnung mit dem Stromnetz, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Aufnahme der von der BNetzA bestätigten Maßnahmen des NEP 2037/2045 (2023) in den Bundesbedarfsplan",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f4/da/848949/Stellungnahme-Gutachten-SG2609280064.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609280064",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280064",
+      "summary": "Das Vorhaben <b>überführt</b> die durch die Bundesnetzagentur bestätigten Maßnahmen des <b>Netzentwicklungsplans 2037/2045</b> in den <b>Bundesbedarfsplan</b>. Dabei werden sowohl Drehstrom- als auch Gleichstrom-Projekte als verbindliche Vorhaben in den Anhang des Bundesbedarfsplangesetzes aufgenommen. Die Planung berücksichtigt explizit die notwendigen <b>Netzverknüpfungspunkte</b> sowie die spezifische <b>Genehmigungshoheit</b> zwischen Bund und Ländern. Zudem erfolgt eine klare Kennzeichnung der Vorhaben, die eine <b>Teil-Erdverkabelung</b> vorsehen. Diese Maßnahme dient der rechtlichen Absicherung und Beschleunigung des notwendigen Netzausbaus für das zukünftige Stromsystem. Die Umsetzung stellt sicher, dass die infrastrukturellen Voraussetzungen für die Energiewende planungsrechtlich verankert sind.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Überführung von Maßnahmen aus dem Netzentwicklungsplan (NEP) in den Bundesbedarfsplan betrifft direkt die strategische Netzplanung und Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Investitionsfreundlicher Regulierungsrahmen für die Investitionen in das Strom-Übertragungsnetz",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/b1/848951/Stellungnahme-Gutachten-SG2609280050.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280050",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280050",
+      "summary": "Die Akteure <b>fordern einen investitionsfreundlichen Regulierungsrahmen</b>, um den notwendigen Um- und Ausbau der Strom-Übertragungsnetze im Zuge der Energiewende sicherzustellen. Zentral ist dabei die <b>Sicherung einer angemessenen Eigenkapitalverzinsung</b> innerhalb der bestehenden Anreizregulierung. Zur Entlastung der Netzentgelte wird die <b>Einführung eines Amortisationskontos</b> sowie ein möglicher <b>Bundeszuschuss zu den Übertragungsnetzentgelten</b> diskutiert. Zudem wird die Anpassung der Rahmenbedingungen für die <b>Offshore-Netzumlage nach § 17f EnWG</b> thematisiert. Ziel ist es, die Finanzierungssicherheit für die erforderlichen Infrastrukturprojekte langfristig zu gewährleisten.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, Investitionsanreize für Übertragungsnetze und die Finanzierung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Systemstabilität und Versorgungssicherheit ",
+      "sending_date": "2026-07-24",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/68/f8/848953/Stellungnahme-Gutachten-SG2609280036.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609280036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280036",
+      "summary": "Das Dokument <b>fordert die Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit und Systemstabilität. Im Zentrum steht dabei die Umsetzung der <b>Kraftwerksstrategie</b> sowie die Einführung eines <b>Kapazitätsmechanismus</b> in Deutschland. Ergänzend wird ein <b>systemdienliches Verhalten von Erneuerbare-Energien-Anlagen</b> angemahnt, um die Netzstabilität zu unterstützen. Ein weiterer Schwerpunkt liegt auf der strategischen <b>Verortung von Erzeugungskapazitäten</b>, um den Bedarf an Redispatch-Maßnahmen zu optimieren. Zudem werden Maßnahmen zur Bereitstellung nicht-frequenzgebundener Systemdienstleistungen sowie Strategien zur <b>Höherauslastung des Strom-Übertragungsnetzes</b> adressiert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Netzstabilität.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Systemstabilität und Versorgungssicherheit ",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b1/9a/848955/Stellungnahme-Gutachten-SG2609280037.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2609280037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280037",
+      "summary": "Das Dokument <b>fordert</b> die <b>Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit. Im Zentrum steht die Umsetzung der <b>Kraftwerksstrategie</b> sowie die Einführung eines <b>Kapazitätsmechanismus</b> in Deutschland. Dabei wird eine <b>systemdienliche Integration</b> von Erneuerbare-Energien-Anlagen angestrebt, um die Stabilität des Stromnetzes zu wahren. Ein weiterer Fokus liegt auf der strategischen <b>Verortung von Erzeugungskapazitäten</b>, um den Bedarf an Redispatch-Maßnahmen effizient zu decken. Zudem werden Maßnahmen zur Bereitstellung nicht-frequenzgebundener Systemdienstleistungen sowie zur <b>Höherauslastung des Übertragungsnetzes</b> als essenziell für die Systemstabilität identifiziert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Netzstabilität.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Systemstabilität und Versorgungssicherheit ",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bf/58/848957/Stellungnahme-Gutachten-SG2609280046.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280046",
+      "summary": "Das Dokument <b>fordert</b> die <b>Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit. Im Zentrum steht dabei die Umsetzung der <b>Kraftwerksstrategie</b> sowie die Einführung eines <b>Kapazitätsmechanismus</b> in Deutschland. Zudem wird ein <b>systemdienliches Verhalten</b> von Anlagen für Erneuerbare Energien angemahnt, um die Netzstabilität zu unterstützen. Ein weiterer Schwerpunkt liegt auf der strategischen <b>Verortung von Erzeugungskapazitäten</b>, um den Bedarf an Redispatch-Maßnahmen zu optimieren. Abschließend werden Maßnahmen zur Erbringung nicht-frequenzgebundener Systemdienstleistungen sowie Strategien zur <b>Höherauslastung des Strom-Übertragungsnetzes</b> adressiert.",
+      "recipients": [
+        "BMVg",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Integration neuer Verbraucher wie Batteriespeicher, Elektrolyseure, Industrie und Kleinstflexibilitäten ins Stromnetz",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/8d/848959/Stellungnahme-Gutachten-SG2609280062.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609280062",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280062",
+      "summary": "Das Papier <b>fordert die Schaffung gesetzlicher Rahmenbedingungen</b> zur effizienten Integration neuer Verbraucher und Flexibilitätsoptionen in das Stromnetz. Ziel ist die <b>systematische Einbindung von Batteriespeichern</b>, Elektrolyseuren sowie industriellen und privaten Kleinstflexibilitäten wie Wärmepumpen und Elektrofahrzeugen. Durch eine koordinierte Steuerung in Absprache mit Netzbetreibern soll das <b>Potenzial für das Engpassmanagement</b> voll ausgeschöpft werden. Dies dient der <b>Reduzierung von Redispatch-Kosten</b> in einem zunehmend auf fluktuierenden erneuerbaren Energien basierenden Stromsystem. Die Initiative zielt darauf ab, die <b>Gesamtkosten der Energiewende</b> durch eine optimierte Netzauslastung und Marktintegration langfristig zu minimieren. Damit wird die <b>Weiterentwicklung von Redispatch 2.0 zu 3.0</b> als notwendiger Schritt für ein klimaneutrales Stromsystem adressiert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Flexibilisierung, Netzoptimierung und das Redispatch-Management, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Ausreichende Haushaltsfinanzierung des EEG-Kontos, Optimierung der Wälzungs- und Abrechnungsprozesse",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a6/fc/848961/Stellungnahme-Gutachten-SG2609280052.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280052",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280052",
+      "summary": "Die vorliegende Initiative <b>fordert eine dauerhafte Sicherstellung der Haushaltsfinanzierung</b> für das EEG-Konto, um die Auszahlungsansprüche der Anlagenbetreiber verlässlich zu decken. Dabei soll die <b>Optimierung der Wälzungs- und Abrechnungsprozesse</b> für EEG, KWK-G und Offshore-Netzumlagen die administrativen Abläufe effizienter gestalten. Ein zentraler Punkt ist die <b>Anpassung der Marktprozesse</b> im Strommarkt, um eine präzisere Abwicklung zu gewährleisten. Zudem wird die <b>systematische Einbindung des jährlichen Bundeszuschusses</b> zu den Übertragungsnetzentgelten adressiert. Ziel ist eine transparente <b>Ausweisung der Entgeltzuschüsse</b> durch die Übertragungsnetzbetreiber. Insgesamt zielt das Vorhaben auf eine <b>Stabilisierung der Finanzierungsmechanismen</b> für die Energiewende ab.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, die Optimierung von Wälzungsprozessen sowie die Abwicklung von Zuschüssen zu den Übertragungsnetzentgelten, welche unter die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Ausreichende Haushaltsfinanzierung des EEG-Kontos, Optimierung der Wälzungs- und Abrechnungsprozesse",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/31/84/848963/Stellungnahme-Gutachten-SG2609280055.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609280055",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280055",
+      "summary": "Die vorliegende Initiative <b>fordert eine dauerhafte Sicherstellung</b> der Haushaltsfinanzierung für das EEG-Konto, um die Auszahlungsansprüche der Anlagenbetreiber verlässlich zu decken. Dabei soll die <b>Optimierung der Wälzungs- und Abrechnungsprozesse</b> für EEG, KWK-G und Offshore-Netzumlagen die administrativen Abläufe effizienter gestalten. Ein zentraler Punkt ist die <b>Anpassung der Abwicklungs- und Meldeprozesse</b> zwischen den Übertragungsnetzbetreibern und dem Bundeshaushalt. Zudem wird die <b>transparente Ausweisung des jährlichen Zuschusses</b> zu den Übertragungsnetzentgelten adressiert, der seit 2025 aus Bundesmitteln finanziert wird. Ziel ist eine <b>Stärkung der Prozessstabilität</b> im Strommarkt durch eine präzisere finanzielle Steuerung und verbesserte Marktprozesse.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, die Optimierung von Wälzungsprozessen sowie die Abwicklung von Zuschüssen zu den Übertragungsnetzentgelten, welche unter die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Hebung von Potenzialen zur Kosteneinsparung bei Netzausbau, -betrieb und damit verbundenen Themen",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e1/df/848965/Stellungnahme-Gutachten-SG2609280038.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2609280038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280038",
+      "summary": "Unterbreitung von Einsparvorschlägen zur Finanzierung und Bezahlbarkeit der vor dem Hintergrund der Energiewende notwendigen Transformation des Stromsystems. Hierzu zählen Maßnahmen im direkten Zusammenhang mit dem Netzausbau, aber auch der Netzbetrieb, Systemfragen und Fragen im Bereich des Sektorenkopplung. Ziel ist die Sicherstellung der Bezahlbarkeit und Machbarkeit der Energiewende. Dies schließt Maßnahmen zum Bürokratieabbau in den genannten Bereichen mit ein.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Hebung von Potenzialen zur Kosteneinsparung bei Netzausbau, -betrieb und damit verbundenen Themen",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fd/69/848967/Stellungnahme-Gutachten-SG2609280042.pdf",
+      "pdf_pages": 28,
+      "sg_number": "SG2609280042",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280042",
+      "summary": "Der Verfasser <b>unterbreitet Vorschläge</b> zur <b>Kosteneinsparung</b> bei der Transformation des Stromsystems, um die <b>Bezahlbarkeit der Energiewende</b> langfristig sicherzustellen. Im Fokus stehen dabei Effizienzsteigerungen beim <b>Netzausbau</b> sowie eine Optimierung des <b>Netzbetriebs</b>. Zudem werden systemische Fragen und Aspekte der Sektorenkopplung adressiert, um die technische Machbarkeit der Transformation zu gewährleisten. Ein wesentlicher Bestandteil der Initiative ist der gezielte <b>Bürokratieabbau</b> in den betroffenen regulatorischen Bereichen. Durch diese Maßnahmen soll die finanzielle Belastung der Energiewende reduziert und die Effizienz der notwendigen Infrastrukturprojekte gesteigert werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Themenfelder Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Hebung von Potenzialen zur Kosteneinsparung bei Netzausbau, -betrieb und damit verbundenen Themen",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/90/848969/Stellungnahme-Gutachten-SG2609280045.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609280045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280045",
+      "summary": "Der Verfasser <b>unterbreitet Einsparvorschläge</b> zur <b>Finanzierung der Energiewende</b>, um die Bezahlbarkeit und Machbarkeit der Transformation des Stromsystems sicherzustellen. Im Fokus stehen dabei Maßnahmen zur <b>Effizienzsteigerung beim Netzausbau</b> sowie im laufenden Netzbetrieb. Zudem werden systemrelevante Fragen und Aspekte der <b>Sektorenkopplung</b> adressiert, um die Gesamtkosten der Transformation zu optimieren. Ein wesentlicher Bestandteil der Vorschläge ist der gezielte <b>Bürokratieabbau</b> in den betroffenen Regulierungsbereichen. Ziel ist es, durch eine optimierte Kostenstruktur die langfristige Akzeptanz und Realisierbarkeit der energiepolitischen Ziele zu gewährleisten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Themenfelder Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Hebung von Potenzialen zur Kosteneinsparung bei Netzausbau, -betrieb und damit verbundenen Themen",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9c/58/848971/Stellungnahme-Gutachten-SG2609280053.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280053",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280053",
+      "summary": "Das Dokument <b>unterbreitet Vorschläge</b> zur <b>Kosteneinsparung</b> bei der Transformation des Stromsystems, um die <b>Bezahlbarkeit</b> und Machbarkeit der Energiewende sicherzustellen. Im Fokus stehen dabei Maßnahmen zur Effizienzsteigerung beim <b>Netzausbau</b> sowie im <b>Netzbetrieb</b>. Zudem werden systemrelevante Fragen und Aspekte der Sektorenkopplung adressiert, um die finanzielle Belastung durch den Umbau des Energiesystems zu begrenzen. Ein weiterer Schwerpunkt liegt auf dem <b>Bürokratieabbau</b> in den genannten Handlungsfeldern. Ziel ist die Optimierung der regulatorischen Rahmenbedingungen zur langfristigen Sicherung der Versorgung bei gleichzeitiger Kosteneffizienz.",
+      "recipients": [
+        "AA",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche Kernaufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Optimierung von Flächenzuschnitten, Netzinfrastruktur und Prozessen beim Ausbau von Offshore Wind in der AWZ",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c1/ab/848973/Stellungnahme-Gutachten-SG2609280054.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2609280054",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280054",
+      "summary": "Die Initiative <b>fordert eine Optimierung</b> der Rahmenbedingungen für den <b>Offshore-Windausbau</b> in der deutschen Ausschließlichen Wirtschaftszone. Durch eine Anpassung von Flächenzuschnitten, technischen Standards und Netzanschlussregeln sollen Effizienzpotenziale gehoben werden. Ein zentraler Fokus liegt auf der <b>Verdichtung der Bebauung</b> sowie der strategischen <b>Schnittstelle zum Wasserstoff</b>. Ziel ist es, die <b>Infrastrukturauslastung</b> zu maximieren und die sozioökonomischen Vorteile der Energiewende zu steigern. Gleichzeitig soll durch ein effizienteres Marktdesign die <b>finanzielle Belastung der Stromkunden</b> minimiert werden. Die Maßnahmen zielen darauf ab, die hohen Investitionssummen im Offshore-Bereich durch eine optimierte Prozesssteuerung nachhaltig abzusichern.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die Netzoptimierung sowie die EU-Rahmenbedingungen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Beschleunigung der Planungs- und Genehmigungsverfahren von Strom-Höchstspannungsleitungen",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a8/9f/848975/Stellungnahme-Gutachten-SG2609280031.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2609280031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280031",
+      "summary": "Das Dokument <b>fordert die Beschleunigung</b> der Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen, um die Energiewende effizient umzusetzen. Durch eine <b>Optimierung nationaler und europäischer Regelungen</b> im Energie- und Umweltbereich sollen sowohl Kosten gesenkt als auch die Umsetzungszeiten signifikant verkürzt werden. Dabei wird explizit dazu aufgerufen, <b>regulatorische Hemmnisse</b> auf beiden politischen Ebenen zu identifizieren und zu vermeiden. Die Maßnahme zielt darauf ab, die <b>Netzinfrastruktur</b> zügig auszubauen, um den Anforderungen eines klimaneutralen Stromsystems gerecht zu werden. Eine konsequente <b>Planungsbeschleunigung</b> wird als essenziell für die langfristige Versorgungssicherheit und Wettbewerbsfähigkeit eingestuft.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen ist ein zentrales Element der Netzregulierung und Versorgungssicherheit, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Beschleunigung der Planungs- und Genehmigungsverfahren von Strom-Höchstspannungsleitungen",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fc/f3/848977/Stellungnahme-Gutachten-SG2609280032.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2609280032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280032",
+      "summary": "Das Dokument <b>fordert die Beschleunigung</b> der Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen, um die Energiewende effizient umzusetzen. Durch eine <b>Optimierung nationaler und europäischer Regelungen</b> im Energie- und Umweltbereich sollen sowohl Kosten gesenkt als auch die Umsetzungszeiten signifikant verkürzt werden. Dabei wird explizit dazu aufgerufen, <b>hemmende regulatorische Vorgaben</b> auf beiden Ebenen zu identifizieren und zu vermeiden. Die Maßnahme zielt darauf ab, die notwendige <b>Netzinfrastruktur zügig bereitzustellen</b>, um den steigenden Anforderungen an das Stromsystem gerecht zu werden. Eine konsequente <b>Harmonisierung der Genehmigungsprozesse</b> wird als essenziell für den Erfolg der Transformation angesehen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen ist ein zentrales Element der Netzregulierung und Versorgungssicherheit, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Beschleunigung der Planungs- und Genehmigungsverfahren von Strom-Höchstspannungsleitungen",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/17/29/848979/Stellungnahme-Gutachten-SG2609280033.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609280033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280033",
+      "summary": "Die vorliegende Initiative <b>fordert die Beschleunigung</b> der Planungs- und Genehmigungsverfahren für <b>Strom-Höchstspannungsleitungen</b>, um die Energiewende effizienter umzusetzen. Durch eine Straffung der nationalen und europäischen Regelungen sollen sowohl <b>Kosteneinsparungen</b> als auch eine signifikante <b>Verkürzung der Umsetzungszeiten</b> erreicht werden. Dabei sollen gezielt Elemente identifiziert werden, die den Ausbau der Netzinfrastruktur im Energie- und Umweltbereich beschleunigen. Gleichzeitig wird davor gewarnt, neue regulatorische Hürden auf nationaler oder EU-Ebene zu schaffen, die den zügigen Netzausbau behindern könnten. Die Maßnahme zielt darauf ab, die <b>Planungssicherheit</b> zu erhöhen und die notwendige <b>Netzinfrastruktur</b> zeitnah bereitzustellen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen ist ein zentrales Element der Strommarktregulierung und der Umsetzung der Energiewende, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Beschleunigung der Planungs- und Genehmigungsverfahren von Strom-Höchstspannungsleitungen",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ca/50/848981/Stellungnahme-Gutachten-SG2609280057.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280057",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280057",
+      "summary": "Die Initiative <b>fordert die Beschleunigung</b> der Planungs- und Genehmigungsverfahren für <b>Strom-Höchstspannungsleitungen</b>, um die Energiewende effizient umzusetzen. Durch eine Straffung der Prozesse sollen sowohl <b>Kosteneinsparungen</b> realisiert als auch die <b>Umsetzungszeiten</b> signifikant verkürzt werden. Hierzu sollen gezielte Maßnahmen zur <b>Planungsbeschleunigung</b> sowohl auf nationaler als auch auf europäischer Ebene identifiziert und implementiert werden. Gleichzeitig wird dazu aufgerufen, regulatorische Hürden im Energie- und Umweltrecht zu vermeiden, die den zügigen Netzausbau behindern könnten. Die Optimierung der rechtlichen Rahmenbedingungen ist somit als essenziell für die Infrastrukturentwicklung einzustufen.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen ist ein zentrales Element der Strommarktregulierung und der Umsetzung der Energiewende, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/30/99/848983/Stellungnahme-Gutachten-SG2609280035.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2609280035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280035",
+      "summary": "Das Vorhaben <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um den gestiegenen Anforderungen durch eine Vielzahl neuer Anfragen gerecht zu werden. Die bisherige Regelung gemäß KraftNAV erweist sich für die aktuelle Dynamik, insbesondere bei <b>Großbatteriespeichern</b>, als nicht mehr praxistauglich. Durch eine <b>Klarstellung in der KraftNAV</b> soll die administrative Abwicklung effizienter gestaltet werden. Zudem ist die Implementierung eines <b>alternativen Netzanschlussverfahrens</b> vorgesehen, um eine zielgerichtete <b>Differenzierung und Priorisierung</b> von Projekten zu ermöglichen. Hierbei soll die <b>Projektreife</b> als entscheidendes Kriterium für die Bearbeitung der Anfragen durch die Übertragungsnetzbetreiber dienen. Ziel ist es, den Prozess für die Energiewende-Infrastruktur zu beschleunigen und Engpässe bei der Netzintegration zu vermeiden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Strommarktregulierung, Netzanschlussverfahren und die Integration von Erneuerbaren Energien/Speichern, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt, Netzregulierung) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/85212",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b8/b4/848985/Stellungnahme-Gutachten-SG2609280063.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609280063",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280063",
+      "summary": "Das Bundesministerium für Wirtschaft und Klimaschutz <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um die aktuelle Überlastung durch eine Vielzahl von Anfragen zu bewältigen. Die bisherige Regelung gemäß KraftNAV erweist sich für die gestiegene Anzahl an Projekten, insbesondere bei <b>Großbatteriespeichern</b>, als nicht mehr praxistauglich. Ziel ist die <b>Implementierung eines effizienteren Verfahrens</b>, das eine klare Differenzierung und <b>Priorisierung von Projekten nach deren Reifegrad</b> ermöglicht. Durch eine entsprechende Anpassung der KraftNAV soll die Bearbeitung der Netzanschlussanfragen bei den Übertragungsnetzbetreibern beschleunigt werden. Diese Maßnahme ist notwendig, um den <b>Anschluss neuer Kapazitäten</b> an das Übertragungsnetz zeitgerecht und strukturiert zu gewährleisten.",
+      "recipients": [
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzoptimierung und die Integration von Erneuerbaren Energien bzw. Speichern, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001339",
+      "org_name": "Deutsche Börse AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001339/85506",
+      "regulatory_project_title": "Vorschläge zum EU Market Integration and Supervision Package (MISP)",
+      "sending_date": "2026-09-15",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d4/2e/849079/Stellungnahme-Gutachten-SG2609280075.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609280075",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280075",
+      "summary": "Die Deutsche Börse Group <b>unterstützt</b> das Ziel des EU Market Integration and Supervision Package (MISP) zur <b>Stärkung der EU-Kapitalmärkte</b>. Der Vorschlag wird begrüßt, da er darauf abzielt, <b>grenzüberschreitende Investitionen</b> zu vereinfachen und die Effizienz von Nachhandelsprozessen zu steigern. Die Organisation empfiehlt gezielte Anpassungen, um das <b>Wachstumspotenzial</b> eines integrierten Marktes vollständig freizusetzen. Dabei sollen spezifische Schwächen in den aktuellen Gesetzgebungsvorschlägen adressiert werden. Ein zentrales Anliegen ist die <b>Überwindung der Fragmentierung</b> der europäischen Finanzmärkte. Durch diese Maßnahmen soll die Innovationskraft innerhalb der EU nachhaltig beschleunigt werden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Binnenmarktregulierung und die Wettbewerbsfähigkeit, welche direkt mit den Zuständigkeiten der Unterabteilung IIIA (EU-Energiepolitik, Strommarktdesign und Wettbewerbsfähigkeit) korrespondieren.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Anhebung der Höchstgehalte von Ochratoxin A für getrocknete Feigen bzw. Überarbeitung der Bewertungsmethodik ",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a7/f4/848823/Stellungnahme-Gutachten-SG2609280044.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280044",
+      "summary": "Anhebung der Höchstgehalte von Ochratoxin A für getrocknete Feigen in Verordnung (EU) 915/2023 bzw. Überarbeitung der Bewertungsmethodik von Ochratoxin A in Durchführungsverordnung (EU) 2023/2782\r\n",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/86474",
+      "regulatory_project_title": "Ausschreibungsedesign Windenergie Offshore",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ff/df/848536/Stellungnahme-Gutachten-SG2609280002.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2609280002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280002",
+      "summary": "Das Papier <b>schlägt</b> eine <b>effiziente Ausgestaltung</b> des Ausschreibungsdesigns für Windenergie auf See vor. Ziel ist es, die <b>Realisierungswahrscheinlichkeit</b> von Offshore-Windparks durch gezielte Anpassungen maßgeblich zu erhöhen. Dabei sollen insbesondere <b>Investitionsrisiken reduziert</b> werden, um den Ausbau der erneuerbaren Energien zu beschleunigen. Die vorgeschlagenen Maßnahmen zielen darauf ab, den Prozess für Projektentwickler planbarer und wirtschaftlich attraktiver zu gestalten. Durch ein optimiertes Design soll sichergestellt werden, dass die gesetzten Ausbauziele für die Offshore-Windkraft verlässlich erreicht werden. Die Empfehlungen richten sich an das Bundesministerium für Wirtschaft und Klimaschutz sowie den Bundestag zur weiteren regulatorischen Umsetzung.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen sowie die nationale Umsetzung der Erneuerbaren Energien und die Stromerzeugung, welche Kernbereiche der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000070",
+      "org_name": "aireg - Aviation Initiative for Renewable Energy in Germany e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000070/86534",
+      "regulatory_project_title": "EU ETS im Luftverkehr",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/99/a3/849057/Stellungnahme-Gutachten-SG2609280073.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280073",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280073",
+      "summary": "Die Organisation aireg <b>fordert eine gezielte Überarbeitung</b> des EU-Emissionshandels für den Luftverkehr, um die Rahmenbedingungen für eine klimaneutrale Luftfahrt zu optimieren. Dabei soll der Fokus auf der <b>Anpassung an Marktrealitäten</b> und wissenschaftliche Erkenntnisse liegen. Ein zentraler Punkt ist die Forderung nach einem <b>Earmarking der ETS-Einnahmen</b>, um die Preisdifferenz zwischen fossilem Kerosin und nachhaltigen Flugkraftstoffen (SAF) zu reduzieren. Durch diese finanzielle Unterstützung sollen <b>langfristige Abnahmeverträge</b> ermöglicht werden. Ziel ist es, den <b>Aufbau von Produktionskapazitäten</b> für SAF maßgeblich zu beschleunigen. Damit soll die <b>klimapolitische Transformation</b> des Sektors effektiv vorangetrieben werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS) und die Dekarbonisierung, welche unter die Zuständigkeit der Unterabteilung IIIA (EU-Klimapolitik/Fit for 55) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002050",
+      "org_name": "Lebensmittelverband Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002050/86533",
+      "regulatory_project_title": "Ablehnung eines möglichen Verbots der Bekämpfung von Schadnagern mit Antikoagulanzien ",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fd/d1/849117/Stellungnahme-Gutachten-SG2609280069.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609280069",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280069",
+      "summary": "Verhinderung des möglichen Verbots der Bekämpfung und der befallsunabhängigen Dauerbeköderung von Schadnagern mit Antikoagulanzien zur dauerhaften Gewährleistung der Lebensmittelsicherheit in Betrieben. ",
+      "recipients": [
+        "BMLEH",
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002050",
+      "org_name": "Lebensmittelverband Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002050/86533",
+      "regulatory_project_title": "Änderung von Höchstgehalten von Pyrrolizidinalkaloiden",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f0/e7/849121/Stellungnahme-Gutachten-SG2609280074.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609280074",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280074",
+      "summary": "Mit dem Vorschlag der Kommission sollen bestimmte Höchstgehalte von Pyrrolizidinalkaloiden geändert werden. Von der Lebensmittelwirtschaft wird angestrebt, bestimmte Höchstgehalte heraufzusetzen. ",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002050",
+      "org_name": "Lebensmittelverband Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002050/86533",
+      "regulatory_project_title": "Änderung von Höchstgehalten von Pyrrolizidinalkaloiden",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/76/4f/849123/Stellungnahme-Gutachten-SG2609280076.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609280076",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280076",
+      "summary": "Mit dem Vorschlag der Kommission sollen bestimmte Höchstgehalte von Pyrrolizidinalkaloiden geändert werden. Von der Lebensmittelwirtschaft wird angestrebt, bestimmte Höchstgehalte heraufzusetzen. ",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002050",
+      "org_name": "Lebensmittelverband Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002050/86533",
+      "regulatory_project_title": "EFSA Scientific Opinion on safety of fennel",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/df/849125/Stellungnahme-Gutachten-SG2609280078.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280078",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280078",
+      "summary": "Entwurf der EFSA Scientific Opinion on safety of fennel wird in Folge der ersten Konsultation substantiell überarbeitet; eine 2. Stakeholderkonsultation vor finaler Veröffentlichung wird gefordert.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001811",
+      "org_name": "GIH Bundesverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001811/86468",
+      "regulatory_project_title": "Förderungen für Energieberatung und energetische Sanierung - EBW-Finanzierung sichern",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cb/b2/848629/Stellungnahme-Gutachten-SG2609280015.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280015",
+      "summary": "Aktuelle Diskussionen um die Kürzung der Förderung der 'Energieberatung für Wohngebäude' (EBW) sorgen für Verunsicherung in der Energiebranche. Der GIH fordert die Sicherstellung einer verlässlichen Finanzierung des Programms sowie keine weiteren Kürzungen. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Erhaltung bestehender Höchstgehalte Schwefeldioxid/Sulfite Obst, Gemüse, Trocken- und Meeresfrüchte",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1e/79/848813/Stellungnahme-Gutachten-SG2609280028.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2609280028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280028",
+      "summary": "Bestehende Höchstgehalte bei Trockenfrüchten, Obst- und Gemüsekonserven, Garnelen sowie weiteren Produkten erhalten, die von den Waren-Vereins-Mitgliedern gehandelt werden (Verordnung (EG) Nr. 1333/2008).",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Anschreiben und Positionspapier zur Importabfertigung kontrollpflichtiger Waren",
+      "sending_date": "2026-09-20",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/58/c6/848815/Stellungnahme-Gutachten-SG2609280030.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280030",
+      "summary": "Anschreiben mit beigefügtem Positionspapier an Kommissar Várhelyi mit Vorschlägen zur Verbesserung der europäischen Importabfertigung kontrollpflichtiger Waren. Die Beiträge basieren auf praktischen Erfahrungen aus der Importabwicklung im Hamburger Hafen und betreffen insbesondere die Weiterentwicklung des digitalen Kontrollsystems TRACES NT sowie risikobasierte Vereinfachungen veterinärrechtlicher Importkontrollen für nachweislich zuverlässige Wirtschaftsbeteiligte, unter Wahrung des bestehenden Schutzniveaus der Lebensmittelsicherheit.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Überprüfung der Einstufung des Zollkontingents 09.9005 als kritisch",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8d/27/848817/Stellungnahme-Gutachten-SG2609280040.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280040",
+      "summary": "Bitte um Überprüfung der Einstufung als „kritisch“ des Zollkontingents 09.9005 für Nüsse aus den USA gemäß Verordnung (EU) 2026/1455 ",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Überprüfung der Einstufung des Zollkontingents 09.9005 als kritisch",
+      "sending_date": "2026-09-25",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/42/fc/848819/Stellungnahme-Gutachten-SG2609280041.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2609280041",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280041",
+      "summary": "Bitte um Überprüfung der Einstufung als „kritisch“ des Zollkontingents 09.9005 für Nüsse aus den USA gemäß Verordnung (EU) 2026/1455 ",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Einrichtung einer zentralen Anlaufstelle für Importfragen und Schaffung praktikabler Lösungen für alternative Kontrollorte",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/73/2e/848821/Stellungnahme-Gutachten-SG2609280043.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280043",
+      "summary": "Einrichtung einer zentralen Anlaufstelle für Importfragen und Schaffung praktikabler Lösungen für alternative Kontrollorte, in denen amtliche Kontrollen für pflanzliche Lebensmittel durchgeführt werden können.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000749",
+      "org_name": "Waren-Verein der Hamburger Börse e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000749/86495",
+      "regulatory_project_title": "Beibehaltung oder Absenkung Kontrollfrequenz von Ochratoxin A für getrocknete Feigen bei Import in die EU",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fa/0f/848825/Stellungnahme-Gutachten-SG2609280048.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609280048",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280048",
+      "summary": "Beibehaltung oder Absenkung Kontrollfrequenz von Ochratoxin A für getrocknete Feigen bei Import in die EU in Revision 15 der Durchführungsverordnung (EU) 1793/2019\r\n",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000613",
+      "org_name": "Deutsches Aktieninstitut e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000613/86223",
+      "regulatory_project_title": "Vorschläge zur Gestaltung der Kapitalmarktunion/Savings and Investment Union (SIU)",
+      "sending_date": "2026-09-25",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bd/0b/849044/Stellungnahme-Gutachten-SG2609280070.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2609280070",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280070",
+      "summary": "Das Deutsche Aktieninstitut sieht unter anderem in folgenden Punkten wichtige Elemente eines kohärenten Gesamtkonzepts für die Gestaltung der Kapitalmarktunion/Savings and Investment Union: stärkere Nutzung von Kapitalmarktanlagen in Rente und bei Vermögensbildung, Entlastung der Anlageberatung von bürokratischen Vorgaben, bessere Nutzung vorhandener Kapitalpools durch eine Reform der Streuungsregeln von Investmentfonds und eine bessere Bündelung der Liquidität in einzelnen Aktien, Vereinfachung von Berichtspflichten und Erleichterung von Kapitalaufnahmen von Unternehmen, eine praxisgerechte Wertpapieraufsicht mit einheitlichem Aufsichtsansatz und ein gutes Zusammenspiel zwischen Kapitalmarktfinanzierung und Bankenfinanzierung.",
+      "recipients": [
+        "AA",
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000613",
+      "org_name": "Deutsches Aktieninstitut e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000613/86223",
+      "regulatory_project_title": "Vorschläge zur Gestaltung der Kapitalmarktunion/Savings and Investment Union (SIU)",
+      "sending_date": "2026-09-25",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ee/01/849046/Stellungnahme-Gutachten-SG2609280071.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2609280071",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280071",
+      "summary": "Das Deutsche Aktieninstitut sieht unter anderem in folgenden Punkten wichtige Elemente eines kohärenten Gesamtkonzepts für die Gestaltung der Kapitalmarktunion/Savings and Investment Union: stärkere Nutzung von Kapitalmarktanlagen in Rente und bei Vermögensbildung, Entlastung der Anlageberatung von bürokratischen Vorgaben, bessere Nutzung vorhandener Kapitalpools durch eine Reform der Streuungsregeln von Investmentfonds und eine bessere Bündelung der Liquidität in einzelnen Aktien, Vereinfachung von Berichtspflichten und Erleichterung von Kapitalaufnahmen von Unternehmen, eine praxisgerechte Wertpapieraufsicht mit einheitlichem Aufsichtsansatz und ein gutes Zusammenspiel zwischen Kapitalmarktfinanzierung und Bankenfinanzierung.",
+      "recipients": [
+        "AA",
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001354",
       "org_name": "Deutsche Shell Holding GmbH",
@@ -40,7 +1308,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EU-Methanverordnung betrifft direkt die EU-Energiegesetzgebung, die Dekarbonisierung der Energieerzeugung sowie die Versorgungssicherheit und Wettbewerbsfähigkeit im EU-Binnenmarkt, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001348",
@@ -2224,6 +3492,36 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R000534",
+      "org_name": "Bundesverband der Deutschen Industrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000534/85888",
+      "regulatory_project_title": "EEG 2027: Marktintegration erneuerbarer Energien stärken und kosteneffizienten EE-Ausbau sicherstellen",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-09-21",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/48/8f/848503/Stellungnahme-Gutachten-SG2609210035.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2609210035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609210035",
+      "summary": "Der BDI <b>unterstützt</b> die <b>stärkere Marktintegration</b> erneuerbarer Energien und fordert gleichzeitig einen ambitionierten Ausbaupfad. Die Organisation setzt sich für ein <b>bezahlbares Stromsystem</b> ein, das durch <b>wettbewerbliche Fördermechanismen</b> erreicht werden soll. Dabei betont der BDI die Notwendigkeit, die <b>industrielle Eigenversorgung</b> stärker zu berücksichtigen. Zudem mahnt der Verband <b>praxistaugliche Rahmenbedingungen</b> an, um die Transformation effizient zu gestalten. Ein weiterer Schwerpunkt liegt auf der Forderung nach einem <b>bürokratiearmen Vollzug</b> der gesetzlichen Vorgaben. Ziel ist es, die Kosteneffizienz beim Ausbau der erneuerbaren Energien nachhaltig sicherzustellen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, die Marktintegration erneuerbarer Energien sowie die industrielle Eigenversorgung, welche zentrale Bestandteile der Zuständigkeit der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R003753",
       "org_name": "ClientEarth gGmbH",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003753/86091",
@@ -2901,6 +4199,35 @@
       "gemini_relevanz": "Das Thema Kapazitätsmarkt fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder 'Versorgungssicherheit Strom' sowie 'Strommarktdesign & -regulierung'."
     },
     {
+      "register_number": "R000534",
+      "org_name": "Bundesverband der Deutschen Industrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000534/85888",
+      "regulatory_project_title": "StromVKG - Verhinderung einer Kapazitätsumlage für die Industrie",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a3/42/848483/Stellungnahme-Gutachten-SG2609160014.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2609160014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160014",
+      "summary": "Der BDI <b>fordert</b> eine <b>kosteneffiziente Ausgestaltung</b> des StromVKG, um die notwendigen steuerbaren Kapazitäten für das Jahr 2031 zu sichern. Die Organisation <b>warnt vor einer Kapazitätsumlage</b>, die die Industrie finanziell belasten würde, und setzt sich für deren <b>Vermeidung</b> ein. Ziel ist ein <b>einfaches Ausschreibungsdesign</b>, das den verlässlichen Zubau von Kraftwerkskapazitäten gewährleistet. Dabei wird betont, dass die Wettbewerbsfähigkeit der Industrie durch zusätzliche Abgaben nicht gefährdet werden darf. Die Ausgestaltung der Ausschreibungen soll somit sowohl die Versorgungssicherheit als auch die wirtschaftliche Tragfähigkeit für Unternehmen in Einklang bringen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das StromVKG (Stromverstromungskapazitätsgesetz) und die damit verbundene Kraftwerksstrategie fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter den Punkt 'Stromerzeugung & Kraftwerke'.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R002429",
       "org_name": "Bundesarchitektenkammer e. V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/85909",
@@ -2968,6 +4295,31 @@
         {
           "code": "FOI_OTHER",
           "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000534",
+      "org_name": "Bundesverband der Deutschen Industrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000534/85888",
+      "regulatory_project_title": "Kraftstoffmaßnahmenpaket (GWB) - keine Änderung §32",
+      "sending_date": "2026-03-24",
+      "upload_date": "2026-09-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/be/848485/Stellungnahme-Gutachten-SG2609160016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609160016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609160016",
+      "summary": "Der BDI fordert, dass keine Änderungen am § 32 f GWB vorgenommen werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
         }
       ],
       "priority": 3,
@@ -52004,6 +53356,31 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R004954",
+      "org_name": "LichtBlick SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004954/73579",
+      "regulatory_project_title": "Wettbewerblicher Messstellenbetrieb",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-05-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/14/fb/848462/Stellungnahme-Gutachten-SG2605040019.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2605040019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2605040019",
+      "summary": "Das Dokument <b>unterstreicht die zentrale Marktrolle</b> des wettbewerblichen Messstellenbetreibers für die Transformation des Energiesystems. Es wird eine gezielte <b>Stärkung des Wettbewerbs</b> gefordert, um die Marktstrukturen effizienter zu gestalten. Durch diesen Ansatz sollen bisher <b>brachliegende Effizienzpotentiale</b> im Messstellenbetrieb konsequent gehoben werden. Ein wesentliches Ziel der Maßnahmen ist die signifikante <b>Beschleunigung des Smart Meter Rollouts</b> in Deutschland. Damit soll die notwendige digitale Infrastruktur für ein intelligentes Stromnetz schneller bereitgestellt werden. Die Initiative zielt darauf ab, die Rahmenbedingungen für Messdienstleistungen im Sinne einer modernen Energiewende zu optimieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der wettbewerbliche Messstellenbetrieb ist ein zentraler Bestandteil der Digitalisierung der Energiewende und der Strommarktregulierung, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktdesign & -regulierung) fällt.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R003266",
       "org_name": "Zentralverband des Deutschen Bäckerhandwerks e.V.",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003266/75521",
@@ -79450,5 +80827,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 935
+  "gemini_filtered_out": 949
 }
