@@ -1,7 +1,819 @@
 {
-  "generated_at": "2026-10-02T08:54:02.459091+02:00",
-  "newly_added": 37,
+  "generated_at": "2026-10-03T08:18:22.669794+02:00",
+  "newly_added": 32,
   "statements": [
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/85817",
+      "regulatory_project_title": "CO2 Flottengrenzwerte Lkw",
+      "sending_date": "2026-09-28",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/26/856018/Stellungnahme-Gutachten-SG2610020059.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610020059",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020059",
+      "summary": "Die Bundesregierung <b>setzt sich für die Beibehaltung</b> der bestehenden <b>CO2-Flottengrenzwerte für Lkw</b> auf EU-Ebene ein. Damit unterstreicht sie ihr <b>Bekenntnis zu den europäischen Klimazielen</b> im Rahmen des Fit-for-55-Pakets. Die Maßnahme zielt darauf ab, die <b>Dekarbonisierung des Schwerlastverkehrs</b> konsequent voranzutreiben und Planungssicherheit für die Industrie zu schaffen. Durch die Beibehaltung der Grenzwerte soll der <b>Markthochlauf emissionsfreier Nutzfahrzeuge</b> beschleunigt werden. Dies ist ein wesentlicher Baustein, um die <b>Klimaschutzvorgaben im Verkehrssektor</b> langfristig zu erreichen. Eine Aufweichung der Standards wird somit aktiv abgelehnt, um die <b>Transformationspfade der Sektorkopplung</b> nicht zu gefährden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Dekarbonisierung des Verkehrssektors, welche als Teil der Sektorkopplung und der EU-Klimaziele (Fit for 55) in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Versorgungssicherheit und Systemstabilität",
+      "sending_date": "2026-09-07",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ab/24/855886/Stellungnahme-Gutachten-SG2610020012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610020012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020012",
+      "summary": "Die vorliegende Initiative <b>fordert</b> die <b>Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit und Systemstabilität. Im Kontext der laufenden <b>Kraftwerksstrategie</b> wird die Notwendigkeit betont, einen geeigneten <b>Kapazitätsmechanismus</b> in Deutschland zu implementieren. Dabei steht neben der reinen Erzeugungskapazität auch die räumliche <b>Verortung der Kraftwerke</b> im Fokus, um den Bedarf an <b>Redispatch-Kapazitäten</b> effizient zu decken. Ergänzend werden Maßnahmen zur Bereitstellung von <b>nichtfrequenzgebundenen Systemdienstleistungen</b> adressiert, um die Stabilität des Stromnetzes langfristig zu sichern. Die Ausführungen zielen darauf ab, die technische Integrität des Stromsystems im Zuge der Energiewende zu wahren.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Inhalt betrifft direkt die Themenfelder 'Versorgungssicherheit Strom', 'Strommarktdesign & -regulierung' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Versorgungssicherheit und Systemstabilität",
+      "sending_date": "2026-07-24",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/02/855888/Stellungnahme-Gutachten-SG2610020034.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610020034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020034",
+      "summary": "Das Dokument <b>fordert</b> die <b>Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit und Systemstabilität. Im Zentrum steht die laufende <b>Kraftwerksstrategie</b> sowie die Implementierung eines <b>Kapazitätsmechanismus</b> in Deutschland. Dabei wird betont, dass neben der reinen Erzeugungskapazität auch die räumliche <b>Verortung der Kraftwerke</b> entscheidend ist, um den Bedarf an <b>Redispatch-Maßnahmen</b> zu optimieren. Zudem wird die Notwendigkeit unterstrichen, <b>nichtfrequenzgebundene Systemdienstleistungen</b> zur Aufrechterhaltung der Netzstabilität zu definieren und abzusichern. Die Maßnahmen zielen darauf ab, die Transformation des Stromsystems bei gleichzeitig hoher Versorgungssicherheit zu flankieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Versorgungssicherheit und Systemstabilität",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/91/8f/855890/Stellungnahme-Gutachten-SG2610020035.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2610020035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020035",
+      "summary": "Das Dokument <b>fordert</b> die <b>Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit und Systemstabilität. Im Zentrum steht die laufende <b>Kraftwerksstrategie</b> sowie die Implementierung eines <b>Kapazitätsmechanismus</b> in Deutschland. Dabei wird betont, dass neben der reinen Erzeugungskapazität auch die räumliche Verortung der Anlagen für den <b>Redispatch</b> entscheidend ist. Zudem werden Maßnahmen zur Bereitstellung von <b>nichtfrequenzgebundenen Systemdienstleistungen</b> als notwendige Ergänzung für den stabilen Netzbetrieb identifiziert. Die Ausführungen zielen darauf ab, die Transformation des Stromsystems unter Wahrung der technischen Stabilität zu flankieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Sicherstellung von Maßnahmen zur Gewährleistung von Versorgungssicherheit und Systemstabilität",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/73/89/855892/Stellungnahme-Gutachten-SG2610020038.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020038",
+      "summary": "Das Dokument <b>fordert</b> die <b>Sicherstellung ausreichender Kraftwerkskapazitäten</b> zur Gewährleistung der nationalen Versorgungssicherheit und Systemstabilität. Im Kontext der laufenden <b>Kraftwerksstrategie</b> wird die Implementierung eines <b>Kapazitätsmechanismus</b> als zentrales Instrument zur Deckung des Bedarfs an gesicherter Erzeugungskapazität adressiert. Dabei wird explizit auf die notwendige <b>geografische Verortung</b> der Anlagen eingegangen, um den Bedarf an <b>Redispatch-Kapazitäten</b> effizient zu decken. Ergänzend wird die Bereitstellung von <b>nichtfrequenzgebundenen Systemdienstleistungen</b> als essenziell für den stabilen Netzbetrieb hervorgehoben. Die Ausführungen zielen darauf ab, die technische Stabilität des Stromsystems im Zuge der Energiewende langfristig zu gewährleisten.",
+      "recipients": [
+        "BMVg",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Investitionsfreundlicher Regulierungsrahmen für die Investitionen in das Strom-Übertragungsnetz",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e8/ca/855894/Stellungnahme-Gutachten-SG2610020040.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020040",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020040",
+      "summary": "Die Verfasser <b>fordern</b> einen <b>investitionsfreundlichen Regulierungsrahmen</b>, um den notwendigen <b>Um- und Ausbau des Strom-Übertragungsnetzes</b> im Zuge der Energiewende zu gewährleisten. Zentrales Anliegen ist die <b>Sicherstellung einer ausreichenden Eigenkapitalverzinsung</b> für die Netzbetreiber. Zudem wird eine Anpassung der bestehenden <b>Anreizregulierung</b> angemahnt, um die Finanzierung der komplexen Infrastrukturprojekte langfristig abzusichern. Die Forderung zielt darauf ab, regulatorische Hürden abzubauen, die den zügigen Netzausbau derzeit hemmen könnten. Damit soll die notwendige <b>Investitionssicherheit</b> geschaffen werden, um die Ziele der nationalen Energiewende operativ umzusetzen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für Stromnetze, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Integration neuer Verbraucher wie Elektrolyseure, Industrie und Kleinstflexibilitäten ins Stromnetz",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/83/a4/855896/Stellungnahme-Gutachten-SG2610020011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610020011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020011",
+      "summary": "Das Dokument <b>schlägt vor</b>, gesetzliche Rahmenbedingungen für die <b>effiziente Integration neuer Verbraucher</b> wie Elektrolyseure und Industrieanlagen in das Stromnetz zu schaffen. Ziel ist die gezielte <b>Steuerung von Kleinstflexibilitäten</b> wie Wärmepumpen und Elektrofahrzeugen in enger Abstimmung mit den Netzbetreibern. Durch die Einbindung dieser Potenziale soll die <b>Kosteneffizienz des Stromsystems</b> bei zunehmender Einspeisung fluktuierender erneuerbarer Energien sichergestellt werden. Insbesondere soll die <b>Vermeidung von Engpassmanagement</b> und Redispatch-Maßnahmen durch eine flexiblere Nachfragesteuerung erreicht werden. Die Initiative zielt darauf ab, die Gesamtkosten der Energiewende durch eine intelligente Netzauslastung zu minimieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Flexibilisierung des Strommarktes, die Integration von Sektorkopplungstechnologien (Elektrolyseure, Wärmepumpen, E-Mobilität) und die Reduzierung von Redispatch-Kosten, was zentrale Aufgaben der Unterabteilung IIIA im Bereich Strommarktdesign und Netzregulierung darstellt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Ausreichende Haushaltsfinanzierung des EEG-Kontos, Optimierung der Wälzungs- und Abrechnungsprozesse",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3c/c5/855898/Stellungnahme-Gutachten-SG2610020042.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020042",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020042",
+      "summary": "Die Organisation <b>fordert</b> eine <b>ausreichende Haushaltsfinanzierung</b> des EEG-Kontos, um die Auszahlungsansprüche der Anlagenbetreiber dauerhaft abzusichern. Hierbei soll der Bundeshaushalt die von den Übertragungsnetzbetreibern zu verantwortenden Zahlungen verlässlich decken. Zudem wird eine <b>Optimierung der Wälzungs- und Abrechnungsprozesse</b> für die EEG-, KWK-G- und Offshore-Netzumlagen angestrebt. Ziel ist eine effizientere Gestaltung der administrativen Abwicklungs- und Meldeprozesse. Gleichzeitig sollen die <b>Marktprozesse im Strommarkt</b> durch gezielte Anpassungen verbessert werden. Diese Maßnahmen dienen der Stabilisierung der finanziellen Rahmenbedingungen für den Ausbau erneuerbarer Energien.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Optimierung von Wälzungsprozessen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'Strommarkt-Regulierung' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Ausreichende Haushaltsfinanzierung des EEG-Kontos, Optimierung der Wälzungs- und Abrechnungsprozesse",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d3/df/855900/Stellungnahme-Gutachten-SG2610020048.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610020048",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020048",
+      "summary": "Die Organisation <b>fordert</b> eine <b>ausreichende Haushaltsfinanzierung</b> des EEG-Kontos, um die Auszahlungsansprüche der Anlagenbetreiber dauerhaft abzusichern. Hierbei soll der Bundeshaushalt die von den Übertragungsnetzbetreibern zu verantwortenden Zahlungen verlässlich decken. Zudem wird eine <b>Optimierung der Wälzungs- und Abrechnungsprozesse</b> für die EEG-, KWK-G- und Offshore-Netzumlagen angestrebt. Ziel ist eine effizientere Gestaltung der administrativen Abwicklungs- und Meldeprozesse. Gleichzeitig sollen die <b>Marktprozesse im Strommarkt</b> durch gezielte Anpassungen verbessert werden. Diese Maßnahmen dienen der Stabilisierung der finanziellen Rahmenbedingungen für den Ausbau erneuerbarer Energien.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Optimierung von Wälzungsprozessen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'Strommarkt-Regulierung' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Ausreichende Haushaltsfinanzierung des EEG-Kontos, Optimierung der Wälzungs- und Abrechnungsprozesse",
+      "sending_date": "2026-08-19",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/eb/855902/Stellungnahme-Gutachten-SG2610020052.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020052",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020052",
+      "summary": "Die Organisation <b>fordert</b> eine <b>ausreichende Haushaltsfinanzierung</b> des EEG-Kontos, um die Auszahlungsansprüche der Anlagenbetreiber dauerhaft abzusichern. Hierbei soll der Bundeshaushalt die von den Übertragungsnetzbetreibern zu verantwortenden Zahlungen verlässlich decken. Zudem wird eine <b>Optimierung der Wälzungs- und Abrechnungsprozesse</b> für die EEG-, KWK-G- und Offshore-Netzumlagen angestrebt. Ziel ist eine effizientere Gestaltung der administrativen Abwicklungs- und Meldeprozesse. Darüber hinaus sollen die <b>Marktprozesse im Strommarkt</b> durch gezielte Anpassungen verbessert werden. Diese Maßnahmen dienen der Stabilität und Transparenz bei der Finanzierung der Energiewende.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Optimierung von Wälzungsprozessen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'Strommarkt-Regulierung' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Potenziale zur Kosteneinsparung bei Netzausbau und -betrieb sowie damit verbundenen Themen",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/99/855904/Stellungnahme-Gutachten-SG2610020010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020010",
+      "summary": "Das Dokument <b>schlägt Maßnahmen zur Kosteneinsparung</b> bei der Transformation des Stromsystems vor, um die <b>Bezahlbarkeit und Machbarkeit der Energiewende</b> langfristig sicherzustellen. Im Fokus stehen dabei insbesondere Effizienzsteigerungen beim <b>Netzausbau und Netzbetrieb</b>, um die finanziellen Belastungen durch den Umbau der Infrastruktur zu begrenzen. Zudem werden systemische Fragen adressiert, die eine <b>Optimierung der Sektorenkopplung</b> erfordern, um Synergien zwischen den Energiebereichen besser zu nutzen. Die Vorschläge zielen darauf ab, die notwendigen Investitionen in das Stromnetz wirtschaftlich effizient zu gestalten. Durch eine gezielte Anpassung der regulatorischen Rahmenbedingungen soll die <b>Finanzierung der Transformation</b> nachhaltig gesichert werden. Damit adressiert das Papier zentrale Herausforderungen der aktuellen Energiepolitik hinsichtlich der Kostenbelastung für das Gesamtsystem.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Transformation des Stromsystems.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Potenziale zur Kosteneinsparung bei Netzausbau und -betrieb sowie damit verbundenen Themen",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/be/2b/855906/Stellungnahme-Gutachten-SG2610020016.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610020016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020016",
+      "summary": "Das Dokument <b>schlägt Maßnahmen zur Kosteneinsparung</b> bei der Transformation des Stromsystems vor, um die <b>Bezahlbarkeit und Machbarkeit der Energiewende</b> langfristig zu sichern. Im Fokus stehen dabei insbesondere die <b>Effizienzsteigerung beim Netzausbau</b> sowie eine Optimierung des laufenden Netzbetriebs. Ergänzend werden systemrelevante Fragestellungen adressiert, die eine <b>kosteneffiziente Sektorenkopplung</b> ermöglichen sollen. Ziel ist es, die finanziellen Belastungen durch die notwendige Systemtransformation zu begrenzen. Die Analyse verknüpft dabei netztechnische Aspekte mit übergeordneten <b>Finanzierungsstrategien für das Stromsystem</b>. Damit leistet das Papier einen Beitrag zur Diskussion über die wirtschaftliche Gestaltung der klimaneutralen Energieversorgung.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Themenfelder Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Potenziale zur Kosteneinsparung bei Netzausbau und -betrieb sowie damit verbundenen Themen",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/57/70/855908/Stellungnahme-Gutachten-SG2610020036.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2610020036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020036",
+      "summary": "Das Dokument <b>schlägt Maßnahmen zur Kosteneinsparung</b> bei der Transformation des Stromsystems vor, um die <b>Bezahlbarkeit und Machbarkeit</b> der Energiewende zu gewährleisten. Im Fokus stehen dabei insbesondere die <b>Effizienzsteigerung beim Netzausbau</b> sowie die Optimierung des Netzbetriebs. Ergänzend werden systemrelevante Fragestellungen adressiert, die eine <b>kosteneffiziente Sektorenkopplung</b> ermöglichen sollen. Ziel ist es, die finanzielle Belastung durch den notwendigen Umbau der Energieinfrastruktur zu begrenzen. Die Vorschläge zielen darauf ab, die <b>Finanzierung der Transformation</b> langfristig tragfähig zu gestalten.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche Kernaufgaben der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Potenziale zur Kosteneinsparung bei Netzausbau und -betrieb sowie damit verbundenen Themen",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/d4/855910/Stellungnahme-Gutachten-SG2610020037.pdf",
+      "pdf_pages": 28,
+      "sg_number": "SG2610020037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020037",
+      "summary": "Das Dokument <b>schlägt Maßnahmen zur Kosteneinsparung</b> bei der Transformation des Stromsystems vor, um die <b>Bezahlbarkeit und Machbarkeit der Energiewende</b> langfristig zu sichern. Im Fokus stehen dabei insbesondere Effizienzsteigerungen beim <b>Netzausbau und Netzbetrieb</b> sowie die Optimierung systemrelevanter Prozesse. Zudem werden <b>Sektorenkopplung und Systemfragen</b> adressiert, um die finanzielle Belastung durch den notwendigen Umbau der Energieinfrastruktur zu begrenzen. Die Vorschläge zielen darauf ab, die <b>Finanzierung der Transformation</b> durch gezielte Eingriffe in die Netzregulierung und den operativen Betrieb zu entlasten. Damit soll ein Beitrag zur <b>wirtschaftlichen Stabilität</b> des Stromsystems geleistet werden, ohne die energiepolitischen Ziele zu gefährden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Themenfelder Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Transformation des Stromsystems, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Potenziale zur Kosteneinsparung bei Netzausbau und -betrieb sowie damit verbundenen Themen",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/eb/d7/855912/Stellungnahme-Gutachten-SG2610020044.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610020044",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020044",
+      "summary": "Das Dokument <b>schlägt Maßnahmen zur Kosteneinsparung</b> bei der Transformation des Stromsystems vor, um die <b>Bezahlbarkeit und Machbarkeit</b> der Energiewende langfristig zu sichern. Im Fokus stehen dabei Optimierungspotenziale beim <b>Netzausbau und Netzbetrieb</b>, um die finanziellen Belastungen der Transformation zu begrenzen. Zudem werden systemische Fragen adressiert, die den effizienten Betrieb der Infrastruktur unter Berücksichtigung der Sektorenkopplung betreffen. Ziel ist es, durch gezielte Eingriffe die Effizienz der notwendigen Investitionen zu steigern. Die Vorschläge zielen darauf ab, die <b>Finanzierung der Energiewende</b> nachhaltig zu gestalten und die Kosten für das Gesamtsystem zu minimieren. Damit leistet das Papier einen Beitrag zur <b>Optimierung der Netzinfrastruktur</b> im Kontext der klimaneutralen Stromversorgung.",
+      "recipients": [
+        "AA",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Effektiven Schutz kritischer Infrastrukturen gewährleisen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/83/855914/Stellungnahme-Gutachten-SG2610020053.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020053",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020053",
+      "summary": "Das Dokument <b>fordert</b> einen <b>effektiven Schutz kritischer Infrastrukturen</b> angesichts der veränderten Sicherheitslage. Dabei wird insbesondere die <b>Cybersicherheit</b> als unabdingbare Voraussetzung für die Stabilität der Energieversorgung hervorgehoben. Es wird ein <b>Gleichgewicht</b> zwischen den notwendigen neuen Sicherheitsanforderungen und einem <b>bürokratiesparsamen Rahmen</b> für die betroffenen Akteure angemahnt. Ziel ist es, die Resilienz der Infrastruktur zu stärken, ohne die operative Handlungsfähigkeit durch übermäßige regulatorische Lasten zu gefährden. Die Ausgestaltung dieser Sicherheitsvorgaben soll somit sowohl den Schutzbedarf als auch die Effizienz der Umsetzung berücksichtigen.",
+      "recipients": [
+        "BMI",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Sicherung kritischer Infrastrukturen (KRITIS) ist ein integraler Bestandteil der Versorgungssicherheit und der Netzstabilität, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Beschleunigung von Planung und Genehmigung",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/34/855916/Stellungnahme-Gutachten-SG2610020015.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2610020015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020015",
+      "summary": "Die Organisation <b>fordert</b> eine konsequente <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>, um die Ziele der Energiewende effizient zu erreichen. Durch verkürzte administrative Prozesse sollen sowohl die <b>Umsetzungszeiten</b> für notwendige Infrastrukturprojekte signifikant reduziert als auch <b>Kosteneinsparungen</b> realisiert werden. Eine zügige Realisierung wird als essenziell für die Transformation des Energiesystems und die Stärkung der Versorgungssicherheit angesehen. Die Maßnahme zielt darauf ab, bürokratische Hürden abzubauen, die den Ausbau erneuerbarer Energien und der Netzinfrastruktur derzeit verzögern. Damit leistet der Vorschlag einen wesentlichen Beitrag zur <b>Realisierung der Klimaziele</b> und zur <b>Steigerung der Wettbewerbsfähigkeit</b> des Industriestandorts Deutschland.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentrales Instrument zur Umsetzung der Energiewende, der Erreichung der Klimaziele und der Sicherung der Wettbewerbsfähigkeit, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Beschleunigung von Planung und Genehmigung",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f9/75/855918/Stellungnahme-Gutachten-SG2610020017.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610020017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020017",
+      "summary": "Die Organisation <b>fordert</b> eine konsequente <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>, um die Ziele der Energiewende effizient zu erreichen. Durch verkürzte administrative Prozesse sollen sowohl die <b>Umsetzungszeiten</b> für Infrastrukturprojekte signifikant reduziert als auch notwendige <b>Kosteneinsparungen</b> realisiert werden. Eine schnellere Realisierung von Vorhaben gilt als essenziell für die Transformation des Energiesystems. Die Maßnahme zielt darauf ab, bürokratische Hürden abzubauen, die den Ausbau erneuerbarer Energien und der Netzinfrastruktur derzeit verzögern. Eine effizientere Gestaltung der Verfahren soll somit die <b>Wettbewerbsfähigkeit</b> und die <b>Versorgungssicherheit</b> im Rahmen der nationalen Energiepolitik stärken.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentrales Instrument zur Umsetzung der Energiewende und fällt unter die Zuständigkeit der Unterabteilung IIIA für Energiepolitik und Strommarktdesign.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Beschleunigung von Planung und Genehmigung",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/5f/855920/Stellungnahme-Gutachten-SG2610020018.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610020018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020018",
+      "summary": "Die Adressaten <b>fordern</b> eine signifikante <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>, um die Ziele der Energiewende effizient zu erreichen. Durch verkürzte administrative Prozesse sollen sowohl die <b>Umsetzungszeiten</b> für Infrastrukturprojekte drastisch reduziert als auch erhebliche <b>Kosteneinsparungen</b> realisiert werden. Eine zügige Realisierung ist dabei als essenzielle Voraussetzung für den Ausbau der erneuerbaren Energien und die notwendige Systemtransformation definiert. Die Initiative zielt darauf ab, bürokratische Hürden abzubauen, die den schnellen Fortschritt bei der <b>Netzinfrastruktur</b> und der Erzeugungskapazitäten derzeit hemmen. Damit soll die <b>Wettbewerbsfähigkeit</b> des Standorts durch eine verlässliche und zeitnahe Bereitstellung von Energieinfrastruktur gestärkt werden.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentraler Hebel für die Umsetzung der Energiewende, die Netzintegration erneuerbarer Energien und die Realisierung der Kraftwerksstrategie, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Beschleunigung von Planung und Genehmigung",
+      "sending_date": "2026-08-27",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4e/d4/855922/Stellungnahme-Gutachten-SG2610020050.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020050",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020050",
+      "summary": "Die Organisation <b>fordert</b> eine konsequente <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b>, um die Ziele der Energiewende effizient zu erreichen. Durch verkürzte administrative Prozesse sollen sowohl die <b>Umsetzungszeiten signifikant reduziert</b> als auch <b>Kosteneinsparungen</b> realisiert werden. Eine zügige Realisierung von Projekten wird als essenziell für die Transformation des Energiesystems angesehen. Die Maßnahme zielt darauf ab, bürokratische Hürden abzubauen und die <b>Investitionssicherheit</b> für notwendige Infrastrukturvorhaben zu erhöhen. Damit leistet der Vorstoß einen wesentlichen Beitrag zur <b>Beschleunigung des Ausbaus</b> erneuerbarer Energien und der dazugehörigen Netzinfrastruktur.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentrales Instrument zur Umsetzung der Energiewende und betrifft direkt die Themenfelder Stromerzeugung, Erneuerbare Energien sowie die EU-Energiepolitik (z.B. RED-Umsetzung).",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Optimierung des Offshore-Wind-Ausbaus und der dazu gehörenden Netzinfrastruktur in der AWZ",
+      "sending_date": "2026-08-17",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9e/65/855924/Stellungnahme-Gutachten-SG2610020047.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2610020047",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020047",
+      "summary": "Das Papier <b>schlägt eine Optimierung</b> des Offshore-Wind-Ausbaus in der deutschen AWZ vor, um Effizienzsteigerungen und Kostensenkungen zu erzielen. Dabei stehen die <b>Weiterentwicklung technischer Standards</b> sowie die Anpassung von Netzanschlussregeln und Flächenzuschnitten im Fokus. Durch ein überarbeitetes <b>Ausschreibungs- und Marktdesign</b> sollen volkswirtschaftliche Potenziale besser ausgeschöpft werden. Zudem wird die <b>grenzüberschreitende Zusammenarbeit</b> als wesentlicher Hebel für eine effizientere Infrastrukturnutzung identifiziert. Die <b>Schnittstelle zur Wasserstoffproduktion</b> wird als strategisch wichtig für die zukünftige Auslastung der Anlagen bewertet. Ziel ist es, die hohen Investitionskosten zu begrenzen und die <b>Belastung der Stromkunden</b> durch eine optimierte Systemintegration langfristig zu minimieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die Netzinfrastruktur, das Ausschreibungsdesign sowie die Schnittstelle zur Wasserstoffproduktion, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/02/1a/855926/Stellungnahme-Gutachten-SG2610020019.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2610020019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020019",
+      "summary": "Das Regelungsvorhaben <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um die aktuelle Überlastung durch eine Vielzahl von Anfragen zu bewältigen. Die bisherige Praxis gemäß KraftNAV erweist sich für die gestiegene Anzahl an <b>Netzanschlussanfragen für Großbatteriespeicher</b> als unzureichend. Ziel ist die Implementierung eines effizienteren Verfahrens, das eine <b>Differenzierung und Priorisierung von Projekten</b> nach deren tatsächlicher Projektreife ermöglicht. Durch eine entsprechende <b>Klarstellung in der KraftNAV</b> sollen die Übertragungsnetzbetreiber in die Lage versetzt werden, den Prozess administrativ zu bewältigen. Damit reagiert das Vorhaben auf die veränderten Anforderungen an die <b>Netzinfrastruktur und Systemintegration</b> im Zuge der Energiewende. Die Maßnahme soll sicherstellen, dass netzdienliche Kapazitäten schneller und zielgerichteter realisiert werden können.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Stromnetzregulierung, Netzanschlussverfahren und die Integration von Großbatteriespeichern, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netzregulierung) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/59/0c/855928/Stellungnahme-Gutachten-SG2610020051.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610020051",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020051",
+      "summary": "Das Vorhaben <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um den gestiegenen Anforderungen gerecht zu werden. Die bisherige Regelung nach der KraftNAV erweist sich aufgrund der hohen Anzahl an Anfragen, insbesondere durch <b>Großbatteriespeicher</b>, als nicht mehr praxistauglich. Ziel ist die <b>Implementierung eines alternativen Verfahrens</b>, das eine effizientere Abwicklung der Anfragen ermöglicht. Dabei soll eine <b>Differenzierung oder Priorisierung</b> von Projekten anhand ihrer tatsächlichen Projektreife erfolgen. Durch diese Anpassung soll die <b>Netzanschlusskapazität</b> besser verwaltet und der Ausbau systemrelevanter Anlagen beschleunigt werden. Die Maßnahme reagiert damit direkt auf die seit 2024 verzeichnete Überlastung der Übertragungsnetzbetreiber.",
+      "recipients": [
+        "BMDS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Stromnetzregulierung, den Netzanschluss von Erzeugungsanlagen und Speichern sowie die Optimierung von Netzanschlussverfahren, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/86989",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-23",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f8/0c/855983/Stellungnahme-Gutachten-SG2610020057.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610020057",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020057",
+      "summary": "Das Bundesministerium für Wirtschaft und Klimaschutz <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um den gestiegenen Anforderungen gerecht zu werden. Das bisherige Verfahren nach der KraftNAV erweist sich aufgrund der hohen Anzahl an Anfragen, insbesondere durch <b>Großbatteriespeicher</b>, als nicht mehr praxistauglich. Ziel ist die <b>Implementierung eines alternativen Verfahrens</b>, das eine effizientere Abwicklung der Netzanschlussanfragen ermöglicht. Hierbei soll eine <b>Differenzierung oder Priorisierung von Projekten</b> nach deren tatsächlicher Projektreife eingeführt werden. Durch diese Anpassung soll die <b>Netzanschlusskapazität optimiert</b> und der Ausbau flexibler Speichertechnologien beschleunigt werden. Die Maßnahme reagiert auf die seit 2024 massiv gestiegene Belastung der Übertragungsnetzbetreiber.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzoptimierung und die Integration von Erneuerbaren Energien sowie Speichern, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002505",
+      "org_name": "Deutscher Mittelstands-Bund (DMB) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002505/86957",
+      "regulatory_project_title": "Klimaschutz und Energieeffizienz mittelstandsgerecht gestalten",
+      "sending_date": "2026-01-12",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0f/8f/855853/Stellungnahme-Gutachten-SG2610020006.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610020006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020006",
+      "summary": "Der Deutsche Mittelstandsbund (DMB) <b>fordert eine mittelstandsgerechte Klimapolitik</b>, um private Investitionen in die ökologische Transformation zu mobilisieren. Zur Förderung der Energieeffizienz und der eigenen Stromerzeugung schlägt der Verband gezielte <b>Sonderabschreibungen sowie Investitionsprämien</b> vor. Gleichzeitig mahnt der DMB eine <b>Begrenzung bürokratischer Berichts- und Nachweispflichten</b> an, um die Unternehmen administrativ zu entlasten. Die Kopplung von Energieaudits an den tatsächlichen Verbrauch im Energieeffizienzgesetz wird ausdrücklich begrüßt. Im Bereich der Wärmewende fordert der Verband mehr <b>Planungssicherheit für Gebäude</b> und warnt vor zusätzlichen finanziellen Belastungen durch eine verpflichtende Grüngasquote. Insgesamt unterstreicht der DMB die Notwendigkeit verlässlicher Rahmenbedingungen, um die Wettbewerbsfähigkeit kleiner und mittlerer Unternehmen während der Transformation zu sichern.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Finanzierung der Energiewende, Energieeffizienzmaßnahmen für Unternehmen sowie die Gestaltung von Rahmenbedingungen für erneuerbare Energien, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002081",
+      "org_name": "Evonik Industries AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002081/86938",
+      "regulatory_project_title": "Anpassung des ETS zur Stärkung der Wettbewerbsfähigkeit der Chemischen Industrie ",
+      "sending_date": "2026-09-15",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cd/15/855819/Stellungnahme-Gutachten-SG2610020032.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610020032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020032",
+      "summary": "Die Initiative <b>fordert eine Anpassung des EU-ETS</b> im Rahmen der Reform 2026, um die <b>Wettbewerbsfähigkeit der europäischen Chemieindustrie</b> gegenüber internationalen Wettbewerbern zu sichern. Es wird verlangt, das <b>Einstellen von Zertifikaten</b> über die Marktstabilitätsreserve sofort zu beenden und den <b>linearen Reduktionspfad</b> ab 2026 an das Klimaneutralitätsziel anzupassen. Zudem soll die <b>kostenlose Zertifikatszuteilung</b> auf dem Niveau von 2025 eingefroren werden, um eine Überbelastung der Unternehmen zu vermeiden. Weitere Forderungen umfassen die gezielte Verwendung von Auktionserlösen für <b>Transformationsmaßnahmen</b> sowie die Vermeidung von Doppelbelastungen durch nationale CO2-Abgaben. Abschließend wird eine verstärkte Förderung von Dekarbonisierungsinstrumenten und Forschungsvorhaben zur Unterstützung der industriellen Transformation angemahnt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, den EU Green Deal sowie die Wettbewerbsfähigkeit der Industrie im Rahmen der EU-Energie- und Klimagesetzgebung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R003129",
       "org_name": "Verband zur Rücknahme und Verwertung von Elektro- und Elektronik-Altgeräten e.V. (VERE e.V.)",
@@ -23,6 +835,161 @@
           "code": "FOI_EU_DOMESTIC_MARKET",
           "label": "EU-Binnenmarkt"
         },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R004656",
+      "org_name": "DEICHMANN SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004656/86975",
+      "regulatory_project_title": "Sachgemäße Umsetzung Abfallrahmenrichtlinie (2025)",
+      "sending_date": "2026-08-07",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/de/4b/855766/Stellungnahme-Gutachten-SG2610020026.pdf",
+      "pdf_pages": 21,
+      "sg_number": "SG2610020026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020026",
+      "summary": "Ziel ist es, ein besseres Verständnis dafür zu schaffen, warum Schuhe innerhalb eines künftigen EPR Systems nicht pauschal gemeinsam mit Textilien reguliert werden sollten.\r\nSchuhe unterscheiden sich in ihrer Materialzusammensetzung, Produktstruktur, Nutzungsdauer, Sammel- und Sortierfähigkeit sowie hinsichtlich bestehender Wiederverwendungs- und Verwertungswege deutlich von Textilien. Diese Unterschiede müssen bei der konkreten Ausgestaltung der regulatorischen Anforderungen berücksichtigt werden, um praktikable, faire und funktionierende Lösungen zu ermöglichen.\r\n\r\n",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003483",
+      "org_name": "Deutscher Kartoffelhandelsverband e.V. (DKHV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003483/86949",
+      "regulatory_project_title": "Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (Packaging and Packaging Waste Regulation, PPWR)",
+      "sending_date": "2026-09-28",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/8f/855565/Stellungnahme-Gutachten-SG2610020003.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610020003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020003",
+      "summary": "Begleitung der Umsetzung der Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (Packaging and Packaging Waste Regulation – PPWR) sowie der Erarbeitung der hierzu vorgesehenen delegierten und Durchführungsrechtsakte. Ziel der Interessenvertretung ist die Berücksichtigung der besonderen Anforderungen des Kartoffelsektors bei der Ausgestaltung der Regelungen zu Verpackungsreduzierung, Wiederverwendung, Recyclingfähigkeit und Kennzeichnung sowie zu produktspezifischen Ausnahmen und Übergangsregelungen für Verpackungen von Speisekartoffeln und Kartoffelerzeugnissen.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/85817",
+      "regulatory_project_title": "Überarbeitung des EU-Emissionshandels im Luftverkehr",
+      "sending_date": "2026-07-01",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ca/4d/856024/Stellungnahme-Gutachten-SG2610020061.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020061",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020061",
+      "summary": "EU-Emissionshandel (EU ETS), Richtlinie 2003/87/EC und Entscheidung (EU) 2015/1814",
+      "recipients": [
+        "BMUKN",
+        "BMZ"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002277",
+      "org_name": "Telefónica Germany GmbH & Co. OHG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002277/86963",
+      "regulatory_project_title": "TKG-Änderungsgesetz 2026: Wettbewerbs- und Bürokratiefragen                                                                       ",
+      "sending_date": "2026-09-16",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a8/74/855650/Stellungnahme-Gutachten-SG2610020013.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610020013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020013",
+      "summary": "Ziel der Interessenvertretung ist es, die Rahmenbedingungen im Bereich der Telekommunikationsregulierung gezielt so weiterzuentwickeln, dass Hürden im Wettbewerb sowie Bürokratie abgebaut werden und eine höhere Planungssicherheit im Bereich der Frequenzregulierung erreicht wird.",
+      "recipients": [
+        "BKAmt",
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000896",
+      "org_name": "Deutscher Caritasverband e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000896/86996",
+      "regulatory_project_title": "Verhinderung Kürzung Haushaltsmittel Arbeitsbereiche Freie Wohlfahrtspflege ",
+      "sending_date": "2026-09-30",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3a/5f/856058/Stellungnahme-Gutachten-SG2610020064.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020064",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020064",
+      "summary": "Verhinderung Kürzung Haushaltsmittel Arbeitsbereiche Freie Wohlfahrtspflege \r\nEinzelplan 4 BKAmt: \r\nKapitel 0413 Titel 684 01\r\nEinzelplan 5 AA\r\nKapitel 0501 Titel 687 23; 687 32; 687 34\r\nEinzelplan 06 BMI:\r\nKapitel 0603 Titel 684 12; 684 13\r\nKapitel 6033 Titel 684 62\r\nKapitel 0603, Titel 684 61\r\nEinzelplan 11 BMAS: \r\nKapitel 1101 Titel: 636 13; 685 11\r\nEinzelplan 16 BMUV: \r\nKapitel 6092 Titel 684 01 \r\nEinzelplan 17 BMFSFJ: \r\nKapitel 1702 Titel 684 01; 684 04; 684 08; 684 03\r\nKapitel 1703 Titel 684 11, 684 14; 684 22; 684 25; 893 24; 893 22\r\nKapitel 1710 Titel 684 04; 684 05; 684 07\r\nEinzelplan 23 BMZ: \r\nKapitel 2302 Titel 687 06; 687 03; 687 71, 687 76\r\nKapitel 2310 Titel 896 31; 896 32\r\n",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000283",
+      "org_name": "Bundesvereinigung der Deutschen Ernährungsindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000283/86982",
+      "regulatory_project_title": "VerpackG - Umlage der EU Plastikabgabe und Schaffung europarechtskonformer Reform ",
+      "sending_date": "2026-10-02",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/79/8a/855761/Stellungnahme-Gutachten-SG2610020027.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610020027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020027",
+      "summary": "Wir sehen in einer wirksamen finanziellen Anreizstruktur für hochgradig recycelbare Verpackungen einen entscheidenden Hebel zu einer besseren Kreislaufführung. Mit dem Mindeststandard existiert in Deutschland bereits eine eindeutige und anerkannte Grundlage für die Bemessung des prozentualen Grades der Recyclingfähigkeit einer Verpackungseinheit. Ab 2028 würden diese Bemessungskriterien durch die von der EU-Kommission zu erstellenden Design-for-Recycling-Kriterien und Berechnungsvorschriften EU-weit harmonisiert (delegierte Rechtsakte nach Artikel 6 Absatz 4 EU-Verpackungsverordnung (PPWR)). Die Stufen einer Ökomodulierung der Lizenzentgelte für Verpackungen, wie sie in der PPWR vorgesehen",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMWE"
+      ],
+      "fields": [
         {
           "code": "FOI_EU_LAWS",
           "label": "EU-Gesetzgebung"
@@ -59,7 +1026,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, die EEG-Finanzierung sowie die technische Integration von PV-Anlagen in das Stromnetz, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002143",
@@ -88,7 +1055,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Messstellenbetriebsgesetz (MessbG) ist die regulatorische Grundlage für den Smart-Meter-Rollout und damit essenziell für die Digitalisierung der Energiewende, die unter die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002081",
@@ -113,7 +1080,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die regulatorische Einordnung von Produkten aus genetisch veränderten Mikroorganismen (GVM) betrifft die EU-Gesetzgebung und den EU-Binnenmarkt, was unter die Zuständigkeit der Unterabteilung IIIA für EU-Energiepolitik und EU-Rahmenbedingungen fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -138,7 +1105,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft den Netzanschluss von Erneuerbaren Energien (EE) und damit zentrale Aspekte der Strommarktregulierung, des Redispatch-Managements sowie der nationalen Erneuerbaren-Energien-Strategie, die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001531",
@@ -167,7 +1134,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Erneuerbare-Energien-Richtlinie (RED) sowie die regulatorischen Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), welche explizit zum Aufgabenbereich der Unterabteilung IIIA gehören.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001490",
@@ -194,7 +1161,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS) und die Dekarbonisierung der Industrie, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001490",
@@ -219,7 +1186,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS) und die Dekarbonisierung, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -244,7 +1211,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Initiative betrifft die Sektorkopplung und die notwendige Infrastruktur für die Energiewende im Verkehrssektor, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -273,7 +1240,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Umsetzung der EU-Energieeffizienzrichtlinie (EED) fällt direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere im Kontext der EU-Energieeffizienz-Vorgaben und der nationalen Ausgestaltung der Energieeinsparverpflichtungen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001220",
@@ -314,7 +1281,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Digitalisierung der Energiewende, die Flexibilisierung des Strommarktes und die netzseitige Integration von Erneuerbaren Energien, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001220",
@@ -351,7 +1318,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, die Marktintegration erneuerbarer Energien sowie die Weiterentwicklung von Vergütungssystemen, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000098",
@@ -380,7 +1347,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Text adressiert zentrale Aspekte der nationalen Erneuerbare-Energien-Politik, insbesondere Ausbauziele für Wind- und Solarenergie, Förderinstrumente wie CfDs und regulatorische Rahmenbedingungen für Anlagenbetreiber, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006589",
@@ -4226,7 +5193,7 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Netzanschlusspaket betrifft direkt die Themenfelder Strommarktregulierung, Netzoptimierung, Redispatch und die Integration erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen."
     },
     {
@@ -4260,7 +5227,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des EEG sowie die Stärkung von Energiegenossenschaften und Bürgerenergie fallen direkt in den Zuständigkeitsbereich der Unterabteilung IIIA, insbesondere unter die Themenfelder Erneuerbare Energien (national) und EEG-Finanzierung.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -4294,7 +5261,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die vorgeschlagenen Anpassungen betreffen direkt die EEG-Finanzierung, die Förderung von Erneuerbaren Energien sowie die Stärkung der Bürgerenergie, welche unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -4328,7 +5295,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die vorgeschlagenen Anpassungen betreffen direkt das EEG, die Förderung erneuerbarer Energien sowie die nationale Ausbaustrategie, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -4357,7 +5324,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des Energiewirtschaftsgesetzes (EnWG) hinsichtlich der Rahmenbedingungen für Energiegenossenschaften, insbesondere bei Kundenanlagen und Netzanschlüssen, berührt direkt die Zuständigkeiten der Unterabteilung IIIA im Bereich Strommarktregulierung und Erneuerbare Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001349",
@@ -4387,7 +5354,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des EnWG betrifft direkt die regulatorischen Rahmenbedingungen für Stromnetze und Netzanschlüsse, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung und Erneuerbare Energien) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004269",
@@ -91546,5 +92513,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1076
+  "gemini_filtered_out": 1082
 }
