@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T08:18:22.669794+02:00",
-  "newly_added": 32,
+  "generated_at": "2026-10-04T08:43:35.335942+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R003244",
@@ -29,7 +29,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik und die Dekarbonisierung des Verkehrssektors, welche als Teil der Sektorkopplung und der EU-Klimaziele (Fit for 55) in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -62,7 +62,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Inhalt betrifft direkt die Themenfelder 'Versorgungssicherheit Strom', 'Strommarktdesign & -regulierung' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -95,7 +95,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -128,7 +128,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -162,7 +162,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Kernaufgaben der Unterabteilung IIIA, insbesondere die Kraftwerksstrategie, Kapazitätsmechanismen, Versorgungssicherheit und Systemstabilität.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -188,7 +188,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für Stromnetze, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -221,7 +221,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Flexibilisierung des Strommarktes, die Integration von Sektorkopplungstechnologien (Elektrolyseure, Wärmepumpen, E-Mobilität) und die Reduzierung von Redispatch-Kosten, was zentrale Aufgaben der Unterabteilung IIIA im Bereich Strommarktdesign und Netzregulierung darstellt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -250,7 +250,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Optimierung von Wälzungsprozessen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'Strommarkt-Regulierung' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -279,7 +279,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Optimierung von Wälzungsprozessen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'Strommarkt-Regulierung' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -308,7 +308,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Optimierung von Wälzungsprozessen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'Strommarkt-Regulierung' der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -341,7 +341,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Transformation des Stromsystems.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -374,7 +374,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Themenfelder Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -407,7 +407,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende, welche Kernaufgaben der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -440,7 +440,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Themenfelder Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Transformation des Stromsystems, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -474,7 +474,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Strommarktdesign, Netzoptimierung, Redispatch und die Finanzierung der Energiewende.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -504,7 +504,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Sicherung kritischer Infrastrukturen (KRITIS) ist ein integraler Bestandteil der Versorgungssicherheit und der Netzstabilität, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -533,7 +533,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentrales Instrument zur Umsetzung der Energiewende, der Erreichung der Klimaziele und der Sicherung der Wettbewerbsfähigkeit, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -562,7 +562,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentrales Instrument zur Umsetzung der Energiewende und fällt unter die Zuständigkeit der Unterabteilung IIIA für Energiepolitik und Strommarktdesign.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -593,7 +593,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentraler Hebel für die Umsetzung der Energiewende, die Netzintegration erneuerbarer Energien und die Realisierung der Kraftwerksstrategie, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -622,7 +622,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Beschleunigung von Planungs- und Genehmigungsverfahren ist ein zentrales Instrument zur Umsetzung der Energiewende und betrifft direkt die Themenfelder Stromerzeugung, Erneuerbare Energien sowie die EU-Energiepolitik (z.B. RED-Umsetzung).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -651,7 +651,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Offshore-Kooperationen, die Netzinfrastruktur, das Ausschreibungsdesign sowie die Schnittstelle zur Wasserstoffproduktion, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -685,7 +685,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Stromnetzregulierung, Netzanschlussverfahren und die Integration von Großbatteriespeichern, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netzregulierung) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -720,7 +720,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Stromnetzregulierung, den Netzanschluss von Erzeugungsanlagen und Speichern sowie die Optimierung von Netzanschlussverfahren, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -754,7 +754,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzoptimierung und die Integration von Erneuerbaren Energien sowie Speichern, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002505",
@@ -783,7 +783,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Finanzierung der Energiewende, Energieeffizienzmaßnahmen für Unternehmen sowie die Gestaltung von Rahmenbedingungen für erneuerbare Energien, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002081",
@@ -812,7 +812,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Klimapolitik, den EU Green Deal sowie die Wettbewerbsfähigkeit der Industrie im Rahmen der EU-Energie- und Klimagesetzgebung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003129",
