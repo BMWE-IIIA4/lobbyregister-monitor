@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-04T08:43:35.335942+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-10-05T08:47:11.640926+02:00",
+  "newly_added": 5,
   "statements": [
+    {
+      "register_number": "R000335",
+      "org_name": "Arbeitsgemeinschaft Deutscher Waldbesitzerverbände (AGDW) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000335/87004",
+      "regulatory_project_title": "Änderung der EEG-Novelle 2027",
+      "sending_date": "2026-09-30",
+      "upload_date": "2026-10-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e4/a7/856355/Stellungnahme-Gutachten-SG2610040001.pdf",
+      "pdf_pages": 38,
+      "sg_number": "SG2610040001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610040001",
+      "summary": "Die Akteure <b>fordern die Streichung des Pachtdeckels</b> im Rahmen der anstehenden EEG-Novelle 2027. Ziel ist es, die <b>Belastungen der Eigentümer angemessen zu vergüten</b> und die wirtschaftliche Attraktivität für Flächenbereitsteller zu sichern. Zudem wird die <b>Abwendung unangemessener Sanktionen</b> verlangt, um die Investitionssicherheit nicht zu gefährden. Ein weiterer Schwerpunkt liegt auf dem <b>Schutz bestehender Verträge</b>, um Rechtsklarheit für laufende Projekte zu gewährleisten. Abschließend wird ein <b>Schutz sensibler Daten</b> gefordert, um die Vertraulichkeit in der vertraglichen Abwicklung zu wahren.",
+      "recipients": [
+        "BKAmt",
+        "BMJV",
+        "BMLEH",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die geplante EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, insbesondere die Finanzierung und vertragliche Gestaltung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R003244",
       "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
@@ -1348,6 +1378,89 @@
       "priority": 1,
       "gemini_relevanz": "Der Text adressiert zentrale Aspekte der nationalen Erneuerbare-Energien-Politik, insbesondere Ausbauziele für Wind- und Solarenergie, Förderinstrumente wie CfDs und regulatorische Rahmenbedingungen für Anlagenbetreiber, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86521",
+      "regulatory_project_title": "Schaffung eines sicheren Investitionsrahmens für Energieeffizienzmaßnahmen",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-10-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ea/d5/856534/Stellungnahme-Gutachten-SG2610010002.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610010002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610010002",
+      "summary": "Die <b>DENEFF fordert</b> die Etablierung eines <b>sicheren Investitionsrahmens</b> für <b>Energieeffizienzmaßnahmen</b>, um diese mit den Rahmenbedingungen für erneuerbare Energien und Infrastrukturprojekte gleichzustellen. Der Verband argumentiert, dass eine verlässliche regulatorische Basis notwendig ist, um die notwendigen privaten Kapitalflüsse für die energetische Transformation zu mobilisieren. Durch eine solche Angleichung sollen Hemmnisse abgebaut und die Attraktivität von Effizienzprojekten für Investoren gesteigert werden. Dies zielt darauf ab, die <b>Klimaschutzziele</b> effizienter zu erreichen und die <b>Transformation des Energiesystems</b> nachhaltig zu unterstützen. Die Initiative unterstreicht die Notwendigkeit, Energieeffizienz als gleichwertigen Pfeiler der Energiewende zu behandeln. Es wird angestrebt, durch langfristige Planungssicherheit die <b>Investitionsbereitschaft</b> in diesem Sektor signifikant zu erhöhen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema Energieeffizienz und die Schaffung von Investitionsrahmenbedingungen fallen unter die Zuständigkeit der Unterabteilung IIIA, insbesondere im Kontext der EU-Energieeffizienzziele und der Finanzierung der Transformation.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86521",
+      "regulatory_project_title": "Schaffung eines sicheren Investitionsrahmens für Energieeffizienzmaßnahmen",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-10-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7c/de/856536/Stellungnahme-Gutachten-SG2610010003.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610010003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610010003",
+      "summary": "Die DENEFF <b>fordert</b> die <b>Schaffung eines sicheren Investitionsrahmens</b> für Maßnahmen zur Steigerung der Energieeffizienz. Dabei wird eine regulatorische Gleichstellung mit den Rahmenbedingungen für <b>erneuerbare Energien</b> und den Ausbau der <b>Energieinfrastruktur</b> angestrebt. Ziel ist es, durch verlässliche politische Leitplanken die notwendige <b>Investitionssicherheit</b> für Unternehmen und private Akteure zu erhöhen. Die Organisation argumentiert, dass eine solche Struktur essenziell für das Erreichen der nationalen <b>Klimaschutzziele</b> ist. Durch die Angleichung der Förder- und Rahmenbedingungen soll die Transformation des Energiesystems beschleunigt werden. Die Initiative zielt darauf ab, Energieeffizienz als gleichwertige Säule der Energiewende zu etablieren.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema Energieeffizienz ist ein zentraler Bestandteil der EU-Energiepolitik und der nationalen Klimaschutzstrategien, die in den Aufgabenbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R006589",
@@ -7172,6 +7285,73 @@
         }
       ],
       "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86521",
+      "regulatory_project_title": "Zuverlässige Förderpolitik für eine effiziente Energiewende",
+      "sending_date": "2026-07-15",
+      "upload_date": "2026-09-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/c8/856538/Stellungnahme-Gutachten-SG2609300107.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2609300107",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609300107",
+      "summary": "Die DENEFF setzt sich für eine verlässliche, strategische und unbürokratische Förderpolitik ein, um Energieeffizienz und CO2-Reduktion wirkungsvoll voranzubringen. Nur durch langfristig planbare und auskömmlich finanzierte Programme können notwendige Investitionen in Gebäudesanierung, Industrie und Wärmenetze ausgelöst und Markthemmnisse überwunden werden. Eine effiziente Förderpolitik sichert nicht nur Klimaschutz, sondern auch Kostenentlastung und wirtschaftliche Resilienz. Die DENEFF fordert deshalb eine konsequente strategische Ausrichtung, Einbindung von Fachverbänden und Zielgenauigkeit.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000255",
+      "org_name": "Deutsche Unternehmensinitiative Energieeffizienz e. V. (DENEFF)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000255/86521",
+      "regulatory_project_title": "Zuverlässige Förderpolitik für eine effiziente Energiewende",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-09-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a4/7c/856540/Stellungnahme-Gutachten-SG2609300110.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2609300110",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609300110",
+      "summary": "Die DENEFF setzt sich für eine verlässliche, strategische und unbürokratische Förderpolitik ein, um Energieeffizienz und CO2-Reduktion wirkungsvoll voranzubringen. Nur durch langfristig planbare und auskömmlich finanzierte Programme können notwendige Investitionen in Gebäudesanierung, Industrie und Wärmenetze ausgelöst und Markthemmnisse überwunden werden. Eine effiziente Förderpolitik sichert nicht nur Klimaschutz, sondern auch Kostenentlastung und wirtschaftliche Resilienz. Die DENEFF fordert deshalb eine konsequente strategische Ausrichtung, Einbindung von Fachverbänden und Zielgenauigkeit.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
       "gemini_status": "filtered"
     },
     {
@@ -92513,5 +92693,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1082
+  "gemini_filtered_out": 1084
 }
