@@ -1,7 +1,368 @@
 {
-  "generated_at": "2026-10-05T08:47:11.640926+02:00",
-  "newly_added": 5,
+  "generated_at": "2026-10-06T09:25:56.901418+02:00",
+  "newly_added": 15,
   "statements": [
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/87069",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a7/99/856994/Stellungnahme-Gutachten-SG2610050034.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610050034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050034",
+      "summary": "Das BMWK <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um die aktuelle Überlastung durch eine Vielzahl von Anfragen zu bewältigen. Die bisherigen Regelungen der KraftNAV erweisen sich für die gestiegene Anzahl an Projekten, insbesondere bei <b>Großbatteriespeichern</b>, als ineffizient. Ziel ist die <b>Implementierung eines alternativen Verfahrens</b>, das eine effizientere Abwicklung ermöglicht. Hierbei soll eine <b>Differenzierung und Priorisierung nach Projektreife</b> eingeführt werden, um den Netzausbau und die Integration neuer Kapazitäten zu beschleunigen. Durch diese Anpassungen soll die <b>Rechtssicherheit für Netzbetreiber</b> und Investoren gleichermaßen erhöht werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Stromnetzregulierung und die Optimierung von Netzanschlussverfahren für Erneuerbare Energien und Speicher, was direkt in den Bereich Strommarktdesign und Netzbetrieb der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/87066",
+      "regulatory_project_title": "Effektiven Schutz kritischer Infrastrukturen gewährleisten",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/da/856966/Stellungnahme-Gutachten-SG2610050033.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610050033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050033",
+      "summary": "Die Organisation <b>fordert</b> eine <b>effektive Cybersicherheit</b> für kritische Infrastrukturen angesichts der veränderten Sicherheitslage. Dabei wird ein <b>Gleichgewicht</b> zwischen notwendigen neuen Sicherheitsanforderungen und einem <b>bürokratiesparsamen Rahmen</b> für die betroffenen Akteure angemahnt. Ein zentraler Aspekt ist die kritische <b>Überprüfung von Transparenzpflichten</b>, um den Schutz der Infrastruktur ohne unnötige administrative Belastungen zu gewährleisten. Die Maßnahmen zielen darauf ab, die Resilienz der Energieversorgung gegenüber digitalen Bedrohungen nachhaltig zu stärken. Ziel ist es, die <b>Sicherheit der Energieinfrastruktur</b> durch praxisnahe Vorgaben zu erhöhen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Schutz kritischer Infrastrukturen (KRITIS) ist ein integraler Bestandteil der Versorgungssicherheit und der Netzstabilität, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/87066",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/00/37/856968/Stellungnahme-Gutachten-SG2610050032.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610050032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050032",
+      "summary": "Das Vorhaben <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um die aktuelle Überlastung durch eine Vielzahl von Anfragen zu bewältigen. Die bisherige <b>KraftNAV-Regelung</b> erweist sich für die gestiegene Anzahl an Projekten, insbesondere bei <b>Großbatteriespeichern</b>, als ineffizient und nicht mehr zeitgemäß. Ziel ist die Implementierung eines <b>alternativen Netzanschlussverfahrens</b>, das eine effizientere Abwicklung ermöglicht. Hierbei soll eine <b>Differenzierung oder Priorisierung</b> von Vorhaben anhand ihrer tatsächlichen Projektreife eingeführt werden. Durch diese Anpassung soll die <b>Netzanschlusskapazität</b> zielgerichteter vergeben und der Ausbau systemrelevanter Speichertechnologien beschleunigt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Stromnetzregulierung, Netzanschlussverfahren und die Integration von Speichern, was direkt unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Versorgungssicherheit) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/87061",
+      "regulatory_project_title": "Modernisierung und Ausbau der Strominfrastruktur unter Berücksichtigung der Anforderungen für Busse und Bahnen",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ad/69/856933/Stellungnahme-Gutachten-SG2610050029.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610050029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050029",
+      "summary": "Die Initiative <b>fordert die Berücksichtigung</b> der spezifischen Anforderungen des ÖPNV und Eisenbahnverkehrs bei der <b>Modernisierung der Strominfrastruktur</b>. Eine <b>verlässliche Bereitstellung von Netzanschlusskapazitäten</b> wird als essenzielle Voraussetzung für den Ausbau elektrischer Mobilitätsangebote hervorgehoben. Gleichzeitig warnt die Branche vor <b>zusätzlichen Kosten und bürokratischem Aufwand</b> durch geplante Neuregelungen. Insbesondere wird kritisiert, dass regulatorische Hürden den <b>Ausbau der Ladeinfrastruktur für Elektrobusse</b> gefährden könnten. Die Initiative mahnt daher eine Ausgestaltung an, die den Netzzugang für den öffentlichen Verkehr nicht einschränkt. Ziel ist die Sicherstellung einer effizienten <b>Sektorkopplung zwischen Stromnetz und Verkehrssektor</b>.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Schnittstelle zwischen Strominfrastruktur, Netzanschlusskapazitäten und Sektorkopplung (E-Mobilität im ÖPNV), was direkt in den Bereich Strommarktdesign und Netzregulierung der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001054",
+      "org_name": "BDG - Bundesverband der Deutschen Gießerei-Industrie e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001054/87042",
+      "regulatory_project_title": "Einrichtung eines Gießerei-Dialogs in 2026",
+      "sending_date": "2026-07-10",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b0/fc/856949/Stellungnahme-Gutachten-SG2610050026.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610050026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050026",
+      "summary": "Die Initiative <b>schlägt die Einberufung eines Nationalen Gießerei-Dialogs</b> für das erste Quartal 2026 vor, um die Wettbewerbsfähigkeit der Branche zu sichern. Ziel des Dialogs ist die <b>Identifikation konkreter Maßnahmen</b> zur Stärkung des Industriestandorts Deutschland unter Einbeziehung von Vertretern aus Bundes- und Landesregierungen. Angesichts der hohen Energiekosten und des notwendigen Transformationsdrucks soll ein <b>gemeinsamer Handlungsrahmen</b> erarbeitet werden. Dabei stehen insbesondere die <b>Zukunftsfähigkeit der energieintensiven Produktion</b> sowie die langfristige Sicherung der industriellen Basis im Fokus. Der Dialog soll als Plattform dienen, um politische Rahmenbedingungen an die spezifischen Bedürfnisse der Gießereibranche anzupassen. Damit adressiert das Vorhaben zentrale Aspekte der <b>industriellen Dekarbonisierung</b> und der langfristigen Versorgungssicherheit.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Gießereiindustrie ist ein energieintensiver Sektor, dessen Zukunftsfähigkeit und Dekarbonisierung unmittelbar mit den Themenfeldern Strommarkt, Energiepreise und Klimaschutz der Unterabteilung IIIA verknüpft sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007414",
+      "org_name": "Bundesarbeitsgemeinschaft der Schwerbehindertenvertretungen in Deutschland e. V. (BSD)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007414/87017",
+      "regulatory_project_title": "Keine Attestpflicht ab dem ersten Krankheitstag - Erhalt der telefonischen Krankschreibung",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bd/93/856595/Stellungnahme-Gutachten-SG2610050001.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610050001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050001",
+      "summary": "Ziel der BSD ist, dass auf die vom Koalitionsausschuss am 02.07.2026 beschlossene gesetzliche Pflicht zur Vorlage einer Arbeitsunfähigkeitsbescheinigung ab dem ersten Krankheitstag verzichtet, die Drei-Tage-Regel des § 5 EFZG beibehalten und die telefonische bzw. videogestützte Krankschreibung erhalten wird. Hilfsweise strebt die BSD eine gesetzliche, nicht abdingbare Ausnahme für Beschäftigte mit Schwerbehinderung, ihnen gleichgestellte sowie chronisch kranke Beschäftigte sowie die Beteiligung der Schwerbehindertenvertretung bei jeder betrieblichen Ausgestaltung an.",
+      "recipients": [
+        "BMAS",
+        "BMG",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/86960",
+      "regulatory_project_title": "Kleinbankenregime einführen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/73/bc/856789/Stellungnahme-Gutachten-SG2610050017.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610050017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050017",
+      "summary": "Im August 2025 haben BaFin und Bundesbank ein Non-Paper zur Einführung eines Kleinbankenregimes in der EU verfasst. Unser Ziel ist es, dass dieser Vorschlag Eingang in die europäische Gesetzgebung findet (Änderung CRR und CRD). Dabei setzen wir uns dafür ein, dass übermäßige strenge Zugangskriterien vermieden werden, der Zutritt zum Kleinbankenregime freiwillig wäre (Opt-in) und die Verbundprivilegien bei der Berechnung der Leverage Ratio auch in einem Kleinbankenregime halten bleiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/86960",
+      "regulatory_project_title": "Einführung eines Gebäudetyp E",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d2/ce/856793/Stellungnahme-Gutachten-SG2610050022.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610050022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050022",
+      "summary": "Durch die zivilrechtliche Ermöglichung des Gebäudetyp E sollen Baustandards flexibilisiert werden,umdas einfache, kostengünstige und technologieoffene Bauen rechtssicher zu ermöglichen, ohne unnötige technische Überregulierung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002500",
+      "org_name": "Aluminium Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002500/87043",
+      "regulatory_project_title": "Einbeziehung von Aluminium als Leichtbauwerkstoff in die CO2-Flottengrenzwertregelung",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/91/2a/856809/Stellungnahme-Gutachten-SG2610050024.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610050024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050024",
+      "summary": "Aluminium Deutschland setzt sich im Rahmen der Revision (2025/0420 (COD) der europäischen CO2-Flottengrenzwerte (Verordnung EU) 2019/631) dafür ein, Aluminium in seiner Funktion als Leichtbaumaterial im Rahmen des vorgesehenen Ausgleichsmechanismus als anrechenbarer Werkstoff berücksichtigt wird.  ",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002500",
+      "org_name": "Aluminium Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002500/87043",
+      "regulatory_project_title": "Einbeziehung von Aluminium als Leichtbauwerkstoff in die CO2-Flottengrenzwertregelung",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d5/36/856811/Stellungnahme-Gutachten-SG2610050025.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610050025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050025",
+      "summary": "Aluminium Deutschland setzt sich im Rahmen der Revision (2025/0420 (COD) der europäischen CO2-Flottengrenzwerte (Verordnung EU) 2019/631) dafür ein, Aluminium in seiner Funktion als Leichtbaumaterial im Rahmen des vorgesehenen Ausgleichsmechanismus als anrechenbarer Werkstoff berücksichtigt wird.  ",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002500",
+      "org_name": "Aluminium Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002500/87043",
+      "regulatory_project_title": "Novellierung des Kreislaufwirtschaftsgesetzes (KrWG) zur Sicherung der Sekundärrohstoffversorgung",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b8/e6/856763/Stellungnahme-Gutachten-SG2610050018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610050018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050018",
+      "summary": "Aluminium Deutschland setzt sich dafür ein, die Rohstoffversorgungssicherheit im Kreislaufwirtschaftsgesetz so auszugestalten, dass strategische Sekundärrohstoffe wie Aluminiumschrott für die industrielle Verarbeitung in Deutschland und Europa verfügbar bleiben. Aus dem Ziel zur Senkung der Abfallintensität sollen keine absoluten oder sektorspezifischen Vorgaben für Materialeinsatz oder Produktionsmenge abgeleitet werden. Werkstoffliches und chemisches Recycling sollen differenziert bewertet werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001564",
+      "org_name": "American Chamber of Commerce in Germany e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001564/87050",
+      "regulatory_project_title": "Vorschläge zum nachhaltigen Bürokratieabbau im Steuerrecht für eine Stärkung der Investitions- und Innovationsdynamik am Standort Deutschland",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/00/82/856856/Stellungnahme-Gutachten-SG2610050028.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2610050028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050028",
+      "summary": "Investitionen und Innovationen sind die Voraussetzungen für Wachstum. Ein modernes Steuerrecht kann helfen, die Investitionsdynamik anzukurbeln, denn steuerliche Rahmenbedingungen sind für Investoren eine relevante Entscheidungsgröße. Die hohe Komplexität des Steuerrechts beeinträchtigt die Attraktivität des Standorts für internationale Investoren. Die im Papier enthaltenen Maßnahmenvorschläge beziehen sich auf Regelungen, die besonders beeinträchtigend wirken und deren Reform daher als besonders dringlich angesehen wird: § 50c Abs. 2 Nr.1 EStG, § 50c Abs. 2 Satz 5 EStG-E, § 4i EStG, § 4k EStG, § 19 Abs. 1 Satz 1 Nr. 1a EStG, § 8 Abs. 2 Satz 11 EStG, § 1 Abs.3d und e AStG, § 49 Abs. 1 Nr. 2 Buchst. f bzw. Nr. 6 EStG, § 84 Abs. 3 MinStG, §§ 7 ff. AStG, MinStG, § 6a GrEStG, § 1 Abs. 3 GrEStG",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001054",
+      "org_name": "BDG - Bundesverband der Deutschen Gießerei-Industrie e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001054/87042",
+      "regulatory_project_title": "Gesetz zur Umsetzung der Luftqualitätsrichtlinie (EU) 2024/2881  in nationales Recht",
+      "sending_date": "2026-08-04",
+      "upload_date": "2026-10-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/36/bb/856951/Stellungnahme-Gutachten-SG2610050031.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2610050031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610050031",
+      "summary": "Ziel der Interessenvertretung ist die Änderung des Referentenentwurfs zur Umsetzung der Luftqualitätsrichtlinie (EU) 2024/2881 in nationales Recht. Konkret angestrebt werden gesetzliche Klarstellungen und Änderungen im Bundes-Immissionsschutzgesetz, in der 39. BImSchV, im Umwelt-Rechtsbehelfsgesetz sowie in der TA Luft. Dies umfasst die Beschränkung von Eingriffsbefugnissen gegenüber bestehenden Industrieanlagen, die Anpassung von Regelungen zu Luftreinhalteplänen und Luftqualitätsmaßnahmen, die Konkretisierung der Anforderungen an Modellierungs-, Mess- und Bewertungsverfahren, die Anhebung immissionsschutzrechtlicher Irrelevanzschwellen, die Anpassung einzelner TA-Luft-Vorschriften sowie die zeitgleiche Überarbeitung der TA Luft im Zuge der nationalen Umsetzung der Richtlinie.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000335",
       "org_name": "Arbeitsgemeinschaft Deutscher Waldbesitzerverbände (AGDW) e.V.",
@@ -30,7 +391,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die geplante EEG-Novelle 2027 betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, insbesondere die Finanzierung und vertragliche Gestaltung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003244",
@@ -845,6 +1206,57 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R000134",
+      "org_name": "ENGIE Deutschland AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000134/86956",
+      "regulatory_project_title": "Investitionssicherheit beim EEG",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2f/75/856893/Stellungnahme-Gutachten-SG2610020005.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610020005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020005",
+      "summary": "Die vorliegende Novelle zum Erneuerbaren-Energien-Gesetz <b>erschwert</b> die <b>Planung und Finanzierung</b> neuer Projekte durch weitreichende regulatorische Anpassungen. Die geplanten Änderungen umfassen insbesondere die <b>Wirkleistungsbegrenzung</b> sowie den <b>Redispatch-Vorbehalt</b> für Anlagenbetreiber. Zudem wird durch die Einführung eines <b>Pachtdeckels</b> die wirtschaftliche Kalkulationsgrundlage für Investoren maßgeblich beeinflusst. Diese Maßnahmen führen zu einer erhöhten Unsicherheit bei der Realisierung zukünftiger Vorhaben im Bereich der erneuerbaren Energien. Die betroffenen Akteure sehen durch die regulatorischen Eingriffe die notwendige <b>Investitionssicherheit</b> gefährdet. Eine detaillierte Prüfung der Auswirkungen auf den weiteren Ausbaupfad der Energiewende ist daher erforderlich.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000134",
+      "org_name": "ENGIE Deutschland AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000134/86956",
+      "regulatory_project_title": "Investitionssicherheit beim EEG",
+      "sending_date": "2026-09-28",
+      "upload_date": "2026-10-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d0/49/856895/Stellungnahme-Gutachten-SG2610020007.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2610020007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610020007",
+      "summary": "Die vorliegende Novelle zum Erneuerbaren-Energien-Gesetz <b>erschwert die Planung und Finanzierung</b> neuer Projekte durch weitreichende regulatorische Anpassungen. Die geplanten Änderungen umfassen insbesondere eine neue <b>Wirkleistungsbegrenzung</b> sowie einen restriktiven <b>Redispatch-Vorbehalt</b> für Anlagenbetreiber. Zudem wird durch die Einführung eines <b>Pachtdeckels</b> die wirtschaftliche Gestaltung von Vorhaben zusätzlich limitiert. Diese Maßnahmen führen zu einer <b>Verschlechterung der Investitionssicherheit</b> für Akteure im Bereich der erneuerbaren Energien. Die betroffenen Marktteilnehmer sehen in diesen Eingriffen eine Gefahr für den weiteren Ausbau der Erneuerbaren. Eine kritische Überprüfung der Auswirkungen auf die Projektfinanzierung ist daher für die weitere Gesetzgebung erforderlich.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R003129",
       "org_name": "Verband zur Rücknahme und Verwertung von Elektro- und Elektronik-Altgeräten e.V. (VERE e.V.)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R003129/86942",
@@ -1418,7 +1830,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Energieeffizienz und die Schaffung von Investitionsrahmenbedingungen fallen unter die Zuständigkeit der Unterabteilung IIIA, insbesondere im Kontext der EU-Energieeffizienzziele und der Finanzierung der Transformation.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000255",
@@ -1460,7 +1872,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema Energieeffizienz ist ein zentraler Bestandteil der EU-Energiepolitik und der nationalen Klimaschutzstrategien, die in den Aufgabenbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006589",
@@ -92693,5 +93105,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1084
+  "gemini_filtered_out": 1092
 }
