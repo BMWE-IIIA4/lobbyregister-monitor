@@ -1,7 +1,384 @@
 {
-  "generated_at": "2026-10-06T09:25:56.901418+02:00",
-  "newly_added": 15,
+  "generated_at": "2026-10-07T09:05:04.744816+02:00",
+  "newly_added": 14,
   "statements": [
+    {
+      "register_number": "R007914",
+      "org_name": "e-Mobility Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007914/87095",
+      "regulatory_project_title": "Netzpaket (EnWG-Novelle)",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1e/d8/857141/Stellungnahme-Gutachten-SG2610060005.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610060005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060005",
+      "summary": "Die Interessenvertretung <b>fordert eine Optimierung</b> der energierechtlichen Rahmenbedingungen zur <b>Integration von Ladeinfrastruktur</b> in die Stromnetze. Ziel ist die <b>Beschleunigung und Standardisierung</b> der Netzanschlussprozesse, um den Ausbau der Elektromobilität effizient zu gestalten. Zudem werden <b>technische Anschlussbedingungen</b> präzisiert, um eine intelligente Steuerung der Ladepunkte zu ermöglichen. Durch diese Maßnahmen soll das <b>Zusammenspiel von Energie- und Verkehrssektor</b> im Rahmen der Sektorkopplung verbessert werden. Die regulatorischen Anpassungen sollen eine netzdienliche Nutzung der Ladeinfrastruktur sicherstellen und Engpässe vermeiden.",
+      "recipients": [
+        "BKAmt",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für die Netzintegration von Ladeinfrastruktur, was direkt unter die Themenfelder 'Strommarktdesign & -regulierung' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002833",
+      "org_name": "BVES Bundesverband Energiespeicher Systeme e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002833/87116",
+      "regulatory_project_title": "Netzanschlusspaket 2026 für Energiespeicher",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cd/b4/857308/Stellungnahme-Gutachten-SG2610060015.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2610060015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060015",
+      "summary": "Die Interessenvertretung <b>fordert eine Weiterentwicklung des Netzanschlusspakets 2026</b>, um die Verfahren für Energiespeicher effizienter und rechtssicherer zu gestalten. Ziel ist es, <b>verbindliche Fristen und transparente Priorisierungskriterien</b> für Netzanschlüsse gesetzlich zu verankern. Durch eine <b>Digitalisierung der Anschlussverfahren</b> und belastbare Zusagen soll die Planungssicherheit für neue Projekte erhöht werden. Zudem wird eine <b>diskriminierungsfreie Berücksichtigung von Energiespeichern</b> verlangt, um deren Rolle als Flexibilitätsoption zu stärken. Die Regelungen für <b>kapazitätslimitierte Netzgebiete</b> sollen so angepasst werden, dass unverhältnismäßige Einschränkungen durch Netzengpässe vermieden werden. Abschließend wird die <b>rechtssichere Ausgestaltung flexibler Netzanschlussvereinbarungen</b> als notwendige Maßnahme zur Beschleunigung der Energiewende hervorgehoben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, den Ausbau von Energiespeichern und die Optimierung von Netzanschlussverfahren, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netzanschluss, Flexibilisierung) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002477",
+      "org_name": "Amprion GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002477/87098",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/01/857132/Stellungnahme-Gutachten-SG2610060003.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610060003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060003",
+      "summary": "Das Vorhaben <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um die aktuelle Überlastung durch eine Vielzahl von Anfragen zu bewältigen. Die bisherige Regelung gemäß <b>KraftNAV</b> erweist sich für die gestiegene Anzahl an Projekten, insbesondere bei <b>Großbatteriespeichern</b>, als unzureichend. Ziel ist die Implementierung eines <b>alternativen Netzanschlussverfahrens</b>, das eine effizientere Abwicklung ermöglicht. Hierbei soll eine <b>Differenzierung oder Priorisierung</b> von Vorhaben anhand ihrer <b>Projektreife</b> eingeführt werden. Durch diese Anpassung soll die Bearbeitung der Netzanschlussanfragen bei den Übertragungsnetzbetreibern beschleunigt und rechtssicher gestaltet werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzanschlussverfahren und die Integration von Erneuerbaren Energien bzw. Speichern, welche unter die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001054",
+      "org_name": "BDG - Bundesverband der Deutschen Gießerei-Industrie e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001054/87088",
+      "regulatory_project_title": "Reform des EU-Emissionshandelssystems (EU-ETS)",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/a0/857493/Stellungnahme-Gutachten-SG2610060029.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610060029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060029",
+      "summary": "Das BMWK <b>unterstützt</b> die <b>Reform des EU-Emissionshandelssystems</b> durch eine Anpassung der Benchmark-Methodik und Investitionskonditionen. Der Vorschlag <b>fordert</b> eine <b>technologieoffene Ausgestaltung</b> der Industrial Decarbonisation Bank sowie eine <b>Anrechnung früher Dekarbonisierungsinvestitionen</b>. Zudem soll der <b>Carbon-Leakage-Schutz</b> durch eine Kombination aus kostenloser Zuteilung, CBAM und Strompreiskompensation über das Jahr 2030 hinaus langfristig gesichert werden. Die Auktionserlöse aus dem ETS sollen gezielt für den <b>Netzausbau</b> und zur Senkung der Strompreise verwendet werden. Abschließend wird eine Anpassung der Produktbenchmarks für den Eisenguss ohne Rückwirkung auf das Jahr 2026 angestrebt.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Reform des EU-Emissionshandelssystems (EU-ETS) betrifft unmittelbar die EU-Klimapolitik, die Wettbewerbsfähigkeit der Industrie sowie die EU-Energiepreise, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/87118",
+      "regulatory_project_title": "allgemeine Empfehlungen zur Industrie- und Energiepolitik",
+      "sending_date": "2026-07-17",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ed/e8/857268/Stellungnahme-Gutachten-SG2610060014.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610060014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060014",
+      "summary": "Das Dokument <b>empfiehlt</b> eine strategische Neuausrichtung der <b>Industrie- und Energiepolitik</b> mit besonderem Fokus auf die <b>Wettbewerbsfähigkeit des Mittelstands</b>. Es wird gefordert, die Rahmenbedingungen für eine <b>bezahlbare Energieversorgung</b> zu optimieren, um die Transformation der mittelständischen Wirtschaft zu sichern. Dabei stehen insbesondere die <b>Strompreise</b> und die <b>Planungssicherheit</b> bei Investitionen in klimaneutrale Technologien im Vordergrund. Die Empfehlungen zielen darauf ab, bürokratische Hürden bei der Umsetzung der Energiewende abzubauen und die <b>Versorgungssicherheit</b> langfristig zu gewährleisten. Abschließend wird eine stärkere Berücksichtigung der spezifischen Bedürfnisse kleiner und mittlerer Unternehmen in den nationalen und europäischen Energie-Strategien angemahnt.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Empfehlungen betreffen die Schnittstelle von Industriepolitik und Energiepolitik für den Mittelstand, was direkt in die Zuständigkeit der Unterabteilung IIIA (Wettbewerbsfähigkeit, Energiepreise, EU-Binnenmarkt) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/87118",
+      "regulatory_project_title": "allgemeine Empfehlungen zur Industrie- und Energiepolitik",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/84/4e/857289/Stellungnahme-Gutachten-SG2610060016.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610060016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060016",
+      "summary": "Das Dokument <b>empfiehlt</b> eine <b>industriepolitische Neuausrichtung</b> zur Stärkung der Wettbewerbsfähigkeit des Mittelstands unter Berücksichtigung aktueller Energiepreisrisiken. Es wird gefordert, die <b>Energieversorgungssicherheit</b> durch gezielte Maßnahmen zu stabilisieren, um die Produktionskosten für mittelständische Unternehmen planbar zu halten. Dabei liegt ein besonderer Fokus auf der <b>Beschleunigung des Ausbaus erneuerbarer Energien</b> sowie der Vereinfachung regulatorischer Rahmenbedingungen. Zudem wird eine <b>Entlastung bei den Energiekosten</b> angeregt, um die internationale Wettbewerbsfähigkeit im europäischen Binnenmarkt zu sichern. Die Ausführungen betonen die Notwendigkeit einer engen Verzahnung von <b>Klimaschutzvorgaben und industrieller Transformation</b>, um den Wirtschaftsstandort langfristig zu festigen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Empfehlungen betreffen die Schnittstelle von Industriepolitik und Energiepolitik für den Mittelstand, was direkt in die Zuständigkeit der Unterabteilung IIIA (Wettbewerbsfähigkeit, Energiepreise, EU-Binnenmarkt) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/87118",
+      "regulatory_project_title": "allgemeine Empfehlungen zur Industrie- und Energiepolitik",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/10/1f/857316/Stellungnahme-Gutachten-SG2610060018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610060018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060018",
+      "summary": "Das Dokument <b>empfiehlt</b> eine <b>industriepolitische Neuausrichtung</b> zur Stärkung der Wettbewerbsfähigkeit des Mittelstands unter Berücksichtigung aktueller Energiepreisrisiken. Es wird gefordert, die <b>Energieversorgungssicherheit</b> durch gezielte Maßnahmen zu stabilisieren, um die Produktionskosten für mittelständische Unternehmen planbar zu halten. Dabei liegt ein besonderer Fokus auf der <b>Beschleunigung des Ausbaus erneuerbarer Energien</b> sowie der Vereinfachung regulatorischer Rahmenbedingungen. Die Empfehlungen zielen darauf ab, die <b>Transformation zur Klimaneutralität</b> mit der wirtschaftlichen Leistungsfähigkeit der Industrie in Einklang zu bringen. Zudem wird eine stärkere Berücksichtigung der <b>mittelständischen Interessen</b> bei der Gestaltung von EU-Energie- und Industrievorgaben angemahnt. Abschließend wird eine <b>Entlastung bei den Energiekosten</b> als essenziell für den Erhalt der industriellen Basis in Deutschland identifiziert.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Empfehlungen betreffen die Schnittstelle von Industriepolitik und Energiepolitik für den Mittelstand, was direkt in die Zuständigkeit der Unterabteilung IIIA (Wettbewerbsfähigkeit, Energiepreise, EU-Binnenmarkt) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007857",
+      "org_name": "Bundesverband der Wirtschaftskanzleien in Deutschland (BWD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007857/82715",
+      "regulatory_project_title": "Flexibilisierung des Arbeitszeitgesetzes",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d5/c7/857528/Stellungnahme-Gutachten-SG2610060032.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2610060032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060032",
+      "summary": "Es bedarf einer grundlegenden Anpassung der arbeitszeitrechtlichen Rahmenbedingungen an die Realität des modernen Arbeitsmarktes. Da diese im Wesentlichen durch die europäische Arbeitszeitrichtlinie determiniert sind, bedarf es auch einer Initiative der Bundesregierung auf europäischer Ebene. Im Sinne von Sofortmaßnahmen müssen auch bereits im Rahmen der bestehenden europäischen Arbeitszeitrichtlinie jedenfalls die vorhandenen Flexibilisierungsmöglichkeiten für das deutsche Arbeitszeitrecht genutzt werden. \r\n\r\nZudem sollte eine Flexibilisierung der Wochenhöchstarbeitszeit nicht unter einen Tarifvorbehalt gestellt werden: Für Wirtschaftskanzleien als freiberuflich organisierte Strukturen ist eine tarifvertragliche Öffnung kein praktikabler Regelungsweg. ",
+      "recipients": [
+        "BMJV",
+        "BMAS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R007414",
+      "org_name": "Bundesarbeitsgemeinschaft der Schwerbehindertenvertretungen in Deutschland e. V. (BSD)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007414/87129",
+      "regulatory_project_title": "Modernisierung der Arbeitsförderung (BT-Drs. 21/7870) - Erhalt des laufenden Verzeichnisses nach § 163 Abs. 1 SGB IX",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/65/c5/857541/Stellungnahme-Gutachten-SG2610060033.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2610060033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060033",
+      "summary": "Ziel der BSD ist, dass im Gesetzentwurf zur Modernisierung und Digitalisierung der Arbeitsförderung die Pflicht der Arbeitgeber zur laufenden Führung des Verzeichnisses der Beschäftigten mit Schwerbehinderung und der gleichgestellten Beschäftigten (§ 163 Abs. 1 SGB IX) erhalten bleibt und ein Einsichts- und Auskunftsrecht von Schwerbehindertenvertretung und Wahlvorstand verankert wird. Zudem sollen der Bußgeldtatbestand des § 238 Abs. 1 Nr. 2 SGB IX bestehen bleiben, die elektronische Meldung der Vertrauenspersonen präzisiert, die Barrierefreiheit digitaler Verfahren in § 11 SGB III festgeschrieben, ein elektronischer Kommunikationsweg zwischen SBV und Bundesagentur für Arbeit geschaffen und der Schutz nach § 150 Abs. 2 Nr. 1a SGB III erhalten werden.",
+      "recipients": [
+        "BMAS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/87126",
+      "regulatory_project_title": "Berücksichtigung der Belange der verbandlichen Wasserwirtschaft bei der Erarbeitung des NWP",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9f/63/857440/Stellungnahme-Gutachten-SG2610060028.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610060028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060028",
+      "summary": "Das Regelungsvorhaben betrifft den ersten Entwurf zum Nationalen Wiederherstellungsplan (NWP) aus April 2026. Zielsetzung des NWP ist die Präzisierung, auf welche Weise die Ziele der EU-Verordnung zur Wiederherstellung der Natur national erreicht werden sollen.\r\nZiel der Interessenvertretung des DBVW ist es, im Rahmen der Ausgestaltung des NWP auf eine praxistaugliche, ausreichend konkretisierte und finanziell abgesicherte Umsetzung der EU-Wiederherstellungsverordnung hinzuwirken. Dabei sollen insbesondere die Belange der verbandlichen Wasserwirtschaft, die langfristige Sicherstellung einer auskömmlichen Finanzierung der Maßnahmen, die Verfügbarkeit erforderlicher Flächen sowie die Umsetzbarkeit der vorgesehenen Maßnahmen angemessen berücksichtigt werden.\r\n",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/87126",
+      "regulatory_project_title": "Umweltschutz-Modernisierungsgesetz und der Umweltschutz-Modernisierungsverordnung ",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f5/81/857442/Stellungnahme-Gutachten-SG2610060026.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610060026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060026",
+      "summary": "Mit dem Gesetzentwurf sollen zahlreiche umweltrechtliche Verfahren beschleunigt und digitalisiert werden. Ziel der Interessenvertretung des DBVW ist es, dass notwendige Verfahrensvereinfachungen nicht zu Lasten einer sorgfältigen wasserfachlichen Prüfung gehen und die Belange der öffentlichen Wasserwirtschaft weiterhin angemessen berücksichtigt werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002707",
+      "org_name": "Allianz \"Rechtssicherheit für politische Willensbildung\"",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002707/87145",
+      "regulatory_project_title": "Modernisierung des Gemeinnützigkeitsrechts III ",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d4/39/857704/Stellungnahme-Gutachten-SG2610060038.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610060038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060038",
+      "summary": "Die Bundesregierung hat sich im Koalitionsvertrag zur Stärkung einer lebendigen Zivilgesellschaft verpflichtet, sie will den Katalog der gemeinnützigen Zwecke modernisieren und das Gemeinnützigkeitsrecht vereinfachen.\r\nUm gemeinnützige Vereine angesichts von „Shrinking Spaces“ besser vor antidemokratischen Angriffen zu schützen, muss ein modernisiertes Gemeinnützigkeitsrecht die Funktion zivilgesellschaftlicher Organisationen in der politischen Willensbildung angemessen absichern, insbesondere durch zusätzliche Zwecke und Klarstellungen zu politischen Mitteln. Hierbei sind gemeinnützige Organisationen von Parteien und Wahlgemeinschaften zu unterscheiden, aber nicht etwa gegenüber Berufsverbänden zu benachteiligen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001474",
+      "org_name": "Deutsche Lufthansa Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001474/86913",
+      "regulatory_project_title": "Anpassung der Grundlohngrenze für SFN-Zuschläge",
+      "sending_date": "2026-10-02",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1f/b5/857408/Stellungnahme-Gutachten-SG2610060024.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610060024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060024",
+      "summary": "Die Lufthansa Group plädiert dafür, bei Arbeitnehmern, die als Besatzungsmitglieder von Luftfahrzeugen beschäftigt werden, abweichend von Satz 1 nach § 3b Absatz 2 EStG, die Grundlohngrenze für Nachtarbeit ebenfalls mit höchstens 75 Euro anzusetzen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003033",
       "org_name": "TransnetBW GmbH",
@@ -33,7 +410,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Stromnetzregulierung und die Optimierung von Netzanschlussverfahren für Erneuerbare Energien und Speicher, was direkt in den Bereich Strommarktdesign und Netzbetrieb der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -62,7 +439,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Schutz kritischer Infrastrukturen (KRITIS) ist ein integraler Bestandteil der Versorgungssicherheit und der Netzstabilität, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001647",
@@ -95,7 +472,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Stromnetzregulierung, Netzanschlussverfahren und die Integration von Speichern, was direkt unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Versorgungssicherheit) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -120,7 +497,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Schnittstelle zwischen Strominfrastruktur, Netzanschlusskapazitäten und Sektorkopplung (E-Mobilität im ÖPNV), was direkt in den Bereich Strommarktdesign und Netzregulierung der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001054",
@@ -152,7 +529,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Gießereiindustrie ist ein energieintensiver Sektor, dessen Zukunftsfähigkeit und Dekarbonisierung unmittelbar mit den Themenfeldern Strommarkt, Energiepreise und Klimaschutz der Unterabteilung IIIA verknüpft sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007414",
@@ -1229,7 +1606,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000134",
@@ -1254,7 +1631,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Rahmenbedingungen für Erneuerbare Energien, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003129",
@@ -2221,6 +2598,38 @@
         }
       ],
       "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001474",
+      "org_name": "Deutsche Lufthansa Aktiengesellschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001474/86913",
+      "regulatory_project_title": "Sicherung innerdeutscher Hub-Konnektivität",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-01",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/86/857404/Stellungnahme-Gutachten-SG2610010052.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610010052",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610010052",
+      "summary": "Die Lufthansa Group plädiert dafür, eine bedarfsgerechte Hub-Konnektivität zu sichern.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -93105,5 +93514,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1092
+  "gemini_filtered_out": 1099
 }
