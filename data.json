@@ -1,7 +1,159 @@
 {
-  "generated_at": "2026-10-07T09:05:04.744816+02:00",
-  "newly_added": 14,
+  "generated_at": "2026-10-08T09:13:31.454407+02:00",
+  "newly_added": 7,
   "statements": [
+    {
+      "register_number": "R006662",
+      "org_name": "energy traders europe",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006662/87231",
+      "regulatory_project_title": "Umsetzung der EU-Methanverordnung (EU) 2024/1787",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d6/06/858435/Stellungnahme-Gutachten-SG2610080002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610080002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080002",
+      "summary": "Die Bundesregierung <b>plant die Umsetzung</b> der EU-Methanverordnung (EU) 2024/1787 in nationales Recht. Diese Verordnung zielt darauf ab, die <b>Methanemissionen im Energiesektor</b> durch strengere Überwachungs-, Berichts- und Minderungsanforderungen signifikant zu reduzieren. Der Fokus liegt dabei auf der <b>Vermeidung von Leckagen</b> sowie der Begrenzung von Abfackeln und Ablassen bei der Gewinnung und dem Transport fossiler Energieträger. Die nationale Implementierung erfordert eine Anpassung bestehender regulatorischer Rahmenbedingungen für Energieinfrastrukturen. Ziel ist die <b>Einhaltung der Klimaziele</b> durch eine konsequente <b>Reduktion klimaschädlicher Emissionen</b> entlang der gesamten Wertschöpfungskette. Die Maßnahme unterstreicht die Bedeutung der EU-weiten Harmonisierung für eine nachhaltige Energieversorgung.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EU-Methanverordnung betrifft die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006662",
+      "org_name": "energy traders europe",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006662/87231",
+      "regulatory_project_title": "Umsetzung der EU-Methanverordnung (EU) 2024/1787",
+      "sending_date": "2026-08-31",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/71/858437/Stellungnahme-Gutachten-SG2610080003.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610080003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080003",
+      "summary": "Die Bundesregierung <b>bereitet die Umsetzung</b> der EU-Methanverordnung (EU) 2024/1787 in nationales Recht vor. Diese Verordnung zielt darauf ab, die <b>Methanemissionen im Energiesektor</b> durch strengere Anforderungen an die Überwachung, Berichterstattung und Verifizierung zu reduzieren. Betreiber von Energieanlagen werden verpflichtet, <b>Leckagen systematisch aufzuspüren</b> und zeitnah zu beheben. Zudem werden <b>Vorgaben für das Abfackeln und Ablassen</b> von Methan verschärft, um klimaschädliche Emissionen bei der Förderung und beim Transport zu minimieren. Die nationale Implementierung erfordert eine Anpassung bestehender regulatorischer Rahmenbedingungen für die <b>Energieinfrastruktur</b>. Ziel ist die Einhaltung der europäischen Klimaziele durch eine signifikante <b>Senkung der Treibhausgasemissionen</b> entlang der gesamten Wertschöpfungskette.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die EU-Methanverordnung (EU) 2024/1787 betrifft direkt die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit und fällt damit in den Zuständigkeitsbereich der Unterabteilung IIIA.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001174",
+      "org_name": "Autobahn Tank & Rast Gruppe GmbH & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001174/81202",
+      "regulatory_project_title": "Aufbau einer flächendeckenden Tank- und Ladeinfrastruktur umsetzen (u.a. Masterplan Ladeinfrastruktur)",
+      "sending_date": "2026-10-07",
+      "upload_date": "2026-10-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/42/857809/Stellungnahme-Gutachten-SG2610070002.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610070002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610070002",
+      "summary": "T&R <b>unterstützt</b> den <b>Aufbau einer flächendeckenden Ladeinfrastruktur</b> für den Straßenverkehr, um die Dekarbonisierung des Sektors voranzutreiben. Das Unternehmen setzt sich im Rahmen seiner Konzessionsverträge für die Bewirtschaftung von Rastanlagen aktiv für die Errichtung bedarfsgerechter Ladepunkte ein. Dabei liegt ein besonderer Fokus auf der Bereitstellung von Kapazitäten für sowohl Pkw als auch Nutzfahrzeuge entlang der Autobahnen. Ziel dieser Maßnahmen ist es, den <b>Hochlauf der Elektromobilität</b> durch eine verlässliche Versorgungssicherheit zu flankieren. Die Initiative zielt darauf ab, die <b>alternative Tank- und Ladeinfrastruktur</b> konsequent auszubauen und somit einen Beitrag zur <b>Sektorkopplung</b> zu leisten. Durch diese strategische Ausrichtung soll die notwendige Infrastruktur für eine klimaneutrale Mobilität langfristig gesichert werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Sektorkopplung und die notwendige Infrastruktur für den Hochlauf der Elektromobilität, was direkt mit den Zielen der Energiewende und der Dekarbonisierung des Stromsektors korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006822",
+      "org_name": "Green Biotech Europe Deutschland (GBE-D)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006822/83166",
+      "regulatory_project_title": "VERORDNUNG über mit bestimmten neuen genomischen Techniken gewonnene Pflanzen ",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-10-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8c/fd/858075/Stellungnahme-Gutachten-SG2610070026.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610070026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610070026",
+      "summary": "GBE-D setzt sich dafür ein, einen förderlichen und wissenschaftlich fundierten Regulierungsrahmen für NGTs voranzutreiben: Pflanzen, die auch natürlicherweise oder durch herkömmliche Züchtung entstehen könnten, sollen wie konventionelle Pflanzen behandelt werden und von den Anforderungen der GVO-Vorschriften ausgenommen werden.(NGT- Kategorie 1). ",
+      "recipients": [
+        "BMLEH",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006822",
+      "org_name": "Green Biotech Europe Deutschland (GBE-D)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006822/83166",
+      "regulatory_project_title": "VERORDNUNG über mit bestimmten neuen genomischen Techniken gewonnene Pflanzen ",
+      "sending_date": "2026-09-24",
+      "upload_date": "2026-10-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c9/04/858077/Stellungnahme-Gutachten-SG2610070027.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610070027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610070027",
+      "summary": "GBE-D setzt sich dafür ein, einen förderlichen und wissenschaftlich fundierten Regulierungsrahmen für NGTs voranzutreiben: Pflanzen, die auch natürlicherweise oder durch herkömmliche Züchtung entstehen könnten, sollen wie konventionelle Pflanzen behandelt werden und von den Anforderungen der GVO-Vorschriften ausgenommen werden.(NGT- Kategorie 1). ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001391",
+      "org_name": "RTL Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001391/87169",
+      "regulatory_project_title": "Mediendienste-Investitionsverpflichtungs-Gesetz: Sicherung des Handlungsspielraums privater Medienanbieter",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-10-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ec/ee/857857/Stellungnahme-Gutachten-SG2610070009.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2610070009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610070009",
+      "summary": "Sicherung des Handlungsspielraums von privaten Medienanbietern durch möglichst weitreichenden Verzicht auf Investitionsverpflichtungen, Quoten und Subquoten und weitere dirigistische Eingriffe in die Vertragsfreiheit (Rechteumfang, Regelungen zu unabhängigen Produzenten) sowie Verhinderung von zusätzlicher Bürokratie (Auskunfts- und Meldeverpflichtungen).",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007914",
       "org_name": "e-Mobility Deutschland e.V.",
@@ -32,7 +184,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die regulatorischen Rahmenbedingungen für die Netzintegration von Ladeinfrastruktur, was direkt unter die Themenfelder 'Strommarktdesign & -regulierung' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002833",
@@ -69,7 +221,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Netzregulierung, den Ausbau von Energiespeichern und die Optimierung von Netzanschlussverfahren, welche unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netzanschluss, Flexibilisierung) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002477",
@@ -102,7 +254,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Strommarktregulierung, Netzanschlussverfahren und die Integration von Erneuerbaren Energien bzw. Speichern, welche unter die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001054",
@@ -130,7 +282,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Reform des EU-Emissionshandelssystems (EU-ETS) betrifft unmittelbar die EU-Klimapolitik, die Wettbewerbsfähigkeit der Industrie sowie die EU-Energiepreise, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -163,7 +315,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Empfehlungen betreffen die Schnittstelle von Industriepolitik und Energiepolitik für den Mittelstand, was direkt in die Zuständigkeit der Unterabteilung IIIA (Wettbewerbsfähigkeit, Energiepreise, EU-Binnenmarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -196,7 +348,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Empfehlungen betreffen die Schnittstelle von Industriepolitik und Energiepolitik für den Mittelstand, was direkt in die Zuständigkeit der Unterabteilung IIIA (Wettbewerbsfähigkeit, Energiepreise, EU-Binnenmarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000594",
@@ -229,7 +381,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Empfehlungen betreffen die Schnittstelle von Industriepolitik und Energiepolitik für den Mittelstand, was direkt in die Zuständigkeit der Unterabteilung IIIA (Wettbewerbsfähigkeit, Energiepreise, EU-Binnenmarkt) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007857",
@@ -29518,6 +29670,30 @@
         }
       ],
       "priority": 3,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006822",
+      "org_name": "Green Biotech Europe Deutschland (GBE-D)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006822/83166",
+      "regulatory_project_title": "VERORDNUNG über mit bestimmten neuen genomischen Techniken gewonnene Pflanzen ",
+      "sending_date": "2026-05-13",
+      "upload_date": "2026-07-15",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/de/fc/858073/Stellungnahme-Gutachten-SG2607150031.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2607150031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607150031",
+      "summary": "GBE-D setzt sich dafür ein, einen förderlichen und wissenschaftlich fundierten Regulierungsrahmen für NGTs voranzutreiben: Pflanzen, die auch natürlicherweise oder durch herkömmliche Züchtung entstehen könnten, sollen wie konventionelle Pflanzen behandelt werden und von den Anforderungen der GVO-Vorschriften ausgenommen werden.(NGT- Kategorie 1). ",
+      "recipients": [
+        "BMFTR"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
       "gemini_status": "filtered"
     },
     {
@@ -93514,5 +93690,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1099
+  "gemini_filtered_out": 1103
 }
