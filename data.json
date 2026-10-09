@@ -1,7 +1,32 @@
 {
-  "generated_at": "2026-10-08T09:13:31.454407+02:00",
-  "newly_added": 7,
+  "generated_at": "2026-10-09T09:17:07.767634+02:00",
+  "newly_added": 16,
   "statements": [
+    {
+      "register_number": "R001137",
+      "org_name": "Vattenfall GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001137/87303",
+      "regulatory_project_title": "Änderung der Rahmenbedingungen für erneuerbare Energien",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c3/94/858972/Stellungnahme-Gutachten-SG2610090002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610090002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090002",
+      "summary": "Der Bundestag <b>fordert</b> eine <b>Anpassung der Rahmenbedingungen</b> für erneuerbare Energien, um die <b>Investitionssicherheit</b> langfristig zu gewährleisten. Ziel der Initiative ist es, den <b>kosteneffizienten Ausbau</b> der erneuerbaren Stromerzeugung in Deutschland maßgeblich zu beschleunigen. Dabei sollen regulatorische Hürden abgebaut werden, um die Attraktivität für private und institutionelle Investoren zu erhöhen. Die Maßnahme zielt darauf ab, die nationalen Klimaziele durch eine verlässliche Planungsgrundlage für Erneuerbare-Energien-Projekte zu unterstützen. Gleichzeitig soll durch optimierte Förderstrukturen eine höhere Wirtschaftlichkeit der Anlagen erreicht werden. Damit reagiert der Gesetzgeber auf den steigenden Bedarf an grüner Energie zur Sicherung der industriellen Wettbewerbsfähigkeit.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, welche unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R006662",
       "org_name": "energy traders europe",
@@ -25,7 +50,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EU-Methanverordnung betrifft die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006662",
@@ -50,7 +75,461 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die EU-Methanverordnung (EU) 2024/1787 betrifft direkt die Dekarbonisierung der Energieerzeugung, die EU-Energiegesetzgebung sowie die Versorgungssicherheit und fällt damit in den Zuständigkeitsbereich der Unterabteilung IIIA.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R006379",
+      "org_name": "INSPIRE - Institut für praxisorientiertes integriertes Recht der Elektromobilität",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006379/87029",
+      "regulatory_project_title": "Anregungen Elektromobilität beschleunigter Netzanschluss, Erleichterungen Eich-/Stromsteuerrecht;THGQuote; Appell Stoppen Ausschreibung eLkw-HPC",
+      "sending_date": "2026-04-14",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3b/12/858627/Stellungnahme-Gutachten-SG2610080018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610080018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080018",
+      "summary": "Die Verfasser <b>fordern eine Anpassung des EnWG</b>, um den <b>beschleunigten Netzanschluss</b> von Ladeinfrastruktur als zentrale Hürde für den Ausbau der Elektromobilität zu überwinden. Es wird eine <b>Harmonisierung des Stromsteuerrechts</b> angestrebt, um eine Doppelbesteuerung von Ladepunkten zu vermeiden, indem diese analog zum EnWG als Letztverbraucher definiert werden. Zudem werden <b>Erleichterungen im Mess- und Eichrecht</b> für die Instandsetzung und den Direktverkauf vorgeschlagen. Die <b>Novellierung der THG-Quote</b> soll bestehende Markthürden abbauen und die Effizienz des Systems steigern. Abschließend wird an das BMDV appelliert, die <b>Ausschreibung für eLkw-Schnellladeinfrastruktur zu stoppen</b>, da das geplante Durchleitungsmodell als wettbewerbsverzerrend kritisiert wird.",
+      "recipients": [
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Anregungen betreffen den beschleunigten Netzanschluss von Ladeinfrastruktur, regulatorische Anpassungen im Stromsteuerrecht sowie die THG-Quote, welche direkt in die Zuständigkeitsbereiche der Unterabteilung IIIA (Strommarktregulierung, Energiegesetzgebung und Sektorkopplung) fallen.",
       "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002287",
+      "org_name": "Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002287/84947",
+      "regulatory_project_title": "Bundeshaushalt: Umwelt- und Klimaschutz und soziale Gerechtigkeit sicherstellen",
+      "sending_date": "2026-08-15",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6b/cd/858498/Stellungnahme-Gutachten-SG2610080006.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610080006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080006",
+      "summary": "Der vorliegende Entwurf <b>fordert eine stärkere Verzahnung</b> von Umwelt- und Klimaschutz mit fiskalischer Verantwortung und sozialer Gerechtigkeit im Rahmen des jährlichen Haushaltsprozesses. Dabei wird eine <b>systematische Überprüfung und Reform</b> klimaschädlicher Subventionen angestrebt, um finanzielle Spielräume für die Transformation zu schaffen. Die Initiative zielt darauf ab, <b>Umschichtungsmaßnahmen zu identifizieren</b>, die sowohl ökologische Ziele fördern als auch die soziale Balance wahren. Durch eine gezielte <b>Neuausrichtung der Haushaltsmittel</b> soll die Finanzierung der Energiewende langfristig gesichert werden. Zudem wird die Notwendigkeit betont, <b>klimapolitische Prioritäten</b> stärker in die fiskalische Planung des Bundes zu integrieren. Abschließend wird an den Bundestag appelliert, die <b>soziale Gerechtigkeit</b> bei der Umsetzung klimaschutzrelevanter Haushaltsentscheidungen konsequent zu berücksichtigen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema berührt die Schnittstelle von Klimaschutz, Finanzierung der Energiewende und fiskalischer Steuerung, was direkt in die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001625",
+      "org_name": "50Hertz Transmission GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001625/87251",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-09-22",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/09/858554/Stellungnahme-Gutachten-SG2610080010.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610080010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080010",
+      "summary": "Das BMWK <b>schlägt eine Neuordnung des Netzanschlussverfahrens</b> im Strom-Übertragungsnetz vor, um den gestiegenen Anforderungen gerecht zu werden. Die bisherige Regelung gemäß KraftNAV erweist sich aufgrund der hohen Anzahl an Anfragen, insbesondere für <b>Großbatteriespeicher</b>, als nicht mehr praxistauglich. Ziel ist eine <b>Klarstellung in der KraftNAV</b>, um die administrativen Prozesse effizienter zu gestalten. Zudem soll ein <b>alternatives Netzanschlussverfahren</b> implementiert werden, das eine <b>Priorisierung von Projekten</b> nach deren tatsächlicher Projektreife ermöglicht. Diese Anpassung soll die Bearbeitung der zahlreichen Anfragen bei den Übertragungsnetzbetreibern beschleunigen und die <b>Netzintegration erneuerbarer Energien</b> sowie Speicherkapazitäten verbessern.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die Netzanschlussverfahren im Strom-Übertragungsnetz, was direkt unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netzregulierung) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001613",
+      "org_name": "Niedersächsisches Landvolk Kreisverband Wesermünde e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001613/84538",
+      "regulatory_project_title": "Änderung des BNatSchG",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2b/78/858644/Stellungnahme-Gutachten-SG2610080019.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610080019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080019",
+      "summary": "Das Landvolk Niedersachsen <b>fordert eine grundlegende Überarbeitung</b> des Gesetzentwurfs zur Änderung des BNatSchG. Der Verband warnt davor, dass pauschale naturschutzrechtliche Aufwertungen die <b>bauliche und wirtschaftliche Entwicklung</b> landwirtschaftlicher Betriebe im Außenbereich blockieren könnten. Es werden <b>klare Abgrenzungskriterien</b> verlangt, um eine faktische Verhinderung von Betriebsentwicklungen zu vermeiden. Zudem mahnt der Verband <b>Rechtssicherheit hinsichtlich der Rechtsfolgen</b> bei der Wiedervernässung an. Ziel der Forderungen ist es, die <b>Entwicklung ländlicher Räume</b> dauerhaft zu sichern und die Akzeptanz für Naturschutzmaßnahmen nicht zu gefährden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Änderung des BNatSchG betrifft die Flächenverfügbarkeit für den Ausbau erneuerbarer Energien und die Netzinfrastruktur im Außenbereich, was direkt mit den Zielen der Energiewende und der Flächennutzung für Energieprojekte korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001354",
+      "org_name": "Deutsche Shell Holding GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001354/87254",
+      "regulatory_project_title": "Vorschlag zur Schaffung eines Nachfragemechanismus für dekarbonisierte Industrieprodukte",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4f/74/858584/Stellungnahme-Gutachten-SG2610080012.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610080012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080012",
+      "summary": "Der Vorschlag <b>fordert die Einführung eines EU-weiten Nachfragemechanismus</b> für dekarbonisierte Industrieprodukte wie Stahl, Zement und Chemikalien. Durch eine <b>verbindliche Vermarktungsverpflichtung</b> sollen gezielte Anreize für die Transformation energieintensiver Wertschöpfungsketten geschaffen werden. Die Finanzierung der notwendigen Dekarbonisierungsmaßnahmen soll direkt über diesen Mechanismus sichergestellt werden. Um Wettbewerbsverzerrungen im EU-Binnenmarkt zu vermeiden, ist eine <b>Gleichbehandlung von Importen</b> vorgesehen. Damit zielt das Instrument auf eine <b>Stärkung der industriellen Wettbewerbsfähigkeit</b> im Rahmen des EU Green Deals ab. Der Ansatz adressiert die Herausforderungen der <b>Dekarbonisierung der europäischen Industrie</b> durch marktwirtschaftliche Steuerungsinstrumente.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Vorschlag betrifft die EU-Industriepolitik, den Clean Industrial Deal sowie die Dekarbonisierung energieintensiver Industrien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001354",
+      "org_name": "Deutsche Shell Holding GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001354/87254",
+      "regulatory_project_title": "PPAs zwischen EEG und Netzanschlusspaket",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/68/f7/858586/Stellungnahme-Gutachten-SG2610080013.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610080013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080013",
+      "summary": "Die vorliegende Analyse <b>warnt vor negativen Auswirkungen</b> der EEG-Reform sowie des Netzanschlusspakets auf den Markt für ungeförderte Anlagen. Durch die Überarbeitung der Rahmenbedingungen für den Ausbau erneuerbarer Energien, insbesondere bei Netzanschluss und Gewinnabschöpfung, droht eine <b>Beeinträchtigung der Liquidität</b> im PPA-Markt. Die regulatorischen Änderungen könnten die wirtschaftliche Attraktivität von <b>Power Purchase Agreements</b> für Investoren und Betreiber signifikant mindern. Es wird darauf hingewiesen, dass die <b>Interdependenz zwischen Förderregime</b> und privatwirtschaftlichen Stromlieferverträgen bei der Gesetzgebung stärker berücksichtigt werden muss. Eine <b>Verschlechterung der Investitionsbedingungen</b> für ungeförderte Projekte könnte den notwendigen Ausbau der Erneuerbaren insgesamt verlangsamen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, PPA-Marktentwicklungen und die Rahmenbedingungen für den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001348",
+      "org_name": "Shell Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001348/87255",
+      "regulatory_project_title": "Vorschlag zur Schaffung eines Nachfragemechanismus für dekarbonisierte Industrieprodukte ",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/c9/858605/Stellungnahme-Gutachten-SG2610080016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610080016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080016",
+      "summary": "Der Vorschlag <b>fordert die Einführung eines EU-weiten Nachfragemechanismus</b> für dekarbonisierte Industrieprodukte, um die Transformation energieintensiver Sektoren gezielt voranzutreiben. Durch eine <b>verbindliche Vermarktungsverpflichtung</b> für Erzeugnisse wie Stahl, Zement und Chemikalien sollen notwendige Dekarbonisierungsmaßnahmen innerhalb der Wertschöpfungsketten finanziert werden. Das Instrument zielt darauf ab, die Wettbewerbsfähigkeit der europäischen Industrie im Rahmen des Green Deals zu stärken. Um Wettbewerbsverzerrungen zu vermeiden, soll die <b>Regelung explizit auch für Importe</b> gelten. Damit adressiert der Vorstoß die Herausforderungen der industriellen Dekarbonisierung und die <b>Sicherung des EU-Binnenmarktes</b> gegenüber internationalen Wettbewerbern. Der Mechanismus soll somit als zentrales Steuerungsinstrument für den <b>Markthochlauf klimaneutraler Industrieprodukte</b> fungieren.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Vorschlag betrifft die EU-Industriepolitik, den Clean Industrial Deal sowie die Dekarbonisierung energieintensiver Industrien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001348",
+      "org_name": "Shell Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001348/87255",
+      "regulatory_project_title": "PPAs zwischen EEG und Netzanschlusspaket",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6d/71/858607/Stellungnahme-Gutachten-SG2610080015.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610080015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080015",
+      "summary": "Die vorliegende Analyse <b>kritisiert</b> die Auswirkungen der EEG-Reform und des Netzanschlusspakets auf den <b>PPA-Markt</b>. Es wird dargelegt, dass die neuen regulatorischen Rahmenbedingungen für den Ausbau erneuerbarer Energien, insbesondere bei Netzanschluss und Gewinnabschöpfung, die <b>Liquidität</b> für ungeförderte Anlagen gefährden. Die Anpassungen könnten die wirtschaftliche Attraktivität von <b>Stromabnahmeverträgen</b> signifikant mindern. Es besteht die Sorge, dass durch die regulatorische Überarbeitung die <b>Investitionssicherheit</b> für privatwirtschaftliche Energieprojekte sinkt. Die Akteure fordern eine Überprüfung der Maßnahmen, um den <b>Markthochlauf</b> von PPA-basierten Anlagen nicht zu behindern. Eine stärkere Harmonisierung zwischen staatlicher Förderung und marktbasierten Finanzierungsmodellen wird als notwendig erachtet.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Schnittstelle zwischen EEG-Förderung, Netzanschlussbedingungen und dem PPA-Markt, was unter die Zuständigkeit der Unterabteilung IIIA für Erneuerbare Energien und Strommarktregulierung fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000613",
+      "org_name": "Deutsches Aktieninstitut e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000613/87184",
+      "regulatory_project_title": "Erhaltung der globalen Wettbewerbsfähigkeit der EU",
+      "sending_date": "2026-10-07",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/15/b6/858516/Stellungnahme-Gutachten-SG2610080007.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610080007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080007",
+      "summary": "Die Organisation <b>fordert</b> eine <b>Optimierung der EU-Kapitalmarktregulierung</b>, um die notwendigen Investitionen für die industrielle Transformation abzusichern. Ziel ist es, die <b>Finanzierung der digitalen und nachhaltigen Transformation</b> von Unternehmen zu erleichtern und somit deren Zukunftsfähigkeit zu stärken. Durch verbesserte Rahmenbedingungen soll die <b>globale Wettbewerbsfähigkeit</b> europäischer Akteure langfristig erhalten und ausgebaut werden. Die Initiative adressiert dabei die Notwendigkeit, Kapitalflüsse effizienter in Richtung klimaneutraler Technologien zu lenken. Damit soll ein wesentlicher Beitrag zum Erfolg des europäischen Wirtschaftsstandorts im internationalen Vergleich geleistet werden. Die vorgeschlagenen Maßnahmen zielen auf eine Stärkung der <b>Investitionskraft</b> innerhalb des EU-Binnenmarktes ab.",
+      "recipients": [
+        "AA",
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Wettbewerbsfähigkeit und die Finanzierung der industriellen Transformation, was direkt mit den Themenfeldern 'EU-Energiepolitik', 'Clean Industrial Deal' und 'Finanzierungsbedarfe Transformation' der Unterabteilung IIIA korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003052",
+      "org_name": "RheinEnergie AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003052/87288",
+      "regulatory_project_title": "Änderung des Wärmeplanungsgesetzes (WPG) für eine technologieoffene und kosteneffiziente Dekarbonisierung der Wärmeversorgung",
+      "sending_date": "2026-10-02",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/27/5b/858792/Stellungnahme-Gutachten-SG2610080027.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610080027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080027",
+      "summary": "Aufbau von Rahmenbedingungen für eine technologieoffene und kosteneffiziente Dekarbonisierung der Wärmeversorgung zur Erreichung der klimaschutzziele auf den jeweiligen politischen Ebenen.\r\nDie gesetzlichen Dekarbonisierungsquoten für Wärmenetze sollten betreiberbezogen statt netz-bezogen erfüllt werden können. Eine Saldierung über alle Netze eines Betreibers vermeidet ineffiziente Investitionen. Die Dekarbonisierungsziele müssen dafür nicht angepasst werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003022",
+      "org_name": "Pestizid Aktions-Netzwerk e.V. (PAN Germany)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003022/87131",
+      "regulatory_project_title": "Ewigkeitschemikalien PFAS regulieren und als Stoffgruppe beschränken",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4e/5b/858700/Stellungnahme-Gutachten-SG2610080021.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610080021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080021",
+      "summary": "Ziel ist die generelle Beschränkung von PFAS Chemikalien im Rahmen von REACH und dem Pestizidrecht. Gespräche und Schreiben an MdBs und dem BMUV im Rahmen der Debatte im Deutschen Bundestag  zum PFAS-Beschränkungsdossier auf EU-Ebene: https://echa.europa.eu/de/registry-of-restriction-intentions/-/dislist/details/0b0236e18663449b und dem Antrag der Fraktion CDU/CSU, Drucksache 20/9736.\r\n\r\n\r\n\r\n",
+      "recipients": [
+        "BMLEH",
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001190",
+      "org_name": "ONTRAS Gastransport GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001190/87247",
+      "regulatory_project_title": "Regelungen zu Netzzugang und Netzanschluss von Biomethananlagen",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d0/a5/858568/Stellungnahme-Gutachten-SG2610080011.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610080011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080011",
+      "summary": "ONTRAS setzt sich für zügige, rechtssichere und volkswirtschaftlich effiziente Nachfolgeregelungen für Netzzugang und Netzanschluss von Biomethananlagen ein. Dazu gehören insbesondere Regelungen zur Ausweisung von Biomethannetzgebieten zur Schaffung einer langfristigen Perspektive für den Netzanschluss. ",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000729",
+      "org_name": "BDE Bundesverband der Deutschen Entsorgungs-, Wasser- und Kreislaufwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000729/87068",
+      "regulatory_project_title": "Verbrauchsteuer auf Kunststoffverpackungen (sog. Plastiksteuer)",
+      "sending_date": "2026-09-30",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/31/8d/858761/Stellungnahme-Gutachten-SG2610080025.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2610080025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080025",
+      "summary": "Nach Presseberichten beabsichtigt das Bundesministerium der Finanzen, dem Haushaltsausschuss des Deutschen Bundestages kurzfristig eine Formulierungshilfe zur Einführung einer neuen Verbrauchsteuer auf Kunststoffverpackungen zuzuleiten. Die Regelung soll zum Haushaltsbegleitgesetz 2027 eingebracht werden. Eine Beteiligung der fachlich betroffenen Bundesministerien und eine Befassung des Bundeskabinetts mit dem konkreten Regelungsvorschlag sind offenbar nicht vorgesehen. Der BDE wirbt beim Kanzleramt dafür, ein solches Vorgehen nicht zuzulassen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/87276",
+      "regulatory_project_title": "Änderungen im Entwurf der KOM für eine RL zur Änderung von Anhang II der RL 2009/48/EG",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/26/b3/858773/Stellungnahme-Gutachten-SG2610080026.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610080026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080026",
+      "summary": "Der HDE setzt sich für eine längere Übergangsfrist ein. Außerdem sollten die neuen Vorgaben nur für ab dem Geltungsbeginn erstmallig in Verkehr gebrachtes Sielzeug gelten. Schließlich weisen wir darauf hin, dass der Grenzwert für Bisphenol A so niedrig ist, dass in der Praxis Probleme beim Nachweis der Konfirmität zu erwarten sind. \r\n",
+      "recipients": [
+        "BMAS",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/87244",
+      "regulatory_project_title": "Einführung einer Plastiksteuer",
+      "sending_date": "2026-10-02",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2a/37/858528/Stellungnahme-Gutachten-SG2610080009.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610080009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080009",
+      "summary": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre. PlasticsEurope lehnt eine nationale Plastiksteuer bzw. Umlage der EU-Plastikabgabe ab. Stattdessen fordert der Verband gezielte Anreizsysteme für Recyclingfähigkeit und Rezyklateinsatz, insbesondere über die Ökomodulierung der Lizenzentgelte.",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R001174",
@@ -79,7 +558,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Sektorkopplung und die notwendige Infrastruktur für den Hochlauf der Elektromobilität, was direkt mit den Zielen der Energiewende und der Dekarbonisierung des Stromsektors korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006822",
@@ -93690,5 +94169,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1103
+  "gemini_filtered_out": 1109
 }
