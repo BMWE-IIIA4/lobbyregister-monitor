@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T09:17:07.767634+02:00",
-  "newly_added": 16,
+  "generated_at": "2026-10-10T08:54:19.462994+02:00",
+  "newly_added": 6,
   "statements": [
     {
       "register_number": "R001137",
@@ -25,7 +25,174 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die nationalen Rahmenbedingungen für erneuerbare Energien, welche unter das Themenfeld 'Erneuerbare Energien (national)' der Unterabteilung IIIA fallen.",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/87313",
+      "regulatory_project_title": "Änderung der Inhalte des EEG-Kabinettsentwurfs",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/35/48/859127/Stellungnahme-Gutachten-SG2610090006.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610090006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090006",
+      "summary": "Der Entwurf <b>schlägt Anpassungen</b> am EEG-Kabinettsentwurf vor, um die Rahmenbedingungen für erneuerbare Energien effizienter zu gestalten. Es wird gefordert, <b>PPA-Frontjahre</b> mit einer späteren CfD-Absicherung zu ermöglichen und die <b>Übererlösabschöpfung</b> durch eine negative Marktprämie zu vereinfachen. Zudem wird die <b>Absicherung von Wind-Ausschreibungen</b> über 2032 hinaus sowie der Verzicht auf eine <b>Pachthöhenbegrenzung</b> bei Windenergie an Land angeregt. Zur Förderung der Systemdienlichkeit sollen starre Einspeisebegrenzungen für PV-Anlagen vermieden und die <b>Direktvermarktung für Kleinanlagen</b> praxistauglich erhalten bleiben. Abschließend wird eine bessere <b>Abstimmung zwischen EEG, Netzanschlusspaket und AgNes</b> sowie eine Ausnahme für RFNBO-Nachweise vom Doppelvermarktungsverbot gefordert.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Finanzierung, die Ausgestaltung von Ausschreibungsmechanismen und die Marktintegration erneuerbarer Energien, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
       "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/87313",
+      "regulatory_project_title": "Änderung der Inhalte des EEG-Kabinettsentwurfs",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5b/79/859129/Stellungnahme-Gutachten-SG2610090007.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610090007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090007",
+      "summary": "Der Entwurf <b>schlägt Anpassungen</b> am EEG-Kabinettsentwurf vor, um die Rahmenbedingungen für Erneuerbare Energien effizienter zu gestalten. Es wird gefordert, <b>PPA-Frontjahre</b> mit einer späteren CfD-Absicherung zu ermöglichen und die <b>Übererlösabschöpfung</b> durch eine negative Marktprämie zu vereinfachen. Zudem soll die <b>Pachthöhenbegrenzung</b> für Windenergie an Land entfallen, während <b>Resilienzausschreibungen</b> und langfristige Absicherungen für Windkraft gestärkt werden sollen. Die <b>Direktvermarktung</b> für Kleinanlagen unter 25 kW soll erhalten und praxistauglich ausgestaltet werden, um starre Einspeisebegrenzungen bei PV-Anlagen zu vermeiden. Abschließend wird eine bessere <b>Abstimmung zwischen EEG</b>, Netzanschlusspaket und AgNes sowie eine Ausnahme für <b>RFNBO-Nachweise</b> vom Doppelvermarktungsverbot angestrebt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Finanzierung, die Ausgestaltung von Ausschreibungsmodellen für Erneuerbare Energien sowie die Marktintegration von Anlagen, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/87313",
+      "regulatory_project_title": "Änderung der Inhalte des EEG-Kabinettsentwurfs",
+      "sending_date": "2026-09-30",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/07/71/859131/Stellungnahme-Gutachten-SG2610090013.pdf",
+      "pdf_pages": 27,
+      "sg_number": "SG2610090013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090013",
+      "summary": "Der Entwurf <b>schlägt Anpassungen</b> am EEG-Kabinettsentwurf vor, um die Rahmenbedingungen für Erneuerbare Energien effizienter zu gestalten. Es wird gefordert, <b>PPA-Frontjahre</b> mit einer späteren CfD-Absicherung zu ermöglichen und die <b>Übererlösabschöpfung</b> durch eine negative Marktprämie zu vereinfachen. Zudem sollen <b>Resilienzausschreibungen</b> ergänzt und die Förderung für Wind an Land über 2032 hinaus gesichert werden, während eine <b>Pachthöhenbegrenzung</b> abgelehnt wird. Zur Stärkung der Systemdienlichkeit sollen starre Einspeisebegrenzungen für PV-Anlagen vermieden und die <b>Direktvermarktung</b> für Kleinanlagen praxistauglich erhalten bleiben. Abschließend wird eine bessere <b>Abstimmung zwischen EEG</b>, Netzanschlusspaket und AgNes sowie eine Ausnahme für RFNBO-Nachweise vom Doppelvermarktungsverbot angestrebt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Finanzierung, die Ausgestaltung von Ausschreibungen für Erneuerbare Energien sowie die Marktintegration, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/87313",
+      "regulatory_project_title": "Anpassung des Auktionsdesigns im nationalen Brennstoffemissionshandel",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/96/b9/859133/Stellungnahme-Gutachten-SG2610090008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610090008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090008",
+      "summary": "Die Bundesregierung <b>strebt eine Anpassung</b> des Auktionsdesigns im Rahmen der Novellierung der Brennstoffemissionshandelsverordnung an. Dabei soll die <b>maximale Gebotsmenge</b> weiterhin auf 50 Prozent der jeweiligen Versteigerungsmenge festgeschrieben werden. Zudem ist vorgesehen, die <b>Überschuss- und Nachkaufmengenpreise</b> auf dem aktuellen Niveau zu belassen und von einer Erhöhung abzusehen. Ein weiterer zentraler Punkt ist, dass der für das Jahr 2026 prognostizierte <b>Zusatzbedarf an Zertifikaten</b> nicht von der Gesamtversteigerungsmenge des Folgejahres 2027 in Abzug gebracht wird. Diese Maßnahmen dienen der <b>Stabilisierung des Auktionsverfahrens</b> und sollen eine verlässliche Planungsgrundlage für die Marktteilnehmer im nationalen Emissionshandel gewährleisten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Anpassung des Auktionsdesigns im nationalen Brennstoffemissionshandel betrifft direkt die klimapolitische Steuerung und die regulatorischen Rahmenbedingungen der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/87310",
+      "regulatory_project_title": "Ausschreibungsedesign Windenergie Offshore",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e7/f1/859014/Stellungnahme-Gutachten-SG2610090005.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610090005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090005",
+      "summary": "Der Bundestag <b>schlägt</b> eine <b>effiziente Ausgestaltung</b> des Ausschreibungsdesigns für Windenergie auf See vor, um den Ausbau der Offshore-Kapazitäten gezielt zu beschleunigen. Ziel ist es, durch optimierte Rahmenbedingungen die <b>Investitionsrisiken</b> für Projektentwickler signifikant zu <b>reduzieren</b>. Gleichzeitig soll durch das neue Design die <b>Realisierungswahrscheinlichkeit</b> der geplanten Windparks erhöht werden, um die nationalen Ausbauziele sicher zu erreichen. Die Maßnahme fokussiert sich auf eine verlässliche Planungssicherheit für Investoren im Rahmen der Energiewende. Damit soll eine zügige Umsetzung der Offshore-Projekte gewährleistet werden, die für die Dekarbonisierung des Stromsystems essenziell ist.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA für grenzüberschreitende EE-Kooperationsprojekte und Offshore-Kooperationen sowie die nationale Umsetzung der Erneuerbaren Energien.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006695",
+      "org_name": "Pirelli Deutschland ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006695/87264",
+      "regulatory_project_title": "Änderung der EU-Reifenkennzeichnungsverordnung (EU) 2020/740: Praxistaugliche Vereinfachung und stärkere Digitalisierung der Reifenkennzeichnung ",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/23/0e/859234/Stellungnahme-Gutachten-SG2610090015.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610090015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090015",
+      "summary": "Im Rahmen der geplanten Änderung der EU-Reifenkennzeichnungsverordnung (EU) 2020/740 setzt sich Pirelli für eine praxistaugliche Vereinfachung und stärkere Digitalisierung der Reifenkennzeichnung ein. Pirelli unterstützt dabei die Positionen von Tyres Europe, dem europäischen Verband der Reifenhersteller, in dem Pirelli Mitglied ist. Ziel ist eine praxistaugliche Vereinfachung und Digitalisierung der Reifenkennzeichnung, insbesondere durch die Begrenzung zusätzlicher Informations- und Dokumentationspflichten in EPREL sowie die Vermeidung unnötiger administrativer Belastungen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R006662",
@@ -101,7 +268,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anregungen betreffen den beschleunigten Netzanschluss von Ladeinfrastruktur, regulatorische Anpassungen im Stromsteuerrecht sowie die THG-Quote, welche direkt in die Zuständigkeitsbereiche der Unterabteilung IIIA (Strommarktregulierung, Energiegesetzgebung und Sektorkopplung) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002287",
@@ -126,7 +293,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema berührt die Schnittstelle von Klimaschutz, Finanzierung der Energiewende und fiskalischer Steuerung, was direkt in die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001625",
@@ -159,7 +326,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die Netzanschlussverfahren im Strom-Übertragungsnetz, was direkt unter die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netzregulierung) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001613",
@@ -188,7 +355,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Änderung des BNatSchG betrifft die Flächenverfügbarkeit für den Ausbau erneuerbarer Energien und die Netzinfrastruktur im Außenbereich, was direkt mit den Zielen der Energiewende und der Flächennutzung für Energieprojekte korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001354",
@@ -227,7 +394,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Vorschlag betrifft die EU-Industriepolitik, den Clean Industrial Deal sowie die Dekarbonisierung energieintensiver Industrien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001354",
@@ -266,7 +433,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung, PPA-Marktentwicklungen und die Rahmenbedingungen für den Ausbau erneuerbarer Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001348",
@@ -305,7 +472,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Vorschlag betrifft die EU-Industriepolitik, den Clean Industrial Deal sowie die Dekarbonisierung energieintensiver Industrien, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001348",
@@ -344,7 +511,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Schnittstelle zwischen EEG-Förderung, Netzanschlussbedingungen und dem PPA-Markt, was unter die Zuständigkeit der Unterabteilung IIIA für Erneuerbare Energien und Strommarktregulierung fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000613",
@@ -370,7 +537,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Wettbewerbsfähigkeit und die Finanzierung der industriellen Transformation, was direkt mit den Themenfeldern 'EU-Energiepolitik', 'Clean Industrial Deal' und 'Finanzierungsbedarfe Transformation' der Unterabteilung IIIA korrespondiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003052",
@@ -94169,5 +94336,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1109
+  "gemini_filtered_out": 1110
 }
