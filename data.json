@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T08:54:19.462994+02:00",
-  "newly_added": 6,
+  "generated_at": "2026-10-11T08:58:47.006470+02:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R001137",
@@ -54,7 +54,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Finanzierung, die Ausgestaltung von Ausschreibungsmechanismen und die Marktintegration erneuerbarer Energien, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -83,7 +83,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Finanzierung, die Ausgestaltung von Ausschreibungsmodellen für Erneuerbare Energien sowie die Marktintegration von Anlagen, welche zentrale Aufgabenbereiche der Unterabteilung IIIA darstellen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -112,7 +112,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der Entwurf betrifft direkt die EEG-Finanzierung, die Ausgestaltung von Ausschreibungen für Erneuerbare Energien sowie die Marktintegration, welche zentrale Aufgaben der Unterabteilung IIIA sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -141,7 +141,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Anpassung des Auktionsdesigns im nationalen Brennstoffemissionshandel betrifft direkt die klimapolitische Steuerung und die regulatorischen Rahmenbedingungen der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000252",
@@ -166,7 +166,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA für grenzüberschreitende EE-Kooperationsprojekte und Offshore-Kooperationen sowie die nationale Umsetzung der Erneuerbaren Energien.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006695",
