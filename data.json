@@ -1,7 +1,511 @@
 {
-  "generated_at": "2026-10-12T09:11:36.698049+02:00",
-  "newly_added": 0,
+  "generated_at": "2026-10-13T09:35:22.288072+02:00",
+  "newly_added": 17,
   "statements": [
+    {
+      "register_number": "R007269",
+      "org_name": "International Solar Energy Research Center Konstanz, ISC Konstanz e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007269/87450",
+      "regulatory_project_title": "Bundeshaushalt 2027: Sicherung der Verpflichtungsermächtigungen für die angewandte Energieforschung im KTF",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2c/28/860243/Stellungnahme-Gutachten-SG2610120034.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610120034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120034",
+      "summary": "Das ISC Konstanz <b>fordert die Rücknahme der geplanten Kürzungen</b> bei den Verpflichtungsermächtigungen für die angewandte Energieforschung im Bundeshaushalt 2027. Die Organisation <b>plädiert für eine Sicherung der Mittel</b> mindestens auf dem Niveau des Vorjahres, um die Planungssicherheit für Forschungsvorhaben zu gewährleisten. Durch die Bereitstellung ausreichender Budgets sollen <b>neue mehrjährige Forschungs- und Transferprojekte</b> ermöglicht werden. Dies ist nach Ansicht des Instituts essenziell, um den <b>Technologietransfer zu fördern</b> und die Innovationskraft zu erhalten. Zudem wird betont, dass eine stabile Finanzierung die <b>Wettbewerbsfähigkeit des deutschen Maschinen- und Anlagenbaus</b> langfristig stützt. Abschließend hebt das ISC Konstanz hervor, dass dadurch die <b>internationalen Marktchancen</b> für deutsche Energietechnologien maßgeblich verbessert werden können.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Thematik betrifft die Finanzierung der angewandten Energieforschung im Klima- und Transformationsfonds (KTF), welche direkt unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Erneuerbare Energien' der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007027",
+      "org_name": "Badenova AG & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007027/87454",
+      "regulatory_project_title": "EEG-Ausschreibungsmechanismus Wind an Land",
+      "sending_date": "2026-08-12",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/92/97/860298/Stellungnahme-Gutachten-SG2610120036.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610120036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120036",
+      "summary": "Die Verfasser <b>fordern eine Anpassung</b> des EEG-Ausschreibungsmechanismus für Windenergie an Land im Rahmen der aktuellen Novellierung. Sie kritisieren, dass die derzeitigen Regelungen die <b>strukturell höheren Kosten</b> für Anlagen in Süddeutschland unzureichend berücksichtigen. Zudem wird bemängelt, dass die <b>Netz- und Systemdienlichkeit</b> der dortigen Windenergieanlagen keine angemessene Berücksichtigung findet. Ohne eine entsprechende Korrektur der Rahmenbedingungen wird ein <b>Erliegen des Windausbaus</b> in der Region befürchtet. Ziel der Forderung ist eine regionale Differenzierung, um die <b>Wettbewerbsfähigkeit</b> und den weiteren Zubau von Windkraftanlagen in Süddeutschland sicherzustellen.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Ausgestaltung der Ausschreibungsmechanismen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007027",
+      "org_name": "Badenova AG & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007027/87454",
+      "regulatory_project_title": "EEG-Ausschreibungsmechanismus Wind an Land",
+      "sending_date": "2026-09-04",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e0/5e/860300/Stellungnahme-Gutachten-SG2610120038.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610120038",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120038",
+      "summary": "Die Verfasser <b>fordern eine Anpassung</b> des EEG-Ausschreibungsmechanismus für Windenergie an Land im Rahmen der aktuellen Novellierung. Kritisiert wird, dass die derzeitigen Regelungen die <b>strukturell höheren Kosten</b> für Windkraftanlagen in Süddeutschland unzureichend berücksichtigen. Zudem wird bemängelt, dass die <b>Netz- und Systemdienlichkeit</b> der Anlagen in dieser Region nicht ausreichend in die Vergütungsstruktur einfließt. Ohne eine entsprechende Reform befürchten die Akteure, dass der <b>Windausbau in Süddeutschland</b> vollständig zum Erliegen kommt. Ziel der Forderung ist eine regionale Differenzierung, um die <b>Wettbewerbsfähigkeit</b> und den weiteren Zubau vor Ort sicherzustellen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Ausgestaltung der Ausschreibungsmechanismen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004211",
+      "org_name": "Gesamtverband Autoteile-Handel e.V. (GVA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004211/87394",
+      "regulatory_project_title": "Digital Omnibus/Data Act - Keine Aufweichung des Rechts auf Datenzugang durch ausufernden Schutz von Geschäftsgeheimnissen",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/52/859831/Stellungnahme-Gutachten-SG2610120001.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610120001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120001",
+      "summary": "Die Organisation <b>lehnt</b> eine <b>Aufweichung des Rechts auf Datenzugang</b> im Rahmen des Digital Omnibus ab. Es wird kritisiert, dass Bestrebungen zum <b>Bürokratieabbau</b> dazu genutzt werden könnten, den Schutz von <b>Geschäftsgeheimnissen</b> zulasten der im Data Act verankerten Transparenzregeln auszuweiten. Ein uneingeschränkter Zugang zu Daten ist für die <b>digitale Transformation</b> der Energiewirtschaft und die Wettbewerbsfähigkeit im EU-Binnenmarkt essenziell. Die Organisation fordert daher, die Integrität der bestehenden Regelungen zu wahren und eine Schwächung der Nutzerrechte zu verhindern. Eine Ausweitung von Ausnahmetatbeständen würde die beabsichtigte <b>Datennutzung</b> in der Praxis erheblich erschweren.",
+      "recipients": [
+        "AA",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Data Act ist ein zentrales Instrument der EU-Energiepolitik zur Digitalisierung des Energiesektors und zur Ermöglichung datenbasierter Geschäftsmodelle, was direkt die Themenfelder EU-Energiepolitik und Strommarktregulierung berührt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004211",
+      "org_name": "Gesamtverband Autoteile-Handel e.V. (GVA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004211/87394",
+      "regulatory_project_title": "Digital Omnibus/Data Act - Keine Aufweichung des Rechts auf Datenzugang durch ausufernden Schutz von Geschäftsgeheimnissen",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1a/9f/859833/Stellungnahme-Gutachten-SG2610120002.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610120002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120002",
+      "summary": "Die Organisation <b>lehnt</b> eine <b>Aufweichung des Rechts auf Datenzugang</b> im Rahmen des Digital Omnibus ab. Es wird kritisiert, dass Bestrebungen zum <b>Bürokratieabbau</b> dazu genutzt werden könnten, den Schutz von <b>Geschäftsgeheimnissen</b> zulasten der Transparenzregeln des Data Act auszuweiten. Ein uneingeschränkter Zugang zu Daten wird als essenziell für die digitale Transformation und Wettbewerbsfähigkeit angesehen. Die Organisation fordert daher, das bestehende Gleichgewicht zwischen Geheimnisschutz und Datenverfügbarkeit zu wahren. Eine Ausweitung der Ausnahmeregelungen würde die Wirksamkeit des Data Act bei der <b>Datennutzung</b> in der Energiewirtschaft untergraben. Die Position unterstreicht die Notwendigkeit, den <b>Datenzugang</b> als zentrales Element der europäischen Digitalstrategie zu sichern.",
+      "recipients": [
+        "AA",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Data Act ist ein zentrales Instrument der EU-Energiepolitik und Digitalisierung der Energiewirtschaft, da er den Zugang zu Energiedaten regelt, was für die Sektorkopplung und das Strommarktdesign von hoher Relevanz ist.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003225",
+      "org_name": "Deutsches Studierendenwerk",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003225/87446",
+      "regulatory_project_title": "Einfache Regeln und angemessene Schwellenwerte für die Studierendenwerke beim Public Procurement Act der EU KOM",
+      "sending_date": "2026-09-30",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c4/5f/860182/Stellungnahme-Gutachten-SG2610120028.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610120028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120028",
+      "summary": "Die Studierendenwerke <b>fordern vereinfachte Vergabeverfahren</b> sowie eine gesteigerte Flexibilität, um eine kosteneffiziente Beschaffung sicherzustellen. Es wird angeregt, die <b>EU-weiten Schwellenwerte anzuheben</b>, um den administrativen Aufwand bei öffentlichen Ausschreibungen signifikant zu reduzieren. Insbesondere bei Vorhaben im <b>sozialen Wohnungsbau</b> führt die aktuelle Regelung zu einer unverhältnismäßigen Belastung durch die Pflicht zur europaweiten Ausschreibung. Durch eine Anpassung der Schwellenwerte soll sichergestellt werden, dass notwendige Investitionen nicht durch bürokratische Hürden verzögert oder verteuert werden. Die Organisation betont, dass eine <b>Entbürokratisierung des Vergaberechts</b> essenziell für die wirtschaftliche Handlungsfähigkeit der Studierendenwerke ist. Ziel ist es, die <b>Rechtssicherheit bei Beschaffungsvorgängen</b> zu erhöhen und gleichzeitig die Kosten für soziale Infrastrukturprojekte zu optimieren.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Gesetzgebung im Bereich Public Procurement (Vergaberecht), welche unter die EU-Energiepolitik und Wettbewerbsfähigkeit im EU-Binnenmarkt fällt, da sie die Rahmenbedingungen für öffentliche Beschaffungsprozesse und damit verbundene Kostenstrukturen definiert.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002202",
+      "org_name": "Power to X Allianz (PtX Allianz)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002202/87453",
+      "regulatory_project_title": "Anpassung der Rahmenbedingungen für Investitionen in PtX- und Wasserstoffprojekte",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ea/7e/859904/Stellungnahme-Gutachten-SG2610120009.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610120009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120009",
+      "summary": "Der vorliegende Vorschlag <b>fordert eine verbesserte finanzielle Ausstattung</b> bestehender Förderinstrumente, um den <b>Hochlauf grüner PtX-Produkte</b> effektiv zu beschleunigen. Im Fokus stehen dabei insbesondere die Instrumente <b>H2Global</b> sowie die <b>European Hydrogen Bank</b> im Rahmen des 'Auction as a Service'-Modells. Darüber hinaus wird die <b>Entwicklung ergänzender Maßnahmen</b> angeregt, die gezielte Anreize für die gesamte Wertschöpfungskette setzen. Dies umfasst explizit die <b>Finanzierungsperspektiven für Produktion, Transport und Anwendung</b> von Wasserstoff. Ziel ist es, die Investitionssicherheit für großskalige Wasserstoffprojekte durch verlässliche Rahmenbedingungen nachhaltig zu erhöhen. Die Initiative zielt darauf ab, die Wettbewerbsfähigkeit der deutschen und europäischen Wasserstoffwirtschaft im internationalen Kontext zu stärken.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), den EU-Wasserstoffmarkt sowie die Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001500",
+      "org_name": "ZF Friedrichshafen AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001500/87441",
+      "regulatory_project_title": "Berücksichtigung von Zulieferer Wertschöpfung im Rahmen des EU Industrial Accelerator Acts",
+      "sending_date": "2026-10-12",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f7/70/860163/Stellungnahme-Gutachten-SG2610120025.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610120025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120025",
+      "summary": "Das Dokument <b>fordert</b> die <b>Berücksichtigung von Wertschöpfungsanteilen</b> der Automobilzulieferer im Gesetzgebungsprozess zum <b>EU Industrial Accelerator Act</b>. Ziel ist es, die industrielle Basis im Rahmen der europäischen Transformationsstrategie zu stärken und die Wettbewerbsfähigkeit der Zulieferer zu sichern. Dabei soll sichergestellt werden, dass die spezifischen Anforderungen und Beiträge der Zulieferindustrie in den regulatorischen Rahmen einfließen. Die Initiative zielt darauf ab, <b>industriepolitische Leitplanken</b> zu setzen, um die <b>Resilienz der Lieferketten</b> innerhalb der EU zu erhöhen. Durch die Einbindung dieser Akteure soll eine einseitige Ausrichtung der Gesetzgebung vermieden und die <b>Wertschöpfungstiefe</b> in Europa gewahrt werden.",
+      "recipients": [
+        "Bundestag",
+        "BKAmt",
+        "BMUKN",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der EU Industrial Accelerator Act betrifft die EU-Industriepolitik und den EU-Binnenmarkt, welche eng mit der EU-Energiepolitik und der Wettbewerbsfähigkeit im EU-Binnenmarkt (Themenfeld Unterabteilung IIIA) verknüpft sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000981",
+      "org_name": "MAHLE International GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000981/87432",
+      "regulatory_project_title": "Technologieoffene CO2 Flottenregulierungen ",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a0/de/860109/Stellungnahme-Gutachten-SG2610120020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610120020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120020",
+      "summary": "Die Organisation <b>fordert</b> eine <b>technologieoffene Ausgestaltung</b> der EU-CO2-Flottenregulierung für Pkw sowie leichte und schwere Nutzfahrzeuge. Ziel ist die explizite <b>Berücksichtigung erneuerbarer Kraftstoffe</b> wie Biokraftstoffe und E-Fuels innerhalb der bestehenden regulatorischen Rahmenbedingungen. Hierzu wird die <b>Einführung einer Fahrzeugkategorie</b> für CO2-neutrale Kraftstoffe vorgeschlagen, um den Einsatz alternativer Energieträger rechtlich abzusichern. Durch diesen Ansatz soll die <b>Sektorkopplung</b> gestärkt und die Dekarbonisierung des Verkehrssektors flexibler gestaltet werden. Die Initiative richtet sich an mehrere Bundesministerien und den Bundestag, um eine Anpassung der europäischen Vorgaben zu erwirken.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik, die Sektorkopplung sowie die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000980",
+      "org_name": "MAHLE GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000980/87431",
+      "regulatory_project_title": "Technologieoffene CO2 Flottenregulierungen ",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2b/bf/860080/Stellungnahme-Gutachten-SG2610120017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2610120017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120017",
+      "summary": "Das Dokument <b>fordert eine technologieoffene Ausgestaltung</b> der EU-CO2-Flottenregulierung für Pkw sowie leichte und schwere Nutzfahrzeuge. Ziel ist die <b>Einbeziehung erneuerbarer Kraftstoffe</b> wie Biokraftstoffe und E-Fuels in die regulatorischen Rahmenbedingungen. Hierfür wird die <b>Einführung einer Fahrzeugkategorie für CO2-neutrale Kraftstoffe</b> vorgeschlagen, um den Einsatz alternativer Energieträger rechtlich abzusichern. Durch diesen Ansatz soll die <b>Sektorkopplung zwischen Energie- und Verkehrspolitik</b> gestärkt werden. Die Initiative zielt darauf ab, die einseitige Fokussierung auf rein elektrische Antriebe zu erweitern und die <b>Wettbewerbsfähigkeit klimaneutraler Kraftstoffe</b> zu sichern. Damit adressiert das Papier zentrale Aspekte der europäischen Klimagesetzgebung und der industriellen Transformationsstrategie.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik, die Sektorkopplung sowie die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/87411",
+      "regulatory_project_title": "Ergänzungen und Anpassungen zum EU-Emissionshandel",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/9b/860204/Stellungnahme-Gutachten-SG2610120023.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610120023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120023",
+      "summary": "Der BDEW <b>unterstützt</b> die <b>einheitliche Einführung des ETS 2</b> zum 1. Januar 2028 sowie den Start von Versteigerungen ab 2027. Der Verband fordert klare <b>Übergangsregelungen vom BEHG</b> zum neuen System, um Doppelbelastungen für Akteure zu vermeiden. Dabei wird ein Fokus auf <b>technologieoffene Wettbewerbsbedingungen</b> im Wärmemarkt gelegt, um die Transformation effizient zu gestalten. Die generierten Einnahmen sollen zweckgebunden in die <b>Sektoren Wärme und Gebäude</b> fließen sowie soziale Härten abfedern. Eine Nutzung der Mittel zur allgemeinen Haushaltsfinanzierung wird explizit abgelehnt. Zudem drängt der BDEW auf die zügige Einreichung des <b>nationalen Klima-Sozialplans</b>, um die Wirksamkeit des EU-Klima-Sozialfonds sicherzustellen.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS 2) und die Transformation der Sektoren Wärme und Gebäude, welche direkt mit den Aufgabenbereichen der Unterabteilung IIIA (EU-Klimapolitik, Fit for 55, Finanzierungsbedarfe Transformation) korrespondieren.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/87411",
+      "regulatory_project_title": "Änderungsvorschläge zur Beschleunigung von Planungs- und Genehmigungsverfahren im Stromsystem",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/1d/860206/Stellungnahme-Gutachten-SG2610120021.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2610120021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120021",
+      "summary": "Der BDEW <b>fordert Anpassungen</b> an den gesetzlichen Rahmenbedingungen, um <b>Planungs- und Genehmigungsverfahren</b> im Stromsystem signifikant zu beschleunigen. Ziel ist es, die notwendige Flexibilität zu erhöhen und die <b>Versorgungssicherheit</b> langfristig zu gewährleisten. Die Vorschläge fokussieren sich dabei insbesondere auf <b>Kraftwerke und Stromspeicher</b>, die unter das StromVKG fallen. Zudem sollen für <b>Pumpspeicherkraftwerke</b> sowie die Infrastruktur zur Herstellung und den Transport von <b>Konverterplattformen</b> für den Offshore-Ausbau in Hafengebieten Erleichterungen geschaffen werden. Durch diese Maßnahmen soll der Ausbau der systemrelevanten Energieinfrastruktur effizienter gestaltet werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Stromerzeugung, Kraftwerksstrategie, StromVKG und den Ausbau erneuerbarer Energien (Offshore).",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003483",
+      "org_name": "Deutscher Kartoffelhandelsverband e.V. (DKHV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003483/87429",
+      "regulatory_project_title": "Gemeinsame Marktorganisation (GMO): Nationale Umsetzung des Artikels 168 der VO (EU) Nr. 1308/2013 in der Fassung der VO (EU) 2026/1739",
+      "sending_date": "2026-10-12",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2e/c1/860087/Stellungnahme-Gutachten-SG2610120018.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610120018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120018",
+      "summary": "Ziel der Interessenvertretung ist, bei der nationalen Umsetzung des Artikels 168 der Verordnung (EU) Nr. 1308/2013 in der Fassung der Verordnung (EU) 2026/1739 eine Ausnahme für Lieferungen von Kartoffeln nach Artikel 168 Absatz 6 Buchstaben d und e vorzusehen. Damit sollen Kartoffellieferungen von der Verpflichtung zum Abschluss schriftlicher Verträge sowie von den damit verbundenen Anforderungen nach Artikel 168 Absatz 4 ausgenommen werden.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002429",
+      "org_name": "Bundesarchitektenkammer e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002429/87420",
+      "regulatory_project_title": "KOM-Entwurf für europäische Vergabe darf nicht zur Absenkung bewährter Schutzstandards für Planungsbüros führen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7b/97/860046/Stellungnahme-Gutachten-SG2610120015.pdf",
+      "pdf_pages": 27,
+      "sg_number": "SG2610120015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120015",
+      "summary": "Mit ihrem Entwurf für eine EU-Vergabeverordnung will die Europäische Kommission die bisherigen Vergaberichtlinien durch ein unmittelbar geltendes Regelwerk ersetzen. Das Ziel eines stärker vereinheitlichten Binnenmarkts ist nachvollziehbar. Allerdings drohen bewährte nationale Regelungen für die Qualität von Planungsleistungen, den Mittelstandsschutz und einen fairen Wettbewerb verloren zu gehen. Die BAK vertritt diese Kernforderungen: 1. Losvergabe als zentrales Instrument des Mittelstandsschutzes sichern, 2. Planungswettbewerbe als eigenständiges Verfahren erhalten, 3. Faire Vergütung von Planungsleistungen gewährleisten. Europa braucht ein modernes, effizientes und transparentes Vergaberecht. Allerdings nicht zulasten von Planungsqualität, Mittelstandsförderung und fairem Wettbewerb.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000496",
+      "org_name": "Industrieverband Körperpflege- und Waschmittel e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000496/87427",
+      "regulatory_project_title": "EU-Kommunalabwasserrichtlinie",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/df/58/860039/Stellungnahme-Gutachten-SG2610120014.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610120014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120014",
+      "summary": "Erweiterte Herstellerverantwortung: Schaffung eines fairen, gerechten und transparenten Rechtsrahmens mit einer fairen Kostenverteilung",
+      "recipients": [
+        "BKAmt",
+        "BMG",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001137",
       "org_name": "Vattenfall GmbH",
@@ -538,6 +1042,31 @@
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Wettbewerbsfähigkeit und die Finanzierung der industriellen Transformation, was direkt mit den Themenfeldern 'EU-Energiepolitik', 'Clean Industrial Deal' und 'Finanzierungsbedarfe Transformation' der Unterabteilung IIIA korrespondiert.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001667",
+      "org_name": "NABU (Naturschutzbund Deutschland) e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001667/86736",
+      "regulatory_project_title": "Einsatz für ambitioniertere Flottengrenzwerte Pkw auf EU-Ebene",
+      "sending_date": "2026-09-17",
+      "upload_date": "2026-10-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a8/c7/860059/Stellungnahme-Gutachten-SG2610080028.pdf",
+      "pdf_pages": 17,
+      "sg_number": "SG2610080028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610080028",
+      "summary": "Die Organisation <b>fordert</b> eine <b>ambitioniertere Ausgestaltung der CO2-Flottengrenzwerte</b> für Pkw im Rahmen der anstehenden EU-Revision im Jahr 2026. Ziel ist es, durch verschärfte Vorgaben die <b>Dekarbonisierung des Verkehrssektors</b> konsequent voranzutreiben und die europäischen Klimaziele abzusichern. Die Initiative zielt darauf ab, die <b>technologische Transformation</b> der Automobilindustrie durch klare regulatorische Rahmenbedingungen auf EU-Ebene zu beschleunigen. Dabei wird betont, dass die <b>Klimaschutzvorgaben</b> für den Fahrzeugbestand eine zentrale Rolle für die Erreichung der EU-Klimaziele spielen. Die Forderung unterstreicht die Notwendigkeit, die <b>Sektorkopplung</b> zwischen Energie- und Verkehrspolitik durch verbindliche Standards zu stärken.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Der Inhalt betrifft die EU-Klimapolitik und die Sektorkopplung, welche unter die Themenfelder der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R003052",
@@ -13709,6 +14238,43 @@
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik und den EU-Emissionshandel (ETS), welche direkt unter die Zuständigkeit der Unterabteilung IIIA (EU-Klimapolitik, Fit for 55) fallen.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000553",
+      "org_name": "GASCADE Gastransport GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000553/86499",
+      "regulatory_project_title": "EU Industrial Accelerator Act (IAA)",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-09-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/0b/859942/Stellungnahme-Gutachten-SG2609280024.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2609280024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609280024",
+      "summary": "Ein gemeinsames Schreiben <b>fordert</b> eine <b>industriepolitische Ausgestaltung</b> des EU Industrial Accelerator Act (IAA), um diesen mit fairen Wettbewerbsbedingungen in Einklang zu bringen. Die Unterzeichner warnen vor drohenden <b>Wettbewerbsverzerrungen</b>, die insbesondere öffentlich geprägte Energieunternehmen benachteiligen könnten. Zudem wird auf die negativen Auswirkungen auf den <b>Netzausbau</b> hingewiesen, die durch den Gesetzesentwurf entstehen könnten. Es besteht die Sorge, dass die geplanten Maßnahmen zu erheblichen <b>Kostensteigerungen</b> bei Infrastrukturprojekten führen. Diese finanziellen Mehrbelastungen könnten sich letztlich negativ auf die <b>Energieverbraucher</b> auswirken. Das Schreiben appelliert an das Bundeswirtschaftsministerium, bei der weiteren Gesetzgebung auf eine ausgewogene Balance zwischen industrieller Förderung und Marktintegrität zu achten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Der EU Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiegesetzgebung, Wettbewerbsbedingungen im EU-Binnenmarkt sowie die Kostenstruktur für Energieinfrastruktur und Verbraucher, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002050",
@@ -94336,5 +94902,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1110
+  "gemini_filtered_out": 1113
 }
