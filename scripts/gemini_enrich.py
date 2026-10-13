@@ -51,7 +51,16 @@ RETRY_DELAY = 10
 MAX_AI_PER_RUN = 450
 
 # PDF-Volltext-Extraktion
-PDF_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; LobbyregisterMonitor/1.0)"}
+# Das Lobbyregister liefert PDFs nur aus, wenn (1) der Urheberrechtshinweis per
+# Cookie bestaetigt ist (im Browser: Klick auf "Akzeptieren & Dokument
+# herunterladen", Cookie 24 h gueltig) und (2) ein Referer von
+# lobbyregister.bundestag.de mitgeschickt wird. Ohne Cookie wird auf die
+# Hinweisseite, ohne Referer auf die Detailseite weitergeleitet (jeweils HTML).
+PDF_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; LobbyregisterMonitor/1.0)",
+    "Referer": "https://www.lobbyregister.bundestag.de/",
+}
+PDF_COOKIES = {"copyrightAcknowledgement": "true"}
 PDF_TEXT_MAX_CHARS = 40000   # Kappung, um unter dem TPM-Limit (250K/min) zu bleiben
 PDF_MIN_CHARS = 200          # darunter: vermutlich Bild-Scan ohne Textebene -> Fallback
 
@@ -170,8 +179,12 @@ def extract_pdf_text(pdf_url):
     if not PDF_AVAILABLE or not pdf_url or not pdf_url.lower().endswith(".pdf"):
         return ""
     try:
-        resp = requests.get(pdf_url, headers=PDF_HEADERS, timeout=60)
+        resp = requests.get(pdf_url, headers=PDF_HEADERS, cookies=PDF_COOKIES, timeout=60)
         if resp.status_code != 200:
+            return ""
+        if not resp.content.startswith(b"%PDF"):
+            # Kein PDF erhalten (z.B. Hinweis- oder Detailseite als HTML)
+            print(f"  PDF nicht abrufbar, kein PDF erhalten ({resp.headers.get('Content-Type', '?')}): {pdf_url}")
             return ""
         reader = PdfReader(BytesIO(resp.content))
         parts = []

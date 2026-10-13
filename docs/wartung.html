@@ -89,6 +89,12 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li>Systemchecks: <code>Monitor Systemcheck &lt;healthcheck@lobbyregister-bot.de&gt;</code></li>
 </ul>
 
+<h3>PDF-Abruf (Urheberrechtshinweis)</h3>
+<ul>
+  <li>Das Lobbyregister liefert PDFs nur aus, wenn der Urheberrechtshinweis per Cookie <code>copyrightAcknowledgement=true</code> best&auml;tigt ist (im Browser: &bdquo;Akzeptieren &amp; Dokument herunterladen&ldquo;, 24 Stunden g&uuml;ltig) und ein Referer von <code>lobbyregister.bundestag.de</code> mitgeschickt wird. <code>gemini_enrich.py</code> setzt beides (<code>PDF_HEADERS</code>, <code>PDF_COOKIES</code>).</li>
+  <li>Erkennbar am Log-Eintrag &bdquo;PDF nicht abrufbar, kein PDF erhalten&ldquo;: Statt der PDF kam eine HTML-Seite. Die Zusammenfassung basiert dann nur auf der Metadaten-Beschreibung. Bild-Scans ohne Textebene fallen planm&auml;&szlig;ig ebenfalls auf die Metadaten zur&uuml;ck.</li>
+</ul>
+
 <h3>Gemini API</h3>
 <ul>
   <li>Verwaltung: <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a></li>
@@ -106,6 +112,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <tr><td><code>scripts/gemini_enrich.py</code></td><td>KI-Relevanzfilterung und Zusammenfassung auf Basis des PDF-Volltexts (Einzelverarbeitung), Gruppierung zusammengeh&ouml;riger Stellungnahmen, finaler HTML-Rebuild mit Ampelfarben und Institutionsfilter</td></tr>
   <tr><td><code>scripts/send_email.py</code></td><td>Wochenmail (montags, nur automatischer Trigger)</td></tr>
   <tr><td><code>scripts/health_check.py</code></td><td>Selbsttest (montags, nur automatischer Trigger)</td></tr>
+  <tr><td><code>scripts/notify_deploy_failure.py</code></td><td>Admin-Mail (an <code>ADMIN_EMAIL</code>), wenn der Pages-Deploy auch im zweiten Versuch fehlschl&auml;gt, mit Problembeschreibung und Handlungsschritten</td></tr>
   <tr><td><code>scripts/save_run_log.py</code></td><td>Workflow-Protokoll f&uuml;r Archivseite</td></tr>
   <tr><td><code>scripts/inject_admin_hash.py</code></td><td>Injiziert Passwort-Hash aus Secret in das Admin-Panel beim Build</td></tr>
   <tr><td><code>scripts/template.html</code></td><td>HTML-Vorlage mit Pagination, Regelungsvorhaben- und Institutionsfilter</td></tr>
@@ -125,7 +132,7 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;padding:1px 5px;font-family:mon
   <li><strong>inject_admin_hash.py</strong> &ndash; Passwort-Hash aus Secret in das Admin-Panel einsetzen</li>
   <li><strong>save_run_log.py</strong> &ndash; Durchlauf-Statistiken an <code>run_history.json</code> anh&auml;ngen</li>
   <li><strong>Datenbestand persistieren</strong> &ndash; aktualisierte <code>data.json</code>, <code>gemini_cache.json</code>, <code>run_history.json</code> per <code>git commit</code>/<code>push</code> in den <code>data-store</code>-Branch zur&uuml;ckschreiben</li>
-  <li><strong>Deploy</strong> &ndash; GitHub Pages ver&ouml;ffentlichen</li>
+  <li><strong>Deploy</strong> &ndash; GitHub Pages ver&ouml;ffentlichen. Schl&auml;gt der Deploy fehl, folgt nach 60 Sekunden ein zweiter Versuch; scheitert auch dieser, geht eine Admin-Mail mit Handlungsschritten an <code>ADMIN_EMAIL</code> (<code>notify_deploy_failure.py</code>)</li>
   <li><strong>Montags (nur automatisch):</strong> <code>send_email.py</code> (Wochenmail) + <code>health_check.py</code> (Selbsttest)</li>
 </ol>
 
