@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
@@ -167,6 +167,31 @@ jobs:
       - name: Auf GitHub Pages deployen
         id: deployment
         uses: actions/deploy-pages@v4
+        # Der Deploy scheitert gelegentlich an kurzzeitigen GitHub-Stoerungen
+        # (z.B. "No artifacts named github-pages were found", obwohl das
+        # Artifact hochgeladen wurde). Daher: ein zweiter Versuch nach kurzer
+        # Wartezeit; erst wenn auch dieser scheitert, schlaegt der Job fehl.
+        continue-on-error: true
+
+      - name: Wartezeit vor zweitem Deploy-Versuch
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+
+      - name: Auf GitHub Pages deployen (zweiter Versuch)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      - name: Admin-Mail bei fehlgeschlagenem Deploy
+        if: failure() && steps.deployment_retry.outcome == 'failure'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ACTIONS_URL: ${{ github.server_url }}/${{ github.repository }}/actions
+          SITE_URL: "https://lobbyregister-bot.de"
+        run: python scripts/notify_deploy_failure.py
+        continue-on-error: true
 
   send-email:
     name: Woechentliche Mail versenden (montags, nur automatisch)
