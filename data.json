@@ -1,7 +1,361 @@
 {
-  "generated_at": "2026-10-13T09:35:22.288072+02:00",
-  "newly_added": 17,
+  "generated_at": "2026-10-14T07:59:50.351220+02:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R006460",
+      "org_name": "Max Bögl Stiftung & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006460/87238",
+      "regulatory_project_title": "Entwurf eines Gesetzes zum planbaren und netzverträglichen Ausbau erneuerbarer Energien sowie zur Synchronisierung von Anlagen- und Netzausbau",
+      "sending_date": "2026-08-25",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d4/65/860808/Stellungnahme-Gutachten-SG2610130041.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610130041",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130041",
+      "summary": "Die Firmengruppe Max Bögl <b>unterstützt die energiepolitischen Ziele</b> der Bundesregierung, warnt jedoch vor den wirtschaftlichen Folgen spezifischer Regelungen im EEG- und Netzpaket. Das Unternehmen <b>kritisiert den Redispatchvorbehalt</b> sowie die geplante bundesweite Wirkleistungsbegrenzung, da diese die Investitionssicherheit für Windenergieprojekte erheblich gefährden. Um die industrielle Wertschöpfung und den Ausbau der Windkraft zu sichern, <b>fordert das Unternehmen Anpassungen</b> bei den Entschädigungsregelungen und eine Begrenzung der Abregelungszeiträume. Zudem wird eine <b>Übergangsfrist für die Wirkleistungsbegrenzung</b> bis 2028 sowie ein Bestandsschutz für bereits genehmigte Projekte angemahnt. Die Kombination beider Instrumente wird als <b>Investitionshemmnis</b> bewertet, das die Erreichung der Ausbauziele konterkarieren könnte. Statt pauschaler Begrenzungen plädiert das Unternehmen für eine <b>Beschleunigung der Netzanschlüsse</b> und eine transparentere Nutzung vorhandener Netzkapazitäten.",
+      "recipients": [
+        "BKAmt",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung des EEG- und Netzpakets, insbesondere Regelungen zu Redispatch und Wirkleistungsbegrenzung, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004624",
+      "org_name": "German Datacenter Association e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004624/87528",
+      "regulatory_project_title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+      "sending_date": "2026-10-07",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/98/97/860847/Stellungnahme-Gutachten-SG2610130043.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610130043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130043",
+      "summary": "Die German Datacenter Association <b>schlägt vor</b>, die regulatorischen Anforderungen für Rechenzentren im Rahmen des Energieeffizienzgesetzes durch <b>auslastungsabhängige PUE-Grenzwerte</b> zu ergänzen. Der Verband kritisiert, dass pauschale PUE-Vorgaben die physikalischen Lastzustände und die spezifischen Anforderungen von Colocation-Rechenzentren nicht hinreichend berücksichtigen. Statt starrer Quoten für die <b>Abwärmenutzung</b> fordert die GDA eine stärkere Orientierung an der technischen und wirtschaftlichen Machbarkeit sowie eine frühzeitige kommunale Kooperation. Zudem warnt der Verband vor <b>Fehlanreizen</b> bei der Energieeffizienzoptimierung und plädiert für eine <b>technologieoffene Regulierung</b>, die Resilienz und Wasserverbrauch einbezieht. Abschließend empfiehlt die GDA, bürokratische Doppelstrukturen bei der Berichterstattung zu vermeiden und die <b>Schwellenwerte für Managementsysteme</b> praxisgerecht anzupassen.",
+      "recipients": [
+        "BMDS",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Stellungnahme betrifft die regulatorische Ausgestaltung von Energieeffizienzanforderungen für Rechenzentren im Rahmen der Umsetzung der EU-Energieeffizienzrichtlinie, was direkt in den Bereich der Energieeffizienzpolitik und der nationalen Umsetzung von EU-Vorgaben fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001220",
+      "org_name": "Octopus Energy Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001220/87488",
+      "regulatory_project_title": "Reform des Strommarktdesigns, der Netzentgeltsystematik und der Rahmenbedingungen für nachfrageseitige Flexibilität zur Senkung der Systemkosten",
+      "sending_date": "2026-10-12",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/41/88/860546/Stellungnahme-Gutachten-SG2610130019.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610130019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130019",
+      "summary": "Ein Bündnis aus Energieinnovatoren <b>schlägt vor</b>, die <b>Energiemengenzuordnung</b> durch ein sogenanntes <b>virtuelles Netz</b> zu professionalisieren, um die aktuelle Komplexitätsfalle bei der Marktintegration zu überwinden. Die Initiative fordert die Etablierung einer <b>wettbewerblichen Bilanzierung</b>, bei der spezialisierte Dienstleister (vNB) netzrelevante Prozesse der Mengenzuordnung übernehmen, die derzeit bei den über 860 Verteilnetzbetreibern zu Verzögerungen führen. Durch eine <b>einheitliche Schnittstelle</b> sollen komplexe Anwendungen wie <b>Mieterstrom</b>, <b>Energy Sharing</b> und die Bewirtschaftung von <b>Speichersystemen</b> bundesweit standardisiert und beschleunigt werden. Die Autoren argumentieren, dass die Trennung von physischem Netzbetrieb und bilanzieller Dienstleistung die <b>Systemkosten senkt</b> und die Energiewendeteilhabe für Prosumer signifikant erhöht. Das Modell orientiert sich an bereits erprobten Ansätzen aus der Elektromobilität und soll als digitale Dienstleistungsebene die Innovationsgeschwindigkeit im Energiesystem steigern. Die Umsetzung wird als notwendiger Schritt zur Entbürokratisierung und zur effizienten Nutzung dezentraler Flexibilitäten bewertet.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Reform des Strommarktdesigns, die Digitalisierung von Verteilnetzprozessen und die Flexibilisierung der Energiewende, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Energiewende) fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/87456",
+      "regulatory_project_title": "Einführung einer bundesweiten Regelung zur Detektion und Abwehr von Drohnen an kritischen Infrastrukturen",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/00/c2/860682/Stellungnahme-Gutachten-SG2610130017.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610130017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130017",
+      "summary": "Der BDEW <b>fordert eine bundeseinheitliche Regelung</b> zur Detektion und Abwehr von Drohnen an kritischen Infrastrukturen, um den aktuellen Flickenteppich landesrechtlicher Zuständigkeiten zu beenden. Der Verband warnt vor den Risiken hybrider Bedrohungen und schlägt ein <b>Sofortpaket zur Verbesserung des Lagebilds</b> vor, das auf einer engen Sicherheitspartnerschaft zwischen Behörden und Betreibern basiert. Zentral ist dabei die Einrichtung eines flächendeckenden Sensorik-Netzwerks sowie die Anbindung der KRITIS-Betreiber an das Gemeinsame Drohnenabwehrzentrum (GDAZ). Zudem plädiert der BDEW für die <b>Einführung einer Remote-ID-Pflicht</b> für alle Drohnenklassen und die Ausweisung großflächiger Flugverbotszonen. Zur rechtlichen Abschreckung wird die <b>Schaffung eines Straftatbestands</b> analog zu § 315 StGB angeregt, um unautorisierte Überflüge konsequent zu sanktionieren. Gleichzeitig betont der Verband, dass die notwendige <b>eigene Drohnennutzung der Betreiber</b> für Inspektionszwecke durch diese Maßnahmen nicht eingeschränkt werden darf.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMVg",
+        "BMI",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Sicherheit kritischer Energieinfrastrukturen (KRITIS), die direkt in den Zuständigkeitsbereich der Versorgungssicherheit und des Schutzes von Energieanlagen der Unterabteilung IIIA fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/87456",
+      "regulatory_project_title": "Änderungsvorschläge zum EEG 2027 für einen planbaren, kosteneffizienten und netzverträglichen Ausbau erneuerbarer Energien",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dd/2e/860684/Stellungnahme-Gutachten-SG2610130006.pdf",
+      "pdf_pages": 62,
+      "sg_number": "SG2610130006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130006",
+      "summary": "Der BDEW <b>lehnt einen verbindlichen Ausstiegspfad</b> aus der EEG-Förderung sowie eine starre Trennung von PPA und EEG ab, da dies die Investitionssicherheit gefährde und den Markthochlauf behindere. Die Organisation <b>fordert stattdessen den Erhalt der Wechselmöglichkeit</b> zwischen Differenzverträgen (CfD) und PPA, um die Liquidität der Terminmärkte zu sichern. Zudem <b>warnt der BDEW vor einer automatischen Absenkung</b> der Ausschreibungsmengen und Höchstwerte, da dies die Planbarkeit für Projekte mit langen Realisierungszeiten untergrabe und europäische Herstellungskapazitäten schwäche. Positiv bewertet werden hingegen die <b>gesetzliche Definition der Nulleinspeisungsanlage</b> sowie die Absicherung des Ausfallrisikos bei grünen PPAs. Der Verband <b>kritisiert die geplante Teilerstattung</b> kommunaler Beteiligungen und mahnt einen zügigen Abschluss des parlamentarischen Verfahrens an, um die beihilferechtliche Genehmigung durch die EU-Kommission nicht zu gefährden. Insgesamt plädiert der BDEW für eine <b>Stärkung marktbasierter Lösungen</b> bei gleichzeitiger Wahrung verlässlicher Rahmenbedingungen für den weiteren Ausbau der Erneuerbaren Energien.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument enthält eine detaillierte Stellungnahme des BDEW zum Gesetzentwurf der Bundesregierung für das EEG 2027. Da das EEG eines der zentralen Instrumente der deutschen Energiepolitik ist und die Stellungnahme konkrete regulatorische Anpassungen in den Bereichen Strommarkt, Erneuerbare Energien und Netzanschluss diskutiert, ist sie für die Unterabteilung IIIA des BMWK hochrelevant.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/87456",
+      "regulatory_project_title": "Änderungsvorschläge zu EEG und EnWG hinsichtlich der Wirtschaftlichkeit neuer PV- und Windenergieanlagen",
+      "sending_date": "2026-09-30",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b4/74/860688/Stellungnahme-Gutachten-SG2610130034.pdf",
+      "pdf_pages": 52,
+      "sg_number": "SG2610130034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130034",
+      "summary": "Der BDEW <b>fordert eine Prüfung und Anhebung des Höchstwerts</b> für PV-Freiflächenanlagen, da geplante regulatorische Maßnahmen die Stromgestehungskosten dieser Anlagen über die derzeitigen Vergütungsgrenzen heben. Die Studie analysiert die <b>kumulative Wirkung von sieben Maßnahmen</b>, darunter der Redispatch-Vorbehalt, die Kappung der Anschlusskapazität und neue Kapazitätsentgelte. Während die Belastungen bei Wind an Land durch das Referenzertragsmodell teilweise kompensiert werden, führt die <b>Kostensteigerung bei PV-Freiflächen</b> zu einer deutlichen Überschreitung der EEG-Höchstwerte. Der Verband warnt vor einer <b>unverhältnismäßigen Einschränkung des EE-Ausbaus</b> und mahnt eine kohärente regulatorische Gestaltung an. Zudem wird betont, dass eine effizientere Netznutzung zwingend mit einem <b>beschleunigten Netzausbau</b> einhergehen muss. Die Analyse verdeutlicht, dass isolierte Folgenabschätzungen der einzelnen Gesetzesvorhaben die tatsächliche <b>Investitions- und Planungssicherheit</b> für neue Erzeugungsanlagen gefährden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Stellungnahme befasst sich direkt mit der Wirtschaftlichkeit von Wind- und PV-Anlagen unter Berücksichtigung regulatorischer Maßnahmen aus dem EEG 2027, dem Netzanschlusspaket und der AgNes-Festlegung, was zentrale Themen der Unterabteilung IIIA (Erneuerbare Energien, Strommarktregulierung, EEG-Finanzierung) sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000855",
+      "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000855/87506",
+      "regulatory_project_title": "Verhinderung eines staatlichen Spritpreisdeckels; hilfsweise marktgerechte Ausgestaltung und Abschaffung der 12-Uhr-Regel",
+      "sending_date": "2026-10-13",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ab/0c/860728/Stellungnahme-Gutachten-SG2610130036.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610130036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130036",
+      "summary": "Der MEW <b>lehnt die Einführung eines staatlichen Spritpreisdeckels</b> grundsätzlich ab, da dieser die Versorgungssicherheit gefährdet und den Wettbewerb durch die Verdrängung mittelständischer Anbieter schwächt. Der Verband warnt, dass ein solcher Eingriff die Beschaffungskosten nicht senkt und die wirtschaftliche Grundlage unabhängiger Importeure und Tanklagerbetreiber untergräbt. Sollte die Bundesregierung dennoch an dem Vorhaben festhalten, fordert der MEW eine <b>marktgerechte und transparente Preisformel</b>, die sämtliche Versorgungskosten sowie regionale Unterschiede berücksichtigt. Zudem wird eine <b>schnelle Anpassung an Marktveränderungen</b> sowie ein verbindlicher Krisenmechanismus zur Sicherstellung der Lieferfähigkeit verlangt. Der Verband betont, dass eine solche Maßnahme zwingend befristet sein muss und eine <b>unabhängige Evaluation</b> erfordert. Im Falle einer Einführung wird zudem die <b>umgehende Abschaffung der 12-Uhr-Regel</b> zur Preisänderung an Tankstellen gefordert. Statt pauschaler Deckelungen empfiehlt der MEW zielgerichtete Entlastungen für besonders betroffene Haushalte und Unternehmen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument behandelt die Versorgungssicherheit und Wettbewerbsstrukturen im Bereich fossiler Energieträger (Kraftstoffe), was unter die Zuständigkeit der Energiepolitik und Marktregulierung des BMWE fällt.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003839",
+      "org_name": "Union der Deutschen Kartoffelwirtschaft e.V. (UNIKA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003839/87533",
+      "regulatory_project_title": "Forderung der Einführung einer nationalen Sektorausnahme für Weizen und Kartoffeln von den Vertragspflichten der GMO-Verordnung",
+      "sending_date": "2026-10-12",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/be/7b/860910/Stellungnahme-Gutachten-SG2610130045.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610130045",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130045",
+      "summary": "Aufgrund der Verordnung (EU) 2026/1739 werden die Vertragsregelungen des Art. 168 der Verordnung (EU) Nr. 1308/2013 (GMO-Verordnung) ab dem 19. August 2028 unmittelbar in allen Mitgliedstaaten anwendbar. Die Mitgliedstaaten können jedoch nach Art. 168 Abs. 6 Buchst. f GMO-Verordnung Ausnahmen für bestimmte Sektoren vorsehen. Ziel der Interessenvertretung ist die Einführung einer nationalen Ausnahme für die Sektoren Getreide und Kartoffeln, um bestehende Marktstrukturen zu erhalten und zusätzliche Bürokratiebelastungen entlang der Wertschöpfungskette zu vermeiden.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003839",
+      "org_name": "Union der Deutschen Kartoffelwirtschaft e.V. (UNIKA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003839/87533",
+      "regulatory_project_title": "Umsetzung der Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (PPWR)",
+      "sending_date": "2026-06-25",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6a/73/860912/Stellungnahme-Gutachten-SG2610130046.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610130046",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130046",
+      "summary": "Gegenstand der Interessenvertretung ist die Ausgestaltung und Umsetzung der Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (PPWR). Ziel ist die Konkretisierung der Regelungen zur Hersteller- und Erzeugerverantwortung, insbesondere im Zusammenhang mit Eigenmarken, die Ausgestaltung der Vorgaben zu Rezyklateinsatz und Verpackungsanforderungen sowie die Festlegung von Ausnahmen, Übergangsregelungen und Umsetzungsvorgaben. Zudem wird auf eine rechtssichere und einheitliche Anwendung der PPWR entlang der Wertschöpfungskette von der landwirtschaftlichen Erzeugung bis zum Handel hingewirkt.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003839",
+      "org_name": "Union der Deutschen Kartoffelwirtschaft e.V. (UNIKA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003839/87533",
+      "regulatory_project_title": "Umsetzung der Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (PPWR)",
+      "sending_date": "2026-09-28",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2d/06/860914/Stellungnahme-Gutachten-SG2610130047.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610130047",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130047",
+      "summary": "Gegenstand der Interessenvertretung ist die Ausgestaltung und Umsetzung der Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle (PPWR). Ziel ist die Konkretisierung der Regelungen zur Hersteller- und Erzeugerverantwortung, insbesondere im Zusammenhang mit Eigenmarken, die Ausgestaltung der Vorgaben zu Rezyklateinsatz und Verpackungsanforderungen sowie die Festlegung von Ausnahmen, Übergangsregelungen und Umsetzungsvorgaben. Zudem wird auf eine rechtssichere und einheitliche Anwendung der PPWR entlang der Wertschöpfungskette von der landwirtschaftlichen Erzeugung bis zum Handel hingewirkt.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/87456",
+      "regulatory_project_title": "Änderungsvorschläge zum Wärmenetzgesetz und zu begleitenden Fernwärmeregelungen",
+      "sending_date": "2026-10-07",
+      "upload_date": "2026-10-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/75/e0/860686/Stellungnahme-Gutachten-SG2610130008.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2610130008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130008",
+      "summary": "Der BDEW setzt sich für Änderungen am Wärmenetzpaket ein. Er fordert die Verstetigung und Erhöhung der Bundesförderung für effiziente Wärmenetze sowie rechtssichere Möglichkeiten zur Anpassung von Basispreisen und Preisänderungsklauseln. Der BDEW spricht sich für eine verpflichtende, praxistaugliche Preistransparenzplattform aus und lehnt Doppelregulierung bei der Preisaufsicht ab. Er lehnt eine branchenspezifische Verbraucherschlichtung ab, weil der Aufwand dafür den Nutzen deutlich übersteigen würde und fordert praxistaugliche Änderungen der AVBFernwärmeV und WärmeLV. Zudem setzt sich der BDEW für eine zügige Novelle und langfristige Ausgestaltung des KWKG ein.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R007269",
       "org_name": "International Solar Energy Research Center Konstanz, ISC Konstanz e.V.",
@@ -29,7 +383,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Thematik betrifft die Finanzierung der angewandten Energieforschung im Klima- und Transformationsfonds (KTF), welche direkt unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Erneuerbare Energien' der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007027",
@@ -67,7 +421,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Ausgestaltung der Ausschreibungsmechanismen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007027",
@@ -104,7 +458,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EEG-Finanzierung und die Ausgestaltung der Ausschreibungsmechanismen für erneuerbare Energien, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004211",
@@ -135,7 +489,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Data Act ist ein zentrales Instrument der EU-Energiepolitik zur Digitalisierung des Energiesektors und zur Ermöglichung datenbasierter Geschäftsmodelle, was direkt die Themenfelder EU-Energiepolitik und Strommarktregulierung berührt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004211",
@@ -166,7 +520,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Data Act ist ein zentrales Instrument der EU-Energiepolitik und Digitalisierung der Energiewirtschaft, da er den Zugang zu Energiedaten regelt, was für die Sektorkopplung und das Strommarktdesign von hoher Relevanz ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003225",
@@ -191,7 +545,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Gesetzgebung im Bereich Public Procurement (Vergaberecht), welche unter die EU-Energiepolitik und Wettbewerbsfähigkeit im EU-Binnenmarkt fällt, da sie die Rahmenbedingungen für öffentliche Beschaffungsprozesse und damit verbundene Kostenstrukturen definiert.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002202",
@@ -236,7 +590,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die EU-Rahmenbedingungen für erneuerbaren Wasserstoff (RFNBO), den EU-Wasserstoffmarkt sowie die Finanzierungsbedarfe der Transformation, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001500",
@@ -269,7 +623,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der EU Industrial Accelerator Act betrifft die EU-Industriepolitik und den EU-Binnenmarkt, welche eng mit der EU-Energiepolitik und der Wettbewerbsfähigkeit im EU-Binnenmarkt (Themenfeld Unterabteilung IIIA) verknüpft sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000981",
@@ -302,7 +656,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik, die Sektorkopplung sowie die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000980",
@@ -335,7 +689,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Die Thematik betrifft die EU-Klimapolitik, die Sektorkopplung sowie die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -376,7 +730,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS 2) und die Transformation der Sektoren Wärme und Gebäude, welche direkt mit den Aufgabenbereichen der Unterabteilung IIIA (EU-Klimapolitik, Fit for 55, Finanzierungsbedarfe Transformation) korrespondieren.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -425,7 +779,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Unterabteilung IIIA, insbesondere die Bereiche Stromerzeugung, Kraftwerksstrategie, StromVKG und den Ausbau erneuerbarer Energien (Offshore).",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003483",
@@ -671,6 +1025,31 @@
       "priority": 1,
       "gemini_relevanz": "Das Thema betrifft direkt die Zuständigkeit der Unterabteilung IIIA für grenzüberschreitende EE-Kooperationsprojekte und Offshore-Kooperationen sowie die nationale Umsetzung der Erneuerbaren Energien.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R005271",
+      "org_name": "Ausschuss der Verbände und Kammern der Ingenieure und Architekten für die Honorarordnung AHO",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005271/87177",
+      "regulatory_project_title": "Entwurf zum EU Public Procurement Act nationale - Standards für Planer aufrechterhalten",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9a/ad/860556/Stellungnahme-Gutachten-SG2610090009.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2610090009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610090009",
+      "summary": "Der AHO <b>kritisiert den Entwurf</b> zum EU Public Procurement Act (PPA) und fordert Anpassungen, um die Qualität und Wettbewerbsfähigkeit bei der Vergabe von Planungsleistungen zu sichern. Der Verband warnt davor, dass eine unmittelbare Verordnung den notwendigen Gestaltungsspielraum der Mitgliedstaaten einschränkt, und plädiert stattdessen für eine <b>modernisierte Richtlinie</b>. Zudem fordert der AHO einen <b>eigenständigen Schwellenwert</b> für Planungsleistungen, da diese aufgrund ihrer hohen Wertschöpfung bei Bauprojekten nicht mit sonstigen Dienstleistungen gleichgesetzt werden dürfen. Um faire Wettbewerbsbedingungen zu gewährleisten, verlangt der Verband eine <b>angemessene Vergütung</b> für planerische Vorleistungen sowie die explizite Verankerung von <b>Planungswettbewerben</b> im Regelwerk. Abschließend warnt der AHO vor einer faktischen Aushöhlung des <b>Losvergabegrundsatzes</b> durch funktionale Leistungsbeschreibungen und starre BIM-Vorgaben, die mittelständische Strukturen gefährden könnten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Der Entwurf betrifft das europäische Vergaberecht, welches für die Vergabe von Planungsleistungen bei öffentlichen Bauvorhaben und damit für die Umsetzung von Infrastrukturprojekten und die Energieeffizienz im Bauwesen von zentraler Bedeutung ist.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R006695",
@@ -1066,7 +1445,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Der Inhalt betrifft die EU-Klimapolitik und die Sektorkopplung, welche unter die Themenfelder der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003052",
@@ -14274,7 +14653,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Der EU Industrial Accelerator Act (IAA) betrifft direkt die EU-Energiegesetzgebung, Wettbewerbsbedingungen im EU-Binnenmarkt sowie die Kostenstruktur für Energieinfrastruktur und Verbraucher, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002050",
@@ -94902,5 +95281,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1113
+  "gemini_filtered_out": 1117
 }
