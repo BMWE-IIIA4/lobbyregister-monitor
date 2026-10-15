@@ -1,7 +1,194 @@
 {
-  "generated_at": "2026-10-14T07:59:50.351220+02:00",
-  "newly_added": 12,
+  "generated_at": "2026-10-15T07:46:10.149482+02:00",
+  "newly_added": 9,
   "statements": [
+    {
+      "register_number": "R003336",
+      "org_name": "Deutsche Energie-Agentur GmbH (dena)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003336/86339",
+      "regulatory_project_title": "Begleitung der PPA relevanten Novellierung von EEG, Netzanschlusspaket und AgNES Prozess",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-10-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/30/861293/Stellungnahme-Gutachten-SG2610140011.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2610140011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610140011",
+      "summary": "Die Marktoffensive Erneuerbare Energien <b>fordert einen regulatorischen Kurswechsel</b>, um den ungeförderten Ausbau erneuerbarer Energien durch <b>langfristige Stromlieferverträge (PPAs)</b> zu stärken. Die Initiative kritisiert, dass aktuelle Entwürfe zur EEG-Novelle und Netzregulatorik den PPA-Markt durch <b>Refinanzierungsbeiträge und Ausschreibungsgrenzen</b> strukturell benachteiligen. Um ein <b>Level-Playing-Field</b> zwischen geförderten und ungeförderten Projekten zu schaffen, wird die Einführung einer <b>staatlichen Offtaker-Risikoabsicherung</b> vorgeschlagen. Zudem warnt das Papier vor einer Wettbewerbsverzerrung durch geplante erzeugerseitige Netzentgelte, die den Standort Deutschland schwächen könnten. Die Organisation betont, dass PPAs als komplementäres Instrument zur staatlichen Förderung essenziell für die industrielle Dekarbonisierung und Preisabsicherung sind. Abschließend wird eine <b>kohärente Investitionsrahmen-Gestaltung</b> angemahnt, die das Prinzip 'So viel Markt wie möglich' konsequent umsetzt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument behandelt die regulatorische Ausgestaltung von Stromlieferverträgen (PPAs) im Kontext der EEG-Novelle, der Netzregulatorik und der Strommarktgestaltung, welche zentrale Themenfelder der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien) sind.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000918",
+      "org_name": "Herstellerverband RLT-Geräte e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000918/87559",
+      "regulatory_project_title": "Sektorspezifische Ausnahmen vom PFAS-Verbot müssen auch Anwendungen in der Kälte-, Klima- und Wärmepumpentechnik berücksichtigen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ed/c4/861179/Stellungnahme-Gutachten-SG2610140007.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610140007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610140007",
+      "summary": "Die führenden Verbände der Kälte- und Klimabranche <b>fordern differenzierte Ausnahmen</b> vom geplanten EU-weiten PFAS-Verbot für fluorierte Kältemittel (F-Gase). Sie betonen, dass für <b>gesellschaftlich unverzichtbare Anwendungen</b>, bei denen keine sicheren Alternativen existieren, eine Ausnahmeregelung analog zur bestehenden F-Gase-Verordnung notwendig ist. Die Branche warnt vor massiven wirtschaftlichen Folgen, einer Gefährdung des Wärmepumpenausbaus sowie einer möglichen Produktionsverlagerung ins Nicht-EU-Ausland. Anstatt eines pauschalen Verbots wird eine <b>strenge Regulierung der Anlagendichtheit</b> und eine Zertifizierungspflicht für Fachpersonal als zielführender Weg angesehen. Die Verbände unterstreichen, dass <b>sektorspezifische Ausnahmen</b> für die Kälte-, Klima- und Wärmepumpentechnik essenziell sind, um die <b>Dekarbonisierungsziele</b> nicht zu gefährden. Zudem wird kritisiert, dass die im PFAS-Beschränkungsvorschlag angenommenen Emissionsraten für F-Gase deutlich über den tatsächlichen Messwerten liegen.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kälte-, Klima- und Wärmepumpentechnik, welche für die Wärmewende und die Dekarbonisierung der Energieversorgung (Sektorkopplung) von zentraler Bedeutung ist. Die Regulierung von F-Gasen im Kontext des PFAS-Verbots berührt zudem bestehende EU-Energiegesetzgebungen und nationale Klimaschutzziele.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000748",
+      "org_name": "FGK - Fachverband Gebäude-Klima e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000748/87560",
+      "regulatory_project_title": "Sektorspezifische Ausnahmen vom PFAS-Verbot müssen auch Anwendungen in der Kälte-, Klima- und Wärmepumpentechnik berücksichtigen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c8/2e/861190/Stellungnahme-Gutachten-SG2610140008.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610140008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610140008",
+      "summary": "Die führenden Verbände der Kälte- und Klimabranche <b>fordern differenzierte Ausnahmen</b> vom geplanten EU-weiten PFAS-Verbot für fluorierte Kältemittel (F-Gase). Sie betonen, dass für <b>gesellschaftlich unverzichtbare Anwendungen</b>, bei denen keine sicheren Alternativen existieren, eine Fortführung unter strengen Auflagen notwendig ist. Die Branche warnt, dass ein pauschales Verbot den <b>Wärmepumpenausbau gefährden</b> sowie zu massiven wirtschaftlichen Belastungen und Produktionsverlagerungen führen könnte. Statt eines Verbots wird eine Fokussierung auf <b>Dichtheitskontrollen und zertifizierte Wartung</b> vorgeschlagen, um Emissionen effektiv zu minimieren. Dabei wird kritisiert, dass die im PFAS-Beschränkungsvorschlag angenommenen Emissionsraten die tatsächlichen Leckageraten in der Praxis deutlich überschätzen. Die Verbände mahnen an, dass die bereits bestehende <b>EU-F-Gase-Verordnung</b> als regulatorischer Rahmen ausreicht und keine zusätzliche Verschärfung durch die PFAS-Regulierung erfolgen darf.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kälte-, Klima- und Wärmepumpentechnik, welche für die Wärmewende und die Dekarbonisierung der Energieversorgung (Sektorkopplung) von zentraler Bedeutung ist. Die Regulierung von F-Gasen im Kontext des PFAS-Verbots berührt zudem bestehende EU-Energiegesetzgebung und Klimaschutzziele.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000729",
+      "org_name": "BDE Bundesverband der Deutschen Entsorgungs-, Wasser- und Kreislaufwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000729/87460",
+      "regulatory_project_title": "Fairer Wettbewerb zwischen Privat- und Staatswirtschaft",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6b/51/861316/Stellungnahme-Gutachten-SG2610140012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610140012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610140012",
+      "summary": "Der BDE <b>fordert eine Anpassung des Rechtsrahmens</b> auf Bundes- und EU-Ebene, um einem zunehmenden Trend zur <b>Verstaatlichung kommunaler Dienstleistungen</b> entgegenzuwirken. Aktuelle Bundesgesetze setzen Anreize für komplexe Konstruktionen der interkommunalen Zusammenarbeit, die häufig zur Verdrängung privater Anbieter führen. Der Verband warnt vor einer ordnungspolitisch unerwünschten Verzerrung des Wettbewerbs durch diese staatlichen Strukturen. Ziel der Initiative ist die <b>Sicherung eines fairen Wettbewerbs</b> zwischen privatwirtschaftlichen Akteuren und staatlichen Unternehmen. Es wird angestrebt, die <b>Rahmenbedingungen für kommunale Dienstleistungen</b> so zu reformieren, dass private Marktteilnehmer nicht durch staatlich begünstigte Kooperationsmodelle verdrängt werden. Damit soll die <b>Wettbewerbsfähigkeit im Binnenmarkt</b> gestärkt und eine einseitige staatliche Dominanz in der Leistungserbringung verhindert werden.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Gesetzgebung und ordnungspolitische Rahmenbedingungen für den Wettbewerb, welche direkt in die Zuständigkeit der Unterabteilung IIIA (EU-Energiepolitik & Wettbewerbsfähigkeit) fallen.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000428",
+      "org_name": "BTGA - Bundesindustrieverband Technische Gebäudeausrüstung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000428/87556",
+      "regulatory_project_title": "Sektorspezifische Ausnahmen vom PFAS-Verbot müssen auch Anwendungen in der Kälte-, Klima- und Wärmepumpentechnik berücksichtigen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/9b/861171/Stellungnahme-Gutachten-SG2610140006.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610140006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610140006",
+      "summary": "Die führenden Verbände der Kälte- und Klimabranche <b>fordern differenzierte Ausnahmen</b> vom geplanten EU-weiten PFAS-Verbot für fluorierte Kältemittel (F-Gase). Sie betonen, dass für viele <b>gesellschaftlich unverzichtbare Anwendungen</b>, wie Wärmepumpen im Bestand, industrielle Kühlung oder Rechenzentren, derzeit keine sicheren und technisch machbaren Alternativen existieren. Die Branche warnt davor, dass ein pauschales Verbot die <b>Dekarbonisierungsziele gefährdet</b> und zu massiven wirtschaftlichen Belastungen sowie Produktionsverlagerungen führen könnte. Statt eines Verbots wird eine <b>strenge Regulierung der Dichtheit</b> und Wartung nach dem Vorbild der bestehenden F-Gase-Verordnung präferiert. Die Verbände mahnen an, dass <b>sektorspezifische Ausnahmen</b> für die Kälte- und Klimatechnik zwingend in den Gesetzgebungsprozess integriert werden müssen, um die Funktionsfähigkeit kritischer Infrastrukturen zu erhalten.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kälte-, Klima- und Wärmepumpentechnik, welche für die Wärmewende, die Dekarbonisierung der Industrie und die Energieeffizienz von zentraler Bedeutung für das BMWE ist. Zudem gibt es Schnittmengen zur EU-F-Gase-Verordnung und zur industriellen Wettbewerbsfähigkeit.",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000427",
+      "org_name": "TGA-Repräsentanz Berlin GbR",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000427/87555",
+      "regulatory_project_title": "Sektorspezifische Ausnahmen vom PFAS-Verbot müssen auch Anwendungen in der Kälte-, Klima- und Wärmepumpentechnik berücksichtigen",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-10-14",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/07/68/861124/Stellungnahme-Gutachten-SG2610140005.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2610140005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610140005",
+      "summary": "Die führenden Verbände der Kälte- und Klimabranche <b>fordern anwendungsbezogene Ausnahmen</b> von einem pauschalen PFAS-Verbot für fluorierte Kältemittel (F-Gase). Sie betonen, dass für viele gesellschaftlich und wirtschaftlich unverzichtbare Anwendungen, wie Wärmepumpen im Bestand, industrielle Großanlagen oder Rechenzentren, derzeit <b>keine technisch sicheren Alternativen</b> verfügbar sind. Die Verbände kritisieren, dass der aktuelle ECHA-Vorschlag auf modellbasierten, zu hohen Emissionsannahmen basiert und die bereits bestehende, strenge Regulierung durch die <b>EU-F-Gase-Verordnung</b> ignoriert. Ein pauschales Verbot gefährde die <b>Dekarbonisierungsziele</b> sowie die Wettbewerbsfähigkeit europäischer Unternehmen durch drohende Produktionsverlagerungen. Statt eines Verbots wird eine <b>differenzierte Regulierung</b> empfohlen, die auf Dichtheitskontrollen, zertifiziertem Fachpersonal und strengen Auflagen basiert. Die Branche mahnt an, dass sektorspezifische Ausnahmen zwingend auch die <b>Kälte-, Klima- und Wärmepumpentechnik</b> umfassen müssen, um kritische Infrastrukturen und Wertschöpfungsketten zu erhalten.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft direkt die Kälte-, Klima- und Wärmepumpentechnik, welche für die Wärmewende, die Dekarbonisierung der Industrie und die Energieeffizienz von zentraler Bedeutung für das BMWE ist. Zudem gibt es Schnittmengen zur EU-F-Gase-Verordnung und zur industriellen Wettbewerbsfähigkeit.",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R006460",
       "org_name": "Max Bögl Stiftung & Co. KG",
@@ -38,7 +225,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung des EEG- und Netzpakets, insbesondere Regelungen zu Redispatch und Wirkleistungsbegrenzung, welche direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien) fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004624",
@@ -74,7 +261,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Stellungnahme betrifft die regulatorische Ausgestaltung von Energieeffizienzanforderungen für Rechenzentren im Rahmen der Umsetzung der EU-Energieeffizienzrichtlinie, was direkt in den Bereich der Energieeffizienzpolitik und der nationalen Umsetzung von EU-Vorgaben fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001220",
@@ -111,7 +298,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Reform des Strommarktdesigns, die Digitalisierung von Verteilnetzprozessen und die Flexibilisierung der Energiewende, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarkt, Netze, Energiewende) fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -143,7 +330,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Sicherheit kritischer Energieinfrastrukturen (KRITIS), die direkt in den Zuständigkeitsbereich der Versorgungssicherheit und des Schutzes von Energieanlagen der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -184,7 +371,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument enthält eine detaillierte Stellungnahme des BDEW zum Gesetzentwurf der Bundesregierung für das EEG 2027. Da das EEG eines der zentralen Instrumente der deutschen Energiepolitik ist und die Stellungnahme konkrete regulatorische Anpassungen in den Bereichen Strommarkt, Erneuerbare Energien und Netzanschluss diskutiert, ist sie für die Unterabteilung IIIA des BMWK hochrelevant.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -217,7 +404,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Die Stellungnahme befasst sich direkt mit der Wirtschaftlichkeit von Wind- und PV-Anlagen unter Berücksichtigung regulatorischer Maßnahmen aus dem EEG 2027, dem Netzanschlusspaket und der AgNes-Festlegung, was zentrale Themen der Unterabteilung IIIA (Erneuerbare Energien, Strommarktregulierung, EEG-Finanzierung) sind.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000855",
@@ -242,7 +429,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Versorgungssicherheit und Wettbewerbsstrukturen im Bereich fossiler Energieträger (Kraftstoffe), was unter die Zuständigkeit der Energiepolitik und Marktregulierung des BMWE fällt.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003839",
@@ -861,6 +1048,35 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R000952",
+      "org_name": "Deutscher Anwaltverein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000952/85552",
+      "regulatory_project_title": "Vorbereitung einer neuen EU-Strategie zur Stärkung der Rechte und des Schutzes von Opfern von Straftaten",
+      "sending_date": "2026-09-08",
+      "upload_date": "2026-10-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f0/bb/861149/Stellungnahme-Gutachten-SG2610120008.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610120008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610120008",
+      "summary": "Vorbereitung einer neuen EU-Strategie für die Rechte von Opfern von Straftaten zur Weiterentwicklung und Stärkung der Rechte und des Schutzes von Opfern in der Europäischen Union. Ziel ist insbesondere, die praktische Durchsetzbarkeit bestehender Opferrechte zu verbessern, den Zugang zu qualifizierter rechtlicher Unterstützung zu stärken und die Kohärenz der europäischen Maßnahmen mit bestehenden nationalen Opferentschädigungs- und Unterstützungssystemen sicherzustellen.",
+      "recipients": [
+        "BMF",
+        "BMJV",
+        "BMAS",
+        "BMG",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R001137",
       "org_name": "Vattenfall GmbH",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R001137/87303",
@@ -1049,7 +1265,7 @@
       ],
       "priority": 3,
       "gemini_relevanz": "Der Entwurf betrifft das europäische Vergaberecht, welches für die Vergabe von Planungsleistungen bei öffentlichen Bauvorhaben und damit für die Umsetzung von Infrastrukturprojekten und die Energieeffizienz im Bauwesen von zentraler Bedeutung ist.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006695",
@@ -24900,6 +25116,31 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R000144",
+      "org_name": "Philip Morris GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000144/84420",
+      "regulatory_project_title": "Änderung des Tabakerzeugnisgesetzes",
+      "sending_date": "2026-08-06",
+      "upload_date": "2026-08-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7b/40/861224/Stellungnahme-Gutachten-SG2608070011.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2608070011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608070011",
+      "summary": "Die Stellungnahme <b>lehnt ein pauschales Verkaufsverbot</b> von Einweg-E-Zigaretten ab und <b>plädiert stattdessen für eine zielgerichtete Regulierung</b> zur Sicherung kritischer Rohstoffe. Das Papier argumentiert, dass die Rückführung der Geräte in den Wirtschaftskreislauf entscheidend für die <b>Rückgewinnung strategischer Rohstoffe</b> wie Lithium ist, um die Importabhängigkeit zu verringern. Ein Verbot würde lediglich zu einer Verlagerung in unkontrollierte Vertriebswege führen, ohne die Entsorgungsproblematik oder Brandrisiken durch falsch entsorgte Batterien zu lösen. Stattdessen wird gefordert, die seit Juli 2026 geltende Rücknahmepflicht nach dem ElektroG konsequent umzusetzen und die <b>Marktaufsicht zu stärken</b>. Zudem wird die Bedeutung von <b>recyclinggerechtem Produktdesign</b> hervorgehoben, um Batterien und Materialien effizienter trennen zu können. Eine effektive Kreislaufwirtschaft erfordere legale und transparente Marktstrukturen statt restriktiver Verbote.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument thematisiert die Kreislaufwirtschaft von Lithium und anderen kritischen Rohstoffen in batteriebetriebenen Kleingeräten, was direkt mit den Zielen des EU Green Deal, dem Critical Raw Materials Act und der Sicherung von Rohstoffressourcen für die Transformation korrespondiert.",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R007165",
       "org_name": "Unbekannte Organisation",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R007165/84435",
@@ -31876,6 +32117,31 @@
       "priority": 1,
       "gemini_relevanz": "Das Netzpaket adressiert die Synchronisierung von EE- und Netzausbau sowie Netzanschlussverfahren, welche zentrale Themen der Strommarktregulierung und Versorgungssicherheit sind.",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R008276",
+      "org_name": "Kompetenznetzwerk Lithium-Ionen-Batterien e.V. kurz: KLiB",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008276/87545",
+      "regulatory_project_title": "Positionierung zum Industrial Accelerator Act (COM(2026)100) zur Stärkung des europäischen Batterie-Ökosystems",
+      "sending_date": "2026-05-05",
+      "upload_date": "2026-07-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/81/9f/861005/Stellungnahme-Gutachten-SG2607130021.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2607130021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607130021",
+      "summary": "Der KLiB e.V. <b>begrüßt die Intention</b> des Industrial Accelerator Acts zur Schaffung eines europäischen Batteriemarktes, <b>kritisiert jedoch den aktuellen Entwurf</b> als noch nicht ausreichend ausgereift. Der Verband fordert verbindliche, komponentenbezogene und zeitlich terminierte <b>Local Content Anforderungen</b>, um die Skalierung der Produktion in Europa sicherzustellen. Zudem warnt KLiB vor <b>unklaren Ausnahmeregelungen</b> bei unverhältnismäßigen Mehrkosten, da diese zu Rechtsunsicherheit führen und Investitionsentscheidungen belasten. Eine <b>Verwässerung der Anforderungen</b> durch zu viele Ausnahmen wird explizit abgelehnt, um die Wirksamkeit der Regulierung nicht zu konterkarieren. Stattdessen plädiert der Verband für eine <b>einfache und klare Regulierung</b>, die unnötige Bürokratiekosten vermeidet. Abschließend betont KLiB, dass nur durch eine realistische Zeitschiene und verlässliche Rahmenbedingungen die langfristige <b>globale Wettbewerbsfähigkeit</b> der europäischen Batterieindustrie gesichert werden kann.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Thema betrifft die EU-Gesetzgebung zur Stärkung industrieller Wertschöpfungsketten (Batterie-Ökosystem), was direkt unter die EU-Energiepolitik und die Wettbewerbsfähigkeit im EU-Binnenmarkt der Unterabteilung IIIA fällt.",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002381",
@@ -95281,5 +95547,5 @@
       "gemini_status": "filtered"
     }
   ],
-  "gemini_filtered_out": 1117
+  "gemini_filtered_out": 1118
 }
