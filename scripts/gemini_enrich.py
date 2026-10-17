@@ -307,6 +307,9 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "Beispiel: Vorhaben 'Novelle des Gebaeudeenergiegesetzes', Dokument mit Betreff "
             "'Wasserstoffbeschleunigungsgesetz: Genehmigung von Elektrolyseuren', das das GEG in "
             "einem Satz erwaehnt -> 'nur_erwaehnt'.\n"
+            "gesetze: Kuerzel der Gesetze, die das Dokument im Kern behandelt (hoechstens 3, nur "
+            "gaengige Kuerzel wie EEG, EnWG, KVBG, StromVKG, KWKG, GEG, WindSeeG; keine Langnamen); "
+            "leere Liste, wenn kein bestimmtes Gesetz im Kern steht.\n"
             "abweichung_hinweis: bei 'nur_erwaehnt' oder 'anderes_thema' ein Satz, was das "
             "Dokument tatsaechlich behandelt (ohne <b>-Tags); sonst leer.\n\n"
         )
@@ -322,14 +325,14 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "nicht als Inhalt des Dokuments dar.\n"
             "Falls keine Beschreibung vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
             + markierung + "Ziel: hoechstens 3 markierte Phrasen.\n\n"
-            "BEZUG: nicht pruefbar, setze hauptgegenstand = \"\", bezug = \"unbekannt\" und "
-            "abweichung_hinweis = \"\".\n\n"
+            "BEZUG: nicht pruefbar, setze hauptgegenstand = \"\", bezug = \"unbekannt\", "
+            "gesetze = [] und abweichung_hinweis = \"\".\n\n"
         )
 
     return (
         kopf + inhalt + auftrag +
         'Antworte als JSON-Objekt in genau dieser Feldreihenfolge: {"hauptgegenstand": "...", '
-        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "abweichung_hinweis": "", '
+        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "gesetze": [], "abweichung_hinweis": "", '
         '"relevant": true, "relevanz_grund": "...", "zusammenfassung": "..."}\n'
         "NUR das JSON-Objekt."
     )
@@ -375,35 +378,61 @@ def apply_result(stmt, entry):
 
 ABWEICHUNG_BEZUG = ("nur_erwaehnt", "anderes_thema")
 
-def cache_entry_from_result(result, quelle):
+# Gesetzeskuerzel (EEG, EnWG, KVBG, StromVKG, WindSeeG, ...): Wort mit End-"G",
+# mind. 3 Zeichen und 2 Grossbuchstaben; reine Grossbuchstabenwoerter nur bis 5
+# Zeichen (schliesst "VERORDNUNG", Firmennamen aus).
+LAW_RE = re.compile(r"\b([A-Z][A-Za-z]{1,10}G)(?:-E)?\b")
+LAW_EXCLUDE = {"thg", "lng", "beg"}
+
+def law_set(text):
+    found = set()
+    for m in LAW_RE.findall(text or ""):
+        if sum(c.isupper() for c in m) < 2 or (m.isupper() and len(m) > 5):
+            continue
+        if m.casefold() not in LAW_EXCLUDE:
+            found.add(m.casefold())
+    return found
+
+def detect_abweichung(result, stmt):
+    """Abweichung, wenn Gemini den Bezug als 'nur_erwaehnt'/'anderes_thema' einstuft
+    ODER wenn das Vorhaben bestimmte Gesetze nennt, das Dokument im Kern aber
+    andere Gesetze behandelt (keine Ueberschneidung) und Gemini es nicht als
+    'kern' einstuft. Ohne Gesetzeskuerzel im Vorhaben keine Gesetzespruefung."""
+    bezug = result.get("bezug", "")
+    if bezug in ABWEICHUNG_BEZUG:
+        return True
+    if stmt is None or bezug == "kern":
+        return False
+    vorhaben_laws = law_set(f"{stmt.get('regulatory_project_title', '')} {stmt.get('register_description', '')}")
+    doc_laws_raw = [str(x) for x in (result.get("gesetze") or []) if str(x).strip()]
+    doc_laws = set()
+    for x in doc_laws_raw:
+        doc_laws |= law_set(x)
+    # Nur werten, wenn alle Dokument-Gesetze als Kuerzel erkannt wurden
+    if not vorhaben_laws or not doc_laws or len(doc_laws) < len(doc_laws_raw):
+        return False
+    return not (vorhaben_laws & doc_laws)
+
+def cache_entry_from_result(result, quelle, stmt=None):
+    pruefbar = quelle != "register"
+    abweichung = pruefbar and detect_abweichung(result, stmt)
+    hinweis = ""
+    if abweichung:
+        hinweis = ((result.get("abweichung_hinweis") or "").strip()
+                   or (f"Das Dokument behandelt: {result.get('hauptgegenstand', '').strip()}"
+                       if result.get("hauptgegenstand") else ""))
     return {
         "relevant": result.get("relevant", True),
         "relevanz_grund": result.get("relevanz_grund", ""),
         "zusammenfassung": result.get("zusammenfassung", ""),
         "quelle": quelle,
-        "bezug": result.get("bezug", "") if quelle != "register" else "unbekannt",
-        "abweichung": (result.get("bezug") in ABWEICHUNG_BEZUG) and quelle != "register",
-        "abweichung_hinweis": ((result.get("abweichung_hinweis") or "").strip()
-                               or (f"Das Dokument behandelt: {result.get('hauptgegenstand', '').strip()}"
-                                   if result.get("hauptgegenstand") else "")
-                               ) if quelle != "register" and result.get("bezug") in ABWEICHUNG_BEZUG else "",
+        "hauptgegenstand": (result.get("hauptgegenstand") or "").strip() if pruefbar else "",
+        "bezug": result.get("bezug", "") if pruefbar else "unbekannt",
+        "gesetze": [str(x) for x in (result.get("gesetze") or [])][:3] if pruefbar else [],
+        "abweichung": bool(abweichung),
+        "abweichung_hinweis": hinweis,
         "geprueft_am": date.today().isoformat(),
     }
-
-def notify_admin_error(error_summary):
-    if not RESEND_API_KEY or not ADMIN_EMAIL: return
-    today = date.today().strftime("%d.%m.%Y")
-    html = (
-        '<div style="font-family:Arial,sans-serif;font-size:14px;color:#222;background:#f5f5f5;padding:20px;">'
-        '<div style="max-width:600px;margin:0 auto;background:#fff;padding:24px;border-top:4px solid #e65100;">'
-        '<h2 style="margin-top:0;">Gemini-Fehler</h2>'
-        f'<p><strong>Problem:</strong> {error_summary}</p>'
-        '</div></div>'
-    )
-    try:
-        requests.post("https://api.resend.com/emails", headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
-                      json={"from": "Lobbyregister-Monitor Systemcheck <healthcheck@lobbyregister-bot.de>", "to": [ADMIN_EMAIL], "subject": f"Lobbyregister-Monitor: Gemini fehlgeschlagen ({today})", "html": html}, timeout=30)
-    except Exception: pass
 
 # -- HTML Generierung --
 
@@ -797,7 +826,7 @@ def main():
                 time.sleep(REQUEST_DELAY)
                 continue
 
-            entry = cache_entry_from_result(result, quelle)
+            entry = cache_entry_from_result(result, quelle, stmt)
             if uid:
                 cache[uid] = entry
                 save_cache(cache)

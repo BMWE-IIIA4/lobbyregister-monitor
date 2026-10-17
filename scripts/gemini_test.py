@@ -43,8 +43,8 @@ def main():
         result, quelle, n_calls = g.analyze_statement(stmt)
         print(f"  Quelle: {quelle} | API-Calls: {n_calls}")
         if isinstance(result, dict):
-            print(f"  Hauptgegenstand laut KI: {result.get('hauptgegenstand', '–')} | Bezug: {result.get('bezug', '–')}")
-            print(json.dumps(g.cache_entry_from_result(result, quelle), ensure_ascii=False, indent=2))
+            print(f"  Hauptgegenstand laut KI: {result.get('hauptgegenstand', '–')} | Bezug: {result.get('bezug', '–')} | Gesetze: {result.get('gesetze', '–')}")
+            print(json.dumps(g.cache_entry_from_result(result, quelle, stmt), ensure_ascii=False, indent=2))
         else:
             print(f"  Kein Ergebnis: {result}")
             failed = True
