@@ -307,9 +307,10 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "Beispiel: Vorhaben 'Novelle des Gebaeudeenergiegesetzes', Dokument mit Betreff "
             "'Wasserstoffbeschleunigungsgesetz: Genehmigung von Elektrolyseuren', das das GEG in "
             "einem Satz erwaehnt -> 'nur_erwaehnt'.\n"
-            "gesetze: Kuerzel der Gesetze, die das Dokument im Kern behandelt (hoechstens 3, nur "
-            "gaengige Kuerzel wie EEG, EnWG, KVBG, StromVKG, KWKG, GEG, WindSeeG; keine Langnamen); "
-            "leere Liste, wenn kein bestimmtes Gesetz im Kern steht.\n"
+            "hauptgesetz: Kuerzel des EINEN Gesetzes, das im Betreff bzw. in der Ueberschrift des "
+            "Dokuments genannt ist oder um das es hauptsaechlich geht (gaengiges Kuerzel wie EEG, "
+            "EnWG, KVBG, StromVKG, KWKG, GEG, WindSeeG; kein Langname). Gesetze, die nur am Rande "
+            "erwaehnt werden, zaehlen nicht. Leer, wenn kein bestimmtes Gesetz im Mittelpunkt steht.\n"
             "abweichung_hinweis: bei 'nur_erwaehnt' oder 'anderes_thema' ein Satz, was das "
             "Dokument tatsaechlich behandelt (ohne <b>-Tags); sonst leer.\n\n"
         )
@@ -326,13 +327,13 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "Falls keine Beschreibung vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
             + markierung + "Ziel: hoechstens 3 markierte Phrasen.\n\n"
             "BEZUG: nicht pruefbar, setze hauptgegenstand = \"\", bezug = \"unbekannt\", "
-            "gesetze = [] und abweichung_hinweis = \"\".\n\n"
+            "hauptgesetz = \"\" und abweichung_hinweis = \"\".\n\n"
         )
 
     return (
         kopf + inhalt + auftrag +
         'Antworte als JSON-Objekt in genau dieser Feldreihenfolge: {"hauptgegenstand": "...", '
-        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "gesetze": [], "abweichung_hinweis": "", '
+        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "hauptgesetz": "", "abweichung_hinweis": "", '
         '"relevant": true, "relevanz_grund": "...", "zusammenfassung": "..."}\n'
         "NUR das JSON-Objekt."
     )
@@ -395,23 +396,19 @@ def law_set(text):
 
 def detect_abweichung(result, stmt):
     """Abweichung, wenn Gemini den Bezug als 'nur_erwaehnt'/'anderes_thema' einstuft
-    ODER wenn das Vorhaben bestimmte Gesetze nennt, das Dokument im Kern aber
-    andere Gesetze behandelt (keine Ueberschneidung) und Gemini es nicht als
-    'kern' einstuft. Ohne Gesetzeskuerzel im Vorhaben keine Gesetzespruefung."""
-    bezug = result.get("bezug", "")
-    if bezug in ABWEICHUNG_BEZUG:
+    ODER wenn das Vorhaben bestimmte Gesetze nennt und das Hauptgesetz des
+    Dokuments (Betreff/Ueberschrift) nicht darunter ist. Nennt das Vorhaben kein
+    Gesetz oder hat das Dokument kein erkennbares Hauptgesetz, entfaellt der
+    Gesetzesabgleich."""
+    if result.get("bezug", "") in ABWEICHUNG_BEZUG:
         return True
-    if stmt is None or bezug == "kern":
+    if stmt is None:
         return False
     vorhaben_laws = law_set(f"{stmt.get('regulatory_project_title', '')} {stmt.get('register_description', '')}")
-    doc_laws_raw = [str(x) for x in (result.get("gesetze") or []) if str(x).strip()]
-    doc_laws = set()
-    for x in doc_laws_raw:
-        doc_laws |= law_set(x)
-    # Nur werten, wenn alle Dokument-Gesetze als Kuerzel erkannt wurden
-    if not vorhaben_laws or not doc_laws or len(doc_laws) < len(doc_laws_raw):
+    haupt = law_set(str(result.get("hauptgesetz") or ""))
+    if not vorhaben_laws or len(haupt) != 1:
         return False
-    return not (vorhaben_laws & doc_laws)
+    return not (vorhaben_laws & haupt)
 
 def cache_entry_from_result(result, quelle, stmt=None):
     pruefbar = quelle != "register"
@@ -428,7 +425,7 @@ def cache_entry_from_result(result, quelle, stmt=None):
         "quelle": quelle,
         "hauptgegenstand": (result.get("hauptgegenstand") or "").strip() if pruefbar else "",
         "bezug": result.get("bezug", "") if pruefbar else "unbekannt",
-        "gesetze": [str(x) for x in (result.get("gesetze") or [])][:3] if pruefbar else [],
+        "hauptgesetz": str(result.get("hauptgesetz") or "").strip() if pruefbar else "",
         "abweichung": bool(abweichung),
         "abweichung_hinweis": hinweis,
         "geprueft_am": date.today().isoformat(),
