@@ -2,10 +2,17 @@
 gemini_enrich.py
 ================
 Reichert die Lobbyregister-Daten mit Gemini 3.1 Flash Lite an.
-Grundlage der Zusammenfassung ist der PDF-Volltext der Stellungnahme
-(Fallback auf die Metadaten-Beschreibung, wenn die PDF nur aus Bildern
-besteht oder nicht abrufbar ist). Einzelverarbeitung: ein API-Call pro
-Stellungnahme.
+Grundlage der Zusammenfassung (gespeichert als "quelle"):
+  pdf_text  – PDF-Volltext (Textebene der PDF)
+  pdf_scan  – Bild-Scan ohne Textebene: die PDF wird als Datei an Gemini geschickt
+  register  – Dokument nicht auswertbar: nur kurze, gekennzeichnete Wiedergabe der
+              Beschreibung des Regelungsvorhabens (keine erfundenen Inhalte)
+Zusaetzlich prueft Gemini, ob das Dokument erkennbar vom angegebenen
+Regelungsvorhaben abweicht ("abweichung", "abweichung_hinweis").
+Einzelverarbeitung: ein API-Call pro Stellungnahme (beim Scan-Rueckfall zwei).
+
+Cache-Eintraege ohne "quelle" (Altbestand) werden im Restbudget nach den
+neuen Eintraegen neu verarbeitet, juengste zuerst.
 
 Zusammengehoerige Stellungnahmen (gleiches Regelungsvorhaben, gleiche
 Institution, gleiche Themenfelder, gleiches Hochladedatum) werden zu einem
@@ -21,6 +28,7 @@ import os
 import time
 import re
 import sys
+import base64
 import requests
 from io import BytesIO
 from pathlib import Path
@@ -62,7 +70,11 @@ PDF_HEADERS = {
 }
 PDF_COOKIES = {"copyrightAcknowledgement": "true"}
 PDF_TEXT_MAX_CHARS = 40000   # Kappung, um unter dem TPM-Limit (250K/min) zu bleiben
-PDF_MIN_CHARS = 200          # darunter: vermutlich Bild-Scan ohne Textebene -> Fallback
+PDF_MIN_CHARS = 200          # darunter: vermutlich Bild-Scan ohne Textebene
+# Bild-Scans werden als Datei an Gemini geschickt (Gemini liest die Seiten selbst).
+# Grenzen halten Anfrage (inline max. ca. 20 MB) und Token-Verbrauch klein.
+PDF_SCAN_MAX_BYTES = 12 * 1024 * 1024
+PDF_SCAN_MAX_PAGES = 30
 
 DATA_PATH = Path("docs/data.json")
 CACHE_PATH = Path("docs/gemini_cache.json")
@@ -136,17 +148,25 @@ def save_cache(cache_data):
     with open(CACHE_PATH, "w", encoding="utf-8") as f:
         json.dump(cache_data, f, ensure_ascii=False, indent=2)
 
-def call_gemini(prompt, retries=MAX_RETRIES):
+def call_gemini(prompt, pdf_bytes=None, retries=MAX_RETRIES):
+    """Ruft Gemini auf. Mit pdf_bytes wird die PDF selbst mitgeschickt (fuer
+    Bild-Scans ohne Textebene; Gemini liest die Seiten direkt).
+    Rueckgabe: dict (Ergebnis), "QUOTA_EXCEEDED" oder None (Fehler)."""
     headers = {"Content-Type": "application/json"}
     params = {"key": GEMINI_API_KEY}
+    parts = []
+    if pdf_bytes:
+        parts.append({"inline_data": {"mime_type": "application/pdf",
+                                      "data": base64.b64encode(pdf_bytes).decode("ascii")}})
+    parts.append({"text": prompt})
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
+        "contents": [{"parts": parts}],
         "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json"},
     }
     bt = chr(96) * 3
     for attempt in range(retries):
         try:
-            resp = requests.post(GEMINI_URL, headers=headers, params=params, json=payload, timeout=90)
+            resp = requests.post(GEMINI_URL, headers=headers, params=params, json=payload, timeout=120)
             if resp.status_code == 429:
                 msg = resp.json().get("error", {}).get("message", "")
                 if "exceeded your current quota" in msg.lower():
@@ -157,7 +177,13 @@ def call_gemini(prompt, retries=MAX_RETRIES):
                 time.sleep(wait)
                 continue
             if resp.status_code != 200:
-                print(f"  API-Fehler {resp.status_code}")
+                try:
+                    detail = resp.json().get("error", {}).get("message", "")[:200]
+                except Exception:
+                    detail = ""
+                print(f"  API-Fehler {resp.status_code} {detail}")
+                if 400 <= resp.status_code < 500:
+                    return None   # Anfragefehler: Wiederholen bringt nichts
                 time.sleep(RETRY_DELAY)
                 continue
             data = resp.json()
@@ -172,21 +198,32 @@ def call_gemini(prompt, retries=MAX_RETRIES):
             time.sleep(RETRY_DELAY)
     return None
 
-def extract_pdf_text(pdf_url):
-    """Laedt die PDF und extrahiert den Text. Gibt "" zurueck bei Fehlern oder
-    wenn die PDF ueberwiegend aus (nicht extrahierbaren) Bildern besteht – dann
-    greift der Aufrufer auf die Metadaten-Beschreibung zurueck."""
-    if not PDF_AVAILABLE or not pdf_url or not pdf_url.lower().endswith(".pdf"):
-        return ""
+def fetch_pdf(pdf_url):
+    """Laedt die PDF. Gibt die Bytes zurueck oder None (kein PDF erhalten)."""
+    if not pdf_url or not pdf_url.lower().endswith(".pdf"):
+        return None
     try:
         resp = requests.get(pdf_url, headers=PDF_HEADERS, cookies=PDF_COOKIES, timeout=60)
         if resp.status_code != 200:
-            return ""
+            print(f"  PDF nicht abrufbar (HTTP {resp.status_code}): {pdf_url}")
+            return None
         if not resp.content.startswith(b"%PDF"):
             # Kein PDF erhalten (z.B. Hinweis- oder Detailseite als HTML)
             print(f"  PDF nicht abrufbar, kein PDF erhalten ({resp.headers.get('Content-Type', '?')}): {pdf_url}")
-            return ""
-        reader = PdfReader(BytesIO(resp.content))
+            return None
+        return resp.content
+    except Exception as e:
+        print(f"  PDF nicht abrufbar ({pdf_url}): {e}")
+        return None
+
+def extract_pdf_text(pdf_bytes):
+    """Extrahiert den Text aus den PDF-Bytes. Gibt (text, seitenzahl) zurueck;
+    text ist "", wenn die PDF keine (ausreichende) Textebene hat (Bild-Scan)."""
+    if not PDF_AVAILABLE or not pdf_bytes:
+        return "", 0
+    try:
+        reader = PdfReader(BytesIO(pdf_bytes))
+        n_pages = len(reader.pages)
         parts = []
         total = 0
         for page in reader.pages:
@@ -203,54 +240,140 @@ def extract_pdf_text(pdf_url):
         text = re.sub(r"[ \t]+", " ", text)
         text = re.sub(r"\n{3,}", "\n\n", text)
         if len(text) < PDF_MIN_CHARS:
-            return ""   # zu wenig Text -> Bild-Scan -> Fallback auf Metadaten
-        return text[:PDF_TEXT_MAX_CHARS]
+            return "", n_pages
+        return text[:PDF_TEXT_MAX_CHARS], n_pages
     except Exception as e:
-        print(f"  PDF-Extraktion fehlgeschlagen ({pdf_url}): {e}")
-        return ""
+        print(f"  PDF-Textextraktion fehlgeschlagen: {e}")
+        return "", 0
 
-def build_single_prompt(stmt, pdf_text):
+def build_single_prompt(stmt, quelle, pdf_text=""):
+    """Prompt fuer eine Stellungnahme.
+    quelle: "pdf_text" (Volltext im Prompt), "pdf_scan" (PDF liegt als Datei bei)
+            oder "register" (nur Beschreibung des Regelungsvorhabens verfuegbar)."""
     title = stmt.get("regulatory_project_title", "Kein Titel")
+    org = stmt.get("org_name", "")
     fields = ", ".join(f["label"] for f in stmt.get("fields", []))
     recipients = ", ".join(stmt.get("recipients", []))
-    meta_desc = stmt.get("summary", "")
-    if pdf_text:
-        inhalt_block = (
-            "VOLLTEXT DER STELLUNGNAHME (aus der PDF extrahiert – "
-            "Grundlage der Zusammenfassung):\n" + pdf_text
-        )
-    else:
-        inhalt_block = (
-            "HINWEIS: Kein PDF-Volltext verfuegbar (Bild-Scan oder Abruf "
-            "fehlgeschlagen). Nutze die folgende Kurzbeschreibung als Grundlage:\n"
-            + (meta_desc or "Keine Beschreibung vorhanden.")
-        )
-    return (
+    register_desc = stmt.get("register_description") or ""
+
+    kopf = (
         "Du bist ein Analyst im Bundesministerium fuer Wirtschaft und Energie (BMWE).\n"
-        "Pruefe Relevanz und fasse zusammen:\n\n"
+        "Pruefe Relevanz und fasse zusammen.\n\n"
         "RELEVANZPRUEFUNG:\n"
         f"{RELEVANZ_KATALOG}\n"
-        "Ist der Eintrag relevant? (true/false).\n\n"
-        "ZUSAMMENFASSUNG:\n"
-        "Schreibe 5 bis 8 praegnante Saetze (ca. 50% mehr als eine kurze "
-        "Zusammenfassung). Sachlich. Ohne Wertung.\n\n"
-        "ERSTER SATZ: Nennt zwingend (a) die Handlung/Haltung der Organisation "
-        "(z.B. fordert, lehnt ab, begruesst, empfiehlt, warnt vor, schlaegt vor, kritisiert, "
-        "unterstuetzt, bezweifelt, beantragt, praezisiert) UND (b) den zentralen Gegenstand.\n"
-        "FOLGENDE SAETZE: Konkretisieren die wichtigsten Details, Argumente und Forderungen "
-        "aus dem Volltext.\n\n"
+        "Ist der Eintrag relevant? (true/false). Massgeblich ist der tatsaechliche Inhalt "
+        "des Dokuments, sofern vorhanden, nicht nur der Titel.\n\n"
+        f"Einreichende Organisation: {org}\n"
+        f"Regelungsvorhaben (von der Organisation zugeordnet): {title}\n"
+        f"Beschreibung des Regelungsvorhabens (allgemeine Angabe der Organisation fuer alle "
+        f"Stellungnahmen zu diesem Vorhaben, NICHT dokumentspezifisch): {register_desc or 'keine'}\n"
+        f"Themenfelder: {fields}\nAdressaten: {recipients}\n\n"
+    )
+    markierung = (
         "MARKIERUNG mit <b>-Tags:\n"
         "Markiere die Woerter und kurzen Phrasen, die beim schnellen Ueberfliegen den Kern "
         "erfassen lassen (Taetigkeitswort der Organisation, konkrete Forderung/Aussage, "
         "spezifische Kernbegriffe). NICHT markieren: Woerter aus dem Titel, allgemeine "
         "Woerter (Stellungnahme, Unternehmen, Bereich), reine Gesetzesnummern aus dem Titel.\n"
-        "Ziel: 4-7 markierte Phrasen.\n"
-        "Falls keine inhaltliche Grundlage vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
-        f"Titel: {title}\nThemenfelder: {fields}\nAdressaten: {recipients}\n\n"
-        f"{inhalt_block}\n\n"
-        'Antworte als JSON-Objekt: {"relevant": true, "relevanz_grund": "...", "zusammenfassung": "..."}\n'
+    )
+
+    if quelle in ("pdf_text", "pdf_scan"):
+        if quelle == "pdf_text":
+            inhalt = ("VOLLTEXT DER STELLUNGNAHME (aus der PDF extrahiert – Grundlage der "
+                      "Zusammenfassung):\n" + pdf_text + "\n\n")
+        else:
+            inhalt = ("DOKUMENT: Die Stellungnahme liegt als PDF-Datei bei (Bild-Scan). Lies die "
+                      "Seiten und nutze ihren Inhalt als Grundlage der Zusammenfassung.\n\n")
+        auftrag = (
+            "ZUSAMMENFASSUNG:\n"
+            "Schreibe 5 bis 8 praegnante Saetze. Sachlich. Ohne Wertung. Nur Aussagen, die "
+            "im Dokument stehen; nichts ergaenzen.\n"
+            "ERSTER SATZ: Nennt zwingend (a) die Organisation und ihre Handlung/Haltung "
+            "(z.B. fordert, lehnt ab, begruesst, empfiehlt, warnt vor, schlaegt vor, kritisiert, "
+            "unterstuetzt, bezweifelt, beantragt, praezisiert) UND (b) den zentralen Gegenstand. "
+            "Bezeichne die Organisation korrekt (Unternehmen nicht als 'Verband').\n"
+            "FOLGENDE SAETZE: Konkretisieren die wichtigsten Details, Argumente und Forderungen.\n\n"
+            + markierung + "Ziel: 4-7 markierte Phrasen.\n\n"
+            "ABWEICHUNGSPRUEFUNG:\n"
+            "Vergleiche den Inhalt des Dokuments mit dem zugeordneten Regelungsvorhaben (Titel "
+            "und Beschreibung). abweichung = true NUR, wenn das Dokument erkennbar ein anderes "
+            "Gesetz, Vorhaben oder Thema behandelt. KEINE Abweichung ist es, wenn das Vorhaben "
+            "breit gefasst ist und das Dokument einen Teilaspekt davon behandelt.\n"
+            "abweichung_hinweis: bei Abweichung ein Satz, was das Dokument tatsaechlich "
+            "behandelt (ohne <b>-Tags); sonst leer.\n\n"
+        )
+    else:
+        inhalt = ("HINWEIS: Der Inhalt des Dokuments ist NICHT verfuegbar (PDF nicht abrufbar "
+                  "oder nicht lesbar). Es liegt nur die allgemeine Beschreibung des "
+                  "Regelungsvorhabens vor.\n\n")
+        auftrag = (
+            "ZUSAMMENFASSUNG:\n"
+            "Hoechstens 2 Saetze. Beginne mit 'Laut Registerangabe zum Regelungsvorhaben'. "
+            "Gib nur wieder, was in der Beschreibung des Regelungsvorhabens steht. Erfinde "
+            "KEINE Akteure, Haltungen, Forderungen oder Details und stelle die Beschreibung "
+            "nicht als Inhalt des Dokuments dar.\n"
+            "Falls keine Beschreibung vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
+            + markierung + "Ziel: hoechstens 3 markierte Phrasen.\n\n"
+            "ABWEICHUNGSPRUEFUNG: nicht moeglich, setze abweichung = false und "
+            "abweichung_hinweis = \"\".\n\n"
+        )
+
+    return (
+        kopf + inhalt + auftrag +
+        'Antworte als JSON-Objekt: {"relevant": true, "relevanz_grund": "...", '
+        '"zusammenfassung": "...", "abweichung": false, "abweichung_hinweis": ""}\n'
         "NUR das JSON-Objekt."
     )
+
+def analyze_statement(stmt):
+    """Fuehrt die KI-Pruefung fuer eine Stellungnahme durch.
+    Reihenfolge: PDF-Volltext -> PDF als Datei (Bild-Scan) -> Registerbeschreibung.
+    Rueckgabe: (ergebnis, quelle, anzahl_api_calls) mit
+    ergebnis = dict | "QUOTA_EXCEEDED" | None."""
+    pdf_bytes = fetch_pdf(stmt.get("pdf_url", ""))
+    pdf_text, n_pages = extract_pdf_text(pdf_bytes)
+
+    if pdf_text:
+        return call_gemini(build_single_prompt(stmt, "pdf_text", pdf_text)), "pdf_text", 1
+
+    if pdf_bytes and len(pdf_bytes) <= PDF_SCAN_MAX_BYTES and 0 < n_pages <= PDF_SCAN_MAX_PAGES:
+        result = call_gemini(build_single_prompt(stmt, "pdf_scan"), pdf_bytes=pdf_bytes)
+        if result == "QUOTA_EXCEEDED" or isinstance(result, dict):
+            return result, "pdf_scan", 1
+        print("  Scan-Auswertung fehlgeschlagen – Rueckfall auf Registerbeschreibung")
+        time.sleep(REQUEST_DELAY)
+        return call_gemini(build_single_prompt(stmt, "register")), "register", 2
+    elif pdf_bytes:
+        print(f"  Scan zu gross fuer Direktauswertung ({n_pages} Seiten, {len(pdf_bytes)//1024} KB) "
+              "– Rueckfall auf Registerbeschreibung")
+
+    return call_gemini(build_single_prompt(stmt, "register")), "register", 1
+
+def apply_result(stmt, entry):
+    """Uebertraegt ein (Cache-)Ergebnis auf das Statement."""
+    stmt["summary"] = entry.get("zusammenfassung") or stmt.get("summary", "")
+    stmt["gemini_relevanz"] = entry.get("relevanz_grund", "")
+    if entry.get("quelle"):
+        stmt["summary_quelle"] = entry["quelle"]
+    else:
+        stmt.pop("summary_quelle", None)
+    if entry.get("abweichung") and entry.get("abweichung_hinweis"):
+        stmt["abweichung"] = True
+        stmt["abweichung_hinweis"] = entry["abweichung_hinweis"]
+    else:
+        stmt.pop("abweichung", None)
+        stmt.pop("abweichung_hinweis", None)
+
+def cache_entry_from_result(result, quelle):
+    return {
+        "relevant": result.get("relevant", True),
+        "relevanz_grund": result.get("relevanz_grund", ""),
+        "zusammenfassung": result.get("zusammenfassung", ""),
+        "quelle": quelle,
+        "abweichung": bool(result.get("abweichung")) and quelle != "register",
+        "abweichung_hinweis": (result.get("abweichung_hinweis") or "").strip() if quelle != "register" else "",
+        "geprueft_am": date.today().isoformat(),
+    }
 
 def notify_admin_error(error_summary):
     if not RESEND_API_KEY or not ADMIN_EMAIL: return
@@ -304,6 +427,24 @@ def upload_delay_style(sending_raw, upload_raw):
     except Exception:
         return None, 0
 
+def esc(text):
+    return (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+QUELLE_HINWEIS = {
+    "pdf_scan": "Grundlage: PDF-Scan (von der KI gelesen)",
+    "register": "Grundlage: nur Registerangabe zum Regelungsvorhaben – Dokument nicht auswertbar",
+}
+
+def quelle_note_html(stmt):
+    note = QUELLE_HINWEIS.get(stmt.get("summary_quelle", ""))
+    return f'<span class="quelle-note">{note}</span>' if note else ""
+
+def abweichung_html(stmt, prefix=""):
+    if not (stmt.get("abweichung") and stmt.get("abweichung_hinweis")):
+        return ""
+    return (f'<div class="row-warn">{prefix}⚠ <strong>Dokument weicht vom angegebenen '
+            f'Regelungsvorhaben ab:</strong> {esc(stmt["abweichung_hinweis"])}</div>')
+
 def render_entry_card(stmt):
     raw_title = stmt["regulatory_project_title"]
     raw_org = stmt["org_name"]
@@ -351,7 +492,8 @@ def render_entry_card(stmt):
         f'<div class="mc half"><strong>Adressaten</strong>{recip_badges}</div>'
         f'<div class="mc half"><strong>Themenfelder der Stellungnahme</strong>{field_tags}</div>'
         f'</div>'
-        f'<div class="row-full"><span class="row-label">Inhalt</span>{summary}</div>'
+        f'{abweichung_html(stmt)}'
+        f'<div class="row-full"><span class="row-label">Inhalt</span>{summary}{quelle_note_html(stmt)}</div>'
         f'<div class="link-row">'
         f'<div class="lc">{stmt_link}</div>'
         f'<div class="lc">{pdf_link}</div>'
@@ -453,6 +595,7 @@ def render_group_card(members):
         recip_html = "".join(parts)
 
     content_parts = []
+    warn_parts = []
     link_parts = []
     for i, m in enumerate(members):
         summary = m.get("summary", "") or "Keine Beschreibung verf\u00fcgbar."
@@ -460,7 +603,8 @@ def render_group_card(members):
         pending_badge = ""
         if m.get("gemini_status") == "pending":
             pending_badge = '<span style="font-size:0.7rem;font-weight:700;color:#94a3b8;margin-left:10px;">KI-Pr\u00fcfung ausstehend</span>'
-        content_parts.append(f'<div style="margin-bottom:0.6rem"><strong>{i+1})</strong> {summary}{pending_badge}</div>')
+        content_parts.append(f'<div style="margin-bottom:0.6rem"><strong>{i+1})</strong> {summary}{pending_badge}{quelle_note_html(m)}</div>')
+        warn_parts.append(abweichung_html(m, prefix=f"{i+1}) "))
 
         sg_number = m.get("sg_number", "")
         statement_url = m.get("statement_url", "")
@@ -486,6 +630,7 @@ def render_group_card(members):
         f'<div class="mc half"><strong>Adressaten</strong>{recip_html}</div>'
         f'<div class="mc half"><strong>Themenfelder der Stellungnahme</strong>{field_tags}</div>'
         f'</div>'
+        f'{"".join(warn_parts)}'
         f'<div class="row-full"><span class="row-label">Inhalt</span>{content_html}</div>'
         f'<div class="link-row">{links_html}</div>'
         f'</div>'
@@ -545,6 +690,17 @@ def generate_html(statements, generated_at, pending_dates):
 
 # -- Hauptlogik --
 
+def bucket(stmt, entry, final_statements, filtered_out, status):
+    """Sortiert ein Statement anhand eines (Cache-)Ergebnisses ein."""
+    if entry.get("relevant", True):
+        apply_result(stmt, entry)
+        stmt["gemini_status"] = status
+        final_statements.append(stmt)
+    else:
+        apply_result(stmt, entry)
+        stmt["gemini_status"] = "filtered"
+        filtered_out.append(stmt)
+
 def main():
     print("=== Lobbyregister Monitor - Gemini Anreicherung & Caching ===")
     print(f"Modell: {GEMINI_MODEL} | Budget: max. {MAX_AI_PER_RUN} Calls/Lauf")
@@ -561,98 +717,100 @@ def main():
         sys.exit(0)
 
     cache = load_cache()
-    to_process = []
+    to_process = []      # neu, noch nie geprueft
+    legacy = []          # im Cache, aber vor Einfuehrung der Quellenangabe geprueft
     final_statements = []
     filtered_out = []
 
     # 1. Cache-Abgleich
     for stmt in statements:
-        uid = stmt.get("sg_number") or stmt.get("statement_url") or stmt.get("pdf_url")
+        # Fallback-Schluessel fuer Eintraege ohne SG-Nummer/URL (wie Deduplizierung in
+        # fetch_and_build.py), damit auch sie im Cache landen und nicht taeglich neu
+        # geprueft werden.
+        uid = (stmt.get("sg_number") or stmt.get("statement_url") or stmt.get("pdf_url")
+               or f"{stmt.get('register_number','')}|{stmt.get('regulatory_project_title','')}|{stmt.get('sending_date','')}")
+        stmt["_uid"] = uid
         if uid and uid in cache:
-            cached_data = cache[uid]
-            if cached_data.get("relevant", True):
-                stmt["summary"] = cached_data.get("zusammenfassung", stmt["summary"])
-                stmt["gemini_relevanz"] = cached_data.get("relevanz_grund", "")
-                stmt["gemini_status"] = "cached"
-                final_statements.append(stmt)
+            if "quelle" in cache[uid]:
+                stmt.pop("_uid", None)
+                bucket(stmt, cache[uid], final_statements, filtered_out, "cached")
             else:
-                stmt["gemini_status"] = "filtered"
-                filtered_out.append(stmt)
+                legacy.append(stmt)
         else:
-            stmt["_uid"] = uid
             to_process.append(stmt)
 
-    print(f"Eintraege gesamt: {len(statements)} | Im Cache: {len(statements)-len(to_process)} | Neu zu pruefen: {len(to_process)}")
+    newest_first = lambda x: (x.get("upload_date") or "0000-00-00", x.get("sg_number") or "")
+    to_process.sort(key=newest_first, reverse=True)
+    legacy.sort(key=newest_first, reverse=True)
+    queue = [(s, False) for s in to_process] + [(s, True) for s in legacy]
+
+    print(f"Eintraege gesamt: {len(statements)} | Im Cache: {len(statements)-len(to_process)} | "
+          f"Neu zu pruefen: {len(to_process)} | Altbestand zur Neuverarbeitung offen: {len(legacy)}")
 
     quota_hit = False
-    budget_hit = False
     api_calls_made = 0
+    reprocessed = 0
+    quellen = defaultdict(int)
+    done = set()
 
-    # 2. KI-Pruefung fuer neue Eintraege (Einzelverarbeitung mit PDF-Volltext)
-    if to_process and GEMINI_API_KEY:
-        for idx, stmt in enumerate(to_process):
-            if quota_hit or budget_hit:
+    # 2. KI-Pruefung: zuerst neue Eintraege, dann Altbestand (jeweils juengste zuerst)
+    if queue and GEMINI_API_KEY:
+        for idx, (stmt, is_legacy) in enumerate(queue):
+            if quota_hit:
                 break
             if api_calls_made >= MAX_AI_PER_RUN:
-                budget_hit = True
                 print(f"  Budget-Limit erreicht ({MAX_AI_PER_RUN} Calls). Rest folgt im naechsten Lauf.")
                 break
 
-            uid = stmt.pop("_uid", None)
-            pdf_text = extract_pdf_text(stmt.get("pdf_url", ""))
-            quelle = "PDF" if pdf_text else "Metadaten"
-            print(f"  Eintrag {idx+1}/{len(to_process)} (SG {stmt.get('sg_number','?')}, Quelle: {quelle})...")
+            uid = stmt.get("_uid")
+            art = "Altbestand" if is_legacy else "neu"
+            print(f"  Eintrag {idx+1}/{len(queue)} ({art}, SG {stmt.get('sg_number','?')}, "
+                  f"hochgeladen {stmt.get('upload_date','?')})...")
 
-            result = call_gemini(build_single_prompt(stmt, pdf_text))
-            api_calls_made += 1
+            result, quelle, n_calls = analyze_statement(stmt)
+            api_calls_made += n_calls
+            print(f"    Quelle: {quelle}")
 
             if result == "QUOTA_EXCEEDED":
                 quota_hit = True
                 notify_admin_error("Tageslimit (Quota) der Gemini API erreicht.")
-                stmt["gemini_status"] = "pending"
-                final_statements.append(stmt)
                 break
 
             if not isinstance(result, dict):
-                # Fehlgeschlagen: als pending markieren, spaeter erneut versuchen
-                stmt["gemini_status"] = "pending"
-                final_statements.append(stmt)
+                # Fehlgeschlagen: neue Eintraege bleiben 'pending', Altbestand behaelt
+                # seine bisherige Zusammenfassung (Schritt 3).
                 time.sleep(REQUEST_DELAY)
                 continue
 
-            is_relevant = result.get("relevant", True)
+            entry = cache_entry_from_result(result, quelle)
             if uid:
-                cache[uid] = {
-                    "relevant": is_relevant,
-                    "relevanz_grund": result.get("relevanz_grund", ""),
-                    "zusammenfassung": result.get("zusammenfassung", ""),
-                }
+                cache[uid] = entry
                 save_cache(cache)
-
-            if is_relevant:
-                stmt["summary"] = result.get("zusammenfassung", stmt.get("summary", ""))
-                stmt["gemini_relevanz"] = result.get("relevanz_grund", "")
-                stmt["gemini_status"] = "processed"
-                final_statements.append(stmt)
-            else:
-                stmt["gemini_status"] = "filtered"
-                filtered_out.append(stmt)
+            stmt.pop("_uid", None)
+            bucket(stmt, entry, final_statements, filtered_out, "processed")
+            done.add(id(stmt))
+            quellen[quelle] += 1
+            if is_legacy:
+                reprocessed += 1
+            if entry["abweichung"]:
+                print(f"    ⚠ Abweichung: {entry['abweichung_hinweis']}")
 
             time.sleep(REQUEST_DELAY)
 
-    # 3. Ungepruefte Reste (wegen Quota, Budget oder Fehler)
+    # 3. Nicht verarbeitete Reste
     pending_dates = set()
-    for stmt in to_process:
-        # Nur Eintraege die in Schritt 2 NICHT verarbeitet wurden
-        if stmt.get("gemini_status"):
+    for stmt, is_legacy in queue:
+        if id(stmt) in done:
             continue
-
-        stmt.pop("_uid", None)
-        stmt["gemini_status"] = "pending"
-        final_statements.append(stmt)
-
-        d = stmt.get("sending_date") or stmt.get("upload_date")
-        pending_dates.add(d if d else "unbekannt")
+        uid = stmt.pop("_uid", None)
+        if is_legacy:
+            # Bisheriges Ergebnis bleibt bis zur Neuverarbeitung bestehen
+            bucket(stmt, cache[uid], final_statements, filtered_out, "cached")
+        else:
+            stmt["gemini_status"] = "pending"
+            final_statements.append(stmt)
+            d = stmt.get("sending_date") or stmt.get("upload_date")
+            pending_dates.add(d if d else "unbekannt")
 
     final_statements.sort(key=lambda x: (x.get("upload_date") or "0000-00-00"), reverse=True)
 
@@ -668,14 +826,18 @@ def main():
     )
     data["statements"] = all_statements_sorted
     data["gemini_filtered_out"] = len(filtered_out)  # Zahl, nicht Liste
+    data["gemini_legacy_open"] = len(legacy) - reprocessed
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     # 5. HTML mit aktuellen Daten neu bauen (nur sichtbare Statements)
     generate_html(final_statements, data.get("generated_at", datetime.now().isoformat()), pending_dates)
 
+    quellen_str = ", ".join(f"{k}: {v}" for k, v in sorted(quellen.items())) or "keine"
     print(f"Fertig. {len(final_statements)} sichtbar, {len(filtered_out)} aussortiert (im data.json behalten) | "
-          f"{api_calls_made} API-Calls | {len(pending_dates)} Tage pending")
+          f"{api_calls_made} API-Calls | Quellen: {quellen_str} | "
+          f"Altbestand neu verarbeitet: {reprocessed}, offen: {len(legacy) - reprocessed} | "
+          f"{len(pending_dates)} Tage pending")
 
 if __name__ == "__main__":
     main()

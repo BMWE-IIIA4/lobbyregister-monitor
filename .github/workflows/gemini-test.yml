@@ -1,0 +1,46 @@
+name: Gemini-Test (einzelne Stellungnahmen)
+
+# Testet die KI-Pruefung fuer einzelne SG-Nummern, ohne Daten zu veraendern:
+# kein Commit, kein data-store-Push, kein Pages-Deploy, keine Mail.
+on:
+  workflow_dispatch:
+    inputs:
+      sg_numbers:
+        description: 'SG-Nummer(n), mit Leerzeichen oder Komma getrennt'
+        required: true
+        default: 'SG2609210037'
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  TZ: Europe/Berlin
+
+jobs:
+  test:
+    name: KI-Pruefung testen
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Abhaengigkeiten installieren
+        run: pip install requests pypdf
+
+      - name: Datenbestand aus data-store-Branch laden (nur lesen)
+        run: |
+          git fetch --depth 1 origin data-store:data-store
+          mkdir -p docs
+          git show data-store:data.json > docs/data.json
+
+      - name: Testlauf
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SG_NUMBERS: ${{ github.event.inputs.sg_numbers }}
+        run: python scripts/gemini_test.py "$SG_NUMBERS"

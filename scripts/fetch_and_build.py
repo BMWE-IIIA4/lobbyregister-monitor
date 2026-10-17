@@ -438,6 +438,10 @@ def process_statement(stmt, register_number, org_name, upload_date,
         "sg_number": sg_number,
         "statement_url": statement_url,
         "summary": summary,
+        # Beschreibung des Regelungsvorhabens (von der Organisation einmal pro
+        # Vorhaben hinterlegt, NICHT dokumentspezifisch). Bleibt getrennt von
+        # "summary" erhalten, das spaeter durch die KI-Zusammenfassung ersetzt wird.
+        "register_description": summary,
         "recipients": recipients,
         "fields": display_fields,
         "priority": priority,
@@ -463,12 +467,20 @@ def merge_statements(previous, fetched):
 
     seen = set()
     merged = []
+    fetched_by_key = {dedup_key(s): s for s in fetched}
 
-    # Bestehende zuerst (haben Vorrang -> Datum & Reihenfolge bleiben stabil)
+    # Bestehende zuerst (haben Vorrang -> Datum & Reihenfolge bleiben stabil).
+    # Einzige Ausnahme: register_description wird aus dem frischen Abruf
+    # uebernommen, damit die Registerbeschreibung auch fuer Bestandseintraege
+    # vorliegt (Grundlage fuer die KI-Neuverarbeitung, wenn das PDF nicht
+    # auswertbar ist).
     for stmt in previous:
         key = dedup_key(stmt)
         if key not in seen:
             seen.add(key)
+            fresh = fetched_by_key.get(key)
+            if fresh and fresh.get("register_description") is not None:
+                stmt["register_description"] = fresh["register_description"]
             merged.append(stmt)
 
     # Frisch abgerufene nur, wenn SG-Nummer noch nicht bekannt
