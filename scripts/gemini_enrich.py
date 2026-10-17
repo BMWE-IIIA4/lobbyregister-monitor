@@ -294,18 +294,21 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "Bezeichne die Organisation korrekt (Unternehmen nicht als 'Verband').\n"
             "FOLGENDE SAETZE: Konkretisieren die wichtigsten Details, Argumente und Forderungen.\n\n"
             + markierung + "Ziel: 4-7 markierte Phrasen.\n\n"
-            "ABWEICHUNGSPRUEFUNG:\n"
-            "1. Bestimme den HAUPTGEGENSTAND des Dokuments: Betreff/Ueberschrift und das Gesetz "
-            "bzw. Vorhaben, um das es im Kern geht (Feld hauptgegenstand, kurz).\n"
-            "2. Vergleiche ihn mit dem zugeordneten Regelungsvorhaben (Titel und Beschreibung).\n"
-            "abweichung = true, wenn der Hauptgegenstand ein ANDERES Gesetz, Vorhaben oder Thema "
-            "ist als das zugeordnete Regelungsvorhaben. Das gilt auch dann, wenn das zugeordnete "
-            "Vorhaben im Dokument nur am Rande erwaehnt wird.\n"
-            "abweichung = false, wenn der Hauptgegenstand das zugeordnete Vorhaben oder ein "
-            "Teilaspekt davon ist (z.B. ein Vorhaben 'Strommarktdesign' und ein Dokument zu "
-            "Netzentgelten im Strommarkt).\n"
-            "abweichung_hinweis: bei Abweichung ein Satz, was das Dokument tatsaechlich "
-            "behandelt (ohne <b>-Tags); sonst leer.\n\n"
+            "BEZUG ZUM REGELUNGSVORHABEN (vor der Zusammenfassung beantworten):\n"
+            "hauptgegenstand: Betreff/Ueberschrift bzw. das Gesetz oder Vorhaben, um das es im "
+            "Dokument im Kern geht (kurz).\n"
+            "bezug: Wie verhaelt sich der Hauptgegenstand zum zugeordneten Regelungsvorhaben "
+            "(Titel und Beschreibung oben)? Genau einer dieser Werte:\n"
+            "  'kern' – das Dokument behandelt das zugeordnete Vorhaben selbst\n"
+            "  'teilaspekt' – das Dokument behandelt einen Teilaspekt des Vorhabens\n"
+            "  'nur_erwaehnt' – das Dokument behandelt etwas anderes; das zugeordnete Vorhaben "
+            "kommt nur am Rande vor\n"
+            "  'anderes_thema' – das Dokument behandelt ein anderes Gesetz/Vorhaben/Thema\n"
+            "Beispiel: Vorhaben 'Novelle des Gebaeudeenergiegesetzes', Dokument mit Betreff "
+            "'Wasserstoffbeschleunigungsgesetz: Genehmigung von Elektrolyseuren', das das GEG in "
+            "einem Satz erwaehnt -> 'nur_erwaehnt'.\n"
+            "abweichung_hinweis: bei 'nur_erwaehnt' oder 'anderes_thema' ein Satz, was das "
+            "Dokument tatsaechlich behandelt (ohne <b>-Tags); sonst leer.\n\n"
         )
     else:
         inhalt = ("HINWEIS: Der Inhalt des Dokuments ist NICHT verfuegbar (PDF nicht abrufbar "
@@ -319,15 +322,15 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "nicht als Inhalt des Dokuments dar.\n"
             "Falls keine Beschreibung vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
             + markierung + "Ziel: hoechstens 3 markierte Phrasen.\n\n"
-            "ABWEICHUNGSPRUEFUNG: nicht moeglich, setze abweichung = false und "
+            "BEZUG: nicht pruefbar, setze hauptgegenstand = \"\", bezug = \"unbekannt\" und "
             "abweichung_hinweis = \"\".\n\n"
         )
 
     return (
         kopf + inhalt + auftrag +
-        'Antworte als JSON-Objekt: {"relevant": true, "relevanz_grund": "...", '
-        '"zusammenfassung": "...", "hauptgegenstand": "...", "abweichung": false, '
-        '"abweichung_hinweis": ""}\n'
+        'Antworte als JSON-Objekt in genau dieser Feldreihenfolge: {"hauptgegenstand": "...", '
+        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "abweichung_hinweis": "", '
+        '"relevant": true, "relevanz_grund": "...", "zusammenfassung": "..."}\n'
         "NUR das JSON-Objekt."
     )
 
@@ -370,14 +373,20 @@ def apply_result(stmt, entry):
         stmt.pop("abweichung", None)
         stmt.pop("abweichung_hinweis", None)
 
+ABWEICHUNG_BEZUG = ("nur_erwaehnt", "anderes_thema")
+
 def cache_entry_from_result(result, quelle):
     return {
         "relevant": result.get("relevant", True),
         "relevanz_grund": result.get("relevanz_grund", ""),
         "zusammenfassung": result.get("zusammenfassung", ""),
         "quelle": quelle,
-        "abweichung": bool(result.get("abweichung")) and quelle != "register",
-        "abweichung_hinweis": (result.get("abweichung_hinweis") or "").strip() if quelle != "register" else "",
+        "bezug": result.get("bezug", "") if quelle != "register" else "unbekannt",
+        "abweichung": (result.get("bezug") in ABWEICHUNG_BEZUG) and quelle != "register",
+        "abweichung_hinweis": ((result.get("abweichung_hinweis") or "").strip()
+                               or (f"Das Dokument behandelt: {result.get('hauptgegenstand', '').strip()}"
+                                   if result.get("hauptgegenstand") else "")
+                               ) if quelle != "register" and result.get("bezug") in ABWEICHUNG_BEZUG else "",
         "geprueft_am": date.today().isoformat(),
     }
 
