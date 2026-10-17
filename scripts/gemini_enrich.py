@@ -295,10 +295,15 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "FOLGENDE SAETZE: Konkretisieren die wichtigsten Details, Argumente und Forderungen.\n\n"
             + markierung + "Ziel: 4-7 markierte Phrasen.\n\n"
             "ABWEICHUNGSPRUEFUNG:\n"
-            "Vergleiche den Inhalt des Dokuments mit dem zugeordneten Regelungsvorhaben (Titel "
-            "und Beschreibung). abweichung = true NUR, wenn das Dokument erkennbar ein anderes "
-            "Gesetz, Vorhaben oder Thema behandelt. KEINE Abweichung ist es, wenn das Vorhaben "
-            "breit gefasst ist und das Dokument einen Teilaspekt davon behandelt.\n"
+            "1. Bestimme den HAUPTGEGENSTAND des Dokuments: Betreff/Ueberschrift und das Gesetz "
+            "bzw. Vorhaben, um das es im Kern geht (Feld hauptgegenstand, kurz).\n"
+            "2. Vergleiche ihn mit dem zugeordneten Regelungsvorhaben (Titel und Beschreibung).\n"
+            "abweichung = true, wenn der Hauptgegenstand ein ANDERES Gesetz, Vorhaben oder Thema "
+            "ist als das zugeordnete Regelungsvorhaben. Das gilt auch dann, wenn das zugeordnete "
+            "Vorhaben im Dokument nur am Rande erwaehnt wird.\n"
+            "abweichung = false, wenn der Hauptgegenstand das zugeordnete Vorhaben oder ein "
+            "Teilaspekt davon ist (z.B. ein Vorhaben 'Strommarktdesign' und ein Dokument zu "
+            "Netzentgelten im Strommarkt).\n"
             "abweichung_hinweis: bei Abweichung ein Satz, was das Dokument tatsaechlich "
             "behandelt (ohne <b>-Tags); sonst leer.\n\n"
         )
@@ -321,7 +326,8 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
     return (
         kopf + inhalt + auftrag +
         'Antworte als JSON-Objekt: {"relevant": true, "relevanz_grund": "...", '
-        '"zusammenfassung": "...", "abweichung": false, "abweichung_hinweis": ""}\n'
+        '"zusammenfassung": "...", "hauptgegenstand": "...", "abweichung": false, '
+        '"abweichung_hinweis": ""}\n'
         "NUR das JSON-Objekt."
     )
 
