@@ -13,8 +13,15 @@
   },
   "SG2606160027": {
     "relevant": true,
-    "relevanz_grund": "Betrifft die Wettbewerbsfähigkeit der Industrie und die Strommarktregulierung (Netzentgelte).",
-    "zusammenfassung": "TRIMET <b>unterstützt die Reform</b> der Industrienetzentgelte, <b>fordert jedoch den Erhalt</b> wettbewerbsfähiger Entlastungen. Mit dem Modell „FLEXIS“ wird eine <b>technologieoffene Honorierung</b> industrieller Lastflexibilität vorgeschlagen. Zudem wird eine <b>Übergangsregelung bis 2035</b> zur Sicherung der Standortwettbewerbsfähigkeit verlangt."
+    "relevanz_grund": "Das Dokument adressiert direkt die Reform der Industrienetzentgelte und die Ausgestaltung der Netzentgeltsystematik, welche zentrale Themen der Unterabteilung IIIA (Strommarktregulierung) sind.",
+    "zusammenfassung": "Die TRIMET Aluminium SE <b>begrüßt die Weiterentwicklung</b> der Industrienetzentgelte, fordert jedoch den Erhalt wettbewerbsfähiger Entlastungen für energieintensive Standorte. Das Unternehmen <b>schlägt das Modell FLEXIS vor</b>, das industrielle Lastflexibilität über ein Flexibilitätskonto und einen Korridor praxisnah honoriert. TRIMET <b>fordert eine Übergangsregelung bis 2035</b>, um Planungssicherheit für bestehende Bandlastkunden zu gewährleisten. Die <b>Zugangsvoraussetzung</b> soll auf eine gebuchte Entnahmekapazität von 50 MW begrenzt werden, ohne eine Sektorenliste einzuführen. Zudem wird eine <b>modulare Nachweismethode</b> für Flexibilität gefordert, da industrielle Prozesse keine beliebig disponiblen Speicher darstellen. Das Modell soll <b>Netz- und Marktsignale</b> integrieren, ohne bestehende Vermarktungswege wie Regelenergie zu verdrängen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Reform der Industrienetzentgelte",
+    "bezug": "kern",
+    "hauptgesetz": "StromNEV",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606160063": {
     "relevant": false,
@@ -401,9 +408,16 @@
     "geprueft_am": "2026-10-22"
   },
   "SG2606150069": {
-    "relevant": true,
-    "relevanz_grund": "Der CBAM ist ein zentrales Instrument der EU-Klimapolitik und hat direkte Auswirkungen auf die industrielle Wettbewerbsfähigkeit und die Dekarbonisierung, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-    "zusammenfassung": "Yara <b>fordert die Ablehnung</b> von Artikel 27a, um eine <b>vollständige Beibehaltung</b> des Mechanismus ohne Ausnahmen sicherzustellen. Das Unternehmen warnt vor negativen Folgen für die <b>industrielle Wettbewerbsfähigkeit</b> und die Dekarbonisierung. Zudem wird die Bundesregierung um Unterstützung auf EU-Ebene ersucht, um die <b>Integrität des Klimaschutzinstruments</b> zu wahren."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument enthält keine inhaltliche Auseinandersetzung mit dem CBAM-Regelungsvorhaben, sondern ist eine rein wirtschaftliche Marktanalyse zu Düngemittelpreisen.",
+    "zusammenfassung": "Die <b>Argus Media group</b> <b>analysiert</b> in ihrem Bericht die aktuelle Marktsituation für Düngemittel unter dem Einfluss globaler <b>Versorgungsrisiken</b>. Aufgrund des Nahostkonflikts steigen die <b>Energiepreise</b> und führen zu einer Verknappung des Angebots. Die Daten zeigen für Stickstoff-, Phosphat- und Kalidünger signifikante <b>Preisanstiege</b> im Vergleich zum Vorjahr. Neben diesen marktbedingten Faktoren wird der <b>CO2-Grenzausgleichsmechanismus</b> (CBAM) lediglich als ein weiterer Einflussfaktor auf die Kostenstruktur genannt. Der Fokus der Ausführungen liegt primär auf der Darstellung der Preisvolatilität und der Auswirkungen geopolitischer Spannungen auf die europäische Agrarwirtschaft.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Marktanalyse zu Düngemittelpreisen und Versorgungsrisiken",
+    "bezug": "nur_erwaehnt",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument ist eine Marktanalyse der Argus Media group zu Düngemittelpreisen und Versorgungsrisiken infolge des Nahostkonflikts; der CBAM wird lediglich in einem Nebensatz als Kontextfaktor erwähnt.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606150070": {
     "relevant": true,
@@ -791,8 +805,15 @@
   },
   "SG2606110042": {
     "relevant": true,
-    "relevanz_grund": "Identisch mit Eintrag 2; der Ausbau der Übertragungsnetze ist für die Versorgungssicherheit und Netzintegration essenziell.",
-    "zusammenfassung": "Die Organisation <b>unterstützt einen schnellen Ausbau</b> der Übertragungsnetze im Rahmen der Energiewende. Sie <b>fordert die Beibehaltung des Vorrangs von Erdkabeln</b> gegenüber Freileitungen, um die <b>gesellschaftliche Akzeptanz</b> der Infrastrukturprojekte zu sichern."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des Zweiten Gesetzes zur Änderung des Bundesbedarfsplangesetzes (BBPlG) und adressiert die für die Unterabteilung IIIA relevante Thematik des Netzausbaus und der Stromübertragung.",
+    "zusammenfassung": "Die NKT GmbH <b>lehnt die Aufhebung des Erdkabelvorrangs</b> für neue HGÜ-Vorhaben im Rahmen des Bundesbedarfsplangesetzes ab. Das Unternehmen warnt vor <b>Verzögerungen im Netzausbau</b> von mehreren Jahren sowie vor negativen Auswirkungen auf die <b>Versorgungssicherheit</b> und die industrielle Wertschöpfung. Die im Entwurf angeführten Kosteneinsparungen durch Freileitungen werden als nicht belastbar kritisiert, da sie keine <b>Lebenszykluskosten</b> und Resilienzfaktoren berücksichtigen. NKT fordert die Beibehaltung des Vorrangs oder schlägt alternativ eine <b>differenzierte Regelung</b> vor, die Ausnahmen nur bei nachgewiesener Gesamtvorteilhaftigkeit zulässt. Zudem wird betont, dass bereits weit fortgeschrittene Projekte zwingend als Erdkabel weitergeführt werden müssen, um Planungssicherheit zu gewährleisten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Zweites Gesetz zur Änderung des Bundesbedarfsplangesetzes",
+    "bezug": "kern",
+    "hauptgesetz": "BBPlG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606110004": {
     "relevant": true,
@@ -964,8 +985,15 @@
   },
   "SG2606110020": {
     "relevant": false,
-    "relevanz_grund": "Das Forschungsdatengesetz (FDG) betrifft allgemeine wissenschaftliche Rahmenbedingungen und hat keinen spezifischen Bezug zu den Themenfeldern der Unterabteilung IIIA.",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+    "relevanz_grund": "Das Dokument befasst sich mit dem Forschungsdatengesetz (FDG) und der Einbeziehung privatwirtschaftlicher Markt- und Sozialforschung in den Forschungsbegriff. Dies betrifft keine der fachlichen Zuständigkeiten der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Klimaschutz, etc.).",
+    "zusammenfassung": "Der ADM <b>unterstützt</b> das Ziel des Forschungsdatengesetzes, den Zugang zu Daten der öffentlichen Hand für die Forschung zu verbessern. Die Organisation <b>fordert</b> eine explizite Einbeziehung privatwirtschaftlicher Markt-, Meinungs- und Sozialforschung in den Forschungsbegriff, um eine strukturelle Benachteiligung gegenüber öffentlichen Einrichtungen zu vermeiden. Kritisiert werden insbesondere unklare Kriterien für das <b>öffentliche Interesse</b> sowie die <b>Akkreditierungsvorgaben</b>, die für kleine und mittlere Unternehmen bürokratische Hürden darstellen könnten. Zudem <b>schlägt</b> der ADM eine präzisere Formulierung der Antragsberechtigung vor, um auch akkreditierte Unternehmen als rechtliche Träger von Forschungsvorhaben zu legitimieren. Abschließend wird eine <b>ausgewogene Gebührenstruktur</b> gefordert, damit der Datenzugang nicht von der finanziellen Leistungsfähigkeit der Institute abhängt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Referentenentwurf eines Gesetzes zur verbesserten Nutzung von Daten für die Forschung (FDG)",
+    "bezug": "kern",
+    "hauptgesetz": "FDG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606100018": {
     "relevant": true,
@@ -1389,8 +1417,15 @@
   },
   "SG2606080041": {
     "relevant": true,
-    "relevanz_grund": "Die effiziente Nutzung von grünem Gas und die Sektorkopplung sind wesentliche Themen der Energiepolitik und der Dekarbonisierungsstrategie.",
-    "zusammenfassung": "Die Organisation <b>lehnt</b> die <b>Grüngasquote und Biotreppe</b> im Gebäudesektor ab, da sie knappe Ressourcen fehllenkten. Sie <b>plädiert</b> stattdessen für einen <b>Einsatz in KWK-Anlagen</b> oder der Industrie. Der Gebäudesektor solle primär durch Elektrifizierung und Fernwärme dekarbonisiert werden."
+    "relevanz_grund": "Das Dokument adressiert direkt die im Gebäudemodernisierungsgesetz diskutierte Grüngasquote und Biotreppe, was Auswirkungen auf die Sektorkopplung, die Stromnetzstabilität und die Priorisierung von Energieträgern hat, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Die <b>enercity AG lehnt</b> eine <b>Grüngasquote</b> sowie die Biotreppe im Gebäudesektor ab. Das Unternehmen argumentiert, dass knappe grüne Gase vorrangig in der Industrie und für hocheffiziente KWK-Anlagen eingesetzt werden sollten, statt sie in den Gebäudesektor zu lenken, der primär durch <b>Elektrifizierung und Wärmenetze</b> dekarbonisiert werden könne. Eine Quote schaffe <b>Lock-in-Anreize</b> für fossile Heizungstechnologien und erhöhe durch den notwendigen Ausbau der Einspeiseinfrastruktur die <b>Netzentgelte</b>. Zudem warnt das Unternehmen vor dem Wegfall steuerbarer Biogas-Verstromung, was die <b>Versorgungssicherheit</b> im Stromnetz gefährden und den Bedarf an fossilen Reservekapazitäten erhöhen könne. Statt einer Quotenlogik empfiehlt die enercity AG eine verursachergerechte Zuordnung von Infrastrukturkosten und eine konsequente Förderung von Effizienzmaßnahmen. Die <b>Priorisierung nachhaltiger Biomasse</b> für schwer dekarbonisierbare Sektoren wird als gesamtwirtschaftlich sinnvoller bewertet.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Grüngasquote und Biotreppe im Gebäudemodernisierungsgesetz",
+    "bezug": "kern",
+    "hauptgesetz": "GModG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606080048": {
     "relevant": true,
@@ -1562,8 +1597,15 @@
   },
   "SG2606050025": {
     "relevant": false,
-    "relevanz_grund": "Das Thema betrifft rein kapitalmarktrechtliche Meldepflichten und weist keinen inhaltlichen Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA auf.",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit kapitalmarktrechtlichen Meldepflichten (EMIR, MiFIR, SFTR) für Finanzinstitute. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
+    "zusammenfassung": "Der Bundesverband Öffentlicher Banken Deutschlands e.V. <b>schlägt vor</b>, die <b>Meldepflichten</b> für kleine Finanzkontrahenten unter EMIR, MiFIR und SFTR zu <b>reduzieren</b>. Der Verband fordert eine Ausweitung der bestehenden Ausnahmeregelungen für nicht-finanzielle Gegenparteien auf kleine Finanzinstitute, um den <b>administrativen Aufwand</b> zu senken. Zudem wird die Einführung eines <b>einseitigen Meldewesens</b> befürwortet, um redundante Datenübermittlungen zu vermeiden. Durch die Übertragung der Meldepflicht auf die berichtende Gegenpartei sollen <b>externe Audits</b> für kleine Institute entfallen. Diese Maßnahmen sollen die <b>Datenqualität</b> verbessern und die operative Effizienz für alle Beteiligten steigern. Der Verband argumentiert, dass kleine Finanzkontrahenten nur ein geringes systemisches Risiko darstellen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Vereinfachung des kapitalmarktrechtlichen Meldewesens unter EMIR, MiFIR und SFTR",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606050023": {
     "relevant": false,
@@ -2419,8 +2461,15 @@
   },
   "SG2605270002": {
     "relevant": true,
-    "relevanz_grund": "Das Thema betrifft direkt die Versorgungssicherheit, die Kraftwerksstrategie und das Strommarktdesign, welche Kernaufgaben der Unterabteilung IIIA sind.",
-    "zusammenfassung": "Das Papier <b>fordert die Sicherstellung ausreichender Kraftwerkskapazitäten</b> im Rahmen der nationalen Kraftwerksstrategie. Dabei steht die <b>Einführung eines Kapazitätsmechanismus</b> zur Gewährleistung der Systemstabilität im Fokus. Zudem werden Maßnahmen zur <b>Optimierung der Redispatch-Kapazitäten</b> sowie zur Erbringung systemdienlicher Dienstleistungen durch Erneuerbare-Energien-Anlagen adressiert."
+    "relevanz_grund": "Das Dokument analysiert die zunehmenden Herausforderungen bei der Systemstabilität und Versorgungssicherheit durch Redispatch-Bedarfe und bewertet verschiedene Marktdesign-Instrumente, was direkt in den Aufgabenbereich der Unterabteilung IIIA (Strommarktdesign, Versorgungssicherheit) fällt.",
+    "zusammenfassung": "Die <b>TenneT TSO GmbH warnt</b> vor einer signifikanten Zunahme systemkritischer Netzengpässe bis 2030, da der EE-Zubau und kurzfristige Handelsfreiheiten die <b>Redispatch-Bedarfe</b> in Höhe und Komplexität verdoppeln. Das Unternehmen stellt fest, dass der Netzausbau allein die Problematik nicht lösen kann und die aktuelle <b>Marktdesign-Struktur</b> an ihre Grenzen stößt. Als vielversprechende Lösungsoption wird die Einführung von <b>Dispatch Hubs</b> empfohlen, um Netzrestriktionen bereits im Stromhandel abzubilden. Andere Instrumente wie regionale Handelsgebiete oder ex-ante Einschränkungen werden aufgrund von <b>hohem Umsetzungsaufwand</b> oder mangelnder Wirksamkeit kritisch bewertet. Die ÜNB fordern eine fundamentale Anpassung des Marktdesigns, um das Risiko für <b>Notzustand-Situationen</b> zu minimieren. Eine <b>Anpassung des EU-Rechtsrahmens</b>, insbesondere der minRAM-Vorgaben, wird als kritischer Pfad für die Umsetzung identifiziert.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Herausforderungen Systembetrieb 2030 und Anpassung des Strommarktdesigns",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605270055": {
     "relevant": true,
@@ -2435,9 +2484,16 @@
     "geprueft_am": "2026-10-22"
   },
   "SG2605270027": {
-    "relevant": false,
-    "relevanz_grund": "Die Zuständigkeit liegt beim BMUKN und betrifft primär agrarpolitische Aspekte der Landnutzung, nicht die energiepolitische Kernregulierung der Unterabteilung IIIA.",
-    "zusammenfassung": "Die geplante <b>Einstufung von Soja als High-iLUC-Risiko</b> durch die EU-Kommission wird <b>kritisiert</b>. Diese Maßnahme steht nach Ansicht der Akteure im Widerspruch zu den Zielen der Bundesregierung. Zudem wird vor <b>negativen Auswirkungen auf wichtige Handelspartner</b> gewarnt."
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die EU-Energiepolitik und die Rahmenbedingungen für erneuerbare Energien (RED), da die Einstufung von Soja als High-iLUC-Rohstoff direkte Auswirkungen auf die Anrechenbarkeit von Biokraftstoffen auf die EU-Klimaziele hat.",
+    "zusammenfassung": "Eine Allianz aus zehn Verbänden der Agrar- und Ernährungswirtschaft <b>warnt vor der Einstufung von Soja</b> als Rohstoff mit hohem Risiko indirekter Landnutzungsänderungen (High iLUC). Die Unterzeichner kritisieren, dass die geplante Maßnahme die <b>europäische Versorgungssicherheit gefährdet</b> und die Wirtschaftlichkeit der heimischen Ölsaatenverarbeitung untergräbt. Sie führen an, dass die Datengrundlage der EU-Kommission methodische Mängel aufweise und wichtige Faktoren wie den Proteinbedarf sowie Mehrfachernten ignoriere. Zudem wird argumentiert, dass die Einstufung eine <b>neue Handelsbarriere</b> schafft und bereits bestehende Nachhaltigkeitsinstrumente wie die EUDR redundant mache. Die Verbände fordern die Bundesregierung auf, sich gegen das Vorhaben zu stellen, um <b>wirtschaftliche Schäden abzuwenden</b>. Ein faktischer Marktausschluss von Sojaöl im Kraftstoffsektor wird als kontraproduktiv für die Ziele der Bioökonomie und die Resilienz der Lieferketten bewertet.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Einstufung von Soja als High-iLUC-Risiko",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605270029": {
     "relevant": true,
@@ -3112,9 +3168,16 @@
     "geprueft_am": "2026-10-22"
   },
   "SG2605200029": {
-    "relevant": true,
-    "relevanz_grund": "Betrifft die Reform klimarelevanter Steuern und Abgaben sowie die Sektorkopplung im Verkehrsbereich.",
-    "zusammenfassung": "Die Initiative <b>fordert die Einbeziehung</b> von Schienenbahnen und Elektrobussen in die <b>Stromsteuerbegünstigung</b>. Ziel ist die Entlastung der Verkehrsunternehmen von jährlichen Mehrkosten in Höhe von 145 Mio. Euro. Damit soll die <b>Wettbewerbsfähigkeit elektrischer Antriebe</b> im Personen- und Güterverkehr gestärkt werden."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument stammt aus dem Jahr 2016 und bezieht sich auf allgemeine Forderungen zur Entlastung des öffentlichen Verkehrs von Steuern und Umlagen. Es enthält keinen direkten Bezug zu aktuellen Gesetzgebungsverfahren der Unterabteilung IIIA, wie etwa der Kraftwerksstrategie, dem Strommarktdesign oder spezifischen EU-Richtlinien.",
+    "zusammenfassung": "Der <b>Verband Deutscher Verkehrsunternehmen</b> <b>kritisiert</b> die hohe finanzielle Belastung des öffentlichen Personen- und Schienengüterverkehrs durch <b>Energiesteuern und -umlagen</b>. Die Organisation beziffert die jährlichen Aufwendungen auf über 1 Mrd. Euro und sieht darin eine <b>wettbewerbsverzerrende Benachteiligung</b> gegenüber anderen Verkehrsträgern. Zudem wird argumentiert, dass diese Kostenbelastung die <b>Einführung umweltfreundlicher Fahrzeuge</b> behindert. Der Verband fordert den Abbau oder Ausgleich dieser Abgaben, um die <b>Verkehrswende</b> zu unterstützen. Er appelliert an die Politik, entsprechende Entlastungen in den Wahlprogrammen für die Bundestagswahl 2017 zu verankern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Belastung des öffentlichen Verkehrs durch Energiesteuern und -umlagen",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605200030": {
     "relevant": true,
@@ -3334,8 +3397,15 @@
   },
   "SG2605180029": {
     "relevant": true,
-    "relevanz_grund": "Betrifft den Wasserstoffhochlauf und die Netzentgeltsystematik, zentrale Themen der Unterabteilung IIIA.",
-    "zusammenfassung": "Die Interessenvertretung <b>unterstützt</b> die <b>Verlängerung der Netzentgeltbefreiung</b> für Elektrolyseure über das Jahr 2030 hinaus. Sie <b>betont die zentrale Rolle</b> dieser Maßnahme für den Markthochlauf von Wasserstofftechnologien. Zudem wird eine <b>Würdigung der Systemdienlichkeit</b> im Rahmen der EnWG-Novelle angestrebt."
+    "relevanz_grund": "Das Dokument adressiert direkt die Netzentgeltsystematik für Elektrolyseure und deren systemdienliche Rolle, was unter die Themenfelder Strommarktregulierung und Wasserstoffmarkt fällt.",
+    "zusammenfassung": "Die VNG AG <b>fordert</b> die <b>Fortführung der Netzentgeltbefreiung</b> für Elektrolyseure, um den Wasserstoffhochlauf und die industrielle Wettbewerbsfähigkeit zu sichern. Das Unternehmen verlangt einen verbindlichen <b>Bestandsschutz</b> für bereits in der Umsetzung befindliche Projekte, um irreversible Investitionsentscheidungen abzusichern. Zudem wird eine <b>Verlängerung der Befreiung</b> über das Jahr 2029 hinaus bis mindestens 2035 empfohlen. Die VNG AG schlägt vor, Elektrolyseure gesetzlich als <b>systemdienliche Anlagen</b> im Energiewirtschaftsgesetz zu definieren. Bei der künftigen Ausgestaltung dynamischer Netzentgelte sollen bestehende <b>Strombezugskriterien</b> für nachhaltigen Wasserstoff konsequent berücksichtigt werden. Eine ersatzlose Streichung der Befreiung wird als existenzgefährdendes Risiko für den Markthochlauf bewertet.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Netzentgeltbefreiung für Elektrolyseure",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605180027": {
     "relevant": false,
@@ -3818,9 +3888,16 @@
     "geprueft_am": "2026-10-22"
   },
   "SG2605120032": {
-    "relevant": true,
-    "relevanz_grund": "Betrifft die energetische Gebäudesanierung und die Rolle von Holzheizungen im Kontext der Wärmewende und Klimaschutzvorgaben.",
-    "zusammenfassung": "Der DEPV <b>fordert Anpassungen</b> im Gebäudemodernisierungsgesetz, um die <b>Rolle von Holzwärme</b> zu sichern. Er verlangt den <b>Abbau bürokratischer Hürden</b> bei der Nachhaltigkeitszertifizierung sowie eine <b>Gleichbehandlung von Holzheizungen</b> bei der Anrechnung auf die Bio-Treppe. Zudem soll der <b>Primärenergiefaktor</b> für Holz auf dem zulässigen EU-Minimum gehalten werden."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument bezieht sich auf das Gebäudemodernisierungsgesetz (GModG) und die Wärmewende im Gebäudesektor. Diese Themen sind gemäß der Liste der Unterabteilung IIIA explizit als 'Nicht relevant' eingestuft (Gebäudeenergiegesetz/Gebäudemodernisierungsgesetz/Wärmewende).",
+    "zusammenfassung": "Die Initiative Holzwärme <b>kritisiert</b> den Entwurf des Gebäudemodernisierungsgesetzes (GModG) hinsichtlich der geplanten Einschränkungen für die Nutzung von Holzenergie. Die Verbände <b>lehnen die gesetzliche Festlegung des Kaskadenprinzips ab</b>, da dies die wirtschaftliche Nutzung von Resthölzern behindere. Zudem wird die <b>Streichung des Verweises auf die EUDR</b> gefordert, da die Nachweispflichten für Anlagenbetreiber in der Praxis nicht umsetzbar seien. Die Initiative <b>fordert den Erhalt des Primärenergiefaktors von 0,2</b> für Holz, um eine Benachteiligung gegenüber anderen Energieträgern zu vermeiden. Des Weiteren wird die <b>uneingeschränkte Zulässigkeit von Einzelraumfeuerstätten</b> für feste Brennstoffe verlangt, um deren Beitrag zur Wärmeerzeugung zu sichern. Abschließend wird eine stärkere Berücksichtigung der Holzwärme in der Förderpolitik angemahnt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Gebäudemodernisierungsgesetz (GModG)",
+    "bezug": "kern",
+    "hauptgesetz": "GModG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605120034": {
     "relevant": false,
@@ -4028,8 +4105,15 @@
   },
   "SG2605120021": {
     "relevant": true,
-    "relevanz_grund": "Identisch mit Eintrag 3, inhaltlich relevant für die Kraftwerksstrategie.",
-    "zusammenfassung": "Die Organisation <b>fordert eine langfristige Förderung</b> für die Kraft-Wärme-Kopplung. Sie verlangt die <b>Anhebung der Förderhöhen</b>, eine <b>Verlängerung der Inbetriebnahmefristen</b> bis 2038 und kritisiert die unrealistischen Kostenannahmen für die H2-Umstellung."
+    "relevanz_grund": "Das Dokument adressiert direkt die Ausgestaltung der KWK-Förderung und die Integration von Biomasse in das KWKG, was in den Themenbereich Stromerzeugung & Kraftwerke sowie Erneuerbare Energien fällt.",
+    "zusammenfassung": "Die <b>Stadtwerke München GmbH schlägt vor</b>, Biomasse als innovative erneuerbare Wärme in die <b>iKWK-Förderung nach § 7a KWKG</b> aufzunehmen. Das Unternehmen argumentiert, dass Biomasse eine steuerbare und verfügbare Energiequelle sei, die zur Erreichung der nationalen Klimaziele im Wärmesektor beitragen könne. Die Einbindung soll unter Einhaltung der <b>Nachhaltigkeitskriterien der RED III</b> erfolgen, um eine ökologisch und ökonomisch sinnvolle Nutzung sicherzustellen. Die SWM betonen, dass Biomasse insbesondere in industriellen Dampfsystemen und Fernwärmenetzen dort ergänzend eingesetzt werden könne, wo andere Technologien technisch oder wirtschaftlich an Grenzen stoßen. Durch die <b>gesetzliche Kohärenz</b> zum EEG und die Umsetzung der Evaluierungsaufforderung aus der KWK-Ausschreibungsverordnung soll die <b>Dekarbonisierung der Wärmenetze</b> beschleunigt werden. Die Forderung zielt darauf ab, die <b>volkswirtschaftliche Effizienz</b> durch den Einsatz in großen, hocheffizienten Anlagen zu maximieren.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Aufnahme von Biomasse als innovative erneuerbare Wärme in das KWKG",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "KWKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605120024": {
     "relevant": true,
@@ -4069,28 +4153,63 @@
   },
   "SG2605110009": {
     "relevant": false,
-    "relevanz_grund": "Themenfeld betrifft Finanzmarktregulierung und DLT-Technologie ohne direkten Bezug zur Energiepolitik.",
-    "zusammenfassung": "Der Verband <b>unterstützt</b> die Arbeit der Europäischen Kommission an einem <b>leistungsfähigen Kapitalmarkt</b>. Es werden Anregungen zu <b>Marktintegration</b>, Aufsichtskohärenz und <b>DLT-Integration</b> eingebracht. Der Fokus liegt auf der regulatorischen Klarheit für den digitalen Finanzmarkt."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit Finanzmarktregulierung, Kapitalmarktintegration und DLT-Pilotregimen im Zuständigkeitsbereich des Bundesministeriums der Finanzen (BMF) und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik) auf.",
+    "zusammenfassung": "Der Blockchain Bundesverband e.V. <b>begrüßt</b> das EU-Marktintegrationspaket, fordert jedoch eine strikte <b>Technologieneutralität</b> bei der Ausgestaltung neuer Marktarchitekturen. Der Verband <b>warnt</b> davor, DLT-basierte Systeme durch eine regulatorische Bevorzugung klassischer Finanzprozesse zu benachteiligen. Zudem wird eine <b>Entfristung des DLT-Pilotregimes</b> sowie eine Anhebung der Volumenschwellen für DLT-Marktinfrastrukturen <b>gefordert</b>. Hinsichtlich der Aufsicht durch die ESMA wird ein <b>Proportionalitätsprinzip</b> für kleine und mittlere Krypto-Dienstleister <b>vorgeschlagen</b>. Abschließend <b>kritisiert</b> der Verband die langen Umsetzungszeiträume, die zu einer schnellen Veralterung der regulatorischen Ziele führen könnten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Marktintegrationspaket (MISP)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110013": {
     "relevant": false,
-    "relevanz_grund": "Themenfeld betrifft Kinder- und Jugendhilfe (Sozialpolitik) ohne Energiebezug.",
-    "zusammenfassung": "Der VPK <b>begrüßt</b> die <b>inklusive Lösung</b> zur Zusammenführung von Leistungen für junge Menschen mit und ohne Behinderungen. Der Gesetzentwurf zielt darauf ab, <b>Schnittstellen abzubauen</b> und die Effizienz der Kinder- und Jugendhilfe zu steigern. Dies stellt einen wesentlichen Schritt zur <b>nachhaltigen Verbesserung der Teilhabe</b> dar."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der Strukturreform der Kinder- und Jugendhilfe (SGB VIII) und enthält keinerlei energiepolitische oder energiewirtschaftliche Bezüge, die in den Zuständigkeitsbereich des BMWK fallen.",
+    "zusammenfassung": "Der VPK-Bundesverband privater Träger der freien Kinder-, Jugend- und Sozialhilfe e.V. <b>begrüßt die inklusive Ausrichtung</b> des Gesetzentwurfs, <b>kritisiert jedoch die strukturelle Ausgestaltung</b> und befürchtet eine Schwächung individueller Rechtsansprüche. Der Verband warnt vor einem <b>Vorrang infrastruktureller Angebote</b>, der zu Lasten bedarfsgerechter Einzelfallhilfen gehen könnte. Zudem wird die <b>fehlende Unabhängigkeit der Verfahrenslotsen</b> bemängelt, da diese weiterhin im Verantwortungsbereich der öffentlichen Träger verbleiben. Der VPK fordert eine <b>verbindliche Einbindung der Praxis</b> sowie eine klare gesetzliche Absicherung der Finanzierung bei der Kooperation mit dem System Schule. Abschließend wird die <b>Abschwächung der Hilfeplankonferenz</b> als zentrales Beteiligungsinstrument abgelehnt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Erstes Gesetz zur Strukturreform der Kinder- und Jugendhilfe (1. KJHSRG)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110010": {
-    "relevant": true,
-    "relevanz_grund": "Direkter Bezug zur kommunalen Wärmeplanung und zur Rolle von Biomasse/Holzenergie in der Wärmewende.",
-    "zusammenfassung": "Der DEPV <b>fordert</b> die <b>Anerkennung von Holzenergie</b> als Beitrag zur Defossilisierung von Wärmenetzen. Es wird verlangt, <b>Einschränkungen für Biomasse</b> im Wärmeplanungsgesetz zu reduzieren und den Einsatz in Netzen über 50 km zu ermöglichen. Zudem setzt sich der Verband für eine stärkere <b>Option des Heizens mit Holz</b> in Kommunen ein."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der kommunalen Wärmeplanung und dem Wärmeplanungsgesetz (WPG). Diese Themen sind gemäß der Vorgabe explizit als 'Nicht relevant' für die Unterabteilung IIIA (BMWE) eingestuft.",
+    "zusammenfassung": "Der Deutsche Energieholz- und Pellet-Verband <b>begrüßt die Vereinfachung der Wärmeplanung</b> für kleine Kommunen, kritisiert jedoch die regulatorischen Einschränkungen für Holzenergie. Der Verband <b>fordert die Abschaffung der Begrenzung</b> für den Einsatz fester Biomasse in Wärmenetzen über 50 Kilometern Länge. Er argumentiert, dass das Potenzial für Holzwärme durch Sägenebenprodukte und nicht-sägefähiges Rundholz bei weitem nicht ausgeschöpft sei. Zudem wird betont, dass der Markt den Einsatz von Holz bei steigenden Preisen eigenständig regulieren werde. Der Verband <b>warnt vor einer Überregulierung</b>, die den Zielen der Entbürokratisierung widerspreche. Abschließend wird auf den hohen Beitrag der Holzwärme zur aktuellen Wärmewende verwiesen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Änderung des Wärmeplanungsgesetzes (WPG)",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110002": {
     "relevant": false,
-    "relevanz_grund": "Das Verpackungsgesetz fällt in den Zuständigkeitsbereich des Umweltministeriums (BMUV) und weist keinen direkten Bezug zu den energiepolitischen Kernaufgaben der Unterabteilung IIIA auf.",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+    "relevanz_grund": "Das Dokument befasst sich mit abfallrechtlichen Regelungen zur Verpackungsverordnung (PPWR) und enthält keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz im Sinne der Energiewende).",
+    "zusammenfassung": "Der Bundesverband des Deutschen Getränkefachgroßhandels <b>kritisiert</b> den Entwurf zur Anpassung des Verpackungsrechts und <b>fordert</b> eine präzise Definition von Mehrwegverpackungen. Er <b>schlägt</b> die Einführung einer zentralen Fonds-Lösung zur <b>Finanzierung von Vermeidungsmaßnahmen</b> vor, um die Skalierung von Mehrwegsystemen sicherzustellen. Zudem <b>warnt</b> der Verband vor dem drohenden Aus für Millionen Mehrwegkästen durch unklare Konformitätsvorgaben der EU-Verpackungsverordnung. Er <b>empfiehlt</b> eine Erweiterung des Bestandsschutzes für Mehrwegverpackungen, um eine massenhafte Vernichtung von Kisten zu verhindern. Abschließend <b>beantragt</b> der Verband eine verbindliche Evaluierungspflicht für die Wirksamkeit der Maßnahmen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Gesetz zur Anpassung des Verpackungsrechts an die EU-Verpackungsverordnung",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "VerpackDG",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt die Umsetzung der EU-Verpackungsverordnung (PPWR) in nationales Recht, nicht die allgemeine Novellierung des Verpackungsgesetzes im Sinne der nationalen Mehrweg- und Pfandsysteme.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110012": {
     "relevant": true,
-    "relevanz_grund": "Das Thema betrifft direkt die Versorgungssicherheit Strom und die Kraftwerksstrategie, welche Kernaufgaben der Unterabteilung IIIA sind.",
-    "zusammenfassung": "Die EnBW <b>unterstützt</b> die <b>praktikable Umsetzung</b> des Gesetzes zur Sicherung der Versorgungssicherheit. Sie <b>schlägt Anpassungen</b> bei der Erbringung von <b>Momentanreserve</b> sowie bei der Definition von <b>Standortkriterien</b> vor. Ziel ist die effiziente Anreizsetzung für den Bau notwendiger <b>Langzeitkapazitäten</b>."
+    "relevanz_grund": "Das Dokument nimmt direkt Bezug auf den Referentenentwurf zum StromVKG und schlägt spezifische Formulierungen für § 18 zur grenzüberschreitenden Teilnahme von Anlagen vor.",
+    "zusammenfassung": "Die illwerke vkw AG und die EnBW <b>begrüßen</b> den Referentenentwurf zum StromVKG zur Sicherung der Versorgungssicherheit. Die Unternehmen <b>schlagen eine Präzisierung</b> in § 18 vor, um eine <b>grenzüberschreitende Teilnahme</b> von Anlagen in anderen EU-Mitgliedstaaten an Ausschreibungen zu ermöglichen. Sie fordern, dass Anlagen, die Teil einer deutschen Regelzone sind, nicht unter die Ausschlusskriterien fallen sollten. Dies soll sicherstellen, dass Anlagen, die über Kraftwerksleitungen direkt an das deutsche Netz angebunden sind, <b>gleichberechtigt teilnehmen</b> können. Die Unternehmen haben hierzu einen konkreten <b>Formulierungsvorschlag</b> für den Gesetzestext beigefügt. Ziel ist es, die <b>Versorgungssicherheit</b> durch die Einbeziehung dieser Kapazitäten nachhaltig zu stärken.",
+    "quelle": "pdf_scan",
+    "hauptgegenstand": "Grenzüberschreitende Teilnahme von Anlagen am StromVKG",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110020": {
     "relevant": true,
@@ -4117,9 +4236,16 @@
     "geprueft_am": "2026-10-22"
   },
   "SG2605110021": {
-    "relevant": true,
-    "relevanz_grund": "Die Wärmeplanung und die Rolle von Wasserstoff in der Wärmewende sind eng mit der Sektorkopplung und der Energiepolitik des BMWE verknüpft.",
-    "zusammenfassung": "Die Organisation <b>fordert die Streichung</b> der Ausweisung von <b>Wasserstoff-Prüfgebieten</b> in vereinfachten Verfahren. Sie <b>verlangt eindeutige Kriterien</b> sowie eine <b>sozialökologische Folgenabschätzung</b> für die Wärmeplanung. Damit soll ein <b>fossiler Weiterbetrieb</b> durch Scheinlösungen verhindert werden."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der kommunalen Wärmeplanung und dem Wärmeplanungsgesetz (WPG). Diese Themen fallen unter die Zuständigkeit des Bundesministeriums für Wohnen, Stadtentwicklung und Bauwesen (BMWSB), nicht unter die Unterabteilung IIIA des BMWK.",
+    "zusammenfassung": "Der WWF Deutschland <b>kritisiert</b> den Entwurf zur Änderung des Wärmeplanungsgesetzes und <b>warnt vor fossilen Lock-In-Effekten</b> durch die Ausweisung von Wasserstoff- und Grünmethan-Prüfgebieten. Die Organisation <b>fordert die Streichung</b> der entsprechenden Paragrafen 22a Absatz 2 Nummer 3 und 4, da diese ohne strenge Vorprüfung zu Scheinlösungen führen könnten. Zudem wird eine <b>sozialökologische Folgenabschätzung</b> für die Ausweisung von Prüfgebieten verlangt. Die Einbeziehung der Kälteplanung wird begrüßt, jedoch wird eine Ausweitung auf alle Kommunen unabhängig von der Einwohnerzahl gefordert. Abschließend <b>empfiehlt</b> der WWF, die Fortschreibungsfristen für Wärmepläne auf fünf Jahre zu verkürzen, um ein effektives Monitoring zu gewährleisten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Änderung des Wärmeplanungsgesetzes (WPG)",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110018": {
     "relevant": true,
@@ -4135,8 +4261,15 @@
   },
   "SG2605110011": {
     "relevant": true,
-    "relevanz_grund": "Bezug zur Wärmewende und Infrastrukturtransformation, die unter Klimaschutz & Energiewende fallen.",
-    "zusammenfassung": "Die Organisation <b>empfiehlt</b> eine <b>kosteneffiziente Transformation</b> der Wärmeinfrastrukturen im Zuge der anstehenden Novellierungen. Dabei soll der Fokus auf einer kundenfreundlichen Ausgestaltung der Wärmewende liegen. Ziel ist eine gesteigerte Effizienz beim notwendigen Umbau der bestehenden Versorgungsnetze."
+    "relevanz_grund": "Das Dokument befasst sich direkt mit der EnWG-Novelle zur Umsetzung des EU-Gas- und Wasserstoffpakets, was für die Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung, Strommarktregulierung) hochrelevant ist.",
+    "zusammenfassung": "Die 8KU GmbH <b>begrüßt die EnWG-Novelle</b> als notwendigen Rahmen für die Transformation der Gasnetze, <b>fordert jedoch Anpassungen</b> für eine kosteneffiziente Wärmewende. Die Unternehmen <b>kritisieren starre Fristen</b> bei der Anschlusstrennung und fordern eine stärkere Flexibilisierung sowie die Einbindung wirtschaftlicher Kriterien in die Verteilernetzentwicklungspläne. Zudem wird eine <b>klare Rollenklärung</b> verlangt, um Netzbetreiber von hoheitlichen Aufgaben der Wärmeplanung zu entlasten. Die 8KU <b>lehnt pauschale Rückbauverpflichtungen</b> für stillgelegte Gasnetze ab und plädiert für eine <b>Duldungspflicht</b> für inaktive Leitungen. Abschließend wird eine <b>Beschränkung der Veröffentlichungspflichten</b> sensibler technischer Daten zum Schutz kritischer Infrastrukturen gefordert.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Umsetzung des EU-Gas- und Wasserstoff-Binnenmarktpakets (EnWG-Novelle)",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110017": {
     "relevant": true,
@@ -4164,183 +4297,435 @@
   },
   "SG2605110005": {
     "relevant": true,
-    "relevanz_grund": "Betrifft Gebäudeenergie und industrielle Dekarbonisierung, zentrale Themen der Energiewende.",
-    "zusammenfassung": "Die Organisation <b>unterstützt</b> den Entwurf zur <b>Änderung des Gebäudeenergiegesetzes</b> sowie weiterer relevanter Vorschriften im Wärmebereich. Ein zentrales Anliegen ist dabei die <b>industrielle Dekarbonisierung</b> durch angepasste regulatorische Rahmenbedingungen. Die Initiative zielt auf eine umfassende Modernisierung der gesetzlichen Vorgaben für Gebäude und Infrastruktur ab."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des Gebäudeenergiegesetzes (GEG) und adressiert die für die industrielle Dekarbonisierung kritische Festlegung des Primärenergiefaktors für Strom.",
+    "zusammenfassung": "Der Bundesverband der Energie-Abnehmer e. V. <b>kritisiert</b> den im Entwurf vorgesehenen netzbezogenen Primärenergiefaktor von 1,5 als marktfern und nicht zukunftsrobust. Der Verband warnt, dass dieser Wert die <b>Elektrifizierung industrieller Prozesse</b> bilanziell benachteiligt und Investitionsanreize für eine effiziente Dekarbonisierung schwächt. Aufgrund des gestiegenen Anteils erneuerbarer Energien im Strommix wird eine <b>Absenkung des Faktors</b> auf 1,0 bis 1,3 gefordert. Alternativ schlägt der Verband eine <b>dynamische Ausgestaltung</b> des Faktors vor, um die reale Klimawirkung und technische Effizienz besser abzubilden. Ein zu hoher Faktor riskiere Fehlsteuerungen, die den Umstieg auf E-Öfen, Wärmepumpen oder Power-to-Heat-Anwendungen behindern könnten. Die Anpassung wird als notwendig erachtet, um die Elektrifizierung als zentralen Pfeiler der Industriepolitik zu unterstützen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Primärenergiefaktor für Strom im Gebäudeenergiegesetz",
+    "bezug": "kern",
+    "hauptgesetz": "GEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080021": {
-    "relevant": true,
-    "relevanz_grund": "Betrifft die Sektorkopplung und den netzdienlichen Betrieb von Stromheizungen im Kontext der Wärmewende.",
-    "zusammenfassung": "Der Vorschlag <b>fordert</b> die <b>Stärkung der Stromdirektheizung</b> im Gebäudemodernisierungsgesetz. Ziel ist ein <b>netzdienlicher Betrieb</b> bei gleichbleibender Stromlast. Dabei soll die <b>Vereinbarkeit von Wirtschaftlichkeit</b> und Mieterschutz sichergestellt werden."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit dem Gebäudemodernisierungsgesetz (GModG) und dem Austausch von Stromdirektheizungen, was gemäß der Themenliste explizit als nicht relevant für die Unterabteilung IIIA eingestuft ist.",
+    "zusammenfassung": "Die KPC Berlin GmbH <b>kritisiert die Anforderungen</b> des Referentenentwurfs zum Gebäudemodernisierungsgesetz bezüglich des Austauschs von Stromdirektheizungen. Das Unternehmen <b>fordert die uneingeschränkte Erlaubnis</b>, alte Stromdirektheizungen in Bestandsgebäuden gegen moderne, effizientere Systeme zu ersetzen. Als Begründung wird angeführt, dass der Austausch keine zusätzliche elektrische Heizlast schafft, sondern die <b>Heizstromverbräuche signifikant reduziert</b>. Zudem wird auf die <b>Netzdienlichkeit moderner Speicherheizungen</b> verwiesen, die durch intelligente Steuerung zur Netzintegration beitragen. Im Vergleich zu einer umfassenden Gebäudedämmung seien diese Maßnahmen <b>wirtschaftlicher und sozialverträglicher</b> umsetzbar. Die KPC Berlin GmbH lehnt die im Entwurf vorgesehene Kopplung an eine energetische Sanierung des baulichen Wärmeschutzes ab.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Gebäudemodernisierungsgesetz (GModG)",
+    "bezug": "kern",
+    "hauptgesetz": "GModG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080047": {
     "relevant": true,
-    "relevanz_grund": "Bezug zur Wasserstoffstrategie und Dekarbonisierung der Wärmeversorgung.",
-    "zusammenfassung": "Die Bundesregierung <b>plant</b> die gesetzliche Einführung einer <b>Grüngasquote</b> im Gebäudemodernisierungsgesetz. Es wird <b>vorgeschlagen</b>, den <b>Einsatz von Wasserstoff</b> in KWK-Anlagen gezielt anzureizen. Die Regelung soll als Ergänzung zum bestehenden Gesetzesentwurf erfolgen."
+    "relevanz_grund": "Das Dokument adressiert direkt die Ausgestaltung der Grüngasquote im geplanten Gebäudemodernisierungsgesetz und schlägt spezifische Anreizmechanismen für Wasserstoff in KWK-Anlagen vor, was in den Zuständigkeitsbereich des BMWE fällt.",
+    "zusammenfassung": "Die SEFE Securing Energy for Europe GmbH <b>schlägt vor</b>, den Einsatz von Wasserstoff in KWK-Anlagen im Rahmen der geplanten Grüngasquote des Gebäudemodernisierungsgesetzes gezielt zu <b>anreizen</b>. Das Unternehmen bewertet den Einsatz in KWK- und Fernwärmeanlagen als einzige realistische Option für einen nennenswerten Wasserstoff-Hebel, während Beimischungen oder dezentrale Infrastrukturlösungen als ineffizient oder nicht zeitnah umsetzbar abgelehnt werden. Zur Förderung der <b>systemdienlichen Wasserstoff-Nachfrage</b> wird die Einführung eines <b>Multiplikators oder einer Unterquote</b> empfohlen. Dies soll die Auslastung des Wasserstoff-Kernnetzes unterstützen und die Dekarbonisierung der Wärmeversorgung vorantreiben. Die Anrechnung des Wasserstoffeinsatzes auf Quotenverpflichtungen soll dabei flexibel gestaltet werden, um die Umsetzung effizienter Projekte zu gewährleisten. Eine Kombination mit Contract-for-Difference-Instrumenten wird als ergänzende Option genannt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Rolle von Wasserstoff im Gebäudemodernisierungsgesetz (GMG)",
+    "bezug": "kern",
+    "hauptgesetz": "GMG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080031": {
     "relevant": true,
-    "relevanz_grund": "Direkter Bezug zur Wärmeplanung und Beteiligung der Energiewirtschaft.",
-    "zusammenfassung": "Der Entwurf <b>führt</b> eine <b>kleine Wärmeplanung</b> zur Prozesserleichterung für Kommunen ein. Die EnBW <b>schlägt vor</b>, die <b>Beteiligung der Energiewirtschaft</b> rechtlich klar abzusichern und zu stärken. Ziel ist eine praktikablere Umsetzung der gesetzlichen Novelle."
+    "relevanz_grund": "Das Dokument enthält eine fachliche Stellungnahme zu einem Gesetzesentwurf, der die kommunale Wärmeplanung und deren Schnittstellen zur Energieinfrastrukturplanung betrifft, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die EnBW <b>unterstützt</b> den Gesetzesentwurf zur Änderung des Wärmeplanungsgesetzes, <b>fordert</b> jedoch eine stärkere und rechtlich abgesicherte Einbindung der Energiewirtschaft in den Planungsprozess. Das Unternehmen <b>warnt</b> vor einer Einschränkung der Datenerhebung bei der „kleinen Wärmeplanung“, da dies die Identifikation von Wärmelasten und die Wirtschaftlichkeitsbewertung von Netzen erschwere. Zudem <b>schlägt</b> die EnBW eine Harmonisierung der Begrifflichkeiten und Verfahren mit dem EnWG-E vor, insbesondere hinsichtlich der Verteilernetzentwicklungsplanung. Die <b>Einbindung</b> der Netzbetreiber müsse bereits während des laufenden Planungsprozesses und nicht erst am Ende erfolgen. Abschließend <b>kritisiert</b> das Unternehmen die unklare Definition von „grünem Methan“ und fordert eine konsistente Datenbasis für die Fortschreibung der Wärmepläne.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Entwurf eines Gesetzes zur Änderung des Wärmeplanungsgesetzes",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080001": {
     "relevant": false,
-    "relevanz_grund": "Reines Verbraucherschutz- und Finanzmarktthema ohne direkten Bezug zur Energiepolitik oder den Zuständigkeiten der Unterabteilung IIIA.",
-    "zusammenfassung": "PayPal <b>unterstützt</b> die <b>europaweit harmonisierte Umsetzung</b> der Verbraucherkreditrichtlinie. Die Regulierung soll <b>Mindeststandards für den Verbraucherschutz</b> bei Kreditwürdigkeitsprüfungen festlegen. Der Fokus liegt auf Transparenz und Digitalisierung im Kreditmarkt."
+    "relevanz_grund": "Das Dokument betrifft die Regulierung von Darlehensvermittlern im Finanzsektor (Verbraucherkreditrichtlinie) und weist keinen inhaltlichen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK auf.",
+    "zusammenfassung": "Das Unternehmen PayPal <b>begrüßt</b> den Referentenentwurf zur <b>Darlehensvermittlungsverordnung</b> grundsätzlich, fordert jedoch <b>praxisgerechte Anpassungen</b>. Es wird angeregt, dass der <b>Sachkundenachweis</b> durch eine verantwortliche Person für das gesamte Unternehmen ausreicht, anstatt eine Einzelprüfung für alle Mitarbeitenden zu verlangen. Zudem spricht sich das Unternehmen gegen eine <b>starre Mindeststundenzahl</b> bei der Weiterbildungspflicht aus, um die Flexibilität für unterschiedliche Geschäftsmodelle zu erhalten. Die Anerkennung von <b>Berufsabschlüssen</b> als Befreiung von der Prüfungspflicht sowie die schlanke Ausgestaltung des <b>Vermittlerregisters</b> werden ausdrücklich unterstützt. Eine übermäßige bürokratische Belastung soll vermieden werden, um den digitalen Finanzierungsmarkt nicht negativ zu beeinflussen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Darlehensvermittlungsverordnung (DarlVermV)",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "DarlVermV",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080043": {
     "relevant": true,
-    "relevanz_grund": "Betrifft die Kraftwerksstrategie und die Bereitstellung von Kapazitäten im Strommarkt.",
-    "zusammenfassung": "Die MTU Aero Engines AG <b>setzt sich dafür ein</b>, <b>instandgehaltene Industriegasturbinen</b> für neue Kapazitäten zuzulassen. Die Nutzung sogenannter <b>refurbished Engines</b> soll im Rahmen des StromVKG ermöglicht werden. Dies dient der effizienten Bereitstellung notwendiger Kraftwerkskapazitäten."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Entwurf des StromVKG, welches unter die Themenfelder 'Strommarktdesign & -regulierung' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die <b>MTU Aero Engines AG</b> <b>begrüßt</b> das StromVKG, <b>fordert</b> jedoch eine technologie- und lebenszyklusneutrale Ausgestaltung, um <b>instandgehaltene Industriegasturbinen</b> (refurbished engines) als gleichwertige Erzeugungsanlagen zu integrieren. Das Unternehmen argumentiert, dass diese Anlagen technisch mit Neuanlagen vergleichbar sind, jedoch geringere Investitionskosten verursachen und schneller verfügbar sind. Zudem wird betont, dass die Nutzung dieser Turbinen die <b>industrielle Resilienz</b> stärkt, da sie überwiegend in Europa instandgehalten werden und somit Abhängigkeiten von außereuropäischen Herstellern reduzieren. Die MTU <b>lehnt</b> eine Fokussierung auf Neuanlagen bei Mindestinvestitionsschwellen und Resilienzanforderungen ab, da dies kosteneffiziente Lösungen ausschließen würde. Abschließend wird eine explizite Klarstellung zur <b>Wasserstoff-Readiness</b> gefordert, die sich an der technischen Auslegung statt am Neuzustand orientieren soll.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Strom-Versorgungssicherheits- und Kapazitäten-Gesetz (StromVKG)",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080003": {
     "relevant": true,
-    "relevanz_grund": "Betrifft die Kraftwerksstrategie und Versorgungssicherheit Strom, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-    "zusammenfassung": "Die Bundesregierung <b>erarbeitet</b> einen Referentenentwurf für <b>Kapazitätsausschreibungen</b>. Geplant ist die Umsetzung von Auktionen im Umfang von 10GW und 2GW für das Jahr 2026. Ziel ist die <b>Sicherung der Stromversorgung</b> durch den Ausbau steuerbarer Kraftwerkskapazitäten."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des StromVKG und adressiert zentrale Aspekte wie Kapazitätsausschreibungen, Systemdienstleistungen und Dekarbonisierungsvorgaben.",
+    "zusammenfassung": "Die Siemens Energy Global GmbH & Co. KG <b>begrüßt den Referentenentwurf</b> zum StromVKG als wichtigen Schritt für die Versorgungssicherheit, schlägt jedoch punktuelle Anpassungen vor. Das Unternehmen fordert, die <b>Momentanreserve</b> aus den Kapazitätsauktionen auszugliedern, um technische Komplexität und Kosten zu reduzieren. Zudem wird eine <b>Befreiung von der Kapazitätsbereitstellungspflicht</b> während der technischen Umrüstung auf klimaneutralen Betrieb verlangt. Zur Sicherstellung der Investitionsfähigkeit schlägt das Unternehmen eine <b>Anpassung der Reduktionsfaktoren</b> an europäische Standards sowie die Festlegung eines <b>Höchstwertes</b> für Ausschreibungen vor. Des Weiteren wird eine <b>Klarstellung zum Ausschluss der Doppelförderung</b> gefordert, um Investitionen in die Wasserstoffumrüstung nicht zu behindern. Abschließend empfiehlt das Unternehmen eine Reduzierung der <b>Realisierungssicherheiten und Pönale</b> auf marktübliche Niveaus.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "StromVKG (Kraftwerkssicherungsgesetz)",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080002": {
     "relevant": true,
-    "relevanz_grund": "Die Rechenzentrumsstrategie hat direkte Auswirkungen auf die Stromnetze und die Sektorkopplung, was unter Strommarkt/Energienetze fällt.",
-    "zusammenfassung": "Die Rechenzentrumsstrategie <b>erfordert</b> den Ausbau von <b>Netzanschlüssen</b> in hoher Leistungsklasse. Zur Umsetzung werden internationale Erfahrungswerte, insbesondere aus den USA, herangezogen. Dies ist für die <b>Netzplanung</b> und Versorgungssicherheit von hoher Relevanz."
+    "relevanz_grund": "Das Dokument thematisiert die Herausforderungen bei der Stromversorgung und Netzintegration von Rechenzentren, was direkt die strategische Planung der Bundesregierung zur Rechenzentrumsinfrastruktur und deren systemische Einbindung in das Stromnetz betrifft.",
+    "zusammenfassung": "Siemens Energy <b>warnt vor systemischen Ineffizienzen</b> durch den zunehmenden Trend zur Eigenversorgung von Rechenzentren aufgrund langwieriger Netzanschlussprozesse. Das Unternehmen stellt fest, dass Betreiber vermehrt auf <b>Inselbetrieb und Microgrids</b> setzen, um den massiven Zeitdruck bei der Realisierung ihrer Projekte zu bewältigen. Diese Entwicklung führt kurzfristig zu <b>Doppelstrukturen und Effizienzverlusten</b> im Gesamtsystem. Um langfristig Versorgungssicherheit und wettbewerbsfähige Strompreise zu gewährleisten, empfiehlt das Unternehmen eine <b>Integration von Hybridmodellen</b> in das öffentliche Netz. Zudem wird eine <b>Priorisierung des Netzausbaus</b> gefordert, um eine dauerhafte Fragmentierung der Stromversorgung zu vermeiden. Abschließend betont das Unternehmen die Notwendigkeit, <b>systemdienliches Verhalten</b> von Rechenzentren durch klare regulatorische Rahmenbedingungen zu fördern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Netzanschluss und Stromversorgung von Rechenzentren",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080032": {
     "relevant": false,
-    "relevanz_grund": "Der Gegenstand betrifft das Lebensmittelrecht und den Binnenmarkt für alkoholische Produkte ohne Bezug zur Energiepolitik.",
-    "zusammenfassung": "Die Bundesregierung <b>kritisiert</b> polnische Gesetzentwürfe zu <b>Beschränkungen für alkoholhaltige Produkte</b>. Es bestehen Zweifel an der Vereinbarkeit mit dem <b>EU-Binnenmarkt</b> aufgrund unverhältnismäßiger Beeinträchtigungen des freien Waren- und Dienstleistungsverkehrs. Ein Energiebezug ist nicht gegeben."
+    "relevanz_grund": "Das Dokument betrifft ausschließlich die Regulierung von Alkoholwerbung und -vertrieb in Polen und weist keinen inhaltlichen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA auf.",
+    "zusammenfassung": "Der Bundesverband Wein und Spirituosen International e.V. <b>kritisiert</b> zwei von Polen im TRIS-Verfahren notifizierte Gesetzentwürfe, die weitreichende <b>Beschränkungen für Werbung, Vertrieb und Kennzeichnung</b> von Alkohol vorsehen. Der Verband warnt vor einer <b>unverhältnismäßigen Beeinträchtigung</b> des freien Waren- und Dienstleistungsverkehrs im EU-Binnenmarkt. Es wird gefordert, dass die Bundesregierung gegenüber der Europäischen Kommission <b>Bedenken anmeldet</b>. Zudem wird eine gemeinsame Bewertung der kumulativen Auswirkungen beider Entwürfe verlangt. Der Verband bezweifelt die Vereinbarkeit der geplanten Maßnahmen mit geltendem Unionsrecht. Eine Überarbeitung der als kritisch eingestuften Regelungen durch Polen wird angestrebt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Polnische Gesetzentwürfe zu Werbe- und Vertriebsbeschränkungen für alkoholhaltige Produkte",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080011": {
     "relevant": false,
-    "relevanz_grund": "Der Gegenstand betrifft das Lebensmittelrecht und den Binnenmarkt für alkoholische Produkte ohne Bezug zur Energiepolitik.",
-    "zusammenfassung": "Die Bundesregierung <b>kritisiert</b> polnische Gesetzentwürfe zu <b>Beschränkungen für alkoholhaltige Produkte</b>. Es bestehen Zweifel an der Vereinbarkeit mit dem <b>EU-Binnenmarkt</b> aufgrund unverhältnismäßiger Beeinträchtigungen des freien Waren- und Dienstleistungsverkehrs. Ein Energiebezug ist nicht gegeben."
+    "relevanz_grund": "Das Dokument betrifft ausschließlich Werbe- und Vertriebsbeschränkungen für alkoholhaltige Produkte und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz) auf.",
+    "zusammenfassung": "Der Verband Deutscher Sektkellereien e.V. <b>kritisiert</b> zwei von Polen notifizierte Gesetzentwürfe, die weitreichende <b>Einschränkungen für Werbung, Vertrieb und Kennzeichnung</b> von alkoholhaltigen Produkten vorsehen. Die Organisation <b>bezweifelt die Vereinbarkeit</b> dieser Vorhaben mit den Grundsätzen des <b>EU-Binnenmarkts</b>. Sie argumentiert, dass die Maßnahmen zu einer unverhältnismäßigen Beeinträchtigung des freien Waren- und Dienstleistungsverkehrs führen. Der Verband fordert die Bundesregierung auf, im Rahmen des <b>TRIS-Verfahrens Bedenken</b> gegenüber der Europäischen Kommission anzumelden. Zudem wird eine gemeinsame Bewertung der kumulativen Auswirkungen beider Entwürfe verlangt. Ziel ist es, eine Überarbeitung der aus Sicht des Verbandes unionsrechtlich bedenklichen Regelungen zu erreichen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Polnische Gesetzentwürfe zu Beschränkungen für alkoholhaltige Produkte",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080009": {
     "relevant": true,
-    "relevanz_grund": "Betrifft das Themenfeld Energiepreise & -kosten, welches explizit in der Zuständigkeit der Unterabteilung IIIA liegt.",
-    "zusammenfassung": "Die Adressaten <b>fordern</b> eine <b>Reduzierung der Energiekosten</b> für Unternehmen. Ziel ist die Stärkung der <b>Wettbewerbsfähigkeit</b> im industriellen Sektor. Die Maßnahme zielt auf eine Entlastung der Endverbraucherpreise ab."
+    "relevanz_grund": "Das Dokument adressiert explizit die Senkung von Energiekosten für Unternehmen als Teil der Standortpolitik, was in den Zuständigkeitsbereich des BMWE fällt.",
+    "zusammenfassung": "Der AUMA <b>fordert</b> eine <b>Erhöhung des Etats</b> für das Auslandsmesseprogramm auf 49 Millionen Euro, um den Kaufkraftverlust auszugleichen und Exportchancen zu sichern. Der Verband <b>kritisiert</b> die staatlich induzierten Standortkosten und <b>mahnt</b> eine <b>Senkung der Energiepreise</b> sowie eine Begrenzung der Lohnnebenkosten an. Zur Stärkung des Messeplatzes Deutschland wird eine <b>kohärente Konnektivitätsstrategie</b> inklusive digitaler Visumverfahren verlangt. Zudem wird ein konsequenter <b>Bürokratieabbau</b> auf nationaler und EU-Ebene gefordert, um die Wettbewerbsfähigkeit der deutschen Wirtschaft zu erhalten. Die Messewirtschaft sieht sich durch hohe Kosten und schwache Konjunktur unter Druck, was Investitionen in Effizienz und Innovation erschwert.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Standortkosten und Außenwirtschaftsförderung der Messewirtschaft",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080030": {
     "relevant": true,
-    "relevanz_grund": "Bezug zu Energiepreisen, Endverbraucherpreisen und Gebäudeenergie/Wärmewende.",
-    "zusammenfassung": "Die Organisation <b>fordert eine sozialgerechte Ausgestaltung der Wärmewende</b> sowie Maßnahmen zur Bekämpfung von Energiearmut. Sie schlägt unter anderem die <b>Anpassung der Kosten der Unterkunft</b>, ein <b>Verbot von Energiesperren</b> und eine <b>soziale Staffelung der BEG-Fördermittel</b> vor. Zudem wird die <b>vollständige Übernahme des CO2-Preises</b> durch Vermietende verlangt."
+    "relevanz_grund": "Das Dokument adressiert die energetische Sanierung von Gebäuden und die soziale Ausgestaltung der Wärmewende, was direkt in den Zuständigkeitsbereich der Energiepolitik und Klimaschutzstrategien des Ministeriums fällt.",
+    "zusammenfassung": "Der Deutsche Caritasverband <b>kritisiert</b> den Entwurf des Nationalen Gebäuderenovierungsplans (NBRP) hinsichtlich mangelnder Datengrundlagen und fehlender sozialpolitischer Konzepte. Der Verband <b>fordert eine Definition von Energiearmut</b> sowie verbindliche Indikatoren, um soziale Härten bei der energetischen Transformation abzufedern. Zudem wird ein <b>eigenständiges Förderprogramm für Sozialimmobilien</b> angemahnt, da die energetische Sanierung von über 100.000 Gebäuden der Freien Wohlfahrtspflege einen zentralen Hebel für die Klimaneutralität darstellt. Der Verband <b>unterstützt den Stromspar-Check</b> als wirksame Maßnahme und betont die Notwendigkeit, Mieterschutzaspekte stärker zu berücksichtigen. Abschließend wird darauf hingewiesen, dass Investitionen in die energetische Sanierung von Sozialimmobilien trotz Haushaltskonsolidierung wirtschaftlich sinnvoll sind, da sie Beschäftigung sichern und Betriebskosten dauerhaft senken. Die <b>Einbindung sozialer Akteure</b> wird als essenziell für eine zielgenaue Ausgestaltung der Maßnahmen angesehen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Nationaler Gebäuderenovierungsplan (NBRP)",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080040": {
     "relevant": true,
-    "relevanz_grund": "Bezug zu Energieeffizienz und Energiegesetzgebung.",
-    "zusammenfassung": "Der Bitkom <b>setzt sich für Änderungen am Energieeffizienzgesetz</b> ein, um den Rechenzentrumsstandort Deutschland zu stärken. Gefordert wird die <b>Harmonisierung mit der EU-Energieeffizienzrichtlinie</b> sowie eine <b>Anpassung der PUE- und ERF-Vorgaben</b>. Ziel ist die Schaffung von <b>Rechtssicherheit</b> für die digitale Infrastruktur."
+    "relevanz_grund": "Das Dokument befasst sich direkt mit der Novellierung des Energieeffizienzgesetzes und dessen Auswirkungen auf Rechenzentren, was unter die Themenfelder Klimaschutz und Energieeffizienz fällt.",
+    "zusammenfassung": "Der Bitkom <b>begrüßt die Anpassung</b> des Energieeffizienzgesetzes zur Harmonisierung mit EU-Vorgaben, kritisiert jedoch weiterhin bestehende nationale Sonderwege. Die Organisation <b>fordert eine stärkere Berücksichtigung</b> der IT-Auslastung und Verfügbarkeitsklassen bei den PUE-Effizienzwerten. Zudem wird eine <b>praxisnahe Ausgestaltung</b> der Abwärmenutzung verlangt, da die aktuelle ERF-Vorgabe ohne entsprechende Infrastruktur kaum umsetzbar sei. Der Bitkom <b>warnt vor bürokratischen Doppelstrukturen</b> durch nationale Berichtsplattformen und plädiert für den Schutz von Betriebs- und Geschäftsgeheimnissen. Abschließend wird die <b>Streichung der 90-Prozent-Schwelle</b> für Energiemanagementsysteme empfohlen, um regulatorische Divergenzen zur ISO 50001 zu vermeiden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Novelle des Energieeffizienzgesetzes (EnEfG)",
+    "bezug": "kern",
+    "hauptgesetz": "EnEfG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605080046": {
     "relevant": true,
-    "relevanz_grund": "Direkter Bezug zu Strommarkt- und Versorgungssicherheitsthemen der Unterabteilung IIIA.",
-    "zusammenfassung": "Der Entwurf des <b>Stromversorgungssicherheits- und Kapazitätengesetzes</b> zielt auf die <b>Sicherung der Versorgungssicherheit</b> ab. Im Zentrum steht die <b>Bereitstellung neuer Kapazitäten</b> für das Stromsystem. Das Vorhaben adressiert die regulatorischen Rahmenbedingungen für die zukünftige Stromerzeugung."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des StromVKG, welches ein zentrales Vorhaben der Unterabteilung IIIA zur Sicherung der Versorgungssicherheit und Kraftwerksstrategie darstellt.",
+    "zusammenfassung": "Der Bundesverband der Energie-Abnehmer e. V. <b>kritisiert</b> den Referentenentwurf zum StromVKG aufgrund zu kurzer Konsultationsfristen und warnt vor einer <b>überproportionalen Belastung</b> des energieintensiven Mittelstands durch die geplante Umlagefinanzierung. Der Verband betont, dass der Strompreis ein entscheidender <b>Wettbewerbsfaktor</b> für den Industriestandort Deutschland ist und eine zusätzliche Umlage die notwendige Dekarbonisierung gefährden könnte. Statt staatlicher Förderung schlägt der Verband eine <b>marktwirtschaftliche Absicherungspflicht</b> für Stromlieferanten vor, um Versorgungssicherheit kosteneffizient zu gewährleisten. Zudem fordert er eine <b>technologieoffene Ausgestaltung</b> der Reservekapazitäten, um neben Gaskraftwerken auch Speichertechnologien und Biogasanlagen stärker einzubeziehen. Eine dauerhafte Kopplung des Strompreises an den Gaspreis über die Merit-Order-Mechanik soll durch die Reduktion fossiler Abhängigkeiten konsequent vermieden werden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Strom-Versorgungssicherheits- und Kapazitätsgesetz (StromVKG)",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070002": {
     "relevant": false,
-    "relevanz_grund": "Themenfeld Fischereiwirtschaft ohne Energiebezug.",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit fischereiwirtschaftlichen Regulierungen, Lebensmittelrecht und Kennzeichnungsvorschriften, die keine Berührungspunkte zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik) aufweisen.",
+    "zusammenfassung": "Der Bundesmarktverband der Fischwirtschaft <b>schlägt ein Fischmarkt-Omnibus-Verfahren vor</b>, um marktrelevante Regelungen der europäischen Fischerei und des Binnenmarktes zu <b>harmonisieren und zu vereinfachen</b>. Die Organisation fordert eine <b>1:1-Umsetzung von EU-Recht</b>, um nationales „Goldplating“ und bürokratische Mehrbelastungen zu vermeiden. Zentrale Forderungen umfassen die <b>Digitalisierung von Rückverfolgbarkeitssystemen</b> sowie eine stärkere <b>risikobasierte Regulierung</b> statt pauschaler Kontrollvorgaben. Kritisiert werden insbesondere die mangelnde Interoperabilität digitaler Schnittstellen und die fehlende Berücksichtigung praktischer Umsetzbarkeit bei Hygiene- und Temperaturvorgaben. Ziel des Vorhabens ist die <b>Stärkung der Wettbewerbsfähigkeit</b> und Planungssicherheit für Unternehmen entlang der gesamten Wertschöpfungskette.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Fischmarkt-Omnibus für Europa",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt regulatorische Anforderungen an die Fischwirtschaft, insbesondere Fischereikontrolle, Importregelungen und Lebensmittelhygiene.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070013": {
     "relevant": true,
-    "relevanz_grund": "Bezug zu Energiewirtschaftsrecht, Netzausbau und Erneuerbaren Energien.",
-    "zusammenfassung": "Die Organisation <b>beeinflusst den Entwurf zur Änderung des Energiewirtschaftsrechts</b> mit Fokus auf Endkundenmärkte und Netzausbau. Sie <b>fordert Klarheit bei hochaufgeständerten Solaranlagen</b>, um das <b>Missbrauchspotenzial zu verringern</b>. Ziel ist der <b>nachhaltige Erhalt des Agri-PV-Segments</b>."
+    "relevanz_grund": "Das Dokument adressiert direkt die Ausgestaltung der Rahmenbedingungen für Agri-PV im Kontext der Netzregulierung und des Energiewirtschaftsrechts, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Der <b>Verband für nachhaltige Agri-PV (VnAP) e.V.</b> <b>unterstützt</b> die gesetzliche Anpassung zur <b>Förderung von Agri-PV-Anlagen</b>, um den Markthochlauf dieser Technologie zu beschleunigen. Der Verband betont, dass Agri-PV durch die <b>Mehrfachnutzung von Flächen</b> einen zentralen Zielkonflikt der Energiewende löst und gleichzeitig zur <b>Klimaanpassung</b> in der Landwirtschaft beiträgt. Die Organisation hebt die <b>netzdienliche Stromerzeugung</b> hervor, die den Bedarf an Netzausbau senken kann. Zudem wird argumentiert, dass die <b>gesellschaftlichen Mehrkosten</b> einer gezielten Förderung im Vergleich zum Gesamtvolumen des EEG gering ausfallen. Der Verband fordert eine <b>differenzierte Förderung</b>, um Missbrauch zu verhindern und gleichzeitig Innovationspotenziale zu erschließen. Abschließend warnt die Organisation vor den Risiken einer zu restriktiven Förderpolitik, die den technologischen Anschluss Deutschlands gefährden könnte.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Anpassung des Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsrechts",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070014": {
     "relevant": true,
-    "relevanz_grund": "Betrifft die Anpassung des Energiewirtschaftsrechts, Netzausbau, Netzregulierung und die Förderung von Agri-PV-Anlagen.",
-    "zusammenfassung": "Die Organisation <b>beeinflusst</b> den Entwurf zur <b>Änderung des Energiewirtschaftsrechts</b>, um regulatorische Klarheit zu schaffen. Ziel ist die <b>Verringerung von Missbrauchspotenzial</b> bei hochaufgeständerten Solaranlagen. Damit soll der <b>nachhaltige Erhalt des Agri-PV-Segments</b> gesichert werden."
+    "relevanz_grund": "Das Dokument thematisiert die Wirtschaftlichkeit und den Ausbau von Agri-PV-Anlagen, was unter das Themenfeld 'Erneuerbare Energien (national)' und die EEG-Finanzierung fällt.",
+    "zusammenfassung": "Der <b>Verband für nachhaltige Agri-PV (VnAP) e.V. kritisiert</b> eine Studie des Thünen-Instituts, die Agri-PV-Anlagen aufgrund höherer <b>Stromgestehungskosten</b> als unwirtschaftlich einstuft. Der Verband betont, dass moderne Agri-PV-Systeme bereits heute <b>wettbewerbsfähig</b> sind und die Kostenanalyse durch die Einbeziehung von Forschungsanlagen verzerrt wird. Neben der reinen Stromerzeugung hebt der Verband <b>gesellschaftliche Mehrwerte</b> wie Flächeneffizienz, Klimaanpassung und Netzdienlichkeit hervor. Die durch Agri-PV entstehenden <b>Mehrkosten im EEG</b> werden als äußerst gering eingestuft und auf etwa 0,4 Prozent des Gesamtbudgets geschätzt. Der VnAP warnt davor, die Technologie aufgrund einer isolierten Kostenbetrachtung auszubremsen. Abschließend wird Agri-PV als strategisch wichtige Zukunftstechnologie für eine erfolgreiche Energiewende bezeichnet.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Wirtschaftlichkeit und gesellschaftlicher Nutzen von Agri-Photovoltaik",
+    "bezug": "nur_erwaehnt",
+    "hauptgesetz": "EEG",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument ist eine Pressemitteilung zur wirtschaftlichen Bewertung von Agri-PV-Anlagen und nimmt keinen direkten Bezug auf das im Regelungsvorhaben genannte Energiewirtschaftsrecht.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070011": {
     "relevant": true,
-    "relevanz_grund": "Behandelt das Strommarktdesign, Kapazitätsreserven und die Reform des EEG-Fördersystems.",
-    "zusammenfassung": "Die Organisation <b>fordert</b> eine <b>technologieoffene Ausgestaltung</b> der Kapazitätsreserve unter Einbeziehung von Bioenergie. Sie <b>plädiert für die Beibehaltung der Marktprämie</b>, ergänzt um einen produktionsabhängigen Claw-Back-Mechanismus. Zudem wird eine <b>zeitnahe EEG-Reform</b> zur Sicherung der Investitionsplanung angemahnt."
+    "relevanz_grund": "Das Dokument nimmt detailliert Stellung zu zentralen Vorhaben der Unterabteilung IIIA, insbesondere zur EEG-Reform, zur Kraftwerksstrategie und zum Netzpaket.",
+    "zusammenfassung": "Der Landesverband Erneuerbare Energien Schleswig-Holstein <b>kritisiert die aktuellen Gesetzesentwürfe</b> des BMWE und warnt vor einer Verlangsamung der Energiewende. Der Verband lehnt den geplanten <b>Redispatch-Vorbehalt</b> ab, da dieser den Ausbau erneuerbarer Energien in vielen Regionen gefährde. Zudem fordert er eine <b>technologieoffene Kraftwerksstrategie</b>, die neben Gaskraftwerken verstärkt auf Batteriespeicher und grüne Wasserstoffoptionen setzt. Bei der EEG-Reform wird die Einführung <b>produktionsabhängiger CfD</b> als beihilferechtskonforme Lösung befürwortet, während der Wegfall des Strommengenpfades abgelehnt wird. Abschließend mahnt der Verband eine <b>Erhöhung der Ausschreibungsmengen</b> für Windkraft und Bioenergie an, um Planungssicherheit für Investitionen zu gewährleisten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Stellungnahme zur aktuellen Energiepolitik des Bundes (EEG-Reform, Netzpaket, Kraftwerksstrategie)",
+    "bezug": "kern",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070012": {
     "relevant": true,
-    "relevanz_grund": "Betrifft den Einspeisevorrang für erneuerbare Energien, Redispatch-Regelungen und die Netzinfrastruktur.",
-    "zusammenfassung": "Die Organisation <b>warnt vor einer Aufweichung des Einspeisevorrangs</b> für erneuerbare Energien sowie vor einem Redispatchvorbehalt. Sie <b>fordert eine effizientere Nutzung</b> der vorhandenen Infrastruktur durch Flexibilisierung. Dabei soll der <b>Erhalt der Akteursvielfalt</b> bei allen regulatorischen Vorhaben sichergestellt werden."
+    "relevanz_grund": "Das Dokument nimmt detailliert Stellung zu zentralen energiepolitischen Vorhaben des BMWE, insbesondere zum Redispatch-Vorbehalt im EnWG, zur Kraftwerksstrategie und zur EEG-Novelle.",
+    "zusammenfassung": "Der Landesverband Erneuerbare Energien Schleswig-Holstein <b>kritisiert</b> die aktuellen energiepolitischen Gesetzesentwürfe des BMWE als investitionshemmend. Er <b>warnt vor dem Redispatch-Vorbehalt</b>, da dieser den Netzausbau für Erneuerbare Energien verlangsamen und Rechtsunsicherheit schaffen würde. Zudem lehnt der Verband eine einseitige <b>Fokussierung auf fossile Gaskraftwerke</b> in der Kraftwerksstrategie ab und fordert stattdessen eine stärkere Berücksichtigung erneuerbarer Backup-Optionen. Der Verband <b>mahnt zur Einhaltung des Ausbaupfads</b> bei den Erneuerbaren und fordert eine zeitnahe, europarechtskonforme Neuregelung der EEG-Förderung. Abschließend wird die <b>Streichung des Strommengenpfades</b> als wichtiges Steuerungsinstrument für die Energiewende abgelehnt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Stellungnahme zur aktuellen Energiepolitik des Bundes",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt: Stellungnahme zur aktuellen Energiepolitik des Bundes",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070019": {
     "relevant": false,
-    "relevanz_grund": "Das Thema Pflanzenschutzmittelzulassung fällt nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik).",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfügbar."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit Pflanzenschutzmittelzulassungen und dem Schutz des Grundwassers im Kontext der Lebensmittel- und Futtermittelsicherheit. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz im Energiesektor).",
+    "zusammenfassung": "Der Deutsche Bund der verbandlichen Wasserwirtschaft e.V. <b>lehnt die Verschlechterung des Niveaus der Pflanzenschutzmittelzulassung</b> durch das EU-Vereinfachungspaket Omnibus X ab. Der Verband warnt vor einer <b>realen Gefahr für die Grundwasserneubildung</b> durch den Einsatz von Pestiziden. Er verweist auf wissenschaftliche Erkenntnisse, wonach Pestizidrückstände die <b>Biodiversität in Böden</b> negativ verändern. Zudem schließt sich der Verband einem <b>Rechtsgutachten zur Rechtmäßigkeit</b> der geplanten Änderungen im Pflanzenschutzmittelrecht an. Der Schutz der Ressource Wasser wird als <b>elementare Grundlage</b> für die öffentliche Wasserversorgung hervorgehoben. Die Organisation fordert, diese Bedenken im weiteren Gesetzgebungsverfahren zu berücksichtigen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Vereinfachungspaket der Europäischen Kommission zur Lebensmittel- und Futtermittelsicherheit sowie zum Tierschutz (Omnibus X)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070024": {
     "relevant": false,
-    "relevanz_grund": "Das Thema Pflanzenschutzmittelzulassung fällt nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik).",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfügbar."
+    "relevanz_grund": "Das Thema Pflanzenschutzmittelzulassung und die Rolle des Umweltbundesamtes in diesem Kontext haben keinen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA (Strommarkt, Erneuerbare Energien, Energiegesetzgebung).",
+    "zusammenfassung": "Der Deutsche Bund der verbandlichen Wasserwirtschaft e.V. <b>kritisiert</b> die geplante <b>Abschaffung der Einvernehmensregel</b> des Umweltbundesamtes bei der Zulassung von Pflanzenschutzmitteln. Der Verband warnt vor einer Schwächung des <b>vorsorgenden Gewässerschutzes</b> durch diese Maßnahme. Die Einvernehmensregel stelle sicher, dass umweltfachliche Belange bei der Zulassung verbindlich berücksichtigt werden. Dies sei essenziell für den Schutz von Grund- und Oberflächengewässern sowie Trinkwasserressourcen. Der Verband fordert den Erhalt dieser Regelung als zentralen Baustein der <b>Daseinsvorsorge</b>.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Abschaffung der Einvernehmensregel des Umweltbundesamtes bei der Zulassung von Pflanzenschutzmitteln",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument befasst sich mit dem Pflanzenschutzgesetz und der Zulassung von Pflanzenschutzmitteln, was nicht in den Zuständigkeitsbereich der Unterabteilung IIIA des BMWK fällt.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070010": {
     "relevant": true,
-    "relevanz_grund": "Betrifft Strommarktregulierung, Redispatch und Netzoptimierung, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-    "zusammenfassung": "Agora Energiewende <b>kritisiert den Redispatch-Vorbehalt</b> in der aktuellen Form und <b>fordert mehr Transparenz</b> bei der Definition von Engpassgebieten. Eine fundierte <b>Kosten-/Nutzenanalyse</b> soll die Grundlage für die Ausgestaltung bilden. Zudem werden <b>ausgewogenere Instrumente</b> zwischen den Vertragsparteien angeregt."
+    "relevanz_grund": "Das Dokument analysiert Netzengpassgebiete und Redispatch-Bedarfe, was direkt mit der im Regelungsvorhaben genannten Definition von Engpassgebieten und dem Redispatch-Vorbehalt im Rahmen der EEG-Reform korrespondiert.",
+    "zusammenfassung": "Die <b>Agora Think Tanks gGmbH</b> <b>empfiehlt</b> eine <b>differenzierte Identifikation von Engpassgebieten</b>, um den EE-Zubau nicht durch zu pauschale Redispatch-Vorbehalte zu gefährden. Die Untersuchung zeigt, dass die Anzahl der als Engpassgebiet eingestuften Flächen bei einer Erhöhung der <b>Aufgriffsschwelle</b> von 3 % auf 10 % signifikant sinkt. Zudem wird eine <b>technologiespezifische Differenzierung</b> bei der Klassifizierung vorgeschlagen, da PV- und Wind-Einspeisung oft zeitlich versetzt auftreten. Die Analyse verdeutlicht, dass der Netzausbau gemäß NAP und NEP viele Engpässe erst langfristig nach 2030 auflösen wird. Zur Verbesserung der Planungssicherheit <b>fordert</b> die Organisation eine <b>verpflichtende Transparenz</b> der Verteilnetzbetreiber hinsichtlich bestehender und künftiger Engpassgebiete. Eine rein qualitative Auswertung der Daten unterstreicht die Notwendigkeit, Redispatch-Maßnahmen und Netzausbau besser zu synchronisieren.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Ausmaß und Entwicklung von Netzengpassgebieten",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070027": {
     "relevant": true,
-    "relevanz_grund": "Netzentgeltsystematik ist ein zentrales Element der Strommarktregulierung und der Integration erneuerbarer Energien.",
-    "zusammenfassung": "Die GLS Bank <b>setzt sich für eine Netzentgeltsystematik ein</b>, welche die <b>Integration erneuerbarer Energien</b> in das Stromsystem aktiv unterstützt. Ziel ist eine Anpassung der Rahmenbedingungen, um die <b>Systemintegration</b> effizienter zu gestalten."
+    "relevanz_grund": "Das Dokument befasst sich direkt mit der Neugestaltung der Netzentgeltsystematik (AgNes), welche für die Integration erneuerbarer Energien und die Strommarktregulierung zentral ist.",
+    "zusammenfassung": "Führende Unternehmen der Erneuerbare-Energien-Branche <b>lehnen dynamische und statische Einspeisenetzentgelte</b> im Rahmen des AgNes-Prozesses ab, da diese die Kalkulierbarkeit von Projekten gefährden. Sie warnen vor einer <b>Gefährdung der Projektfinanzierung</b> und einer Schwächung der Investitionssicherheit durch unvorhersehbare Kostenbelastungen. Stattdessen <b>schlagen sie Baukostenzuschüsse</b> als kalkulierbare Alternative zur Netzfinanzierung vor, die zudem Anreize für eine effiziente Netzanschlussdimensionierung setzen. Für Bestandsanlagen und Projekte in der Umsetzung fordern die Unternehmen einen <b>umfassenden Vertrauensschutz</b> über die gesamte Projektlaufzeit. Zudem wird eine <b>Konsistenz zwischen AgNes-Prozess, EEG-Reform und Netzpaket</b> angemahnt, um widersprüchliche regulatorische Vorgaben zu vermeiden. Die Unternehmen betonen, dass eine nachträgliche Belastung die Wirtschaftlichkeit von Anlagen untergräbt und den Ausbau erneuerbarer Energien massiv behindern würde.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Rahmenfestlegung der Allgemeinen Netzentgeltsystematik Strom (AgNes)",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070036": {
-    "relevant": true,
-    "relevanz_grund": "Wärmewende und Dekarbonisierung von Wärmenetzen sind wesentliche Bestandteile der Sektorkopplung und Energiepolitik.",
-    "zusammenfassung": "Der Verband <b>fordert eine technologieoffene Dekarbonisierung</b> der Wärmeversorgung zur Erreichung der Klimaschutzziele. Er <b>schlägt eine betreiberbezogene Erfüllung</b> der Dekarbonisierungsquoten vor, um <b>ineffiziente Investitionen</b> durch eine netzübergreifende Saldierung zu vermeiden."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit dem Wärmeplanungsgesetz (WPG) und der Dekarbonisierung von Wärmenetzen. Diese Themen sind gemäß der Vorgabe explizit als 'nicht relevant' für die Unterabteilung IIIA eingestuft.",
+    "zusammenfassung": "Die <b>RheinEnergie AG schlägt vor</b>, die gesetzlichen Dekarbonisierungsquoten für Wärmenetze im Wärmeplanungsgesetz <b>betreiberbezogen statt netzbezogen</b> zu erfüllen. Das Unternehmen argumentiert, dass eine <b>Saldierung über alle Netze</b> eines Betreibers ineffiziente Investitionen vermeidet und Ressourcen schont. Aktuell zwingt die netzindividuelle Nachweispflicht zu kostspieligen Verbindungsleitungen zwischen Netzen, die kaum zusätzliche CO₂-Minderungen bewirken. Durch die Saldierung könnten große zentrale Projekte zur Dekarbonisierung schwerer umsetzbare Maßnahmen in kleineren Netzen ausgleichen. Zudem würde dies den notwendigen Spielraum für die Prüfung neuer Technologien wie Geothermie eröffnen, die bis 2030 noch nicht flächendeckend realisierbar sind. Das Gesamtziel der vollständigen Dekarbonisierung bis 2045 bleibt laut Unternehmen von diesem Vorschlag unberührt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Änderung des Wärmeplanungsgesetzes (WPG)",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070033": {
-    "relevant": true,
-    "relevanz_grund": "Die Änderung des Wärmeplanungsgesetzes betrifft direkt die Energiepolitik und die Transformation der Wärmeversorgung.",
-    "zusammenfassung": "Der Verband <b>unterstützt die Stärkung erneuerbarer Wärme</b> im Rahmen der Novellierung des Wärmeplanungsgesetzes. Ein besonderer Fokus liegt dabei auf der <b>kleinen Wärmeplanung</b> sowie der Implementierung weiterer <b>gesetzlicher Neuerungen</b> zur Förderung der Wärmewende."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit dem Wärmeplanungsgesetz (WPG) und der kommunalen Wärmeplanung. Diese Themen sind gemäß der Liste der nicht relevanten Themen explizit von der Zuständigkeit der Unterabteilung IIIA ausgeschlossen.",
+    "zusammenfassung": "Der Bundesverband Erneuerbare Energie e.V. <b>begrüßt die Einhaltung der Fristen</b> zur Erstellung von Wärmeplänen, fordert jedoch eine <b>Klarstellung zur Unverbindlichkeit</b> der Gebietsausweisung, um Investitionshemmnisse zu vermeiden. Der Verband warnt vor einer <b>systematischen Unterschätzung von Wärmenetzen</b> bei der vereinfachten Wärmeplanung für kleine Kommunen und empfiehlt eine verbindliche Kriterienliste. Zudem wird eine <b>frühzeitige Integration der Kälteplanung</b> sowie die <b>Streichung des Biomassedeckels</b> für Wärmenetze gefordert. Abschließend mahnt der Verband den <b>Abbau baurechtlicher Hemmnisse</b> im Baugesetzbuch an, um die Erzeugung und Speicherung erneuerbarer Wärme zu erleichtern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Entwurf eines Gesetzes zur Änderung des Wärmeplanungsgesetzes",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070034": {
-    "relevant": true,
-    "relevanz_grund": "Gebäuderenovierung und klimaneutrale Wärmeversorgung sind zentrale Themen der Energieeffizienz und Sektorkopplung.",
-    "zusammenfassung": "Der Verband <b>unterstützt die Maßnahmen</b> des Nationalen Gebäuderenovierungsplans zur Erreichung einer <b>klimaneutralen Wärmeversorgung</b>. Die geplanten Schritte sollen maßgeblich zur <b>Transformation des Gebäudesektors</b> beitragen."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit dem Gebäudesektor, der Wärmewende und dem Gebäudeenergiegesetz (GEG). Diese Themen sind gemäß der Vorgabe explizit als 'Nicht relevant' für die Unterabteilung IIIA (Energiepolitik) eingestuft.",
+    "zusammenfassung": "Der Bundesverband Erneuerbare Energie e.V. <b>unterstützt</b> die im Nationalen Gebäuderenovierungsplan aufgeführten Maßnahmen zur <b>Dekarbonisierung der Wärmeversorgung</b> vollumfänglich. Der Verband <b>begrüßt</b> insbesondere die bestehende <b>BEG-Heizungsförderung</b>, die BEW sowie die 65%-EE-Vorgabe des GEG als zentrale Instrumente für die Wärmewende. Gleichzeitig <b>bezweifelt</b> der Verband, dass geplante Abschwächungen der 65%-EE-Vorgabe oder der Austauschpflicht für fossile Heizungen eine gleichwertige Klimawirkung entfalten können. Er <b>fordert</b> daher die Beibehaltung des aktuellen Regulierungsrahmens oder den Nachweis adäquater Substitutionsmaßnahmen. Ohne diese Sicherungen sieht der Verband die Erreichbarkeit der Klimaneutralität im Gebäudesektor bis 2045 als gefährdet an.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Nationaler Gebäuderenovierungsplan",
+    "bezug": "kern",
+    "hauptgesetz": "GEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070015": {
     "relevant": false,
-    "relevanz_grund": "Datenschutzrechtliche Fragen zur KI-Verordnung ohne direkten Bezug zur Energiepolitik oder den Zuständigkeitsbereich der Unterabteilung IIIA.",
-    "zusammenfassung": "Der DAV <b>begrüßt</b> die <b>datenschutzrechtliche Adressierung</b> von KI-Anwendungen, sieht jedoch <b>Anpassungsbedarf</b> bei der DSGVO und KI-Verordnung. Kritisiert werden insbesondere <b>unklare Formulierungen</b> und <b>Überschneidungen</b> zwischen den Regelwerken. Es wird eine präzisere Ausgestaltung gefordert."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit datenschutzrechtlichen Aspekten der KI-Verordnung und der DSGVO. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien).",
+    "zusammenfassung": "Der Deutsche Anwaltverein <b>begrüßt</b> die geplanten Änderungen der DSGVO und der KI-Verordnung zur <b>KI-Entwicklung</b>, sieht jedoch im Detail <b>Anpassungsbedarf</b>. Er fordert eine <b>technologieneutralere Ausgestaltung</b> der Regelungen, um die praktische Anwendbarkeit bei der Nutzung großer Datenmengen zu gewährleisten. Kritisiert werden unklare Formulierungen und potenzielle <b>Überschneidungen</b> mit bestehenden Datenschutzvorgaben. Zudem wird eine <b>Klarstellung der Informationspflichten</b> sowie eine präzisere Definition der <b>Bias-Detektion</b> und der damit verbundenen Schutzmaßnahmen angemahnt. Der Verein warnt vor Rechtsunsicherheiten durch die Einführung technologiespezifischer Sonderregelungen neben der bestehenden DSGVO.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Bestimmungen über künstliche Intelligenz im Digitalomnibuspaket",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070017": {
     "relevant": true,
-    "relevanz_grund": "Beschleunigung von Umweltprüfungen ist für die Umsetzung von Energieinfrastrukturprojekten (z.B. Wasserstoffkernnetz, Netzausbau) von hoher Relevanz.",
-    "zusammenfassung": "Der Akteur <b>lehnt</b> die Einführung von <b>EU-Verordnungen zur Beschleunigung von Umweltprüfungen</b> ab. Es wird gefordert, sich gegen unmittelbar verbindliche Vorschriften zu stellen, um <b>Eingriffe in den Rechtsschutz</b> zu vermeiden. Alternativ sollen Anpassungen zur Wahrung des verfahrensrechtlichen Charakters der Umweltverträglichkeitsprüfung erfolgen."
+    "relevanz_grund": "Das Dokument befasst sich mit der Beschleunigung von Genehmigungsverfahren für Infrastrukturprojekte, was für die Umsetzung der Energiewende und die damit verbundenen Planungs- und Genehmigungsprozesse im Zuständigkeitsbereich der Unterabteilung IIIA von hoher Relevanz ist.",
+    "zusammenfassung": "Der Deutsche Anwaltverein <b>begrüßt das Ziel</b> der Beschleunigung von Umweltprüfungen, <b>lehnt jedoch die Form</b> einer unmittelbar verbindlichen EU-Verordnung ab. Er <b>kritisiert die Einschränkung des Rechtsschutzes</b> sowie die Einführung pauschaler Fristen, da diese die Fehleranfälligkeit erhöhen könnten. Stattdessen wird eine <b>Vereinfachung des materiellen Rechts</b> und eine Stärkung der Verwaltungskapazitäten empfohlen. Die Einrichtung zentraler Anlaufstellen wird als <b>bürokratischer Mehraufwand</b> bewertet, der in Deutschland keinen Effektivitätsgewinn verspricht. Zudem wird vor einer <b>unionsrechtswidrigen materiellen Präklusion</b> gewarnt, die mit der Aarhus-Konvention unvereinbar sei. Der Verband schlägt vor, die Regelungen stattdessen in Form einer Änderungsrichtlinie mit kurzer Umsetzungsfrist zu gestalten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EU-Verordnung zur Beschleunigung von Umweltprüfungen (COM/2025/984)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070029": {
     "relevant": false,
-    "relevanz_grund": "Allgemeiner Bürokratieabbau ohne spezifischen Bezug zu den Energiethemen der Unterabteilung IIIA.",
-    "zusammenfassung": "Die Versicherer <b>setzen sich für</b> einen <b>Bürokratieabbau</b> auf EU-Ebene ein. Gefordert werden <b>gesetzliche Klarstellungen</b> und eine Reduzierung von <b>Berichtspflichten</b> sowie Prüfvorgängen. Ziel ist eine effizientere Umsetzung ohne Einschränkung des Schutzzwecks."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der Wettbewerbsfähigkeit und Regulierung der Versicherungswirtschaft (Solvency II, DORA, Accounting Directive) und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz) auf.",
+    "zusammenfassung": "Der Gesamtverband der Deutschen Versicherungswirtschaft <b>fordert ein ambitioniertes Vereinfachungspaket</b> für Finanzdienstleistungen, um die Wettbewerbsfähigkeit der EU-Versicherungsbranche zu stärken. Er <b>schlägt die Aussetzung der IRRD-Umsetzung</b> vor und <b>kritisiert bürokratische Doppelbelastungen</b> durch regulatorische Überlagerungen. Zudem wird die <b>Anpassung der Proportionalitätsregeln</b> unter Solvency II sowie eine <b>Überarbeitung der Klassifizierung als Unternehmen von öffentlichem Interesse</b> verlangt. Der Verband <b>lehnt das FIDA-Gesetzesvorhaben ab</b>, da es den Nutzen für Kunden übersteige und Ressourcen binde. Abschließend wird empfohlen, die <b>Wettbewerbsfähigkeit als Kernziel</b> für europäische Aufsichtsbehörden zu verankern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Bürokratieabbau im Finanz- und Versicherungssektor",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070028": {
     "relevant": false,
-    "relevanz_grund": "Digitaler Omnibus betrifft allgemeine digitale Regulierung ohne direkten Energiebezug.",
-    "zusammenfassung": "Der GDV <b>begrüßt</b> den Vorschlag für einen <b>Digital Omnibus</b> zur Vereinfachung der digitalen Regulierung. Es wird dazu ermutigt, das <b>Gleichgewicht</b> zwischen regulatorischen Anforderungen und <b>Innovation</b> wiederherzustellen. Die bestehenden Schutzstandards sollen dabei erhalten bleiben."
+    "relevanz_grund": "Das Dokument befasst sich mit der KI-Verordnung und versicherungsspezifischen statistischen Verfahren. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz, Energiepreise).",
+    "zusammenfassung": "Der Gesamtverband der Deutschen Versicherungswirtschaft <b>kritisiert die beabsichtigte weite Auslegung der KI-Definition</b> durch die EU-Kommission. Die Einordnung einfacher statistischer Verfahren wie linearer Regression als KI-Systeme wird als fachlich unzutreffend abgelehnt. Der Verband warnt vor <b>immensem bürokratischem Aufwand</b> und einer <b>Behinderung von Innovationen</b> in der Versicherungswirtschaft. Er verweist darauf, dass für diese seit Jahrzehnten eingesetzten mathematischen Verfahren bereits sektorale Regelungen bestehen. Der Verband fordert eine <b>Klarstellung zum Ausschluss einfacher statistischer Modelle</b> aus dem Anwendungsbereich der KI-Verordnung. Dabei stützt er sich auf entsprechende Forderungen von EIOPA und der EZB.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "KI-Verordnung und KI-Definition",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt die Auslegung der KI-Definition im Kontext der KI-Verordnung und deren Auswirkungen auf statistische Verfahren in der Versicherungswirtschaft.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070022": {
-    "relevant": true,
-    "relevanz_grund": "Betrifft die Umsetzung von EU-Richtlinien im Gewerberecht, die für die Marktteilnehmer im Energiebereich (z.B. Energiedienstleistungen) relevant sein können.",
-    "zusammenfassung": "Der Verband <b>begrüßt</b> die <b>bürokratiearme Umsetzung</b> der Verbraucherkreditrichtlinie im Gewerberecht. Insbesondere wird der <b>Verzicht auf eine Neuregelung</b> der Weiterbildungsumfänge für Darlehensvermittler unterstützt. Stattdessen wird die Übernahme bewährter Standards aus der VersVermV empfohlen."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit gewerberechtlichen Anforderungen an Darlehensvermittler (Weiterbildung, Sachkundeprüfung, Qualifikationsnachweise). Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien etc.).",
+    "zusammenfassung": "Der Gesamtverband der Deutschen Versicherungswirtschaft <b>begrüßt die bürokratiearme Umsetzung</b> der Richtlinie über Verbraucherkreditverträge, kritisiert jedoch geplante Abstriche bei den Qualitätsstandards. Der Verband <b>fordert die Beibehaltung eines praktischen Prüfungsteils</b> in der Sachkundeprüfung für Darlehensvermittler. Zudem wird die <b>Beibehaltung des Aufgabenauswahlausschusses</b> zur Sicherung der Prüfungsqualität verlangt. Hinsichtlich der Weiterbildung wird eine <b>Angleichung an die VersVermV</b> angestrebt, insbesondere bei der Anerkennung von Selbststudium und gleichgestellten Qualifikationen. Der <b>Bachelor Professional in Versicherungen und Finanzen</b> soll als Berufsqualifikation ohne zusätzliche Berufserfahrung anerkannt werden. Die Organisation warnt davor, dass der angestrebte Bürokratieabbau zu Lasten der fachlichen Kompetenzfeststellung geht.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Verordnung über Darlehensvermittlung (DarlVermV-E)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605060016": {
     "relevant": true,
-    "relevanz_grund": "Betrifft die Versorgungssicherheit Strom/Gas und die strategische Reserve, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-    "zusammenfassung": "Das Positionspapier <b>schlägt vor</b>, die <b>Strategische Erdgasreserve</b> über bestehende Marktmechanismen zu implementieren. Ziel ist eine <b>kosteneffiziente Ausgestaltung</b> der Vorsorge ab 2027. Durch die Nutzung vorhandener Bilanzierungsstrukturen sollen <b>Betriebskosten begrenzt</b> und Marktverzerrungen vermieden werden."
+    "relevanz_grund": "Das Dokument befasst sich mit der Ausgestaltung der Versorgungssicherheit im Gasbereich nach 2027, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Versorgungssicherheit/Energiepolitik) fällt.",
+    "zusammenfassung": "Die SEFE Securing Energy for Europe GmbH <b>schlägt vor</b>, zur Sicherstellung der Erdgasversorgung ab 2027 eine <b>Strategische Erdgasreserve</b> einzuführen, die strikt von marktlichen Prozessen getrennt ist. Als operativen Mechanismus empfiehlt das Unternehmen den <b>Winter Hedging Service</b>, um die Reservemengen <b>marktbasiert und kosteneffizient</b> zu beschaffen. Die Dimensionierung der Reserve wird auf 50 TWh beziffert, um eine Versorgungsreichweite von mindestens 28 Tagen bei Extremereignissen zu gewährleisten. Die Finanzierung soll primär über den <b>Staatshaushalt</b> erfolgen, um marktverzerrende Umlagen zu vermeiden. Der Einsatz der Reserve ist ausschließlich für <b>Krisen- und Notfallsituationen</b> vorgesehen, in denen der Markt seine Funktion nicht mehr erfüllen kann. Durch die Einbettung in bestehende Bilanzierungsstrukturen soll eine <b>kostenschonende Implementierung</b> ohne den Aufbau paralleler Systeme erreicht werden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Strategische Erdgasreserve und Winter Hedging Service",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605060002": {
-    "relevant": true,
-    "relevanz_grund": "Die kommunale Wärmeplanung ist ein zentrales Element der Energiewende und Sektorkopplung, die in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-    "zusammenfassung": "Der Entwurf <b>fordert</b> eine höhere <b>Planungssicherheit</b> für selbstnutzende Wohneigentümer im Rahmen der kommunalen Wärmeplanung. Die Wärmeplanung soll als <b>verlässliche Grundlage</b> für private Investitionsentscheidungen dienen. Zudem wird eine <b>nachvollziehbare Informationsbereitstellung</b> bei vereinfachten Verfahren angemahnt."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der kommunalen Wärmeplanung und dem Wärmeplanungsgesetz, welche gemäß der Themenliste der Unterabteilung IIIA explizit als nicht relevant (Gebäudeenergiegesetz/Wärmewende) eingestuft sind.",
+    "zusammenfassung": "Der <b>Verband Wohneigentum kritisiert</b> den Referentenentwurf zur Änderung des Wärmeplanungsgesetzes, da dieser aus Sicht der Eigentümer zu wenig <b>Planungssicherheit</b> für private Investitionen bietet. Der Verband warnt insbesondere vor den <b>Vereinfachungen im Verfahren</b> gemäß § 22a WPG-E, da diese zu <b>Planungslücken</b> führen könnten. Die pauschale Einstufung von Gemeindegebieten als dezentrale Versorgungsgebiete wird als risikoreich bewertet, da potenzielle Nahwärmelösungen zu früh ausgeschlossen werden könnten. Zur Verbesserung der Transparenz schlägt der Verband eine <b>ergänzende Darlegungspflicht</b> für Kommunen vor. Diese soll nachvollziehbar begründen, warum in einem Gebiet keine wirtschaftlich tragfähige leitungsgebundene Wärmeversorgung zu erwarten ist. Ziel ist es, selbstnutzenden Wohneigentümern eine verlässliche Entscheidungsgrundlage für Heizungstausch und energetische Sanierungen zu geben.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Änderung des Wärmeplanungsgesetzes",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605060003": {
     "relevant": true,
-    "relevanz_grund": "Direkter Bezug zur Kraftwerksstrategie und Versorgungssicherheit Strom, Kernaufgaben der Unterabteilung IIIA.",
-    "zusammenfassung": "Der Gesetzesentwurf <b>regelt</b> die Ausschreibung und Bereitstellung von <b>Erzeugungskapazitäten</b> zur Sicherung der Stromversorgung. Die EnBW <b>unterstützt</b> die Umsetzung durch <b>praktikable Vorschläge</b> zur Ausgestaltung der Ausschreibungsbedingungen. Dabei stehen insbesondere die <b>Momentanreserve</b> und spezifische Standortdefinitionen im Fokus."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des StromVKG, welches unter die Themenfelder 'Stromerzeugung & Kraftwerke' sowie 'Versorgungssicherheit Strom' der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die EnBW <b>unterstützt den Gesetzesentwurf</b> zur Sicherung der Versorgungssicherheit, <b>fordert jedoch Anpassungen</b> für eine praktikable Umsetzung. Das Unternehmen <b>kritisiert die technischen Anforderungen</b> zur Bereitstellung von Momentanreserve als unverhältnismäßig und schlägt vor, diese stattdessen durch Übertragungsnetzbetreiber zu realisieren. Zudem wird eine <b>Präzisierung der Standortdefinition</b> sowie eine <b>Flexibilisierung der Kapazitätsübertragung</b> und der Sicherheiten gefordert. Die EnBW warnt vor einer <b>Doppelbelastung durch den Preisspitzenausgleich</b> und empfiehlt, Jahresspeicher als eigene Technologieklasse zu definieren. Zur Beschleunigung der Realisierung von Gaskraftwerken werden <b>ergänzende Regelungen zur Genehmigungsbeschleunigung</b> angeregt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Entwurf des Strom-Versorgungssicherheits- und Kapazitätengesetzes (StromVKG)",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605060019": {
     "relevant": false,
-    "relevanz_grund": "Themenfeld Telekommunikation/Mobilfunkmarkt ohne Bezug zur Energiepolitik.",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+    "relevanz_grund": "Das Dokument befasst sich mit der Frequenzregulierung und Mobilfunkauktionen, was nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik) fällt.",
+    "zusammenfassung": "Der Bundesverband Breitbandkommunikation e.V. <b>fordert</b> im Rahmen der Anhörung zum 5G-Vergabeverfahren eine <b>Diensteanbieter- und MVNO-Verpflichtung</b> zur Sicherung des Wettbewerbs. Der Verband kritisiert das bisherige <b>Verhandlungsgebot</b> als ineffektiv und warnt vor einer bloßen kosmetischen Anpassung der Frequenznutzungsbedingungen. Er argumentiert, dass die Aufhebung der Teilentscheidungen III und IV durch das Verwaltungsgericht Köln zwingend ein <b>neues Vergabeverfahren</b> erfordert. Alternativ schlägt der Verband eine <b>Marktlösung</b> vor, bei der sich Glasfaser- und Mobilfunknetzbetreiber gegenseitig Zugang auf Diensteebene gewähren. Zudem wird die Untersagung von <b>Weiterverkaufsverboten</b> gefordert, um Wettbewerbsimpulse durch den vierten Netzbetreiber zu ermöglichen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Frequenzregulierung und 5G-Vergabeverfahren (BK 1-25/001)",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "TKG",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt die frequenzregulatorischen Aspekte der 5G-Mobilfunkvergabe und die Umsetzung von Urteilen des Verwaltungsgerichts Köln, nicht die allgemeine Stärkung des Wettbewerbs im Telekommunikationsmarkt durch Diensteanbieterverpflichtungen im Sinne des Regelungsvorhabens.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605060017": {
     "relevant": false,
-    "relevanz_grund": "Themenfeld Fischereiwirtschaft ohne Bezug zur Energiepolitik.",
-    "zusammenfassung": "Keine inhaltliche Beschreibung verfuegbar."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit fischereiwirtschaftlichen Regulierungen, Importvorschriften für Fischereierzeugnisse und lebensmittelrechtlichen Kennzeichnungs- sowie Hygienevorschriften. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz, Energiewende).",
+    "zusammenfassung": "Der Bundesmarktverband der Fischwirtschaft <b>schlägt</b> die Einführung eines sogenannten Fischmarkt-Omnibus-Verfahrens <b>zur Harmonisierung und Vereinfachung</b> relevanter Regelungsbereiche vor. Ziel ist es, die <b>Bürokratie zu reduzieren</b>, die Planungssicherheit zu erhöhen und die Wettbewerbsfähigkeit der Branche zu stärken. Die Organisation fordert eine <b>1:1-Umsetzung von EU-Recht</b>, um zusätzliches nationales „Goldplating“ zu vermeiden. Zudem wird eine <b>risikobasierte Regulierung</b> sowie eine verbesserte Digitalisierung und Interoperabilität der Meldesysteme gefordert. Kritisiert werden insbesondere die praktischen Auswirkungen der EU-Fischereikontrollverordnung, die Wiegeverordnung sowie neue nationale Anforderungen an Kühltemperaturen bei Sushi-Produkten. Abschließend mahnt der Verband die Einführung von Übergangsfristen für neue Kennzeichnungsvorgaben an, um bestehende nachhaltige Marktstrukturen nicht zu gefährden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Fischmarkt-Omnibus für Europa",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605050015": {
     "relevant": true,
@@ -4369,8 +4754,15 @@
   },
   "SG2605050040": {
     "relevant": true,
-    "relevanz_grund": "Das StromVKG betrifft direkt die Kraftwerksstrategie und die Versorgungssicherheit Strom, welche Kernaufgaben der Unterabteilung IIIA sind.",
-    "zusammenfassung": "Die Organisation <b>lehnt das StromVKG ab</b> und <b>fordert</b> stattdessen eine <b>nachfrageseitige Betrachtung</b> von Einsparpotenzialen. Sie verweist dabei auf die Notwendigkeit der Konformität mit EU-Recht. Vor der Ausschreibung neuer Kraftwerkskapazitäten sollen alternative Einsparoptionen priorisiert werden."
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum StromVKG, welches unter 'Stromerzeugung & Kraftwerke' als relevantes Themenfeld der Unterabteilung IIIA gelistet ist.",
+    "zusammenfassung": "Das Umweltinstitut München <b>lehnt das StromVKG grundsätzlich ab</b> und kritisiert das Fehlen nachfrageseitiger Maßnahmen. Die Organisation argumentiert, dass das Gesetz das europarechtliche Prinzip der <b>Efficiency First</b> verletze, da es neue Gaskraftwerke ausschreibt, statt vorhandene <b>Energieeinsparpotenziale</b> zu nutzen. Laut einer zitierten Studie könnten durch Effizienzsteigerungen im Industriesektor und bei der Beleuchtung signifikante Leistungen eingespart werden, die den Bedarf an neuen Kraftwerken reduzieren würden. Das Institut fordert eine <b>Analyse nachfrageseitiger Instrumente</b> vor der Ausschreibung neuer Erzeugungskapazitäten. Zudem wird vorgeschlagen, wirtschaftliche Einsparmaßnahmen durch staatliche Finanzierung oder ordnungsrechtliche Verpflichtungen zu <b>incentivieren</b>, um die Wettbewerbsfähigkeit der Industrie zu stärken und Emissionen zu senken.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Strom-Versorgungssicherheits- und Kapazitätengesetz (StromVKG)",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605050020": {
     "relevant": false,
@@ -11394,8 +11786,15 @@
   },
   "SG2605070009": {
     "relevant": false,
-    "relevanz_grund": "Das Lieferkettengesetz betrifft menschenrechtliche Sorgfaltspflichten und fällt nicht in die fachliche Zuständigkeit der Energieabteilung.",
-    "zusammenfassung": "Die Organisation <b>fordert</b> eine <b>ambitionierte Umsetzung</b> der EU-Richtlinie zu menschenrechtlichen Sorgfaltspflichten. Sie <b>plädiert für Fortschritte</b> gegenüber dem bestehenden deutschen Lieferkettensorgfaltspflichtengesetz. Ziel ist die Vermeidung einer Abschwächung des ökologischen und menschenrechtlichen Schutzniveaus."
+    "relevanz_grund": "Das Dokument befasst sich mit der Umsetzung der EU-Lieferkettenrichtlinie (CSDDD) und menschenrechtlichen Sorgfaltspflichten. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, welche sich auf Energiepolitik, Strommarktregulierung und Klimaschutz im Sinne der Energiewende konzentriert.",
+    "zusammenfassung": "Das Forum Fairer Handel <b>empfiehlt</b> eine ambitionierte und progressive <b>Umsetzung der CSDDD</b> in nationales Recht. Die Organisation fordert die Einführung einer wirksamen <b>zivilrechtlichen Haftung</b> für Menschenrechtsverletzungen sowie die explizite Berücksichtigung <b>existenzsichernder Einkommen</b> als Teil der Sorgfaltspflichten. Zudem warnt sie vor der sogenannten <b>Cut-and-Run-Praxis</b> und verlangt eine verpflichtende Einbindung von Stakeholdern vor der Beendigung von Geschäftsbeziehungen. Ein zentrales Anliegen ist die <b>Beibehaltung des Anwendungsbereichs</b> des bestehenden Lieferkettensorgfaltspflichtengesetzes, um eine Absenkung des Schutzniveaus zu verhindern. Die Organisation betont, dass ein wirksames Gesetz ein faires <b>level playing field</b> für alle Unternehmen schaffen würde.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Umsetzung der EU-Lieferkettenrichtlinie (CSDDD) in nationales Recht",
+    "bezug": "kern",
+    "hauptgesetz": "CSDDD",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2603060026": {
     "relevant": false,
@@ -11793,8 +12192,15 @@
   },
   "SG2606090005": {
     "relevant": true,
-    "relevanz_grund": "Direkter Bezug zum Strommarktdesign, Kapazitaetsmechanismen und StromVKG.",
-    "zusammenfassung": "Die Organisation <b>fordert die Gleichstellung</b> von <b>Batteriespeichern</b> in Kapazitätsausschreibungen. Durch eine <b>gleichrangige Behandlung</b> gegenüber Gaskapazitäten im StromVKG soll die Flexibilisierung des Stromsystems gestärkt werden."
+    "relevanz_grund": "Das Dokument adressiert direkt die Ausgestaltung des StromVKG und die Integration von Batteriespeichern in Kapazitätsausschreibungen, was zentrale Themen der Unterabteilung IIIA (Strommarktdesign, Stromerzeugung) sind.",
+    "zusammenfassung": "Die Initiative Klimaneutrales Deutschland <b>fordert die Gleichstellung von Batteriespeichern</b> mit Gaskapazitäten in den geplanten Ausschreibungen des StromVKG. Die Organisation argumentiert, dass Batteriespeicher bereits heute <b>wettbewerbsfähig sind</b> und durch die Nutzung abgeregelter Strommengen erhebliche <b>Redispatch-Kosten einsparen</b> können. Eine Bevorzugung fossiler Erzeuger im aktuellen Gesetzentwurf wird kritisiert, da sie die <b>Technologieoffenheit einschränkt</b> und die Abhängigkeit von Brennstoffimporten verlängert. Zudem wird auf das hohe Marktpotenzial und die wachsende Projektpipeline von über 10 GW verwiesen, die jedoch <b>regulatorische Planungssicherheit</b> erfordern. Die Initiative mahnt die Entwicklung einer kohärenten <b>Flexibilitätsstrategie</b> an, um die Stromversorgung kosteneffizient und klimaneutral zu sichern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Gleichstellung von Batteriespeichern im StromVKG",
+    "bezug": "kern",
+    "hauptgesetz": "StromVKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2603300143": {
     "relevant": false,
@@ -13555,13 +13961,27 @@
   },
   "SG2605110008": {
     "relevant": false,
-    "relevanz_grund": "Das Thema betrifft das Steuerrecht und die Lebensmittelpolitik, ohne Bezug zur Energiepolitik.",
-    "zusammenfassung": "Die Organisation <b>setzt sich für die Senkung</b> des Umsatzsteuersatzes für pflanzliche Milchalternativen auf 7 % ein. Aktuell unterliegen diese Produkte dem Regelsatz von 19 %, während Kuhmilch als Grundnahrungsmittel begünstigt ist. Angestrebt wird eine <b>Änderung des Umsatzsteuergesetzes</b> im Rahmen der Jahressteuergesetznovelle."
+    "relevanz_grund": "Das Dokument betrifft ausschließlich steuerrechtliche Fragen (Umsatzsteuergesetz) und die Ernährungspolitik. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz im Sinne der Energiewende).",
+    "zusammenfassung": "Die Organisationen ProVeg e. V., BALPro e. V. und The Good Food Institute <b>fordern die steuerliche Gleichstellung</b> von pflanzlichen Milchalternativen mit Kuhmilch durch eine Senkung des Umsatzsteuersatzes auf 7 %. Aktuell unterliegen pflanzliche Produkte dem Regelsatz von 19 %, was laut den Verfassern zu einer <b>Wettbewerbsverzerrung</b> führt. Die Organisationen warnen davor, dass eine einseitige Senkung des Steuersatzes für Kuhmilch diese <b>Preisdifferenz weiter verschärfen</b> würde. Als Begründung werden die Rolle als Grundnahrungsmittel, gesundheitliche Aspekte bei Unverträglichkeiten sowie <b>klimapolitische Ziele</b> zur Treibhausgasreduktion angeführt. Die Verfasser betonen, dass eine Angleichung die <b>Wahlfreiheit der Verbraucher</b> stärken und den Zugang zu nachhaltigen Optionen erleichtern würde.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Umsatzsteuerliche Gleichstellung von pflanzlichen Milchalternativen und Kuhmilch",
+    "bezug": "kern",
+    "hauptgesetz": "UStG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605110006": {
     "relevant": false,
-    "relevanz_grund": "Das Thema betrifft die Lebensmittelzulassung (Novel Food), ohne Bezug zur Energiepolitik.",
-    "zusammenfassung": "Die Organisation <b>spricht sich für staatliche Beratungsangebote</b> für Unternehmen im Bereich neuartiger Lebensmittel aus. Zudem <b>fordert sie eine effizientere Umsetzung</b> des europäischen Zulassungsverfahrens durch die Bundesregierung. Ziel ist die <b>Optimierung regulatorischer Prozesse</b> zur Förderung innovativer Lebensmitteltechnologien."
+    "relevanz_grund": "Das Dokument befasst sich mit dem EU Biotech Act I und der Biotechnologie im Ernährungssektor. Diese Themenfelder fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK.",
+    "zusammenfassung": "ProVeg e. V. <b>begrüßt</b> die Initiative der Europäischen Kommission zum EU Biotech Act I zur Stärkung der Wettbewerbsfähigkeit der Biotechnologie. Die Organisation <b>fordert</b> eine <b>beschleunigte Risikobewertung</b> durch die EFSA für neuartige Lebensmittel bei gleichbleibend hohen Sicherheitsstandards. Zudem wird die <b>Einbeziehung von Lebensmittelinnovationen</b> in sogenannte <b>Regulatory Sandboxes</b> angeregt, um regulatorische Anforderungen frühzeitig zu erproben. ProVeg betont, dass ein planbarer Rechtsrahmen entscheidend für Investitionen und die Innovationsdynamik im Bereich <b>alternativer Proteine</b> ist. Die Bundesregierung soll sich auf EU-Ebene für diese Maßnahmen einsetzen, um die Markteinführung biotechnologischer Lebensmittel zu erleichtern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EU Biotech Act I",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt den EU Biotech Act I und dessen Auswirkungen auf den Ernährungssektor, nicht das Novel-Food-Zulassungsverfahren.",
+    "geprueft_am": "2026-10-23"
   },
   "SG2602130004": {
     "relevant": false,
@@ -16226,19 +16646,40 @@
     "geprueft_am": "2026-10-22"
   },
   "SG2605070006": {
-    "relevant": true,
-    "relevanz_grund": "Bezug zur EU-Gesetzgebung und regulatorischen Rahmenbedingungen für Unternehmen im Kontext der Nachhaltigkeit.",
-    "zusammenfassung": "Die Forderung <b>unterstützt</b> eine <b>praxisgerechte und bürokratiearme Umsetzung</b> der CSRD in nationales Recht. Ziel ist die effiziente Integration der <b>Nachhaltigkeitsberichterstattung</b> in die deutsche Gesetzgebung. Dabei soll der administrative Aufwand für die betroffenen Unternehmen minimiert werden."
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der nationalen Umsetzung der CSRD (Corporate Sustainability Reporting Directive) im Handelsgesetzbuch (HGB) und der Ausweitung der Berichtspflichten auf Genossenschaften. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutzinstrumente).",
+    "zusammenfassung": "Der GdW und der DGRV <b>lehnen die Ausdehnung</b> der verpflichtenden Nachhaltigkeitsberichterstattung auf Nicht-Kreditgenossenschaften strikt ab. Die Verbände kritisieren die geplante Erweiterung des Anwendungsbereichs in § 336 HGB-E als <b>nationales Gold-Plating</b>, das nicht durch die CSRD gedeckt sei. Durch diese Regelung sehen sich Genossenschaften gegenüber anderen Rechtsformen wie Stiftungen oder Personengesellschaften <b>deutlich benachteiligt</b>. Die Einbeziehung konterkariere zudem die politischen Bemühungen zur <b>Entbürokratisierung der Wirtschaft</b>. Die Verbände fordern den Gesetzgeber auf, auf die vorgeschlagene Erweiterung zu verzichten, um die Wirtschaft in der aktuellen Krise zu entlasten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Umsetzung der CSRD in nationales Recht (HGB-Änderung)",
+    "bezug": "kern",
+    "hauptgesetz": "HGB",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070004": {
     "relevant": true,
-    "relevanz_grund": "Direkter Bezug zum EnWG, Stromnetzen und der Förderung von Energiegenossenschaften.",
-    "zusammenfassung": "Der Vorschlag <b>empfiehlt</b> gezielte <b>Anpassungen des EnWG</b> zur Stärkung von Energiegenossenschaften. Im Fokus stehen dabei die <b>Neuregelung der Kundenanlagen</b> sowie die <b>Verbesserung von Netzanschlüssen</b>. Diese Maßnahmen sollen die Rahmenbedingungen für dezentrale Energieerzeugung optimieren."
+    "relevanz_grund": "Das Dokument adressiert die regulatorische Einstufung von Kundenanlagen im EnWG, was direkt die Strommarktregulierung und die Versorgungssicherheit betrifft.",
+    "zusammenfassung": "Eine Verbändeallianz, darunter der DGRV, <b>fordert eine dauerhafte europarechtliche Absicherung</b> der Rechtsfigur der Kundenanlage. Die Unterzeichner begrüßen zwar die Übergangsregelung in § 118 Abs. 7 EnWG, warnen jedoch vor einem <b>Investitionsstau</b> und bürokratischen Mehrkosten für neue Projekte. Eine drohende Neueinstufung als reguliertes Netz wird als <b>volkswirtschaftlich ineffizient</b> abgelehnt. Die Verbände schlagen eine <b>Anpassung der Elektrizitätsbinnenmarktrichtlinie</b> vor, um Kundenanlagen dauerhaft von einer Netzregulierung auszunehmen. Sie bieten der Bundesregierung eine enge Zusammenarbeit an, um das Thema zu einer <b>politischen Priorität</b> auf nationaler und europäischer Ebene zu machen. Ziel ist der Erhalt dezentraler Versorgungskonzepte, die für die <b>klimagerechte Transformation</b> als integraler Bestandteil angesehen werden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Rechtssicherheit für Kundenanlagen im EnWG",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605070026": {
     "relevant": false,
-    "relevanz_grund": "Abfallwirtschaftsrecht ohne direkten Bezug zur Energiepolitik oder Sektorkopplung.",
-    "zusammenfassung": "Die Initiative <b>fordert</b> die <b>Stärkung und Aufrechterhaltung</b> der bestehenden deutschen <b>Mehrweg- und Pfandsysteme</b>. Dies soll durch eine Novellierung des Verpackungsgesetzes erreicht werden. Ziel ist die Sicherung der ökologischen Standards im Verpackungsrecht."
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit abfallwirtschaftlichen Regelungen und der Förderung von Mehrwegverpackungen im Rahmen des Verpackungsgesetzes. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA (z.B. Strommarkt, Erneuerbare Energien, Versorgungssicherheit oder Klimaschutz im Sinne der Energiewende).",
+    "zusammenfassung": "Der Verband PRO MEHRWEG <b>kritisiert</b> den vorliegenden Gesetzesentwurf zur Umsetzung der EU-Verpackungsverordnung als unzureichend für die <b>Förderung von Mehrwegsystemen</b>. Er <b>fordert</b> die Wiedereinführung eines zentralen <b>Fondsmodells</b> zur Finanzierung von Infrastruktur und Skalierung, um die gesetzliche Mehrwegzielquote von 70 Prozent zu erreichen. Sollte eine dezentrale Umsetzung erfolgen, verlangt der Verband verbindliche <b>Berichtspflichten</b> sowie eine <b>automatische Anerkennung</b> bereits getätigter Investitionen der Mehrwegwirtschaft. Zudem wird eine explizite <b>Evaluierungspflicht</b> im Gesetzestext angemahnt, die unter Einbeziehung der Branche erfolgen soll. Abschließend plädiert der Verband für die Beibehaltung des etablierten Begriffs „Mehrwegverpackung“ anstelle der neuen Terminologie.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Entwurf eines Gesetzes zur Anpassung des Verpackungsrechts (VerpackDG)",
+    "bezug": "kern",
+    "hauptgesetz": "VerpackDG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2605040030": {
     "relevant": true,
@@ -16560,8 +17001,15 @@
   },
   "SG2606100014": {
     "relevant": true,
-    "relevanz_grund": "Bezug zu Erneuerbaren Energien, EEG-Finanzierung und Flexibilisierung.",
-    "zusammenfassung": "Der Verband <b>fordert eine deutliche Erhöhung</b> der Ausschreibungsvolumina für Biomasse auf 2.500 MW/a sowie eine <b>Anpassung der Flexibilitätszuschläge</b>. Zudem wird die <b>Streichung des Maisdeckels</b> und eine verpflichtende Einführung flexibler Netzanschlussvereinbarungen verlangt. Ziel ist die Sicherung der Biomasse-Stromerzeugung und eine effiziente Umrüstung der Anlagen."
+    "relevanz_grund": "Das Dokument adressiert zentrale Aspekte der EEG-Novelle, insbesondere Ausschreibungsvolumina, Flexibilisierung von Biogasanlagen und Netzanschlussregeln, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Der Fachverband Biogas e.V. <b>fordert</b> im Rahmen der EEG-Novelle eine deutliche <b>Anhebung des Ausschreibungsvolumens</b> auf 2.500 MW/a bis 2032. Zur Steigerung der Wirtschaftlichkeit soll der <b>Maisdeckel gestrichen</b> und der zweite Vergütungszeitraum auf 15 Jahre verlängert werden. Der Verband empfiehlt eine Erhöhung des <b>Flexibilitätszuschlags</b> auf 130 Euro/kW sowie die Rückkehr zur Bemessungsleistungslogik anstelle der Betriebsviertelstundenbegrenzung. Zudem sollen Netzbetreiber zur Bereitstellung <b>flexibler Netzanschlussvereinbarungen</b> verpflichtet werden. Weitere Forderungen umfassen die Anhebung der Bagatellgrenze auf 750 kW und eine Aufwertung der Förderung für Klein- sowie Güllekleinanlagen. Abschließend wird eine erneute Ausschreibungsteilnahme zur weiteren Flexibilisierung von Bestandsanlagen angeregt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EEG-Novelle 2027",
+    "bezug": "kern",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
   },
   "SG2606100013": {
     "relevant": true,
@@ -31936,5 +32384,137 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-10-22"
+  },
+  "SG2610220025": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die Weiterentwicklung des EU-Rechtsrahmens für erneuerbare Energien (RED) nach 2030, was ein zentrales Themenfeld der Unterabteilung IIIA darstellt.",
+    "zusammenfassung": "Der BDEW <b>fordert</b> einen investitionsfreundlichen EU-Rechtsrahmen für erneuerbare Energien nach 2030, um den Ausbau zu beschleunigen und die Versorgungssicherheit zu stärken. Der Verband <b>plädiert für ein verbindliches Ausbauziel</b> und eine <b>Vereinfachung der Genehmigungsverfahren</b>, um regulatorische Komplexität abzubauen. Zudem wird eine <b>praxisgerechte Weiterentwicklung der Strombezugskriterien</b> für erneuerbaren Wasserstoff verlangt, insbesondere durch die Streichung des Zusätzlichkeitskriteriums. Der BDEW <b>schlägt eine neue Berechnungsmethode</b> für die RFNBO-Industriequote vor, um die Anrechenbarkeit von kohlenstoffarmem Wasserstoff zu ermöglichen. Zur Förderung der Sektorkopplung sollen <b>grenzüberschreitende Kooperationsprojekte</b> und die Nutzung von Flexibilitätspotenzialen stärker unterstützt werden. Abschließend warnt der Verband vor einer einseitigen Beeinträchtigung bestehender Investitionen durch nachträgliche Änderungen der Markt- und Förderarchitektur.",
+    "quelle": "pdf_scan",
+    "hauptgegenstand": "EU-Rechtsrahmen für erneuerbare Energien nach 2030",
+    "bezug": "kern",
+    "hauptgesetz": "RED",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220024": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert zentrale Aspekte der Sektorkopplung, der Netzinfrastruktur für E-Mobilität sowie regulatorische Rahmenbedingungen für den Strommarkt, die in den Zuständigkeitsbereich des BMWE fallen.",
+    "zusammenfassung": "Der BDEW <b>fordert einen verbesserten Rechtsrahmen</b>, um den marktgetriebenen Ausbau von E-Lkw-Ladehubs effizient und kostengünstig zu skalieren. Zur <b>Finanzierungssicherung</b> empfiehlt der Verband die Ausweitung von KfW-Krediten sowie die Nutzung der Alternative Fuels Infrastructure Facility (AFIF). Er plädiert für eine <b>Privilegierung von Ladehubs</b> im Außenbereich gemäß § 35 BauGB und die Öffnung von Flächen der Autobahn GmbH für private Betreiber. Zudem wird eine <b>Beschleunigung von Netzanschlüssen</b> sowie eine praxistaugliche Ausgestaltung des Mess- und Eichrechts für Megawatt-Ladesysteme angemahnt. Der Verband schlägt vor, <b>Depotladepunkte für Dritte zu öffnen</b> und die dort abgegebenen Strommengen für die THG-Quote anrechenbar zu machen. Abschließend fordert er eine <b>Anpassung der Lenk- und Ruhezeiten</b> sowie Erleichterungen bei Lärmschutzvorgaben, um den Betrieb von E-Lkw-Flotten zu optimieren.",
+    "quelle": "pdf_scan",
+    "hauptgegenstand": "Rechtsrahmen für den Ausbau von E-Lkw-Ladehubs",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220016": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich mit der geplanten Einführung einer Plastiksteuer, die als wirtschafts- und umweltpolitisches Instrument direkt die Sektorkopplung und die Transformation der Industrie betrifft.",
+    "zusammenfassung": "Die IK Industrievereinigung Kunststoffverpackungen e. V. und weitere Verbände <b>lehnen die Einführung einer neuen Verbrauchsteuer</b> auf Kunststoffverpackungen im Eilverfahren ab. Sie kritisieren, dass das Vorhaben ohne ordnungsgemäße Ressortbeteiligung und Kabinettbeschluss als Änderungsantrag in das Haushaltsbegleitgesetz eingebracht werden soll. Die Verbände fordern ein <b>transparentes Gesetzgebungsverfahren</b> unter Einbeziehung einer belastbaren Folgenabschätzung zu wirtschaftlichen und ökologischen Auswirkungen. Es wird vor erheblichen <b>Bürokratie- und Vollzugskosten</b> gewarnt, die auf jährlich mindestens 600 Millionen Euro geschätzt werden. Zudem wird auf das Risiko einer <b>ökologischen Fehlsteuerung</b> hingewiesen, da eine pauschale Besteuerung zu nachteiligen Materialsubstitutionen führen könnte. Als Alternative wird die <b>Ökomodulierung der Lizenzentgelte</b> vorgeschlagen, um die Recyclingfähigkeit gezielter zu fördern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Einführung einer Verbrauchsteuer auf Kunststoffverpackungen",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220014": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des EEG 2027 und adressiert zentrale Themen der Unterabteilung IIIA wie Erneuerbare Energien, Direktvermarktung und Strommarktintegration.",
+    "zusammenfassung": "Der <b>vedec Verband für Energiedienstleistungen, Effizienz und Contracting e.V. kritisiert</b> den Entwurf zum EEG 2027 hinsichtlich der geplanten <b>verpflichtenden Direktvermarktung für Kleinanlagen</b> unter 25 kWp. Der Verband warnt, dass die notwendige <b>Infrastruktur und Marktprozesse</b> derzeit nicht massentauglich seien, was zu unzumutbaren administrativen Kosten und Erlösrisiken führe. Er <b>fordert die Beibehaltung der Einspeisevergütung</b> sowie eine <b>vereinfachte Direktvermarktung</b> für dieses Segment, um die Wirtschaftlichkeit von Mieterstromprojekten zu sichern. Zudem wird die <b>Aufhebung der pauschalen 50-Prozent-Einspeisebegrenzung</b> für kleine Photovoltaikanlagen verlangt. Der Verband schlägt vor, den Systemwechsel erst nach einer durch die Bundesnetzagentur festgestellten <b>Marktreife</b> zu vollziehen. Abschließend wird eine <b>Anpassung der technischen Anforderungen</b> an die tatsächliche Netzrelevanz der Anlagen gefordert.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Referentenentwurf EEG 2027",
+    "bezug": "kern",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220013": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zur geplanten Novellierung des KWKG und adressiert die Förderung von KWK-Anlagen im Leistungssegment bis 500 kW, was ein zentrales Thema der Unterabteilung IIIA ist.",
+    "zusammenfassung": "Der Bundesverband Kraft-Wärme-Kopplung e.V. und der Verband für Energiedienstleistungen, Effizienz und Contracting e.V. <b>kritisieren die geplante Abschmelzung der Förderung</b> für kleine KWK-Anlagen unter 500 kW. Die Verbände warnen vor einem <b>Investitionsaus für dezentrale Anlagen</b> und fordern den Erhalt einer differenzierten Förderung, da diese Anlagen einen wesentlichen Beitrag zur <b>Stromsystemstabilität und Netzengpassvermeidung</b> leisten. Zudem wird die <b>Förderfähigkeit der Eigenstromnutzung</b> sowie der Stromlieferung an Letztverbraucher in Kundenanlagen als essenziell für die Wirtschaftlichkeit eingestuft. Die Verbände lehnen eine pauschale Gleichbehandlung kleiner Anlagen ab und plädieren für eine <b>Bewertung nach dem tatsächlichen Systemnutzen</b>. Abschließend wird eine <b>technologieoffene Modernisierungsförderung</b> sowie eine langfristige Investitionssicherheit über das Jahr 2035 hinaus angemahnt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "KWKG-Novelle",
+    "bezug": "kern",
+    "hauptgesetz": "KWKG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220012": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert die Ausgestaltung von Differenzverträgen (CfD) im Rahmen der EEG-Novelle, was direkt die Themenfelder Strommarktdesign, Erneuerbare Energien und EU-Rahmenbedingungen für EE-Fördersysteme berührt.",
+    "zusammenfassung": "Der <b>vedec</b> und weitere Verbände <b>fordern</b> die Einführung eines <b>Marktwertkorridors</b> bei der Ausgestaltung von <b>Differenzverträgen (CfD)</b> im EEG. Die Unterzeichner kritisieren, dass der aktuelle Gesetzentwurf ohne diesen Korridor zu einer vollständigen Abschöpfung von Erlösen führt, ohne tatsächliche Marktrisiken oder Vermarktungskosten zu berücksichtigen. Dies führe zu höheren Finanzierungskosten und behindere den Abschluss von <b>Power Purchase Agreements (PPAs)</b>. Ein Marktwertkorridor soll hingegen als Risikopuffer dienen und den notwendigen Spielraum für marktliche Agilität erhalten. Die Verbände betonen, dass eine solche Anpassung die <b>Marktintegration</b> erneuerbarer Energien fördert und im Einklang mit dem Koalitionsvertrag steht. Abschließend werden Anforderungen an den Korridor definiert, um sowohl Vermarktungs- als auch Ausgleichsenergiekosten adäquat abzubilden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Ausgestaltung von Differenzverträgen (CfD) im EEG",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220011": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit wasserwirtschaftlichen Aspekten der EU-Wiederherstellungsverordnung und der Wasserrahmenrichtlinie. Diese Themen liegen außerhalb der Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarkt und Klimaschutz im Energiesektor konzentriert.",
+    "zusammenfassung": "Die Arbeitsgemeinschaft der Wasserwirtschaftsverbände NRW <b>begrüßt den Entwurf</b> des Nationalen Wiederherstellungsplans. Sie fordert eine klare <b>Kohärenz zwischen der EU-Wiederherstellungsverordnung und der EU-Wasserrahmenrichtlinie</b>, um Synergien bei der Renaturierung von Gewässern effektiv zu nutzen. Die Verbände mahnen eine <b>niederschwellige Förderkulisse</b> an, da die Finanzierung über das Wasserentnahmeentgelt aufgrund des Braunkohlenausstiegs rückläufig ist. Zudem wird eine explizite <b>Antragsberechtigung für Wasserverbände</b> in künftigen Förderrichtlinien verlangt. Die Organisation betont die Notwendigkeit ausreichender finanzieller Mittel und zügiger Genehmigungsverfahren für die Umsetzung der ökologischen Maßnahmen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Nationaler Wiederherstellungsplan",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220010": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit wasserwirtschaftlichen Genehmigungsverfahren und der UVP-Pflicht für Maßnahmen zur Umsetzung der Wasserrahmenrichtlinie. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien, Versorgungssicherheit).",
+    "zusammenfassung": "Die Arbeitsgemeinschaft der Wasserwirtschaftsverbände NRW e.V. <b>begrüßt</b> die im Referentenentwurf vorgesehenen <b>Vereinfachungen im Genehmigungsverfahren</b>, insbesondere die <b>Freistellung von Maßnahmen</b> zur Erreichung der Ziele der Wasserrahmenrichtlinie von der UVP-Pflicht. Der Verband argumentiert, dass naturnahe wasserwirtschaftliche Maßnahmen regelmäßig keine erheblichen nachteiligen Umweltauswirkungen haben und der Verbesserung des Umweltzustands dienen. Zur rechtssicheren Abgrenzung wird die Einführung einer <b>Positivliste typischer WRRL-Maßnahmen</b> vorgeschlagen, die von der UVP-Pflicht befreit werden sollen. Gleichzeitig sollen <b>Ausschlusskriterien für atypische Fälle</b> definiert werden, in denen aufgrund besonderer Standortbedingungen oder kumulativer Wirkungen weiterhin eine Einzelfallprüfung erforderlich bleibt. Für technische Maßnahmen der Siedlungswasserwirtschaft wird eine pauschale Freistellung aufgrund ihrer Komplexität als schwierig bewertet. Der Verband betont, dass die UVP bei typischen WRRL-Maßnahmen keinen zusätzlichen Erkenntnisgewinn liefere, da Schutzgüter bereits in anderen Verfahren geprüft würden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Reform der Umweltverträglichkeitsprüfung (UVP) bei Maßnahmen zur Umsetzung der Wasserrahmenrichtlinie (WRRL)",
+    "bezug": "kern",
+    "hauptgesetz": "UVPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220009": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der energetischen Sanierung öffentlicher Gebäude und Contracting-Modellen, was gemäß der Themenliste explizit als nicht relevant (Gebäudeenergiegesetz/Gebäudemodernisierung/Wärmewende) eingestuft ist.",
+    "zusammenfassung": "Der <b>vedec Verband für Energiedienstleistungen, Effizienz und Contracting e.V.</b> <b>schlägt vor</b>, Contracting-Modelle als zentrales Instrument zur Erfüllung der Energieeinsparverpflichtungen im ÖffEGSanG zu verankern. Der Verband <b>fordert die Anrechnung</b> von durch Energiespar-Contracting (ESC) erzielten und messtechnisch nachgewiesenen Energieeinsparungen auf die gesetzlichen Ziele. Zudem wird eine <b>Klarstellung der Nachweisverfahren</b> angeregt, um Doppelprüfungen zu vermeiden und die Nutzung bewährter Praxisstandards zu ermöglichen. Zur Flexibilisierung der Umsetzung <b>empfiehlt der Verband</b>, übererfüllte Sanierungs- und Energieeinsparziele analog zur EU-Energieeffizienzrichtlinie auf mehrere Folgejahre anrechenbar zu machen. Diese Maßnahmen sollen insbesondere finanzschwachen Kommunen helfen, notwendige Modernisierungen ohne hohe Anfangsinvestitionen zu realisieren. Die <b>Mobilisierung privaten Kapitals</b> durch spezialisierte Energiedienstleister wird dabei als wesentlicher Hebel zur Erreichung der ambitionierten Sanierungsziele hervorgehoben.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Gebäude-öffentlicher-Einrichtungen-Sanierungsgesetz (ÖffEGSanG)",
+    "bezug": "kern",
+    "hauptgesetz": "ÖffEGSanG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220005": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit lokaler Stadtentwicklung und Einzelhandelspolitik, was nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) fällt.",
+    "zusammenfassung": "Die <b>MediaMarktSaturn Retail Group GmbH</b> <b>diskutiert</b> mit politischen Akteuren über die <b>Zukunft der Kasseler Innenstadt</b> und die Bedeutung des stationären Einzelhandels. Das Unternehmen <b>betont</b> die Notwendigkeit <b>fairer Wettbewerbsbedingungen</b> und eines konsequenten <b>Bürokratieabbaus</b>. Es wird die <b>Weiterentwicklung der Innenstadt</b> durch einen geplanten Round Table mit relevanten Akteuren aus Politik und Wirtschaft angestrebt. Zudem wurden Positionspapiere zur allgemeinen Einzelhandelspolitik sowie zu <b>Bauplanungsrecht</b> übermittelt. Das Schreiben dient primär der Nachbereitung eines persönlichen Gesprächs zur lokalen Standortentwicklung.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Einzelhandelspolitik und Stadtentwicklung in Kassel",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt die Einzelhandelspolitik, Stadtentwicklung und Bauplanungsrecht in Kassel, nicht die Förderung des Omnichannel-Handels.",
+    "geprueft_am": "2026-10-23"
+  },
+  "SG2610220004": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument behandelt keine regulatorischen Rahmenbedingungen für den Tankstellenmarkt, sondern analysiert die Einkommensverteilungseffekte der Energiewende auf private Haushalte.",
+    "zusammenfassung": "Das DIW Berlin <b>analysiert</b> in seinem Endbericht die <b>Verteilungswirkungen</b> der Energiepolitik auf die <b>personelle Einkommensverteilung</b> privater Haushalte. Die Studie stellt fest, dass die Ausgaben für Strom, Heizung und Kraftstoffe <b>regressiv</b> wirken, wodurch einkommensschwache Haushalte prozentual stärker belastet werden. Auf Basis von Mikrosimulationen werden Szenarien zur energetischen Gebäudesanierung, Strompreiserhöhungen sowie Änderungen bei Kraftstoff- und ÖPNV-Preisen untersucht. Die Ergebnisse zeigen, dass eine Kombination dieser Maßnahmen zu einer moderaten, aber spürbar regressiven <b>Gesamtbelastung</b> führt. Dabei entfällt das größte Gewicht der finanziellen Auswirkungen auf die <b>energetische Gebäudesanierung</b>. Die Analyse dient als Grundlage, um die <b>Anstoßeffekte</b> der Energiewende auf die Einkommenssituation in den kommenden Jahren aufzuzeigen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Verteilungswirkungen der Energiepolitik auf private Haushalte",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument ist eine wissenschaftliche Studie des DIW Berlin zu den sozioökonomischen Auswirkungen der Energiepolitik auf private Haushalte und hat keinen Bezug zum Tankstellenmarkt.",
+    "geprueft_am": "2026-10-23"
   }
 }
