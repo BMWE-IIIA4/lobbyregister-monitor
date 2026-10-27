@@ -103719,7 +103719,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Versorgungssicherheit und Resilienz kritischer Energieinfrastrukturen, was direkt in den Aufgabenbereich der Unterabteilung IIIA (Versorgungssicherheit Strom) fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Die Energieversorgung muss resilienter werden\r\nStromausfälle in Berlin (terroristischer Anschlag 01/25), im Ahrtal (Flutkatastrophe 07/21) und in der Ukraine (Cyberangriff 12/15) haben zu tagelangen Versorgungsunterbrechungen geführt. Dabei kommt dem Stromsystem als elementarer Grundlage für alle anderen kritischen Infrastrukturen eine herausgehobene Rolle zu. Angesichts der Folgen für die Bevölkerung, das Gewerbe und den Industriestandort muss Resilienz im energiewirtschaftlichen Zieldreieck gegenüber Bezahlbarkeit und Energiewende wieder mehr Bedeutung gewinnen.",
       "summary_quelle": "pdf_text"
     },
@@ -103750,7 +103750,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zum Netzentwicklungsplan (NEP) Strom, welcher ein zentrales Instrument der Strommarktregulierung und Infrastrukturplanung darstellt und direkt in den Aufgabenbereich der Unterabteilung IIIA faellt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Netzentwicklungsplan der 4 deutschen Übertragungsnetzbetreiber 50Hertz, Amprion, TenneT und TransnetBW",
       "summary_quelle": "pdf_text"
     },
@@ -103852,7 +103852,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Planungssicherheit und Flexibilität beim Übertragungsnetzausbau im Rahmen des EnWG, was direkt die Stromnetzregulierung und Versorgungssicherheit betrifft.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Das Energiewirtschaftsgesetz (EnWG) enthält grundlegende Regelungen zum Recht der leitungsgebundenen Energie.",
       "summary_quelle": "pdf_text"
     },
@@ -103879,7 +103879,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zu EU-Rechtsvorschriften (RED-Änderungen, Umwelt-Omnibus), die direkt den Ausbau erneuerbarer Energien, Genehmigungsverfahren und Netzinfrastruktur betreffen, was zentrale Themen der Unterabteilung IIIA sind.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Die EU-KOM hat einen Vorschlag für die Verordnung zur Beschleunigung der Umweltprüfungen vorgelegt. Der BWE hat seine Bewertung zu dem Entwurf abgegeben und Verbesserungsvorschläge gemacht.",
       "summary_quelle": "pdf_text"
     },
@@ -103906,7 +103906,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der EU-Energiepolitik, der Genehmigungsbeschleunigung für Erneuerbare Energien und der Umsetzung der RED III, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "EU-KOM hat für die Windenergie an Land relevanter Regelungsentwurf mit Auswirkungen auf die Genehmigungsbeschleunigung bei Wind an Land zu möglichen Anpassungen RED III Onshore veröffentlicht. Der BWE hat seine Einschätzung zur Beschleunigungswirkung auf Genehmigungsverfahren sowie Verbesserungsvorschläge gemacht.",
       "summary_quelle": "pdf_text"
     },
@@ -103935,7 +103935,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Netzausbauplanung und den regulatorischen Rahmenbedingungen für Verteilnetzbetreiber, was direkt in die Zuständigkeit der Unterabteilung IIIA (Stromnetz/Regulierung) fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Anpassung des § 14d EnWG \"Planung und besondere Bedeutung des Verteilernetzausbaus\" hinsichtlich der in Absatz (4) aufgeführten Inhalte des Netzausbauplanes.",
       "summary_quelle": "pdf_text"
     },
@@ -103966,7 +103966,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung der Anreizregulierung für Strom- und Gasnetzbetreiber, was ein zentrales Element der Stromnetzregulierung und damit der Unterabteilung IIIA darstellt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Stromnetze und -regulierung zukunftssicher weiterentwickeln. Es braucht einen Regulierungsrahmen, der grundsätzlich den massiven und vorausschauenden Ausbaubedarf anerkennt, unnötige Bürokratie \r\nvermeidet, eine international wettbewerbsfähige und langfristig verlässliche Verzinsung sicherstellt \r\nund steigende Betriebskosten berücksichtigt. Zugleich sollte den Netzbetreibern die Nutzung von Batteriespeichern und Elektrolyseuren als Betriebsmittel ermöglicht werden, um schneller erneuerbare Energie aufnehmen und das Netz besser aussteuern zu können.",
       "summary_quelle": "pdf_text"
     },
@@ -104234,7 +104234,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument ist eine offizielle Stellungnahme zu einem geplanten Industriestrompreis, welcher direkt in den Zuständigkeitsbereich der Energiepolitik und Wettbewerbsfähigkeit des BMWE fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Zur Entlastung energieintensiver Unternehmen von den hohen Stromkosten, soll zum 1. Januar 2026 ein Industriestrompreis für die Jahre 2026, 2027 und 2028 eingeführt werden. Die Zementindustrie zählt zum Kreis der begünstigten Branchen.",
       "summary_quelle": "pdf_scan"
     },
@@ -104274,7 +104274,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Die Interessensvertretung bezieht sich auf die Meinungsbildung für eine deutsche Position im Rat und im ECHA-Mitgliedsstaaten-Ausschuss zum PFAS-Beschränkungsverfahren.",
       "gemini_relevanz": "Das Dokument adressiert die Auswirkungen der PFAS-Beschränkung auf den Energiesektor, insbesondere auf Technologien wie erneuerbare Energien, Wasserstoff und Heiz-/Kühlsysteme, die für die Transformation des Energiesystems zentral sind.",
       "summary_quelle": "pdf_text"
@@ -104302,7 +104302,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Weitere Vereinfachung der European Sustainability Reporting Standards (ESRS) und Fokussierung auf sinnvolle Nachhaltigkeitsinformationen, insbesondere für Kreditinstitute.",
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung der Nachhaltigkeitsberichterstattung für Kreditinstitute, was unter die Themenfelder EU-Gesetzgebung und Finanzierungsbedarfe der Transformation fällt.",
       "summary_quelle": "pdf_text"
@@ -104457,7 +104457,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Implementierung der Unionsdatenbank (UDB) im Rahmen der Erneuerbare-Energien-Richtlinie (RED III), was direkt in den Zuständigkeitsbereich der EU-Energiepolitik und der Regulierung erneuerbarer Energien fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Die UDB sollte für Wirtschaftsteilnehmer verpflichtend eingeführt werden, sobald ihre praktische und technische Anwendbarkeit sichergestellt ist. An diesem Prozess sollte die EU-Kommission sowohl Mitgliedstaaten als auch Industrie angemessen beteiligen. Diesem Anspruch entsprechend sollte sich die Bundesregierung auf EU-Ebene einsetzen.",
       "summary_quelle": "pdf_text"
     },
@@ -104521,7 +104521,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere Klimaschutz, Sektorkopplung, Energiewirtschaft und kommunale Energieinfrastruktur.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Das Klima-Bündnis setzt sich für die Verankerung von Klimaschutz und Klimaanpassung in kommunalen Pflichtaufgaben ein. Wie die gesetzliche Ausgestaltung hierbei aussehen könnte bzw. welche konkreten Gesetze hiervon betroffen wären, ist eine Frage, die nicht abschließend geklärt ist. Als mögliche Blaupause für die Verankerung von Klimaschutz und Klimaanpassung in kommunalen Pflichtaufgaben könnten z.B. das Gesetz für die Wärmeplanung und zur Dekarbonisierung der Wärmenetze oder das Bundes-Klimaanpassungsgesetz dienen, in denen entsprechende Regelungen bereits (teilweise) vorhanden sind. Manche Jurist*innen argumentieren auch, dass eine Grundgesetzänderung hierfür notwendig bzw. sinnvoll sei. Das Klima-Bündnis möchte diese Debatte konkstruktiv und ergebnisoffen vorantreiben.",
       "summary_quelle": "pdf_text"
     },
@@ -104549,7 +104549,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der Gebäudetyp E soll dazu dienen, schnell bezahlbaren Wohnraum zu schaffen. Eine geeignetere und zukunftsweisende Methode, um dieses Ziel mit – im Vergleich zu traditionellen Bauverfahren – wenig Fachpersonal zu erreichen, ist das Serielle Bauen und Sanieren.",
       "gemini_relevanz": "Das Dokument befasst sich mit den Auswirkungen des geplanten Gebäudetyps E auf technische Standards, Energieeffizienz und Gesundheitsschutz in Gebäuden, was direkte Berührungspunkte zur Wärmewende und Gebäudeeffizienz aufweist.",
       "summary_quelle": "pdf_text"
@@ -104577,7 +104577,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung der europäischen Nachhaltigkeitsberichterstattung (ESRS), welche für die Finanzwirtschaft und die damit verbundene Transparenz bei nachhaltigen Investitionen und Finanzierungen von hoher Relevanz für die Energiepolitik ist.",
       "summary_quelle": "pdf_text"
     },
@@ -104622,7 +104622,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Versorgungssicherheit und Resilienz kritischer Infrastrukturen im Energiesektor, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der BDEW fordert die Einführung eines sektorspezifischen Rechtsrahmens zur Stärkung der Resilienz kritischer Infrastrukturen der Energie- und Wasserwirtschaft. Ziel ist es, die Sicherheit und Funktionsfähigkeit auch in Krisenlagen zu gewährleisten. Dazu zählen u. a. rechtssichere Regelungen zur Drohnenabwehr, zur Finanzierung von Resilienzmaßnahmen über einen staatlichen Fonds sowie Anpassung  von Transparenz- und Datenschutzvorgaben unter sicherheitspolitischen Aspekten. Zudem fordert der BDEW verbindliche Koodinierungsstrukturen zwischen Bund, Ländern und kommunalen Akteuren sowie eine klare Führungsstruktur in Krisenlagen.",
       "summary_quelle": "pdf_text"
     },
@@ -104767,7 +104767,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Weitere Vereinfachung der European Sustainability Reporting Standards (ESRS) und Fokussierung auf sinnvolle Nachhaltigkeitsinformationen, insbesondere für Kreditinstitute.",
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung der Nachhaltigkeitsberichterstattung für Finanzinstitute, was unter die Themenfelder EU-Energiepolitik und Wettbewerbsfähigkeit im EU-Binnenmarkt fällt.",
       "summary_quelle": "pdf_text"
@@ -104795,7 +104795,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Energiewende, insbesondere den Ausbau erneuerbarer Energien, die Finanzierung von Infrastrukturprojekten und die Dekarbonisierung, welche direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Vor dem Hintergrund geopolitischer Risiken und einer schwachen wirtschaftlichen Entwicklung ist der Transformations- und Wettbewerbsdruck enorm. Daher sollte der derzeitige Fokus der Klimaschutzpolitik auf effizienten Emissionsminderungsmaßnahmen und guten Rahmenbedingungen für klimanützliches Wirtschaften und Wachstum liegen. Eine der größten Herausforderungen für die Dekarbonisierung Deutschlands bis 2045 ist die Mobilisierung der notwendigen Investitionen. Insgesamt übersteigen aber die Kosten des Nicht-Handelns die Transformationskosten bei weitem. Das deutsche Klimaschutzprogramm sollte dazu beitragen, Zukunftsinvestitionen zu priorisieren und privates Kapital zu mobilisieren.",
       "summary_quelle": "pdf_text"
     },
@@ -104961,7 +104961,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Schlanke, einfache und praxisorientierte Standards für die Nachhaltigkeitsberichterstattung für eine spürbare Entlastung der Unternehmen.",
       "gemini_relevanz": "Das Dokument adressiert die EU-Gesetzgebung im Bereich der Nachhaltigkeitsberichterstattung, welche für die Wettbewerbsfähigkeit und Transparenz im EU-Binnenmarkt relevant ist.",
       "summary_quelle": "pdf_text"
@@ -104997,7 +104997,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Gebührenstruktur für den Vollzug der 37. und 38. BImSchV, welche für die THG-Quote und damit für die Anrechnung von Fahrstrom und Wasserstoff (RFNBO) im Verkehrssektor relevant sind.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der Bundesverband THG-Quote e.V. fordert Änderungen zur Optimierung der Treibhausgasminderungsquote (THG-Quote). Dazu gehören eine dynamische Erhöhung der Quotenziele („Quoten-Ratsche“), die Abschaffung der Doppelanrechnung von Biokraftstoffen und die Gleichstellung von Fahrstrom und strombasiertem Wasserstoff. Weitere Vorschläge sind die Vierfachanrechnung von Fahrstrom, striktere Audits, getrennte Quoten für verschiedene Verkehrsträger sowie die Entfernung unrechtmäßiger UER-Nachweise. Langfristig soll die THG-Quote über 2030 hinausgeführt und durch bessere Verwaltungsprozesse beschleunigt werden. Ziel ist ein fairer, transparenter Markt für klimafreundliche Mobilität.",
       "summary_quelle": "pdf_text"
     },
@@ -105024,7 +105024,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die Sektorkopplung und die Dekarbonisierung des Verkehrssektors, was direkte Auswirkungen auf die Energieeffizienz und den Strombedarf (Bahnstrom) hat.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Das Klimaschutzprogramm der Bundesregierung soll der konkreten Umsetzung des geltenden Klimaschutzgesetzes dienen. Das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit (BMUKN) hat mit Mail vom 9. Dezember 2025 zur Stellungnahme zum Klimaschutzprogramm\r\nder Bundesregierung bis zum 13. Januar 2026 eingeladen.",
       "summary_quelle": "pdf_text"
     },
@@ -105064,7 +105064,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Wirtschaftlichkeit der Grubengasverwertung, welche eng mit der KWK-Strategie und der Wärmewende verknüpft ist, beides zentrale Themen der Unterabteilung IIIA.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Nach dem Auslaufen der EEG-Förderung für die energetische Grubengasverwertung im Jahr 2024 existiert kein Mechanismus mehr, der für Phasen geringer Stromerlöse eine wirtschaftliche Methanemissionsreduktion durch Grubengasverwertung gewährleistet. Ziel ist die Schaffung von Nachfolgeregelungen, die beihilferechtlich stabil und in Einklang mit der EU-Methanverordnung die Wirtschaftlichkeit der Grubengasverwertung sicherstellen - und so die Methanemissionen aus stillgelegten Steinkohlebergwerken sicher und perspektivisch minimiert. Da an einigen Verwertungsstandorten auch eine Wärmeauskopplung in Fernwärmenetze stattfindet, spielen auch Regelungen im Wärmebereich eine Rolle für die Absicherung der Wirtschaftlichkeit.",
       "summary_quelle": "pdf_text",
       "abweichung": true,
@@ -105114,7 +105114,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die regulatorische Einordnung von Grubengas in den Bereichen KWKG, GEG und BEW-Förderung, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der Wert von effizienter Wärme und der vorzuhaltenden Kapazitäten soll gesichert werden, sowohl bei großräumigen Wärmenetzen als auch dezentral, bei Abwärme ebenso wie bei der Bereitstellung von Prozesswärme. Entsprechend sollten Regelungen zur Berechnung von Primärenergie- und Emissionsfaktoren, die Förderkulissen des Bundes, und ein künftiges KWKG, GEG bzw. GModG ausgestaltet werden. Berücksichtigt werden sollen geothermische Potenziale; dazu zählt, dass zukünftig solchen Vorhabenträgern vorrangig Erlaubnisse zur Aufsuchung und Gewinnung von Wärme aus Tiefengeothermie erteilt werden können, die über einen relevanten Zugriff auf Wärmeerzeugungsinfrastrukturen und Wärmenetze verfügen.",
       "summary_quelle": "pdf_text"
     },
@@ -105209,7 +105209,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Sektorkopplung, die Dekarbonisierung des Verkehrs durch Elektrifizierung und Wasserstoff sowie den Ausbau der Ladeinfrastruktur, was direkte Schnittstellen zur Energiewirtschaft und den Themenfeldern der Unterabteilung IIIA aufweist.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Nach § 9 Bundes-Klimaschutzgesetz ist innerhalb der ersten zwölf Monate der Legislaturperiode durch die Bundesregierung ein Klimaschutzprogramm zu beschließen. Das BMUKN als federführendes Ressort hat Länder, Kommunen sowie Wirtschaftsverbände, zivilgesellschaftliche Verbände und wissenschaftliche Begleitgremien der Bundesregierung eingeladen, sich mit eigenen Vorschlägen an der Arbeit am Klimaschutzprogramm zu beteiligen.",
       "summary_quelle": "pdf_text"
     },
@@ -105248,7 +105248,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die regulatorische Ausgestaltung der Entflechtungsvorgaben für Wasserstoffnetzbetreiber im Rahmen der Umsetzung des EU-Gas-/H2-Binnenmarktpakets, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Ziel der Interessenvertretung ist eine praxistaugliche Umsetzung des EU-Gas-/H2-Binnenmarktpakets in nationales Recht. Angestrebt werden verlässliche Finanzierungs- und Regulierungsbedingungen für das Wasserstoff-Kernnetz, weitere und grenzüberschreitende Wasserstoffleitungen sowie eine flexible Netzentwicklungsplanung. Zudem sollen die Vorgaben zu Entflechtung, Zertifizierung, Informationsaustausch, Transparenz, Bilanzierung, Biomethan, Leitungsstilllegungen und Genehmigungsverfahren sachgerecht ausgestaltet und bürokratische Hemmnisse abgebaut werden.",
       "summary_quelle": "pdf_text"
     },
@@ -105283,7 +105283,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument enthält detaillierte energiepolitische Forderungen zu Strompreisen, Netzausbau, Wasserstoff, EE-Integration und Sektorkopplung, die direkt in den Zuständigkeitsbereich des BMWK fallen.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Mit dem Klimaschutzprogramm muss die Bundesregierung bis spätestens 1 Jahr nach Beginn der 21. Legislaturperiode einen Maßnahmenkatalog vorlegen, mit dem sie die Einhaltung der im Klimaschutzgesetz festgeschriebenen Klimaziele gewährleisten kann. In ihrer Stellungsnahme bringt die Stiftung KlimaWirtschaft geeignete Maßnahmenvorschläge in den Prozess der Öffentlichkeitsbeteiligung zum neuen Klimaschutzprogramm der Bundesregierung ein.",
       "summary_quelle": "pdf_text"
     },
@@ -105322,7 +105322,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument enthält fachliche Empfehlungen zur Ausgestaltung des Klimaschutzprogramms, insbesondere in den Bereichen Energiewirtschaft, Sektorkopplung, Netzausbau und Klimaschutzmaßnahmen, die direkt in die Zuständigkeit der Unterabteilung IIIA fallen.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Das Klimaschutzprogramm der Bundesregierung wird gemäß § 9 Bundes-Klimaschutzgesetz innerhalb der ersten zwölf Monate der Legislaturperiode beschlossen und dient der Erreichung der nationalen Klimaziele bis 2030 und 2040 sowie der Erfüllung europäischer Verpflichtungen. Begleitend zur laufenden Erarbeitung beteiligt das BMUKN Länder, Kommunen, Verbände und wissenschaftliche Akteure. Ziel der Interessenvertretung ist es, evidenzbasierte Forschung der Helmholtz-Zentren in den Prozess einzubringen, um verbleibende Emissionslücken durch einen konsistenten Policy-Mix zu schließen, insbesondere durch den beschleunigten Ausbau erneuerbarer Energien, wirksame Maßnahmen in Verkehr und Gebäuden, die Stärkung natürlicher Senken sowie klare Zuständigkeiten und ein wirksames Monitoring zur Steuerung.",
       "summary_quelle": "pdf_text"
     },
@@ -105349,7 +105349,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung von CfDs und deren Auswirkungen auf den PPA-Markt, was direkt die Themenfelder Strommarktdesign, Erneuerbare Energien und EU-Beihilferecht/Fördersysteme betrifft.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Aufgrund von europäischen Vorgaben müssen bis 2027 auf nationaler Ebene Contracts for Difference (CfD) als neue Fördersystematik für Erneuerbare Energie eingeführt werden. Die aktuellen Reformvorschläge, die in der Plattform Klimaneutrales Stromsystem dazu diskutiert werden, könnten den PPA-Markt jedoch erheblich einschränken. Denn ohne Wechseloptionen zwischen CfDs und der sonstigen Direktvermarktung besteht das Risiko, dass mittelfristige Grünstrom-PPAs unmöglich gemacht werden - einem der zentralen Treiber der Marktintegration von Erneuerbaren Energien und des förderfreien Ausbaus. Es gibt jedoch Wechselmodelle für dich sich Green Planet Energy einsetzt, die eine Umgehung der Abschöpfung vermeiden und gleichzeitig die notwendige Wechselfreiheit ermöglichen.",
       "summary_quelle": "pdf_text"
     },
@@ -105380,7 +105380,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument behandelt die Einbeziehung von thermischen Abfallbehandlungsanlagen in Emissionshandelssysteme, was direkt die Themenfelder Klimaschutz und Energiegesetzgebung der Unterabteilung IIIA berührt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Wir setzen uns dafür ein, dass Voraussetzungen geschaffen werden, unter denen eine Einbeziehung von thermischen Abfallbehandlungsanlagen in Emissionshandelssystemen (sowohl nationale als auch europäische) einen abfallwirtschaftlichen Nutzen im Sinne einer Kreislaufwirtschaft und auch einen Klimanutzen entfalten können. Solche Systeme müssen durch die betroffenen Anlagen umsetzbar sein und auch Aspekte hinsichtlich notwendiger Infrastruktur und marktwirtschaftlichen Regelungen zur aktiven Reduktion unvermeidbarer CO2-Emissionen durch Carbon Capture berücksichtigen.",
       "summary_quelle": "pdf_text"
     },
@@ -105407,7 +105407,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zum Referentenentwurf zur Umsetzung der EED und betrifft damit direkt die Energieeffizienzgesetzgebung, welche in den Themenfeldern der Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung) verortet ist.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "- Keine Doppelarbeit: Befreiung für Unternehmen mit ISO 50001/EMAS von zusätzlichen Umsetzungsplänen.\r\n- Abwärme-Pflichten reduzieren: Schwellenwerte erhöhen, Meldepflichten freiwillig machen.\r\n- Datenschutz sichern: Nur aggregierte/anonymisierte Daten veröffentlichen.",
       "summary_quelle": "pdf_text"
     },
@@ -105500,7 +105500,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die beihilferechtliche Einordnung der Recyclingwirtschaft im Kontext der Industriestrompreise und EU-Beihilferichtlinien, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der BDE unterstreicht die dringende Notwendigkeit eines Industriestrompreises. Er setzt sich für die Aufnahme des Wirtschatfszweig 38.12 \"Rückgewinnung von Materialien\" in die EU-Leitlinien für staatliche Klima-, Umweltschutz- und Energiebeihilfen (KUEBLL) ein. Für zahlreiche Betriebe der Entsorgungs- und Recyclingwirtschaft, die mit komplexen Aufbereitungsprozessen oder Sortieranlagen ebenfalls hohe Energiekosten schultern, ist eine solche Aufnahme im Lichte der aktuellen, existenziellen Krise im Recycling (u.a. Kunststoff und Glas) überlebenswichtig.\r\nDer Weg über eine kostenintensives Sondernachweisverfahren (Antrag auf Ausweitung des Industriestrompreises auf (Teil-)Sektoren unter Einbeziehung von Wirtschaftsprüfern) ist mit dem Ziel des Bürokratieabbau nicht vereinbar.",
       "summary_quelle": "pdf_text"
     },
@@ -105527,7 +105527,7 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die Rolle der Forstwirtschaft im Klimaschutzprogramm, insbesondere im Hinblick auf die energetische Nutzung von Holz und die kommunale Wärmeplanung, was Schnittstellen zur Energiepolitik aufweist.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Es handelt sich um die Erarbeitung und Beschlussfassung des Klimaschutzprogramms der Bundesregierung gemäß § 9 Bundes-Klimaschutzgesetz zur Erreichung der Klimaziele bis 2030 und 2040. Das Vorhaben umfasst die Festlegung zusätzlicher und angepasster Maßnahmen in den Sektoren Energiewirtschaft, Industrie, Verkehr, Gebäude, Landwirtschaft sowie Landnutzung/Forst. Ziel der Interessenvertretung ist die Mitwirkung an der Ausgestaltung des Programms im Bereich Landnutzung/Forst und an den damit verbundenen Förder-, Infrastruktur- und Rahmenbedingungen.",
       "summary_quelle": "pdf_text"
     },
@@ -105565,7 +105565,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung der Treibhausgasminderungs-Quote (THG-Quote), einem zentralen Instrument der nationalen Klimaschutz- und Energiepolitik, das direkt die Rahmenbedingungen für klimafreundliche Kraftstoffe und die Dekarbonisierung des Verkehrssektors betrifft.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der MEW e.V. begrüßt die Fortschreibung der THG-Quote bis 2040, lent die Einbeziehung der Flugkraftstoffanbieter ab, fordert die weitere Zulassung aller Rohstoffe gemäß Anhang 9 der RED, lehnt eine Abweichung der Quotenhöhe von der FuelEU Maritime ab, sclägt vor die Einführung eines RFNBO-Mindestanteil zu verschieben, lehnt den vorgesehenen Wegfall der Ausnahmeregelung für den Erdölbevorratungsverband (EBV) ab, spricht sich für eine europäische Harmonisierung der Datenbank aus und lehnt die geplante schrittweise Begrenzung der Anrechenbarkeit von Biokraftstoffen aus Nahrungs- und Futtermitteln auf 3% im Jahre 2030 ab.",
       "summary_quelle": "pdf_text"
     },
@@ -105688,7 +105688,7 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere Industriestrompreise, Netzentgelte, CCUS-Infrastruktur und Dekarbonisierung der Industrie.",
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Der bbs setzt sich in seiner Stellungnahme für eine stärkere Verknüpfung zur Wettbewerbsfähigkeit im Rahmen seiner Vorschläge für das Klimaschutzprogrammes. Dazu werden konkrete Maßnahmenvorschläge formuliert zu Energiekosten, Carbon Management, Grünen Leitmärkten sowie dem Gebäude- und Verkehrssektor.\r\n",
       "summary_quelle": "pdf_text"
     },
@@ -105718,7 +105718,7 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "register_description": "Rolle aktiver Waldbewirtschaftung und nachhaltiger Holznutzung für den Klimaschutz; keine Nutzungseinschränkungen",
       "gemini_relevanz": "Das Dokument adressiert die Rolle der Forstwirtschaft und nachhaltigen Holznutzung im Kontext des Klimaschutzprogramms, was Schnittstellen zu den Themenfeldern Klimaschutz, Energiewirtschaft und Biomasse aufweist.",
       "summary_quelle": "pdf_text"
