@@ -1,7 +1,314 @@
 {
-  "generated_at": "2026-10-29T07:54:02.693542+01:00",
-  "newly_added": 27,
+  "generated_at": "2026-10-30T07:57:21.945165+01:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R000855",
+      "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000855/88184",
+      "regulatory_project_title": "Erneuerbare Energien Richtlinie (RED IV)",
+      "sending_date": "2026-10-28",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fa/c6/867065/Stellungnahme-Gutachten-SG2610290034.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610290034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290034",
+      "summary": "Der MEW Mittelständische Energiewirtschaft Deutschland e.V. <b>begrüßt</b> die Bestrebungen zur Weiterentwicklung des europäischen Rechtsrahmens für erneuerbare Energien nach 2030. Die Organisation fordert eine <b>konsequente Entbürokratisierung</b> durch die Bündelung von Berichtspflichten und die Anwendung des „Once-only“-Prinzips. Zudem wird eine <b>europäische Harmonisierung</b> bei Anrechenbarkeit und Nachhaltigkeitskriterien befürwortet, um Wettbewerbsverzerrungen durch nationale Sonderwege zu vermeiden. Der MEW unterstützt die Beibehaltung der <b>7-%-Obergrenze für Biokraftstoffe</b> aus Nahrungs- und Futtermittelpflanzen. Für mittelständische Unternehmen müsse zudem ein <b>diskriminierungsfreier Zugang</b> zu Kernenergie-Optionen und erneuerbarem Wasserstoff sichergestellt werden. Abschließend mahnt die Organisation einen verbindlichen <b>SME-Check</b> für alle neuen Zertifizierungs- und Monitoringanforderungen an.",
+      "register_description": "Ausgestaltung der vierten Auflage der EU-Erneuerbare-Energien-Richtlinie (RED IV)",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt Stellung zum Entwurf der EU-Erneuerbare-Energien-Richtlinie (RED IV), welche ein zentrales Themenfeld der Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung) darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007990",
+      "org_name": "HYPOS e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007990/88171",
+      "regulatory_project_title": "Schaffung regulatorischer Leitmärkte für wasserstoffbasierte und emissionsarme Grundstoffe",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bc/43/867020/Stellungnahme-Gutachten-SG2610290028.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610290028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290028",
+      "summary": "Der <b>HYPOS e.V. fordert</b> eine beschleunigte politische Strategie zur <b>Verwirklichung des Wasserstoffmarkthochlaufs</b> durch eine synchronisierte Planung von Angebot, Nachfrage und Infrastruktur. Zur Stärkung der industriellen Nachfrage sollen <b>Leitmärkte für wasserstoffbasierte Grundstoffe</b> sowie anrechenbare CO2-Minderungsnachweise etabliert werden. Die Organisation verlangt eine <b>praxistaugliche Überarbeitung der RFNBO-Kriterien</b>, um Investitionssicherheit für Projekte zu gewährleisten. Zudem wird eine <b>Harmonisierung internationaler Zertifizierungssysteme</b> und Herkunftsnachweise für Wasserstoffderivate angemahnt. Zur Absicherung von Marktrisiken in der Hochlaufphase schlägt der Verein staatliche <b>Bürgschaften und Garantieinstrumente</b> vor. Abschließend betont das Papier die Notwendigkeit, den <b>Clean Industrial Deal</b> als industriepolitisches Instrument zur Sicherung europäischer Lieferketten konsequent auszugestalten.",
+      "register_description": "HYPOS setzt sich für regulatorische Rahmenbedingungen zur Schaffung von Leitmärkten für wasserstoffbasierte und emissionsarme industrielle Grundstoffe ein. Hierzu sollen insbesondere geeignete Produktstandards und die Anrechenbarkeit nachgewiesener CO2-Minderungen weiterentwickelt sowie nachfrageseitige Anreize geschaffen werden. Die Regelungen sollen die Nachfrage nach emissionsarmen Grundstoffen, insbesondere Stahl, stärken und dabei die internationale Wettbewerbsfähigkeit energieintensiver Industrien berücksichtigen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere den Wasserstoffmarkthochlauf, regulatorische Rahmenbedingungen für Wasserstoff (RFNBO), Infrastrukturplanung und die Wettbewerbsfähigkeit energieintensiver Industrien.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007990",
+      "org_name": "HYPOS e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007990/88171",
+      "regulatory_project_title": "Weiterentwicklung der THG-Quote zur Förderung erneuerbarer Wasserstoffanwendungen",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/24/6b/867018/Stellungnahme-Gutachten-SG2610290027.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610290027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290027",
+      "summary": "Der <b>HYPOS e.V. fordert</b> eine <b>neue Wasserstoffstrategie</b> mit synchronisierter Planung von Angebot, Nachfrage und Infrastruktur. Zur Beschleunigung des Markthochlaufs wird eine <b>regulatorische Induzierung der Nachfrage</b> durch THG-Quoten und grüne Leitmärkte verlangt. Die Organisation mahnt eine <b>praxistaugliche Überarbeitung der RFNBO-Kriterien</b> an, um Investitionssicherheit zu gewährleisten. Zudem wird die <b>Absicherung von Risiken</b> durch staatliche Bürgschaften und Garantien sowie eine investitionsfähige Ausgestaltung der Infrastrukturfinanzierung gefordert. Abschließend betont das Papier die Notwendigkeit, europäische Wertschöpfungsketten durch den <b>Clean Industrial Deal</b> industriepolitisch abzusichern.",
+      "register_description": "Die regulatorischen Anforderungen zur Erfüllung von Treibhausgasminderungsquoten sollen so ausgestaltet werden, dass erneuerbarer Wasserstoff und Wasserstoffderivate wirksam auf entsprechende Verpflichtungen angerechnet werden können. HYPOS setzt sich im Rahmen der Umsetzung der europäischen Erneuerbare-Energien-Richtlinie für praxistaugliche Anrechnungsmöglichkeiten sowie angemessene Übergangsfristen und flexible Erfüllungsoptionen ein.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere den Wasserstoffmarkthochlauf, regulatorische Rahmenbedingungen für RFNBO, Infrastrukturfinanzierung und die Weiterentwicklung von Unterstützungsinstrumenten.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007990",
+      "org_name": "HYPOS e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007990/88171",
+      "regulatory_project_title": "Anpassung des Finanzierungsrahmens für das Wasserstoffkernnetz",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/b4/867016/Stellungnahme-Gutachten-SG2610290026.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610290026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290026",
+      "summary": "Der <b>HYPOS e.V. fordert</b> eine umfassende Weiterentwicklung der politischen und regulatorischen Rahmenbedingungen, um den <b>Wasserstoffmarkthochlauf</b> nachhaltig zu beschleunigen. Das Forderungspapier verlangt eine synchronisierte <b>Wasserstoffstrategie</b>, die Erzeugung, Infrastruktur und Nachfrage ganzheitlich plant. Zur <b>Infrastruktur-Finanzierung</b> wird eine Reduktion des Risikoanteils für Fernleitungsnetzbetreiber sowie eine Verlängerung des Amortisationskontos bis 2065 vorgeschlagen. Zudem sollen <b>RFNBO-Kriterien</b> kurzfristig praxistauglich überarbeitet und internationale Zertifizierungssysteme harmonisiert werden. Zur Absicherung von Investitionen werden staatliche <b>Bürgschaften und Garantien</b> für First-Mover sowie Midstreamer-Instrumente empfohlen. Abschließend betont der Verein die Notwendigkeit, den Clean Industrial Deal industriepolitisch zur Stärkung europäischer Lieferketten auszugestalten.",
+      "register_description": "Die regulatorischen Finanzierungsbedingungen des Wasserstoffkernnetzes sollen angepasst werden. HYPOS fordert die Reduzierung des Risikoanteils der Fernleitungsnetzbetreiber von 24 auf 15 Prozent für Neubauleitungen, die Ausnahme von Umstellungsleitungen vom Selbstbehalt sowie die Verlängerung des Amortisationskontos bis 2065. Darüber hinaus sollen die besonderen Risiken der Wasserstoffkernnetzbetreiber bei der Neufestlegung des Eigenkapitalzinses berücksichtigt werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere den EU-Wasserstoffmarkt, die Infrastrukturfinanzierung und regulatorische Rahmenbedingungen für den Wasserstoffhochlauf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007990",
+      "org_name": "HYPOS e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007990/88171",
+      "regulatory_project_title": "Praxistaugliche Anpassung der europäischen RFNBO-Anforderungen",
+      "sending_date": "2026-08-26",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/78/81/867014/Stellungnahme-Gutachten-SG2610290021.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610290021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290021",
+      "summary": "Der <b>HYPOS e.V. fordert</b> eine umfassende politische Strategie zur <b>Beschleunigung des Wasserstoffmarkthochlaufs</b>, um Investitionssicherheit und Wettbewerbsfähigkeit zu gewährleisten. Die Organisation verlangt eine <b>praxistaugliche Überarbeitung der RFNBO-Kriterien</b>, insbesondere durch die Beibehaltung der monatlichen zeitlichen Korrelation bis 2035. Zudem wird eine <b>Synchronisierung der Planung</b> von Angebot, Nachfrage und Infrastruktur sowie die Einführung staatlicher <b>Bürgschaften und Absicherungsinstrumente</b> für First-Mover empfohlen. Zur Steigerung der Nachfrage sollen <b>THG-Quoten und grüne Leitmärkte</b> regulatorisch induziert werden. Abschließend betont das Papier die Notwendigkeit, <b>internationale Standards und Zertifizierungssysteme</b> für Wasserstoffderivate zu harmonisieren und die Finanzierung der Wasserstoffinfrastruktur investitionsfähig auszugestalten.",
+      "register_description": "Die europäischen Anforderungen an die Erzeugung erneuerbarer Kraftstoffe nicht biogenen Ursprungs (RFNBO) sollen praxistauglich angepasst werden. HYPOS fordert insbesondere, die monatliche zeitliche Korrelation bis 2035 beizubehalten, zusätzliche Anforderungen an die Zusätzlichkeit erst ab 2035 anzuwenden und eine stundenscharfe CO2-Bilanzierung ergänzend als Nachweisverfahren anzuerkennen. Die Änderungen sollen zeitnah beschlossen werden und laufende Wasserstoffprojekte nicht entwerten.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die EU-Wasserstoffmarktregulierung (RFNBO), den Wasserstoffmarkthochlauf sowie die regulatorischen Rahmenbedingungen für die Energiewende.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/88150",
+      "regulatory_project_title": "Änderung des Energiewirtschaftsrechts im Rahmen des Netzpakets (Netzanschluss, Netzausbau und Systemintegration erneuerbarer Energien)",
+      "sending_date": "2026-10-28",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/79/35/866768/Stellungnahme-Gutachten-SG2610290017.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610290017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290017",
+      "summary": "Der Genossenschaftsverband Bayern <b>warnt vor Investitionshemmnissen</b> durch die geplante EEG-Novelle und das Netzanschlusspaket. Die Organisation fordert den <b>Erhalt der Investitions- und Finanzierungssicherheit</b>, um die Bankability von Energieprojekten nicht zu gefährden. Insbesondere wird der <b>Redispatch-Vorbehalt abgelehnt</b>, da dieser das wirtschaftliche Risiko einseitig auf Anlagenbetreiber verlagere. Zudem kritisiert der Verband <b>pauschale Wirkleistungsbegrenzungen</b> und plädiert für eine flexiblere, netzdienliche Steuerung. Zur Sicherung der regionalen Wertschöpfung wird eine <b>Stärkung der Bürgerenergie</b> sowie eine Anpassung der Standortfaktoren für den Ausbau im Süden angemahnt. Abschließend wird betont, dass regulatorische Unsicherheiten die Finanzierungskosten erhöhen und den Ausbau der Erneuerbaren Energien gefährden könnten.",
+      "register_description": "Anpassung des Netzpakets zur Sicherstellung investitionsfreundlicher Rahmenbedingungen durch Ablehnung investitionshemmender Regelungen (insbesondere Redispatch-Vorbehalt), Stärkung dezentraler Energieprojekte sowie Reform von Netzanschluss, Netzausbau und Systemverantwortung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zur EEG-Novelle und zum Netzanschlusspaket, welche zentrale Bestandteile der Energiegesetzgebung und der Netzregulierung der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/88150",
+      "regulatory_project_title": "Ausgestaltung der EEG-Novelle 2027 im Hinblick auf Bürgerbeteiligung, Marktzugang und Systemintegration",
+      "sending_date": "2026-10-28",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/b1/866770/Stellungnahme-Gutachten-SG2610290016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610290016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290016",
+      "summary": "Der Genossenschaftsverband Bayern <b>warnt vor Investitionshemmnissen</b> durch die geplante EEG-Novelle sowie das Netzanschlusspaket und fordert eine <b>Sicherung der Investitions- und Finanzierungssicherheit</b>. Der Verband kritisiert, dass regulatorische Unsicherheiten die <b>Bankability von Projekten</b> gefährden und die regionale Wertschöpfung schwächen könnten. Er lehnt eine einseitige Übertragung von Netzengpassrisiken auf Anlagenbetreiber ab und <b>verwirft den Redispatch-Vorbehalt</b> in der geplanten Form. Zudem fordert der Verband den Verzicht auf <b>pauschale Wirkleistungsbegrenzungen</b> zugunsten einer netzdienlichen Steuerung. Abschließend betont er die Notwendigkeit, <b>Bürgerenergieprojekte</b> durch faire Zugangsbedingungen und spezifische Ausschreibungskontingente gezielt zu stärken.",
+      "register_description": "Einführung und Ausgestaltung investitionsfreundlicher Förder- und Marktmechanismen im EEG 2027, insbesondere zur Sicherung von Bestands- und Vertrauensschutz, zur Gewährleistung eines gleichberechtigten Marktzugangs für Bürgerenergie, zur praxistauglichen Ausgestaltung von CfDs, zur Vereinfachung der Förderung von Bürgerenergieanlagen, zur Anpassung des Bürgerenergiebegriffs, zur stärkeren Integration von Speichern sowie zur Anpassung von Rahmenbedingungen für einen regional ausgewogenen Ausbau der erneuerbaren Energien insbesondere im Windbereich.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung der EEG-Novelle 2027 und das Netzanschlusspaket, welche zentrale Themen der Unterabteilung IIIA (Erneuerbare Energien, Strommarktregulierung) sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001783",
+      "org_name": "ALDI SÜD Dienstleistungs-SE & Co. oHG ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001783/88172",
+      "regulatory_project_title": "Interessenvertretung für eine ganzheitliche Lösung im Sinne der Nachhaltigkeit (Umlage EU-Plastikabgabe/ Kunststoffverpackungssteuer)",
+      "sending_date": "2026-10-23",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/73/f2/867127/Stellungnahme-Gutachten-SG2610290020.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2610290020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290020",
+      "summary": "Die <b>ALDI SÜD Dienstleistungs-SE & Co. oHG warnt vor</b> der geplanten Einführung einer <b>Kunststoffverpackungssteuer</b> aufgrund drohender Marktverwerfungen und hoher administrativer Belastungen. Das Unternehmen kritisiert insbesondere die drohende <b>Belastung von Mehrwegsystemen</b> sowie die mangelnde Verfügbarkeit lebensmitteltauglicher Rezyklate, die eine Steuerentlastung faktisch unmöglich mache. Stattdessen <b>schlägt das Unternehmen vor</b>, die <b>EU-Verpackungsverordnung (PPWR)</b> als zentrales Instrument zur Förderung der Kreislaufwirtschaft zu nutzen. Durch die PPWR sollen die Recyclingfähigkeit von Verpackungen verbessert und <b>Rezyklateinsatzquoten</b> verbindlich geregelt werden. Die Organisation fordert damit eine Abkehr von einer nationalen Steuerlösung zugunsten europäischer Vorgaben.",
+      "register_description": "Gewählte Instrumente sollten eine Lenkungswirkung im Sinne der Nachhaltigkeit erzeugen, ohne zu Marktverwerfungen zu führen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich mit einer Kunststoffverpackungssteuer und der EU-Verpackungsverordnung (PPWR). Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, da sie keinen direkten Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende aufweisen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/88149",
+      "regulatory_project_title": "Einführung einer Plastiksteuer",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/37/f8/866782/Stellungnahme-Gutachten-SG2610290015.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610290015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290015",
+      "summary": "PlasticsEurope Deutschland e.V. und weitere Verbände <b>lehnen die Einführung einer Kunststoffverpackungsteuer</b> ab und fordern, das Vorhaben von der Tagesordnung der Kabinettssitzung zu nehmen. Die Verbände kritisieren das geplante <b>Eilverfahren</b> im Rahmen des Haushaltsbegleitgesetzes und verlangen stattdessen ein transparentes, ergebnisoffenes Gesetzgebungsverfahren. Als Hauptargumente gegen die Steuer werden eine <b>erhöhte Bürokratie</b>, Wettbewerbsnachteile für den Standort Deutschland sowie eine zusätzliche finanzielle Belastung für Verbraucher angeführt. Zudem wird vor <b>Fehlanreizen für das Recycling</b> gewarnt, da bereits bestehende Instrumente wie die Ökomodulierung der Lizenzentgelte zur Förderung nachhaltiger Verpackungen ausreichen würden. Die Verbände fordern eine umfassende <b>Gesetzesfolgenabschätzung</b> unter Einbeziehung des Nationalen Normenkontrollrats, bevor weitere Schritte unternommen werden.",
+      "register_description": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre. PlasticsEurope lehnt eine nationale Plastiksteuer bzw. Umlage der EU-Plastikabgabe ab. Stattdessen fordert der Verband gezielte Anreizsysteme für Recyclingfähigkeit und Rezyklateinsatz, insbesondere über die Ökomodulierung der Lizenzentgelte.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit einer geplanten Kunststoffverpackungsteuer. Dieses Thema ist in den Themenfeldern der Unterabteilung IIIA nicht enthalten und fällt unter die explizit als nicht relevant markierten Bereiche (Steuerpolitik ohne direkten Energiebezug).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001894",
+      "org_name": "Vonovia SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001894/88147",
+      "regulatory_project_title": "Wärmenetzgesetz: Modernisierungsumlage für eigentümerfinanzierte Maßnahmen bei Umstellung auf Wärmelieferung/Fernwärme erhalten",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/75/de/866749/Stellungnahme-Gutachten-SG2610290014.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610290014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290014",
+      "summary": "Die <b>Vonovia SE lehnt</b> eine pauschale <b>Absenkung der Kappungsgrenzen</b> sowie der ortsüblichen Vergleichsmiete im Rahmen des geplanten Wärmenetzgesetzes ab. Das Unternehmen warnt, dass eine solche Regulierung <b>Investitionen in die energetische Sanierung</b> des Gebäudebestands gefährden würde. Statt eines pauschalen Ausschlusses der Modernisierungsumlage fordert das Unternehmen eine <b>transparente Kostenabgrenzung</b> zwischen Wärmelieferung und eigentümerfinanzierten Maßnahmen. Eigenständige, vom Vermieter getragene Investitionen in die Gebäudeeffizienz sollen weiterhin nach den geltenden BGB-Vorschriften <b>refinanzierbar bleiben</b>. Zudem wird eine klare Trennung zwischen der Kostenneutralität der Wärmelieferung und der Finanzierung von Gebäudemodernisierungen verlangt. Eine <b>Doppelfinanzierung</b> soll durch eine präzise gesetzliche Definition der umlagefähigen Kosten ausgeschlossen werden.",
+      "register_description": "Im Rahmen des geplanten Wärmenetzgesetzes (Wärmenetzpaket, inkl. Anpassung von § 556c BGB und Wärmelieferverordnung) wird angestrebt, dass bei der Umstellung auf gewerbliche Wärmelieferung oder Fernwärme ein Ausschluss der Modernisierungsumlage auf Kosten beschränkt wird, die bereits über das Entgelt des Wärmelieferanten oder Energiedienstleisters refinanziert werden. Eigenständige, vom Vermieter finanzierte gebäudeseitige Maßnahmen einschließlich vorbereitender und ergänzender Maßnahmen sollen nach §§ 559 oder 559e BGB umlagefähig bleiben; eine Doppelfinanzierung soll durch eine transparente Kostenabgrenzung ausgeschlossen werden. Zudem soll auf eine Absenkung der Kappungsgrenzen und der ortsüblichen Vergleichsmiete um 0,50 Euro/m² verzichtet werden.",
+      "recipients": [
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit mietrechtlichen Fragestellungen (Modernisierungsumlage, BGB) im Kontext der Wärmewende. Diese Themen fallen in die Zuständigkeit des BMWSB und sind nicht Teil der energiepolitischen Kernaufgaben der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002645",
       "org_name": "YARA GmbH & Co. KG",
@@ -31,7 +338,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der EU-Klimapolitik, insbesondere die Ausgestaltung des EU-ETS und des CBAM, welche direkt in den Themenfeldern der Unterabteilung IIIA (EU-Klimapolitik, EU-Energiepolitik) verortet sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -62,7 +369,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik, den CO2-Grenzausgleichsmechanismus (CBAM) und das EU-Emissionshandelssystem (ETS), welche zentrale Bestandteile der EU-Energie- und Klimapolitik sowie der Wettbewerbsfähigkeit der Industrie sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -93,7 +400,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der EU-Klimapolitik, insbesondere die Ausgestaltung des EU-ETS und des CBAM, welche direkt in den Themenbereich EU-Klimapolitik und Wettbewerbsfähigkeit der Industrie fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -132,7 +439,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Klimapolitik, den EU-Emissionshandel (ETS) sowie den CO2-Grenzausgleichsmechanismus (CBAM), welche zentrale Themenfelder der Unterabteilung IIIA (EU-Energiepolitik & Klimaschutz) darstellen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -163,7 +470,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung und Stabilität des EU-Emissionshandelssystems (EU ETS), welches ein zentrales Instrument der EU-Klimapolitik und damit der Unterabteilung IIIA ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -194,7 +501,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung und Revision des EU-Emissionshandelssystems (EU ETS), welches ein zentrales Instrument der EU-Klimapolitik und damit der Unterabteilung IIIA ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -233,7 +540,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Klimapolitik und den EU Green Deal, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -272,7 +579,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und die industrielle Wettbewerbsfähigkeit im Rahmen des CBAM, was direkt unter die Themenfelder der Unterabteilung IIIA (EU-Klimapolitik, EU-Energiepreise/Wettbewerbsfähigkeit) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -311,7 +618,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Klimapolitik und den EU Green Deal, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002804",
@@ -350,7 +657,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung des CO2-Grenzausgleichsmechanismus (CBAM) und des EU-Emissionshandelssystems (ETS), welche für die Wettbewerbsfähigkeit energieintensiver Industrien und die industrielle Dekarbonisierung zentral sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -381,7 +688,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung des EU-Emissionshandels (EU ETS), welcher ein zentrales Instrument der EU-Klimapolitik und damit der Unterabteilung IIIA ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -412,7 +719,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert direkt die EU-Klimapolitik, den Emissionshandel (ETS) und den CO2-Grenzausgleichsmechanismus (CBAM), welche zentrale Themenfelder der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -443,7 +750,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Klimapolitik und den EU Green Deal, welche explizit unter den Themenfeldern der Unterabteilung IIIA gelistet sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -474,7 +781,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Klimapolitik und den EU-Green Deal, welche explizit unter den Themenfeldern der Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung) gelistet sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -505,7 +812,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und den CO2-Grenzausgleichsmechanismus (CBAM), welche unter die Themenfelder EU-Energiepolitik und Wettbewerbsfähigkeit im EU-Binnenmarkt fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002645",
@@ -536,7 +843,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument thematisiert die Ausgestaltung des CO2-Grenzausgleichsmechanismus (CBAM) und des EU-Emissionshandelssystems (ETS), welche für die Wettbewerbsfähigkeit energieintensiver Industrien und die industrielle Dekarbonisierung im Rahmen der EU-Klimapolitik zentral sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -571,7 +878,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Beschleunigung des Stromnetzausbaus und die Anpassung relevanter Gesetze (EnWG, UVPG), was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002399",
@@ -598,7 +905,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zum Referentenentwurf des Gebäudemodernisierungsgesetzes (GModG), welches das Gebäudeenergiegesetz (GEG) maßgeblich ändert und somit direkt in den Zuständigkeitsbereich der Abteilung IIIA (Gebäudeenergie/Wärmewende) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002399",
@@ -625,7 +932,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zur Novellierung des Energieeffizienzgesetzes und des Energiedienstleistungsgesetzes, welche zentrale Instrumente der Energieeffizienzpolitik und damit der Unterabteilung IIIA darstellen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001811",
@@ -664,7 +971,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument enthält detaillierte Änderungsvorschläge zum Gebäude-Modernisierungsgesetz (GModG), welches das Gebäudeenergiegesetz (GEG) reformiert. Dies betrifft direkt die Zuständigkeit der Unterabteilung IIIA im Bereich Gebäudeenergie/Wärmewende.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001811",
@@ -1083,7 +1390,7 @@
       "priority": 1,
       "gemini_relevanz": "Die Stellungnahme adressiert direkt das Gebäude-Modernisierungsgesetz (GModG), welches für die Wärmewende und den Gebäudesektor von zentraler Bedeutung ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000389",
@@ -1914,6 +2221,64 @@
       "summary_quelle": "pdf_text",
       "abweichung": true,
       "abweichung_hinweis": "Das Dokument ist eine wissenschaftliche Studie des DIW Berlin zu den sozioökonomischen Auswirkungen der Energiepolitik auf private Haushalte und hat keinen Bezug zum Tankstellenmarkt.",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001133",
+      "org_name": "Bundesverband Deutscher Pflanzenzüchter e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001133/87729",
+      "regulatory_project_title": "Änderung des PatG und der EU-Biopatentrichtlinie 98/44/EG, um Patentierbarkeit einzuschränken",
+      "sending_date": "2026-10-22",
+      "upload_date": "2026-10-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a2/74/866980/Stellungnahme-Gutachten-SG2610220019.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2610220019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610220019",
+      "summary": "Der Bundesverband Deutscher Pflanzenzüchter e. V. <b>fordert eine Einschränkung der Patentierbarkeit</b> für biologisches Material, um den freien Zugang zu genetischen Ressourcen zu sichern. Als Übergangslösung verlangt der Verband die Etablierung eines <b>praktikablen Lizenzsystems</b> für patentierte pflanzliche Eigenschaften. Dieses System muss eine <b>rechtssichere Transparenz</b> über Patentstatus und Schutzbereiche gewährleisten. Zudem wird eine <b>Garantie auf Zugang</b> zu sämtlichem relevanten biologischen Material für alle Züchter gefordert. Die Lizenzbedingungen müssen <b>fair und angemessen</b> gestaltet sein, ohne den Wettbewerb durch unzumutbare Nebenpflichten zu behindern. Abschließend betont der Verband, dass die Kombination mehrerer patentierter Eigenschaften (Trait-Stacking) durch vorteilhafte Lizenzstrukturen ermöglicht werden muss.",
+      "register_description": "Der freie Zugang zu pflanzengenetischem Material ist elementar für die Züchtungsarbeit und den Zuchtfortschritt. Biologisches Material, welches auch in der Natur vorkommen oder entstehen könnte, darf daher nicht patentiert werden. Vor dem Hintergrund zunehmender Patentierungen im Bereich pflanzlicher Eigenschaften und moderner Genomeditierungsverfahren muss dies schnellstmöglich rechtsverbindlich sichergestellt werden. Um die Arbeitsfähigkeit in der Pflanzenzüchtung in der Zwischenzeit aufrecht zu erhalten, sollten Lizenzplattform wie beispielsweise die ACLP (Agricultural Crop Licensing Platform) oder die International Licensing Platform Vegetable als Übergangslösung auch von der Politik gestärkt werden.",
+      "recipients": [
+        "BMJV",
+        "BMLEH",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit Patentrecht im Bereich der Pflanzenzüchtung und der Regulierung genomischer Techniken. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz/Energiewende).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001133",
+      "org_name": "Bundesverband Deutscher Pflanzenzüchter e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001133/87729",
+      "regulatory_project_title": "Änderung des PatG und der EU-Biopatentrichtlinie 98/44/EG, um Patentierbarkeit einzuschränken",
+      "sending_date": "2026-10-22",
+      "upload_date": "2026-10-22",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/a2/866978/Stellungnahme-Gutachten-SG2610220015.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2610220015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610220015",
+      "summary": "Der <b>Bundesverband Deutscher Pflanzenzüchter</b> <b>fordert</b> eine <b>Einschränkung der Patentierbarkeit</b> von biologischem Material, das auch in der Natur vorkommen könnte. Der Verband warnt, dass zunehmende Patente auf pflanzliche Eigenschaften den <b>Züchtungsfortschritt verlangsamen</b> und den Zugang zu genetischer Vielfalt blockieren könnten. Als zentrale Forderung wird die europaweite Einführung einer <b>Züchtungsausnahme</b> im Patentrecht genannt, um die Nutzung patentierten Materials für weitere Züchtungen zu ermöglichen. Zudem verlangt der Verband eine konsequente Umsetzung bestehender Rechtsvorgaben, die Patente auf im Wesentlichen biologische Verfahren ausschließen. Als Übergangslösung <b>begrüßt</b> der Verband privatwirtschaftliche <b>Lizenzplattformen</b>, die einen diskriminierungsfreien Zugang zu Züchtungstechnologien sicherstellen sollen. Bestehende EU-Rechtsrahmen für Saatgut sollten bei neuen Qualitätssicherungsansätzen berücksichtigt werden, um unnötigen Verwaltungsaufwand zu vermeiden.",
+      "register_description": "Der freie Zugang zu pflanzengenetischem Material ist elementar für die Züchtungsarbeit und den Zuchtfortschritt. Biologisches Material, welches auch in der Natur vorkommen oder entstehen könnte, darf daher nicht patentiert werden. Vor dem Hintergrund zunehmender Patentierungen im Bereich pflanzlicher Eigenschaften und moderner Genomeditierungsverfahren muss dies schnellstmöglich rechtsverbindlich sichergestellt werden. Um die Arbeitsfähigkeit in der Pflanzenzüchtung in der Zwischenzeit aufrecht zu erhalten, sollten Lizenzplattform wie beispielsweise die ACLP (Agricultural Crop Licensing Platform) oder die International Licensing Platform Vegetable als Übergangslösung auch von der Politik gestärkt werden.",
+      "recipients": [
+        "BMJV",
+        "BMLEH",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Patentrecht im Bereich der Pflanzenzüchtung und der Biopatentrichtlinie. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, da kein direkter Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende besteht.",
+      "summary_quelle": "pdf_text",
       "gemini_status": "filtered"
     },
     {
@@ -107456,6 +107821,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1244,
+  "gemini_filtered_out": 1249,
   "gemini_legacy_open": 0
 }
