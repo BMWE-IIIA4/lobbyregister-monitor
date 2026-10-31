@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-10-30T07:57:21.945165+01:00",
-  "newly_added": 12,
+  "generated_at": "2026-10-31T07:51:57.129588+01:00",
+  "newly_added": 4,
   "statements": [
+    {
+      "register_number": "R000885",
+      "org_name": "Wirtschaftsverband Fuels und Energie e.V. - en2x -",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000885/88219",
+      "regulatory_project_title": "Ablehnung von Eingriffen in die Marktpreise von Kraftstoffen",
+      "sending_date": "2026-10-22",
+      "upload_date": "2026-10-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d7/e6/867487/Stellungnahme-Gutachten-SG2610300021.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610300021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610300021",
+      "summary": "Der Wirtschaftsverband Fuels und Energie e.V. (en2x) <b>lehnt die Einführung eines Spritpreisdeckels</b> für Kraftstoffe ab. Der Verband warnt, dass staatliche Preisobergrenzen die <b>Versorgungssicherheit gefährden</b> und zu <b>Wettbewerbsverzerrungen</b> führen können. Eine Abstimmung über freiwillige Preisdeckel wird zudem aufgrund kartellrechtlicher Bedenken als unzulässig eingestuft. Die Analyse zeigt, dass Preisdeckel in anderen Ländern entweder zu Versorgungsengpässen führten oder aufgrund notwendiger Ausnahmeregelungen ineffektiv blieben. Statt marktverzerrender Eingriffe empfiehlt der Verband die Prüfung <b>ordnungspolitischer Instrumente</b> wie eine Modernisierung des Energiesteuerrechts. Eine <b>steuerliche Begünstigung erneuerbarer Kraftstoffe</b> wird als Alternative vorgeschlagen, um Verbraucher zu entlasten und Investitionsanreize zu erhalten.",
+      "register_description": "Die Bundesregierung hat am 18. September angekündigt, mit der Mineralölwirtschaft über die Einführung eines temporären, krisenbedingten Spritpreisdeckels nach dem Vorbild Luxemburgs oder Belgiens zu sprechen. Dabei müsse der Gewährleistung der Versorgungssicherheit besondere Priorität zukommen. en2x warnt vor den negativen Auswirkungen eines Preisdeckels. Gerade in Knappheitssituationen könnte ein Preisdeckel zu Versorgungsproblemen und wirtschaftlichen Belastungen einzelner Marktteilnehmer und Wettbewerbsverzerrungen führen. Dies zeigen auch Erfahrungen aus anderen Ländern. Anstelle marktverzerrender Preisdeckel sollten vorrangig ordnungspolitische Instrumente geprüft werden. \r\n",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Versorgungssicherheit und den Auswirkungen staatlicher Markteingriffe auf die Kraftstoffpreise, was unter die Themenfelder 'Energiepreise & -kosten' sowie 'Wettbewerbsfähigkeit im EU-Binnenmarkt' fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/88193",
+      "regulatory_project_title": "Änderungsvorschläge zum LuftVG für Windenergie im Umfeld von Luftverteidigungsradaranlagen",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-10-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c9/c7/867262/Stellungnahme-Gutachten-SG2610300003.pdf",
+      "pdf_pages": 42,
+      "sg_number": "SG2610300003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610300003",
+      "summary": "Der BDEW <b>kritisiert</b> die methodischen Mängel der zugrunde liegenden Studie zur Beeinflussung von Luftverteidigungsradaren durch Windenergieanlagen und <b>fordert</b> eine transparente, wissenschaftlich belastbare Überprüfung. Die Organisation <b>bezweifelt</b> die Notwendigkeit einer verfahrensrechtlichen Aufwertung der Bundeswehr-Stellungnahmen, da diese bereits jetzt als gewichtige Belange in die Abwägung einfließen. Zudem <b>warnt</b> der Verband vor einer <b>Rechts- und Planungsunsicherheit</b> durch die Kopplung der Anwendbarkeit des LuftVG an künftige, exekutive Entscheidungen. Es wird <b>gefordert</b>, Fachexperten vollständige Einsicht in die Studienunterlagen zu gewähren und eine <b>Multisensorlage</b> bei der Bewertung von Störeinflüssen zu berücksichtigen. Abschließend <b>empfiehlt</b> der BDEW, bei negativen Stellungnahmen standardmäßig <b>Konfliktminderungsmaßnahmen</b> zu verankern, um den Ausbau der Windenergie nicht zu gefährden.",
+      "register_description": "Der BDEW fordert einen sachgerechten Ausgleich zwischen Windenergieausbau und militärischer Luftraumüberwachung durch Anpassung der §§ 18a und 73 LuftVG. Die immissionsschutzrechtliche Genehmigungsbehörde soll ihre eigenständige Entscheidungskompetenz behalten. Der BDEW fordert ein transparentes, wissenschaftlich belastbares Bewertungs- und Nachweisverfahren unter Berücksichtigung der Multisensorlage und technischer Möglichkeiten zur Störungsminderung. Er setzt sich für die vollständige Einsichtnahme durch Fachexperten unter Wahrung der Sicherheitsanforderungen sowie die Behebung methodischer Mängel ein. Betroffene Verbände, Fachkreise und Länder sollen an der Weiterentwicklung des Verfahrens und der Folgenabschätzung beteiligt werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der Genehmigungssituation von Windenergieanlagen im Kontext militärischer Luftraumüberwachung und der damit verbundenen Änderung des Luftverkehrsgesetzes (LuftVG), was für die Unterabteilung IIIA (Erneuerbare Energien/Stromerzeugung) hochrelevant ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000896",
+      "org_name": "Deutscher Caritasverband e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000896/88201",
+      "regulatory_project_title": "Wohngeldkürzungen verhindern - besser Zugänge Sozileistung schaffen",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-10-30",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/99/9e/867340/Stellungnahme-Gutachten-SG2610300010.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2610300010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610300010",
+      "summary": "Der Deutsche Caritasverband <b>lehnt</b> den Gesetzentwurf zur <b>Wohngeldreform</b> in seiner jetzigen Form ab. Er kritisiert insbesondere die geplante <b>Aussetzung der Wohngeldfortschreibung</b> sowie die <b>Halbierung der Heizkostenkomponente</b> als sozialpolitisch kontraproduktiv. Der Verband warnt vor einer <b>Verschiebung von Hilfebedürftigkeit</b> in andere Sozialleistungssysteme wie SGB II und SGB XII. Zudem wird die Einführung einer <b>Vermögensobergrenze</b> als benachteiligend für Mieterhaushalte bewertet. Die Organisation fordert den Erhalt der bisherigen Entlastungswirkungen, um die <b>Wohnkostenbelastung</b> einkommensschwacher Haushalte abzufedern. Abschließend wird auf den drohenden Anstieg des Verwaltungsaufwands durch den Wegfall typisierter Nachweise hingewiesen.",
+      "register_description": "Verhinderung Aussetzung einmalige Fortschreibung Wohngeld; Verhinderung von Verschiebung von Leistungsberechtigten in die Grundsicherung; Verhinderung Halbierung Leistungen Heizkostenkomponente; keine Schlechterstellung Pflegebedürftige Stufe 2; Wohngeldreform mit Umsetzung Sozialstaatsreform harmonisieren – Zugänge zu Leistungen erleichtern; Härtefallregelung für Überweisung an mehr als einen Kontoinhaber im Falle von Pfändung und Trennungssituationen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit sozialpolitischen Aspekten des Wohngeldgesetzes. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz-Instrumente des BMWK).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000855",
       "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
@@ -27,7 +126,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zum Entwurf der EU-Erneuerbare-Energien-Richtlinie (RED IV), welche ein zentrales Themenfeld der Unterabteilung IIIA (EU-Energiepolitik & Energiegesetzgebung) darstellt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007990",
@@ -54,7 +153,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere den Wasserstoffmarkthochlauf, regulatorische Rahmenbedingungen für Wasserstoff (RFNBO), Infrastrukturplanung und die Wettbewerbsfähigkeit energieintensiver Industrien.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007990",
@@ -85,7 +184,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere den Wasserstoffmarkthochlauf, regulatorische Rahmenbedingungen für RFNBO, Infrastrukturfinanzierung und die Weiterentwicklung von Unterstützungsinstrumenten.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007990",
@@ -116,7 +215,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere den EU-Wasserstoffmarkt, die Infrastrukturfinanzierung und regulatorische Rahmenbedingungen für den Wasserstoffhochlauf.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007990",
@@ -147,7 +246,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die EU-Wasserstoffmarktregulierung (RFNBO), den Wasserstoffmarkthochlauf sowie die regulatorischen Rahmenbedingungen für die Energiewende.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002999",
@@ -182,7 +281,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt direkt Stellung zur EEG-Novelle und zum Netzanschlusspaket, welche zentrale Bestandteile der Energiegesetzgebung und der Netzregulierung der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002999",
@@ -217,7 +316,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung der EEG-Novelle 2027 und das Netzanschlusspaket, welche zentrale Themen der Unterabteilung IIIA (Erneuerbare Energien, Strommarktregulierung) sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001783",
@@ -306,6 +405,36 @@
       ],
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit mietrechtlichen Fragestellungen (Modernisierungsumlage, BGB) im Kontext der Wärmewende. Diese Themen fallen in die Zuständigkeit des BMWSB und sind nicht Teil der energiepolitischen Kernaufgaben der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000952",
+      "org_name": "Deutscher Anwaltverein e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000952/87884",
+      "regulatory_project_title": "Europäischer Verordnungsvorschlag: Keine Einführung von Regelungen, die den Rechtsstaatsbericht der EU-Kommission untergräbt. ",
+      "sending_date": "2026-08-13",
+      "upload_date": "2026-10-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/49/fe/867323/Stellungnahme-Gutachten-SG2610290033.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2610290033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610290033",
+      "summary": "Der <b>Deutsche Anwaltverein</b> <b>kritisiert</b> Bestrebungen im Rat der EU, die <b>Erkenntnisgrundlagen</b> für den Rechtsstaatsbericht der Kommission einzuschränken. Durch den Ausschluss nicht-staatlicher Akteure wie der Anwaltschaft bei der Informationsgewinnung drohe eine <b>Verwässerung der Rechtsstaatlichkeitsprüfung</b>. Der Verein fordert die <b>Streichung</b> eines entsprechenden Erwägungsgrundes im Entwurf der <b>NRPP-Verordnung</b>. Zudem warnt er davor, dass eine Schwächung dieser Kontrollmechanismen die Integrität des Unionshaushalts gefährden könnte. Die Bundesregierung wird aufgefordert, sich für den Erhalt der <b>bereichsübergreifenden Bedingungen</b> zur Rechtsstaatlichkeit bei der EU-Mittelvergabe einzusetzen. Abschließend wird eine stärkere finanzielle Unterstützung für die Justiz innerhalb der EU angeregt.",
+      "register_description": "Die deutsche Bundesregierung sowie die an der Gesetzgebung beteiligten Stellen sollen dazu bewogen werden, sich auf Europäischer Ebene gegen derzeitige Vorschläge im Rahmen der Verhandlungen zum mehrjährigen Finanzrahmen der Union für die Jahre 2028-2034 (NRPP-Verordnung) einzusetzen, die die Rolle unabhängiger Akteure wie die Anwaltschaft bei der Abfassung des Rechtsstaatsberichts der EU-Kommission untergraben würde. ",
+      "recipients": [
+        "AA",
+        "BMF",
+        "BMJV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit rechtsstaatlichen Grundsätzen und der Rolle der Anwaltschaft bei der EU-Berichterstattung. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
       "summary_quelle": "pdf_text",
       "gemini_status": "filtered"
     },
@@ -107821,6 +107950,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1249,
+  "gemini_filtered_out": 1251,
   "gemini_legacy_open": 0
 }

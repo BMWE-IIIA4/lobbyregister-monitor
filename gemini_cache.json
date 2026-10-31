@@ -40042,5 +40042,53 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-10-30"
+  },
+  "SG2610300021": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich mit der Versorgungssicherheit und den Auswirkungen staatlicher Markteingriffe auf die Kraftstoffpreise, was unter die Themenfelder 'Energiepreise & -kosten' sowie 'Wettbewerbsfähigkeit im EU-Binnenmarkt' fällt.",
+    "zusammenfassung": "Der Wirtschaftsverband Fuels und Energie e.V. (en2x) <b>lehnt die Einführung eines Spritpreisdeckels</b> für Kraftstoffe ab. Der Verband warnt, dass staatliche Preisobergrenzen die <b>Versorgungssicherheit gefährden</b> und zu <b>Wettbewerbsverzerrungen</b> führen können. Eine Abstimmung über freiwillige Preisdeckel wird zudem aufgrund kartellrechtlicher Bedenken als unzulässig eingestuft. Die Analyse zeigt, dass Preisdeckel in anderen Ländern entweder zu Versorgungsengpässen führten oder aufgrund notwendiger Ausnahmeregelungen ineffektiv blieben. Statt marktverzerrender Eingriffe empfiehlt der Verband die Prüfung <b>ordnungspolitischer Instrumente</b> wie eine Modernisierung des Energiesteuerrechts. Eine <b>steuerliche Begünstigung erneuerbarer Kraftstoffe</b> wird als Alternative vorgeschlagen, um Verbraucher zu entlasten und Investitionsanreize zu erhalten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Einführung eines temporären Spritpreisdeckels",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-31"
+  },
+  "SG2610300010": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit sozialpolitischen Aspekten des Wohngeldgesetzes. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz-Instrumente des BMWK).",
+    "zusammenfassung": "Der Deutsche Caritasverband <b>lehnt</b> den Gesetzentwurf zur <b>Wohngeldreform</b> in seiner jetzigen Form ab. Er kritisiert insbesondere die geplante <b>Aussetzung der Wohngeldfortschreibung</b> sowie die <b>Halbierung der Heizkostenkomponente</b> als sozialpolitisch kontraproduktiv. Der Verband warnt vor einer <b>Verschiebung von Hilfebedürftigkeit</b> in andere Sozialleistungssysteme wie SGB II und SGB XII. Zudem wird die Einführung einer <b>Vermögensobergrenze</b> als benachteiligend für Mieterhaushalte bewertet. Die Organisation fordert den Erhalt der bisherigen Entlastungswirkungen, um die <b>Wohnkostenbelastung</b> einkommensschwacher Haushalte abzufedern. Abschließend wird auf den drohenden Anstieg des Verwaltungsaufwands durch den Wegfall typisierter Nachweise hingewiesen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Entwurf eines Gesetzes zur Vereinfachung und Fortentwicklung des Wohngeldgesetzes",
+    "bezug": "kern",
+    "hauptgesetz": "WoGG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-31"
+  },
+  "SG2610300003": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich direkt mit der Genehmigungssituation von Windenergieanlagen im Kontext militärischer Luftraumüberwachung und der damit verbundenen Änderung des Luftverkehrsgesetzes (LuftVG), was für die Unterabteilung IIIA (Erneuerbare Energien/Stromerzeugung) hochrelevant ist.",
+    "zusammenfassung": "Der BDEW <b>kritisiert</b> die methodischen Mängel der zugrunde liegenden Studie zur Beeinflussung von Luftverteidigungsradaren durch Windenergieanlagen und <b>fordert</b> eine transparente, wissenschaftlich belastbare Überprüfung. Die Organisation <b>bezweifelt</b> die Notwendigkeit einer verfahrensrechtlichen Aufwertung der Bundeswehr-Stellungnahmen, da diese bereits jetzt als gewichtige Belange in die Abwägung einfließen. Zudem <b>warnt</b> der Verband vor einer <b>Rechts- und Planungsunsicherheit</b> durch die Kopplung der Anwendbarkeit des LuftVG an künftige, exekutive Entscheidungen. Es wird <b>gefordert</b>, Fachexperten vollständige Einsicht in die Studienunterlagen zu gewähren und eine <b>Multisensorlage</b> bei der Bewertung von Störeinflüssen zu berücksichtigen. Abschließend <b>empfiehlt</b> der BDEW, bei negativen Stellungnahmen standardmäßig <b>Konfliktminderungsmaßnahmen</b> zu verankern, um den Ausbau der Windenergie nicht zu gefährden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Anpassung des LuftVG für Windenergie im Umfeld von Luftverteidigungsradaranlagen",
+    "bezug": "kern",
+    "hauptgesetz": "LuftVG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-31"
+  },
+  "SG2610290033": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit rechtsstaatlichen Grundsätzen und der Rolle der Anwaltschaft bei der EU-Berichterstattung. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
+    "zusammenfassung": "Der <b>Deutsche Anwaltverein</b> <b>kritisiert</b> Bestrebungen im Rat der EU, die <b>Erkenntnisgrundlagen</b> für den Rechtsstaatsbericht der Kommission einzuschränken. Durch den Ausschluss nicht-staatlicher Akteure wie der Anwaltschaft bei der Informationsgewinnung drohe eine <b>Verwässerung der Rechtsstaatlichkeitsprüfung</b>. Der Verein fordert die <b>Streichung</b> eines entsprechenden Erwägungsgrundes im Entwurf der <b>NRPP-Verordnung</b>. Zudem warnt er davor, dass eine Schwächung dieser Kontrollmechanismen die Integrität des Unionshaushalts gefährden könnte. Die Bundesregierung wird aufgefordert, sich für den Erhalt der <b>bereichsübergreifenden Bedingungen</b> zur Rechtsstaatlichkeit bei der EU-Mittelvergabe einzusetzen. Abschließend wird eine stärkere finanzielle Unterstützung für die Justiz innerhalb der EU angeregt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "NRPP-Verordnung im Rahmen des mehrjährigen Finanzrahmens 2028-2034",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-10-31"
   }
 }
