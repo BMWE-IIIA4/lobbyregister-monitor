@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T07:51:57.129588+01:00",
-  "newly_added": 4,
+  "generated_at": "2026-11-01T08:18:29.030298+01:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R000885",
@@ -31,7 +31,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Versorgungssicherheit und den Auswirkungen staatlicher Markteingriffe auf die Kraftstoffpreise, was unter die Themenfelder 'Energiepreise & -kosten' sowie 'Wettbewerbsfähigkeit im EU-Binnenmarkt' fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -68,7 +68,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der Genehmigungssituation von Windenergieanlagen im Kontext militärischer Luftraumüberwachung und der damit verbundenen Änderung des Luftverkehrsgesetzes (LuftVG), was für die Unterabteilung IIIA (Erneuerbare Energien/Stromerzeugung) hochrelevant ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000896",
