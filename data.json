@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-11-01T08:18:29.030298+01:00",
-  "newly_added": 0,
+  "generated_at": "2026-11-02T08:32:09.214140+01:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/88236",
+      "regulatory_project_title": "EU-Kunststoffgranulatverordnung (Verordnung (EU) 2025/2365)",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/26/14/867684/Stellungnahme-Gutachten-SG2611020001.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611020001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020001",
+      "summary": "Die unterzeichnenden Industrieverbände <b>unterstützen</b> die Ziele der EU-Kunststoffgranulatverordnung zur <b>Vermeidung von Kunststoffgranulatverlusten</b>. Sie <b>lehnen</b> einen zusätzlichen nationalen <b>Genehmigungsansatz</b> ab, da dieser unverhältnismäßige Verwaltungsbelastungen verursachen würde. Stattdessen wird eine <b>bundesweit einheitliche</b> und praxisnahe Umsetzung gefordert, die bestehende Strukturen nutzt. Die Verbände <b>empfehlen</b> die <b>Anerkennung etablierter Managementsysteme</b> wie ISO 14001 oder OCS als Konformitätsnachweis. Zudem wird eine <b>unbürokratische Datenmeldung</b> ohne Doppelmeldungen sowie ein wirksamer <b>Schutz von Betriebsgeheimnissen</b> angemahnt. Abschließend wird auf die Einführung eines eigenständigen nationalen Haftungsanspruchs verzichtet, da das bestehende Deliktsrecht ausreicht.",
+      "register_description": "Am 16. Dezember 2025 trat die EU-Kunststoffgranulatverordnung zur Vermeidung von Freisetzungen von Kunststoffgranulaten in Kraft. Die Maßnahmen der Verordnung umfassen verbindliche Regelungen zur Minimierung der Verlustrisikos für Akteure entlang der Wertschöpfungskette, die mit Kunststoffgranulaten arbeiten. PED setzt sich für eine möglichst praxisnahe und bürokratiearme nationale Ausgestaltung der Regelungen sowie die Anerkennung bereits etablierter Risikomanagementmaßnahmen (z.B. OCS) und bestehender Standards (z.B. nach ISO) ein.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Vermeidung von Kunststoffgranulatverlusten zur Reduzierung von Mikroplastik. Dies fällt unter Umwelt- und Abfallpolitik, nicht unter die in der Unterabteilung IIIA definierten Themenfelder (Energiepolitik, Strommarkt, Klimaschutz im Sinne der Energiewende).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000885",
       "org_name": "Wirtschaftsverband Fuels und Energie e.V. - en2x -",
@@ -107950,6 +107977,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1251,
+  "gemini_filtered_out": 1252,
   "gemini_legacy_open": 0
 }

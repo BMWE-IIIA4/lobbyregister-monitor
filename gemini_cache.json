@@ -40090,5 +40090,17 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-10-31"
+  },
+  "SG2611020001": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit der Vermeidung von Kunststoffgranulatverlusten zur Reduzierung von Mikroplastik. Dies fällt unter Umwelt- und Abfallpolitik, nicht unter die in der Unterabteilung IIIA definierten Themenfelder (Energiepolitik, Strommarkt, Klimaschutz im Sinne der Energiewende).",
+    "zusammenfassung": "Die unterzeichnenden Industrieverbände <b>unterstützen</b> die Ziele der EU-Kunststoffgranulatverordnung zur <b>Vermeidung von Kunststoffgranulatverlusten</b>. Sie <b>lehnen</b> einen zusätzlichen nationalen <b>Genehmigungsansatz</b> ab, da dieser unverhältnismäßige Verwaltungsbelastungen verursachen würde. Stattdessen wird eine <b>bundesweit einheitliche</b> und praxisnahe Umsetzung gefordert, die bestehende Strukturen nutzt. Die Verbände <b>empfehlen</b> die <b>Anerkennung etablierter Managementsysteme</b> wie ISO 14001 oder OCS als Konformitätsnachweis. Zudem wird eine <b>unbürokratische Datenmeldung</b> ohne Doppelmeldungen sowie ein wirksamer <b>Schutz von Betriebsgeheimnissen</b> angemahnt. Abschließend wird auf die Einführung eines eigenständigen nationalen Haftungsanspruchs verzichtet, da das bestehende Deliktsrecht ausreicht.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Nationale Umsetzung der EU-Kunststoffgranulatverordnung",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-02"
   }
 }
