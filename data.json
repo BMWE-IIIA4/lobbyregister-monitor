@@ -1,7 +1,218 @@
 {
-  "generated_at": "2026-11-02T08:32:09.214140+01:00",
-  "newly_added": 1,
+  "generated_at": "2026-11-03T08:46:30.206593+01:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R004440",
+      "org_name": "Bundesverband Carsharing e.V. (bcs)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004440/88262",
+      "regulatory_project_title": "Benachteiligung von Carsharing-Nutzenden beenden: Geteilte E-Mobilität in die Kaufprämie aufnehmen",
+      "sending_date": "2026-08-21",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e7/55/867910/Stellungnahme-Gutachten-SG2611020012.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611020012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020012",
+      "summary": "Die Aufnahme von Carsharing in die E-Auto-Kaufprämie würde die Wirkung der Förderung vervielfachen: Jedes geförderte Carsharing-Fahrzeug macht bezahlbare Elektromobilität für 50 bis 90 Personen zugänglich. Das gilt insbesondere für Haushalte mit kleinen Einkommen, die sich auch mit Förderung kein eigenes E-Auto leisten können. Daher sollte der Förderausschluss für Betriebsvermögen um eine gezielte Ausnahme für Carsharing-Fahrzeuge gemäß § 2 CsgG ergänzt und die Basisförderung von 3.000 Euro pro Carsharing-Fahrzeug gewährt werden.",
+      "register_description": "Die Aufnahme von Carsharing in die E-Auto-Kaufprämie würde die Wirkung der Förderung vervielfachen: Jedes geförderte Carsharing-Fahrzeug macht bezahlbare Elektromobilität für 50 bis 90 Personen zugänglich. Das gilt insbesondere für Haushalte mit kleinen Einkommen, die sich auch mit Förderung kein eigenes E-Auto leisten können. Daher sollte der Förderausschluss für Betriebsvermögen um eine gezielte Ausnahme für Carsharing-Fahrzeuge gemäß § 2 CsgG ergänzt und die Basisförderung von 3.000 Euro pro Carsharing-Fahrzeug gewährt werden.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R001157",
+      "org_name": "8KU GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001157/88263",
+      "regulatory_project_title": "Verlängerung und Novellierung des Kraft-Wärme-Kopplungs-Gesetzes ",
+      "sending_date": "2026-11-02",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/28/867870/Stellungnahme-Gutachten-SG2611020011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611020011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020011",
+      "summary": "Entfristung des KWKG und Streichung der nicht mehr notwendigen beihilferechtlichen Einschränkungen. Vorlage der fälligen Evaluierung des KWKG durch das BMWK und Nutzung der Ergebnisse, um die Rolle der KWK zur effizienten und klimaneutralen Besicherung der lokalen und regionalen Strom- und Wärmeversorgung auf Basis von Wasserstoff zu stärken. Anpassung des Fördermechanismus für KWK-Anlagen in der allgemeinen Versorgung durch Reduzierung der geförderten Jahresstunden bis hin zu einer reinen Leistungsprämie. Schaffung einer zusätzlichen neuen Kategorie zur Umrüstung der Bestandsanlagen von Gas auf Wasserstoff. Ausweitung der Fernwärme-Fördermaßnahmen des KWKG.",
+      "register_description": "Entfristung des KWKG und Streichung der nicht mehr notwendigen beihilferechtlichen Einschränkungen. Vorlage der fälligen Evaluierung des KWKG durch das BMWK und Nutzung der Ergebnisse, um die Rolle der KWK zur effizienten und klimaneutralen Besicherung der lokalen und regionalen Strom- und Wärmeversorgung auf Basis von Wasserstoff zu stärken. Anpassung des Fördermechanismus für KWK-Anlagen in der allgemeinen Versorgung durch Reduzierung der geförderten Jahresstunden bis hin zu einer reinen Leistungsprämie. Schaffung einer zusätzlichen neuen Kategorie zur Umrüstung der Bestandsanlagen von Gas auf Wasserstoff. Ausweitung der Fernwärme-Fördermaßnahmen des KWKG.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/88291",
+      "regulatory_project_title": "Fünfte Verordnung zur Änderung der Mess- und Eichverordnung",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4e/5e/867777/Stellungnahme-Gutachten-SG2611020008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611020008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020008",
+      "summary": "Vereinheitlichung des Mess- und Eichwesens\r\n",
+      "register_description": "Vereinheitlichung des Mess- und Eichwesens\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R000760",
+      "org_name": "Verband der Mineralfarbenindustrie e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000760/88244",
+      "regulatory_project_title": "nationale Umsetzung der Verordnung (EU) 2025/2365 (Pellet Loss)",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/bb/867753/Stellungnahme-Gutachten-SG2611020007.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611020007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020007",
+      "summary": "Nationale Ausgestaltung der Verordnung zur Vermeidung der Freisetzung von Kunststoffgranulat: Meldung, Auditierungsprozesse, Vollzug",
+      "register_description": "Nationale Ausgestaltung der Verordnung zur Vermeidung der Freisetzung von Kunststoffgranulat: Meldung, Auditierungsprozesse, Vollzug",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R002822",
+      "org_name": "UNITI Bundesverband EnergieMittelstand e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002822/88238",
+      "regulatory_project_title": "Ablehnung von Eingriffen in die Marktpreise von Kraftstoffen",
+      "sending_date": "2026-10-22",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b6/da/867711/Stellungnahme-Gutachten-SG2611020004.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611020004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020004",
+      "summary": "Die Bundesregierung hat am 18. September angekündigt, mit der Mineralölwirtschaft über die Einführung eines temporären, krisenbedingten Spritpreisdeckels nach dem Vorbild Luxemburgs oder Belgiens zu sprechen. Dabei müsse der Gewährleistung der Versorgungssicherheit besondere Priorität zukommen. en2x warnt vor den negativen Auswirkungen eines Preisdeckels. Gerade in Knappheitssituationen könnte ein Preisdeckel zu Versorgungsproblemen und wirtschaftlichen Belastungen einzelner Marktteilnehmer und Wettbewerbsverzerrungen führen. Dies zeigen auch Erfahrungen aus anderen Ländern. Anstelle marktverzerrender Preisdeckel sollten vorrangig ordnungspolitische Instrumente geprüft werden.",
+      "register_description": "Die Bundesregierung hat am 18. September angekündigt, mit der Mineralölwirtschaft über die Einführung eines temporären, krisenbedingten Spritpreisdeckels nach dem Vorbild Luxemburgs oder Belgiens zu sprechen. Dabei müsse der Gewährleistung der Versorgungssicherheit besondere Priorität zukommen. en2x warnt vor den negativen Auswirkungen eines Preisdeckels. Gerade in Knappheitssituationen könnte ein Preisdeckel zu Versorgungsproblemen und wirtschaftlichen Belastungen einzelner Marktteilnehmer und Wettbewerbsverzerrungen führen. Dies zeigen auch Erfahrungen aus anderen Ländern. Anstelle marktverzerrender Preisdeckel sollten vorrangig ordnungspolitische Instrumente geprüft werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/88237",
+      "regulatory_project_title": "Einführung einer Plastiksteuer",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/d1/867704/Stellungnahme-Gutachten-SG2611020003.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611020003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020003",
+      "summary": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre. PlasticsEurope lehnt eine nationale Plastiksteuer bzw. Umlage der EU-Plastikabgabe ab. Stattdessen fordert der Verband gezielte Anreizsysteme für Recyclingfähigkeit und Rezyklateinsatz, insbesondere über die Ökomodulierung der Lizenzentgelte.",
+      "register_description": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre. PlasticsEurope lehnt eine nationale Plastiksteuer bzw. Umlage der EU-Plastikabgabe ab. Stattdessen fordert der Verband gezielte Anreizsysteme für Recyclingfähigkeit und Rezyklateinsatz, insbesondere über die Ökomodulierung der Lizenzentgelte.",
+      "recipients": [
+        "BKAmt",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R000410",
+      "org_name": "PlasticsEurope Deutschland e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000410/88237",
+      "regulatory_project_title": "Einführung einer Plastiksteuer",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-02",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/32/bc/867702/Stellungnahme-Gutachten-SG2611020002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611020002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611020002",
+      "summary": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre. PlasticsEurope lehnt eine nationale Plastiksteuer bzw. Umlage der EU-Plastikabgabe ab. Stattdessen fordert der Verband gezielte Anreizsysteme für Recyclingfähigkeit und Rezyklateinsatz, insbesondere über die Ökomodulierung der Lizenzentgelte.",
+      "register_description": "Die Bundesregierung hatte im Dezember 2023 die Einführung einer Plastiksteuer angekündigt. Das Vorhaben wird weiterhin diskutiert, allerdings mit der Tendenz, Abstand von einer einseitiger und materialdiskriminierenden Plastiksteuer zu nehmen, die aufgrund Materialsubstitutionen nachteilig für Kreislaufwirtschaft und Recycling wäre. PlasticsEurope lehnt eine nationale Plastiksteuer bzw. Umlage der EU-Plastikabgabe ab. Stattdessen fordert der Verband gezielte Anreizsysteme für Recyclingfähigkeit und Rezyklateinsatz, insbesondere über die Ökomodulierung der Lizenzentgelte.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
     {
       "register_number": "R000410",
       "org_name": "PlasticsEurope Deutschland e.V. ",
@@ -5931,7 +6142,7 @@
       ],
       "priority": 2,
       "gemini_status": "filtered",
-      "register_description": "Der HDE setzt sich für eine längere Übergangsfrist ein. Außerdem sollten die neuen Vorgaben nur für ab dem Geltungsbeginn erstmallig in Verkehr gebrachtes Sielzeug gelten. Schließlich weisen wir darauf hin, dass der Grenzwert für Bisphenol A so niedrig ist, dass in der Praxis Probleme beim Nachweis der Konfirmität zu erwarten sind. \r\n",
+      "register_description": "Der HDE setzt sich für eine längere Übergangsfrist ein. Außerdem sollten die neuen Vorgaben nur für ab dem Geltungsbeginn erstmallig in Verkehr gebrachtes Spielzeug gelten. Schließlich weisen wir darauf hin, dass der Grenzwert für Bisphenol A so niedrig ist, dass in der Praxis Probleme beim Nachweis der Konfirmität zu erwarten sind. \r\n",
       "gemini_relevanz": "Das Dokument betrifft ausschließlich die Spielzeug-Richtlinie und chemische Grenzwerte für Konsumgüter. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
       "summary_quelle": "pdf_text"
     },
@@ -34673,6 +34884,39 @@
       "summary_quelle": "pdf_text",
       "abweichung": true,
       "abweichung_hinweis": "Das Dokument behandelt: Netzpaket"
+    },
+    {
+      "register_number": "R008306",
+      "org_name": "Organisation Werbungtreibende im Markenverband (OWM)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008306/77083",
+      "regulatory_project_title": "EU Digital Omnibus",
+      "sending_date": "2026-03-13",
+      "upload_date": "2026-07-28",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/11/7b/867770/Stellungnahme-Gutachten-SG2607280029.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2607280029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607280029",
+      "summary": "Der Digital-Omnibus darf genau jene Strukturen nicht schwächen, die Transparenz, Nachweise zur Werbewirkung, unabhängige Messung, die Refinanzierung des Open Web und faire Marktbedingungen ermöglichen.",
+      "register_description": "Der Digital-Omnibus darf genau jene Strukturen nicht schwächen, die Transparenz, Nachweise zur Werbewirkung, unabhängige Messung, die Refinanzierung des Open Web und faire Marktbedingungen ermöglichen.",
+      "recipients": [
+        "BKAmt",
+        "BMJV",
+        "BMI",
+        "BMDS",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
     },
     {
       "register_number": "R008148",
