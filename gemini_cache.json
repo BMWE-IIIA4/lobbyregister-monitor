@@ -40606,5 +40606,101 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-04"
+  },
+  "SG2611040026": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die regulatorische Ausgestaltung des § 14d EnWG und die Anforderungen an die Netzausbauplanung der Verteilnetzbetreiber, was ein zentrales Thema der Abteilung IIIA ist.",
+    "zusammenfassung": "Die ARGE FNB Ost <b>fordert verbesserte Rahmenbedingungen</b> für eine realistische und umsetzbare Netzausbauplanung der Verteilnetzbetreiber. Die Organisation warnt vor einer wachsenden Lücke zwischen dem planerisch erforderlichen und dem tatsächlich umsetzbaren Ausbau aufgrund begrenzter Ressourcen. Sie verlangt eine <b>effizientere Verzahnung</b> zwischen Übertragungs- und Verteilnetzplanung sowie eine stärkere Berücksichtigung regionaler Bedarfe in den Szenariorahmen. Zudem wird eine <b>sachgerechte Regulierung</b> angemahnt, um die immensen Investitionsbedarfe durch eine Anpassung von NEST und WACC refinanzierbar zu machen. Hinsichtlich der Transparenzpflichten wird eine <b>Prüfung auf Sicherheitsrisiken</b> für kritische Infrastrukturen vor Veröffentlichung gefordert. Abschließend plädiert die ARGE für eine <b>Reduzierung des Prüfaufwands</b> bei Genehmigungsverfahren für das Repowering von Bestandstrassen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Ausgestaltung des § 14d EnWG zur Netzausbauplanung",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611040015": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum EU Grids Package und dessen Auswirkungen auf Netzanschlussverfahren und regulatorische Rahmenbedingungen, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
+    "zusammenfassung": "Die E.ON SE <b>kritisiert</b> die im EU Grids Package vorgesehene Gleichsetzung von Netzanschlussverfahren mit behördlichen Genehmigungsverfahren und <b>fordert eine klare Abgrenzung</b>. Das Unternehmen betont, dass Netzanschlüsse auf bilateralen Verträgen basieren und nicht in den Anwendungsbereich zentraler digitaler Genehmigungsportale fallen sollten. Zudem <b>lehnt E.ON eine pauschale Priorisierung</b> bestimmter Anlagentypen ab, da diese die technische Realität der Netzstabilität und Kapazitätsauslastung ignoriere. Stattdessen wird eine <b>stärkere Berücksichtigung technischer und wirtschaftlicher Kriterien</b> bei der Anschlussentscheidung durch Verteilnetzbetreiber verlangt. Abschließend <b>plädiert das Unternehmen für die Öffnung</b> des TEN-E-Rahmens, um Smart Electricity Grid Projekte als Projekte von gemeinsamem Interesse (PMI) zu qualifizieren.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EU Grids Package",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611040014": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die regulatorischen Rahmenbedingungen für den Netzausbau und die Modernisierung von Stromnetzen auf EU-Ebene, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
+    "zusammenfassung": "E.ON <b>unterstützt die Ausgestaltung</b> des EU Grids Package und fordert eine kohärente Abstimmung mit dem Environmental Omnibus zur <b>Beschleunigung von Netzprojekten</b>. Das Unternehmen plädiert dafür, den Status des <b>überragenden öffentlichen Interesses</b> explizit auf die Modernisierung und Erweiterung bestehender Infrastruktur auszuweiten. Zudem wird eine <b>proportionierte Umweltprüfung</b> gefordert, wobei die starre Regelung zum Verzicht auf zusätzlichen Flächenbedarf bei Modernisierungen kritisiert wird. E.ON begrüßt die Klarstellung zum <b>Artenschutz</b>, wonach beiläufige Auswirkungen bei Einhaltung von Minderungsmaßnahmen nicht als vorsätzliche Tötung gelten. Abschließend befürwortet das Unternehmen eine <b>materielle Präklusion</b> bei Rechtsbehelfen, um missbräuchliche Klagen zu verhindern und die Planungssicherheit zu erhöhen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EU Grids Package und Environmental Omnibus",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611040012": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die insolvenzrechtliche Behandlung von Energiemarkt-Zertifikaten (Herkunftsnachweise, Emissionsberechtigungen), die für die Umsetzung von PPAs und die Erfüllung von Nachhaltigkeitsvorgaben im Energiesektor essenziell sind.",
+    "zusammenfassung": "Die E.ON SE <b>schlägt vor</b>, den Anwendungsbereich des § 104 InsO auf <b>Energiemarkt-Zertifikate</b> auszuweiten, um deren insolvenzrechtliche Behandlung zu harmonisieren. Das Unternehmen argumentiert, dass die aktuelle Rechtsunsicherheit bei der Behandlung dieser Zertifikate im <b>Liquidationsnetting</b> die Entwicklung liquider Handelsmärkte behindert. Insbesondere bei gebündelten Lieferverträgen wie <b>Power Purchase Agreements (PPAs)</b> führe die fehlende explizite Erfassung zu einer sachlich nicht gerechtfertigten Ungleichbehandlung gegenüber Strom- und Gastransaktionen. Die E.ON SE fordert daher eine <b>eigenständige Erfassung</b> dieser Zertifikate in § 104 InsO, unabhängig von deren Einordnung als Finanzinstrumente. Dies soll sicherstellen, dass bei Insolvenzen eine einheitliche <b>Glattstellung</b> der Positionen erfolgen kann. Die vorgeschlagene Neuregelung umfasst Herkunfts-, Nachhaltigkeits- und Emissionsnachweise, die für die Erfüllung von Klimazielen und regulatorischen Anforderungen wie RFNBO-Konformität notwendig sind.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Anpassung des § 104 InsO zur Einbeziehung von Energiemarkt-Zertifikaten",
+    "bezug": "kern",
+    "hauptgesetz": "InsO",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611040010": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die Beschleunigung von Planungs- und Genehmigungsverfahren für Stromverteilernetze, was ein zentrales Thema der Unterabteilung IIIA (Stromnetz/Energiewende) ist.",
+    "zusammenfassung": "Die <b>Avacon AG schlägt vor</b>, die Planungs- und Genehmigungsverfahren für den Verteilnetzausbau durch eine <b>Stärkung der Behördenkapazitäten</b> und eine <b>Verfahrenskoordination</b> durch feste Ansprechpartner zu beschleunigen. Das Unternehmen fordert die <b>Parallelisierung von Genehmigungsverfahren</b>, die Einführung verbindlicher Fristen sowie eine bundesweit einheitliche Vollzugspraxis. Zur Entlastung des Bestandsnetzes wird eine <b>Ausweitung der Privilegierungen</b> bei Planfeststellungen und Anzeigeverfahren sowie eine <b>Vereinfachung der Umweltprüfungen</b> angeregt. Zudem plädiert die Avacon AG für eine <b>Gleichstellung von Realkompensation und Ersatzzahlung</b> sowie eine <b>Baugenehmigungsfreiheit</b> für standardisierte Nebenanlagen. Abschließend wird die <b>Wiedereinführung der materiellen Präklusion</b> im Umweltschutz gefordert, um die Rechtssicherheit zu erhöhen und Klageverfahren zu verkürzen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Planungs- und Genehmigungsbeschleunigung im Stromverteilernetz",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611040006": {
+    "relevant": false,
+    "relevanz_grund": "Das Regelungsvorhaben betrifft ausschließlich die EU-Bankenregulierung und Finanzmarktpolitik, welche nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) fallen.",
+    "zusammenfassung": "Laut Registerangabe zum Regelungsvorhaben setzt sich der Sparkassenverband Bayern für eine <b>proportionale und wettbewerbsfähige EU-Bankenregulierung</b> ein. Gefordert werden unter anderem ein <b>freiwilliges Kleinbankenregime</b> sowie eine <b>Anhebung der SNCI-Schwelle</b>.",
+    "quelle": "register",
+    "hauptgegenstand": "",
+    "bezug": "unbekannt",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611030054": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die Beschleunigung von Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen durch Änderungen im Umweltrecht (UVPG, BImSchG, BNatSchG), was direkt in den Zuständigkeitsbereich der Abteilung IIIA fällt.",
+    "zusammenfassung": "Die vier deutschen Übertragungsnetzbetreiber <b>begrüßen</b> die Zielsetzung des Gesetzentwurfs zur <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> durch Digitalisierung und Bürokratieabbau. Sie unterstützen die <b>Harmonisierung von Äußerungsfristen</b> im UVPG sowie die <b>Beschränkung der Öffentlichkeitsbeteiligung</b> im BImSchG auf die betroffene Öffentlichkeit. Hinsichtlich der Datenherausgabe nach dem BNatSchG fordern die Unternehmen eine <b>Einbeziehung von Umweltvereinigungen</b>, um eine einseitige Datenlast zu vermeiden. Zudem mahnen sie eine <b>Prüfung urheberrechtlicher Fragen</b> und möglicher Entschädigungspflichten an, um Rechtsunsicherheiten zu verhindern. Die Netzbetreiber bieten ihre <b>Mitwirkung bei der Festlegung einheitlicher Datenvorgaben</b> an, um eine praxisnahe Ausgestaltung sicherzustellen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Gesetzentwurf zur Stärkung eines modernen, digitalen und wirksamen Umweltschutzes",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "UVPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
+  },
+  "SG2611030050": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich direkt mit der Ausgestaltung der Strompreiskompensation (SPK) und dem Carbon-Leakage-Schutz, was unter die Themenfelder EU-Beihilferecht EE und Energiepreise/Wettbewerbsfähigkeit fällt.",
+    "zusammenfassung": "Der <b>Wirtschaftsverband Fuels und Energie e.V. (en2x)</b> <b>äußert sich zur geplanten Anpassung</b> der Strompreiskompensation (SPK) vor dem Hintergrund des Wegfalls des Austauschbarkeitsfaktors. Der Verband <b>warnt vor einer Schwächung des Carbon-Leakage-Schutzes</b> und fordert, dass indirekte Strommengen nicht pauschal von der Kompensation ausgeschlossen werden. Zur Vermeidung einer Doppelkompensation wird ein <b>pragmatisches Verfahren</b> unter Einbeziehung der EU-Kommission vorgeschlagen, das auf bereits vorhandenen Daten aus dem EU-ETS-Zuteilungsbericht basiert. Die Organisation <b>kritisiert die mangelnde Transparenz</b> bei den Berechnungen der Benchmarks durch die Kommission. Zudem wird betont, dass die Umstellung <b>keine faktische Kürzung</b> der Entlastungen zur Folge haben darf, um die internationale Wettbewerbsfähigkeit der Industrie zu sichern. Eine abschließende Bewertung des Modells sei aufgrund fehlender Details derzeit noch nicht möglich.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Strompreiskompensation (SPK) und Vermeidung von Doppelkompensation",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-05"
   }
 }

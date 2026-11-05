@@ -1,7 +1,175 @@
 {
-  "generated_at": "2026-11-04T08:24:29.147904+01:00",
-  "newly_added": 35,
+  "generated_at": "2026-11-05T08:50:47.118009+01:00",
+  "newly_added": 7,
   "statements": [
+    {
+      "register_number": "R003883",
+      "org_name": "ARGE FNB Ost",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003883/78583",
+      "regulatory_project_title": "Ausgestaltung des §14d EnWG - Netzausbauplan",
+      "sending_date": "2026-11-03",
+      "upload_date": "2026-11-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c6/b0/869116/Stellungnahme-Gutachten-SG2611040026.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611040026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611040026",
+      "summary": "Die ARGE FNB Ost <b>fordert verbesserte Rahmenbedingungen</b> für eine realistische und umsetzbare Netzausbauplanung der Verteilnetzbetreiber. Die Organisation warnt vor einer wachsenden Lücke zwischen dem planerisch erforderlichen und dem tatsächlich umsetzbaren Ausbau aufgrund begrenzter Ressourcen. Sie verlangt eine <b>effizientere Verzahnung</b> zwischen Übertragungs- und Verteilnetzplanung sowie eine stärkere Berücksichtigung regionaler Bedarfe in den Szenariorahmen. Zudem wird eine <b>sachgerechte Regulierung</b> angemahnt, um die immensen Investitionsbedarfe durch eine Anpassung von NEST und WACC refinanzierbar zu machen. Hinsichtlich der Transparenzpflichten wird eine <b>Prüfung auf Sicherheitsrisiken</b> für kritische Infrastrukturen vor Veröffentlichung gefordert. Abschließend plädiert die ARGE für eine <b>Reduzierung des Prüfaufwands</b> bei Genehmigungsverfahren für das Repowering von Bestandstrassen.",
+      "register_description": "Anpassung des § 14d EnWG \"Planung und besondere Bedeutung des Verteilernetzausbaus\" hinsichtlich der in Absatz (4) aufgeführten Inhalte des Netzausbauplanes.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die regulatorische Ausgestaltung des § 14d EnWG und die Anforderungen an die Netzausbauplanung der Verteilnetzbetreiber, was ein zentrales Thema der Abteilung IIIA ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/88407",
+      "regulatory_project_title": "EU Grids Package für einen beschleunigten und praxistauglichen Netzausbau ausgestalten",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/8a/868958/Stellungnahme-Gutachten-SG2611040015.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611040015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611040015",
+      "summary": "Die E.ON SE <b>kritisiert</b> die im EU Grids Package vorgesehene Gleichsetzung von Netzanschlussverfahren mit behördlichen Genehmigungsverfahren und <b>fordert eine klare Abgrenzung</b>. Das Unternehmen betont, dass Netzanschlüsse auf bilateralen Verträgen basieren und nicht in den Anwendungsbereich zentraler digitaler Genehmigungsportale fallen sollten. Zudem <b>lehnt E.ON eine pauschale Priorisierung</b> bestimmter Anlagentypen ab, da diese die technische Realität der Netzstabilität und Kapazitätsauslastung ignoriere. Stattdessen wird eine <b>stärkere Berücksichtigung technischer und wirtschaftlicher Kriterien</b> bei der Anschlussentscheidung durch Verteilnetzbetreiber verlangt. Abschließend <b>plädiert das Unternehmen für die Öffnung</b> des TEN-E-Rahmens, um Smart Electricity Grid Projekte als Projekte von gemeinsamem Interesse (PMI) zu qualifizieren.",
+      "register_description": "E.ON setzt sich für eine praxistaugliche Ausgestaltung des EU Grids Package ein, die Netzausbau, Modernisierung und Netzanschlüsse wirksam beschleunigt. Genehmigungs- und Umweltprüfungsverfahren sollten vereinfacht und das überragende öffentliche Interesse auch auf die Modernisierung bestehender Netze erstreckt werden. Netzanschlussverfahren sind klar von behördlichen Genehmigungsverfahren abzugrenzen und diskriminierungsfrei nach technischen und wirtschaftlichen Kriterien auszugestalten. Zudem sollten Grids Package und Environmental Omnibus konsistent ausgestaltet werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum EU Grids Package und dessen Auswirkungen auf Netzanschlussverfahren und regulatorische Rahmenbedingungen, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/88407",
+      "regulatory_project_title": "EU Grids Package für einen beschleunigten und praxistauglichen Netzausbau ausgestalten",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/24/7e/868956/Stellungnahme-Gutachten-SG2611040014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611040014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611040014",
+      "summary": "E.ON <b>unterstützt die Ausgestaltung</b> des EU Grids Package und fordert eine kohärente Abstimmung mit dem Environmental Omnibus zur <b>Beschleunigung von Netzprojekten</b>. Das Unternehmen plädiert dafür, den Status des <b>überragenden öffentlichen Interesses</b> explizit auf die Modernisierung und Erweiterung bestehender Infrastruktur auszuweiten. Zudem wird eine <b>proportionierte Umweltprüfung</b> gefordert, wobei die starre Regelung zum Verzicht auf zusätzlichen Flächenbedarf bei Modernisierungen kritisiert wird. E.ON begrüßt die Klarstellung zum <b>Artenschutz</b>, wonach beiläufige Auswirkungen bei Einhaltung von Minderungsmaßnahmen nicht als vorsätzliche Tötung gelten. Abschließend befürwortet das Unternehmen eine <b>materielle Präklusion</b> bei Rechtsbehelfen, um missbräuchliche Klagen zu verhindern und die Planungssicherheit zu erhöhen.",
+      "register_description": "E.ON setzt sich für eine praxistaugliche Ausgestaltung des EU Grids Package ein, die Netzausbau, Modernisierung und Netzanschlüsse wirksam beschleunigt. Genehmigungs- und Umweltprüfungsverfahren sollten vereinfacht und das überragende öffentliche Interesse auch auf die Modernisierung bestehender Netze erstreckt werden. Netzanschlussverfahren sind klar von behördlichen Genehmigungsverfahren abzugrenzen und diskriminierungsfrei nach technischen und wirtschaftlichen Kriterien auszugestalten. Zudem sollten Grids Package und Environmental Omnibus konsistent ausgestaltet werden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die regulatorischen Rahmenbedingungen für den Netzausbau und die Modernisierung von Stromnetzen auf EU-Ebene, was in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarkt/Netze) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/88407",
+      "regulatory_project_title": "Anerkennung von Energiemarkt-Zertifikaten im Rahmen der Harmonisierung bestimmter Aspekte des Insolvenzrechts",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-11-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f0/0d/868902/Stellungnahme-Gutachten-SG2611040012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611040012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611040012",
+      "summary": "Die E.ON SE <b>schlägt vor</b>, den Anwendungsbereich des § 104 InsO auf <b>Energiemarkt-Zertifikate</b> auszuweiten, um deren insolvenzrechtliche Behandlung zu harmonisieren. Das Unternehmen argumentiert, dass die aktuelle Rechtsunsicherheit bei der Behandlung dieser Zertifikate im <b>Liquidationsnetting</b> die Entwicklung liquider Handelsmärkte behindert. Insbesondere bei gebündelten Lieferverträgen wie <b>Power Purchase Agreements (PPAs)</b> führe die fehlende explizite Erfassung zu einer sachlich nicht gerechtfertigten Ungleichbehandlung gegenüber Strom- und Gastransaktionen. Die E.ON SE fordert daher eine <b>eigenständige Erfassung</b> dieser Zertifikate in § 104 InsO, unabhängig von deren Einordnung als Finanzinstrumente. Dies soll sicherstellen, dass bei Insolvenzen eine einheitliche <b>Glattstellung</b> der Positionen erfolgen kann. Die vorgeschlagene Neuregelung umfasst Herkunfts-, Nachhaltigkeits- und Emissionsnachweise, die für die Erfüllung von Klimazielen und regulatorischen Anforderungen wie RFNBO-Konformität notwendig sind.",
+      "register_description": "Die Umsetzung der Richtlinie (EU) 2026/799 sollte dazu genutzt werden, die bereits durch § 104 InsO geschaffene Anerkennung des vertraglichen Liquidationsnetting im Bereich der Energiemärkte zu stärken. Der Anwendungsbereich des § 104 InsO soll gerade im Hinblick auf erneuerbare Energien und die mit ihnen verbundenen Herkunfts-, Nachhaltigkeits- und Emissionszertifikate überprüft und erweitert werden.",
+      "recipients": [
+        "BMF",
+        "BMJV"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die insolvenzrechtliche Behandlung von Energiemarkt-Zertifikaten (Herkunftsnachweise, Emissionsberechtigungen), die für die Umsetzung von PPAs und die Erfüllung von Nachhaltigkeitsvorgaben im Energiesektor essenziell sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002655",
+      "org_name": "Avacon AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002655/82927",
+      "regulatory_project_title": "Planungs- und Genehmigungsbeschleunigung im Stromverteilernetz",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/44/be/868859/Stellungnahme-Gutachten-SG2611040010.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611040010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611040010",
+      "summary": "Die <b>Avacon AG schlägt vor</b>, die Planungs- und Genehmigungsverfahren für den Verteilnetzausbau durch eine <b>Stärkung der Behördenkapazitäten</b> und eine <b>Verfahrenskoordination</b> durch feste Ansprechpartner zu beschleunigen. Das Unternehmen fordert die <b>Parallelisierung von Genehmigungsverfahren</b>, die Einführung verbindlicher Fristen sowie eine bundesweit einheitliche Vollzugspraxis. Zur Entlastung des Bestandsnetzes wird eine <b>Ausweitung der Privilegierungen</b> bei Planfeststellungen und Anzeigeverfahren sowie eine <b>Vereinfachung der Umweltprüfungen</b> angeregt. Zudem plädiert die Avacon AG für eine <b>Gleichstellung von Realkompensation und Ersatzzahlung</b> sowie eine <b>Baugenehmigungsfreiheit</b> für standardisierte Nebenanlagen. Abschließend wird die <b>Wiedereinführung der materiellen Präklusion</b> im Umweltschutz gefordert, um die Rechtssicherheit zu erhöhen und Klageverfahren zu verkürzen.",
+      "register_description": "Die Energiewende findet in weiten Teilen im Verteilnetz statt. Hier wird nicht nur der Großteil der Anlagen zur erneuerbaren Stromerzeugung integriert, sondern auch die Voraussetzungen für die Elektrifizierung von Wärme, Mobilität und Industrie geschaffen. Zusätzliche Anforderungen entstehen insbesondere durch den Ausbau der Ladeinfrastruktur, den zunehmenden Einsatz von Wärmepumpen sowie den Anschluss neuer Verbrauchs- und Flexibilitätsoptionen wie Rechenzentren, Elektrolyseure oder Batteriespeicher. Um die energie- und klimapolitischen Ziele Deutschlands zu erreichen, sind schnellere Verfahren für Planung, Genehmigung und Umsetzung von Netzinfrastrukturprojekten besonders auf Ebene der 110-kV unerlässlich. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Beschleunigung von Planungs- und Genehmigungsverfahren für Stromverteilernetze, was ein zentrales Thema der Unterabteilung IIIA (Stromnetz/Energiewende) ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002125",
+      "org_name": "Sparkassenverband Bayern",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002125/88354",
+      "regulatory_project_title": "Weiterentwicklung des EU-Bankenregulierungsrahmens zur Stärkung von Proportionalität und internationaler Wettbewerbsfähigkeit",
+      "sending_date": "2026-11-04",
+      "upload_date": "2026-11-04",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/51/e6/868822/Stellungnahme-Gutachten-SG2611040006.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611040006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611040006",
+      "summary": "Laut Registerangabe zum Regelungsvorhaben setzt sich der Sparkassenverband Bayern für eine <b>proportionale und wettbewerbsfähige EU-Bankenregulierung</b> ein. Gefordert werden unter anderem ein <b>freiwilliges Kleinbankenregime</b> sowie eine <b>Anhebung der SNCI-Schwelle</b>.",
+      "register_description": "Der SVB setzt sich für eine proportionale und international wettbewerbsfähige EU-Bankenregulierung ein. Gefordert werden ein freiwilliges Kleinbankenregime für Institute mit einfachem Geschäftsmodell und Risikoprofil von Regionalbanken, eine Anhebung der SNCI-Schwelle auf mindestens 10 Mrd. Euro, eine angemessene Leverage Ratio sowie eine Reduzierung der Level-2- und Level-3-Regulierung. Der Anstieg der Kapitalanforderungen aus dem Output Floor soll gestoppt und Übergangsregelungen sollen verstetigt werden. Zudem sollen Kapitalpuffer zusammengeführt und der Systemrisikopuffer abgeschafft werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Regelungsvorhaben betrifft ausschließlich die EU-Bankenregulierung und Finanzmarktpolitik, welche nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) fallen.",
+      "summary_quelle": "register",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000885",
       "org_name": "Wirtschaftsverband Fuels und Energie e.V. - en2x -",
@@ -35,7 +203,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Umsetzung der EU-Methan-Verordnung, welche unter die EU-Energiepolitik und Klimaschutzvorgaben der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -70,7 +238,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Energiepolitik und die Umsetzung der EU-Methan-Verordnung, welche direkte Auswirkungen auf die Versorgungssicherheit und Energiepreise hat.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -105,7 +273,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Energiepolitik und die Umsetzung der EU-Methan-Verordnung, welche direkte Auswirkungen auf die Versorgungssicherheit und Wettbewerbsfähigkeit im EU-Binnenmarkt hat.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -133,7 +301,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die netzverträgliche Ausgestaltung der PFAS-Regulierung, was direkte Auswirkungen auf die Versorgungssicherheit, den Netzausbau und die technische Infrastruktur der Stromnetze hat.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -165,7 +333,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung von Ladeinfrastrukturvorgaben in Nichtwohngebäuden, was einen direkten Bezug zur Sektorkopplung und den Zielen der Energiewende im Verkehrssektor aufweist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -209,7 +377,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung der allgemeinen Grüngasquote, einem zentralen energiepolitischen Vorhaben, das Schnittstellen zu den Themenfeldern Erneuerbare Energien, Klimaschutz und Energierecht aufweist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -244,7 +412,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die regulatorischen Rahmenbedingungen für den Ausbau der Ladeinfrastruktur, was direkt die Themenfelder Strommarkt, Sektorkopplung und Energieinfrastruktur der Unterabteilung IIIA berührt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -279,7 +447,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Umsetzung der EU-Methanverordnung, welche unter die EU-Energiegesetzgebung und Klimaschutzthemen der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -314,7 +482,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des EU-ETS, der kostenlosen Zuteilung von Zertifikaten und dem Carbon-Leakage-Schutz für die Industrie, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik/Klimaschutz) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -349,7 +517,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die Energiewende, den Ausbau erneuerbarer Energien, die Versorgungssicherheit und die Kostenstruktur des Energiesystems.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -388,7 +556,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die Ausrichtung der Energiepolitik auf Erneuerbare Energien, die Versorgungssicherheit, die Kostenstruktur des Energiesystems sowie die Rolle von Wärmenetzen und Sektorkopplung.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -417,7 +585,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Anpassung der 10. BImSchV zur Einführung von E20 und die damit verbundene Forderung zur Aufhebung der E5-Vorhaltepflicht, was direkt in den Bereich der Energiepolitik und Kraftstoffregulierung fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -452,7 +620,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Energiepolitik, insbesondere die Versorgungssicherheit, den Ausbau erneuerbarer Energien und die Kostenstruktur der Energiewende, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_scan",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003890",
@@ -491,7 +659,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Energiepolitik, insbesondere die Versorgungssicherheit, den Ausbau erneuerbarer Energien und die Kostenstruktur der Energieversorgung, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_scan",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -523,7 +691,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung eines Kapazitätsmarktes in Deutschland, was ein zentrales Thema der Unterabteilung IIIA (Strommarktdesign & -regulierung) darstellt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -559,7 +727,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die regulatorischen Rahmenbedingungen für den Smart-Meter-Rollout und die Steuerung dezentraler Anlagen, was direkt in den Bereich der Stromnetzregulierung und Digitalisierung der Energiewende fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001137",
@@ -586,7 +754,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die wirtschaftliche Ausgestaltung von Offshore-Wind-Ausschreibungen und die Realisierungssicherheit von Projekten, was direkt in den Zuständigkeitsbereich der Abteilung Strom/Offshore-Ausbau fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002063",
@@ -617,7 +785,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zum StromFlexG, welches direkt die Themenfelder Stromerzeugung, Kraftwerksstrategie und Genehmigungsverfahren der Unterabteilung IIIA betrifft.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -646,7 +814,7 @@
       "summary_quelle": "pdf_text",
       "abweichung": true,
       "abweichung_hinweis": "Das Dokument behandelt primär die Anpassung der Rahmenbedingungen für bereits bezuschlagte Offshore-Windprojekte und nicht die im Regelungsvorhaben genannten Elektrolyseur-Ausschreibungen.",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003460",
@@ -673,7 +841,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument analysiert die finanziellen Auswirkungen der geplanten EEG-Reform und des Netzpakets auf das EEG-Konto und macht konkrete Vorschläge zur Ausgestaltung der EE-Finanzierung, was direkt in den Aufgabenbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -711,7 +879,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der praktischen Umsetzung der EU-Methanverordnung, insbesondere mit den Berichtspflichten für Importeure fossiler Energieträger, was unter die Themenfelder EU-Energiepolitik und Klimaschutz fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -749,7 +917,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der praktischen Umsetzung der EU-Methanverordnung und den damit verbundenen Compliance-Risiken für Importeure, was direkt in den Bereich EU-Energiepolitik und Energiegesetzgebung der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -786,7 +954,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der praktischen Umsetzung und den rechtlichen Risiken der EU-Methanverordnung für Importeure von Rohöl, was direkt unter die EU-Energiegesetzgebung und die Versorgungssicherheit fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -823,7 +991,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Umsetzung der EU-Methanverordnung und deren Auswirkungen auf die Versorgungssicherheit von Erdgas, Rohöl und Kraftstoffen, was direkt in den Bereich der EU-Energiepolitik und Versorgungssicherheit fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -860,6 +1028,37 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Umsetzung der EU-Methanverordnung, die für die Energieversorgung und den Import fossiler Energieträger von zentraler Bedeutung für das BMWE ist.",
       "summary_quelle": "pdf_text",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001647",
+      "org_name": "TenneT TSO GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001647/88360",
+      "regulatory_project_title": "Beschleunigung der Planungs- und Genehmigungsverfahren von Strom-Höchstspannungsleitungen",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-11-03",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/25/d9/868868/Stellungnahme-Gutachten-SG2611030054.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611030054",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611030054",
+      "summary": "Die vier deutschen Übertragungsnetzbetreiber <b>begrüßen</b> die Zielsetzung des Gesetzentwurfs zur <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> durch Digitalisierung und Bürokratieabbau. Sie unterstützen die <b>Harmonisierung von Äußerungsfristen</b> im UVPG sowie die <b>Beschränkung der Öffentlichkeitsbeteiligung</b> im BImSchG auf die betroffene Öffentlichkeit. Hinsichtlich der Datenherausgabe nach dem BNatSchG fordern die Unternehmen eine <b>Einbeziehung von Umweltvereinigungen</b>, um eine einseitige Datenlast zu vermeiden. Zudem mahnen sie eine <b>Prüfung urheberrechtlicher Fragen</b> und möglicher Entschädigungspflichten an, um Rechtsunsicherheiten zu verhindern. Die Netzbetreiber bieten ihre <b>Mitwirkung bei der Festlegung einheitlicher Datenvorgaben</b> an, um eine praxisnahe Ausgestaltung sicherzustellen.",
+      "register_description": "Für die Umsetzung der Energiewende ist die Beschleunigung der Planungs- und Genehmigungsverfahren von Strom-Höchstspannungsleitungen von zentraler Bedeutung. Dies kann sowohl zu Kosteneinsparungen, als auch zur schnelleren Umsetzungszeiten führen. Davon umfasst sind die Identifikation und Umsetzung von Elementen zur Planungsbeschleunigung sowohl nationaler als auch europäischer Regelungen im Energie- sowie Umweltbereich als auch die Vermeidung von Regelungen auf nationaler sowie auf EU-Ebene, die einer zügigen Planung und Genehmigung von Strom-Höchstspannungsleitungen entgegenstehen können.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Beschleunigung von Planungs- und Genehmigungsverfahren für Strom-Höchstspannungsleitungen durch Änderungen im Umweltrecht (UVPG, BImSchG, BNatSchG), was direkt in den Zuständigkeitsbereich der Abteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
       "gemini_status": "processed"
     },
     {
@@ -873,7 +1072,7 @@
       "pdf_pages": 3,
       "sg_number": "SG2611030050",
       "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611030050",
-      "summary": "Die Strompreiskompensation (SPK) gleicht einen Teil der CO2-Kosten aus, die Stromerzeuger über den Strompreis weitergeben. Sie schützt stromintensive Unternehmen, darunter Raffinerien, vor Wettbewerbsnachteilen und Carbon Leakage. Aktuell sind aufgrund von überarbeiteten Rechtstexten verschiedene Durchführungsfragen offen. Für die Unternehmen muss zeitnah Klarheit geschaffen werden. Die Carbon Leakage Schutzfunktion der SPK muss erhalten bleiben. ",
+      "summary": "Der <b>Wirtschaftsverband Fuels und Energie e.V. (en2x)</b> <b>äußert sich zur geplanten Anpassung</b> der Strompreiskompensation (SPK) vor dem Hintergrund des Wegfalls des Austauschbarkeitsfaktors. Der Verband <b>warnt vor einer Schwächung des Carbon-Leakage-Schutzes</b> und fordert, dass indirekte Strommengen nicht pauschal von der Kompensation ausgeschlossen werden. Zur Vermeidung einer Doppelkompensation wird ein <b>pragmatisches Verfahren</b> unter Einbeziehung der EU-Kommission vorgeschlagen, das auf bereits vorhandenen Daten aus dem EU-ETS-Zuteilungsbericht basiert. Die Organisation <b>kritisiert die mangelnde Transparenz</b> bei den Berechnungen der Benchmarks durch die Kommission. Zudem wird betont, dass die Umstellung <b>keine faktische Kürzung</b> der Entlastungen zur Folge haben darf, um die internationale Wettbewerbsfähigkeit der Industrie zu sichern. Eine abschließende Bewertung des Modells sei aufgrund fehlender Details derzeit noch nicht möglich.",
       "register_description": "Die Strompreiskompensation (SPK) gleicht einen Teil der CO2-Kosten aus, die Stromerzeuger über den Strompreis weitergeben. Sie schützt stromintensive Unternehmen, darunter Raffinerien, vor Wettbewerbsnachteilen und Carbon Leakage. Aktuell sind aufgrund von überarbeiteten Rechtstexten verschiedene Durchführungsfragen offen. Für die Unternehmen muss zeitnah Klarheit geschaffen werden. Die Carbon Leakage Schutzfunktion der SPK muss erhalten bleiben. ",
       "recipients": [
         "BMUKN",
@@ -886,7 +1085,9 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "pending"
+      "gemini_status": "processed",
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung der Strompreiskompensation (SPK) und dem Carbon-Leakage-Schutz, was unter die Themenfelder EU-Beihilferecht EE und Energiepreise/Wettbewerbsfähigkeit fällt.",
+      "summary_quelle": "pdf_text"
     },
     {
       "register_number": "R000885",
@@ -1219,7 +1420,7 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument nimmt direkt Stellung zur geplanten Novellierung des KWKG, welches ein zentrales Instrument der Energiepolitik und Sektorkopplung darstellt.",
       "summary_quelle": "pdf_text"
     },
@@ -1247,7 +1448,7 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument betrifft die eichrechtlichen Rahmenbedingungen für Ladeinfrastruktur, welche für den Ausbau der Elektromobilität und damit für die Sektorkopplung und den Strommarkt relevant sind.",
       "summary_quelle": "pdf_text"
     },
@@ -1282,7 +1483,7 @@
         }
       ],
       "priority": 1,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument befasst sich mit der energiepolitischen Debatte um staatliche Eingriffe in die Kraftstoffpreisbildung und deren Auswirkungen auf Versorgungssicherheit und Wettbewerb, was unter die Themenfelder 'Energiepreise & -kosten' sowie 'Wettbewerbsfähigkeit im EU-Binnenmarkt' fällt.",
       "summary_quelle": "pdf_text"
     },
@@ -27340,7 +27541,7 @@
       ],
       "priority": 1,
       "gemini_status": "cached",
-      "register_description": "Der BDEW setzt sich für eine praktikable und umsetzbare Ausgestaltung einer möglichen Grüngasquote im Gebäudebestand ein. Dabei fordert der BDEW einfache und bürokratiearme Regelungen, die bestehende Instrumente berücksichtigen sowie Anforderungen an Zertifizierung, Nachweisführung, Register, Handelbarkeit und Gaskennzeichnung sachgerecht ausgestalten und den Wasserstoffhochlauf nicht gefährden.",
+      "register_description": "Der BDEW setzt sich für eine praktikable, marktgerechte und bürokratiearme Ausgestaltung der Grüngasquote ein. Die Quote soll zusätzliche Nachfrage nach klimafreundlichen Gasen schaffen, Investitionen in deren Markthochlauf unterstützen und den Wasserstoffhochlauf nicht gefährden. Der BDEW fordert die Nutzung bestehender Vollzugs- und Nachweisstrukturen sowie sachgerechte Anforderungen an Zertifizierung, Register, Handelbarkeit und Gaskennzeichnung. Quotenhochlauf sowie Anrechnungs- und Nachholregelungen müssen praxistauglich ausgestaltet sein. Aufwand und erwarteter Nutzen müssen in einem angemessenen Verhältnis stehen.",
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung einer Grüngasquote im Gebäudebestand, was direkt in den Bereich Klimaschutz und Energiepolitik fällt.",
       "summary_quelle": "pdf_text"
     },
@@ -109410,6 +109611,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1266,
+  "gemini_filtered_out": 1267,
   "gemini_legacy_open": 0
 }
