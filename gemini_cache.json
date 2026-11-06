@@ -40702,5 +40702,65 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-05"
+  },
+  "SG2611060001": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die Energiepreise, den Ausbau erneuerbarer Energien, die Versorgungssicherheit und die Rolle von Speichern und Netzen.",
+    "zusammenfassung": "Der Landesverband Erneuerbare Energien Schleswig-Holstein e.V. und weitere Verbände <b>fordern die Bundesregierung auf</b>, die Bezahlbarkeit von Energie durch den konsequenten Ausbau erneuerbarer Energien zum Leitprinzip zu machen. Die Unterzeichner <b>kritisieren langfristige Investitionen in fossile Gaskraftwerke</b>, da deren Kosten die Verbraucher belasten und die Abhängigkeit von Importen verstetigen. Zur Sicherung der Versorgung und Senkung der Kosten wird ein <b>Mix aus Wind-, Solar- und Bioenergie</b> sowie Speichern und Flexibilitäten präferiert. Zudem wird eine <b>transparente kommunale Wärmeplanung</b> gefordert, die lokale erneuerbare Potenziale und Abwärme stärker einbindet. Die Politik soll <b>bürokratische Hemmnisse abbauen</b> und verlässliche Rahmenbedingungen für Investitionen in Netze und Digitalisierung schaffen. Abschließend wird betont, dass eine solche Energiepolitik die regionale Wertschöpfung stärkt und die <b>Abhängigkeit von fossilen Rohstoffmärkten reduziert</b>.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Appell zur Bezahlbarkeit von Energie durch Erneuerbare",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-06"
+  },
+  "SG2611050042": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die EU-Energiegesetzgebung und technische Netzanschlussbedingungen, die für die Versorgungssicherheit und den Ausbau erneuerbarer Energien relevant sind.",
+    "zusammenfassung": "Das Unternehmen RWE <b>kritisiert</b> die im Entwurf des NC RfG 2.0 vorgesehenen Übergangsfristen für Stromerzeugungsanlagen der Typen B und C als <b>unzureichend</b>. Die aktuelle 30-Monats-Frist bis zur finalen Betriebserlaubnis berücksichtige nicht die realen Projektlaufzeiten, die bei Windparks oft über 40 Monate betragen. RWE <b>schlägt vor</b>, als alternative Frist den <b>Abschluss eines verbindlichen Vertrags</b> über Hauptkomponenten innerhalb von zwei Jahren nach Inkrafttreten der Regulierung zu etablieren. Dieser Ansatz soll für alle Anlagentypen (B, C und D) gelten, um die notwendige <b>Planungssicherheit</b> für Investoren und Hersteller zu gewährleisten. Das Unternehmen fordert entsprechende <b>Anpassungen der Artikel 61 und 62</b>, um die Übergangsregelungen an die Praxis anzupassen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Überarbeitung des Network Code on requirements for grid connection of generators (NC RfG 2.0)",
+    "bezug": "kern",
+    "hauptgesetz": "NC RfG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-06"
+  },
+  "SG2611050041": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich kritisch mit einem spezifischen Modellvorschlag zur Marktintegration von PV-Anlagen im Kontext der EEG-Novelle 2027, was direkt die Themenfelder Erneuerbare Energien und Strommarktdesign berührt.",
+    "zusammenfassung": "Die E.ON SE <b>lehnt</b> den Modellvorschlag des SolarclusterBW zur „vereinfachten Direktvermarktung“ bzw. „gebündelten Marktintegration“ für PV-Dachanlagen <b>ab</b>. Das Unternehmen kritisiert, dass das Modell ein <b>Parallelsystem</b> ohne wirtschaftlichen oder systemischen Mehrwert schafft und erhebliche <b>Umsetzungskosten</b> für Netzbetreiber verursacht. E.ON warnt vor ungelösten fachlichen Lücken, insbesondere bei der <b>Bilanzierung</b>, Messung und Sanktionierung von Abregelungen. Stattdessen empfiehlt das Unternehmen, die <b>Direktvermarktung</b> als Regelfall beizubehalten und diese durch standardisierte digitale Prozesse massentauglich zu gestalten. Zudem fordert E.ON eine <b>gleitende Marktprämie</b> als Kompromiss, um Planungssicherheit für Erzeuger zu gewährleisten und den Marktanreiz zu erhalten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Modellvorschlag des SolarclusterBW zur Vermarktung von PV-Dachanlagen",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-06"
+  },
+  "SG2611030044": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die EEG-Novelle, Redispatch-Regelungen, den Ausbau erneuerbarer Energien sowie die Industriepolitik im Energiebereich.",
+    "zusammenfassung": "GermanZero e.V. <b>kritisiert</b> die aktuelle Klimapolitik der Bundesregierung und <b>fordert</b> eine Rücknahme geplanter Einschnitte bei der Solarförderung sowie der E-Bus-Finanzierung. Die Organisation lehnt den geplanten <b>Redispatch-Vorbehalt</b> im Netzanschlusspaket ab, da dieser den Ausbau erneuerbarer Energien behindere. Zudem wird die <b>Auflösung des Referats</b> für Wind-, Solar- und Transformationsindustrien im Bundeswirtschaftsministerium als kontraproduktiv für die Energiewende bewertet. Die Organisation <b>fordert</b> die Einhaltung des ursprünglichen Zeitplans für die EU-Methan-Verordnung und warnt vor einer Aufweichung des Verbrenner-Aus. Abschließend appelliert GermanZero an die Politik, das 1,5-Grad-Limit als verbindliche Bedingung für alle künftigen Entscheidungen zu etablieren.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Kritik an klimapolitischen Maßnahmen der Bundesregierung",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-06"
+  },
+  "SG2610140010": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit der Gebührenordnung für Tierärzte (GOT) und der wirtschaftlichen Situation von Tierarztpraxen. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Klimaschutz).",
+    "zusammenfassung": "Die WFG <b>fordert</b> gemeinsam mit weiteren Verbänden einen <b>regelmäßigen Anpassungsmechanismus</b> für die Gebührenordnung für Tierärzte (GOT). Die Organisation <b>warnt vor einem Rückgang</b> inhabergeführter Praxen, da die GOT-Anpassung von 2022 lediglich gestiegene Kosten für Energie, Personal und Material ausgeglichen habe. Eine <b>verlässliche Finanzierung</b> wird als zwingende Voraussetzung für die flächendeckende tierärztliche Versorgung und die <b>Existenzsicherung</b> der Praxen dargestellt. Die Verbände betonen, dass nur eine wirtschaftlich gesunde Berufsausübung die <b>Versorgungssicherheit</b> von Tieren langfristig gewährleisten könne. Zudem wird auf die sinkende Zahl niedergelassener Tierärzte verwiesen, was die Dringlichkeit einer wirtschaftlichen Stabilisierung unterstreiche.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Evaluierung der Gebührenordnung für Tierärzte (GOT)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-06"
   }
 }
