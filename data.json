@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:51:00.491525+01:00",
+  "generated_at": "2026-11-07T07:58:43.350461+01:00",
   "newly_added": 5,
   "statements": [
     {
@@ -39,7 +39,139 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die Energiepreise, den Ausbau erneuerbarer Energien, die Versorgungssicherheit und die Rolle von Speichern und Netzen.",
       "summary_quelle": "pdf_text",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R002081",
+      "org_name": "Evonik Industries AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002081/88400",
+      "regulatory_project_title": "Wahrung nationaler Gestaltungsspielräume bei individuellen Netzentgelten im EU-Grid-Package",
+      "sending_date": "2026-10-23",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/43/c3/870030/Stellungnahme-Gutachten-SG2611060018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611060018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060018",
+      "summary": "Die <b>Evonik Industries AG kritisiert</b> die im Rahmen der Trilogverhandlungen zur Strombinnenmarktverordnung (StromVO) vorgeschlagenen Änderungen an Artikel 18(3) und 61(5a). Das Unternehmen warnt davor, dass die <b>Einschränkung nationaler Spielräume</b> bei der Ausgestaltung individueller Netzentgelte die Wettbewerbsfähigkeit der energieintensiven Industrie gefährdet. Die geplante Verpflichtung zum Nachweis eines proportionalen Nutzens für das Netz wird als <b>praktisch nicht erfüllbar</b> eingestuft. Evonik fordert, die <b>Tarifautonomie nationaler Regulierungsbehörden</b> zu respektieren und das Subsidiaritätsprinzip zu wahren. Zudem wird befürchtet, dass die Vorgaben laufende nationale Reformprozesse zur Netzentgeltsystematik unterminieren. Das Unternehmen plädiert dafür, die <b>Regelungen offener zu fassen</b> und nationale Besonderheiten bei der Netzstruktur sowie Transformationsziele angemessen zu berücksichtigen.",
+      "register_description": "Das Regelungsvorhaben betrifft die Verhandlungen zum europäischen Grid-Package, insbesondere die Änderungen der Strombinnenmarkt-Verordnung zu individuellen Netzentgelten. Ziel der Interessenvertretung ist die Wahrung nationaler Gestaltungsspielräume bei der Ausgestaltung von Netzentgelten. Insbesondere soll sichergestellt werden, dass individuelle Netzentgelte und netzentgeltbezogene Entlastungsregelungen weiterhin unionsrechtskonform ausgestaltet werden können. Zudem sollen laufende nationale Reformprozesse zur Weiterentwicklung der Netzentgeltsystematik nicht durch europäische Vorgaben eingeschränkt oder vorgegeben werden. Die Berücksichtigung nationaler Besonderheiten bei Netzstruktur, Stromversorgung und industrieller Nutzung soll erhalten bleiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EU-Energiegesetzgebung und die Regulierung von Netzentgelten, welche zentrale Themen der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_scan",
       "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/88505",
+      "regulatory_project_title": "Novellierung des WindSeeG",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/68/b3/869809/Stellungnahme-Gutachten-SG2611060004.pdf",
+      "pdf_pages": 32,
+      "sg_number": "SG2611060004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060004",
+      "summary": "Der Bundesverband Windenergie Offshore <b>fordert</b> eine <b>CfD-only-Auktion</b> mit wirksamer <b>Indexierung</b>, um Investitionssicherheit und Realisierbarkeit bei Offshore-Windprojekten zu gewährleisten. Er <b>lehnt</b> das geplante Zweistufenmodell ab und <b>schlägt</b> einen befristeten <b>Rückgabe- und Neuausschreibungsmechanismus</b> für Projekte der Jahre 2023 bis 2025 vor. Zur Stärkung der Akteursvielfalt wird eine <b>Zuschlagsbegrenzung</b> auf eine Fläche pro Bieter sowie eine Deckelung der Sicherheiten auf 100 Mio. €/GW verlangt. Zudem fordert der Verband eine <b>frühzeitige Verbindlichkeit</b> von Netzanschlussterminen inklusive eines wirksamen Kompensationsmechanismus bei Verzögerungen. Hinsichtlich des Net-Zero-Industry Act wird eine einfache, unbürokratische Umsetzung angemahnt, die Cybersecurity-Anforderungen auf verhältnismäßige Maße begrenzt.",
+      "register_description": "Ziele der Novellierung des WindSeeG sollen die Steigerung der \r\nKosteneffizienz des Offshore-Ausbaus, die verbesserte Synchronisierung von \r\nNetzausbau und Erzeugungskapazität, die weitere Marktintegration des Offshore\r\nStroms sowie Regelungen zu Offshore-Wasserstoff-Erzeugung und -Transport sein. \r\nDie Weiterentwicklung des Regulierungsrahmens soll frühzeitig die Expertise aus der \r\nbetroffenen Wirtschaft, Wissenschaft und Zivilgesellschaft berücksichtigen.\r\nDie Konsultation ist der erste Schritt für die Reform des WindSeeG im Jahr 2026. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument ist eine offizielle Stellungnahme des Bundesverbandes Windenergie Offshore (BWO) zur Novellierung des WindSeeG, welche direkt die Themenfelder der Unterabteilung IIIA (Erneuerbare Energien, Stromerzeugung, Energiegesetzgebung) betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/88505",
+      "regulatory_project_title": "Ausschreibungsedesign Windenergie Offshore",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/a8/869792/Stellungnahme-Gutachten-SG2611060002.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611060002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060002",
+      "summary": "Der Bundesverband Windenergie Offshore <b>unterstützt</b> die Einführung des <b>CO2-Fußabdrucks als Zuschlagskriterium</b> mit einer Gewichtung von 7,5 Prozent. Die Organisation fordert eine <b>europaweite Harmonisierung</b> der Methodik sowie eine <b>bürokratiearme Umsetzung</b>, um Investitionssicherheit zu gewährleisten. Als methodische Grundlage wird das Offshore Wind Sustainability JIP (SUSJIP) empfohlen, wobei Datenzugang und Prüfanforderungen für den deutschen Markt konkretisiert werden müssen. Der Verband schlägt eine <b>Nachweishierarchie</b> vor, die lieferanten- und projektspezifische Daten priorisiert und anerkannte Standardwerte als Ersatz zulässt. Zudem wird gefordert, die <b>Nachweiszeitpunkte</b> am Projektfortschritt auszurichten und klare Schutzregelungen für unverschuldete Abweichungen zu schaffen. Die Bewertung der Rückbauphase wird aufgrund regulatorischer Unsicherheiten kritisch gesehen und sollte als Szenario behandelt werden.",
+      "register_description": "Ziel ist die Ausgestaltung eines effizienten und zugleich die Realisierung von Offshore-Windenergieparks in den Fokus rückenden Ausschreibungsdesigns. Reduzierung von Investitionsrisiken und Erhöhung der Realisierungswahrscheinlichkeit.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung von Ausschreibungsdesigns für Offshore-Windenergie, was ein zentrales Themenfeld der Unterabteilung IIIA (Erneuerbare Energien/Ausschreibungen) darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002081",
+      "org_name": "Evonik Industries AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002081/88400",
+      "regulatory_project_title": "Einführung von Rezyklateinsatzquoten und Rücknahmesystemen für Matratzen zur Förderung des PU-Schaum-Recyclings",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/50/d5/870024/Stellungnahme-Gutachten-SG2611060009.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611060009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060009",
+      "summary": "Die <b>Evonik Industries AG fordert</b> die Schaffung regulatorischer Rahmenbedingungen, um ein <b>chemisches Recycling von PU-Schaum</b> aus Altmatratzen im industriellen Maßstab zu ermöglichen. Das Unternehmen <b>schlägt technologieoffene Rezyklateinsatzquoten</b> vor, um die Nachfrage nach hochwertigen Rezyklaten zu fördern. Zudem wird die <b>Einführung eines verpflichtenden Sammelsystems</b> für Altmatratzen auf europäischer Ebene angeregt. Zur wirtschaftlichen Unterstützung wird eine <b>Senkung des Mehrwertsteuersatzes</b> für Produkte aus zirkulären Materialien befürwortet. Kritisch bewertet das Unternehmen die geplante Einführung getrennter Recyclingdefinitionen im Kreislaufwirtschaftsgesetz, da dies die <b>Rechtssicherheit für Investitionen</b> in chemische Verfahren gefährde.",
+      "register_description": "Ziel der Interessenvertretung ist die Schaffung geeigneter regulatorischer Rahmenbedingungen für die Kreislaufwirtschaft von Matratzen auf europäischer und nationaler Ebene. Hierzu gehören insbesondere die Festlegung von Rezyklateinsatzquoten für Polyurethan(PU)-Schaum in Matratzen im Rahmen der EU-Ökodesign-Vorgaben (ESPR), die Einführung bzw. Ausgestaltung einer erweiterten Herstellerverantwortung (Extended Producer Responsibility, EPR) für Matratzen, der Aufbau getrennter Sammel- und Rücknahmesysteme für Altmatratzen durch die Mitgliedstaaten sowie die Berücksichtigung von Matratzen im Rahmen der Nationalen Kreislaufwirtschaftsstrategie (NKWS) und weiterer kreislaufwirtschaftsrelevanter Regelungen.",
+      "recipients": [
+        "BKAmt",
+        "BMJV",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Kreislaufwirtschaft von Matratzen und chemischem Recycling von PU-Schaum. Diese Themen fallen in die Zuständigkeit des BMUV (Umweltministerium) und betreffen keine der spezifischen Zuständigkeiten der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Versorgungssicherheit).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R001655",
@@ -66,7 +198,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument betrifft die EU-Energiegesetzgebung und technische Netzanschlussbedingungen, die für die Versorgungssicherheit und den Ausbau erneuerbarer Energien relevant sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002309",
@@ -102,7 +234,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich kritisch mit einem spezifischen Modellvorschlag zur Marktintegration von PV-Anlagen im Kontext der EEG-Novelle 2027, was direkt die Themenfelder Erneuerbare Energien und Strommarktdesign berührt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003883",
@@ -1220,7 +1352,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die EEG-Novelle, Redispatch-Regelungen, den Ausbau erneuerbarer Energien sowie die Industriepolitik im Energiebereich.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000885",
@@ -7927,6 +8059,33 @@
       "gemini_status": "filtered",
       "register_description": "T&R beschäftigt sich intensiv mit unterschiedlichen Überlegungen zur Dekarbonisierung des Straßenverkehrs und dem damit einhergehenden Aufbau von alternativen Tank- und Ladeinfrastrukturen. Unter anderem setzt sich T&R daher im Rahmen der Konzessionsverträge für die Bewirtschaftung von Rastanlagen dafür ein, ein flächendeckendes und bedarfsgerechtes Netz an E-Ladeinfrastruktur für Pkw und Nutzfahrzeuge an Autobahnen aufzubauen, um den Hochlauf der Elektromobilität zu unterstützen.",
       "summary_quelle": "pdf_text"
+    },
+    {
+      "register_number": "R000965",
+      "org_name": "BVI Bundesverband Investment und Asset Management",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000965/87194",
+      "regulatory_project_title": "Einführung einer Frühstart-Rente",
+      "sending_date": "2026-10-05",
+      "upload_date": "2026-10-07",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/86/e9/869988/Stellungnahme-Gutachten-SG2610070021.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2610070021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610070021",
+      "summary": "Der BVI <b>begrüßt die Einführung</b> der Frühstartrente als Instrument zur Förderung der privaten kapitalgedeckten Altersvorsorge. Er <b>schlägt vor</b>, die Frühstartrente nahtlos in bestehende Altersvorsorgedepots zu integrieren, um Bürokratie zu vermeiden. Der Verband <b>kritisiert das Verbot</b> von Vertriebs- und Abschlusskosten, da dies den Zugang zu qualifizierter Beratung erschwere. Zudem wird eine <b>Anpassung der steuerlichen Behandlung</b> im Todesfall gefordert, um eine Ungleichbehandlung gegenüber anderen Vorsorgeprodukten zu verhindern. Die <b>staatliche Auffanglösung</b> wird als kontraproduktiv für die Finanzbildung der Kinder bewertet. Abschließend wird eine <b>Vereinfachung der Wahlrechte</b> bei Standarddepot-Verträgen angeregt, um die administrative Komplexität zu reduzieren.",
+      "register_description": "Die Bundesregierung plant eine sog. Frühstartrente für Kinder und Jugendliche von 6 bis 18 Jahren. Wir begrüßen die Einführung einer Frühstart-Rente und setzen uns dafür ein, dass sie Hand in Hand mit einer Reform der privaten geförderten Altersvorsorge geht. Damit das Konzept der Bundesregierung zur Förderung des Ausbaus der privaten Altersvorsorge erfolgreich wird, müssen die Ideen der Frühstart-Rente und ein Anschlussvorsorgeprodukt miteinander verbunden werden. Es ist daher sinnvoll, Fondssparpläne verstärkt für den Aufbau einer Frühstart-Rente zu nutzen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich mit der privaten Altersvorsorge und dem Finanzmarkt, was nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) des BMWK fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R001054",
@@ -109772,6 +109931,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1268,
+  "gemini_filtered_out": 1270,
   "gemini_legacy_open": 0
 }
