@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T07:58:43.350461+01:00",
-  "newly_added": 5,
+  "generated_at": "2026-11-08T08:06:48.469861+01:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R003890",
@@ -78,7 +78,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die EU-Energiegesetzgebung und die Regulierung von Netzentgelten, welche zentrale Themen der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_scan",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000252",
@@ -113,7 +113,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument ist eine offizielle Stellungnahme des Bundesverbandes Windenergie Offshore (BWO) zur Novellierung des WindSeeG, welche direkt die Themenfelder der Unterabteilung IIIA (Erneuerbare Energien, Stromerzeugung, Energiegesetzgebung) betrifft.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000252",
@@ -140,7 +140,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung von Ausschreibungsdesigns für Offshore-Windenergie, was ein zentrales Themenfeld der Unterabteilung IIIA (Erneuerbare Energien/Ausschreibungen) darstellt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002081",
