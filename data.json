@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-11-08T08:06:48.469861+01:00",
-  "newly_added": 0,
+  "generated_at": "2026-11-09T08:49:37.504655+01:00",
+  "newly_added": 2,
   "statements": [
+    {
+      "register_number": "R003031",
+      "org_name": "Wir! Stiftung Pflegender Angehöriger",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003031/88540",
+      "regulatory_project_title": "Stellungnahme der WIR! Stiftung pflegender Angehöriger zum Kabinettentwurf des Pflegeneuordnungsgesetzes (PNOG) im Vergleich zum Referentenentwurf",
+      "sending_date": "2026-10-17",
+      "upload_date": "2026-11-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cd/a7/870298/Stellungnahme-Gutachten-SG2611080002.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611080002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611080002",
+      "summary": "Die <b>WIR! Stiftung pflegender Angehöriger kritisiert</b> den Kabinettsentwurf des Pflegeneuordnungsgesetzes, da dieser trotz punktueller Korrekturen hinter dem notwendigen Reformbedarf zurückbleibt. Die Stiftung <b>warnt vor einer Überlastung</b> pflegender Angehöriger und fordert, diese nicht als kostenlose Ressource vorauszusetzen. Gefordert werden <b>bedarfsgerechte Budgets</b> sowie der Erhalt von Wahlmöglichkeiten bei der Versorgung. Zudem mahnt die Organisation eine <b>verlässliche soziale Absicherung</b> für Pflegende an, um Nachteile bei der Altersvorsorge zu vermeiden. Die <b>Verschiebung der Leistungsdynamisierung</b> auf 2029 wird als problematisch eingestuft, da sie die finanzielle Belastung der Betroffenen verschärfen könnte. Abschließend plädiert die Stiftung für einen <b>neuen gesellschaftlichen Pflegevertrag</b>, der Mitbestimmung und Lebensqualität in den Mittelpunkt stellt.",
+      "register_description": "Die Stellungnahme kritisiert den Kabinettentwurf des Pflegeneuordnungsgesetzes (PNOG). Positive Korrekturen gegenüber dem Referentenentwurf  wie der Erhalt von Rentenbeiträgen reichen nicht aus. Problematisch bleiben verschobene Leistungsdynamisierungen, spätere Pflegebegleitungen, neue Zugangshürden und strengere Zweckbindungen bei Budgets.\r\nGefordert wird ein grundlegender Perspektivwechsel: Angehörigenpflege darf nicht als unerschöpfliche, kostenlose Ressource vorausgesetzt werden. Es braucht bedarfsgerechte Budgets, verlässliche soziale Absicherung für Pflegende, den Ausbau professioneller Strukturen sowie einen neuen gesellschaftlichen Pflegevertrag, der Selbstbestimmung und Lebensqualität in den Mittelpunkt stellt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit pflegepolitischen Regelungen und der sozialen Absicherung pflegender Angehöriger. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz im Energiesektor).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003031",
+      "org_name": "Wir! Stiftung Pflegender Angehöriger",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003031/88540",
+      "regulatory_project_title": "Brief an Gesundheitsausschuss des Deutschen Bundestages und Pflegekommission: \"Pflege neu denken: Systemwechsel statt Kosmetik\"",
+      "sending_date": "2026-10-17",
+      "upload_date": "2026-11-08",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/91/66/870290/Stellungnahme-Gutachten-SG2611080001.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611080001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611080001",
+      "summary": "Die <b>WIR! Stiftung pflegender Angehöriger fordert</b> einen grundlegenden <b>Systemwechsel in der Pflegepolitik</b>, um die Abhängigkeit von unentgeltlicher familiärer Sorgearbeit zu beenden. Die Stiftung verlangt eine <b>verbindliche Mitbestimmung</b> pflegender Angehöriger in politischen Entscheidungsgremien sowie eine <b>rechtliche Verankerung und soziale Absicherung</b> der Angehörigenpflege. Es wird eine <b>bedarfsgerechte Finanzierung</b> gefordert, die neben direkten Pflegekosten auch die sozioökonomischen Folgen unbezahlter Sorgearbeit berücksichtigt. Zudem wird der Ausbau <b>familienunabhängiger Versorgungsstrukturen</b> und ein Case Management zur Sicherstellung der Grundversorgung angestrebt. Abschließend regt die Stiftung die Prüfung eines eigenständigen Pflegeministeriums an, um eine ressortübergreifende Gestaltung der Pflegepolitik zu gewährleisten.",
+      "register_description": "Weiterentwicklung der gesetzlichen Rahmenbedingungen für die Pflege in Deutschland, insbesondere des SGB XI und angrenzender Sozialgesetzgebung. Ziel ist die rechtliche Anerkennung und soziale Absicherung pflegender Angehöriger, ihre verbindliche Beteiligung an pflegepolitischen Entscheidungsprozessen sowie die Schaffung transparenter, bedarfsgerechter Finanzierungs- und Versorgungsstrukturen. Angestrebt werden verbindliche Rechte und Ansprüche für pflegende Angehörige, eine Verbesserung ihrer sozialen und finanziellen Absicherung sowie der Ausbau wohnortnaher Unterstützungsangebote und professioneller Versorgungsstrukturen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit pflegepolitischen Forderungen und der Reform des SGB XI. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Klimaschutz, etc.).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003890",
       "org_name": "Landesverband Erneuerbare Energien Schleswig-Holstein e.V. ",
@@ -109931,6 +109985,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1270,
+  "gemini_filtered_out": 1272,
   "gemini_legacy_open": 0
 }

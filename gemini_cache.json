@@ -40822,5 +40822,29 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-07"
+  },
+  "SG2611080002": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit pflegepolitischen Regelungen und der sozialen Absicherung pflegender Angehöriger. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz im Energiesektor).",
+    "zusammenfassung": "Die <b>WIR! Stiftung pflegender Angehöriger kritisiert</b> den Kabinettsentwurf des Pflegeneuordnungsgesetzes, da dieser trotz punktueller Korrekturen hinter dem notwendigen Reformbedarf zurückbleibt. Die Stiftung <b>warnt vor einer Überlastung</b> pflegender Angehöriger und fordert, diese nicht als kostenlose Ressource vorauszusetzen. Gefordert werden <b>bedarfsgerechte Budgets</b> sowie der Erhalt von Wahlmöglichkeiten bei der Versorgung. Zudem mahnt die Organisation eine <b>verlässliche soziale Absicherung</b> für Pflegende an, um Nachteile bei der Altersvorsorge zu vermeiden. Die <b>Verschiebung der Leistungsdynamisierung</b> auf 2029 wird als problematisch eingestuft, da sie die finanzielle Belastung der Betroffenen verschärfen könnte. Abschließend plädiert die Stiftung für einen <b>neuen gesellschaftlichen Pflegevertrag</b>, der Mitbestimmung und Lebensqualität in den Mittelpunkt stellt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Pflegeneuordnungsgesetz (PNOG)",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-09"
+  },
+  "SG2611080001": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit pflegepolitischen Forderungen und der Reform des SGB XI. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Klimaschutz, etc.).",
+    "zusammenfassung": "Die <b>WIR! Stiftung pflegender Angehöriger fordert</b> einen grundlegenden <b>Systemwechsel in der Pflegepolitik</b>, um die Abhängigkeit von unentgeltlicher familiärer Sorgearbeit zu beenden. Die Stiftung verlangt eine <b>verbindliche Mitbestimmung</b> pflegender Angehöriger in politischen Entscheidungsgremien sowie eine <b>rechtliche Verankerung und soziale Absicherung</b> der Angehörigenpflege. Es wird eine <b>bedarfsgerechte Finanzierung</b> gefordert, die neben direkten Pflegekosten auch die sozioökonomischen Folgen unbezahlter Sorgearbeit berücksichtigt. Zudem wird der Ausbau <b>familienunabhängiger Versorgungsstrukturen</b> und ein Case Management zur Sicherstellung der Grundversorgung angestrebt. Abschließend regt die Stiftung die Prüfung eines eigenständigen Pflegeministeriums an, um eine ressortübergreifende Gestaltung der Pflegepolitik zu gewährleisten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Weiterentwicklung der gesetzlichen Rahmenbedingungen für die Pflege",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-09"
   }
 }
