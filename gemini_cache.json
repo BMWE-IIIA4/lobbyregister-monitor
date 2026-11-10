@@ -40846,5 +40846,113 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-09"
+  },
+  "SG2611090012": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des BMWE zur Einführung einer strategischen Gasreserve, was ein zentrales Thema der Versorgungssicherheit darstellt.",
+    "zusammenfassung": "Die <b>EWE AG schlägt vor</b>, die geplante strategische Gasreserve von 24 TWh auf <b>mindestens 80 TWh zu erhöhen</b>, um eine Resilienz über drei Wintermonate zu gewährleisten. Das Unternehmen <b>kritisiert die Dimensionierung</b> des Referentenentwurfs als lediglich kurzfristigen Puffer und fordert eine <b>klare Kopplung des Abrufs</b> an Notfallstufen. Zudem wird eine <b>frühzeitige Einbindung der Speicherbetreiber</b> bei der technischen Ausgestaltung angemahnt, um Planungssicherheit zu gewährleisten. Die Finanzierung sollte sich nach dem abzusichernden Versorgungsrisiko richten und nicht primär an der aktuellen Haushaltslage orientiert sein. Abschließend betont die EWE AG die Notwendigkeit, die <b>Reserve als Last-Resort-Instrument</b> auszugestalten, um marktliche Speicheranreize zu erhalten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Einführung einer strategischen Gasreserve",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611090010": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich direkt mit der Ausgestaltung von Netzanschlussverfahren und der Priorisierung von Netzanschlussanfragen im Rahmen des EnWG, was ein zentrales Thema der Unterabteilung IIIA (Strommarktregulierung/Netze) ist.",
+    "zusammenfassung": "Die EWE AG <b>kritisiert</b> den aktuellen Entwurf zur <b>Priorisierung von Netzanschlussanfragen</b> als unzureichend und warnt vor einem „Wildwuchsprinzip“. Das Unternehmen <b>fordert verbindliche gesetzliche Kriterien</b> anstelle optionaler Vorgaben, um Rechtssicherheit und Einheitlichkeit zu gewährleisten. Die Übertragung der Verfahrensentwicklung von Übertragungsnetzbetreibern auf Verteilnetzbetreiber wird als fachlich ungeeignet abgelehnt. Stattdessen wird ein <b>Festlegungsverfahren durch die Bundesnetzagentur</b> unter Einbeziehung der Verteilnetzbetreiber vorgeschlagen. Dies soll eine <b>schnellere Umsetzung</b> ermöglichen und Investitionen in Standorte und Technologien absichern. Zudem wird eine klare Definition von Begriffen wie <b>Netzdienlichkeit</b> angemahnt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Priorisierung von Netzanschlussanfragen auf Verteilnetzebene",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611090009": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert zentrale Anpassungsbedarfe im EEG-Regierungsentwurf, insbesondere zur RFNBO-konformen Wasserstofferzeugung, zum Doppelvermarktungsverbot und zu PPA-Regelungen, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+    "zusammenfassung": "Die <b>EWE AG schlägt Anpassungen</b> am EEG-Regierungsentwurf vor, um die <b>RFNBO-konforme Wasserstofferzeugung</b> zu erleichtern. Das Unternehmen <b>fordert eine Präzisierung des Doppelvermarktungsverbots</b> in § 80 EEG, damit Nachweise über den Einsatz von erneuerbarem Strom für Wasserstoff nicht zum Ausschluss der EEG-Förderung führen. Zudem wird angeregt, <b>PPA-Frontjahre im CfD-Mechanismus</b> zu ermöglichen, um Elektrolyseuren den Bezug von grünem Strom wirtschaftlich zu erleichtern. Für Offshore-Windanlagen wird ein <b>flexibler Einstieg in die Förderung</b> durch eine Opt-in-Regelung im WindSeeG empfohlen. Ziel dieser Maßnahmen ist die Schaffung von Rechts- und Investitionssicherheit für Wasserstoffprojekte. Die EWE AG warnt davor, dass andernfalls die Strombeschaffung gemäß den europäischen Kriterien wirtschaftlich kaum realisierbar sei.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Anpassungen im EEG-Regierungsentwurf zur RFNBO-konformen Wasserstofferzeugung",
+    "bezug": "kern",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611090005": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit wettbewerbsrechtlichen Anforderungen an Umweltaussagen und der Auslegung des UWG im Kontext der EmpCo-Richtlinie. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA (z.B. Strommarkt, Erneuerbare Energien, Versorgungssicherheit).",
+    "zusammenfassung": "Der Gesamtverband der Deutschen Versicherungswirtschaft <b>schlägt eine Ergänzung</b> des § 5 UWG vor, um Rechtsunsicherheiten bei der Umsetzung der EmpCo-Richtlinie zu vermeiden. Der Verband <b>fordert die Anerkennung</b> von Nachhaltigkeitsberichten gemäß CSRD als <b>Umsetzungsplan für Umweltleistungen</b>. Dies soll eine <b>doppelte Erstellung</b> und Prüfung von Berichten mit inhaltlich vergleichbaren Anforderungen verhindern. Die Organisation warnt vor <b>erheblichen Zusatzkosten</b> durch parallele Zertifizierungsprozesse. Alternativ wird eine <b>Klarstellung in den Gesetzesmaterialien</b> angeregt, falls eine direkte Textänderung nicht umsetzbar ist. Die vorgeschlagene Regelung soll sicherstellen, dass bereits bestehende externe Prüfungen nach CSRD-Vorgaben als Nachweis für die EmpCo-Richtlinie ausreichen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Umsetzung der EmpCo-Richtlinie im UWG",
+    "bezug": "kern",
+    "hauptgesetz": "UWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611090004": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit wettbewerbsrechtlichen Aspekten der Fusionskontrolle und des Digital Markets Act (DMA) im Rahmen der GWB-Novelle. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+    "zusammenfassung": "Der Bundesverband Deutsche Startups <b>begrüßt</b> die geplante <b>Effizienzsteigerung</b> der Fusionskontrolle durch die 12. GWB-Novelle, <b>warnt</b> jedoch vor der <b>Ausweitung der Transaktionswertschwelle</b> auf voraussichtliche Inlandstätigkeiten. Der Verband kritisiert die damit verbundene Rechtsunsicherheit für Investitionen und Exits junger Unternehmen als potenziellen Standortnachteil. Er <b>schlägt vor</b>, das Kriterium bei einer Beibehaltung gesetzlich eng zu fassen und einen begrenzten Prognosehorizont zu verankern. Zudem wird die <b>Stärkung der privaten Durchsetzung</b> des Digital Markets Act gefordert, um Hürden für Startups abzubauen. Die Anhebung der Umsatzschwellen und das neue Anzeigeverfahren werden als sinnvolle Entlastungen bewertet, sofern die Anforderungen an die Anzeige schlank bleiben.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "12. GWB-Novelle",
+    "bezug": "kern",
+    "hauptgesetz": "GWB",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611090001": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument betrifft eichrechtliche Detailfragen zu Gasmessgeräten (Signiereinheiten), die nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik/Strommarkt) fallen.",
+    "zusammenfassung": "Der DVGW <b>begrüßt</b> die geplante Umsetzung der Messgeräterichtlinie, <b>fordert</b> jedoch eine Anpassung der Eichfristen für DSfG-Kommunikationseinheiten. Der Verband <b>schlägt vor</b>, diese Signiereinheiten für Gasmessdaten mit einer <b>unbefristeten Eichfrist</b> zu versehen. Zur Begründung führt der DVGW an, dass die Geräte keine Messungen durchführen und durch ständige Datenabrufe bereits permanent überwacht werden. Die aktuelle <b>achtjährige Nacheichung</b> wird als ineffizient bewertet, da sie keinen Mehrwert für die Messgenauigkeit oder Sicherheit biete. Eine Gleichstellung mit dem Smart Meter Gateway wird angestrebt, um unnötigen Aufwand und Kosten zu vermeiden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Änderung der Mess- und Eichverordnung (MessEV)",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "MessEV",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611060024": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich mit der Ausgestaltung der Förderbedingungen für Biomasseanlagen im Rahmen der EEW-Richtlinie und deren Konformität mit der EU-RED III, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik/Erneuerbare Energien) fällt.",
+    "zusammenfassung": "Die STEAG GmbH <b>schlägt vor</b>, den aktuellen <b>Förderausschluss</b> für Biomasseanlagen ab 7,5 MW Gesamtfeuerungswärmeleistung in der Bundesförderung Energie- und Ressourceneffizienz in der Wirtschaft (EEW) aufzuheben. Das Unternehmen kritisiert, dass der pauschale Ausschluss über die Anforderungen der EU-Richtlinie RED III hinausgeht und eine <b>Übererfüllung</b> (Gold-Plating) darstellt. Statt eines Ausschlusses wird eine <b>Anpassung der Fördervoraussetzungen</b> empfohlen, die die Einhaltung von Nachhaltigkeits- und Treibhausgasminderungskriterien gemäß RED III zur Bedingung macht. Zur Umsetzung werden Verweise auf die Biomassestrom-Nachhaltigkeitsverordnung (BioSt-NachV) oder die Kriterien der RED III vorgeschlagen. Die Prüfung der Kriterien soll dabei durch <b>unabhängige Auditoren</b> und anerkannte Zertifizierungssysteme erfolgen, um den Verwaltungsaufwand für den Fördermittelgeber gering zu halten. Ziel ist eine <b>unbürokratische Lösung</b>, die eine langfristige Förderung der Biomasse- und KWK-Anlagen ermöglicht.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Prozesswärmeförderung für Biomasseanlagen nach der Bundesförderung Energie- und Ressourceneffizienz in der Wirtschaft (EEW)",
+    "bezug": "kern",
+    "hauptgesetz": "EEW",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611060023": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument analysiert den AgNes-Prozess der BNetzA zur Neugestaltung der Netzentgelte, was direkt in den Bereich Strommarktdesign und -regulierung sowie Netzentgeltsystematik der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die <b>STEAG GmbH kritisiert</b> den AgNes-Prozess der Bundesnetzagentur als <b>rechtliches Potpourri</b> und warnt vor einer <b>Überforderung der Netzbetreiber</b> durch die geplante Einführung dynamischer Netzentgelte. Das Unternehmen bezweifelt, dass die BNetzA die notwendige <b>Systemperspektive</b> einnimmt, da Eigeninteressen an einer Netzentgeltsenkung durch Umverteilung die fachliche Analyse überlagern könnten. Es wird bemängelt, dass die <b>Verursachungsgerechtigkeit</b> bei der Kostenwälzung aufgrund fehlender Datengrundlagen und unklarer Engpassdefinitionen kaum operabel umsetzbar ist. Zudem warnt der Autor vor einer <b>faktischen Teilung der Gebotszonen</b> durch regional differenzierte Entgelte, die den Stromhandel einschränken könnte. Die STEAG fordert stattdessen eine stärkere Berücksichtigung der <b>Netzdienlichkeit</b> und eine stabilere, transparente Regelungsbasis für Investoren.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "AgNes-Prozess der Bundesnetzagentur zur neuen Netzentgeltsystematik",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
+  },
+  "SG2611060021": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument analysiert kritisch den AgNes-Prozess der Bundesnetzagentur zur Reform der Stromnetzentgelte, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung/Netzentgelte) fällt.",
+    "zusammenfassung": "Die STEAG GmbH <b>kritisiert</b> den AgNes-Prozess der Bundesnetzagentur als <b>systemisch unausgewogen</b> und warnt vor einer Überforderung der Netzbetreiber durch die geplante <b>kapazitative Ausrichtung</b> der Netzentgelte. Das Unternehmen bezweifelt, dass die Reform ohne eine präzise Definition von <b>Netzdienlichkeit</b> und Engpassmanagement zu einer effizienten Allokation führt. Es wird bemängelt, dass die BNetzA Eigeninteressen bei der Netzentgeltsenkung priorisiert, während systemische Interessen wie die <b>Synchronisierung von Netzausbau und Anlagenzubau</b> vernachlässigt werden. Zudem warnt der Autor vor einer faktischen <b>Teilung in Gebotszonen</b> durch regional differenzierte Entgelte. Die STEAG fordert eine stärkere Berücksichtigung des <b>Vertrauensschutzes</b> für Investoren und eine stabilere, operabel umsetzbare Regelungsbasis.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "AgNes-Prozess der Bundesnetzagentur zur Neugestaltung der Stromnetzentgeltsystematik",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-10"
   }
 }

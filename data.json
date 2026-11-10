@@ -1,7 +1,193 @@
 {
-  "generated_at": "2026-11-09T08:49:37.504655+01:00",
-  "newly_added": 2,
+  "generated_at": "2026-11-10T09:11:37.349244+01:00",
+  "newly_added": 9,
   "statements": [
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/88562",
+      "regulatory_project_title": "Einführung einer strategischen Gasreserve zur Sicherung der Gasversorgung",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6f/a1/870536/Stellungnahme-Gutachten-SG2611090012.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611090012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611090012",
+      "summary": "Die <b>EWE AG schlägt vor</b>, die geplante strategische Gasreserve von 24 TWh auf <b>mindestens 80 TWh zu erhöhen</b>, um eine Resilienz über drei Wintermonate zu gewährleisten. Das Unternehmen <b>kritisiert die Dimensionierung</b> des Referentenentwurfs als lediglich kurzfristigen Puffer und fordert eine <b>klare Kopplung des Abrufs</b> an Notfallstufen. Zudem wird eine <b>frühzeitige Einbindung der Speicherbetreiber</b> bei der technischen Ausgestaltung angemahnt, um Planungssicherheit zu gewährleisten. Die Finanzierung sollte sich nach dem abzusichernden Versorgungsrisiko richten und nicht primär an der aktuellen Haushaltslage orientiert sein. Abschließend betont die EWE AG die Notwendigkeit, die <b>Reserve als Last-Resort-Instrument</b> auszugestalten, um marktliche Speicheranreize zu erhalten.",
+      "register_description": "Einführung einer strategischen Gasreserve von mind. 80 TWh zur Absicherung gegen gravierende Import- und Infrastrukturausfälle sowie extreme Kälteperioden. Dimensionierung und Finanzierung sollen sich am tatsächlich abzusichernden Versorgungsrisiko orientieren. Der Abruf soll strikt an die Notfallstufe und klare Krisenkriterien gekoppelt werden. Gefordert werden ein mehrjähriger Aufbau mit verbindlichen zeitlichen Leitplanken, eine fünf- bis zehnjährige Laufzeit mit regelmäßiger Bedarfsüberprüfung sowie die frühzeitige Einbindung der Speicherbetreiber bei technischen Anforderungen. Ausspeicherleistung und spätere H2-Umrüstung sind zu berücksichtigen. Die Reserve soll als letztes Mittel dienen, um marktliche Speicherbefüllungsanreize zu erhalten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des BMWE zur Einführung einer strategischen Gasreserve, was ein zentrales Thema der Versorgungssicherheit darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/88562",
+      "regulatory_project_title": "Anpassung der Inhalte des Netzanschlusspakets",
+      "sending_date": "2026-06-01",
+      "upload_date": "2026-11-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/25/4d/870534/Stellungnahme-Gutachten-SG2611090010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611090010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611090010",
+      "summary": "Die EWE AG <b>kritisiert</b> den aktuellen Entwurf zur <b>Priorisierung von Netzanschlussanfragen</b> als unzureichend und warnt vor einem „Wildwuchsprinzip“. Das Unternehmen <b>fordert verbindliche gesetzliche Kriterien</b> anstelle optionaler Vorgaben, um Rechtssicherheit und Einheitlichkeit zu gewährleisten. Die Übertragung der Verfahrensentwicklung von Übertragungsnetzbetreibern auf Verteilnetzbetreiber wird als fachlich ungeeignet abgelehnt. Stattdessen wird ein <b>Festlegungsverfahren durch die Bundesnetzagentur</b> unter Einbeziehung der Verteilnetzbetreiber vorgeschlagen. Dies soll eine <b>schnellere Umsetzung</b> ermöglichen und Investitionen in Standorte und Technologien absichern. Zudem wird eine klare Definition von Begriffen wie <b>Netzdienlichkeit</b> angemahnt.",
+      "register_description": "Anpassung des Netzanschlusspakets („Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“, Kabinettsbeschluss v. 29.7.2026) bzgl. Entschädigungen für Engpass-Abregelungen, netzvertraglicher Regelungen, kapazitätslimitierter Netzbetriebsmittel, Wirkleistungsbegrenzung und Abstimmung mit der Netzentgeltsystematik (AgNes). Schaffung eines rechtssicheren, bundesweit einheitlichen Priorisierungsverfahrens für Netzanschlussanfragen auf Verteilnetzebene mit gesetzlich verankerten Kriterien, insbesondere Reifegrad, Transformationsziele, Daseinsvorsorge, Resilienz und Netzdienlichkeit, sowie Festlegung durch die Bundesnetzagentur unter Beteiligung der Verteilnetzbetreiber.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung von Netzanschlussverfahren und der Priorisierung von Netzanschlussanfragen im Rahmen des EnWG, was ein zentrales Thema der Unterabteilung IIIA (Strommarktregulierung/Netze) ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001058",
+      "org_name": "EWE AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001058/88562",
+      "regulatory_project_title": "Änderung der Inhalte des EEG-Gesetzentwurfs",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-11-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/03/870532/Stellungnahme-Gutachten-SG2611090009.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611090009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611090009",
+      "summary": "Die <b>EWE AG schlägt Anpassungen</b> am EEG-Regierungsentwurf vor, um die <b>RFNBO-konforme Wasserstofferzeugung</b> zu erleichtern. Das Unternehmen <b>fordert eine Präzisierung des Doppelvermarktungsverbots</b> in § 80 EEG, damit Nachweise über den Einsatz von erneuerbarem Strom für Wasserstoff nicht zum Ausschluss der EEG-Förderung führen. Zudem wird angeregt, <b>PPA-Frontjahre im CfD-Mechanismus</b> zu ermöglichen, um Elektrolyseuren den Bezug von grünem Strom wirtschaftlich zu erleichtern. Für Offshore-Windanlagen wird ein <b>flexibler Einstieg in die Förderung</b> durch eine Opt-in-Regelung im WindSeeG empfohlen. Ziel dieser Maßnahmen ist die Schaffung von Rechts- und Investitionssicherheit für Wasserstoffprojekte. Die EWE AG warnt davor, dass andernfalls die Strombeschaffung gemäß den europäischen Kriterien wirtschaftlich kaum realisierbar sei.",
+      "register_description": "Die Inhalte des EEG-Kabinettsentwurfs (Stand 29.7.2026) sollten wie folgt angepasst werden:\r\n- PPA-Frontjahre mit späterer CfD-Absicherung ermöglichen. \r\n- Übererlösabschöpfung durch eine negative Marktprämie vereinfachen. \r\n- Resilienzausschreibungen zusätzlich ausgestalten und Ausschreibungen für Wind an Land über 2032 hinaus absichern. \r\n- Pachthöhenbegrenzung für Windenergie an Land nicht einführen\r\n- Starre Einspeisebegrenzungen für systemdienliche PV-Anlagen vermeiden. \r\n- Marktprämie für direktvermarktete Kleinanlagen unter 25 kW erhalten und Direktvermarktung praxistauglich ausgestalten. \r\n- RFNBO-Nachweise vom Doppelvermarktungsverbot ausnehmen. \r\n- EEG, Netzanschlusspaket und AgNes aufeinander abstimmen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Anpassungsbedarfe im EEG-Regierungsentwurf, insbesondere zur RFNBO-konformen Wasserstofferzeugung, zum Doppelvermarktungsverbot und zu PPA-Regelungen, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000774",
+      "org_name": "Gesamtverband der Deutschen Versicherungswirtschaft e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000774/88551",
+      "regulatory_project_title": "Umsetzung Richtlinie zum ökologischen Wandel / 3. Gesetz zur Änderung des UWG",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-11-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/68/2d/870427/Stellungnahme-Gutachten-SG2611090005.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611090005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611090005",
+      "summary": "Der Gesamtverband der Deutschen Versicherungswirtschaft <b>schlägt eine Ergänzung</b> des § 5 UWG vor, um Rechtsunsicherheiten bei der Umsetzung der EmpCo-Richtlinie zu vermeiden. Der Verband <b>fordert die Anerkennung</b> von Nachhaltigkeitsberichten gemäß CSRD als <b>Umsetzungsplan für Umweltleistungen</b>. Dies soll eine <b>doppelte Erstellung</b> und Prüfung von Berichten mit inhaltlich vergleichbaren Anforderungen verhindern. Die Organisation warnt vor <b>erheblichen Zusatzkosten</b> durch parallele Zertifizierungsprozesse. Alternativ wird eine <b>Klarstellung in den Gesetzesmaterialien</b> angeregt, falls eine direkte Textänderung nicht umsetzbar ist. Die vorgeschlagene Regelung soll sicherstellen, dass bereits bestehende externe Prüfungen nach CSRD-Vorgaben als Nachweis für die EmpCo-Richtlinie ausreichen.",
+      "register_description": "Die Umsetzung der Richtlinie hinsichtlich der Stärkung der Verbraucher für den ökologischen Wandel durch besseren Schutz gegen unlautere Praktiken und durch bessere Informationen sollte 1:1 erfolgen und Rechtsklarheit beim Begriff \"Umweltaussage\" schaffen. Zudem sollte, soweit der von den Anbietern zu entwickelnde Umsetzungsplan für beworbene Umweltleistungen von einem unabhängigen externen Sachverständigen zu überprüfen sind, klargestellt werden, dass diese Prüfung auch durch die Abschlussprüfer erfolgen kann.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit wettbewerbsrechtlichen Anforderungen an Umweltaussagen und der Auslegung des UWG im Kontext der EmpCo-Richtlinie. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA (z.B. Strommarkt, Erneuerbare Energien, Versorgungssicherheit).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002111",
+      "org_name": "Bundesverband Deutsche Startups e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002111/88547",
+      "regulatory_project_title": "Startup-freundliche Ausgestaltung der Fusionskontrolle in der 12. GWB-Novelle",
+      "sending_date": "2026-06-19",
+      "upload_date": "2026-11-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/64/d5/870371/Stellungnahme-Gutachten-SG2611090004.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611090004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611090004",
+      "summary": "Der Bundesverband Deutsche Startups <b>begrüßt</b> die geplante <b>Effizienzsteigerung</b> der Fusionskontrolle durch die 12. GWB-Novelle, <b>warnt</b> jedoch vor der <b>Ausweitung der Transaktionswertschwelle</b> auf voraussichtliche Inlandstätigkeiten. Der Verband kritisiert die damit verbundene Rechtsunsicherheit für Investitionen und Exits junger Unternehmen als potenziellen Standortnachteil. Er <b>schlägt vor</b>, das Kriterium bei einer Beibehaltung gesetzlich eng zu fassen und einen begrenzten Prognosehorizont zu verankern. Zudem wird die <b>Stärkung der privaten Durchsetzung</b> des Digital Markets Act gefordert, um Hürden für Startups abzubauen. Die Anhebung der Umsatzschwellen und das neue Anzeigeverfahren werden als sinnvolle Entlastungen bewertet, sofern die Anforderungen an die Anzeige schlank bleiben.",
+      "register_description": "Der Startup-Verband setzt sich dafür ein, dass die 12. GWB-Novelle die Transaktionswertschwelle nicht auf eine voraussichtliche Inlandstätigkeit ausweitet, hilfsweise das Kriterium im Gesetzestext eng fasst (begrenzter Prognosehorizont, nachprüfbare Anknüpfungstatsachen). Angestrebt werden zudem ein schlankes, gebührenfreies Anzeigeverfahren und verhältnismäßige und digitale Pflichten beim Vergabescreening.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit wettbewerbsrechtlichen Aspekten der Fusionskontrolle und des Digital Markets Act (DMA) im Rahmen der GWB-Novelle. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000916",
+      "org_name": "DVGW Deutscher Verein des Gas- und Wasserfaches e.V. - Technisch-wissenschaftlicher Verein",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000916/88548",
+      "regulatory_project_title": "Erweiterung der Messgeräterichtlinie und Anpassung weiterer eichrechtlicher Regelungen.",
+      "sending_date": "2026-10-28",
+      "upload_date": "2026-11-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7e/10/870361/Stellungnahme-Gutachten-SG2611090001.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611090001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611090001",
+      "summary": "Der DVGW <b>begrüßt</b> die geplante Umsetzung der Messgeräterichtlinie, <b>fordert</b> jedoch eine Anpassung der Eichfristen für DSfG-Kommunikationseinheiten. Der Verband <b>schlägt vor</b>, diese Signiereinheiten für Gasmessdaten mit einer <b>unbefristeten Eichfrist</b> zu versehen. Zur Begründung führt der DVGW an, dass die Geräte keine Messungen durchführen und durch ständige Datenabrufe bereits permanent überwacht werden. Die aktuelle <b>achtjährige Nacheichung</b> wird als ineffizient bewertet, da sie keinen Mehrwert für die Messgenauigkeit oder Sicherheit biete. Eine Gleichstellung mit dem Smart Meter Gateway wird angestrebt, um unnötigen Aufwand und Kosten zu vermeiden.",
+      "register_description": "Mit der neuen Verordnung wird das Targeted Technical Amendment der Messgeräterichtlinie umgesetzt. Der Anwendungsbereich wird u.a. auf Ladeinfrastruktur und Zapfsäulen für Druckgastankstellen erweitert. Konformitätsbewertungsstellen können künftig Zertifikate für verschiedene Zähler nach der geänderten Richtlinie ausstellen, wodurch insbesondere Hersteller von Ladeinfrastruktur harmonisierte europäische Verfahren nutzen können.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft eichrechtliche Detailfragen zu Gasmessgeräten (Signiereinheiten), die nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik/Strommarkt) fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R003031",
       "org_name": "Wir! Stiftung Pflegender Angehöriger",
@@ -195,6 +381,142 @@
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung von Ausschreibungsdesigns für Offshore-Windenergie, was ein zentrales Themenfeld der Unterabteilung IIIA (Erneuerbare Energien/Ausschreibungen) darstellt.",
       "summary_quelle": "pdf_text",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001232",
+      "org_name": "STEAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001232/87610",
+      "regulatory_project_title": "Klare und verlässliche Regeln für die Strom- und Wärmeerzeugung auf der Basis von Biomasse, Abfällen und Altholz",
+      "sending_date": "2026-10-21",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9e/7a/870453/Stellungnahme-Gutachten-SG2611060024.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611060024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060024",
+      "summary": "Die STEAG GmbH <b>schlägt vor</b>, den aktuellen <b>Förderausschluss</b> für Biomasseanlagen ab 7,5 MW Gesamtfeuerungswärmeleistung in der Bundesförderung Energie- und Ressourceneffizienz in der Wirtschaft (EEW) aufzuheben. Das Unternehmen kritisiert, dass der pauschale Ausschluss über die Anforderungen der EU-Richtlinie RED III hinausgeht und eine <b>Übererfüllung</b> (Gold-Plating) darstellt. Statt eines Ausschlusses wird eine <b>Anpassung der Fördervoraussetzungen</b> empfohlen, die die Einhaltung von Nachhaltigkeits- und Treibhausgasminderungskriterien gemäß RED III zur Bedingung macht. Zur Umsetzung werden Verweise auf die Biomassestrom-Nachhaltigkeitsverordnung (BioSt-NachV) oder die Kriterien der RED III vorgeschlagen. Die Prüfung der Kriterien soll dabei durch <b>unabhängige Auditoren</b> und anerkannte Zertifizierungssysteme erfolgen, um den Verwaltungsaufwand für den Fördermittelgeber gering zu halten. Ziel ist eine <b>unbürokratische Lösung</b>, die eine langfristige Förderung der Biomasse- und KWK-Anlagen ermöglicht.",
+      "register_description": "Die Strom- und Wärmeerzeugung aus Abfällen und Altholz leistet einen wichtigen Beitrag zur Dekarbonisierung. Das Regelwerk hierfür ist in der Vergangenheit mehrfach geändert worden, insb. zur Umsetzung von immer wieder überarbeitetem Unionsrecht. Darüber hinaus liefern Strategiepapiere der Bundesregierung wechselnde Indikationen bzgl. der zukünftig möglichen Ausgestaltung der Regeln. Wir verfolgen das Ziel, dass der Gesetzgeber verlässliche und klare Bedingungen definiert, unter denen langfristig Strom- und Wärmeerzeugung auf der Basis von Biomasse, Abfällen und Altholz weiterhin stattfinden kann und der erneuerbaren Wärme mindestens gleichgestellt ist. Hierzu zählen auch Förderbedingunen, die in Merkblättern druch das BMWE festgelegt werden, wie etwa bei der EEW-Förderung.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung der Förderbedingungen für Biomasseanlagen im Rahmen der EEW-Richtlinie und deren Konformität mit der EU-RED III, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik/Erneuerbare Energien) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001232",
+      "org_name": "STEAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001232/87610",
+      "regulatory_project_title": "Sicherung des Unbundlings im Stromsektor und Systemdienstleistungen über den Markt einen Wert geben",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/b7/870451/Stellungnahme-Gutachten-SG2611060023.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611060023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060023",
+      "summary": "Die <b>STEAG GmbH kritisiert</b> den AgNes-Prozess der Bundesnetzagentur als <b>rechtliches Potpourri</b> und warnt vor einer <b>Überforderung der Netzbetreiber</b> durch die geplante Einführung dynamischer Netzentgelte. Das Unternehmen bezweifelt, dass die BNetzA die notwendige <b>Systemperspektive</b> einnimmt, da Eigeninteressen an einer Netzentgeltsenkung durch Umverteilung die fachliche Analyse überlagern könnten. Es wird bemängelt, dass die <b>Verursachungsgerechtigkeit</b> bei der Kostenwälzung aufgrund fehlender Datengrundlagen und unklarer Engpassdefinitionen kaum operabel umsetzbar ist. Zudem warnt der Autor vor einer <b>faktischen Teilung der Gebotszonen</b> durch regional differenzierte Entgelte, die den Stromhandel einschränken könnte. Die STEAG fordert stattdessen eine stärkere Berücksichtigung der <b>Netzdienlichkeit</b> und eine stabilere, transparente Regelungsbasis für Investoren.",
+      "register_description": "Übertragungs- und Verteilnetzbetreiber stellen reguliert eine Plattform für den Markt zur Verfügung. Marktverzerrende Eingriffe dieser Akteure in den Betrieb von Speichern und Erzeugung sollen begrenzt und transparent gemacht werden. Vollständig integrierte Netzkomponenten der Netzbetreiber sollen nicht in den Strom-, Wärme- oder Wasserstoffmarkt eingreifen. Klar begrenzt werden sollen auch Eingriffe auf der Stromverbrauchsseite, z.B. unter dem §14a EnWG und dem §13k EnWG. Systemdienstleistungen brauchen einen Wert zB Redispatchmarkt unter dem §12h EnWG.\r\nAuch Regelungen unter dem Netzanschlusspaket und flexible Netzanschlussvereinbarungen können Möglichkeiten für Eingriffe eröffnen. Parallel werden verschiedene Initiativen auf verschiedenen Ebenen (Bund, BNetzA, EU) verfolgt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument analysiert den AgNes-Prozess der BNetzA zur Neugestaltung der Netzentgelte, was direkt in den Bereich Strommarktdesign und -regulierung sowie Netzentgeltsystematik der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001232",
+      "org_name": "STEAG GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001232/87610",
+      "regulatory_project_title": "Verbesserung der Integration von Batteriespeichern in das Stromsystem",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-11-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5a/68/870449/Stellungnahme-Gutachten-SG2611060021.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611060021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611060021",
+      "summary": "Die STEAG GmbH <b>kritisiert</b> den AgNes-Prozess der Bundesnetzagentur als <b>systemisch unausgewogen</b> und warnt vor einer Überforderung der Netzbetreiber durch die geplante <b>kapazitative Ausrichtung</b> der Netzentgelte. Das Unternehmen bezweifelt, dass die Reform ohne eine präzise Definition von <b>Netzdienlichkeit</b> und Engpassmanagement zu einer effizienten Allokation führt. Es wird bemängelt, dass die BNetzA Eigeninteressen bei der Netzentgeltsenkung priorisiert, während systemische Interessen wie die <b>Synchronisierung von Netzausbau und Anlagenzubau</b> vernachlässigt werden. Zudem warnt der Autor vor einer faktischen <b>Teilung in Gebotszonen</b> durch regional differenzierte Entgelte. Die STEAG fordert eine stärkere Berücksichtigung des <b>Vertrauensschutzes</b> für Investoren und eine stabilere, operabel umsetzbare Regelungsbasis.",
+      "register_description": "Der Wert von Flexibilität und Kapazität soll über eine entsprechende kapazitative Ausgestaltung von Netzentgelten bzw. Netzanschlussbedingungen und energiewirtschaftlich zielführende, zeitgerecht orientierte Bilanzkreisregelungen erhöht werden.\r\nDie Grünstrom-Eigenschaft soll – analog zum Stromnetz - nach der Speicherung erhalten bleiben. Zudem soll der Redispatch von Batteriespeichern, d.h. der Zugriff der Netzbetreiber auf diese Anlagen, klar geregelt und begrenzt werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument analysiert kritisch den AgNes-Prozess der Bundesnetzagentur zur Reform der Stromnetzentgelte, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung/Netzentgelte) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R002081",
@@ -24840,7 +25162,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts (Netzanschlusspaket), welches die Synchronisierung von Anlagenzubau und Netzausbau sowie Netzanschlussverfahren adressiert.",
       "gemini_status": "cached",
-      "register_description": "Anpassung der Inhalte des Netzanschlusspakets „Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“ (Kabinettsbeschluss 29.07.2026): Ausgewogene Ausgestaltung der Belange von Netzbetreibern und Netzanschlusspetenten im Hinblick auf Entschädigungen für Engpass-Abregelungen, netzvertragliche Regelungen, die Ausweisung von kapazitätslimitierten Netzbetriebsmitteln, die Wirkleistungsbegrenzung, sowie bessere Synchronisierung mit der Neuregelung zur allgemeinen Netzentgeltsystematik Strom (AgNes => lfd. Konsultationsverfahren der Bundesnetzagentur). Außerdem zügige praxistaugliche und rechtssichere Ausgestaltung eines Priorisierungsverfahrens für Netzanschlussanfragen.",
+      "register_description": "Anpassung des Netzanschlusspakets („Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“, Kabinettsbeschluss v. 29.7.2026) bzgl. Entschädigungen für Engpass-Abregelungen, netzvertraglicher Regelungen, kapazitätslimitierter Netzbetriebsmittel, Wirkleistungsbegrenzung und Abstimmung mit der Netzentgeltsystematik (AgNes). Schaffung eines rechtssicheren, bundesweit einheitlichen Priorisierungsverfahrens für Netzanschlussanfragen auf Verteilnetzebene mit gesetzlich verankerten Kriterien, insbesondere Reifegrad, Transformationsziele, Daseinsvorsorge, Resilienz und Netzdienlichkeit, sowie Festlegung durch die Bundesnetzagentur unter Beteiligung der Verteilnetzbetreiber.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -74293,7 +74615,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Synchronisierung von Anlagenzubau und Netzausbau sowie die Ausgestaltung von Netzanschlussverfahren, welche zentrale Themen der Unterabteilung IIIA sind.",
       "gemini_status": "cached",
-      "register_description": "Anpassung der Inhalte des Netzanschlusspakets „Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“ (Kabinettsbeschluss 29.07.2026): Ausgewogene Ausgestaltung der Belange von Netzbetreibern und Netzanschlusspetenten im Hinblick auf Entschädigungen für Engpass-Abregelungen, netzvertragliche Regelungen, die Ausweisung von kapazitätslimitierten Netzbetriebsmitteln, die Wirkleistungsbegrenzung, sowie bessere Synchronisierung mit der Neuregelung zur allgemeinen Netzentgeltsystematik Strom (AgNes => lfd. Konsultationsverfahren der Bundesnetzagentur). Außerdem zügige praxistaugliche und rechtssichere Ausgestaltung eines Priorisierungsverfahrens für Netzanschlussanfragen.",
+      "register_description": "Anpassung des Netzanschlusspakets („Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“, Kabinettsbeschluss v. 29.7.2026) bzgl. Entschädigungen für Engpass-Abregelungen, netzvertraglicher Regelungen, kapazitätslimitierter Netzbetriebsmittel, Wirkleistungsbegrenzung und Abstimmung mit der Netzentgeltsystematik (AgNes). Schaffung eines rechtssicheren, bundesweit einheitlichen Priorisierungsverfahrens für Netzanschlussanfragen auf Verteilnetzebene mit gesetzlich verankerten Kriterien, insbesondere Reifegrad, Transformationsziele, Daseinsvorsorge, Resilienz und Netzdienlichkeit, sowie Festlegung durch die Bundesnetzagentur unter Beteiligung der Verteilnetzbetreiber.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -83977,7 +84299,7 @@
       "priority": 1,
       "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument adressiert direkt die Synchronisierung von Anlagenzubau und Netzausbau sowie die Ausgestaltung von Netzanschlussverfahren, welche Kernbestandteile des genannten Regelungsvorhabens sind.",
-      "register_description": "Anpassung der Inhalte des Netzanschlusspakets „Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“ (Kabinettsbeschluss 29.07.2026): Ausgewogene Ausgestaltung der Belange von Netzbetreibern und Netzanschlusspetenten im Hinblick auf Entschädigungen für Engpass-Abregelungen, netzvertragliche Regelungen, die Ausweisung von kapazitätslimitierten Netzbetriebsmitteln, die Wirkleistungsbegrenzung, sowie bessere Synchronisierung mit der Neuregelung zur allgemeinen Netzentgeltsystematik Strom (AgNes => lfd. Konsultationsverfahren der Bundesnetzagentur). Außerdem zügige praxistaugliche und rechtssichere Ausgestaltung eines Priorisierungsverfahrens für Netzanschlussanfragen.",
+      "register_description": "Anpassung des Netzanschlusspakets („Entwurf eines Gesetzes zur Änderung des Energiewirtschaftsrechts zur Synchronisierung des Anlagenzubaus mit dem Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens“, Kabinettsbeschluss v. 29.7.2026) bzgl. Entschädigungen für Engpass-Abregelungen, netzvertraglicher Regelungen, kapazitätslimitierter Netzbetriebsmittel, Wirkleistungsbegrenzung und Abstimmung mit der Netzentgeltsystematik (AgNes). Schaffung eines rechtssicheren, bundesweit einheitlichen Priorisierungsverfahrens für Netzanschlussanfragen auf Verteilnetzebene mit gesetzlich verankerten Kriterien, insbesondere Reifegrad, Transformationsziele, Daseinsvorsorge, Resilienz und Netzdienlichkeit, sowie Festlegung durch die Bundesnetzagentur unter Beteiligung der Verteilnetzbetreiber.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -101789,7 +102111,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich primär mit der Förderung von Fernwärmeanschlüssen und dem Gebäudeenergiegesetz (GEG), welche gemäß der Vorgabe explizit als 'Nicht relevant' (Gebäudeenergiegesetz, Wärmewende) eingestuft sind.",
       "gemini_status": "filtered",
-      "register_description": "Die angestrebte Transformation des Fernwärmesektors erfordert einen massiven Neu- und Ausbau inkl. Nachverdichtung von Fernwärmenetzen gerade in Ballungsgebieten. Steag setzt sich dafür ein, dass der Gesetzgeber und die Bundesregierung diesbezügliche Zielvorgaben, Förderkulissen und die Regulatorik entsprechend auch interkommunal ausgestalten und Biomassebasierter Wärme eine Perspektive geben. Hierzu zählen zeitgemäße  Vorgaben in der AVBFernwärmeV und der WärmeLV, die Stärkung bestehender und die  Einführung neuer Förderinstrumente sowie eine Stärkung der Kommunen bei der Ausweisung von Fernwärmegebieten im Rahmen der Wärmeplanung.",
+      "register_description": "Die angestrebte Transformation des Fernwärmesektors erfordert einen massiven Neu- und Ausbau inkl. Nachverdichtung von Fernwärmenetzen gerade in Ballungsgebieten, eine kluge Verknüpfung von Strom- und Wärmesektor, sowie einen einfachen Einbezug von Rechenzentren-Abwärme dort, wo dies darstellbar ist. Die Erleichterung der Nutzbarkeit von Flächen für die Wärmeerzeugung und -verteilung ist für all dies ein Schlüsselfaktor. Weiter setzen wir uns dafür ein, dass Zielvorgaben, Förderkulissen und die Regulatorik interkommunal ausgestaltet werden und biomassebasierte Wärme eine stabile Perspektive erhält. AVBFernwärmeV und WärmeLV sollen zeitgemäß und ausbauorientiert ausgestaltet, Förderinstrumente massiv ausgebaut und Kommunen bei der Ausweisung von Fernwärmegebieten gestärkt werden.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -109985,6 +110307,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1272,
+  "gemini_filtered_out": 1275,
   "gemini_legacy_open": 0
 }
