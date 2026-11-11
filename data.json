@@ -1,7 +1,587 @@
 {
-  "generated_at": "2026-11-10T09:11:37.349244+01:00",
-  "newly_added": 9,
+  "generated_at": "2026-11-11T08:39:36.846031+01:00",
+  "newly_added": 17,
   "statements": [
+    {
+      "register_number": "R002143",
+      "org_name": "Netze BW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002143/88527",
+      "regulatory_project_title": "Einführung von Biomethanregionen zur regionalen Steuerung der Gasnetztransformation",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/e6/871401/Stellungnahme-Gutachten-SG2611100039.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611100039",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100039",
+      "summary": "Die Netze BW GmbH <b>schlägt die Einführung von Biomethanregionen vor</b>, um eine kosteneffiziente <b>regionale Steuerung der Gasnetztransformation</b> zu ermöglichen. Dieses Instrument soll durch einen transparenten Prüfprozess <b>langfristige Planungs- und Investitionssicherheit</b> für Erzeuger, Netzbetreiber und Verbraucher schaffen. Die Regionen sollen eine <b>privilegierte Netzanbindung</b> erhalten, um die Integration von Biomethan systemisch effizient zu gestalten. Dabei wird eine <b>Verzahnung mit den Netzentwicklungsplänen</b> (NEP/VNEP) gefordert, um eine Abstimmung zwischen Verteil- und Fernleitungsnetzen sicherzustellen. Die <b>Anschlussgarantie für Biomethan-Erzeuger</b> soll für einen Zeitraum von 20 Jahren gelten, sofern die behördliche Bestätigung vorliegt. Ziel ist ein wettbewerbsfähiges, defossilisiertes Gassystem bei gleichzeitig minimierten Systemkosten.",
+      "register_description": "Einführung von Biomethanregionen zur regionalen Steuerung der Biomethaneinspeisung und der Gasnetztransformation. Ziel ist eine kosteneffiziente Integration von Biomethan durch festgelegte Eignungskriterien, ein behördliches Prüfverfahren sowie langfristige Planungs- und Investitionssicherheit für Erzeuger, Netzbetreiber und Verbraucher.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Gasnetztransformation und die Integration erneuerbarer Gase, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik/Gasnetz) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001894",
+      "org_name": "Vonovia SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001894/88664",
+      "regulatory_project_title": "Beschleunigung des Smart-Meter-Rollouts im Rahmen von EEG Novelle und Netzpaket statt Einführung eines Parallelstandards Smart Meter Light",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e0/86/871358/Stellungnahme-Gutachten-SG2611100037.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611100037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100037",
+      "summary": "Die Vonovia SE <b>lehnt die Einführung eines parallelen Standards 'Smart Meter Light' ab</b> und fordert stattdessen eine <b>Beschleunigung des Rollouts intelligenter Messsysteme (iMSys)</b>. Das Unternehmen warnt vor einer <b>Migrationsfalle</b> durch zusätzliche Hardware und betont, dass eine reine Messwertübertragung nicht ausreicht, um die Anforderungen an <b>Marktintegration und Steuerbarkeit</b> dezentraler Anlagen zu erfüllen. Die Vonovia SE kritisiert, dass ein neuer Standard Investitionen verzögern und die <b>Cybersicherheit</b> gefährden könnte. Stattdessen sollten <b>bestehende Rollouthemmnisse beseitigt</b> und Kooperationen zwischen wettbewerblichen und grundzuständigen Messstellenbetreibern gestärkt werden. Zudem wird gefordert, dass neue Pflichten zur Direktvermarktung erst bei flächendeckender Verfügbarkeit der notwendigen Infrastruktur greifen dürfen. Eine einheitliche, steuerungsfähige Infrastruktur wird insbesondere für Mehrfamilienhäuser als zwingend erachtet.",
+      "register_description": "Vonovia setzt sich im Rahmen der EEG-Novelle 2027 (BT-Drs. 21/7867) und des Netzpakets dafür ein, den Rollout intelligenter Messsysteme (iMSys) zu beschleunigen und keinen parallelen Standard „Smart Meter Light“ im Messstellenbetriebsgesetz einzuführen. Ziel ist, bestehende Rollouthemmnisse zu beseitigen, Kooperationen zwischen wettbewerblichen und grundzuständigen Messstellenbetreibern zu erleichtern, technische Sonderanforderungen einzelner Verteilnetzbetreiber zu begrenzen und bundesweit einheitliche Marktprozesse sicherzustellen. Neue Pflichten zur Direktvermarktung oder Steuerung von PV-Anlagen sollen erst greifen, wenn die nötige Infrastruktur flächendeckend verfügbar ist. In Mehrfamilienhäusern soll von Beginn an eine einheitliche, steuerungsfähige Infrastruktur eingesetzt werden.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Digitalisierung der Energiewende, die Anforderungen an Messinfrastruktur für die Direktvermarktung und die Steuerung dezentraler Anlagen, was zentrale Themen der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/88645",
+      "regulatory_project_title": "Positionierung zum Vorhaben der EU-Kommission für einen Product Act",
+      "sending_date": "2026-04-24",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/dc/871131/Stellungnahme-Gutachten-SG2611100028.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611100028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100028",
+      "summary": "Der Handelsverband Deutschland <b>lehnt undifferenzierte Verschärfungen</b> für den Handel im Rahmen des geplanten EU Product Act ab. Er fordert stattdessen <b>zielgerichtete Maßnahmen</b> gegen nicht konforme Produkte aus Drittstaaten, insbesondere durch eine verpflichtende Registrierung und Qualifizierung von Bevollmächtigten. Der Verband <b>kritisiert die Verlagerung von Herstellerpflichten</b> auf den Einzelhandel, etwa bei der Bereitstellung von Bedienungsanleitungen oder Sicherheitsinformationen. Zudem wird eine <b>Stärkung der Marktüberwachung</b> gefordert, bei der Maßnahmen primär gegen Erstinverkehrbringer statt gegen Händler gerichtet werden sollen. Hinsichtlich des digitalen Produktpasses wird ein <b>technologieoffener Ansatz</b> sowie eine Beschränkung auf Modellebene empfohlen, um bürokratische Belastungen zu begrenzen. Schließlich lehnt der Verband <b>umsatzbezogene Sanktionen</b> ab, da diese europäische Händler gegenüber Drittstaaten-Akteuren benachteiligen würden.",
+      "register_description": "- Marktüberwachungsverordnung: Für alle Produkte soll es einen verantwortlichen Wirtschaftsakteur in der EU geben. Zielgerichtetes Vorgehen bei der besseren Durchsetzung des Produktsicherheitsrechts ggü. Anbietern aus Drittstaaten: Höhere Anforderungen an Bevollmächtigte und Registrierungspflicht für Bevollmächtigte. Undifferenzierte Verschärfungen für den gesamten Handel werden abgelehnt.\r\n",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die EU-Gesetzgebung zur Produktsicherheit und Marktüberwachung, welche für die Wettbewerbsfähigkeit und den EU-Binnenmarkt von hoher Relevanz für das BMWE ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88633",
+      "regulatory_project_title": "Ausgestaltung des EU-Energierahmens nach 2030 (Überarbeitung der Erneuerbare-Energien-Richtlinie)",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ed/2d/871076/Stellungnahme-Gutachten-SG2611100026.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611100026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100026",
+      "summary": "Der Deutsche Naturschutzring <b>fordert</b> die Bundesregierung auf, sich bei der Gestaltung des EU-Energierahmens nach 2030 für <b>verbindliche Ausbauziele</b> für erneuerbare Energien einzusetzen. Dabei sollen Strommengenpfade für 100 Prozent Erneuerbare bis 2040 ohne Anrechnung von „Low-Carbon“-Technologien wie Atomkraft definiert werden. Der Verband verlangt eine <b>Ausrichtung der Netzinvestitionen</b> am Ausbau der Erneuerbaren sowie eine konsequente Digitalisierung des Energiesystems. Zudem wird die <b>Ablehnung des Redispatch-Vorbehalts</b> begründet, da dieser Investitionssicherheit gefährde. Schließlich sollen <b>sektorspezifische Ziele</b>, insbesondere für RFNBO im Industrie- und Verkehrssektor, beibehalten werden, um Planungssicherheit zu gewährleisten.",
+      "register_description": "Wir setzen uns dafür ein, dass die Bundesregierung bei der Überarbeitung des EU-Energierahmens nach 2030 für einen verlässlichen Rahmen für den Ausbau erneuerbarer Energien eintritt: verbindliche Ausbauziele und Strommengenpfade für 100 Prozent Erneuerbare im EU-Energiesektor 2040, ohne Anrechnung nicht-erneuerbarer „Low-Carbon“-Technologien wie Atomkraft; Ausrichtung der Netzinvestitionen am Erneuerbaren-Ausbau, effizientere Netznutzung, Aktivierung von Flexibilitäten, Digitalisierung und naturverträglicher Netzausbau, kein Redispatch-Vorbehalt; Erhalt der sektorspezifischen Ziele der Erneuerbare-Energien-Richtlinie, insbesondere des RFNBO-Industrieziels, sowie gezielter RFNBO-Einsatz im Luft- und Schiffsverkehr.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NUCLEAR",
+          "label": "Atomenergie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EU-Energiepolitik, die Erneuerbare-Energien-Richtlinie und die Zielarchitektur 2030/2040, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88633",
+      "regulatory_project_title": "Ausgestaltung eines zukunftsfähigen EU-Klimarahmens für 2040",
+      "sending_date": "2026-10-16",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/03/73/871074/Stellungnahme-Gutachten-SG2611100024.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611100024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100024",
+      "summary": "Der <b>Deutscher Naturschutzring</b> <b>fordert</b> einen verbindlichen <b>EU-Klimarahmen für 2040</b>, der den Ausstieg aus fossilen Energien bis spätestens 2040 sicherstellt. Die Organisation verlangt <b>verbindliche Ausbaupfade</b> für erneuerbare Energien sowie ein Elektrifizierungsziel von 60 Prozent. Zur Erreichung der Klimaziele wird eine <b>Emissionsreduktion von 90 Prozent</b> innerhalb der EU angestrebt. Zudem wird eine Stärkung des Emissionshandels (ETS I & II) sowie eine konsequente <b>Dekarbonisierung des Gebäudesektors</b> durch ordnungsrechtliche Instrumente wie die EU-Gebäuderichtlinie gefordert. Soziale Ausgleichsmaßnahmen sollen die Transformation im Verkehrs- und Gebäudebereich flankieren. Die Nutzung von Artikel-6-Zertifikaten soll dabei auf eine reine Sicherheitsnetzfunktion begrenzt bleiben.",
+      "register_description": "Wir setzen uns dafür ein, dass die Bundesregierung den EU-Klimarahmen für 2040 an folgenden Grundsätzen ausrichtet: verbindlicher, gerechter Ausstieg aus fossiler Energie bis spätestens 2040; verbindliche Ausbaupfade für 100 Prozent erneuerbare Energien, ein Elektrifizierungsziel von 60 Prozent und verbindliche Effizienzziele, ohne Anreize für fossile kohlenstoffarme Brennstoffe und Kernenergie; im ETS I Fortführung des linearen Reduktionsfaktors von 4,4 Prozent, rasches Ende der kostenlosen Zuteilung und klimabezogene Verwendung der Einnahmen; 90 Prozent Emissionsreduktion innerhalb der EU mit verbindlichen nationalen Zielen, Artikel-6-Zertifikate nur als Sicherheitsnetz; verbindliche LULUCF-Ziele nach 2030 mit Sanktionsmechanismen.",
+      "recipients": [
+        "BKAmt",
+        "BMLEH",
+        "BMUKN",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NUCLEAR",
+          "label": "Atomenergie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und Zielarchitektur 2040, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R007406",
+      "org_name": "SolarEdge Technologies GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007406/88638",
+      "regulatory_project_title": "Anpassungen für PV im Rahmen der EEG-Novelle",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c2/f2/870991/Stellungnahme-Gutachten-SG2611100018.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611100018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100018",
+      "summary": "Die SolarEdge Technologies GmbH <b>warnt vor einem Markteinbruch</b> durch die geplante EEG 2027-Novelle und fordert Anpassungen zur Sicherung des PV-Ausbaus. Das Unternehmen kritisiert die geplante Streichung der fixen Einspeisevergütung für Kleinanlagen und <b>fordert den Erhalt der 20-jährigen Vergütung</b> für Anlagen unter 25 kWp. Zudem lehnt das Unternehmen die geplante <b>Direktvermarktungspflicht für Anlagen unter 100 kWp</b> ab, da diese für private und gewerbliche Betreiber administrativ und wirtschaftlich nicht umsetzbar sei. Des Weiteren <b>fordert SolarEdge die Streichung der pauschalen Einspeisebegrenzung</b> auf 50 Prozent, da diese der Systemlogik widerspreche. Ohne diese Änderungen befürchtet das Unternehmen eine Verlängerung der Amortisationszeiten auf 20 Jahre und den Verlust der wirtschaftlichen Grundlage für die Branche.",
+      "register_description": "Die geplante EEG 2027-Novelle bedarf grundlegender Anpassungen im Bereich der PV-Einspeisevergütung, der geplanten Direktvermarktungspflicht sowie der Wirkleistungsbegrenzung, um einen Fadenriss im PV-Ausbau zu verhindern und so vielen Unternehmen in der Wertschöpfungskette die wirtschaftliche Grundlage zu erhalten.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EEG-Novelle 2027 und deren Auswirkungen auf den PV-Ausbau, was unter die Themenfelder 'Erneuerbare Energien (national)' und 'EEG-Finanzierung' der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88633",
+      "regulatory_project_title": "Fristgerechte Umsetzung der Importvorgaben der EU-Methanverordnung",
+      "sending_date": "2026-10-13",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/54/3e/871072/Stellungnahme-Gutachten-SG2611100016.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611100016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100016",
+      "summary": "Der Deutsche Naturschutzring <b>fordert die Bundesregierung auf</b>, beim Europäischen Rat <b>keiner Verschiebung der Importvorgaben</b> der EU-Methanverordnung zuzustimmen. Die Organisation verlangt eine <b>vollständige und fristgerechte Umsetzung</b> der ab dem 1. Januar 2027 geltenden Regelungen. Eine Verschiebung wird als Gefahr für die <b>Glaubwürdigkeit der europäischen Klimapolitik</b> bewertet. Zudem wird argumentiert, dass ein Aufschub keine Planungssicherheit schaffe, sondern die Tür für eine <b>komplette Neuverhandlung</b> öffne. Investitionen von Vorreitern, die bereits im Vertrauen auf das geltende Recht getätigt wurden, würden durch eine Verzögerung entwertet. Stattdessen solle Deutschland auf <b>Verlässlichkeit und Rechtssicherheit</b> setzen, um sich nicht von Partikularinteressen der Öl- und Gasindustrie leiten zu lassen.",
+      "register_description": "Die Bundesregierung wird aufgefordert, beim Europäischen Rat am 15./16. Oktober 2026 keiner Verschiebung der Importvorgaben der Verordnung (EU) 2024/1787 (EU-Methanverordnung) zuzustimmen, die ab dem 1. Januar 2027 gelten sollen, und sich für eine vollständige und fristgerechte Umsetzung der Verordnung einzusetzen.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die EU-Energiepolitik und die Dekarbonisierung der Energieerzeugung, da es um die Importvorgaben für Methan bei Öl- und Gaslieferketten geht.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001510",
+      "org_name": "Stiftung KlimaWirtschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001510/88635",
+      "regulatory_project_title": "Nationale Elektrifizierungsstrategie",
+      "sending_date": "2026-11-02",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ad/0b/870936/Stellungnahme-Gutachten-SG2611100015.pdf",
+      "pdf_pages": 14,
+      "sg_number": "SG2611100015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100015",
+      "summary": "Die Stiftung KlimaWirtschaft <b>empfiehlt</b> der Bundesregierung die Einführung einer <b>nationalen Elektrifizierungsstrategie</b>, um das globale COP31-Ziel „35 by 35“ zu erreichen. Zur <b>Skalierung elektrischer Technologien</b> fordert die Organisation wettbewerbsfähige Strompreise durch eine Senkung staatlicher Preisbestandteile und die Nutzung von ETS-Einnahmen. Zudem wird eine <b>Priorisierung von Netzanschlüssen</b> sowie eine flexiblere Nutzung von Netzverknüpfungspunkten für Erzeuger und Verbraucher angemahnt. Die Stiftung plädiert für eine <b>Standardisierung und Digitalisierung</b> von Genehmigungsprozessen, um den Ausbau zu beschleunigen. Zur Steigerung der Investitionssicherheit wird ein planbarer CO2-Preispfad sowie die Schaffung von Leitmärkten für klimafreundliche Produkte vorgeschlagen. Unternehmen sollen zudem durch staatliche Garantieinstrumente bei <b>Direktlieferverträgen (PPAs)</b> unterstützt werden.",
+      "register_description": "Die Stiftung KlimaWirtschaft setzt sich dafür ein, dass die Bundesregierung eine nationale Elektrifizierungsstrategie mit klaren Zielen, Zuständigkeiten und verbindlichem Zeitplan einführt. Sie soll zum globalen COP31-Ziel „35 by 35“ beitragen. Begleitend sollen bestehende Regelungen so geändert werden, dass Elektrifizierung wirtschaftlich attraktiv und schneller umsetzbar wird.",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die nationale Elektrifizierungsstrategie und deren Umsetzung im Kontext der Energiewende, was in den Themenbereich Klimaschutz & Energiewende sowie Strommarktregulierung fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002373",
+      "org_name": "VNG AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002373/88621",
+      "regulatory_project_title": "AUSGESTALTUNG DER GRÜNGASQUOTE",
+      "sending_date": "2026-11-05",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/db/14/870869/Stellungnahme-Gutachten-SG2611100005.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611100005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100005",
+      "summary": "Die <b>VNG AG begrüßt</b> die geplante <b>Ausgestaltung der Grüngasquote als energetische Mengenquote</b> anstelle einer THG-Minderungsquote. Das Unternehmen argumentiert, dass eine Mengenquote für mehr <b>Planbarkeit und Verlässlichkeit</b> bei Investitionsentscheidungen sorgt. Zudem wird betont, dass eine Mengenquote den <b>Markthochlauf grüner Gase</b> durch eine breitere Rohstoffbasis effizienter fördert und Doppelregulierungen vermeidet. Die VNG AG hebt hervor, dass die ökologische Qualität bereits durch bestehende <b>Nachhaltigkeits- und THG-Mindestanforderungen</b> der RED III abgesichert ist. Eine <b>regionale Benachteiligung</b> bei der Erzeugung, insbesondere in Ostdeutschland, könne durch den mengenbasierten Ansatz vermieden werden. Abschließend schlägt das Unternehmen eine kontinuierliche <b>Evaluierung der THG-Wirkung</b> vor, um bei Bedarf nachzusteuern.",
+      "register_description": "Die Bundesregierung hat Eckpunkte zur Einführung einer Grüngas-/Grünheizölquote vorgelegt. Die Ausgestaltung der Grüngasquote wird maßgeblich darüber entscheiden, ob sie ihre klimapolitischen Ziele effizient erreicht und gleichzeitig Investitionen, Versorgungssicherheit sowie Akzeptanz gewährleistet. Vor diesem Hintergrund sollen Impulse zur Ausgestaltung gegeben werden. Dazu zählen eine technologieoffene energetische Mengenquote, flexible Erfüllungsmechanismen wie Banking und begrenztes Borrowing, die Anrechenbarkeit importierter grüner Gase bei gleichwertigen Nachhaltigkeitsanforderungen, eine praktikable Nachweisführung über Massenbilanzierung sowie eine wirksame Pönale mit Nacherfüllungspflicht.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung der Grüngasquote, welche als Instrument zur Dekarbonisierung der Gasversorgung und zum Markthochlauf erneuerbarer Gase für das BMWE von hoher energiepolitischer Relevanz ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001317",
+      "org_name": "Open Source Business Alliance - Bundesverband für digitale Souveränität e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001317/88656",
+      "regulatory_project_title": "Open Source und digitale Souveränität im EU Tech Sovereignty Package",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b3/c3/871329/Stellungnahme-Gutachten-SG2611100036.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2611100036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100036",
+      "summary": "Die Open Source Business Alliance <b>fordert</b> im Rahmen des Cloud and AI Development Act (CADA) eine <b>zentralere Rolle für Open Source</b>, um die digitale Souveränität Europas zu stärken. Der Verband kritisiert, dass der aktuelle Entwurf der EU-Kommission hinter den eigenen Zielen zurückbleibt und <b>verbindliche Vorgaben</b> für Open-Source-Lösungen vermissen lässt. Es wird empfohlen, bei der öffentlichen Beschaffung <b>Open-Source-Lösungen zu priorisieren</b> und Anbieter zu bevorzugen, die aktiv zur Pflege und Weiterentwicklung offener Ökosysteme beitragen. Zudem warnt der Verband vor <b>Vendor-Lock-in-Effekten</b> durch proprietäre Technologien und fordert, dass Sicherheitsanforderungen nicht zu einer Abhängigkeit von außereuropäischen Infrastrukturen führen dürfen. Abschließend schlägt der Verband konkrete <b>Änderungen am Gesetzestext</b> vor, um die technologische Autonomie durch Transparenz und Auditierbarkeit des Quellcodes nachhaltig zu sichern.",
+      "register_description": "Wir fordern die Bundesregierung dazu auf, bei den Verhandlungen in Brüssel darauf hinzuwirken, dass in den verschiedenen Regelungsvorhaben des Tech Sovereignty Package (Cloud and AI Development Act – CADA, EU Open Source Strategie, Chips Act) hohe Anforderungen für digitale Souveränität formuliert werden und dass ambitionierte Open-Source-First-Vorgaben für die Beschaffung zur Erreichung der digitalen Souveränität in diesen Regelungsentwürfen verankert werden.\r\n\r\nIn diesem Zusammenhang soll die Bundesregierung auch in der Neudefinition von digitaler Souveränität in der deutsch-französischen Task Force die Vorzüge von Open Source stark berücksichtigen.",
+      "recipients": [
+        "BMDS",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Cloud and AI Development Act (CADA) und der Förderung von Open-Source-Software im Kontext digitaler Souveränität. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Klimaschutz konzentriert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R004908",
+      "org_name": "BvV Bundesverband öffentlich bestellter, vereidigter und besonders qualifizierter Versteigerer",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004908/88649",
+      "regulatory_project_title": "Umsetzung der Richtlinie (EU) 2026/799 zur Harmonisierung bestimmter Aspekte des Insolvenzrechts",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/09/09/871149/Stellungnahme-Gutachten-SG2611100033.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611100033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100033",
+      "summary": "Der Bundesverband öffentlich bestellter, vereidigter und besonders qualifizierter Versteigerer <b>empfiehlt</b>, bei der Umsetzung der Richtlinie (EU) 2026/799 die <b>öffentliche Auktion</b> als Regelfall der Liquidationsphase vorzusehen. Der Verband widerspricht der Einschätzung der Deutschen Kreditwirtschaft, dass Vorbereitungsmaßnahmen wie die <b>Due Diligence</b> im Auktionsrahmen zu schwierig seien. Durch den Einsatz von <b>KI-Lösungen</b> und standardisierte Datenräume könne die Prüfung für Interessenten effizient und zeitnah erfolgen. Die öffentliche Auktion diene der <b>bestmöglichen Gläubigerbefriedigung</b> und schütze durch Marktpreisbildung die Vermögenspositionen gesicherter Gläubiger. Zudem wird gefordert, dass ein neutraler, vereidigter Versteigerer die <b>Transparenz</b> und Marktpreisbildung sicherstellt. Der Verband betont, dass die Auktion auf dem bereits in der Vorbereitungsphase erstellten Datenraum aufbaut und somit keine zusätzlichen Hürden schafft.",
+      "register_description": "Der BvV setzt sich dafür ein, bei der Umsetzung der Richtlinie (EU) 2026/799 die öffentliche Auktion nach Art. 24 Abs. 3 und Art. 29 Abs. 3 als Regelfall der Liquidationsphase des Pre-pack-Verfahrens vorzusehen. Das in der vertraulichen Vorbereitungsphase ermittelte beste Gebot soll Startgebot einer kurzen öffentlichen Versteigerung durch öffentlich bestellte und vereidigte Versteigerer sein (§ 383 Abs. 2 BGB). Ziel sind Marktpreisbildung, Transparenz und der Schutz der Rechte gesicherter Gläubiger, insbesondere Information und Anhörung vor einer Aussetzung von Verwertungsmaßnahmen sowie eine transparente Zuordnung des Erlöses zum Sicherungsgut.",
+      "recipients": [
+        "BMJV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit insolvenzrechtlichen Verfahrensfragen (Pre-pack-Verfahren, öffentliche Auktionen) und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz) auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R004908",
+      "org_name": "BvV Bundesverband öffentlich bestellter, vereidigter und besonders qualifizierter Versteigerer",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004908/88649",
+      "regulatory_project_title": "Umsetzung der Richtlinie (EU) 2026/799 zur Harmonisierung bestimmter Aspekte des Insolvenzrechts",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dc/b3/871147/Stellungnahme-Gutachten-SG2611100032.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2611100032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100032",
+      "summary": "Der Bundesverband öffentlich bestellter, vereidigter und besonders qualifizierter Versteigerer <b>schlägt vor</b>, die <b>öffentliche Auktion</b> als Regelfall der Liquidationsphase bei der Umsetzung der Richtlinie (EU) 2026/799 festzulegen. Das vorgeschlagene <b>zweistufige Modell</b> kombiniert eine vertrauliche Vorbereitungsphase mit einer anschließenden öffentlichen Versteigerung zur <b>Marktpreisbildung</b>. Der Verband kritisiert alternative Vorschläge als unbelegt und warnt vor einer Entwertung von <b>Sicherheitenrechten</b>. Zudem fordert er eine <b>Kostenkontrolle</b> für Verwalter und Berater sowie eine transparente Erlöszuordnung. Die Durchführung soll durch öffentlich bestellte und vereidigte Versteigerer erfolgen, um <b>Transparenz und Fairness</b> zu gewährleisten. Ziel ist die Stärkung des Finanzierungsstandorts Deutschland durch verlässliche Verwertungsstrukturen.",
+      "register_description": "Der BvV setzt sich dafür ein, bei der Umsetzung der Richtlinie (EU) 2026/799 die öffentliche Auktion nach Art. 24 Abs. 3 und Art. 29 Abs. 3 als Regelfall der Liquidationsphase des Pre-pack-Verfahrens vorzusehen. Das in der vertraulichen Vorbereitungsphase ermittelte beste Gebot soll Startgebot einer kurzen öffentlichen Versteigerung durch öffentlich bestellte und vereidigte Versteigerer sein (§ 383 Abs. 2 BGB). Ziel sind Marktpreisbildung, Transparenz und der Schutz der Rechte gesicherter Gläubiger, insbesondere Information und Anhörung vor einer Aussetzung von Verwertungsmaßnahmen sowie eine transparente Zuordnung des Erlöses zum Sicherungsgut.",
+      "recipients": [
+        "BMJV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit insolvenzrechtlichen Verfahrensfragen (Pre-pack-Verfahren, öffentliche Versteigerungen) und weist keinen inhaltlichen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R004908",
+      "org_name": "BvV Bundesverband öffentlich bestellter, vereidigter und besonders qualifizierter Versteigerer",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004908/88649",
+      "regulatory_project_title": "Umsetzung der Richtlinie (EU) 2026/799 zur Harmonisierung bestimmter Aspekte des Insolvenzrechts",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bb/2b/871145/Stellungnahme-Gutachten-SG2611100031.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611100031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100031",
+      "summary": "Der Bundesverband öffentlich bestellter und vereidigter Versteigerer e.V. <b>schlägt vor</b>, die <b>öffentliche Versteigerung</b> als gesetzlich verankertes <b>Verwertungsinstrument</b> in der Liquidationsphase des Pre-pack-Verfahrens vorzusehen. Der Verband argumentiert, dass dieses Verfahren durch den <b>finalen Zuschlag</b> nach § 156 BGB Rechtssicherheit, Transparenz und eine haftungsentlastende Dokumentation für alle Beteiligten bietet. Zudem wird die Einbindung spezialisierter, öffentlich bestellter Versteigerer empfohlen, um eine <b>bestmögliche Preisbildung</b> und einen fairen Wettbewerb zu gewährleisten. Ergänzend wird angeregt, KMU mit einem Jahresumsatz bis 10 Mio. EUR unter bestimmten Voraussetzungen vom Pre-pack-Verfahren auszunehmen, um individuelle <b>Sicherungsrechte</b> zu schützen. Die digitale Durchführung als Online-Live-Versteigerung wird als effiziente und reichweitenstarke Methode hervorgehoben.",
+      "register_description": "Der BvV setzt sich dafür ein, bei der Umsetzung der Richtlinie (EU) 2026/799 die öffentliche Auktion nach Art. 24 Abs. 3 und Art. 29 Abs. 3 als Regelfall der Liquidationsphase des Pre-pack-Verfahrens vorzusehen. Das in der vertraulichen Vorbereitungsphase ermittelte beste Gebot soll Startgebot einer kurzen öffentlichen Versteigerung durch öffentlich bestellte und vereidigte Versteigerer sein (§ 383 Abs. 2 BGB). Ziel sind Marktpreisbildung, Transparenz und der Schutz der Rechte gesicherter Gläubiger, insbesondere Information und Anhörung vor einer Aussetzung von Verwertungsmaßnahmen sowie eine transparente Zuordnung des Erlöses zum Sicherungsgut.",
+      "recipients": [
+        "BMJV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit insolvenzrechtlichen Verfahrensfragen (Pre-pack-Verfahren, Liquidationsphase, Versteigerungsrecht) und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz) auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000479",
+      "org_name": "Handelsverband Deutschland - HDE - e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000479/88645",
+      "regulatory_project_title": "Positionierung zum Vorhaben der EU-Kommission für einen Product Act",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/02/20/871133/Stellungnahme-Gutachten-SG2611100029.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611100029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100029",
+      "summary": "Der Handelsverband Deutschland <b>lehnt die Ausweitung der Händlerpflichten</b> im Entwurf des European Product Act ab. Die geplante Neuregelung würde Händler dazu verpflichten, die materielle Konformität und organisatorische Herstellerpflichten zu prüfen, was als <b>unverhältnismäßiger Bürokratieaufwand</b> kritisiert wird. Der Verband argumentiert, dass Händler weder über das notwendige Fachwissen noch über den Zugriff auf herstellerspezifische technische Dokumentationen verfügen. Zudem wird gewarnt, dass diese <b>Verlagerung der Herstellerverantwortung</b> das Prinzip des New Legislative Framework untergräbt. Die geforderte Prüfungstiefe sei für den Einzelhandel <b>praktisch nicht umsetzbar</b> und gefährde die Wettbewerbsfähigkeit. Stattdessen fordert der Verband eine <b>effektive Rechtsdurchsetzung</b> gegenüber Anbietern aus Drittstaaten.",
+      "register_description": "- Marktüberwachungsverordnung: Für alle Produkte soll es einen verantwortlichen Wirtschaftsakteur in der EU geben. Zielgerichtetes Vorgehen bei der besseren Durchsetzung des Produktsicherheitsrechts ggü. Anbietern aus Drittstaaten: Höhere Anforderungen an Bevollmächtigte und Registrierungspflicht für Bevollmächtigte. Undifferenzierte Verschärfungen für den gesamten Handel werden abgelehnt.\r\n",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit produktsicherheitsrechtlichen Händlerpflichten im Rahmen des European Product Act. Dies betrifft allgemeine Handels- und Marktüberwachungsregeln, jedoch keine der spezifischen Themenfelder der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz, Energiewende).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88633",
+      "regulatory_project_title": "Unterstützung eines ambitionierten EU-Elektrifizierungsziels",
+      "sending_date": "2026-06-19",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/dc/39/871070/Stellungnahme-Gutachten-SG2611100014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611100014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100014",
+      "summary": "Der Deutsche Naturschutzring (DNR) und weitere Verbände <b>kritisieren den EU-Kommissionsvorschlag</b> zur Freisetzung gentechnisch veränderter Mikroorganismen (GVM) in offenen Systemen. Die Organisationen warnen vor <b>unkontrollierbaren ökologischen Risiken</b> und einer möglichen Destabilisierung von Bodenmikrobiomen sowie Stoffkreisläufen. Sie fordern die Bundesregierung auf, sich gegen die geplante <b>Absenkung der EU-Schutzstandards</b> zu stellen. Zudem wird eine <b>umfassende Einzelfallprüfung</b> sowie ein verpflichtendes Langzeitmonitoring gefordert. Die Verbände bemängeln das Fehlen wirksamer Koexistenzregelungen und Haftungsvorschriften nach dem Verursacherprinzip. Ohne zuverlässige Nachweisbarkeit und Risikomanagement dürfe keine Freisetzung von GVM erfolgen.",
+      "register_description": "Unterstützung der Bundesregierung bei der Einführung eines ambitionierten EU-weiten Elektrifizierungsziels ohne Nutzung von Atomstrom.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit gentechnisch veränderten Mikroorganismen (GVM) und deren Freisetzung, was nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) fällt.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt die Regulierung gentechnisch veränderter Mikroorganismen und nicht das vom DNR zugeordnete Elektrifizierungsziel.",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002005",
+      "org_name": "Gesamtverband der deutschen Textil- und Modeindustrie e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002005/88629",
+      "regulatory_project_title": "Verbesserung PFAS Beschränkungsverfahren unter REACH",
+      "sending_date": "2026-09-14",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/70/f8/870976/Stellungnahme-Gutachten-SG2611100012.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611100012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100012",
+      "summary": "Der Gesamtverband textil+mode und weitere Verbände <b>unterstützen</b> das Ziel einer PFAS-Beschränkung, <b>warnen</b> jedoch vor Risiken für die Verfügbarkeit sicherheitskritischer Produkte. Sie <b>fordern</b> eine <b>stufenweise Beschränkung</b> sowie praxisgerechte Übergangsfristen für komplexe Schutzausrüstungen. Zudem wird die Einführung <b>verlässlicher Analysemethoden</b> und rechtssicherer Grenzwerte verlangt, um die Konformität nachweisbar zu machen. Die Verbände kritisieren den aktuellen Entwurf als technisch nicht ausreichend differenziert und fordern eine <b>effektive Vollzugsarchitektur</b> zur Kontrolle von Direktimporten. Eine unzureichende Ausgestaltung gefährde die europäische Produktionsbasis und die strategische Souveränität bei der Versorgung mit Schutzausrüstung. Schließlich wird eine <b>Ausnahme für Rezyklate</b> empfohlen, um die Ziele der Kreislaufwirtschaft nicht zu behindern.",
+      "register_description": "Unter REACH ist eine umfassende Beschränkung von Per-und polyfluorierten Alkylverbindungen geplant. Die vorgesehene Beschräkung betrifft die Herstellung, die Verwendung und das  Inverkehrbringens (einschließlich der Einfuhr). Vorgesehen ist, dass PFAS nur noch in Bereichen erlaubt sein werden, in denen in absehbarer Zeit, keine Alternativen zur Verfügung stehen werden. Der derzeitig Entwurf ist nicht risikobasiert und in seiner sozioökonmischen Konsequenz unterbewertet.\r\n",
+      "recipients": [
+        "BMUKN",
+        "BMAS",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der REACH-Verordnung und Chemikalienregulierung (PFAS) in Textilien und Schutzausrüstung. Dies fällt nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarkt und Klimaschutz im Energiesektor konzentriert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002105",
+      "org_name": "Gesamtverband Kunststoffverarbeitende Industrie e. V. (GKV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002105/81833",
+      "regulatory_project_title": "EU-Plastikabgabe",
+      "sending_date": "2026-10-26",
+      "upload_date": "2026-11-10",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f8/6f/870855/Stellungnahme-Gutachten-SG2611100004.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611100004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611100004",
+      "summary": "Ein Bündnis aus Verbänden der Kunststoffindustrie und des Handels <b>lehnt die geplante Erhöhung</b> sowie die automatische Inflationsindexierung der EU-Plastikabgabe im Mehrjährigen Finanzrahmen 2028–2034 ab. Die Organisationen fordern, das <b>Kunststoff-Eigenmittel ab 2028 abzuschaffen</b> und die EU-Finanzierung stattdessen transparent über das BNE-Eigenmittel zu decken. Sie argumentieren, dass die Abgabe ein reines Finanzierungsinstrument ohne ökologische Lenkungswirkung sei, da Umweltziele bereits über die Verpackungsverordnung (PPWR) gesteuert würden. Zudem wird vor <b>negativen Folgen für den Binnenmarkt</b> und die Wettbewerbsfähigkeit gewarnt, da die Abgabe Anreize für nationale Plastiksteuern schaffe. Die Verbände kritisieren zudem die <b>unzuverlässige Datenbasis</b> für die Bemessungsgrundlage der Abgabe. Hilfsweise wird ein nominales Einfrieren des Abrufsatzes bei 0,80 €/kg ohne Indexierung vorgeschlagen.",
+      "register_description": "Das Kunststoff-Eigenmittel war 2021 das umweltpolitische Etikett für den erhöhten nationalen\r\nFinanzierungsbeitrag der EU infolge des Brexit. Der MFR 2028–2034 bietet die Gelegenheit, diese\r\nIntransparenz aufzulösen und Widersprüche zur Umweltpolitik zu vermeiden: Das Eigenmittel\r\nsollte abgeschafft werden. Die EU-Finanzierung sollte stattdessen transparent im Wesentlichen\r\nüber das BNE-Eigenmittel und die traditionellen Eigenmittel erfolgen. Umweltpolitische Ziele\r\nwerden über die Fachgesetze gesteuert. Der GKV bitten die Bundesregierung, diese Linie in den\r\nVerhandlungen zu vertreten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der EU-Plastikabgabe als Teil des EU-Haushaltsrahmens (MFR). Dies ist ein fiskalisches Instrument der EU-Finanzierung und kein energiepolitisches Regelungsvorhaben der Unterabteilung IIIA.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R001058",
       "org_name": "EWE AG",
@@ -31,7 +611,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des BMWE zur Einführung einer strategischen Gasreserve, was ein zentrales Thema der Versorgungssicherheit darstellt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -62,7 +642,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung von Netzanschlussverfahren und der Priorisierung von Netzanschlussanfragen im Rahmen des EnWG, was ein zentrales Thema der Unterabteilung IIIA (Strommarktregulierung/Netze) ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001058",
@@ -93,7 +673,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Anpassungsbedarfe im EEG-Regierungsentwurf, insbesondere zur RFNBO-konformen Wasserstofferzeugung, zum Doppelvermarktungsverbot und zu PPA-Regelungen, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000774",
@@ -420,7 +1000,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung der Förderbedingungen für Biomasseanlagen im Rahmen der EEW-Richtlinie und deren Konformität mit der EU-RED III, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik/Erneuerbare Energien) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001232",
@@ -472,7 +1052,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument analysiert den AgNes-Prozess der BNetzA zur Neugestaltung der Netzentgelte, was direkt in den Bereich Strommarktdesign und -regulierung sowie Netzentgeltsystematik der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001232",
@@ -516,7 +1096,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument analysiert kritisch den AgNes-Prozess der Bundesnetzagentur zur Reform der Stromnetzentgelte, was direkt in die Zuständigkeit der Unterabteilung IIIA (Strommarktregulierung/Netzentgelte) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002081",
@@ -110307,6 +110887,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1275,
+  "gemini_filtered_out": 1283,
   "gemini_legacy_open": 0
 }
