@@ -1,7 +1,323 @@
 {
-  "generated_at": "2026-11-11T08:39:36.846031+01:00",
-  "newly_added": 17,
+  "generated_at": "2026-11-12T09:08:45.450725+01:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/88700",
+      "regulatory_project_title": "Änderungsvorschläge zur Weiterentwicklung der EU-Vorgaben zur Energieversorgungssicherheit",
+      "sending_date": "2026-11-11",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/73/38/871812/Stellungnahme-Gutachten-SG2611110020.pdf",
+      "pdf_pages": 16,
+      "sg_number": "SG2611110020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110020",
+      "summary": "Der BDEW <b>fordert eine gezielte Straffung</b> des EU-Rahmens für Energieversorgungssicherheit unter Beibehaltung marktlicher Strukturen. Er <b>plädiert für das Auslaufen</b> pauschaler Gasspeicherfüllstandsvorgaben und deren Ersatz durch staatliche Resilienzinstrumente. Für den Stromsektor wird ein <b>All-Gefahren-Ansatz</b> sowie eine verlässliche Refinanzierung von Resilienzmaßnahmen über Netzentgelte oder staatliche Fonds verlangt. Der Verband <b>kritisiert die Zertifizierungspflicht</b> für Speicherbetreiber als bürokratisch und fordert deren Abschaffung für EU-Eigentümer. Zudem wird eine <b>sektorübergreifende Harmonisierung</b> von Sicherheitsstandards für kritische Infrastrukturen und eine stärkere Synchronisierung von Wasserstoffhochlauf und Kraftwerksstrategie angemahnt.",
+      "register_description": "Der BDEW fordert einen bürokratiearmen EU-Energiesicherheitsrahmen mit marktlichen Mechanismen und klaren Zuständigkeiten. Er befürwortet eine gemeinsame Verordnung für Gas und Strom mit sektorspezifischen Unterkapiteln. Er fordert das Ende der Gasspeicherfüllstandsvorgaben, harmonisierte Einsatzbedingungen nationaler Gasreserven, staatlich finanzierte Krisenvorsorge, risikobasiertes Monitoring und die Befreiung von Speicherbetreibern in EU-/EWR-Eigentum von der Zertifizierungspflicht. Für Strom fordert er die Refinanzierung von Resilienzmaßnahmen, einen All-Gefahren-Ansatz einschließlich Verteilnetzen und erleichterte Kapazitätsmechanismen. Sicherheitsvorgaben sollen EU-weit harmonisiert, Doppelpflichten vermieden und Lieferkettenrisiken nicht auf einzelne Betreiber verlagert werden.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EU-Energiepolitik, Versorgungssicherheit von Strom und Gas sowie regulatorische Rahmenbedingungen, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000855",
+      "org_name": "MEW Mittelständische Energiewirtschaft Deutschland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000855/88720",
+      "regulatory_project_title": "Änderungen am Referentenentwurf zum Gebäudemodernisierungsgesetz",
+      "sending_date": "2026-11-09",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/da/ab/871723/Stellungnahme-Gutachten-SG2611110019.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611110019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110019",
+      "summary": "Die Verbände en2x, UNITI und MEW <b>begrüßen</b> die geplante Einführung einer <b>Grüngas-/Grünheizölquote</b> und fordern eine technologieoffene sowie bürokratiearme Ausgestaltung. Sie empfehlen, die Anforderungen für Bio-Brennstoffe direkt an das <b>Gebäudemodernisierungsgesetz</b> anzuknüpfen, um eine massenbilanzielle Erfüllung zu ermöglichen. Die Inverkehrbringer sollen von Dokumentationspflichten hinsichtlich der Sektorenverwendung entlastet werden. Zudem wird eine <b>Befreiung von der CO2-Bepreisung</b> für anteilig enthaltene erneuerbare Energieträger gefordert, um die Bezahlbarkeit der Transformation zu sichern. Hinsichtlich des Quotenpfades wird eine Obergrenze von 15 % bis zum Jahr 2035 als praktikabel erachtet. Abschließend fordern die Verbände eine präzisere Definition des Begriffs <b>Inverkehrbringer</b> im Rahmen des Rechtsrahmens.",
+      "register_description": "Ziel der Interessenvertretung ist die Anpassung des Gebäudemodernisierungsgesetzes im Hinblick auf eine technologieoffene und bundesweit einheitliche Ausgestaltung der Regelungen für den Wärmemarkt. Dabei geht es insbesondere um die Berücksichtigung flüssiger und gasförmiger erneuerbarer Energieträger als Erfüllungsoptionen, die Ausgestaltung der Vorgaben zu Bioöl und Biogas, eine bürokratiearme Umsetzung erneuerbarer Anteile, etwa über massenbilanzielle Nachweissysteme beim Inverkehrbringer, sowie um eine technologieoffene Aktualisierung der 1. BImSchV.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung einer Grüngas-/Grünheizölquote im Kontext des Gebäudemodernisierungsgesetzes (GModG), was direkt die Themenfelder Erneuerbare Energien und Klimaschutz/Energiewende berührt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001683",
+      "org_name": "Deutsche Umwelthilfe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001683/88637",
+      "regulatory_project_title": "Ambitionierte Ausgestaltung der EU-Fahrzeugverordnung (EU) 2026/1738",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/82/25/871690/Stellungnahme-Gutachten-SG2611110016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611110016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110016",
+      "summary": "Die <b>Deutsche Umwelthilfe e.V. fordert</b> die EU auf, die <b>Senkung der Nachfrage nach Batteriemetallen</b> als zentralen Bestandteil der europäischen Sicherheitsstrategie zu etablieren. Um die Abhängigkeit von kritischen Rohstoffen zu verringern, wird eine <b>stärkere Kreislaufwirtschaft</b> durch Recycling sowie eine höhere Energie- und Materialeffizienz bei Fahrzeugen angestrebt. Forschungsergebnisse des Öko-Instituts belegen, dass durch Maßnahmen wie <b>Größenreduzierung von Fahrzeugen</b> und Verkehrsverlagerung der Bedarf an Primärmaterialien signifikant gesenkt werden kann. Die Organisation empfiehlt, <b>ressourceneffiziente Fahrzeuge</b> durch gezielte Fahrzeugvorschriften und Klassifizierungen zu begünstigen. Zudem sollen öffentliche Mittel verstärkt in den Ausbau des öffentlichen Nahverkehrs und in <b>Innovationen für Batteriematerialien</b> fließen. Ziel ist es, die Dekarbonisierungsziele ohne eine neue Abhängigkeit von metallischen Rohstoffen zu erreichen.",
+      "register_description": "Delegierte Rechtsakte aus der Verordnung (EU) 2026/1738 sollen so ausgestaltet werden, dass sie einen hohen Nutzen für den Umwelt- und Ressourcenschutz haben, insbesondere sollen ambitionierte Rezyklateinsatzquoten, Ökodesignanforderungen, Demontage- /Behandlungspflichten, Kennzeichnungspflichten, Regelungen für eine Ökomodulation und Maßnahmen gegen illegale Exporte umgesetzt werden.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument thematisiert die Rohstoffeffizienz und Kreislaufwirtschaft im Kontext der Elektromobilität, was direkte Berührungspunkte zur Sektorkopplung und zur europäischen Energie- und Industriepolitik (Clean Industrial Deal) aufweist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001683",
+      "org_name": "Deutsche Umwelthilfe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001683/88637",
+      "regulatory_project_title": "Wir setzen uns für verlässliche Rahmenbedingungen und eine dezentrale Energiewende im EEG 2027 ein.",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/86/f1/871688/Stellungnahme-Gutachten-SG2611110015.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611110015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110015",
+      "summary": "Die Deutsche Umwelthilfe e.V. <b>lehnt</b> geplante Änderungen im EEG 2027 ab, die den Ausbau kleiner Dach-PV-Anlagen und die dezentrale Teilhabe gefährden könnten. Sie fordert den <b>Erhalt der Einspeisevergütung</b> sowie des Volleinspeisebonus und warnt vor einer pauschalen <b>Einspeisebegrenzung</b> für kleine Anlagen. Die verpflichtende <b>Direktvermarktung</b> für Anlagen unter 25 kW soll erst bei flächendeckender technischer Infrastruktur eingeführt werden. Zudem plädiert die Organisation für einen ausgewogenen Ausbau von Dach- und Freiflächen-PV sowie für eine <b>Begrenzung der Marktprämie</b> bei Wasserkraft auf Anlagen ab 1 MW. Abschließend unterstützt sie die Ausweitung von <b>Resilienzausschreibungen</b> zur Stärkung der europäischen Wertschöpfung.",
+      "register_description": "Ziel der Stellungnahme ist es, die dezentrale Energiewende und insbesondere den Ausbau kleiner Dach-PV-Anlagen zu sichern. Dafür sollen verlässliche und wirtschaftliche Rahmenbedingungen für private und kleinere Akteure erhalten bleiben. Wir fordern insbesondere den Erhalt der Einspeisevergütung und des Volleinspeisebonus, den Verzicht auf pauschale Einspeisebegrenzungen sowie eine verpflichtende Direktvermarktung erst bei vorhandener technischer und wirtschaftlicher Infrastruktur. Zudem setzen wir uns für einen ausgewogenen Ausbau von Dach- und Freiflächen-PV, zusätzliche Ausschreibungsvolumina, gezielte Förderung von Moor-PV und Resilienz sowie mehr Markt- und Investitionssicherheit ein.\r\n",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Bezug auf die geplante EEG-Novelle 2027 und adressiert zentrale Themenfelder der Unterabteilung IIIA, insbesondere Erneuerbare Energien (national) und Stromerzeugung.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003033",
+      "org_name": "TransnetBW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003033/88715",
+      "regulatory_project_title": "Beschleunigung von Planung und Genehmigung",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/17/81/871663/Stellungnahme-Gutachten-SG2611110014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611110014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110014",
+      "summary": "Die vier Übertragungsnetzbetreiber <b>begrüßen</b> den Gesetzentwurf zur <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> durch Digitalisierung und Bürokratieabbau. Sie unterstützen die Harmonisierung von Äußerungsfristen im UVPG sowie die Beschränkung der Öffentlichkeitsbeteiligung im BImSchG. Hinsichtlich der Datenherausgabe nach dem BNatSchG wird die pragmatische Ausgestaltung <b>befürwortet</b>, jedoch wird kritisiert, dass <b>Umweltvereinigungen</b> nicht zur Datenherausgabe verpflichtet werden. Die Netzbetreiber warnen vor einer <b>Rechtsunsicherheit</b> durch das potenzielle Zurückhalten von Daten, welches Klagen gegen Planfeststellungsbeschlüsse ermöglichen könnte. Zudem fordern sie eine sorgfältige Prüfung hinsichtlich <b>urheberrechtlicher Ansprüche</b> und möglicher Entschädigungspflichten. Abschließend bieten die Netzbetreiber ihre <b>Mitwirkung</b> bei der Festlegung technischer Datenvorgaben an.",
+      "register_description": "Für die Umsetzung der Energiewende ist die Beschleunigung von Planung und Genehmigung von zentraler Bedeutung. Dies kann sowohl zu Kosteneinsparungen, als auch zur schnelleren Umsetzungszeiten führen. ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Stellungnahme betrifft die Beschleunigung von Planungs- und Genehmigungsverfahren für Übertragungsnetze durch Änderungen im UVPG, BImSchG und BNatSchG, was direkt die Netzinfrastruktur und damit die Versorgungssicherheit und Energiewende betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/88700",
+      "regulatory_project_title": "Änderungsvorschläge zur steuerlichen Behandlung von Gasnetzen bei Stilllegung",
+      "sending_date": "2026-10-28",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f0/b3/871816/Stellungnahme-Gutachten-SG2611110011.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611110011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110011",
+      "summary": "Der BDEW und der VKU <b>fordern</b> eine Anpassung der steuerlichen Behandlung von Gasnetzen aufgrund der durch die Klimaziele bedingten <b>verkürzten Nutzungsdauern</b>. Die Verbände verlangen die Anerkennung kürzerer Abschreibungszeiträume in der Steuerbilanz, die über die amtlichen AfA-Tabellen hinausgehen. Zudem wird die Bestätigung verlangt, dass für <b>Jahressammelposten</b> im Rahmen des § 7 Abs. 2 EStG eine <b>degressive Abschreibung</b> zulässig ist. Des Weiteren wird eine <b>Gesetzesänderung</b> angestrebt, um eine degressive AfA auch für bestehende, perspektivisch stillzulegende Gasleitungen zu ermöglichen. Diese Maßnahmen sollen die regulatorische und handelsrechtliche Realität der <b>Gasnetztransformation</b> steuerlich abbilden. Die Verbände begründen dies mit der Notwendigkeit, den Rückgang der Erdgasnutzung und die damit verbundene Umnutzung oder Stilllegung von Netzteilen sachgerecht abzubilden.",
+      "register_description": "Der BDEW fordert, nachweisbar verkürzte Nutzungsdauern von Gasleitungen bei der steuerlichen Abschreibung anzuerkennen. Für Jahressammelposten soll die degressive Abschreibung bei Vorliegen der gesetzlichen Voraussetzungen bestätigt werden. Zudem setzt sich der BDEW für eine Änderung des § 7 EStG ein, die eine degressive Abschreibung auch für bestehende, perspektivisch stillzulegende Gasleitungen ermöglicht. Rückstellungen für Stilllegungsmaßnahmen und unvermeidbaren Rückbau sollen bei erfüllten steuerlichen Voraussetzungen dem Grunde und der Höhe nach anerkannt werden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die steuerliche Behandlung von Gasnetzinfrastruktur im Kontext der Dekarbonisierung und Transformation, was direkt die Themenfelder Energienetze und Klimaschutz/Energiewende berührt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/88700",
+      "regulatory_project_title": "Änderungsvorschläge zur steuerlichen Behandlung von Gasnetzen bei Stilllegung",
+      "sending_date": "2026-10-28",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/48/ac/871814/Stellungnahme-Gutachten-SG2611110010.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611110010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110010",
+      "summary": "Der BDEW und der VKU <b>beantragen</b> die steuerliche <b>Anerkennung von Rückstellungen</b> für Stilllegungs- und Rückbauverpflichtungen von Gasnetzen. Aufgrund der Klimaziele und der absehbaren Stilllegung von Netzteilen seien diese Verpflichtungen nach § 49 EnWG zwingend zu erfüllen. Die Verbände argumentieren, dass handelsrechtlich gebildete Rückstellungen gemäß dem <b>Maßgeblichkeitsgrundsatz</b> auch steuerlich anzusetzen sind. Sie betonen, dass die regulatorische Anerkennung durch die BNetzA-Festlegung „BRÜCKEN“ keine Kürzung der steuerlichen Rückstellungen rechtfertigt. Zudem wird eine <b>gesetzliche Duldungspflicht</b> für stillgelegte Leitungen befürwortet, um unnötige Rückbaukosten zu vermeiden. Die Verbände fordern das Bundesministerium der Finanzen auf, diese <b>steuerbilanzielle Behandlung</b> zu bestätigen.",
+      "register_description": "Der BDEW fordert, nachweisbar verkürzte Nutzungsdauern von Gasleitungen bei der steuerlichen Abschreibung anzuerkennen. Für Jahressammelposten soll die degressive Abschreibung bei Vorliegen der gesetzlichen Voraussetzungen bestätigt werden. Zudem setzt sich der BDEW für eine Änderung des § 7 EStG ein, die eine degressive Abschreibung auch für bestehende, perspektivisch stillzulegende Gasleitungen ermöglicht. Rückstellungen für Stilllegungsmaßnahmen und unvermeidbaren Rückbau sollen bei erfüllten steuerlichen Voraussetzungen dem Grunde und der Höhe nach anerkannt werden.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die regulatorische und steuerliche Behandlung von Gasnetzinfrastruktur im Kontext der Energiewende und der Stilllegungsplanung, was direkt die Zuständigkeit der Unterabteilung IIIA (Stromerzeugung/Energiewende) berührt.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt: Steuerbilanzielle Behandlung von Rückstellungen für Stilllegungs- und Rückbauverpflichtungen bei Gasnetzen",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R006053",
+      "org_name": "MAHLE Lifecycle and Mobility GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006053/88727",
+      "regulatory_project_title": "Berücksichtigung des Batteriezustands bei der Förderung von E-Gebrauchtfahrzeugen",
+      "sending_date": "2026-11-06",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/ae/871796/Stellungnahme-Gutachten-SG2611110022.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611110022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110022",
+      "summary": "Das Unternehmen MAHLE <b>empfiehlt</b>, bei der staatlichen <b>Förderung von E-Gebrauchtfahrzeugen</b> den <b>Batteriezustand</b> als Kriterium einzubeziehen. Zur Bestimmung des Gesundheitszustands (State of Health, SoH) wird die Nutzung <b>CARA-zertifizierter Prüfverfahren</b> vorgeschlagen. Die Ergebnisse sollen über einen mit der Fahrzeug-Identifikationsnummer verknüpften <b>standardisierten SoH-Bericht</b> dokumentiert werden. Als konkreten <b>Förderschwellenwert</b> schlägt das Unternehmen einen SoH von mindestens 90 % vor. Die Prüfung soll in Werkstätten innerhalb von 15 Minuten zu Kosten von unter 100 Euro durchführbar sein. Ziel ist es, Unsicherheiten zur Batteriehaltbarkeit zu reduzieren und den effizienten Einsatz öffentlicher Mittel zu gewährleisten.",
+      "register_description": "MAHLE empfiehlt bei der Förderung von gebrauchten Elektrofahrzeugen den Batteriezustand, geprüft durch unabhängige Batterietests (SOH - State of Health), in Betracht zu ziehen.",
+      "recipients": [
+        "BMUKN",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument betrifft die Förderung von E-Gebrauchtfahrzeugen (Verbraucherschutz/Mobilitätsförderung), was nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik/Strommarkt) des BMWK fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001683",
+      "org_name": "Deutsche Umwelthilfe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001683/88637",
+      "regulatory_project_title": "Umweltgerechten Umgang mit Elektrogeräten in der ElektroG-Novelle sicherstellen",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/76/df/871686/Stellungnahme-Gutachten-SG2611110018.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611110018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110018",
+      "summary": "Die Deutsche Umwelthilfe e.V. und weitere Organisationen <b>fordern die sofortige Einführung</b> eines bundesweiten, <b>herstellerfinanzierten Reparaturbonus</b> für Elektrogeräte. Das Instrument soll die finanzielle Hürde für Reparaturen senken, die Kreislaufwirtschaft stärken und die Rohstoffabhängigkeit reduzieren. Die Finanzierung soll über einen Reparaturfonds erfolgen, wobei die Beiträge der Hersteller ökologisch gestaffelt werden sollen. Die Organisationen schlagen vor, den Bonus direkt über einen <b>Rechnungsabzug</b> zu gewähren und auch <b>unabhängige Reparaturbetriebe</b> sowie Reparatur-Initiativen einzubeziehen. Zur rechtlichen Umsetzung wird eine Erweiterung des ElektroG oder ein eigenständiges Gesetz vorgeschlagen. Das Vorhaben soll als dauerhafte Lösung etabliert und perspektivisch auf weitere Produktgruppen ausgeweitet werden.",
+      "register_description": "Hersteller mehr in die Produktverantwortung nehmen; Ökodesign, Reparatur und grüne öffentliche Beschaffung stärken; Sammelmengen von Elektroaltgeräten steigern; Gesetzeslücken im Online-Handel und über Online-Plattformen schließen und illegale Importe von Elektrogeräten reduzieren; Rücknahme- und Informationspflichten von Onlinehändlern aus dem Ausland sichern, Wiederverwendungspotentiale von Elektrogeräten heben; Verbot von Retourenzerstörungen für Elektrogeräte; Brandrisiken durch ein Pfandsystem auf Lithium-Ionen-Batterien und gezielte Produktverbote effektiv bekämpfen; Recyclingstrukturen stärken und Einsatz von Rezyklaten erhöhen; Klimafreundliche Behandlung von Kühlgeräten und anderen Wärmeüberträgern sicherstellen; Bessere Vorgaben für PV-Module und Verbot von Einweg-E-Zigaretten.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit abfallrechtlichen Aspekten der Kreislaufwirtschaft und der Produktverantwortung für Elektrogeräte. Diese Themen fallen nicht in den Zuständigkeitsbereich der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktdesign und Versorgungssicherheit konzentriert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001683",
+      "org_name": "Deutsche Umwelthilfe e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001683/88637",
+      "regulatory_project_title": "Ambitionierte Ausgestaltung der EU-Fahrzeugverordnung (EU) 2026/1738",
+      "sending_date": "2026-10-16",
+      "upload_date": "2026-11-11",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/0f/871692/Stellungnahme-Gutachten-SG2611110017.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611110017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611110017",
+      "summary": "Die <b>Deutsche Umwelthilfe e.V. fordert ein vollständiges Verbot</b> von Einweg-E-Zigaretten aus Gründen des Gesundheits-, Umwelt- und Brandschutzes. Der vorliegende Entwurf zur Änderung der Tabakerzeugnisverordnung wird als unzureichend kritisiert, da er lediglich Stoffhöchstmengen festlegt, statt das Produkt als Ganzes zu untersagen. Die Organisation warnt vor einer <b>Verschwendung kritischer Rohstoffe</b> wie Lithium und Kobalt sowie vor der <b>Brandgefahr durch unsachgemäße Entsorgung</b> der Batterien. Ein <b>generelles Produktverbot</b> wird als leichter kontrollierbar und effektiver eingestuft als die Regulierung einzelner Inhaltsstoffe. Zudem wird gefordert, auch nicht wiederbefüllbare oder nicht aufladbare E-Zigaretten in das Verbot einzubeziehen, um <b>Pseudo-Mehrweg-Produkte zu verhindern</b>. Die DUH betont, dass die geplante EU-Batterieverordnung die Problematik der Einweg-Vapes nicht lösen wird.",
+      "register_description": "Delegierte Rechtsakte aus der Verordnung (EU) 2026/1738 sollen so ausgestaltet werden, dass sie einen hohen Nutzen für den Umwelt- und Ressourcenschutz haben, insbesondere sollen ambitionierte Rezyklateinsatzquoten, Ökodesignanforderungen, Demontage- /Behandlungspflichten, Kennzeichnungspflichten, Regelungen für eine Ökomodulation und Maßnahmen gegen illegale Exporte umgesetzt werden.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit der Tabakerzeugnisverordnung und dem Verbot von Einweg-E-Zigaretten, was nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) fällt.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt die Änderung der Tabakerzeugnisverordnung und ein gefordertes Verbot von Einweg-E-Zigaretten, nicht die EU-Fahrzeugverordnung.",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002143",
       "org_name": "Netze BW GmbH",
@@ -40,7 +356,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Gasnetztransformation und die Integration erneuerbarer Gase, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik/Gasnetz) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001894",
@@ -81,7 +397,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Digitalisierung der Energiewende, die Anforderungen an Messinfrastruktur für die Direktvermarktung und die Steuerung dezentraler Anlagen, was zentrale Themen der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000479",
@@ -108,7 +424,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die EU-Gesetzgebung zur Produktsicherheit und Marktüberwachung, welche für die Wettbewerbsfähigkeit und den EU-Binnenmarkt von hoher Relevanz für das BMWE ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001103",
@@ -156,7 +472,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die EU-Energiepolitik, die Erneuerbare-Energien-Richtlinie und die Zielarchitektur 2030/2040, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001103",
@@ -207,7 +523,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und Zielarchitektur 2040, welche zentrale Themenfelder der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R007406",
@@ -239,7 +555,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die EEG-Novelle 2027 und deren Auswirkungen auf den PV-Ausbau, was unter die Themenfelder 'Erneuerbare Energien (national)' und 'EEG-Finanzierung' der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001103",
@@ -272,7 +588,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die EU-Energiepolitik und die Dekarbonisierung der Energieerzeugung, da es um die Importvorgaben für Methan bei Öl- und Gaslieferketten geht.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001510",
@@ -304,7 +620,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die nationale Elektrifizierungsstrategie und deren Umsetzung im Kontext der Energiewende, was in den Themenbereich Klimaschutz & Energiewende sowie Strommarktregulierung fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002373",
@@ -335,7 +651,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung der Grüngasquote, welche als Instrument zur Dekarbonisierung der Gasversorgung und zum Markthochlauf erneuerbarer Gase für das BMWE von hoher energiepolitischer Relevanz ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001317",
@@ -9451,6 +9767,38 @@
       "register_description": "Die Lufthansa Group plädiert dafür, die Grundlohngrenze bei SF- und N-Zuschlägen in gleicher Höhe anzupassen. Hilfsweise sollte für Arbeitnehmer, die als Besatzungsmitglieder von Luftfahrzeugen beschäftigt werden, abweichend von Satz 1 nach § 3b Absatz 2 EStG, die Grundlohngrenze für Nachtarbeit ebenfalls mit höchstens 75 Euro angesetzt werden.",
       "gemini_relevanz": "Das Dokument betrifft ausschließlich steuerrechtliche Regelungen für SFN-Zuschläge (Sonn-, Feiertags- und Nachtarbeit) im Luftverkehr und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz) auf.",
       "summary_quelle": "pdf_scan"
+    },
+    {
+      "register_number": "R007264",
+      "org_name": "Zentrum für Europäischen Verbraucherschutz",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007264/78775",
+      "regulatory_project_title": "Social Media-Verbot für Jugendliche",
+      "sending_date": "2026-09-26",
+      "upload_date": "2026-10-06",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1e/84/871826/Stellungnahme-Gutachten-SG2610060031.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2610060031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060031",
+      "summary": "Das <b>Zentrum für Europäischen Verbraucherschutz</b> <b>fordert</b> eine <b>europäische Regelung</b> zur Einführung einer <b>Altersgrenze von 14 Jahren</b> für die Nutzung sozialer Medien. Zur Begründung verweist die Organisation auf wissenschaftliche Erkenntnisse zu psychischen Belastungen sowie auf suchtfördernde Design-Elemente der Plattformen. Neben dem Verbot werden <b>sichere Voreinstellungen</b> („Safety by Default“) und eine datenschutzkonforme <b>Altersverifikation</b> verlangt. Zudem plädiert die Organisation für eine verstärkte Medienbildung an Schulen sowie eine bundesweite Abstimmung zur Handynutzung im Unterricht. Die Forderungen zielen darauf ab, Minderjährige vor manipulativen Mechanismen und kommerzieller Ausbeutung zu schützen.",
+      "register_description": "Auf EU-Ebene soll ein Social Media-Verbot für unter 14-Jährige erreicht werden sowie ein User Design, das nicht abhängig macht.",
+      "recipients": [
+        "BMJV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit jugendpolitischen Maßnahmen, Verbraucherschutz im digitalen Raum und Social-Media-Regulierungen. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz, Energieversorgung).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R003033",
@@ -20832,6 +21180,46 @@
       "gemini_status": "cached",
       "register_description": "Grundvoraussetzung für einen schnellen Netzanschluss sind ausreichend Leistungsreserven vor Ort. Fehlende Anschlusskapazitäten in der Nieder- und Mittelspannung verzögern den Anschluss von Filialen, Lagern und stromintensiven Abnehmern. Es braucht zügige, bundesweit einheitliche Netzanschlussverfahren und einen bedarfsgerechten Netzausbau auf allen Netzebenen. ",
       "summary_quelle": "pdf_text"
+    },
+    {
+      "register_number": "R008323",
+      "org_name": "wattline GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008323/86608",
+      "regulatory_project_title": "Beschleunigung des Smart-Meter-Rollouts durch Sicherung des Wettbewerbs, Digitalisierung des Messwesens und Prozessoptimierung",
+      "sending_date": "2026-09-29",
+      "upload_date": "2026-09-29",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/06/88/871788/Stellungnahme-Gutachten-SG2609290210.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2609290210",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609290210",
+      "summary": "Die wattline GmbH <b>schlägt elf Maßnahmen</b> zur Novelle des Messstellenbetriebsgesetzes vor, um den <b>Smart-Meter-Rollout zu beschleunigen</b> und den Wettbewerb im Messwesen zu stärken. Das Unternehmen fordert unter anderem, Einbauten wettbewerblicher Messstellenbetreiber auf die Rolloutquote der grundzuständigen Betreiber anzurechnen und die <b>§ 14a-Pauschale an den iMSys-Einbau zu koppeln</b>. Zudem wird eine <b>Stärkung des Liegenschaftsmodells</b> durch vereinfachte Umlagemöglichkeiten sowie eine <b>prozessuale Entbürokratisierung</b> beim Gerätewechsel und der Marktkommunikation verlangt. Die wattline GmbH plädiert zudem für eine <b>standardisierte Ablöseregelung</b> bei vorzeitigen Wechseln innerhalb der Haltefrist. Abschließend wird eine <b>Abrechnung der Messentgelte über die Stromlieferantenrechnung</b> gefordert, um Doppelabrechnungen zu vermeiden und die Akzeptanz bei Endkunden zu erhöhen.",
+      "register_description": "Ziel ist es, den Smart-Meter-Rollout zu beschleunigen und eine flächendeckende digitale Infrastruktur für Messung und Steuerung zu schaffen. Die Digitalisierung in allen Spannungsebenen ist die Voraussetzung für die Transformation des Energiesystems und die kosteneffiziente Integration der erneuerbaren Energien. ",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Digitalisierung des Messwesens und den Smart-Meter-Rollout, welche zentrale Themen der Unterabteilung IIIA (Energiegesetzgebung/Strommarkt) sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R001459",
@@ -106954,7 +107342,7 @@
       ],
       "priority": 2,
       "gemini_status": "filtered",
-      "register_description": "Wir fordern dieses Verbot für das ElektroG,  alternativ fordern wir es auch Tabakerzeugnisverordnung (TabakerzV) und das Tabakerzeugnisgesetz (TabakerzG). Anknüpfungspunkte für eine schnelle und wirksame Verbotsregelung würde eine Ergänzung der Tabakerzeugnisverordnung (TabakerzV) in Anlage 2 bieten. Nach der EU-Richtlinie 2014/40/EU über die Herstellung, Aufmachung und den Verkauf von Tabakerzeugnissen und verwandten Erzeugnissen haben EU-Mitgliedstaaten die Möglichkeit das Inverkehrbringen einer bestimmten Kategorie von Tabakerzeugnissen (z.B. Einweg-E-Zigaretten) national zu verbieten, wenn das Verbot dem Schutz der öffentlichen Gesundheit dient. In Deutschland wurde die EU-Richtlinie 2014/40/EU durch die TabakerzV und das Tabakerzeugnisgesetz (TabakerzG) umgesetzt.",
+      "register_description": "Wir fordern dieses Verbot für das ElektroG, alternativ fordern wir es auch Tabakerzeugnisverordnung (TabakerzV) und das Tabakerzeugnisgesetz (TabakerzG). Anknüpfungspunkte für eine schnelle und wirksame Verbotsregelung würde eine Ergänzung der Tabakerzeugnisverordnung (TabakerzV) in Anlage 2 bieten. Nach der EU-Richtlinie 2014/40/EU haben EU-Mitgliedstaaten die Möglichkeit das Inverkehrbringen einer bestimmten Kategorie von Tabakerzeugnissen national zu verbieten. In Deutschland wurde die EU-Richtlinie 2014/40/EU durch die TabakerzV und das Tabakerzeugnisgesetz (TabakerzG) umgesetzt. Auch die Einführung einheitlicher, neutral gestalteter Verpackungen und Geräte könnte als unterstützende Maßnahme herangezogen werden, um die Attraktivität von Einweg-E-Zigaretten zu verringern.",
       "gemini_relevanz": "Das Dokument befasst sich mit einem Verbot von Einweg-E-Zigaretten aus gesundheits- und abfallpolitischen Gründen. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA (Strommarkt, Energiegesetzgebung, Versorgungssicherheit).",
       "summary_quelle": "pdf_text"
     },
@@ -110887,6 +111275,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1283,
+  "gemini_filtered_out": 1287,
   "gemini_legacy_open": 0
 }
