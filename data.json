@@ -1,7 +1,293 @@
 {
-  "generated_at": "2026-11-12T09:08:45.450725+01:00",
-  "newly_added": 12,
+  "generated_at": "2026-11-13T08:44:42.353997+01:00",
+  "newly_added": 8,
   "statements": [
+    {
+      "register_number": "R001053",
+      "org_name": "European Energy Exchange AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001053/88783",
+      "regulatory_project_title": "Handelbare Grüngasquoten einführen",
+      "sending_date": "2026-11-05",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5e/28/872230/Stellungnahme-Gutachten-SG2611120016.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611120016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120016",
+      "summary": "Die <b>European Energy Exchange AG</b> <b>schlägt ein Kombinationsmodell</b> zur Ausgestaltung der Grüngas- und Grünheizölquote vor, um einen liquiden und wettbewerblichen Handelsmarkt zu etablieren. Das Unternehmen fordert, die <b>Handelbarkeit der Quotenerfüllung</b> durch ein Zertifikatesystem vom physischen Molekül zu entkoppeln. Hierbei soll die <b>Massenbilanzierung</b> im Primärmarkt mit einem bilanziellen <b>Sekundärmarkt für Zertifikate</b> kombiniert werden. Die EEX warnt vor einer <b>Marktfragmentierung</b> durch die Beschränkung der Anrechenbarkeit von Wasserstoff auf ausgewählte Teilnetze. Zudem wird die Nutzung von <b>Banking- und Borrowing-Mechanismen</b> zur Flexibilisierung der Quotenerfüllung empfohlen. Eine systemweite Bilanzierung wird als unabdingbar für die Liquidität und Wettbewerbsfähigkeit des Marktes erachtet.",
+      "register_description": "Einführung von handelbaren Grüngasquoten zum Hochlauf einer grünen Wasserstoffwirtschaft/grünen Gasen über Zertifikate mit Nachhaltigkeitseigenschaften komplementär bzw. in Ergänzung zu (europäisch notwendigen) Massebilanzsystemen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung der Grüngasquote, welche direkt die Dekarbonisierung des Wärmemarktes und die Integration grüner Gase in das Energiesystem betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002733",
+      "org_name": "Green Planet Energy eG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002733/88748",
+      "regulatory_project_title": "Entwurf eines Gesetzes für einen planbaren, kosteneffizienten, netzverträglichen u. marktorientierten Ausbau der Erneuerbaren Energien im Stromsektor",
+      "sending_date": "2026-11-03",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fa/0a/872167/Stellungnahme-Gutachten-SG2611120012.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2611120012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120012",
+      "summary": "Green Planet Energy eG <b>fordert</b> eine <b>Stärkung von Mieterstrom</b>, um Haushalten den Zugang zu günstiger Solarenergie zu ermöglichen. Das Unternehmen kritisiert, dass <b>bürokratische Hürden</b> und uneinheitliche Prozesse bei Netzbetreibern den Ausbau massiv behindern. Zudem wird gewarnt, dass der geplante Wegfall der Einspeisevergütung die <b>Wirtschaftlichkeit von Mieterstromprojekten</b> gefährdet. Es werden <b>standardisierte, digitale Prozesse</b> sowie verlässliche wirtschaftliche Rahmenbedingungen gefordert. Des Weiteren wird eine <b>intelligente Steuerung</b> anstelle pauschaler Einspeisebegrenzungen befürwortet. Abschließend wird die Notwendigkeit betont, <b>Rechtssicherheit für Kundenanlagen</b> und Quartierslösungen zu schaffen.",
+      "register_description": "Der Regierungsentwurf zum EEG 2027 sieht vor, die bisherige feste Einspeisevergütung für neue Erneuerbare-Energien-Anlagen schrittweise abzuschaffen und durch eine stärkere Direktvermarktung des erzeugten Stroms zu ersetzen.",
+      "recipients": [
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument behandelt die Förderung von Mieterstrom und die damit verbundenen regulatorischen Hürden im Kontext des EEG, was direkt in die Zuständigkeitsbereiche Strommarktdesign und Erneuerbare Energien fällt.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/88796",
+      "regulatory_project_title": "Förderung für den Ankauf von klimaneutralen Bussen und den Umbau von Betriebshöfen im ÖPNV",
+      "sending_date": "2026-11-08",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/55/c7/872114/Stellungnahme-Gutachten-SG2611120009.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611120009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120009",
+      "summary": "Der <b>Verband Deutscher Verkehrsunternehmen</b> <b>kritisiert</b> die geplante <b>Kürzung der Fördermittel</b> für Busse mit alternativen Antrieben im Klima- und Transformationsfonds (KTF). Die Organisation warnt vor einer <b>großen Unsicherheit</b> bei der Investitionsplanung und einem drohenden Abbruch der Busbeschaffungen. Sie fordert eine <b>Aufstockung der Mittel</b> auf das Niveau von 2026, um die EU-Klimaziele und die Umstellung auf emissionsfreie Antriebe zu gewährleisten. Als Alternative zu den bisherigen wettbewerblichen Förderverfahren schlägt der Verband ein <b>kooperatives Förderkonzept</b> über das Gemeindeverkehrsfinanzierungsgesetz (GVFG) vor. Dies soll eine flächendeckende Finanzierung ermöglichen und den hohen administrativen Aufwand für Einzelprojekte reduzieren. Zudem wird auf die volkswirtschaftliche Bedeutung der Investitionen im ÖPNV verwiesen, die eine hohe Wertschöpfung generieren.",
+      "register_description": "Die Initiative verfolgt das Ziel, dass im Bundeshaushalt und im Klima- und Transformationsfonds (KTF) die Förderung für den Ankauf von Bussen mit alternativen Antrieben und den damit verbundenen Umbau von Betriebshöfen und Werkstätten fortgeschrieben und aufgestockt wird. Hierfür besteht im Zeitraum bis 2035 ein Förderbedarf in Höhe von 23,5 Mrd. Euro. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Finanzierung der Sektorkopplung im ÖPNV und die Transformation des Verkehrssektors, was unter die Themenfelder Klimaschutz & Energiewende sowie Finanzierungsbedarfe der Transformation fällt.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R008138",
+      "org_name": "H2vorOrt",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008138/88753",
+      "regulatory_project_title": "Wärmewende - kommunal und technologieoffen",
+      "sending_date": "2026-11-03",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fd/7f/872060/Stellungnahme-Gutachten-SG2611120006.pdf",
+      "pdf_pages": 17,
+      "sg_number": "SG2611120006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120006",
+      "summary": "Die Initiative <b>H2vorOrt</b> <b>schlägt</b> eine <b>praxisnahe Ausgestaltung der Grüngasquote</b> vor, um Investitionssicherheit für den Markthochlauf klimaneutraler Gase zu schaffen. Die Organisation <b>kritisiert die einschränkende Konditionierung</b> der Anrechenbarkeit von Wasserstoff-Blending an den Verteilernetzentwicklungsplan (VNEP) als zeit- und mengenintensiv. Zudem <b>fordert</b> sie die <b>Erlaubnis eines bilanziellen Handels</b> zwischen Methan- und Wasserstoffnetzen, um die Transformation der Verteilnetze effizient zu unterstützen. Die <b>Pönale</b> soll dabei als Preisobergrenze fungieren, wobei die <b>Multiplikator-Regelung</b> für Wasserstoff eine zentrale Rolle für die Investitionsanreize spielt. Die Initiative betont, dass eine klare gesetzliche Ausgestaltung der Quote entscheidend für die <b>Verteilnetztransformation</b> und die Dekarbonisierungsoptionen der Gaskunden ist.",
+      "register_description": "Wärmewende zum Erfolg führen. Stärkung der kommunalen Wärmeplanung und kommunalen Planungsautonomie. Offenheit bei den einzusetzenden Heizungstechnologien schaffen, volkswirtschaftlich und lokal optimale Lösungen ermöglichen. Schnelle Umsetzung des GModG und Verabschiedung des WPG unter Koordination von GModG, WPG und EnWG, um die Dekarbonisierungsoptionen der Gaskunden kohärent und zeitnah zu ermöglichen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument behandelt die Ausgestaltung einer Grüngasquote und deren Auswirkungen auf die Transformation der Gasverteilnetze, was direkt in den Bereich der Energiegesetzgebung und Strom-/Gasmarktregulierung des BMWE fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R008138",
+      "org_name": "H2vorOrt",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008138/88753",
+      "regulatory_project_title": "Wärmewende - kommunal und technologieoffen",
+      "sending_date": "2026-10-06",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/99/74/872058/Stellungnahme-Gutachten-SG2611120005.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2611120005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120005",
+      "summary": "Die Initiative H2vorOrt <b>fordert eine kohärente Abstimmung</b> zwischen der Novellierung des Energiewirtschaftsgesetzes (EnWG) und des Wärmeplanungsgesetzes (WPG), um die Infrastrukturtransformation effizient zu gestalten. Die Organisation <b>plädiert für eine netzebenenübergreifende Planung</b>, die festlegt, welche Gebiete künftig mit Wasserstoff oder Biomethan versorgt werden sollen. Da Doppelstrukturen in Verteilnetzen in der Regel nicht wirtschaftlich sind, wird eine <b>strategische Priorisierung von Gebieten</b> als notwendig erachtet. Zudem wird kritisiert, dass aktuelle kommunale Wärmepläne das Gasnetz oft unzureichend berücksichtigen und <b>belastbare Wirtschaftlichkeitsprüfungen</b> für Alternativen fehlen. Die Initiative <b>mahnt die Schaffung verbindlicher Rahmenbedingungen</b> für die Finanzierung der Wasserstofftransformation an. Abschließend wird betont, dass Gasnetzbetreiber für eine erfolgreiche Umsetzung auf klare politische Signale und eine <b>Einbindung in die Gesamtversorgungskette</b> angewiesen sind.",
+      "register_description": "Wärmewende zum Erfolg führen. Stärkung der kommunalen Wärmeplanung und kommunalen Planungsautonomie. Offenheit bei den einzusetzenden Heizungstechnologien schaffen, volkswirtschaftlich und lokal optimale Lösungen ermöglichen. Schnelle Umsetzung des GModG und Verabschiedung des WPG unter Koordination von GModG, WPG und EnWG, um die Dekarbonisierungsoptionen der Gaskunden kohärent und zeitnah zu ermöglichen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument behandelt die Schnittstelle zwischen kommunaler Wärmeplanung (WPG) und der Transformation von Gasverteilnetzen (EnWG), was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001655",
+      "org_name": "RWE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001655/88750",
+      "regulatory_project_title": "Windenergie-auf-See-Gesetz und die darin angekündigten Ausschreibungen von (\"systemdienlicher\") Elektrolyseurleistung ",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f7/c5/872066/Stellungnahme-Gutachten-SG2611120004.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611120004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120004",
+      "summary": "Das Unternehmen RWE <b>fordert Anpassungen</b> am WindSeeG und EEG, um die Realisierungschancen von Offshore-Windprojekten zu erhöhen. Es plädiert für den Übergang zu einem reinen <b>CfD-only-Modell</b>, um die Risiken des zweistufigen Ausschreibungsdesigns zu vermeiden. Zudem wird die Einführung <b>indexierter CfDs</b> empfohlen, um Planungssicherheit zu schaffen und Kapitalkosten zu senken. Zur Stärkung der Akteursvielfalt schlägt das Unternehmen die <b>Anpassung von Höchstwerten</b> sowie eine Begrenzung der Sicherheiten auf 100 Mio. €/GW vor. Des Weiteren wird der Grundsatz <b>One Site per Bidder</b> sowie ein Fokus auf 1-GW-Flächen befürwortet. Diese Maßnahmen sollen die Wettbewerbsfähigkeit des Standorts Deutschland im internationalen Vergleich sichern.",
+      "register_description": "Nach §96 WindSeeG sollen in den Jahren 2023 bis 2028 jeweils 500 Megawatt Elektrolyseurleistung ausgeschrieben werden. Diese sollen systemdienlich zur Erzeugung von grünem Wasserstoff an Land u.a. mit Strom aus Offshore-Windparks eingesetzt werden. Die Ausschreibungen und die damit verbundene Definition der Systemdienlichkeit stehen noch aus. ",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Offshore-Windenergie-Ausschreibungen und deren regulatorische Ausgestaltung, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002143",
+      "org_name": "Netze BW GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002143/88793",
+      "regulatory_project_title": "Novellierung des § 40 MessEV - Software-Updates bei Elektrizitätsmessgeräten unbürokratisch ermöglichen",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3d/49/872279/Stellungnahme-Gutachten-SG2611120019.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611120019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120019",
+      "summary": "Die Netze BW GmbH <b>schlägt vor</b>, die Vorgaben des § 40 MessEV für Software- und Firmware-Updates bei Elektrizitätsmessgeräten zu modernisieren. Das Unternehmen <b>fordert eine Vereinfachung</b> des Verfahrens, indem qualitätsgesicherte Updateprozesse bereits bei der <b>Baumusterprüfung</b> durch Konformitätsbewertungsstellen anerkannt werden. Dadurch sollen einzelgerätebezogene Genehmigungen und Stichprobenpflichten entfallen, die derzeit erhebliche Ressourcen binden. Die Netze BW GmbH argumentiert, dass die bestehenden Regelungen nicht mehr dem aktuellen Stand der Technik entsprechen. Eine Anpassung soll die <b>Cybersicherheit</b> und Digitalisierung stärken, ohne die eichrechtlichen Anforderungen an die Messrichtigkeit zu senken. Als Orientierung für das neue Verfahren werden die bereits etablierten Grundsätze für <b>Smart-Meter-Gateways</b> angeführt.",
+      "register_description": "Netze BW setzt sich im Rahmen der Novelle der Mess- und Eichverordnung dafür ein, das Verfahren für Software- und Firmware-Updates bei Elektrizitätsmessgeräten in § 40 MessEV zu vereinfachen. Der qualitätsgesicherte Updateprozess und die neue Softwareversion sollen bereits bei der Baumusterprüfung durch eine Konformitätsbewertungsstelle anerkannt werden. Einzelgerätebezogene Genehmigungen und Stichprobenpflichten wären dann nicht mehr nötig.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Mess- und Eichverordnung (MessEV) und technische Anforderungen an Messgeräte. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik/Strommarkt), sondern betreffen das Eichwesen und die Marktüberwachung von Messgeräten.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000760",
+      "org_name": "Verband der Mineralfarbenindustrie e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000760/88766",
+      "regulatory_project_title": "EU-Biozidverordnung (EU) 528/2012",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-11-12",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/44/7a/872130/Stellungnahme-Gutachten-SG2611120010.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611120010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611120010",
+      "summary": "Der Verband der Mineralfarbenindustrie <b>warnt vor einer Wirkstoffverknappung</b> durch die laufende Prüfung von Octylisothiazolinon (OIT) im Rahmen der EU-Biozidverordnung. Der Wirkstoff ist für die <b>Konservierung und den Schutz</b> von Farben, Lacken, Leder und Holzprodukten von hoher Bedeutung. Ein Wegfall oder eine starke Beschränkung würde laut Verband zu <b>erheblichen technischen und wirtschaftlichen Nachteilen</b> führen, da für viele Anwendungen keine gleichwertigen Alternativen existieren. Die Organisation fordert die Behörden auf, bei der Bewertung <b>sozioökonomische Faktoren</b> sowie reale Expositionsdaten stärker zu berücksichtigen. Ein <b>wissenschaftsbasierter Weight-of-Evidence-Ansatz</b> sei notwendig, um verhältnismäßige Entscheidungen zu treffen. Zudem wird betont, dass der Ersatz des Wirkstoffs umfangreiche Neuformulierungen und regulatorische Neubewertungen erfordern würde, was die <b>Ziele der Kreislaufwirtschaft</b> gefährden könnte.",
+      "register_description": "Octylisothiazolinon befindet sich im Prüfverfahren zur Wirkstoffgenehmigung. Ein Verlust des Wirkstoffes führt zu einer Verknappung der Einsetzbaren Wirkstoffe, wodurch der Schutz vor mikrobiellem Befall verringert wird.",
+      "recipients": [
+        "BMAS",
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Zulassung eines chemischen Wirkstoffs (Biozid) unter der EU-Biozidverordnung. Dies fällt nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Klimaschutz konzentriert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000888",
       "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
@@ -47,7 +333,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die EU-Energiepolitik, Versorgungssicherheit von Strom und Gas sowie regulatorische Rahmenbedingungen, die in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000855",
@@ -78,7 +364,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung einer Grüngas-/Grünheizölquote im Kontext des Gebäudemodernisierungsgesetzes (GModG), was direkt die Themenfelder Erneuerbare Energien und Klimaschutz/Energiewende berührt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001683",
@@ -109,7 +395,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument thematisiert die Rohstoffeffizienz und Kreislaufwirtschaft im Kontext der Elektromobilität, was direkte Berührungspunkte zur Sektorkopplung und zur europäischen Energie- und Industriepolitik (Clean Industrial Deal) aufweist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001683",
@@ -140,7 +426,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt direkt Bezug auf die geplante EEG-Novelle 2027 und adressiert zentrale Themenfelder der Unterabteilung IIIA, insbesondere Erneuerbare Energien (national) und Stromerzeugung.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003033",
@@ -171,7 +457,7 @@
       "priority": 1,
       "gemini_relevanz": "Die Stellungnahme betrifft die Beschleunigung von Planungs- und Genehmigungsverfahren für Übertragungsnetze durch Änderungen im UVPG, BImSchG und BNatSchG, was direkt die Netzinfrastruktur und damit die Versorgungssicherheit und Energiewende betrifft.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -198,7 +484,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die steuerliche Behandlung von Gasnetzinfrastruktur im Kontext der Dekarbonisierung und Transformation, was direkt die Themenfelder Energienetze und Klimaschutz/Energiewende berührt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -227,7 +513,7 @@
       "summary_quelle": "pdf_text",
       "abweichung": true,
       "abweichung_hinweis": "Das Dokument behandelt: Steuerbilanzielle Behandlung von Rückstellungen für Stilllegungs- und Rückbauverpflichtungen bei Gasnetzen",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R006053",
@@ -21219,7 +21505,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Digitalisierung des Messwesens und den Smart-Meter-Rollout, welche zentrale Themen der Unterabteilung IIIA (Energiegesetzgebung/Strommarkt) sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001459",
@@ -111275,6 +111561,6 @@
       "abweichung_hinweis": "Das Dokument behandelt die berufsrechtliche Regulierung von Sachverständigen und Gutachtern, was keinen Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA aufweist."
     }
   ],
-  "gemini_filtered_out": 1287,
+  "gemini_filtered_out": 1289,
   "gemini_legacy_open": 0
 }

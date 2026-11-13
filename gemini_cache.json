@@ -41302,5 +41302,101 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-12"
+  },
+  "SG2611120019": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument betrifft die Mess- und Eichverordnung (MessEV) und technische Anforderungen an Messgeräte. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik/Strommarkt), sondern betreffen das Eichwesen und die Marktüberwachung von Messgeräten.",
+    "zusammenfassung": "Die Netze BW GmbH <b>schlägt vor</b>, die Vorgaben des § 40 MessEV für Software- und Firmware-Updates bei Elektrizitätsmessgeräten zu modernisieren. Das Unternehmen <b>fordert eine Vereinfachung</b> des Verfahrens, indem qualitätsgesicherte Updateprozesse bereits bei der <b>Baumusterprüfung</b> durch Konformitätsbewertungsstellen anerkannt werden. Dadurch sollen einzelgerätebezogene Genehmigungen und Stichprobenpflichten entfallen, die derzeit erhebliche Ressourcen binden. Die Netze BW GmbH argumentiert, dass die bestehenden Regelungen nicht mehr dem aktuellen Stand der Technik entsprechen. Eine Anpassung soll die <b>Cybersicherheit</b> und Digitalisierung stärken, ohne die eichrechtlichen Anforderungen an die Messrichtigkeit zu senken. Als Orientierung für das neue Verfahren werden die bereits etablierten Grundsätze für <b>Smart-Meter-Gateways</b> angeführt.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Novellierung des § 40 MessEV",
+    "bezug": "kern",
+    "hauptgesetz": "MessEV",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120016": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert die Ausgestaltung der Grüngasquote, welche direkt die Dekarbonisierung des Wärmemarktes und die Integration grüner Gase in das Energiesystem betrifft.",
+    "zusammenfassung": "Die <b>European Energy Exchange AG</b> <b>schlägt ein Kombinationsmodell</b> zur Ausgestaltung der Grüngas- und Grünheizölquote vor, um einen liquiden und wettbewerblichen Handelsmarkt zu etablieren. Das Unternehmen fordert, die <b>Handelbarkeit der Quotenerfüllung</b> durch ein Zertifikatesystem vom physischen Molekül zu entkoppeln. Hierbei soll die <b>Massenbilanzierung</b> im Primärmarkt mit einem bilanziellen <b>Sekundärmarkt für Zertifikate</b> kombiniert werden. Die EEX warnt vor einer <b>Marktfragmentierung</b> durch die Beschränkung der Anrechenbarkeit von Wasserstoff auf ausgewählte Teilnetze. Zudem wird die Nutzung von <b>Banking- und Borrowing-Mechanismen</b> zur Flexibilisierung der Quotenerfüllung empfohlen. Eine systemweite Bilanzierung wird als unabdingbar für die Liquidität und Wettbewerbsfähigkeit des Marktes erachtet.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Einführung einer Grüngas- und Grünheizölquote",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120012": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument behandelt die Förderung von Mieterstrom und die damit verbundenen regulatorischen Hürden im Kontext des EEG, was direkt in die Zuständigkeitsbereiche Strommarktdesign und Erneuerbare Energien fällt.",
+    "zusammenfassung": "Green Planet Energy eG <b>fordert</b> eine <b>Stärkung von Mieterstrom</b>, um Haushalten den Zugang zu günstiger Solarenergie zu ermöglichen. Das Unternehmen kritisiert, dass <b>bürokratische Hürden</b> und uneinheitliche Prozesse bei Netzbetreibern den Ausbau massiv behindern. Zudem wird gewarnt, dass der geplante Wegfall der Einspeisevergütung die <b>Wirtschaftlichkeit von Mieterstromprojekten</b> gefährdet. Es werden <b>standardisierte, digitale Prozesse</b> sowie verlässliche wirtschaftliche Rahmenbedingungen gefordert. Des Weiteren wird eine <b>intelligente Steuerung</b> anstelle pauschaler Einspeisebegrenzungen befürwortet. Abschließend wird die Notwendigkeit betont, <b>Rechtssicherheit für Kundenanlagen</b> und Quartierslösungen zu schaffen.",
+    "quelle": "pdf_scan",
+    "hauptgegenstand": "Stärkung von Mieterstrom",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120010": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit der Zulassung eines chemischen Wirkstoffs (Biozid) unter der EU-Biozidverordnung. Dies fällt nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Klimaschutz konzentriert.",
+    "zusammenfassung": "Der Verband der Mineralfarbenindustrie <b>warnt vor einer Wirkstoffverknappung</b> durch die laufende Prüfung von Octylisothiazolinon (OIT) im Rahmen der EU-Biozidverordnung. Der Wirkstoff ist für die <b>Konservierung und den Schutz</b> von Farben, Lacken, Leder und Holzprodukten von hoher Bedeutung. Ein Wegfall oder eine starke Beschränkung würde laut Verband zu <b>erheblichen technischen und wirtschaftlichen Nachteilen</b> führen, da für viele Anwendungen keine gleichwertigen Alternativen existieren. Die Organisation fordert die Behörden auf, bei der Bewertung <b>sozioökonomische Faktoren</b> sowie reale Expositionsdaten stärker zu berücksichtigen. Ein <b>wissenschaftsbasierter Weight-of-Evidence-Ansatz</b> sei notwendig, um verhältnismäßige Entscheidungen zu treffen. Zudem wird betont, dass der Ersatz des Wirkstoffs umfangreiche Neuformulierungen und regulatorische Neubewertungen erfordern würde, was die <b>Ziele der Kreislaufwirtschaft</b> gefährden könnte.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Wirkstoffgenehmigung von Octylisothiazolinon (OIT) im Rahmen der EU-Biozidverordnung",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120009": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die Finanzierung der Sektorkopplung im ÖPNV und die Transformation des Verkehrssektors, was unter die Themenfelder Klimaschutz & Energiewende sowie Finanzierungsbedarfe der Transformation fällt.",
+    "zusammenfassung": "Der <b>Verband Deutscher Verkehrsunternehmen</b> <b>kritisiert</b> die geplante <b>Kürzung der Fördermittel</b> für Busse mit alternativen Antrieben im Klima- und Transformationsfonds (KTF). Die Organisation warnt vor einer <b>großen Unsicherheit</b> bei der Investitionsplanung und einem drohenden Abbruch der Busbeschaffungen. Sie fordert eine <b>Aufstockung der Mittel</b> auf das Niveau von 2026, um die EU-Klimaziele und die Umstellung auf emissionsfreie Antriebe zu gewährleisten. Als Alternative zu den bisherigen wettbewerblichen Förderverfahren schlägt der Verband ein <b>kooperatives Förderkonzept</b> über das Gemeindeverkehrsfinanzierungsgesetz (GVFG) vor. Dies soll eine flächendeckende Finanzierung ermöglichen und den hohen administrativen Aufwand für Einzelprojekte reduzieren. Zudem wird auf die volkswirtschaftliche Bedeutung der Investitionen im ÖPNV verwiesen, die eine hohe Wertschöpfung generieren.",
+    "quelle": "pdf_scan",
+    "hauptgegenstand": "Förderung von Bussen mit alternativen Antrieben im KTF",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120006": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument behandelt die Ausgestaltung einer Grüngasquote und deren Auswirkungen auf die Transformation der Gasverteilnetze, was direkt in den Bereich der Energiegesetzgebung und Strom-/Gasmarktregulierung des BMWE fällt.",
+    "zusammenfassung": "Die Initiative <b>H2vorOrt</b> <b>schlägt</b> eine <b>praxisnahe Ausgestaltung der Grüngasquote</b> vor, um Investitionssicherheit für den Markthochlauf klimaneutraler Gase zu schaffen. Die Organisation <b>kritisiert die einschränkende Konditionierung</b> der Anrechenbarkeit von Wasserstoff-Blending an den Verteilernetzentwicklungsplan (VNEP) als zeit- und mengenintensiv. Zudem <b>fordert</b> sie die <b>Erlaubnis eines bilanziellen Handels</b> zwischen Methan- und Wasserstoffnetzen, um die Transformation der Verteilnetze effizient zu unterstützen. Die <b>Pönale</b> soll dabei als Preisobergrenze fungieren, wobei die <b>Multiplikator-Regelung</b> für Wasserstoff eine zentrale Rolle für die Investitionsanreize spielt. Die Initiative betont, dass eine klare gesetzliche Ausgestaltung der Quote entscheidend für die <b>Verteilnetztransformation</b> und die Dekarbonisierungsoptionen der Gaskunden ist.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Ausgestaltung einer Grüngasquote",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "GModG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120005": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument behandelt die Schnittstelle zwischen kommunaler Wärmeplanung (WPG) und der Transformation von Gasverteilnetzen (EnWG), was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Die Initiative H2vorOrt <b>fordert eine kohärente Abstimmung</b> zwischen der Novellierung des Energiewirtschaftsgesetzes (EnWG) und des Wärmeplanungsgesetzes (WPG), um die Infrastrukturtransformation effizient zu gestalten. Die Organisation <b>plädiert für eine netzebenenübergreifende Planung</b>, die festlegt, welche Gebiete künftig mit Wasserstoff oder Biomethan versorgt werden sollen. Da Doppelstrukturen in Verteilnetzen in der Regel nicht wirtschaftlich sind, wird eine <b>strategische Priorisierung von Gebieten</b> als notwendig erachtet. Zudem wird kritisiert, dass aktuelle kommunale Wärmepläne das Gasnetz oft unzureichend berücksichtigen und <b>belastbare Wirtschaftlichkeitsprüfungen</b> für Alternativen fehlen. Die Initiative <b>mahnt die Schaffung verbindlicher Rahmenbedingungen</b> für die Finanzierung der Wasserstofftransformation an. Abschließend wird betont, dass Gasnetzbetreiber für eine erfolgreiche Umsetzung auf klare politische Signale und eine <b>Einbindung in die Gesamtversorgungskette</b> angewiesen sind.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Kommunale Wärmeplanung und Gasnetztransformation",
+    "bezug": "kern",
+    "hauptgesetz": "WPG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
+  },
+  "SG2611120004": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert zentrale Aspekte der Offshore-Windenergie-Ausschreibungen und deren regulatorische Ausgestaltung, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Das Unternehmen RWE <b>fordert Anpassungen</b> am WindSeeG und EEG, um die Realisierungschancen von Offshore-Windprojekten zu erhöhen. Es plädiert für den Übergang zu einem reinen <b>CfD-only-Modell</b>, um die Risiken des zweistufigen Ausschreibungsdesigns zu vermeiden. Zudem wird die Einführung <b>indexierter CfDs</b> empfohlen, um Planungssicherheit zu schaffen und Kapitalkosten zu senken. Zur Stärkung der Akteursvielfalt schlägt das Unternehmen die <b>Anpassung von Höchstwerten</b> sowie eine Begrenzung der Sicherheiten auf 100 Mio. €/GW vor. Des Weiteren wird der Grundsatz <b>One Site per Bidder</b> sowie ein Fokus auf 1-GW-Flächen befürwortet. Diese Maßnahmen sollen die Wettbewerbsfähigkeit des Standorts Deutschland im internationalen Vergleich sichern.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Anpassungen am WindSeeG und EEG zur Förderung der Offshore-Windenergie",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "WindSeeG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-13"
   }
 }
