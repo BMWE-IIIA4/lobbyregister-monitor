@@ -1,7 +1,400 @@
 {
-  "generated_at": "2026-11-13T08:44:42.353997+01:00",
-  "newly_added": 8,
+  "generated_at": "2026-11-14T08:30:34.144631+01:00",
+  "newly_added": 12,
   "statements": [
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Industrial Accelerator Act (Gesetzesvorschlag der EU-Kommission)",
+      "sending_date": "2026-10-07",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/8e/872677/Stellungnahme-Gutachten-SG2611130021.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611130021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130021",
+      "summary": "Die Organisation T&E <b>empfiehlt Änderungen</b> am Industrial Accelerator Act, um die europäische Batterieproduktion strategisch zu stärken. Sie fordert die <b>Aufnahme von Kriterien</b> für Vorprodukte (pCAM), Anodenmaterialien und kritische Rohstoffe in die Anforderungen für öffentliche Förderprogramme. Durch die <b>Verpflichtung zur lokalen Wertschöpfung</b> soll die Abhängigkeit von Drittstaaten verringert und die europäische Recyclingindustrie gefördert werden. T&E schlägt vor, diese Kriterien gestaffelt einzuführen, wobei eine <b>vollständige Rückverfolgbarkeit</b> über den EU-Batteriepass sichergestellt werden soll. Die <b>Integration der Midstream-Prozesse</b> wird als essenziell für den Aufbau einer resilienten Lieferkette angesehen. Zudem wird eine <b>Mindestquote für verarbeitete Mineralien</b> in der EU oder in Partnerländern ab 2031 angestrebt.",
+      "register_description": "Laut EU-Kommission sollen mit dem Gesetz gezielte und verhältnismäßige Anforderungen für „Made in EU“ und/oder CO2-arme Produkte für das öffentliche Beschaffungswesen und öffentliche Förderprogramme eingeführt werden. Diese gelten für ausgewählte strategische Sektoren, insbesondere in den Bereichen Stahl, Zement, Aluminium, Automobile und Netto-Null-Technologien, wie beispielsweise Batterien, Solar-, Wind- und Wärmepumpen sowie Kernenergie. Ziel ist es, die europäische Industrie zu stärken und Arbeitsplätze in der EU zu schaffen. T&E setzt sich bei des Bundesregierung für starke Kriterien für lokale Wertschöpfung im Bereich Automotive, insbesondere für Batterien, ein.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die EU-Industriepolitik und die Stärkung der europäischen Wertschöpfungskette für Batterien, was direkt unter die Themenfelder EU-Energiepolitik und Dekarbonisierung der Industrie fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Industrial Accelerator Act (Gesetzesvorschlag der EU-Kommission)",
+      "sending_date": "2026-09-08",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4b/54/872668/Stellungnahme-Gutachten-SG2611130020.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2611130020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130020",
+      "summary": "Die Organisation Transport & Environment <b>schlägt Änderungen</b> am Industrial Accelerator Act vor, um die europäische <b>industrielle Souveränität</b> bei strategischen Technologien zu stärken. Sie fordert eine Ausweitung des geografischen Geltungsbereichs auf das Vereinigte Königreich und die Etablierung einer <b>Positivliste für strategische Partnerländer</b> anstelle von Einzelausschlüssen. Zudem wird eine <b>Fokussierung auf strategische Komponenten</b> wie Batterien und E-Auto-Teile empfohlen, um den administrativen Aufwand zu reduzieren. Die Organisation plädiert für eine <b>dreistufige Kriterienstruktur</b>, die nach fünf Jahren zusätzliche Anforderungen an Vorprodukte für Kathodenaktivmaterialien und kritische Rohstoffe vorsieht. Durch die Einbeziehung von <b>recycelten Materialien</b> in die Komponentenkriterien soll zudem die Kreislaufwirtschaft gezielt gefördert werden.",
+      "register_description": "Laut EU-Kommission sollen mit dem Gesetz gezielte und verhältnismäßige Anforderungen für „Made in EU“ und/oder CO2-arme Produkte für das öffentliche Beschaffungswesen und öffentliche Förderprogramme eingeführt werden. Diese gelten für ausgewählte strategische Sektoren, insbesondere in den Bereichen Stahl, Zement, Aluminium, Automobile und Netto-Null-Technologien, wie beispielsweise Batterien, Solar-, Wind- und Wärmepumpen sowie Kernenergie. Ziel ist es, die europäische Industrie zu stärken und Arbeitsplätze in der EU zu schaffen. T&E setzt sich bei des Bundesregierung für starke Kriterien für lokale Wertschöpfung im Bereich Automotive, insbesondere für Batterien, ein.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum EU-Gesetzesvorschlag 'Industrial Accelerator Act' und adressiert strategische Industriepolitik, Lieferkettenresilienz und Anforderungen an die lokale Wertschöpfung, was in den Zuständigkeitsbereich der Unterabteilung IIIA (EU-Energiepolitik/Industriepolitik) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Industrial Accelerator Act (Gesetzesvorschlag der EU-Kommission)",
+      "sending_date": "2026-07-09",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/8f/872656/Stellungnahme-Gutachten-SG2611130019.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2611130019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130019",
+      "summary": "Die Organisation Transport & Environment <b>begrüßt den Industrial Accelerator Act</b> als wichtigen Schritt für die europäische Industriepolitik, <b>fordert jedoch die Schließung von Schlupflöchern</b>, um eine resiliente Batterie-Wertschöpfungskette effektiv zu skalieren. Sie empfiehlt, <b>strenge Made-in-EU-Kriterien</b> für öffentliche Förderungen und Beschaffungen einzuführen und dabei auf Ausnahmen bei Kosten- oder Verfügbarkeitsgründen zu verzichten. Zudem wird eine <b>kumulative Anwendung von FDI-Bedingungen</b> für Investitionen der letzten 36 Monate gefordert, um sicherzustellen, dass ausländische Investitionen zur lokalen Wertschöpfung beitragen. Die Organisation plädiert für eine <b>Ausweitung der Anforderungen auf die gesamte Lieferkette</b>, einschließlich Vorläufermaterialien und kritischer Rohstoffe. Schließlich wird angeregt, <b>Leitmärkte für grünen Stahl und Aluminium</b> durch verbindliche Anforderungen für alle Fahrzeugtypen zu stärken.",
+      "register_description": "Laut EU-Kommission sollen mit dem Gesetz gezielte und verhältnismäßige Anforderungen für „Made in EU“ und/oder CO2-arme Produkte für das öffentliche Beschaffungswesen und öffentliche Förderprogramme eingeführt werden. Diese gelten für ausgewählte strategische Sektoren, insbesondere in den Bereichen Stahl, Zement, Aluminium, Automobile und Netto-Null-Technologien, wie beispielsweise Batterien, Solar-, Wind- und Wärmepumpen sowie Kernenergie. Ziel ist es, die europäische Industrie zu stärken und Arbeitsplätze in der EU zu schaffen. T&E setzt sich bei des Bundesregierung für starke Kriterien für lokale Wertschöpfung im Bereich Automotive, insbesondere für Batterien, ein.",
+      "recipients": [
+        "AA",
+        "BKAmt",
+        "BMF",
+        "BMAS",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Industrial Accelerator Act (IAA) und dessen Auswirkungen auf die europäische Batterie-Wertschöpfungskette, was direkt unter die Themenfelder EU-Energiepolitik und Industriepolitik der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Industrial Accelerator Act (Gesetzesvorschlag der EU-Kommission)",
+      "sending_date": "2026-07-08",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/04/e3/872654/Stellungnahme-Gutachten-SG2611130018.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611130018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130018",
+      "summary": "Die Organisation Transport & Environment <b>unterstützt den Industrial Accelerator Act</b> und fordert eine konsequente Ausgestaltung von <b>lokalen Wertschöpfungskriterien</b> für E-Fahrzeuge und Batterien. Sie plädiert für eine Einbeziehung der gesamten Wertschöpfungskette, einschließlich Vorläufer-Aktivmaterialien und kritischer Rohstoffe, um die europäische Industrie zu stärken. Zur Sicherung der Nachfrage wird empfohlen, Unternehmensflotten als Schlüsselmarkt für europäische Batterien zu nutzen. Die Organisation kritisiert bestehende Schlupflöcher bei Freihandelsabkommen und fordert eine <b>Beschränkung der Subventionen</b> für kleine Elektro-Pkws auf Fahrzeuge mit europäischer Batterie. Zudem wird eine <b>Verschärfung der FDI-Bestimmungen</b> gefordert, um Investitionen in die lokale Produktion und den Technologietransfer zu sichern. Die Kosten für diese Maßnahmen werden als notwendige <b>Resilienzprämie</b> bewertet.",
+      "register_description": "Laut EU-Kommission sollen mit dem Gesetz gezielte und verhältnismäßige Anforderungen für „Made in EU“ und/oder CO2-arme Produkte für das öffentliche Beschaffungswesen und öffentliche Förderprogramme eingeführt werden. Diese gelten für ausgewählte strategische Sektoren, insbesondere in den Bereichen Stahl, Zement, Aluminium, Automobile und Netto-Null-Technologien, wie beispielsweise Batterien, Solar-, Wind- und Wärmepumpen sowie Kernenergie. Ziel ist es, die europäische Industrie zu stärken und Arbeitsplätze in der EU zu schaffen. T&E setzt sich bei des Bundesregierung für starke Kriterien für lokale Wertschöpfung im Bereich Automotive, insbesondere für Batterien, ein.",
+      "recipients": [
+        "AA",
+        "BMAS",
+        "BMV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des EU-Gesetzesvorhabens 'Industrial Accelerator Act' (IAA) und dessen Auswirkungen auf die europäische Batteriewertschöpfungskette, was direkt unter die EU-Energiepolitik und Industriepolitik fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "CO2 Flottengrenzwerte Lkw",
+      "sending_date": "2026-07-28",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c0/9d/872646/Stellungnahme-Gutachten-SG2611130017.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611130017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130017",
+      "summary": "Die Organisation Transport & Environment <b>empfiehlt</b>, die geplante <b>Anpassung der Utility Factors (UF)</b> für Plug-in-Hybridfahrzeuge (PHEV) auf EU-Ebene beizubehalten. Die Analyse zeigt, dass die aktuelle Methodik zu einer signifikanten Diskrepanz zwischen offiziellen und realen CO2-Emissionen führt. Eine <b>wissenschaftsbasierte Korrektur</b> der UF-Werte soll sicherstellen, dass die offiziellen Emissionswerte die tatsächliche Fahrzeugnutzung widerspiegeln. Die Organisation stellt fest, dass Hersteller durch <b>technische Verbesserungen</b>, insbesondere durch die Erhöhung der elektrischen Reichweite und Batteriekapazität, die Auswirkungen der UF-Korrektur ausgleichen können. Es wird argumentiert, dass diese Anpassung <b>Innovationen bei PHEVs</b> fördert, anstatt den Marktzugang zu gefährden. Die Organisation fordert die EU-Gesetzgeber auf, nicht in die technische Methodik einzugreifen und die <b>geplante Korrektur</b> für 2027/2028 umzusetzen.",
+      "register_description": "Einsetzen der Bundesregierung für die Beibehaltung der CO2 Flottengrenzwerte für Lkw auf EU Ebene",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Methodik zur Berechnung von CO2-Emissionen bei Plug-in-Hybriden im Rahmen der EU-Flottengrenzwerte, was einen direkten Bezug zur Klimaschutz- und EU-Gesetzgebung der Unterabteilung IIIA darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Industrial Accelerator Act (Gesetzesvorschlag der EU-Kommission)",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/25/4d/872652/Stellungnahme-Gutachten-SG2611130016.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611130016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130016",
+      "summary": "Die <b>Transport & Environment (T&E) Deutschland gGmbH empfiehlt</b> eine Verschärfung der Kriterien für lokale Wertschöpfung im Rahmen des <b>Industrial Accelerator Act</b>. Die Organisation <b>fordert</b>, strenge <b>'Made-in-EU'-Vorgaben</b> für Batteriezellen auf alle subventionierten Fahrzeuge auszuweiten, um die europäische Industrie zu stärken. Zudem wird <b>vorgeschlagen</b>, Vorläufermaterialien (pCAM) in die Komponentenliste aufzunehmen und eine <b>'Pyramiden-Struktur'</b> für die geografische Herkunft von Batterieteilen einzuführen. T&E <b>lehnt</b> die von Automobilherstellern vorgeschlagenen <b>'Fleet-Booster'-Mechanismen ab</b>, da diese die Wirksamkeit des Gesetzes untergraben würden. Die Analyse kommt zu dem Schluss, dass die europäische Produktionskapazität für Batteriezellen ausreicht, um den Bedarf für subventionierte Fahrzeuge bis 2027 zu decken.",
+      "register_description": "Laut EU-Kommission sollen mit dem Gesetz gezielte und verhältnismäßige Anforderungen für „Made in EU“ und/oder CO2-arme Produkte für das öffentliche Beschaffungswesen und öffentliche Förderprogramme eingeführt werden. Diese gelten für ausgewählte strategische Sektoren, insbesondere in den Bereichen Stahl, Zement, Aluminium, Automobile und Netto-Null-Technologien, wie beispielsweise Batterien, Solar-, Wind- und Wärmepumpen sowie Kernenergie. Ziel ist es, die europäische Industrie zu stärken und Arbeitsplätze in der EU zu schaffen. T&E setzt sich bei des Bundesregierung für starke Kriterien für lokale Wertschöpfung im Bereich Automotive, insbesondere für Batterien, ein.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung von Anforderungen an lokale Wertschöpfung und Batteriezellproduktion im Rahmen des Industrial Accelerator Act, was direkt die EU-Energiepolitik und Industriestrategie betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Clean Corporate Vehicles",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9a/91/872650/Stellungnahme-Gutachten-SG2611130015.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2611130015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130015",
+      "summary": "Die Organisation <b>Transport & Environment</b> <b>unterstützt</b> die Einführung der Clean Corporate Vehicles Regulation (CCVR) zur Beschleunigung der Elektrifizierung von Firmenwagen. Eine durch das Fraunhofer ISI erstellte Modellierung prognostiziert durch die Verordnung bis 2030 erhebliche <b>wirtschaftliche Vorteile</b>, darunter bis zu 344.000 zusätzliche Arbeitsplätze und 48 Milliarden Euro Wertschöpfung in der EU. Die Organisation <b>fordert</b>, die verbindlichen Ziele für emissionsfreie Fahrzeuge beizubehalten und die finanzielle Förderung strikt an <b>„Made-in-EU“-Kriterien</b> zu knüpfen. Insbesondere die in Artikel 4 vorgesehene Verknüpfung von staatlichen Anreizen mit lokalen Produktionsvorgaben wird als zentraler Treiber für industrielle Investitionen bewertet. Zudem wird empfohlen, das Inkrafttreten der Regelung für 2028 zu <b>fixieren</b>, um die Transformation der Automobilindustrie zeitnah zu unterstützen. Die Analyse zeigt, dass diese Maßnahmen insbesondere in Deutschland und Polen zur <b>Absicherung von Produktionsstandorten</b> beitragen können.",
+      "register_description": "Als Teil des Automotive Package hat die EU-Kommission den Gesetzesvorschlag Clean Corporate Vehicles für Autos und Lieferwagen eingebracht. T&E setzt sich für ambitionierte Elektrifizierungsziele ein und eine positive Positionierung Deutschland zu der Initiative.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der EU-Gesetzgebung zur Elektrifizierung von Firmenwagenflotten, was direkt unter die Themenfelder EU-Energiepolitik und Dekarbonisierung fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Pkw-Flottengrenzwerte",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5e/20/872644/Stellungnahme-Gutachten-SG2611130014.pdf",
+      "pdf_pages": 49,
+      "sg_number": "SG2611130014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130014",
+      "summary": "Die Organisation Transport & Environment <b>warnt vor einer Aufweichung</b> der EU-Pkw-Flottengrenzwerte für 2030 und 2035. Sie argumentiert, dass die aktuellen Ziele den <b>Hochlauf erschwinglicher Elektroautos</b> maßgeblich vorantreiben und die europäische Automobilindustrie im globalen Wettbewerb stärken. Eine Schwächung der Vorgaben, wie sie im EPP/Salini-Vorschlag diskutiert wird, würde laut Analyse zu einer <b>Stagnation der BEV-Verkäufe</b> führen und die Abhängigkeit von fossilen Importen verlängern. Die Organisation <b>lehnt Schlupflöcher</b> wie die Anrechnung von E-Fuels oder eine Fünf-Jahres-Durchschnittsberechnung ab. Stattdessen wird gefordert, die <b>CO2-Standards beizubehalten</b>, um die Investitionssicherheit für den Markthochlauf von E-Fahrzeugen zu gewährleisten. Zudem wird betont, dass die Hersteller bereits große Fortschritte bei der Erreichung der aktuellen Etappenziele erzielt haben.",
+      "register_description": "Beibehalten der utility factors und der EU-Pkw-Flottengrenzwerte für 2035",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der EU-Regulierung zu Pkw-Flottengrenzwerten und deren Auswirkungen auf die Elektromobilität, was unter die EU-Energiepolitik und Klimaschutz-Themenfelder der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003244",
+      "org_name": "Transport & Environment (T&E) Deutschland gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003244/88837",
+      "regulatory_project_title": "Pkw-Flottengrenzwerte",
+      "sending_date": "2026-09-21",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/af/c5/872642/Stellungnahme-Gutachten-SG2611130012.pdf",
+      "pdf_pages": 49,
+      "sg_number": "SG2611130012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130012",
+      "summary": "Die Organisation Transport & Environment <b>warnt vor einer Aufweichung</b> der EU-Pkw-Flottengrenzwerte für 2030 und 2035. Sie argumentiert, dass die aktuellen Ziele den <b>Hochlauf erschwinglicher Elektroautos</b> maßgeblich vorantreiben und die europäische Automobilindustrie im globalen Wettbewerb stärken. Eine Schwächung der Vorgaben, wie sie im Vorschlag von Massimiliano Salini diskutiert wird, würde laut Analyse zu einer <b>Stagnation der BEV-Verkäufe</b> führen und die Abhängigkeit von fossilen Brennstoffen verlängern. Die Organisation fordert stattdessen, die <b>Utility-Faktoren für PHEVs</b> nicht einzufrieren und auf Mechanismen wie Kraftstoffgutschriften zu verzichten. Zudem wird betont, dass die Einhaltung der Ziele notwendig ist, um die <b>globale Führungsposition</b> bei der Elektromobilität gegenüber China zu sichern. Abschließend wird empfohlen, die CO2-Standards beizubehalten, um Investitionssicherheit für den <b>Markthochlauf von E-Fahrzeugen</b> zu gewährleisten.",
+      "register_description": "Beibehalten der utility factors und der EU-Pkw-Flottengrenzwerte für 2035",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der EU-Gesetzgebung zu Pkw-Flottengrenzwerten und deren Auswirkungen auf die Elektromobilität, was unter die Themenfelder EU-Energiepolitik und Klimaschutz fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/88830",
+      "regulatory_project_title": "Gasreserve zur Krisenvorsorge einführen",
+      "sending_date": "2026-11-11",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/33/ab/872586/Stellungnahme-Gutachten-SG2611130010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611130010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130010",
+      "summary": "E.ON <b>begrüßt die Einführung einer nationalen Gasreserve</b> zur Absicherung extremer Versorgungskrisen, lehnt diese jedoch als Instrument zur Preisdämpfung ab. Das Unternehmen <b>schlägt eine Finanzierung über eine Umlage</b> vor, um korrekte Preissignale am Markt zu erhalten. Der Aufbau der Reserve soll bereits ab Frühjahr 2027 beginnen, wobei eine <b>europäische Lösung</b> vorrangig verfolgt werden sollte. Zur Umsetzung wird eine einheitliche Umlage für alle Kundengruppen gefordert, deren Höhe mindestens zwei Monate im Voraus veröffentlicht werden muss. E.ON <b>fordert eine gesetzliche Ergänzung des EnWG</b>, um eine unveränderte Weitergabe der Umlage zu ermöglichen und bürokratische Ausweispflichten zu streichen. Die Umlageperiode soll sich am Kalenderjahr orientieren, um den administrativen Aufwand für Lieferanten zu minimieren.",
+      "register_description": "E.ON setzt sich für die Einführung einer strategischen Gasreserve zur Absicherung extremer Versorgungskrisen ein. Die Reserve soll über eine Umlage finanziert werden, deren Auslösung klar definiert ist und die Marktmechanismen möglichst wenig beeinträchtigt. E.ON fordert einen zügigen Aufbau der Reserve ab Frühjahr 2027 sowie die Entwicklung einer europäischen Lösung. Die Umlage soll einheitlich für alle Gaskundengruppen gelten, jeweils für ein Kalenderjahr festgelegt und mindestens zwei Monate im Voraus veröffentlicht werden. Zur bürokratiearmen Umsetzung sollen § 41 Abs. 6 EnWG um ein Recht zur unveränderten Weitergabe der Umlage ergänzt und überholte Ausweispflichten nach § 35g Abs. 7 EnWG gestrichen werden.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Versorgungssicherheit durch eine strategische Gasreserve, was ein zentrales Thema der Energiepolitik und Versorgungssicherheit darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/88830",
+      "regulatory_project_title": "Verteilnetzpaket: Voraussetzungen für einen schnelleren und noch effizienteren Netzausbau schaffen",
+      "sending_date": "2026-11-06",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c1/3a/872584/Stellungnahme-Gutachten-SG2611130008.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611130008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130008",
+      "summary": "Die E.ON SE <b>fordert</b> eine konsequente <b>Beschleunigung von Planungs- und Genehmigungsverfahren</b> für den Netzausbau. Das Unternehmen schlägt vor, <b>Bestandsmaßnahmen</b> von der Planfeststellung auszunehmen und die <b>UVP-Privilegierung</b> auszuweiten. Zudem wird die <b>Aufhebung des Erdkabelvorrangs</b> bei 110-kV-Trassen sowie eine stärkere <b>Digitalisierung</b> der Behördenprozesse verlangt. E.ON empfiehlt zudem die <b>Gleichstellung von Realkompensation und Ersatzzahlung</b>, um Verzögerungen im Naturschutzrecht zu minimieren. Abschließend wird eine klare <b>Trennung von Genehmigungs- und Netzanschlussverfahren</b> im Kontext des EU Grids Package angemahnt.",
+      "register_description": "E.ON setzt sich im Rahmen des angekündigten Verteilnetzpakets für eine weitere Beschleunigung der Planungs- und Genehmigungsprozesse ein, um den erforderlichen Netzausbau zügig voranzubringen. Darüber hinaus sollten weitere gesetzliche Möglichkeiten für eine möglichst effiziente Nutzung bestehender Netzkapazitäten geschaffen werden. Ein weiterer Schwerpunkt liegt auf Digitalisierungsmaßnahmen. ",
+      "recipients": [
+        "BMV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Beschleunigung von Netzausbau und Genehmigungsverfahren im Verteilnetz, was unter die Themenfelder 'Energienetze' und 'Strommarkt' der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001981",
+      "org_name": "enercity AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001981/88820",
+      "regulatory_project_title": "Gesetz zur Synchronisierung des Anlagenzubaus mit Netzausbau sowie zur Verbesserung des Netzanschlussverfahrens",
+      "sending_date": "2026-11-05",
+      "upload_date": "2026-11-13",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ac/33/872491/Stellungnahme-Gutachten-SG2611130002.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611130002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611130002",
+      "summary": "Die <b>enercity AG fordert</b> eine differenzierte Behandlung von <b>Repowering-Projekten</b> im Rahmen des Redispatch-Vorbehalts, um den Windenergieausbau nicht zu gefährden. Das Unternehmen argumentiert, dass Repowering aufgrund der Nutzung bestehender Infrastruktur und höherer Systemdienlichkeit nicht wie ein Greenfield-Neubau behandelt werden sollte. Zudem <b>plädiert die enercity AG für eine Absicherung langfristiger PPAs</b> durch staatliche Bürgschaftsprogramme, um die Finanzierung marktbasierter EE-Projekte zu erleichtern. Zur Stärkung der <b>Direktbelieferung</b> wird ein Abbau regulatorischer Hemmnisse sowie eine räumliche Zusammenführung von Erzeugung und Verbrauch angestrebt. Abschließend wird eine <b>PPA-kompatible Ausgestaltung von CfDs</b> gefordert, um die Attraktivität langfristiger Stromlieferverträge gegenüber pauschalen Marktwertermittlungen zu wahren.",
+      "register_description": "Die Neuregelung des Netzanschlusspaketes führt zu einem Paradigmenwechsel und zur Verschiebung der Verantwortung vom Netzbetreiber auf den Investor von erneuerbaren Energien. Die Änderung hätte erhebliche Nachteile für den Wirtschaftsstandort Norddeutschland. Zentrale Vorschläge sind: \r\n1. Beibehaltung des Netzanschlussvorrangs als Grundprinzip der Energiewende \r\n2. Beschleunigung des Netzausbaus\r\n3. die konsequente Entfesselung von marktlichen Flexibilitätspotenzialen\r\n4. Flexible Connection Agreement (FCA) nur als kurzfristige und zeitlich befristete Übergangslösung möglich. Diese muss bundeseinheitlich ausgestaltet sein.  ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Netzanschlussregelung und EEG-Förderung, die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen (Erneuerbare Energien, Netzanschluss, Redispatch).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R001053",
       "org_name": "European Energy Exchange AG",
@@ -35,7 +428,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung der Grüngasquote, welche direkt die Dekarbonisierung des Wärmemarktes und die Integration grüner Gase in das Energiesystem betrifft.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002733",
@@ -64,7 +457,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Förderung von Mieterstrom und die damit verbundenen regulatorischen Hürden im Kontext des EEG, was direkt in die Zuständigkeitsbereiche Strommarktdesign und Erneuerbare Energien fällt.",
       "summary_quelle": "pdf_scan",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001242",
@@ -91,7 +484,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Finanzierung der Sektorkopplung im ÖPNV und die Transformation des Verkehrssektors, was unter die Themenfelder Klimaschutz & Energiewende sowie Finanzierungsbedarfe der Transformation fällt.",
       "summary_quelle": "pdf_scan",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R008138",
@@ -146,7 +539,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Ausgestaltung einer Grüngasquote und deren Auswirkungen auf die Transformation der Gasverteilnetze, was direkt in den Bereich der Energiegesetzgebung und Strom-/Gasmarktregulierung des BMWE fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R008138",
@@ -201,7 +594,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Schnittstelle zwischen kommunaler Wärmeplanung (WPG) und der Transformation von Gasverteilnetzen (EnWG), was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001655",
@@ -231,7 +624,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Offshore-Windenergie-Ausschreibungen und deren regulatorische Ausgestaltung, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002143",
@@ -26475,7 +26868,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die netztechnische Anbindung von Rechenzentren, die Rolle von Eigenerzeugung und Flexibilitätsoptionen im Stromnetz sowie die systemdienliche Nutzung von Abwärme, was direkt in die Zuständigkeitsbereiche der Unterabteilung IIIA (Strommarkt, Versorgungssicherheit, Energiewende) fällt.",
       "gemini_status": "cached",
-      "register_description": "E.ON ordnet den Netzzugang für Rechenzentren auch hinsichtlich der Möglichkeit zur Eigenerzeugung ein. Außerdem werden Lösungsansätze für das Thema Energieeffizienz von Rechenzentren und die Bedeutung der Verfügbarkeit von Rechenzentren für die Energiewende erläutert. ",
+      "register_description": "E.ON setzt sich für einen kohärenten regulatorischen Rahmen für den Ausbau und Betrieb von Rechenzentren in Deutschland und Europa ein. Dazu gehören ein diskriminierungsfreies Netzanschlussregime mit objektiven Reifegrad- und Standortkriterien, „Use-it-or-lose-it“-Regelungen und Reservierungsentgelten sowie die Anerkennung flexibler Anschlussmodelle, lokaler Erzeugung und Speicher. Energieeffizienzvorgaben sollen technologieoffen, praktikabel und standortbezogen ausgestaltet werden und insbesondere die Nutzung von Abwärme angemessen berücksichtigen.",
       "summary_quelle": "pdf_text"
     },
     {
