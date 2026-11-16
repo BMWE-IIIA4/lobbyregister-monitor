@@ -306,8 +306,16 @@ def toc_row(item, with_date):
     members = item["_group"] if isinstance(item, dict) and "_group" in item else [item]
     first = members[0]
     count = f' <span style="color:#94a3b8">({len(members)})</span>' if len(members) > 1 else ""
-    flag = (' <span style="font-size:11px;color:#b45309;font-weight:bold">⚠ Inhalt weicht ab</span>'
-            if any(m.get("abweichung") and m.get("abweichung_hinweis") for m in members) else "")
+    flag = ""
+    abweichler = [m for m in members if m.get("abweichung") and m.get("abweichung_hinweis")]
+    if abweichler:
+        themen = []
+        for m in abweichler:
+            t = (m.get("abweichung_thema") or "").strip()
+            if t and t not in themen:
+                themen.append(t)
+        text = "⚠ Inhalt weicht ab" + (f': {esc(" / ".join(themen))}' if themen else "")
+        flag = f' <span style="font-size:11px;color:#b45309;font-weight:bold">{text}</span>'
     date_cell = (f'<td width="52" style="{TD};width:52px;color:#475569;white-space:nowrap">'
                  f'{format_date_de(first.get("upload_date"))[:6]}</td>') if with_date else ""
     return (f'<tr>{date_cell}<td width="120" style="{TD};width:120px">{esc(short_org_name(first["org_name"]))}</td>'

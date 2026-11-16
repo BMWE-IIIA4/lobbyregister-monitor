@@ -311,6 +311,9 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "Dokuments genannt ist oder um das es hauptsaechlich geht (gaengiges Kuerzel wie EEG, "
             "EnWG, KVBG, StromVKG, KWKG, GEG, WindSeeG; kein Langname). Gesetze, die nur am Rande "
             "erwaehnt werden, zaehlen nicht. Leer, wenn kein bestimmtes Gesetz im Mittelpunkt steht.\n"
+            "thema_kurz: Stichwort mit 2 bis 4 Woertern (kein Satz, keine <b>-Tags), worum es im "
+            "Dokument im Kern geht, z.B. 'Netzentgelte fuer Speicher'. Es erscheint in einer "
+            "Uebersichtsliste neben dem Hinweis auf Abweichung vom Regelungsvorhaben.\n"
             "abweichung_hinweis: bei 'nur_erwaehnt' oder 'anderes_thema' ein Satz, was das "
             "Dokument tatsaechlich behandelt (ohne <b>-Tags); sonst leer.\n\n"
         )
@@ -326,14 +329,15 @@ def build_single_prompt(stmt, quelle, pdf_text=""):
             "nicht als Inhalt des Dokuments dar.\n"
             "Falls keine Beschreibung vorhanden: 'Keine inhaltliche Beschreibung verfuegbar.'\n\n"
             + markierung + "Ziel: hoechstens 3 markierte Phrasen.\n\n"
-            "BEZUG: nicht pruefbar, setze hauptgegenstand = \"\", bezug = \"unbekannt\", "
-            "hauptgesetz = \"\" und abweichung_hinweis = \"\".\n\n"
+            "BEZUG: nicht pruefbar, setze hauptgegenstand = \"\", thema_kurz = \"\", "
+            "bezug = \"unbekannt\", hauptgesetz = \"\" und abweichung_hinweis = \"\".\n\n"
         )
 
     return (
         kopf + inhalt + auftrag +
         'Antworte als JSON-Objekt in genau dieser Feldreihenfolge: {"hauptgegenstand": "...", '
-        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "hauptgesetz": "", "abweichung_hinweis": "", '
+        '"bezug": "kern|teilaspekt|nur_erwaehnt|anderes_thema", "hauptgesetz": "", "thema_kurz": "", '
+        '"abweichung_hinweis": "", '
         '"relevant": true, "relevanz_grund": "...", "zusammenfassung": "..."}\n'
         "NUR das JSON-Objekt."
     )
@@ -373,9 +377,30 @@ def apply_result(stmt, entry):
     if entry.get("abweichung") and entry.get("abweichung_hinweis"):
         stmt["abweichung"] = True
         stmt["abweichung_hinweis"] = entry["abweichung_hinweis"]
+        thema = kurzthema(entry)
+        if thema:
+            stmt["abweichung_thema"] = thema
+        else:
+            stmt.pop("abweichung_thema", None)
     else:
         stmt.pop("abweichung", None)
         stmt.pop("abweichung_hinweis", None)
+        stmt.pop("abweichung_thema", None)
+
+KURZTHEMA_MAX_WOERTER = 6
+
+def kurzthema(entry):
+    """Kurzbezeichnung des tatsaechlichen Dokumentthemas fuer die Uebersicht.
+    Bevorzugt 'thema_kurz' (2-4 Woerter von Gemini); Cache-Eintraege aus der Zeit
+    davor haben nur 'hauptgegenstand' -> auf wenige Woerter gekuerzt."""
+    thema = re.sub(r"<[^>]+>", "", entry.get("thema_kurz") or "").strip()
+    if thema:
+        return thema
+    woerter = re.sub(r"<[^>]+>", "", entry.get("hauptgegenstand") or "").split()
+    if not woerter:
+        return ""
+    kurz = " ".join(woerter[:KURZTHEMA_MAX_WOERTER]).rstrip(".,;:–-")
+    return kurz + ("…" if len(woerter) > KURZTHEMA_MAX_WOERTER else "")
 
 ABWEICHUNG_BEZUG = ("nur_erwaehnt", "anderes_thema")
 
@@ -426,6 +451,7 @@ def cache_entry_from_result(result, quelle, stmt=None):
         "hauptgegenstand": (result.get("hauptgegenstand") or "").strip() if pruefbar else "",
         "bezug": result.get("bezug", "") if pruefbar else "unbekannt",
         "hauptgesetz": str(result.get("hauptgesetz") or "").strip() if pruefbar else "",
+        "thema_kurz": (result.get("thema_kurz") or "").strip() if pruefbar else "",
         "abweichung": bool(abweichung),
         "abweichung_hinweis": hinweis,
         "geprueft_am": date.today().isoformat(),
