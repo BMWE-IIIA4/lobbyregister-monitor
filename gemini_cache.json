@@ -41542,5 +41542,70 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-14"
+  },
+  "SG2611170001": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert die regulatorische Anpassung des Redispatch-Rechtsrahmens (EnWG) für Anlagen unter 100 kW, was direkt in den Bereich Stromnetzregulierung und Versorgungssicherheit fällt.",
+    "zusammenfassung": "Die Bayernwerk AG <b>schlägt vor</b>, das sogenannte Gartenzaun-Prinzip zur <b>Privilegierung des Eigenverbrauchs</b> bei kleinen Erzeugungsanlagen unter 100 kW gesetzlich zu verankern. Hierfür soll eine <b>Referenzierung auf die Einspeisung</b> am Netzverknüpfungspunkt ermöglicht werden, um den Eigenverbrauch bei Redispatch-Maßnahmen technisch zu schützen. Im Gegenzug soll für diese Anlagenklasse auf eine <b>Entschädigung der Ausfallarbeit</b> verzichtet werden, um komplexe Massenprozesse zu vermeiden. Das Unternehmen empfiehlt zudem eine <b>Anpassung der Steuerungsreferenzen</b> im EnWG, um die netzwirksame Einspeisung als maßgebliche Größe zu definieren. Des Weiteren wird eine <b>Vereinfachung der Testpflichten</b> für die Steuerbarkeit von Anlagen gefordert, um den administrativen Aufwand im Massensegment zu reduzieren. Diese Maßnahmen sollen die Akzeptanz der Energiewende erhöhen und die Komplexität bei technischen Netzeingriffen signifikant senken.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Schutz des Eigenverbrauchs bei Redispatch",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "thema_kurz": "Redispatch Eigenverbrauchsschutz",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-17"
+  },
+  "SG2611160013": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert die Stärkung von Power Purchase Agreements (PPAs) im Kontext des EEG 2027, was direkt in die Zuständigkeit der Unterabteilung IIIA (Erneuerbare Energien/Strommarkt) fällt.",
+    "zusammenfassung": "Die <b>ENGIE Deutschland AG kritisiert</b> das vorliegende Gesetzgebungspaket zum EEG 2027, da es die <b>Power-Purchase-Agreements (PPAs)</b> in ihrer Praxisrelevanz schwäche. Das Unternehmen bemängelt, dass die vorgesehene <b>Opt-out-Regelung</b> aus dem Fördersystem (CfD) die Nachfrage nach kurzfristigen PPA-Laufzeiten von ein bis fünf Jahren ignoriere. Stattdessen <b>schlägt das Unternehmen ein Opt-in-Modell</b> vor, bei dem nach einer initialen PPA-Phase in die CfD-Förderung gewechselt werden kann. Dies würde laut ENGIE die <b>Finanzierbarkeit von Projekten</b> (Bankability) verbessern und die <b>Marktintegration</b> von Erneuerbare-Energien-Anlagen stärken. Die aktuelle Ausgestaltung des Opt-outs wird als zu kurz gegriffen bewertet, um den Bedürfnissen von Industriekunden gerecht zu werden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EEG 2027",
+    "bezug": "teilaspekt",
+    "hauptgesetz": "EEG",
+    "thema_kurz": "PPA-Integration und Opt-in",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-17"
+  },
+  "SG2611160010": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die EU-Klimapolitik, das EU-Klimagesetz sowie die Ausgestaltung des Emissionshandels (ETS), welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Die <b>Vattenfall GmbH unterstützt</b> das EU-Ziel einer 90-prozentigen Treibhausgasreduktion bis 2040 und <b>warnt vor einer Abschwächung</b> des europäischen Emissionshandels (ETS). Das Unternehmen betont, dass ein <b>langfristiges Preissignal</b> für CO₂ eine essenzielle Voraussetzung für Investitionsentscheidungen in Dekarbonisierung und Elektrifizierung darstellt. Eine Aufweichung des ETS-Rahmens gefährde die Planungssicherheit für Unternehmen, die bereits in fossilfreie Technologien investiert haben. Vattenfall <b>lehnt eine Senkung des linearen Reduktionsfaktors</b> nach 2030 ab, da dies den Business Case für klimaneutrale Lösungen schwächen würde. Stattdessen sollten ETS-Einnahmen gezielt für die Transformation des Energiesystems und die industrielle Dekarbonisierung genutzt werden. Der konsequente Ausbau fossilfreier Technologien wird als entscheidend für die <b>europäische Wettbewerbsfähigkeit</b> und Unabhängigkeit eingestuft.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Europäischer Emissionshandel (ETS) und Klimaziel 2040",
+    "bezug": "kern",
+    "hauptgesetz": "ETS",
+    "thema_kurz": "Stärkung des Emissionshandels",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-17"
+  },
+  "SG2611160009": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit sozial- und familienpolitischen Fragestellungen zur Absicherung von Selbstständigen während der Schwangerschaft und Mutterschaft. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Versorgungssicherheit, Klimaschutz im Energiesektor).",
+    "zusammenfassung": "Der Verein Mutterschutz für Alle! e. V. <b>fordert</b> eine umfassende gesetzliche <b>Absicherung für selbstständige Frauen</b> während Schwangerschaft und Mutterschaft. Die Organisation kritisiert, dass Selbstständige aufgrund fehlender Regelungen im Mutterschutzgesetz (MuSchG) bei gesundheitlich notwendigen Tätigkeitseinschränkungen oder in Schutzfristen erhebliche <b>Einkommensausfälle</b> und betriebliche Belastungen allein tragen müssen. Als Lösung wird die Aufnahme von Selbstständigen in das MuSchG sowie die Einführung eines <b>persönlichen Einkommensersatzes</b> vorgeschlagen. Zur Finanzierung wird eine <b>solidarische Umlage</b> (U4) angeregt, die unabhängig vom Geschlecht und Kinderwunsch von allen Selbstständigen getragen werden soll. Zudem wird eine <b>betriebliche Absicherung</b> für laufende Fixkosten und Vertretungskräfte gefordert, um die Existenz der Betriebe zu sichern. Bestehende Versicherungsmodelle werden als unzureichend bewertet, da sie häufig Gesundheitsprüfungen oder Leistungsausschlüsse vorsehen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Mutterschutz für Selbstständige",
+    "bezug": "kern",
+    "hauptgesetz": "MuSchG",
+    "thema_kurz": "Mutterschutz für Selbstständige",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-17"
+  },
+  "SG2608260004": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert die Weiterentwicklung des Redispatch-Rechtsrahmens und schlägt spezifische Änderungen am EnWG vor, um den Eigenverbrauch bei kleinen Erzeugungsanlagen zu schützen und administrative Prozesse zu vereinfachen.",
+    "zusammenfassung": "Die Bayernwerk AG <b>schlägt vor</b>, das sogenannte Gartenzaun-Prinzip zur <b>Privilegierung des Eigenverbrauchs</b> bei kleinen Erzeugungsanlagen unter 100 kW rechtlich zu verankern. Das Unternehmen fordert eine <b>Harmonisierung der Steuerungsreferenzen</b>, um eine netzwirksame Einspeisereferenzierung am Netzverknüpfungspunkt zu ermöglichen. Zur Reduzierung komplexer Massenprozesse soll für Anlagen unter 100 kW ein <b>Verzicht auf Entschädigungsansprüche</b> bei Redispatch-Eingriffen gesetzlich festgeschrieben werden. Zudem wird eine <b>Anpassung der Test- und Berichtspflichten</b> für die Steuerbarkeit von Anlagen angeregt, um den administrativen Aufwand zu minimieren. Die vorgeschlagenen Änderungen sollen durch Ergänzungen im EnWG umgesetzt werden, um die <b>Praktikabilität im Massensegment</b> zu erhöhen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Schutz des Eigenverbrauchs bei Redispatch-Maßnahmen",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "thema_kurz": "Redispatch Eigenverbrauchsschutz",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-17"
   }
 }
