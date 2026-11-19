@@ -1,7 +1,168 @@
 {
-  "generated_at": "2026-11-18T09:24:15.175766+01:00",
-  "newly_added": 13,
+  "generated_at": "2026-11-19T09:35:23.131421+01:00",
+  "newly_added": 5,
   "statements": [
+    {
+      "register_number": "R002933",
+      "org_name": "Bundesverband Niere e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002933/89037",
+      "regulatory_project_title": "PNOG - Pflegeneuordnungsgesetz",
+      "sending_date": "2026-11-09",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f5/6e/874494/Stellungnahme-Gutachten-SG2611190001.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611190001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190001",
+      "summary": "Der <b>Bundesverband Niere e. V. kritisiert</b> den Regierungsentwurf zum Pflegeneuordnungsgesetz und warnt vor <b>höheren Zugangsschwellen</b> bei der Pflegebegutachtung. Der Verband fordert, den <b>Entlastungsbetrag in Pflegegrad 1</b> zu erhalten und die Finanzierung von <b>Pflegehilfsmitteln</b> als eigenständigen Anspruch zu sichern. Zudem wird verlangt, die <b>Ersatzpflege durch vertraute Personen</b> auch nach der geplanten Gesetzesänderung verlässlich abzusichern. Besondere Aufmerksamkeit verlangt der Verband für die <b>dialysegeeignete Kurzzeitpflege</b> und Rehabilitation sowie die Berücksichtigung schwankender Hilfebedarfe. Abschließend wird eine <b>Stimmberechtigung für Betroffenenorganisationen</b> im Beirat zur Weiterentwicklung des Begutachtungsinstruments gefordert.",
+      "register_description": "Einflussnahme auf den Entwurf eines Gesetzes zur Neuordnung der Pflegeversicherung (Pflegeneuordnungsgesetz – PNOG), BT-Drs. 21/8869. Ziele: Beibehaltung der bisherigen Schwellenwerte für die Pflegegrade (§ 15 SGB XI); Erhalt des Entlastungsbetrags und der Pflegehilfsmittel zum Verbrauch in Pflegegrad 1, insbesondere für Kinder und Jugendliche; Absicherung der Ersatzpflege durch vertraute Privatpersonen nach Wegfall der Verhinderungspflege; Ansparmöglichkeit und Übertragung ins Folgejahr beim Sozialraumbudget; Berücksichtigung wiederkehrenden Hilfebedarfs an Dialysetagen in der Begutachtung; Sicherung des Zugangs zu dialysegeeigneter Kurzzeitpflege und Rehabilitation; Stimmrecht der Betroffenenorganisationen nach § 118 SGB XI im Beirat nach § 18f SGB XI-E.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit sozialrechtlichen Aspekten der Pflegeversicherung und der Begutachtung von Pflegebedürftigkeit. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002822",
+      "org_name": "UNITI Bundesverband EnergieMittelstand e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002822/88984",
+      "regulatory_project_title": "Stellungnahme zu Eckpunkten für eine Grüngas-/ Grünheizölquote",
+      "sending_date": "2026-11-09",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a2/69/874139/Stellungnahme-Gutachten-SG2611180004.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611180004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180004",
+      "summary": "Der UNITI Bundesverband EnergieMittelstand e.V. <b>begrüßt</b> die geplante Einführung einer Grüngas-/Grünheizölquote und fordert eine <b>technologieoffene Ausgestaltung</b>. Die Organisation empfiehlt, einen direkten Bezug zu den <b>Nachhaltigkeitsanforderungen</b> des GModG herzustellen, um eine massenbilanzielle Erfüllbarkeit zu gewährleisten. Zudem wird eine <b>Präzisierung des Begriffs Inverkehrbringer</b> verlangt, um die Handelskette von Dokumentationspflichten zu entlasten. Hinsichtlich der Quotenhöhe wird ein Pfad von bis zu 15 % bis zum Jahr 2035 als praktikabel erachtet. Abschließend fordert der Verband eine <b>anteilige Befreiung</b> von erneuerbaren Energieträgern von der CO2-Bepreisung zur Sicherung der Bezahlbarkeit.",
+      "register_description": "- Herstellung eines direkten Bezugs zu den Anforderungen für Biobrennstoffe im GModG\r\n- Notwendigkeit einer massenbilanziellen Erfüllbarkeit auch für die Quote, wie sie im GModG für die Biotreppe angelegt ist\r\n- Präzisierung des Begriffs Inverkehrbringer\r\n- anteilige Befreiung enthaltender erneuerbaren Energieträger von der CO2-Bepreisung",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung der Grüngas-/Grünheizölquote, welche direkt mit der Wärmewende und den Anforderungen des GModG verknüpft ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002822",
+      "org_name": "UNITI Bundesverband EnergieMittelstand e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002822/88984",
+      "regulatory_project_title": "Stellungnahme zum Kraftstoffpreisanpassungsgesetz (12 Uhr-Regel)",
+      "sending_date": "2026-11-12",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a2/a4/874137/Stellungnahme-Gutachten-SG2611180003.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611180003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180003",
+      "summary": "Der UNITI Bundesverband EnergieMittelstand e.V. <b>lehnt</b> das Kraftstoffpreisanpassungsgesetz (KPAnG) ab und <b>fordert dessen Abschaffung</b>. Der Verband argumentiert, dass die 12-Uhr-Regel den <b>dynamischen Preiswettbewerb</b> einschränkt, ohne nachweislich zu niedrigeren Preisen für Verbraucher zu führen. Zudem wird kritisiert, dass die Regelung zu <b>Umsatzrückgängen</b> im Shop- und Bistrogeschäft der Tankstellen führt und Investitionen in Ladeinfrastruktur hemmt. Bis zu einer möglichen Abschaffung schlägt der Verband die <b>schnellstmögliche Aufsetzung einer Rechtsverordnung</b> vor, um technische Unwägbarkeiten bei der Preisumstellung zu adressieren. Hierbei wird insbesondere die Einführung eines <b>Umsetzungszeitfensters</b> von 11:59 bis 12:30 Uhr angeregt. Zudem sollen technische Störungen, höhere Gewalt und Kassensystem-Wechsel als Ausnahmegründe explizit berücksichtigt werden.",
+      "register_description": "- Abschaffung des KPAnG\r\n\r\n- bis dahin schnellstmögliche Aufsetzung der im Gesetz genannten Rechtsverordnung zur Umsetzung des KPAnG mit folgenden Punkten:\r\n- Klarstellung des Umstellungszeitpunkts, um technische Unwägbarkeiten abzufedern\r\n- Berücksichtigung höherer Gewalt, technischer Störungen und Gründe, von Kassensystem-Wechseln sowie des Zeitstempels\r\n- Festlegung eines Zeitfensters zur Umsetzung der Preissetzungsvorgabe, das von 11:59 bis 12:30 Uhr reicht",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Regulierung von Kraftstoffpreisen und der 12-Uhr-Regel, was unter die Zuständigkeit der Wettbewerbspolitik in verbraucherrelevanten Bereichen fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004211",
+      "org_name": "Gesamtverband Autoteile-Handel e.V. (GVA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004211/89028",
+      "regulatory_project_title": "EU-Durchführungsverordnung zum Batterie-Pass: Der Zugang zum Batterie-Pass muss für den gesamten  unabhängigen Kfz-Aftermarket sichergestellt werden",
+      "sending_date": "2026-11-18",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/cb/7b/874421/Stellungnahme-Gutachten-SG2611180025.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611180025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180025",
+      "summary": "Der Gesamtverband Autoteile-Handel e.V. <b>begrüßt</b> die Arbeiten der Europäischen Kommission am Durchführungsrechtsakt zum Batterie-Pass, <b>kritisiert</b> jedoch die unzureichende Berücksichtigung der gesamten Wertschöpfungskette des Kfz-Aftermarkets. Der Verband <b>fordert</b>, dass neben Werkstätten auch unabhängige Akteure wie Teilehersteller und Diagnoseanbieter <b>Zugangsrechte</b> zu relevanten Batterieinformationen erhalten. Ohne diesen erweiterten Zugang sei ein funktionsfähiges Ökosystem für Batteriereparaturen nicht realisierbar. Die Organisation betont, dass der <b>Zugang zu Informationen</b> essenziell für faire Wettbewerbsbedingungen und eine funktionierende Kreislaufwirtschaft ist. Zudem wird darauf hingewiesen, dass dieser Ansatz im Einklang mit bestehenden EU-Verordnungen zur Typgenehmigung und Gruppenfreistellung stehen muss. Nur durch die Einbeziehung aller Dienstleister könne die <b>Reparaturfähigkeit</b> und der Wettbewerb im Kfz-Nachmarkt gestärkt werden.",
+      "register_description": "Für eine nachhaltige Kreislaufwirtschaft in Bezug auf Batterien, die bei Kraftfahrzeugen zum Einsatz kommen, sowie für bezahlbare Mobilität ist es unerlässlich, dass auch unabhängige Akteure aus dem Bereich Reparatur und Wartung von Fahrzeugen bei den Regelungen um den Batterie-Pass im Sinne fairer Wettbewerbsbedingungen berücksichtigt werden. Dies beispielsweise in der Form, dass auch diese Einträge über eine erfolgte Batteriereparatur im Batterie-Pass vornehmen können.",
+      "recipients": [
+        "BMUKN",
+        "BMV",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des EU-Batterie-Passes im Kontext der Kreislaufwirtschaft und des Kfz-Aftermarkets. Dies fällt nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik), da es sich um produktbezogene Regulierung und Wettbewerbsrecht im Automobilsektor handelt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000083",
+      "org_name": "Stiftung Familienunternehmen und Politik",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000083/89004",
+      "regulatory_project_title": "Informationelle Selbstbestimmung wirtsch. Berechtigter bei Maßgaben zum Transparenzregister wahren",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e5/19/874289/Stellungnahme-Gutachten-SG2611180021.pdf",
+      "pdf_pages": 18,
+      "sg_number": "SG2611180021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180021",
+      "summary": "Die Stiftung Familienunternehmen <b>kritisiert</b> den Regierungsentwurf zum Zollfinanzgerechtigkeitsgesetz und <b>fordert</b> eine stärkere Berücksichtigung individueller Sicherheits- und Datenschutzinteressen bei der Ausgestaltung des Transparenzregisters. Sie <b>bezweifelt</b> die Wirksamkeit des Registers zur Geldwäschebekämpfung und warnt vor Sicherheitsrisiken durch Datenleaks. Die Organisation <b>schlägt vor</b>, den Zugang für Dritte durch engere Fallgruppen zu begrenzen und verfahrensrechtliche Sicherungen für Betroffene zu etablieren. Zudem <b>beantragt</b> sie eine <b>Bürokratieentlastung</b> durch die Verknüpfung von Transparenz- und Handelsregister. Abschließend <b>fordert</b> sie eine umfassende Evaluierung der Registerpraxis, um die Auswirkungen auf die Sicherheit wirtschaftlich Berechtigter zu prüfen.",
+      "register_description": "Die Umsetzung des Anti Money Laundering Package der EU muss verhältnismäßig sein. Beim Transparenzregister gilt dies insbesondere für den Anforderungskatalog der Eintragung personenbezogener Daten wirtschaftlicher Eigentümer und die Beschränkung des Jedermann-Zugangs zum Register. Der Grundrechtsschutz verlangt neben einer verhältnismäßigen Verwaltungspraxis eine legislative Ausgestaltung des „berechtigten Interesses“ (EuGH 2022), die die schutzwürdigen Interessen der Eintragungspflichtigen hinreichend berücksichtigt. Im Rahmen des Zollfinanzgerechtigkeitsgesetzes [ZFG] müssen hinreichende Anforderungen an das Bestehen eines „berechtigten Interesses“ und an dessen Nachweis gesetzt werden. Außerdem sind hinreichende verfahrensrechtliche Maßnahmen zum Schutz der Betroffenen zu verankern. ",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Geldwäschegesetz (GwG) und dem Transparenzregister im Kontext der Bekämpfung von Finanzkriminalität. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Klimaschutz konzentriert.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt: Zollfinanzgerechtigkeitsgesetz (ZFG) / Transparenzregister",
+      "abweichung_thema": "Transparenzregister und Datenschutz",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002130",
       "org_name": "Bayernwerk AG",
@@ -69,7 +230,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die Finanzierung der Verkehrswende und Sektorkopplung, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Sektorkopplung' der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000611",
@@ -102,7 +263,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Anpassung von Transparenz- und Informationspflichten im EnWG zum Schutz kritischer Infrastrukturen, was in den Aufgabenbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000611",
@@ -135,7 +296,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Sicherheitsüberprüfung von Personal in kritischen Infrastrukturen (KRITIS), was für die Versorgungssicherheit und den Schutz von Energieanlagen im Zuständigkeitsbereich des Ministeriums von hoher Relevanz ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000981",
@@ -9322,7 +9483,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die industrielle Wettbewerbsfähigkeit und die Ausgestaltung der CO2-Flottenregulierung, was direkt die Themenfelder EU-Energiepolitik, Klimaschutz und industrielle Transformation berührt.",
       "gemini_status": "cached",
-      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere mittels der Aufnahme einer „CO2 neutral fuel“ Fahrzeugkategorie.",
+      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere durch die Anerkennung von VEEF/Vehicles Running Exclusively on Eligible Fuels als zero-emission.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -9357,7 +9518,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die industrielle Wettbewerbsfähigkeit und die Ausgestaltung der CO2-Flottenregulierung, was direkt die Themenfelder EU-Energiepolitik, Klimaschutz und industrielle Transformation der Unterabteilung IIIA berührt.",
       "gemini_status": "cached",
-      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere mittels der Aufnahme einer „CO2 neutral fuel“ Fahrzeugkategorie.",
+      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere durch die Anerkennung von VEEF/Vehicles Running Exclusively on Eligible Fuels als zero-emission.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -104984,7 +105145,7 @@
       ],
       "priority": 2,
       "gemini_status": "cached",
-      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere mittels der Aufnahme einer „CO2 neutral fuel“ Fahrzeugkategorie.",
+      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere durch die Anerkennung von VEEF/Vehicles Running Exclusively on Eligible Fuels als zero-emission.",
       "gemini_relevanz": "Das Dokument betrifft die EU-CO2-Flottenregulierung für Pkw und leichte Nutzfahrzeuge, was unter die Themenfelder Klimaschutz und EU-Gesetzgebung fällt.",
       "summary_quelle": "pdf_scan"
     },
@@ -105017,7 +105178,7 @@
       ],
       "priority": 2,
       "gemini_status": "cached",
-      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere mittels der Aufnahme einer „CO2 neutral fuel“ Fahrzeugkategorie.",
+      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere durch die Anerkennung von VEEF/Vehicles Running Exclusively on Eligible Fuels als zero-emission.",
       "gemini_relevanz": "Das Dokument betrifft die EU-Klimapolitik und die CO2-Flottenregulierung, welche für die Sektorkopplung und die Transformation des Verkehrssektors im Rahmen der Energiewende relevant sind.",
       "summary_quelle": "pdf_scan"
     },
@@ -109353,7 +109514,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die EU-Flottenregulierung und die Rolle erneuerbarer Kraftstoffe, was direkt unter die Themenfelder EU-Energiepolitik und Klimaschutz der Unterabteilung IIIA fällt.",
       "gemini_status": "cached",
-      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere mittels der Aufnahme einer „CO2 neutral fuel“ Fahrzeugkategorie.",
+      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere durch die Anerkennung von VEEF/Vehicles Running Exclusively on Eligible Fuels als zero-emission.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -109388,7 +109549,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument befasst sich mit der EU-Klimapolitik und der CO2-Flottenregulierung, was unter die Themenfelder EU-Energiepolitik, Klimaschutz und Wettbewerbsfähigkeit im EU-Binnenmarkt der Unterabteilung IIIA fällt.",
       "gemini_status": "cached",
-      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere mittels der Aufnahme einer „CO2 neutral fuel“ Fahrzeugkategorie.",
+      "register_description": "Technologieoffene Ausgestaltung der EU CO2 Flottenregulierungen Pkw, leichte Nutzfahrzeuge und schwere Nutzfahrzeuge durch die Berücksichtigung erneuerbarer Kraftstoffe (Biokraftstoffe und E-Fuels), insbesondere durch die Anerkennung von VEEF/Vehicles Running Exclusively on Eligible Fuels als zero-emission.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -112861,6 +113022,6 @@
       "abweichung_thema": "Gesetzliche Regelung der Berufsbezeichnungen Gutachter und…"
     }
   ],
-  "gemini_filtered_out": 1300,
+  "gemini_filtered_out": 1303,
   "gemini_legacy_open": 0
 }

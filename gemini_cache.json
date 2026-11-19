@@ -41776,5 +41776,70 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-18"
+  },
+  "SG2611190001": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich ausschließlich mit sozialrechtlichen Aspekten der Pflegeversicherung und der Begutachtung von Pflegebedürftigkeit. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+    "zusammenfassung": "Der <b>Bundesverband Niere e. V. kritisiert</b> den Regierungsentwurf zum Pflegeneuordnungsgesetz und warnt vor <b>höheren Zugangsschwellen</b> bei der Pflegebegutachtung. Der Verband fordert, den <b>Entlastungsbetrag in Pflegegrad 1</b> zu erhalten und die Finanzierung von <b>Pflegehilfsmitteln</b> als eigenständigen Anspruch zu sichern. Zudem wird verlangt, die <b>Ersatzpflege durch vertraute Personen</b> auch nach der geplanten Gesetzesänderung verlässlich abzusichern. Besondere Aufmerksamkeit verlangt der Verband für die <b>dialysegeeignete Kurzzeitpflege</b> und Rehabilitation sowie die Berücksichtigung schwankender Hilfebedarfe. Abschließend wird eine <b>Stimmberechtigung für Betroffenenorganisationen</b> im Beirat zur Weiterentwicklung des Begutachtungsinstruments gefordert.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Pflegeneuordnungsgesetz (PNOG)",
+    "bezug": "kern",
+    "hauptgesetz": "SGB XI",
+    "thema_kurz": "Pflegeversicherung und Begutachtung",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-19"
+  },
+  "SG2611180025": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit der Ausgestaltung des EU-Batterie-Passes im Kontext der Kreislaufwirtschaft und des Kfz-Aftermarkets. Dies fällt nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik), da es sich um produktbezogene Regulierung und Wettbewerbsrecht im Automobilsektor handelt.",
+    "zusammenfassung": "Der Gesamtverband Autoteile-Handel e.V. <b>begrüßt</b> die Arbeiten der Europäischen Kommission am Durchführungsrechtsakt zum Batterie-Pass, <b>kritisiert</b> jedoch die unzureichende Berücksichtigung der gesamten Wertschöpfungskette des Kfz-Aftermarkets. Der Verband <b>fordert</b>, dass neben Werkstätten auch unabhängige Akteure wie Teilehersteller und Diagnoseanbieter <b>Zugangsrechte</b> zu relevanten Batterieinformationen erhalten. Ohne diesen erweiterten Zugang sei ein funktionsfähiges Ökosystem für Batteriereparaturen nicht realisierbar. Die Organisation betont, dass der <b>Zugang zu Informationen</b> essenziell für faire Wettbewerbsbedingungen und eine funktionierende Kreislaufwirtschaft ist. Zudem wird darauf hingewiesen, dass dieser Ansatz im Einklang mit bestehenden EU-Verordnungen zur Typgenehmigung und Gruppenfreistellung stehen muss. Nur durch die Einbeziehung aller Dienstleister könne die <b>Reparaturfähigkeit</b> und der Wettbewerb im Kfz-Nachmarkt gestärkt werden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "EU-Durchführungsrechtsakt zum Batterie-Pass",
+    "bezug": "kern",
+    "hauptgesetz": "",
+    "thema_kurz": "Zugang zum Batterie-Pass",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-19"
+  },
+  "SG2611180021": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit dem Geldwäschegesetz (GwG) und dem Transparenzregister im Kontext der Bekämpfung von Finanzkriminalität. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Klimaschutz konzentriert.",
+    "zusammenfassung": "Die Stiftung Familienunternehmen <b>kritisiert</b> den Regierungsentwurf zum Zollfinanzgerechtigkeitsgesetz und <b>fordert</b> eine stärkere Berücksichtigung individueller Sicherheits- und Datenschutzinteressen bei der Ausgestaltung des Transparenzregisters. Sie <b>bezweifelt</b> die Wirksamkeit des Registers zur Geldwäschebekämpfung und warnt vor Sicherheitsrisiken durch Datenleaks. Die Organisation <b>schlägt vor</b>, den Zugang für Dritte durch engere Fallgruppen zu begrenzen und verfahrensrechtliche Sicherungen für Betroffene zu etablieren. Zudem <b>beantragt</b> sie eine <b>Bürokratieentlastung</b> durch die Verknüpfung von Transparenz- und Handelsregister. Abschließend <b>fordert</b> sie eine umfassende Evaluierung der Registerpraxis, um die Auswirkungen auf die Sicherheit wirtschaftlich Berechtigter zu prüfen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Zollfinanzgerechtigkeitsgesetz (ZFG) / Transparenzregister",
+    "bezug": "kern",
+    "hauptgesetz": "GwG",
+    "thema_kurz": "Transparenzregister und Datenschutz",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt: Zollfinanzgerechtigkeitsgesetz (ZFG) / Transparenzregister",
+    "geprueft_am": "2026-11-19"
+  },
+  "SG2611180004": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die Ausgestaltung der Grüngas-/Grünheizölquote, welche direkt mit der Wärmewende und den Anforderungen des GModG verknüpft ist.",
+    "zusammenfassung": "Der UNITI Bundesverband EnergieMittelstand e.V. <b>begrüßt</b> die geplante Einführung einer Grüngas-/Grünheizölquote und fordert eine <b>technologieoffene Ausgestaltung</b>. Die Organisation empfiehlt, einen direkten Bezug zu den <b>Nachhaltigkeitsanforderungen</b> des GModG herzustellen, um eine massenbilanzielle Erfüllbarkeit zu gewährleisten. Zudem wird eine <b>Präzisierung des Begriffs Inverkehrbringer</b> verlangt, um die Handelskette von Dokumentationspflichten zu entlasten. Hinsichtlich der Quotenhöhe wird ein Pfad von bis zu 15 % bis zum Jahr 2035 als praktikabel erachtet. Abschließend fordert der Verband eine <b>anteilige Befreiung</b> von erneuerbaren Energieträgern von der CO2-Bepreisung zur Sicherung der Bezahlbarkeit.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Eckpunkte für eine Grüngas-/Grünheizölquote",
+    "bezug": "kern",
+    "hauptgesetz": "GModG",
+    "thema_kurz": "Grüngas- und Grünheizölquote",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-19"
+  },
+  "SG2611180003": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument befasst sich mit der Regulierung von Kraftstoffpreisen und der 12-Uhr-Regel, was unter die Zuständigkeit der Wettbewerbspolitik in verbraucherrelevanten Bereichen fällt.",
+    "zusammenfassung": "Der UNITI Bundesverband EnergieMittelstand e.V. <b>lehnt</b> das Kraftstoffpreisanpassungsgesetz (KPAnG) ab und <b>fordert dessen Abschaffung</b>. Der Verband argumentiert, dass die 12-Uhr-Regel den <b>dynamischen Preiswettbewerb</b> einschränkt, ohne nachweislich zu niedrigeren Preisen für Verbraucher zu führen. Zudem wird kritisiert, dass die Regelung zu <b>Umsatzrückgängen</b> im Shop- und Bistrogeschäft der Tankstellen führt und Investitionen in Ladeinfrastruktur hemmt. Bis zu einer möglichen Abschaffung schlägt der Verband die <b>schnellstmögliche Aufsetzung einer Rechtsverordnung</b> vor, um technische Unwägbarkeiten bei der Preisumstellung zu adressieren. Hierbei wird insbesondere die Einführung eines <b>Umsetzungszeitfensters</b> von 11:59 bis 12:30 Uhr angeregt. Zudem sollen technische Störungen, höhere Gewalt und Kassensystem-Wechsel als Ausnahmegründe explizit berücksichtigt werden.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Kraftstoffpreisanpassungsgesetz (12 Uhr-Regel)",
+    "bezug": "kern",
+    "hauptgesetz": "KPAnG",
+    "thema_kurz": "Regulierung Kraftstoffpreise 12-Uhr-Regel",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-19"
   }
 }
