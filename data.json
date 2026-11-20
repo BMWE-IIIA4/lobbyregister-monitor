@@ -1,7 +1,220 @@
 {
-  "generated_at": "2026-11-19T09:35:23.131421+01:00",
-  "newly_added": 5,
+  "generated_at": "2026-11-20T09:18:41.307563+01:00",
+  "newly_added": 11,
   "statements": [
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/89099",
+      "regulatory_project_title": "Änderung und Überarbeitung der EEG Novelle 2027",
+      "sending_date": "2026-11-17",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/26/875076/Stellungnahme-Gutachten-SG2611200002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200002",
+      "summary": "Eine Allianz aus Unternehmen der Energiewirtschaft <b>befürwortet einen zügigen Übergang</b> zur <b>Direktvermarktung</b> für dezentrale Erzeugungsanlagen. Die Akteure fordern einen klaren <b>Phase-Out der festen Einspeisevergütung</b> zugunsten einer geförderten Marktprämie. Zur Unterstützung dieses Wechsels wird ein <b>Wechselbonus</b> für Anlagenbetreiber vorgeschlagen. Parallel dazu sollen <b>digitale Prozesse</b> und Schnittstellen im Energiemarkt modernisiert werden, um den bürokratischen Aufwand für Prosumer und Fachhandwerk zu reduzieren. Die Allianz betont, dass die technische und digitale Infrastruktur für eine marktdienliche Integration bereits flächendeckend verfügbar ist. Ein begleitender <b>Entschließungsantrag des Bundestages</b> soll die notwendigen Prozessverbesserungen rechtlich flankieren.",
+      "register_description": "E.ON unterstützt die EEG-Novelle 2027 in ihrer Ausrichtung auf eine stärkere Marktintegration erneuerbarer Energien, sieht jedoch Anpassungsbedarf bei Ausgestaltung und Umsetzbarkeit. Wichtig sind ein einfaches, rechtssicheres und PPA-freundliches Förder- und Abschöpfungsdesign sowie eine klare Trennung von Förderlogik und marktbasierten Vermarktungsformen. Zudem braucht es massentaugliche, digitalisierte Prozesse für die Direktvermarktung, insbesondere für Kleinanlagen. Übergangsregelungen müssen Investitionssicherheit gewährleisten, Erlösausfälle vermeiden und konsistent mit Reformen zu Messwesen, Netzentgelten und Flexibilität sein. Pauschale Mess- und Steuerpflichten sowie starre Leistungsbegrenzungen lehnt E.ON ohne nachweisbaren Mehrwert ab.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Marktintegration erneuerbarer Energien und die Ausgestaltung der Direktvermarktung im Kontext der EEG-Novelle, was direkt in die Themenfelder Strommarktdesign und Erneuerbare Energien fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002822",
+      "org_name": "UNITI Bundesverband EnergieMittelstand e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002822/89092",
+      "regulatory_project_title": "Verordnung zur Umsetzung von Regelungen der Durchführungsverordnung (EU) 2022/996",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d9/5b/874873/Stellungnahme-Gutachten-SG2611190028.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611190028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190028",
+      "summary": "Der UNITI Bundesverband EnergieMittelstand e.V. <b>lehnt die geplante Änderung der Berechnungssystematik</b> für erneuerbare Kraftstoffe ab. Der Verband kritisiert, dass der Wegfall der <b>Mehrfachanrechnungsfaktoren</b> ab 2027 einen fachlich unzureichend begründeten Eingriff in die Marktbedingungen darstellt. Diese Neuregelung schränkt die <b>Flexibilität und das Angebot</b> für quotenverpflichtete Unternehmen bei der Erfüllung von Mindestquoten ein. Zudem fordert der Verband die <b>Streichung der entsprechenden Änderungsvorschläge</b> aus dem Referentenentwurf. Zur Verbesserung der Rechtsklarheit wird eine <b>redaktionelle Klarstellung</b> bezüglich der Anrechenbarkeit von tierischen Fetten der Kategorie 3 vorgeschlagen. Der Verband warnt vor negativen Auswirkungen auf die zukünftigen Angebotsmengen erneuerbarer Kraftstoffe.",
+      "register_description": "- Ablehnung der vorgeschlagenen Änderung der bestehenden Berechnungssystematik, wonach bereits sehr kurzfristig ab dem Verpflichtungsjahr 2027 die jeweiligen Mehrfachanrechnungsfaktoren für RFNBO, Biokraftstoffe aus Anbaubiomasse und fortschrittliche Biokraftstoffe bei der Ermittlung der energetischen Gesamtmenge unberücksichtigt bleiben sollen, als sachlich nicht gerechtfertigten und fachlich unzureichend begründeten Eingriff in die regulatorischen Rahmenbedingungen des Marktes für erneuerbare Kraftstoffe ab\r\n- aus Gründen der Rechtsklarheit Verweis in § 9 der 36. BImSchV auf die Anrechenbarkeit von tierischen Fetten der Kategorie 3 nach § 37b Absatz 8 Satz 5 BImSchG und unter Berücksichtigung von § 13c der 38. BImSchV",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, die THG-Quotensystematik sowie die Anrechenbarkeit von Biokraftstoffen, was unter die Themenfelder Klimaschutz und Erneuerbare Energien fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002241",
+      "org_name": "ALDI Nord Holding Stiftung & Co. KG ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002241/89091",
+      "regulatory_project_title": "Anpassen der Ausgestaltung von Redispatch, Priorisierungsvorgaben und Transparenzpflichten im Netzanschlusspaket",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4e/f5/874857/Stellungnahme-Gutachten-SG2611190027.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611190027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190027",
+      "summary": "Die <b>ALDI Nord Holding Stiftung & Co. KG schlägt Änderungen</b> am Netzanschlusspaket vor, um die <b>Netzanschlussverfahren</b> durch verbindliche Fristen und digitale Prozesse zu beschleunigen. Das Unternehmen fordert, dass bestimmte Kriterien zur <b>Priorisierung bei der Netzanschlussvergabe</b> für Übertragungs- und Verteilnetzbetreiber verpflichtend ausgestaltet werden. Zudem soll die <b>Transparenzpflicht</b> sowie die Pflicht zur Reservierung von Netzanschlusskapazitäten ab 2030 auf die Niederspannung ausgeweitet werden. Hinsichtlich des <b>Redispatch</b> wird angeregt, die Wirkleistungseinspeisung am Netzverknüpfungspunkt als maßgeblichen Abregelungspunkt festzulegen. Ziel dieser Maßnahmen ist die Reduzierung von Rechts- und Investitionsunsicherheiten beim Ausbau von Erzeugungs- und Verbraucheranlagen.",
+      "register_description": "Die Neugestaltung von Redispatch, sodass Abregelung am Netzverknüpfungspunkt und nicht an der Anlage stattfindet.\r\nDie Umformulierung vorgegebener Priorisierungsparameter für die Netzanschlussvergabe, sodass für ÜNB und VNB hier eine Muss- statt einer Kann-Regelung gilt.\r\nDie Erweiterung der Transparenzpflichten und der Vereinheitlichung des Reservierungsmechanismus auf die Niederspannung ab 01.01.2030.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Stromnetzregulierung, insbesondere Redispatch-Mechanismen und Netzanschlussverfahren, die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003684",
+      "org_name": "Landwirtschaftlicher Hauptverein für Ostfriesland e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003684/89087",
+      "regulatory_project_title": "Besserer Schutz landwirtschaftl. Eigentums bei Stromnetzausbau, Gänseproblematik, Wiesenbrüterschutz und Klima-Moorschutz",
+      "sending_date": "2026-11-18",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/77/c5/874827/Stellungnahme-Gutachten-SG2611190024.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611190024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190024",
+      "summary": "Der <b>Landwirtschaftliche Hauptverein für Ostfriesland e.V.</b> <b>kritisiert</b> die Auswirkungen von Infrastruktur- und Leitungsbauprojekten auf landwirtschaftliche Flächen und <b>fordert</b> einen gesetzlichen Vorrang für produktionsintegrierte Kompensation. Hinsichtlich der Energiewende wird die Bedeutung <b>grundlastfähiger Biogasanlagen</b> betont und eine rechtlich praktikable <b>Nachnutzung von Gärrestlagern</b> nach Ende der EEG-Förderung verlangt. Zudem wird eine <b>steuerliche Risikoausgleichsrücklage</b> zur Bewältigung von Marktkrisen und hohen Energiekosten angeregt. Die Organisation warnt vor Risiken durch das geplante Naturflächen- und Infrastrukturgesetz für die Rinder- und Milchviehhaltung. Abschließend wird eine praxisgerechte Lösung für Zielkonflikte zwischen tierwohlorientierten Stallumbauten und dem Immissionsschutzrecht angemahnt.",
+      "register_description": "Forderung einer besseren Anerkennung landwirtschaftl. Eigentums und Schutz des Bodens durch\r\n-vorrangige Errichtung von Freileitungen im Hochspannungsbereich anstelle von Erdkabeln\r\n-Einführung einer Beweislast des Projektträgers von Leitungsbauvorhaben, z.B. bei festgestellten Flur- u. Aufwuchsschäden; insbesondere bei Langzeitschäden\r\n-Befreiung von Stromtrassenentschädigungen in der Einkommenssteuer\r\n-zeitlich wiederkehrende Entschädigung von dauerhaften Bodeninspruchnahmen für Durchleitungsrechten\r\n- Strategiewechsel beim Umgang mit Gänsenproblematik/Rastspitzen\r\n-Gezieltere Maßnahmen statt Pauschallösungen beim Wiesenbrüterschutz\r\n- Klimaschonende Bewirtschaftung beimKlima-/Moorschutz fördern",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument enthält Forderungen zur EEG-Förderung, zur Nachnutzung von Biogasanlagen sowie zum Leitungsbau und zur Kompensation, die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R003460",
+      "org_name": "Agora Think Tanks gGmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003460/89083",
+      "regulatory_project_title": "Ausgestaltung des Verteilnetzpakets Strom",
+      "sending_date": "2026-11-02",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8b/87/874775/Stellungnahme-Gutachten-SG2611190017.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2611190017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190017",
+      "summary": "Die Agora Think Tanks gGmbH <b>schlägt Maßnahmen zur Ausgestaltung des Verteilnetzpakets vor</b>, um den Netzausbau zu beschleunigen und die Kosteneffizienz zu steigern. Die Organisation fordert eine <b>verbindliche Digitalisierung</b> der Verteilnetze, um durch bessere Beobachtbarkeit und Steuerbarkeit vorhandene Kapazitäten effizienter zu nutzen. Zur Bewältigung des hohen Investitionsbedarfs wird eine <b>Ausbauoffensive mit Sonderregeln</b> empfohlen, die unter anderem die Standardisierung von Betriebsmitteln und eine Aufgabenbündelung umfasst. Zudem wird angeregt, die <b>Netzausbaupläne zu stärken</b>, indem Beteiligungsformate ausgeweitet und die Umsetzung durch ein systematisches Monitoring überwacht wird. Um die Finanzierung der notwendigen Investitionen zu sichern, wird eine <b>Stärkung der Eigenkapitalbasis</b> kommunaler Versorger durch Bundesgarantien und Förderprogramme befürwortet. Abschließend betont die Organisation, dass <b>lastseitige Instrumente</b> wie dynamische Netzentgelte und Laststeuerung zunehmend an Bedeutung gewinnen, um den Netzausbau langfristig bezahlbar zu halten.",
+      "register_description": "Der Koalitionsbeschluss von Anfang Juli 2026 sieht vor, dass der Verteilnetzausbau verkürzt und Digitalisierung vorangebracht werden soll. Das BMWE hat dazu aufgefordert schriftlich Anmerkungen zum sogenannten Verteilnetzpaket einzureichen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt das Verteilnetzpaket, welches für die Unterabteilung IIIA (Energienetze/Strommarkt) von zentraler Bedeutung ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000916",
+      "org_name": "DVGW Deutscher Verein des Gas- und Wasserfaches e.V. - Technisch-wissenschaftlicher Verein",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000916/89071",
+      "regulatory_project_title": "Regelungen für ein öffentliches Register für Kohlendioxidleitungen und Kohlendioxidspeicher",
+      "sending_date": "2026-11-12",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/1e/dd/874694/Stellungnahme-Gutachten-SG2611190012.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611190012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190012",
+      "summary": "Der DVGW <b>warnt vor Sicherheitsrisiken</b> durch ein öffentlich einsehbares Register für CO2-Transportleitungen und -Speicher. Der Verein <b>empfiehlt die Herausnahme</b> von CO2-Leitungen aus dem öffentlichen Register, da hierfür keine EU-rechtliche Verpflichtung besteht. Sollte eine Erfassung dennoch erfolgen, fordert der DVGW eine <b>Beschränkung auf ein Mindestmaß</b> an Informationen. Öffentlich zugänglich sollten lediglich Start- und Endpunkte sein, während <b>sensible technische Details</b> und Leitungsverläufe geheim gehalten werden müssen. Zudem plädiert der Verein für eine <b>Anonymisierung personenbezogener Daten</b> und eine Einstufung der Infrastrukturen analog zur BSI-KritisV.",
+      "register_description": "Das KSpTG enthält in § 6 die Vorgabe, dass Informationen zu CO2-Transportleitungen und -Speichern in einem öffentlich einsehbaren Register erfasst werden. Das KSpTG sieht in Bezug auf das Register die Möglichkeit für weitere rechtliche Detailregelungen durch das Bundesministerium für Wirtschaft und Energie vor.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des Registers für CO2-Infrastrukturen gemäß § 6 KSpTG, was direkt in den Bereich der Energienetze und der Infrastruktursicherheit fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001613",
+      "org_name": "Niedersächsisches Landvolk Kreisverband Wesermünde e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001613/89059",
+      "regulatory_project_title": "Anpassung der Agrardieselvergütung",
+      "sending_date": "2026-08-10",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/93/83/874607/Stellungnahme-Gutachten-SG2611190006.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611190006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190006",
+      "summary": "Der Niedersächsische Landvolk Kreisverband Wesermünde e.V. <b>fordert</b> eine <b>Rücknahme der Absenkung der Agrardieselvergütung</b> sowie eine Anhebung auf das unionsrechtlich zulässige Niveau zur finanziellen Entlastung landwirtschaftlicher Betriebe. Die Organisation begründet dies mit einer dramatischen Verschärfung der wirtschaftlichen Lage durch gestiegene Betriebsmittelkosten und sinkende Erzeugerpreise. Als weitere Sofortmaßnahmen werden ein <b>zinsvergünstigtes Darlehensprogramm</b> und eine <b>Anhebung der De-Minimis-Beihilfe-Grenze</b> auf 100.000 Euro verlangt. Zudem wird eine Begrenzung des CO2-Emissionshandels durch den Verzicht auf das „Opt-In“ für den Sektor Landwirtschaft beim EU-ETS-2 gefordert. Kritisch bewertet der Verband zudem die Auswirkungen aktueller Gesetzesvorhaben wie der <b>EEG-Novelle</b> auf die Investitionsfähigkeit der Betriebe. Abschließend wird eine <b>Fristenverlängerung für Investitionsverpflichtungen</b> angeregt, um die betriebliche Anpassungsflexibilität angesichts des Klimawandels zu erhöhen.",
+      "register_description": "Rücknahme der Absenkung der Agrardieselvergütung für das Jahr 2025 und Anhebung auf das unionsrechtlich zulässige Niveau, um landwirtschaftliche Betriebe finanziell zu entlasten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Agrardieselvergütung sowie energiepolitische Rahmenbedingungen wie den EU-ETS-2 und die EEG-Novelle, welche in den Themenfeldern der Unterabteilung IIIA (Klimaschutz & Energie) liegen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R002933",
       "org_name": "Bundesverband Niere e.V.",
@@ -27,6 +240,120 @@
       "priority": 3,
       "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit sozialrechtlichen Aspekten der Pflegeversicherung und der Begutachtung von Pflegebedürftigkeit. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
       "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003565",
+      "org_name": "Deutscher Bund der verbandlichen Wasserwirtschaft e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003565/89089",
+      "regulatory_project_title": "BMLEH-Bürokratierückbauverordnung: Regelungen zur Anwendung von Pflanzenschutzmitteln und zur Dokumentation von Tierarzneimitteln",
+      "sending_date": "2026-11-04",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/70/874832/Stellungnahme-Gutachten-SG2611190025.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611190025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190025",
+      "summary": "Der Deutsche Bund der verbandlichen Wasserwirtschaft e. V. <b>begrüßt</b> das Ziel des Bürokratieabbaus, <b>warnt</b> jedoch vor einer Schwächung des vorsorgenden Gewässerschutzes. Bei der Anwendung von Pflanzenschutzmitteln mit Luftfahrzeugen <b>kritisiert</b> der Verband die geplante Aufweichung der Anwendungszeiträume und <b>fordert</b> eine regelmäßige behördliche Kontrolle sowie Transparenz für Wasserversorger. Hinsichtlich der Tierhalter-Arzneimittelanwendungs- und Nachweisverordnung <b>lehnt</b> der Verband ein ersatzloses Außerkrafttreten ab. Er <b>betont</b> die Notwendigkeit, stoffliche Einträge in Grund- und Oberflächengewässer weiterhin nachvollziehen zu können. Der Verband <b>schlägt</b> vor, Genehmigungen an die Vorlage aktueller Anwendungsdaten zu knüpfen, um Verwaltungsvereinfachung und Ressourcenschutz zu vereinen.",
+      "register_description": "Der DBVW unterstützt den Abbau unnötiger Bürokratie, lehnt aber eine Schwächung des vorsorgenden Gewässerschutzes ab. Bei Pflanzenschutzmitteln mit Luftfahrzeugen fordert er eine regelmäßige Aktualisierung der Anwendungsdaten und Information der Wasserversorger in Trinkwassergewinnungsgebieten. Bei Tierarzneimitteln müssen Nachweise erhalten bleiben, die eine Nachverfolgung gewässerrelevanter Einträge und möglicher Belastungsursachen ermöglichen.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich mit landwirtschaftlichen Verordnungen (Pflanzenschutzmittel, Tierarzneimittel) und deren Auswirkungen auf den Gewässerschutz. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R007857",
+      "org_name": "Bundesverband der Wirtschaftskanzleien in Deutschland (BWD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007857/89084",
+      "regulatory_project_title": "Geldwäscheprävention in Wirtschaftskanzleien praxistauglich regeln ",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ef/83/874813/Stellungnahme-Gutachten-SG2611190022.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2611190022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190022",
+      "summary": "Der Bundesverband der Wirtschaftskanzleien in Deutschland (BWD) <b>begrüßt</b> das Ziel des EU-Geldwäschepakets, <b>fordert</b> jedoch eine praxistaugliche Ausgestaltung der nationalen Umsetzung. Die Organisation <b>schlägt vor</b>, geldwäscherechtliche Pflichten primär auf Ebene der <b>Berufsausübungsgesellschaften</b> anzusiedeln, um Doppelbelastungen durch parallele Einzelregistrierungen zu vermeiden. Zudem wird eine <b>Klarstellung</b> verlangt, dass bestehende goAML-Registrierungen fortgelten. Der Verband <b>warnt vor</b> unangekündigten Kanzleibesichtigungen durch Aufsichtsbehörden, da diese das <b>Mandatsgeheimnis</b> gefährden könnten. Abschließend wird eine <b>zentrale Aufsicht</b> für interprofessionelle Kanzleien sowie eine verbindliche Informationspflicht der FIU gegenüber Verpflichteten angemahnt.",
+      "register_description": "Der Bundesverband der Wirtschaftskanzleien in Deutschland (BWD) begrüßt das Ziel des EU\r\nGeldwäschepakets, die Geldwäscheprävention in Europa zu vereinheitlichen. Für die nationale \r\nUmsetzung kommt es darauf an, die geldwäscherechtlichen Pflichten dort anzusiedeln, wo ihre \r\nErfüllung tatsächlich organisiert wird. In Wirtschaftskanzleien geschieht dies regelmäßig auf \r\nEbene der Berufsausübungsgesellschaft. \r\nDie staatlichen Verfahren sollten an diese Organisationsform anknüpfen. Wer gesetzliche Prüf- \r\nund Meldepflichten erfüllen soll, braucht verlässliche Informationen und Verfahren, die sich in \r\ndie laufende Mandatsarbeit einfügen. Zugleich muss die Vertraulichkeit der anwaltlichen Bera\r\ntung gewahrt bleiben.",
+      "recipients": [
+        "BMF",
+        "BMJV",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit der Umsetzung der EU-Geldwäscherichtlinie und regulatorischen Anforderungen für Wirtschaftskanzleien. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien etc.).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001256",
+      "org_name": "Bündnis für Gemeinnützigkeit",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001256/89082",
+      "regulatory_project_title": "Gesetz zur Umsetzung der Sechsten EU-Geldwäscherichtlinie und zur Stärkung der Geldwäscheprävention",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/11/ae/874756/Stellungnahme-Gutachten-SG2611190016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611190016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190016",
+      "summary": "Das <b>Bündnis für Gemeinnützigkeit kritisiert</b> die undifferenzierte Übertragung von Regelungen aus dem Finanzsektor auf gemeinnützige Organisationen im Rahmen des <b>GwBG-E</b>. Die Organisation <b>fordert</b>, unionsrechtliche Öffnungsklauseln für eine <b>risikobasierte Regulierung</b> konsequent zu nutzen, um bürokratische Mehrbelastungen zu vermeiden. Insbesondere bei der Erfassung von Begünstigten wird eine <b>Verhältnismäßigkeit</b> angemahnt, um den administrativen Aufwand für Vereine und Stiftungen zu begrenzen. Zudem wird die <b>Registermodernisierung</b> unter dem Aspekt des Once-Only-Prinzips begrüßt, sofern sie tatsächlich zu einer Entlastung führt. Abschließend warnt das Bündnis vor einer Überforderung ehrenamtlich Verantwortlicher durch komplexe neue Pflichten und fordert eine <b>Folgenabschätzung</b> zur kumulierten Bürokratiebelastung.",
+      "register_description": "Am 28. Oktober 2026 hat das Bundesministerium der Finanzen (BMF) den Referentenentwurf für ein Gesetz zur Umsetzung der Sechsten EU-Geldwäscherichtlinie und zur Stärkung der Geldwäscheprävention veröffentlicht. Kernstück ist das neue Geldwäschebekämpfungsgesetz (GwBG-E), das zum 10. Juli 2027 das bisherige Geldwäschegesetz (GwG) ablösen soll. Das Bündnis für Gemeinnützigkeit wurde um eine Stellungnahme zum Referentenentwurf gebeten.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit geldwäscherechtlichen Anforderungen für gemeinnützige Organisationen und enthält keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz, etc.).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001035",
+      "org_name": "Verband der Diagnostica-Industrie e.V. - VDGH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001035/89048",
+      "regulatory_project_title": "Vereinfachung der Vorschriften über  Medizinprodukte und In-vitro-Diagnostika und Reduzierung des mit ihnen verbundenen Aufwands",
+      "sending_date": "2026-11-10",
+      "upload_date": "2026-11-19",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/83/52/874551/Stellungnahme-Gutachten-SG2611190004.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611190004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611190004",
+      "summary": "Der <b>Verband der Diagnostica-Industrie e.V. (VDGH) fordert</b> die Bundesregierung auf, sich für die <b>Ratsverhandlungsposition zur Vereinfachung</b> der Medizinprodukte- und In-vitro-Diagnostika-Verordnungen einzusetzen. Die Verbände <b>unterstützen den ursprünglichen Kommissionsvorschlag</b> zur <b>Rezertifizierung</b>, um den bürokratischen Aufwand für Hersteller signifikant zu reduzieren. Es wird gefordert, dass <b>Übergangsbestimmungen</b> so gestaltet werden, dass keine erneuten Zertifizierungen für bereits zugelassene Produkte erforderlich sind. Stattdessen soll eine <b>kontinuierliche Überwachung</b> als maßgebliches Instrument dienen. Die Verbände warnen davor, dass ein schwächerer Kompromiss im Rat die <b>Wettbewerbsfähigkeit</b> der europäischen Hersteller gefährden würde. Zudem wird die zügige Verabschiedung der <b>NBCG-med Guidance</b> angemahnt, um Änderungen an Produkten effizient zu verwalten.",
+      "register_description": "Der VDGH setzt sich für eine zügige und gezielte Überarbeitung der Verordnung (EU) 2017/746 ein. Ziel ist, unnötige Bürokratie abzubauen, die Versorgungssicherheit mit In-vitro-Diagnostika zu sichern und Innovationen in Europa weiterhin möglich zu machen.",
+      "recipients": [
+        "BKAmt",
+        "BMG"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument betrifft ausschließlich den Gesundheitssektor und die Regulierung von Medizinprodukten (MDR/IVDR). Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt ausschließlich die regulatorischen Anforderungen für Medizinprodukte und In-vitro-Diagnostika im Gesundheitssektor.",
+      "abweichung_thema": "Medizinprodukte-Regulierung",
       "gemini_status": "filtered"
     },
     {
@@ -66,7 +393,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung der Grüngas-/Grünheizölquote, welche direkt mit der Wärmewende und den Anforderungen des GModG verknüpft ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002822",
@@ -93,7 +420,7 @@
       "priority": 3,
       "gemini_relevanz": "Das Dokument befasst sich mit der Regulierung von Kraftstoffpreisen und der 12-Uhr-Regel, was unter die Zuständigkeit der Wettbewerbspolitik in verbraucherrelevanten Bereichen fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004211",
@@ -113022,6 +113349,6 @@
       "abweichung_thema": "Gesetzliche Regelung der Berufsbezeichnungen Gutachter und…"
     }
   ],
-  "gemini_filtered_out": 1303,
+  "gemini_filtered_out": 1307,
   "gemini_legacy_open": 0
 }
