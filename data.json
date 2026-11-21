@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T09:18:41.307563+01:00",
-  "newly_added": 11,
+  "generated_at": "2026-11-21T09:10:20.258942+01:00",
+  "newly_added": 18,
   "statements": [
     {
       "register_number": "R002309",
@@ -35,7 +35,560 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Marktintegration erneuerbarer Energien und die Ausgestaltung der Direktvermarktung im Kontext der EEG-Novelle, was direkt in die Themenfelder Strommarktdesign und Erneuerbare Energien fällt.",
       "summary_quelle": "pdf_text",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R005893",
+      "org_name": "EDP Renewables Europe",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005893/89127",
+      "regulatory_project_title": "Weiterentwicklung des regulatorischen Rahmens im EEG und EnWG zur Unterstützung der Energiewende",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/31/875359/Stellungnahme-Gutachten-SG2611200032.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611200032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200032",
+      "summary": "EDP Renewables Europe <b>begrüßt die Reform des Fördermechanismus</b> im EEG 2027, fordert jedoch eine flexiblere Kombination von CfDs und PPAs. Das Unternehmen <b>lehnt die Einführung eines Redispatch-Vorbehalts</b> sowie die systemdienliche Anschlussleistung (SAL) als Investitionsrisiko ab. Es wird kritisiert, dass die geplanten Höchstwerte für Ausschreibungen die Projektrealität nicht widerspiegeln und <b>Skaleneffekte durch die Aufhebung der Größenbegrenzung</b> für Photovoltaikanlagen besser genutzt werden sollten. Zudem wird eine <b>Anhebung der Entschädigungsschwelle</b> bei Redispatch-Maßnahmen gefordert, um steigende Kosten für Projektentwickler auszugleichen. Die <b>Einführung von Opt-in- und Opt-out-Optionen</b> zwischen PPA und CfD soll die Investitionssicherheit erhöhen. Abschließend warnt das Unternehmen vor einer Schwächung des Marktzugangs durch die geplanten regulatorischen Änderungen.",
+      "register_description": "Im Rahmen der laufenden und künftigen Gesetzgebungsverfahren zum EEG sowie zum EnWG wird eine praxisgerechte, rechtssichere und investitionsfördernde Weiterentwicklung des regulatorischen Rahmens für die Energiewende angestrebt. Das Regelungsvorhaben umfasst insbesondere die Ausgestaltung der Rahmenbedingungen für den Ausbau EE, Integration erneuerbarer Erzeugungsanlagen in das Energiesystem, Weiterentwicklung der Netzregulierung, Schaffung effizienter Anschluss- und Betriebsbedingungen. Ziel ist es, die praktische Umsetzbarkeit der gesetzlichen Regelungen zu verbessern, Investitionssicherheit zu stärken, Bürokratie abzubauen und einen klimaneutralen Umbau des Energiesystems zu unterstützen. Fachliche Stellungnahmen werden zu den jeweiligen Gesetzesvorhaben und deren Umsetzung eingebracht.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zu den geplanten Reformen des EEG 2027 und des Netzanschlusspakets, welche zentrale Instrumente der Energiepolitik der Unterabteilung IIIA darstellen.",
+      "summary_quelle": "pdf_text",
       "gemini_status": "processed"
+    },
+    {
+      "register_number": "R005893",
+      "org_name": "EDP Renewables Europe",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R005893/89127",
+      "regulatory_project_title": "Weiterentwicklung des regulatorischen Rahmens im EEG und EnWG zur Unterstützung der Energiewende",
+      "sending_date": "2026-10-21",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/19/13/875357/Stellungnahme-Gutachten-SG2611200029.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200029",
+      "summary": "EDP Renewables Europe <b>schlägt vor</b>, den <b>Höchstwert</b> für Freiflächen-Photovoltaik im EEG 2027 zum 1. Januar 2027 auf <b>mindestens 7 ct/kWh</b> anzuheben. Das Unternehmen warnt, dass die kumulativen Effekte regulatorischer Maßnahmen wie das Netzanschlusspaket und die neue Netzentgeltsystematik die <b>Stromgestehungskosten</b> um bis zu 30 Prozent erhöhen. Ohne eine Anpassung des aktuellen Höchstwertes von 5,9 ct/kWh sei die Wirtschaftlichkeit neuer Projekte gefährdet, was den <b>Ausbau der Freiflächen-Photovoltaik</b> zum Erliegen bringen könnte. Die Organisation fordert den Gesetzgeber auf, diese Anpassung im laufenden parlamentarischen Verfahren zu berücksichtigen. Ziel ist es, die <b>Projektbeteiligung und den Wettbewerb</b> in den Ausschreibungen sicherzustellen und die Klimaschutzziele zu erreichen.",
+      "register_description": "Im Rahmen der laufenden und künftigen Gesetzgebungsverfahren zum EEG sowie zum EnWG wird eine praxisgerechte, rechtssichere und investitionsfördernde Weiterentwicklung des regulatorischen Rahmens für die Energiewende angestrebt. Das Regelungsvorhaben umfasst insbesondere die Ausgestaltung der Rahmenbedingungen für den Ausbau EE, Integration erneuerbarer Erzeugungsanlagen in das Energiesystem, Weiterentwicklung der Netzregulierung, Schaffung effizienter Anschluss- und Betriebsbedingungen. Ziel ist es, die praktische Umsetzbarkeit der gesetzlichen Regelungen zu verbessern, Investitionssicherheit zu stärken, Bürokratie abzubauen und einen klimaneutralen Umbau des Energiesystems zu unterstützen. Fachliche Stellungnahmen werden zu den jeweiligen Gesetzesvorhaben und deren Umsetzung eingebracht.",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung der Rahmenbedingungen für den Ausbau erneuerbarer Energien im Rahmen des EEG 2027, was ein zentrales Themenfeld der Unterabteilung IIIA darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fe/04/875324/Stellungnahme-Gutachten-SG2611200028.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200028",
+      "summary": "Der Deutsche Naturschutzring <b>warnt vor einer Gefährdung der Klimaziele</b> durch die aktuelle Reformplanung des europäischen Emissionshandels. Die Organisation kritisiert, dass vorgesehene Flexibilitäten und die Anrechnung von Negativemissionen zu einem <b>Überschuss an Zertifikaten</b> führen könnten. Dies würde die Emissionsminderungsleistung im ETS 1 schwächen und den <b>finanziellen Druck auf andere Sektoren</b> wie den Gebäudebereich erhöhen. Der DNR fordert daher eine <b>Emissionsobergrenze im Einklang mit dem EU-Klimaziel 2040</b> unter Beibehaltung des aktuellen Reduktionspfades. Zudem wird die <b>Ablehnung von Zertifikaten aus Art. 6</b> sowie eine restriktivere Ausgestaltung der Marktstabilitätsreserve verlangt. Ziel ist es, eine Verlagerung von Minderungsanforderungen auf andere Sektoren konsequent zu vermeiden.",
+      "register_description": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1) als zentrales Klimaschutzinstrument der EU für die Stromerzeugung, die energieintensive Industrie und Teile des Luftverkehrs. Erhalt des Verursacherprinzips inkl. wirksamen, verlässlichen CO2-Preispfaden, Phase-Out für die kostenlose Zuteilung von Zertifikaten, Lenkung der Erlöse gezielt in Richtung Klimaneutralität und sozial-gerechte Transformation.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EU-Klimapolitik und die Ausgestaltung des Emissionshandels (ETS 1), welche zentrale Bestandteile der EU-Energie- und Klimagesetzgebung sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e4/24/875322/Stellungnahme-Gutachten-SG2611200027.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200027",
+      "summary": "Der <b>Deutscher Naturschutzring (DNR)</b> <b>empfiehlt</b> eine konsequente Stärkung des EU-Emissionshandels (ETS I) als zentrales Instrument für die industrielle Dekarbonisierung. Die Organisation fordert ein <b>verlässliches CO2-Preissignal</b>, um Investitionssicherheit für klimaneutrale Technologien zu gewährleisten. Sie <b>unterstützt</b> die Beibehaltung des linearen Reduktionsfaktors von 4,4 % bis 2035. Zudem wird ein <b>schnelles Ende der kostenlosen Zuteilung</b> von Zertifikaten gefordert, verbunden mit einer strengen Konditionalisierung für Investitionspläne. Die <b>Zweckbindung der ETS-Einnahmen</b> von mindestens 50 % für industrielle Emissionsvermeidung wird als notwendig erachtet. Abschließend warnt der DNR davor, dass eine Abschwächung des Preissignals die Transformation verteuert und die Wettbewerbsfähigkeit der Industrie gefährdet.",
+      "register_description": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1) als zentrales Klimaschutzinstrument der EU für die Stromerzeugung, die energieintensive Industrie und Teile des Luftverkehrs. Erhalt des Verursacherprinzips inkl. wirksamen, verlässlichen CO2-Preispfaden, Phase-Out für die kostenlose Zuteilung von Zertifikaten, Lenkung der Erlöse gezielt in Richtung Klimaneutralität und sozial-gerechte Transformation.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EU-Klimapolitik und die Ausgestaltung des EU-Emissionshandels (ETS I), welche zentrale Themenfelder der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Ausgestaltung des Gebäude-Modernisierungsgesetzes im Sinne des Klima- und Verbrauchendenschutzes",
+      "sending_date": "2026-11-02",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d8/de/875318/Stellungnahme-Gutachten-SG2611200026.pdf",
+      "pdf_pages": 9,
+      "sg_number": "SG2611200026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200026",
+      "summary": "Ein Bündnis aus Umwelt- und Verbraucherverbänden <b>lehnt die geplante Grüngasquote</b> im Gebäudesektor als ineffizientes Instrument ab. Die Verbände warnen vor <b>erheblichen Mehrkosten</b> für Mieter und Haushalte sowie einer drohenden <b>Quersubventionierung</b> der Industrie durch private Verbraucher. Sie kritisieren, dass die Quote den <b>Weiterbetrieb fossiler Heizungen</b> verlängert und die notwendige Dekarbonisierung verzögert. Stattdessen fordern die Organisationen einen <b>ambitionierten Regulierungsrahmen</b> für die direkte Elektrifizierung der Wärmeversorgung und den Ausbau von Wärmenetzen. Zudem wird eine verbindliche <b>Evaluation der Klimawirkung</b> sowie ein Schutzmechanismus für vulnerable Haushalte angemahnt. Die Verbände betonen, dass knappe grüne Gase vorrangig in schwer elektrifizierbaren Industrieprozessen eingesetzt werden sollten.",
+      "register_description": "Erhalt der 65%-Prozent-Erneuerbare-Energien-Regel. Absicherung der sozialen Nachhaltigkeit, Aufzeigen der Nachteile von Grüngasquote und Biotreppe. ",
+      "recipients": [
+        "BMUKN",
+        "BMWE",
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des Gebäudemodernisierungsgesetzes und der Einführung einer Grüngasquote, was direkt die Themenfelder Klimaschutz und Energieeffizienz im Gebäudesektor berührt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Klima- und Naturschutz im Haushaltsgesetz 2027 verankern",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/85/6f/875314/Stellungnahme-Gutachten-SG2611200023.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200023",
+      "summary": "Ein breites Bündnis aus Verbänden und Organisationen <b>kritisiert die geplante Umschichtung</b> von 2,7 Milliarden Euro aus CO2-Bepreisungseinnahmen in den allgemeinen Haushalt. Die Unterzeichner fordern, diese Mittel weiterhin <b>vollständig für die industrielle Dekarbonisierung</b> und den Klimaschutz einzusetzen. Insbesondere wird die <b>Weiterführung des Zuschusses zu den Übertragungsnetzentgelten</b> als notwendige Maßnahme zur Senkung der Energiepreise angemahnt. Eine Kürzung der Rückflüsse wird als <b>Gefahr für die internationale Wettbewerbsfähigkeit</b> und die Planungssicherheit der Industrie bewertet. Die Organisationen betonen, dass der <b>Klima- und Transformationsfonds (KTF)</b> essenziell für die Modernisierung des Industriestandorts ist. Eine Abkehr von dieser Finanzierungspraxis wird als <b>fatales Signal für Investitionsentscheidungen</b> in klimaneutrale Produktion gewertet.",
+      "register_description": "Bundeshaushaltsgesetz 2027 und Bundeshaushaltsplan 2027: Sicherstellung einer auskömmlichen Naturschutzfinanzierung bzw. Finanzierung des natürlichen Klimaschutzes in den Einzelplänen;  auskömmliche Finanzierung von Klimaschutz- und Transformationsmaßnahmen im Sondervermögen KTF.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Finanzierung von Klimaschutz- und Transformationsmaßnahmen im KTF sowie die Verwendung von Einnahmen aus der CO2-Bepreisung, was direkt die Themenfelder Klimaschutz, Energiepreise und Finanzierungsbedarfe der Transformation berührt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Klima- und Naturschutz im Haushaltsgesetz 2027 verankern",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6e/3a/875312/Stellungnahme-Gutachten-SG2611200022.pdf",
+      "pdf_pages": 28,
+      "sg_number": "SG2611200022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200022",
+      "summary": "Der WWF Deutschland und weitere Organisationen <b>kritisieren</b> den Haushaltsentwurf 2027 sowie den Wirtschaftsplan des Klima- und Transformationsfonds (KTF) als <b>klimapolitisch kontraproduktiv</b>. Die Kurzstudie warnt vor einer <b>Schwächung des KTF</b> durch den Entzug von 2,7 Milliarden Euro aus ETS-Einnahmen und eine pauschale <b>globale Minderausgabe</b> von 4,4 Milliarden Euro. Diese Sparvorgaben werden als <b>verfassungsrechtlich bedenklich</b> eingestuft, da sie die Budgethoheit des Parlaments verletzen und die Transparenz der Mittelverwendung mindern. Zudem wird bezweifelt, dass die Zuweisungen aus dem Sondervermögen SVIK tatsächlich für <b>zusätzliche Klimaschutzinvestitionen</b> verwendet werden, da die Investitionsquote im KTF kontinuierlich sinkt. Die Organisationen fordern den Erhalt der Einnahmen im KTF und eine klare Priorisierung investiver Maßnahmen gegenüber konsumtiven Ausgaben.",
+      "register_description": "Bundeshaushaltsgesetz 2027 und Bundeshaushaltsplan 2027: Sicherstellung einer auskömmlichen Naturschutzfinanzierung bzw. Finanzierung des natürlichen Klimaschutzes in den Einzelplänen;  auskömmliche Finanzierung von Klimaschutz- und Transformationsmaßnahmen im Sondervermögen KTF.",
+      "recipients": [
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument analysiert die Finanzierung von Klimaschutzmaßnahmen im Klima- und Transformationsfonds (KTF), was direkt in die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "EEG Novellierung",
+      "sending_date": "2026-11-20",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ef/9b/875316/Stellungnahme-Gutachten-SG2611200021.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200021",
+      "summary": "Der Deutsche Naturschutzring <b>fordert</b> eine zügige Verabschiedung der EEG-Novelle, um einen <b>Ausbaustopp</b> bei Wind- und Solarenergie zu verhindern. Die Organisation verlangt die <b>Streichung des Redispatch-Vorbehalts</b> aufgrund rechtlicher und wirtschaftlicher Risiken. Zudem wird eine <b>Begrenzung der Biomasseförderung</b> auf Reststoffe und eine flexible Fahrweise verlangt, um ökologische Schäden zu minimieren. Die <b>Förderung kleiner Wasserkraftanlagen</b> soll aufgrund mangelnder Kosteneffizienz und ökologischer Belastungen beendet werden. Gleichzeitig wird die Beibehaltung der <b>Einspeisevergütung für kleine Solaranlagen</b> als notwendig erachtet, solange keine verlässliche Alternative existiert.",
+      "register_description": "Fortsetzung des ambitionierten Ausbaus der Erneuerbaren Energien, Neuausrichtung der Erneuerbaren-Förderung, Integration von Flexibilitäten im Stromsystem, Umsetzung Net Zero Industry Act im Sinne des Klima- und Biodiversitätsschutzes. Novellierung und besserer Schutz der Fließgewässer durch Neuregelung der Wasserkraftvergütung und -bewertung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EEG-Novelle, die Förderung erneuerbarer Energien, Redispatch-Regelungen und die Netzanschluss-Problematik, welche zentrale Themen der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Zukunftsfähigen EU-Energierahmen auf Basis von erneuerbaren Energien und Elektrifizierung aufsetzen",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/20/875326/Stellungnahme-Gutachten-SG2611200017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200017",
+      "summary": "Der <b>Deutscher Naturschutzring (DNR)</b> <b>fordert</b> die Bundesregierung auf, sich im kommenden EU-Energierahmen nach 2030 für eine konsequente Ausrichtung auf <b>erneuerbare Energien</b> einzusetzen. Die Organisation verlangt <b>verbindliche Ausbauziele</b> und Strommengenpfade, die den Weg zu 100 Prozent Erneuerbaren bis 2040 ebnen, ohne Anrechnung von Low-Carbon-Flexibilitäten. Zudem wird eine <b>Ausrichtung des Netzausbaus</b> an den Erneuerbaren-Zielen sowie die Ablehnung des Redispatch-Vorbehalts gefordert. Der DNR betont die Notwendigkeit, <b>sektorspezifische Ziele</b>, insbesondere für RFNBOs, beizubehalten, um Planungssicherheit zu gewährleisten. Abschließend wird vor einer Aufweichung der Klimaziele gewarnt, um die europäische Resilienz und den Industriestandort zu stärken.",
+      "register_description": "Die kommende Energiearchitektur der EU wird entscheidend sein, um sicherzustellen, dass die \r\neuropäische Energiewende zügig vorangeht. Erneuerbare Energien sind dafür der Schlüssel: Sie sind günstig, sicher und befreien uns aus riskanten geopolitischen und fossilen Abhängigkeiten.  Als entscheidender Akteur in den anstehenden Verhandlungen zur Überarbeitung der EU-Energiearchitektur ist die Bundesregierung in der Verantwortung, einen verlässlichen Rahmen für den weiteren Ausbau der Erneuerbaren zu schaffen und damit ihren Anspruch aus dem Koalitionsvertrag einzulösen, die Energieunion zu vollenden. ",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung des EU-Energierahmens nach 2030, was direkt unter die Themenfelder EU-Energiepolitik und EU-Klimapolitik der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001579",
+      "org_name": "WWF Deutschland",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001579/89123",
+      "regulatory_project_title": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-08-21",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e7/2b/875320/Stellungnahme-Gutachten-SG2611200016.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611200016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200016",
+      "summary": "Der WWF <b>fordert eine konsequente Stärkung</b> des EU-Emissionshandelssystems (ETS 1) durch die <b>Abschaffung der kostenlosen Zuteilung</b> von Zertifikaten. Die Organisation kritisiert, dass die bisherige Praxis das Verursacherprinzip untergräbt und Fehlanreize für Investitionen in klimafreundliche Technologien setzt. Sollte eine kostenlose Zuteilung fortbestehen, verlangt der WWF eine <b>strenge Konditionalität</b>, die an tatsächliche Investitionen in Energieeffizienz und Dekarbonisierung gebunden ist. Zudem <b>lehnt der WWF die Integration von CO2-Entnahmen</b> in den EU-ETS ab, da diese Emissionsminderungen nicht ersetzen dürfen und die Integrität des Marktes gefährden könnten. Stattdessen wird die Einführung sektorspezifischer Wärme- und Brennstoffbenchmarks befürwortet, um das Dekarbonisierungspotenzial besser abzubilden. Insgesamt plädiert der WWF für eine <b>Beschleunigung der industriellen Dekarbonisierung</b> durch ein wirksames CO2-Preissignal.",
+      "register_description": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1) als zentrales Klimaschutzinstrument der EU für die Stromerzeugung, die energieintensive Industrie und Teile des Luftverkehrs. Erhalt des Verursacherprinzips inkl. wirksamen, verlässlichen CO2-Preispfaden, Phase-Out für die kostenlose Zuteilung von Zertifikaten, Lenkung der Erlöse gezielt in Richtung Klimaneutralität und sozial-gerechte Transformation.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und die Ausgestaltung des EU-Emissionshandelssystems (ETS 1), was direkt unter die Themenfelder der Unterabteilung IIIA (EU-Klimapolitik/Fit for 55) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R008295",
+      "org_name": "Deutscher Grünlandverband e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008295/89129",
+      "regulatory_project_title": "ANK 2.0",
+      "sending_date": "2026-08-20",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7c/68/875394/Stellungnahme-Gutachten-SG2611200036.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611200036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200036",
+      "summary": "Der Deutsche Grünlandverband e.V. <b>begrüßt</b> das Ziel des ANK 2.0, den <b>natürlichen Klimaschutz</b> zu stärken, fordert jedoch eine stärkere Berücksichtigung der <b>Grünlandbewirtschaftung</b> als eigenständige Klimaschutzleistung. Der Verband betont, dass die <b>Weidetierhaltung</b> als unverzichtbarer Bestandteil für den Erhalt von Grünlandstandorten und die Landschaftspflege explizit anerkannt werden muss. Zudem wird eine <b>wirtschaftliche Tragfähigkeit</b> der Bewirtschaftung angemahnt, um eine Aufgabe der Flächenpflege zu verhindern. Bei der <b>Wiedervernässung</b> von Moorböden fordert der Verband betriebsbezogene Anpassungs- und Beratungselemente, um die landwirtschaftliche Nutzbarkeit und Betriebsabläufe zu sichern. Abschließend wird eine <b>einheitliche, digitale Monitoring-Strategie</b> gefordert, die Doppelbelastungen für landwirtschaftliche Betriebe vermeidet.",
+      "register_description": "Beteiligungsverfahren zum Entwurf zur Weiterentwicklung des Aktionsprogramms Natürlicher Klimaschutz unter der Berücksichtigung der Interessen der Grünlandbewirtschafter",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit landwirtschaftlichen Maßnahmen zum natürlichen Klimaschutz (Grünlandbewirtschaftung, Weidetierhaltung, Moorwiedervernässung). Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, da sie keinen direkten Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende-Infrastruktur aufweisen.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001581",
+      "org_name": "Bundesverband Deutscher Vermögensberater (BDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001581/89128",
+      "regulatory_project_title": "Verbändeanhörung des BMF zum Entwurf eines Gesetzes zur Umsetzung der Sechsten EU-Geldwäscherichtlinie und zur Stärkung der Geldwäscheprävention",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c9/8b/875348/Stellungnahme-Gutachten-SG2611200030.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611200030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200030",
+      "summary": "Der Bundesverband Deutscher Vermögensberater <b>fordert eine klare Ausnahmeregelung</b> für Kreditvermittler im Rahmen des neuen Geldwäschebekämpfungsgesetzes. Der Verband argumentiert, dass Kreditvermittler aufgrund ihrer Tätigkeit <b>im Auftrag von Kreditinstituten</b> nicht unter die Verpflichtungen der Geldwäscheprävention fallen sollten. Es wird betont, dass Vermittler <b>keinen Zugriff auf Zahlungsströme</b> haben und somit keine geldwäscherelevanten Indizien erkennen können. Zudem wird vor einer <b>fachlichen und wirtschaftlichen Überforderung</b> der meist kleinen Vermittlerbetriebe gewarnt. Der Verband befürchtet, dass bei fehlender Rechtssicherheit viele Vermittler ihre Tätigkeit einstellen würden, was die <b>Versorgung der Bevölkerung mit Krediten</b> gefährden könnte. Abschließend wird die Bundesregierung gebeten, sich für eine <b>praxisnahe Auslegung</b> des entsprechenden EU-Artikels einzusetzen.",
+      "register_description": "Es geht um Rechtssicherheit für Vermittler als im Auftrag handelnde Personen, die somit nicht unter die Vorgaben der Geldwäscheverordnung fallen.",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit geldwäscherechtlichen Sorgfaltspflichten für Kreditvermittler im Rahmen der Umsetzung der EU-Geldwäscherichtlinie. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006726",
+      "org_name": "Sandoz Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006726/89126",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/fb/b0/875293/Stellungnahme-Gutachten-SG2611200025.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200025",
+      "summary": "Die Sandoz Deutschland GmbH <b>kritisiert die vorgesehene Kostenverteilung</b> der erweiterten Herstellerverantwortung im Rahmen der EU-Kommunalabwasserrichtlinie. Das Unternehmen warnt, dass die <b>Belastung der Generikahersteller</b> durch volumenbasierte Zahlungen die <b>Arzneimittelversorgung gefährden</b> könnte. Es wird bemängelt, dass eine solide wissenschaftliche Evidenz für die einseitige Fokussierung auf Arzneimittel und Kosmetika fehle. Zudem wird auf die <b>rechtlichen Zweifel</b> verwiesen, die durch die Schlussanträge der Generalanwältin am EuGH unterstrichen werden. Das Unternehmen fordert eine <b>sorgfältige Überprüfung</b> der Kostenverteilung und warnt vor der Schaffung schwer reversibler nationaler Finanzierungsstrukturen. Eine kohärente Gestaltung von Umwelt- und Versorgungspolitik sei notwendig, um die <b>strategische Arzneimittelversorgung</b> in Europa zu sichern.",
+      "register_description": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Finanzierung der vierten Klärstufe im Rahmen der EU-Kommunalabwasserrichtlinie. Dies betrifft primär Umwelt- und Wasserrecht sowie die Herstellerverantwortung der Pharmaindustrie und fällt nicht in die Zuständigkeit der Unterabteilung IIIA (Energiepolitik).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006726",
+      "org_name": "Sandoz Deutschland GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006726/89126",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c8/df/875291/Stellungnahme-Gutachten-SG2611200024.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200024",
+      "summary": "Die <b>Sandoz Deutschland GmbH kritisiert</b> die geplante <b>Finanzierung der vierten Klärstufe</b> über die erweiterte Herstellerverantwortung als einseitige Belastung der Arzneimittelhersteller. Das Unternehmen <b>bezweifelt die wissenschaftliche Grundlage</b> der EU-Folgenabschätzung, wonach Arzneimittel maßgeblich für die Schadstoffbelastung im Abwasser verantwortlich seien. Eine aktuelle Studie zeige, dass Reifenadditive und Pflanzenschutzmittel einen deutlich höheren Anteil an der toxischen Belastung hätten als Arzneimittelrückstände. Sandoz warnt vor einer <b>Gefährdung der Versorgungssicherheit</b> mit lebensnotwendigen Medikamenten und verweist auf die zusätzliche wirtschaftliche Belastung durch Energie- und Kostendruck. Das Unternehmen fordert eine <b>evidenzbasierte Neubewertung</b> der Kostenverteilung unter Beachtung des Gleichbehandlungsgrundsatzes. Zudem wird auf rechtliche Bedenken hingewiesen, die auch von der Generalanwältin am EuGH geteilt werden.",
+      "register_description": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Finanzierung der vierten Klärstufe im Rahmen der EU-Kommunalabwasserrichtlinie. Dies fällt in den Bereich der Umweltpolitik und Wasserwirtschaft, welcher nicht zum Zuständigkeitsbereich der Unterabteilung IIIA des BMWK (Energiepolitik) gehört.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001385",
+      "org_name": "HEXAL AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001385/89125",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/70/90/875273/Stellungnahme-Gutachten-SG2611200020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200020",
+      "summary": "Die <b>HEXAL AG kritisiert</b> die im Rahmen der EU-Kommunalabwasserrichtlinie vorgesehene <b>erweiterte Herstellerverantwortung</b> für Arzneimittelhersteller. Das Unternehmen warnt vor einer <b>Gefährdung der Arzneimittelversorgung</b>, da die volumenbasierte Kostenbelastung insbesondere Generikahersteller unter hohen wirtschaftlichen Druck setzt. Es wird bemängelt, dass eine <b>solide wissenschaftliche Evidenz</b> für die einseitige Kostenverteilung auf Pharmazeutika und Kosmetika fehlt. Zudem verweist das Unternehmen auf <b>rechtliche Zweifel</b>, die durch Schlussanträge einer Generalanwältin am EuGH gestützt werden. Die HEXAL AG fordert daher, keine nationalen Finanzierungsstrukturen zu schaffen, bevor die rechtlichen und finanziellen Auswirkungen abschließend geklärt sind. Stattdessen wird ein ökologisch wirksames und ökonomisch verantwortungsvolles Finanzierungsmodell gefordert.",
+      "register_description": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Finanzierung der vierten Klärstufe im Rahmen der EU-Kommunalabwasserrichtlinie. Dies betrifft primär Umwelt- und Gesundheitspolitik sowie die pharmazeutische Industrie und fällt nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK (Energiepolitik).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001385",
+      "org_name": "HEXAL AG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001385/89125",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/71/07/875271/Stellungnahme-Gutachten-SG2611200019.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200019",
+      "summary": "Die <b>HEXAL AG kritisiert</b> die einseitige <b>Finanzierung der vierten Klärstufe</b> durch Hersteller von Humanarzneimitteln im Rahmen der EU-Kommunalabwasserrichtlinie. Das Unternehmen verweist auf eine Studie, wonach Arzneimittelrückstände nur einen geringen Teil der ökotoxikologischen Belastung ausmachen, während Reifenadditive und Pflanzenschutzmittel dominieren. Es wird eine <b>evidenzbasierte Bewertung</b> der Kostenverteilung gefordert, um den <b>Gleichbehandlungsgrundsatz</b> zu wahren. Zudem warnt das Unternehmen vor einer Gefährdung der <b>Versorgungssicherheit</b> mit lebensnotwendigen Medikamenten durch den zusätzlichen Kostendruck. Die <b>Nichtigerklärung der Finanzierungsregelung</b> wird als notwendiger Schritt zur Sicherung der industriellen Eigenständigkeit und der Standorte in Deutschland nahegelegt.",
+      "register_description": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Finanzierung der vierten Klärstufe im Rahmen der EU-Kommunalabwasserrichtlinie (UWWTD). Dies fällt in den Bereich der Umwelt- und Wasserwirtschaftspolitik und berührt keine der in der Unterabteilung IIIA (BMWE) gelisteten Themenfelder wie Energiepolitik, Strommarkt oder Klimaschutz im Sinne der Energiewirtschaft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000083",
+      "org_name": "Stiftung Familienunternehmen und Politik",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000083/89124",
+      "regulatory_project_title": "Grundrechtsschutz wirtschaftlicher Eigentümer bei Maßgaben zum Transparenzregister wahren",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0b/6c/875253/Stellungnahme-Gutachten-SG2611200018.pdf",
+      "pdf_pages": 12,
+      "sg_number": "SG2611200018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200018",
+      "summary": "Die <b>Stiftung Familienunternehmen und Politik kritisiert</b> den Referentenentwurf zur Umsetzung der 6. EU-Geldwäscherichtlinie als unzureichend hinsichtlich des <b>Grundrechtsschutzes</b> und der <b>Bürokratieentlastung</b>. Sie fordert eine <b>Einschränkung des Datenkranzes</b> im Transparenzregister, insbesondere den Verzicht auf die Speicherung der Wohnanschrift. Zudem wird eine <b>Automatisierung der Einsichtnahmesperre</b> bei vorliegender Melderegistersperre sowie eine <b>Flexibilisierung der Registerpflege</b> durch unternehmensbezogene Nutzerkonten verlangt. Die Organisation lehnt die vorgesehene <b>Vollprüfung bei Unstimmigkeitsmeldungen</b> ab, da diese unverhältnismäßigen administrativen Aufwand verursache. Abschließend warnt sie vor einer Aushöhlung des Schutzes wirtschaftlicher Eigentümer durch die Anrechnung öffentlich zugänglicher Quellen.",
+      "register_description": "Auch Teil 2 der Umsetzung des Anti Money Laundering Package der EU muss verhältnismäßig ausgestaltet sein und darf nicht zu Goldplating führen. Der Grundrechtsschutz verlangt neben verhältnismäßigen Transparenzmaßgaben für wirtschaftliche Eigentümer auch eine schonende Verwaltungspraxis, die die schutzwürdigen Interessen der Eintragungspflichtigen hinreichend berücksichtigt. Im Rahmen des Gesetzes zur Umsetzung der Sechsten EU-Geldwäscherichtlinie und zur Stärkung der Geldwäscheprävention muss dem Grundrechtsschutz Betroffener Rechnung getragen werden. ",
+      "recipients": [
+        "BMF",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit Geldwäscheprävention, Transparenzregister-Vorgaben und Datenschutz für wirtschaftliche Eigentümer. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien etc.).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006389",
+      "org_name": "Salutas Pharma GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006389/89115",
+      "regulatory_project_title": "Überarbeitung der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD)",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/45/70/875189/Stellungnahme-Gutachten-SG2611200011.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611200011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200011",
+      "summary": "Die <b>Salutas Pharma GmbH kritisiert</b> die geplante <b>Finanzierung der vierten Klärstufe</b> über eine erweiterte Herstellerverantwortung für Arzneimittelhersteller. Das Unternehmen verweist auf eine aktuelle Studie, wonach Arzneimittelrückstände lediglich einen geringen Anteil an der toxischen Belastung des Abwassers ausmachen. Die <b>einseitige Belastung</b> der Pharma- und Kosmetikindustrie wird als wissenschaftlich und rechtlich nicht haltbar eingestuft. Zudem wird auf eine Empfehlung der Generalanwältin verwiesen, die die <b>Nichtigerklärung der Finanzierungsregelung</b> nahelegt. Das Unternehmen warnt vor einer Gefährdung der <b>Versorgungssicherheit</b> mit lebensnotwendigen Medikamenten durch den zusätzlichen Kostendruck. Es wird eine <b>evidenzbasierte Neubewertung</b> der Lastenverteilung unter Berücksichtigung des Gleichbehandlungsgrundsatzes gefordert.",
+      "register_description": "Die im Rahmen der EU-Kommunalabwasserrichtlinie (Urban Waste Water Treatment Directive - UWWTD - EU/2024/3019) vorgesehene Finanzierung der vierten Klärstufe über die erweiterte Herstellerverantwortung belastet auf Grund der Fokussierung auf Arzneimittel und des volumenbasierten Zahlmechanismus vor allem Hersteller generischer Arzneimittel und gefährdet dadurch die zuverlässige Versorgung mit wichtigen Medikamenten. Wir setzen uns daher für eine Überarbeitung der Richtlinie ein, damit die Arzneimittelversorgung der Bevölkerung nicht beeinträchtigt wird.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Finanzierung der vierten Klärstufe im Rahmen der EU-Kommunalabwasserrichtlinie. Dies fällt in den Zuständigkeitsbereich des Umweltministeriums (BMUV), nicht in die energiepolitischen Themenfelder der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R002822",
@@ -74,7 +627,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die regulatorischen Rahmenbedingungen für erneuerbare Kraftstoffe, die THG-Quotensystematik sowie die Anrechenbarkeit von Biokraftstoffen, was unter die Themenfelder Klimaschutz und Erneuerbare Energien fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002241",
@@ -101,7 +654,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Stromnetzregulierung, insbesondere Redispatch-Mechanismen und Netzanschlussverfahren, die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003684",
@@ -128,7 +681,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument enthält Forderungen zur EEG-Förderung, zur Nachnutzung von Biogasanlagen sowie zum Leitungsbau und zur Kompensation, die direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003460",
@@ -155,7 +708,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt das Verteilnetzpaket, welches für die Unterabteilung IIIA (Energienetze/Strommarkt) von zentraler Bedeutung ist.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000916",
@@ -182,7 +735,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des Registers für CO2-Infrastrukturen gemäß § 6 KSpTG, was direkt in den Bereich der Energienetze und der Infrastruktursicherheit fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001613",
@@ -213,7 +766,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Agrardieselvergütung sowie energiepolitische Rahmenbedingungen wie den EU-ETS-2 und die EEG-Novelle, welche in den Themenfeldern der Unterabteilung IIIA (Klimaschutz & Energie) liegen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002933",
@@ -48319,7 +48872,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der zukünftigen Netzentgeltsystematik (AgNes), die für die Strommarktregulierung und Investitionssicherheit von Erneuerbare-Energien-Anlagen zentral ist.",
       "gemini_status": "cached",
-      "register_description": "Wir brauchen Vertrauensschutz bei der künftigen Netzgeldsystematik (AgNes GBK-25-01-1#3).",
+      "register_description": "Ørsted setzt sich für Vertrauensschutz bei der künftigen Netzgeldsystematik (AgNes GBK-25-01-1#3) ein.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -48354,7 +48907,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Novellierung des WindSeeG und schlägt Anpassungen zur Projektrückgabe vor, was unter die Themenfelder 'Erneuerbare Energien' und 'EU-Energiepolitik/Gesetzgebung' der Unterabteilung IIIA fällt.",
       "gemini_status": "cached",
-      "register_description": "Unseres Erachtens besteht eine Regelungslücke mit Blick auf die Rückgabe von bezuschlagten Flächen.",
+      "register_description": "Ørsted erkennt eine Regelungslücke mit Blick auf die Rückgabe von bezuschlagten Flächen.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -75449,7 +76002,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit dem Gebäudeenergiegesetz (GEG) und dem geplanten Gebäudemodernisierungsgesetz (GMG). Diese Themen sind gemäß der Vorgaben explizit als 'nicht relevant' für die Unterabteilung IIIA (BMWE) eingestuft.",
       "gemini_status": "filtered",
-      "register_description": "Erhalt der 65%-Prozent-Erneuerbare-Energien-Regel. Absicherung der sozialen Nachhaltigkeit. ",
+      "register_description": "Erhalt der 65%-Prozent-Erneuerbare-Energien-Regel. Absicherung der sozialen Nachhaltigkeit, Aufzeigen der Nachteile von Grüngasquote und Biotreppe. ",
       "summary_quelle": "pdf_text"
     },
     {
@@ -103039,7 +103592,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum Netzentwicklungsplan (NEP), welcher ein zentrales Instrument der Stromnetzplanung und damit der Versorgungssicherheit und Energiewende darstellt.",
       "gemini_status": "cached",
-      "register_description": "Wir haben die stetige Aktualisierung des Netzentwicklungsplans mit Blick auf Offshore-Wind kommentiert. ",
+      "register_description": "Ørsted hat die stetige Aktualisierung des Netzentwicklungsplans mit Blick auf Offshore-Wind kommentiert. ",
       "summary_quelle": "pdf_text"
     },
     {
@@ -103074,7 +103627,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Novellierung des WindSeeG und macht konkrete Vorschläge zur Ausgestaltung der Offshore-Windenergie-Ausschreibungen und Flächenplanung.",
       "gemini_status": "cached",
-      "register_description": "Aufbauend auf der Marktkonsulation des BMWE zum WindSeeG haben wir mit Blick auf eine mögliche Novelle des WindSeeG unsere wichtigsten Anregungen in einem Positionspapier zusammengefasst.",
+      "register_description": "Aufbauend auf der Marktkonsulation des BMWE zum WindSeeG hat Ørsted mit Blick auf eine mögliche Novellierung des WindSeeG Positionen und Anregungen in einem Positionspapier zusammengefasst.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -113349,6 +113902,6 @@
       "abweichung_thema": "Gesetzliche Regelung der Berufsbezeichnungen Gutachter und…"
     }
   ],
-  "gemini_filtered_out": 1307,
+  "gemini_filtered_out": 1315,
   "gemini_legacy_open": 0
 }
