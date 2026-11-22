@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T09:10:20.258942+01:00",
-  "newly_added": 18,
+  "generated_at": "2026-11-22T08:54:46.656201+01:00",
+  "newly_added": 0,
   "statements": [
     {
       "register_number": "R002309",
@@ -72,7 +72,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt direkt Stellung zu den geplanten Reformen des EEG 2027 und des Netzanschlusspakets, welche zentrale Instrumente der Energiepolitik der Unterabteilung IIIA darstellen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R005893",
@@ -109,7 +109,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung der Rahmenbedingungen für den Ausbau erneuerbarer Energien im Rahmen des EEG 2027, was ein zentrales Themenfeld der Unterabteilung IIIA darstellt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -138,7 +138,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert direkt die EU-Klimapolitik und die Ausgestaltung des Emissionshandels (ETS 1), welche zentrale Bestandteile der EU-Energie- und Klimagesetzgebung sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -168,7 +168,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert direkt die EU-Klimapolitik und die Ausgestaltung des EU-Emissionshandels (ETS I), welche zentrale Themenfelder der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -202,7 +202,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des Gebäudemodernisierungsgesetzes und der Einführung einer Grüngasquote, was direkt die Themenfelder Klimaschutz und Energieeffizienz im Gebäudesektor berührt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -237,7 +237,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Finanzierung von Klimaschutz- und Transformationsmaßnahmen im KTF sowie die Verwendung von Einnahmen aus der CO2-Bepreisung, was direkt die Themenfelder Klimaschutz, Energiepreise und Finanzierungsbedarfe der Transformation berührt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -275,7 +275,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument analysiert die Finanzierung von Klimaschutzmaßnahmen im Klima- und Transformationsfonds (KTF), was direkt in die Zuständigkeit der Unterabteilung IIIA (Klimaschutz & Energiewende) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -306,7 +306,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die EEG-Novelle, die Förderung erneuerbarer Energien, Redispatch-Regelungen und die Netzanschluss-Problematik, welche zentrale Themen der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -338,7 +338,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung des EU-Energierahmens nach 2030, was direkt unter die Themenfelder EU-Energiepolitik und EU-Klimapolitik der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001579",
@@ -366,7 +366,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und die Ausgestaltung des EU-Emissionshandelssystems (ETS 1), was direkt unter die Themenfelder der Unterabteilung IIIA (EU-Klimapolitik/Fit for 55) fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R008295",
