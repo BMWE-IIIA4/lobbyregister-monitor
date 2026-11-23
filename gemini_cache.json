@@ -42218,5 +42218,18 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-21"
+  },
+  "SG2611230005": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die Ausgestaltung des Netzanschlusspakets und die Auswirkungen auf die Finanzierbarkeit von Erneuerbare-Energien-Projekten, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Der Genossenschaftsverband Bayern <b>lehnt den Redispatch-Vorbehalt</b> im geplanten Netzanschlusspaket ab. Die Organisation warnt, dass diese Regelung die <b>Bankability</b> von Wind- und Photovoltaikprojekten gefährdet, da unkalkulierbare Erlösrisiken die Finanzierung durch Banken erschweren. Laut Verband führen nicht oder nur teilweise entschädigte Abregelungen zu konservativeren Ertragsannahmen und höheren Kapitalkosten. Statt einer pauschalen Beschneidung von Investitionen fordert der Verband einen <b>strukturellen Abbau von Netzengpässen</b> durch gezielte Infrastrukturinvestitionen. Zudem wird betont, dass die Kosten des Redispatch-Managements primär durch konventionelle Kraftwerke und nicht durch erneuerbare Anlagen verursacht werden. Der Verband appelliert an den Gesetzgeber, die <b>Investitionssicherheit</b> für Energiegenossenschaften durch eine ersatzlose Streichung des Vorbehalts zu gewährleisten.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Redispatch-Vorbehalt im Netzanschlusspaket",
+    "bezug": "kern",
+    "hauptgesetz": "EEG",
+    "thema_kurz": "Redispatch-Vorbehalt Netzanschlusspaket",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-23"
   }
 }

@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-11-22T08:54:46.656201+01:00",
-  "newly_added": 0,
+  "generated_at": "2026-11-23T09:50:44.936893+01:00",
+  "newly_added": 1,
   "statements": [
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/89143",
+      "regulatory_project_title": "Änderung des Energiewirtschaftsrechts im Rahmen des Netzpakets (Netzanschluss, Netzausbau und Systemintegration erneuerbarer Energien)",
+      "sending_date": "2026-11-04",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/85/0a/875844/Stellungnahme-Gutachten-SG2611230005.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611230005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230005",
+      "summary": "Der Genossenschaftsverband Bayern <b>lehnt den Redispatch-Vorbehalt</b> im geplanten Netzanschlusspaket ab. Die Organisation warnt, dass diese Regelung die <b>Bankability</b> von Wind- und Photovoltaikprojekten gefährdet, da unkalkulierbare Erlösrisiken die Finanzierung durch Banken erschweren. Laut Verband führen nicht oder nur teilweise entschädigte Abregelungen zu konservativeren Ertragsannahmen und höheren Kapitalkosten. Statt einer pauschalen Beschneidung von Investitionen fordert der Verband einen <b>strukturellen Abbau von Netzengpässen</b> durch gezielte Infrastrukturinvestitionen. Zudem wird betont, dass die Kosten des Redispatch-Managements primär durch konventionelle Kraftwerke und nicht durch erneuerbare Anlagen verursacht werden. Der Verband appelliert an den Gesetzgeber, die <b>Investitionssicherheit</b> für Energiegenossenschaften durch eine ersatzlose Streichung des Vorbehalts zu gewährleisten.",
+      "register_description": "Anpassung des Netzpakets zur Sicherstellung investitionsfreundlicher Rahmenbedingungen durch Ablehnung investitionshemmender Regelungen (insbesondere Redispatch-Vorbehalt), Stärkung dezentraler Energieprojekte sowie Reform von Netzanschluss, Netzausbau und Systemverantwortung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung des Netzanschlusspakets und die Auswirkungen auf die Finanzierbarkeit von Erneuerbare-Energien-Projekten, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R002309",
       "org_name": "E.ON SE",
