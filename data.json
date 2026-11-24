@@ -1,7 +1,121 @@
 {
-  "generated_at": "2026-11-23T09:50:44.936893+01:00",
-  "newly_added": 1,
+  "generated_at": "2026-11-24T11:47:40.666906+01:00",
+  "newly_added": 25,
   "statements": [
+    {
+      "register_number": "R000594",
+      "org_name": "Bundesverband der Energie-Abnehmer e. V. (VEA)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000594/88815",
+      "regulatory_project_title": "Finanzierung der Netzentgelte",
+      "sending_date": "2026-11-02",
+      "upload_date": "2026-11-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/77/ec/876471/Stellungnahme-Gutachten-SG2611240008.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611240008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611240008",
+      "summary": "Der Bundesverband der Energie-Abnehmer e. V. <b>fordert die Beibehaltung</b> des 6,5-Milliarden-Euro-Zuschusses zu den Übertragungsnetzentgelten. Die Organisation warnt davor, die geplante <b>Kürzung um 1 Milliarde Euro</b> umzusetzen, da dies die <b>Wettbewerbsfähigkeit</b> des Wirtschaftsstandorts Deutschland gefährde. Ein Anstieg der Netzentgelte würde die Stromkosten für Industrie und Gewerbe weiter belasten. Der Verband betont, dass der Zuschuss essenziell sei, um das Preisniveau stabil zu halten und <b>Planungssicherheit</b> für Unternehmen zu gewährleisten. Die Organisation appelliert an den Bundestag, die ursprüngliche Zusage für die volle Finanzierung einzuhalten.",
+      "register_description": "Finanzierung der Netzentgelte aus dem Bundeshaushalt",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert die Finanzierung der Netzentgelte, welche ein zentrales Thema der Unterabteilung IIIA (Strommarkt/Energiepreise) darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000083",
+      "org_name": "Stiftung Familienunternehmen und Politik",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000083/89215",
+      "regulatory_project_title": "Informationelle Selbstbestimmung wirtsch. Berechtigter bei Maßgaben zum Transparenzregister wahren",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ce/9a/876489/Stellungnahme-Gutachten-SG2611240011.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611240011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611240011",
+      "summary": "Die Stiftung Familienunternehmen und Politik <b>kritisiert</b> die mit der EU-Geldwäscheverordnung verbundenen <b>Eingriffe in Grundrechte</b> wirtschaftlicher Eigentümer. Die Organisation warnt, dass die Veröffentlichungspflichten von <b>personenbezogenen Daten</b> wie der privaten Wohnanschrift und Ausweisnummern die Sicherheit der Betroffenen gefährden. Sie fordert eine <b>Einschränkung des Datenkranzes</b> sowie eine präzisere Ausgestaltung des Zugangs zum Transparenzregister. Zudem wird eine <b>verhältnismäßige legislative Ausgestaltung</b> des berechtigten Interesses angemahnt, um den Schutz der Privatsphäre zu gewährleisten. Die Stiftung verlangt zudem die Einführung wirksamer <b>Verfahrensrechte für Betroffene</b> bei unbefugten Zugriffen auf die Registerdaten. Abschließend appelliert sie an die Bundesregierung, die Umsetzung der Verordnung bis zur Klärung dieser datenschutzrechtlichen Bedenken zu stoppen oder anzupassen.",
+      "register_description": "Die Umsetzung des Anti Money Laundering Package der EU muss verhältnismäßig sein. Beim Transparenzregister gilt dies insbesondere für den Anforderungskatalog der Eintragung personenbezogener Daten wirtschaftlicher Eigentümer und die Beschränkung des Jedermann-Zugangs zum Register. Der Grundrechtsschutz verlangt neben einer verhältnismäßigen Verwaltungspraxis eine legislative Ausgestaltung des „berechtigten Interesses“ (EuGH 2022), die die schutzwürdigen Interessen der Eintragungspflichtigen hinreichend berücksichtigt. Im Rahmen des Zollfinanzgerechtigkeitsgesetzes [ZFG] müssen hinreichende Anforderungen an das Bestehen eines „berechtigten Interesses“ und an dessen Nachweis gesetzt werden. Außerdem sind hinreichende verfahrensrechtliche Maßnahmen zum Schutz der Betroffenen zu verankern. ",
+      "recipients": [
+        "BKAmt",
+        "BMI",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit datenschutzrechtlichen Bedenken hinsichtlich des Transparenzregisters im Kontext der EU-Geldwäscheverordnung. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000083",
+      "org_name": "Stiftung Familienunternehmen und Politik",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000083/89215",
+      "regulatory_project_title": "Informationelle Selbstbestimmung wirtsch. Berechtigter bei Maßgaben zum Transparenzregister wahren",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-11-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/37/e6/876450/Stellungnahme-Gutachten-SG2611240007.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611240007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611240007",
+      "summary": "Die <b>Stiftung Familienunternehmen und Politik</b> <b>kritisiert</b> die aktuelle Ausgestaltung der <b>Anti-Geldwäsche-Regulierung</b> im Hinblick auf den Schutz personenbezogener Daten. Die Organisation warnt vor Sicherheitsrisiken durch die <b>Offenlegung von Wohnanschriften</b> wirtschaftlicher Eigentümer im Transparenzregister. Insbesondere die <b>Geldwäscheverordnung (GwVO)</b> wird als problematisch eingestuft, da sie die Privatsphäre der betroffenen Familien gefährde. Die Stiftung fordert daher, die Angabe der Wohnanschrift aus dem Datenkranz der GwVO zu streichen. Zudem wird eine <b>legislative Ausgestaltung</b> des berechtigten Interesses angemahnt, um den Grundrechtsschutz zu gewährleisten. Abschließend kündigt die Organisation einen Appell an den Bundeskanzler und die zuständigen Minister an, um den Schutz personenbezogener Daten gemäß EU-Grundrechtecharta sicherzustellen.",
+      "register_description": "Die Umsetzung des Anti Money Laundering Package der EU muss verhältnismäßig sein. Beim Transparenzregister gilt dies insbesondere für den Anforderungskatalog der Eintragung personenbezogener Daten wirtschaftlicher Eigentümer und die Beschränkung des Jedermann-Zugangs zum Register. Der Grundrechtsschutz verlangt neben einer verhältnismäßigen Verwaltungspraxis eine legislative Ausgestaltung des „berechtigten Interesses“ (EuGH 2022), die die schutzwürdigen Interessen der Eintragungspflichtigen hinreichend berücksichtigt. Im Rahmen des Zollfinanzgerechtigkeitsgesetzes [ZFG] müssen hinreichende Anforderungen an das Bestehen eines „berechtigten Interesses“ und an dessen Nachweis gesetzt werden. Außerdem sind hinreichende verfahrensrechtliche Maßnahmen zum Schutz der Betroffenen zu verankern. ",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit datenschutzrechtlichen Aspekten der Anti-Geldwäsche-Regulierung und der Transparenzregister-Verordnung. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000083",
+      "org_name": "Stiftung Familienunternehmen und Politik",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000083/89215",
+      "regulatory_project_title": "Vorgaben der EU-Lieferkettenrichtlinie handhabbar und möglichst rechtssicher ausgestalten. ",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-11-24",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/f9/876452/Stellungnahme-Gutachten-SG2611240006.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611240006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611240006",
+      "summary": "Die Stiftung Familienunternehmen und Politik <b>begrüßt</b> die Einigung zur EU-Lieferkettenrichtlinie, <b>warnt</b> jedoch vor weiterhin erheblichen administrativen Belastungen für Unternehmen. Die Organisation <b>kritisiert</b> Unstimmigkeiten zwischen dem Auswärtigen Amt und dem Bundesministerium für Arbeit und Soziales bei der Bereitstellung von Personalstellen für den Nationalen Aktionsplan. Sie <b>fordert</b> eine zügige Umsetzung des Vorhabens und die <b>Beseitigung</b> rein formeller Hemmnisse. Zudem wird eine <b>Beendigung</b> des nationalen Sonderwegs durch das Lieferkettensorgfaltspflichtengesetz (LkSG) angemahnt. Die Stiftung betont, dass die administrativen Anforderungen für Familienunternehmen handhabbar bleiben müssen.",
+      "register_description": "Die Corporate Sustainabiltiy Due Diligence Directive (CSDDD) regelt insbesondere Sorgfalts- und Berichterstattungspflichten von Unternehmen bezogen auf weite Teile ihrer Wertschöpfungskette. Dabei ist es wichtig, dass die gesetzlichen Vorgaben nur dort Verantwortlichkeiten schaffen, wo Unternehmen tatsächlich Einfluss auf internationale Vertragspartner nehmen können. Zudem dürfen die Vorgaben in Summe nicht zu unverhältnismäßigen administrativen Belastungen führen.",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der administrativen Umsetzung der EU-Lieferkettenrichtlinie (CSDDD) und dem Nationalen Aktionsplan (NAP). Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, da sie keinen direkten Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende aufweisen.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R002999",
       "org_name": "Genossenschaftsverband Bayern e. V.",
@@ -35,7 +149,468 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung des Netzanschlusspakets und die Auswirkungen auf die Finanzierbarkeit von Erneuerbare-Energien-Projekten, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R003722",
+      "org_name": "interface - Tech analysis and  policy ideas for Europe e.V (ehem. Stiftung Neue Verantwortung e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003722/89203",
+      "regulatory_project_title": "Ausgestaltung des EU Chips Act 2.0 (ECA 2.0) und der industriepolitischen Kooperation mit der Republik Korea ",
+      "sending_date": "2026-10-15",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3b/c6/876268/Stellungnahme-Gutachten-SG2611230030.pdf",
+      "pdf_pages": 42,
+      "sg_number": "SG2611230030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230030",
+      "summary": "Die Organisation interface <b>schlägt vor</b>, die offene strategische Autonomie im EU Chips Act 2.0 durch eine <b>vertiefte kommerzielle Kooperation</b> mit vertrauenswürdigen Partnern wie Südkorea praxistauglich auszugestalten. Anstatt einseitig auf Großinvestitionen in europäische Fabs zu setzen, empfiehlt die Organisation einen <b>Portfolio-Ansatz mit kleineren Schritten</b> und vertrauensbildenden Maßnahmen. Dies umfasst die Nutzung von <b>Strategic Mapping</b> zur Identifikation von Abhängigkeiten sowie die stärkere Einbindung der Industrie in politische Foren. Zudem wird eine <b>Ausweitung gemeinsamer Forschung und Entwicklung</b> im Bereich KI-Hardware angeregt, um technologische Souveränität durch eine engere Verzahnung von Industrie und Politik zu erreichen. Die Empfehlungen zielen darauf ab, die Wettbewerbsfähigkeit der EU durch eine klare Priorisierung strategischer Partnerschaften und technologischer Schwerpunkte zu stärken.",
+      "register_description": "interface setzt sich dafür ein, die offene strategische Autonomie im EU Chips Act 2.0 (ECA 2.0) praxistauglich auszugestalten und die kommerzielle Kooperation mit vertrauenswürdigen Partnern, insbesondere Südkorea (ROK), durch realistische Zwischenschritte zu vertiefen. Statt einseitig auf schwer realisierbare Großinvestitionen in europäische Fabs zu setzen, sollte die Bundesregierung auf EU- und nationaler Ebene (u. a. in der EU-ROK-Wettbewerbspartnerschaft und bilateralen 2+2-Programmen) vertrauensbildende Maßnahmen priorisieren: die Nutzung des Strategic Mapping und des Labels Semiconductor Regions of Excellence für europäische Clusterstärken, eine engere Verzahnung von Industrie und Politik (etwa via EU-ROK-Wirtschaftsrat) sowie der Ausbau gemeinsamer Forschung und Entwicklung.",
+      "recipients": [
+        "AA",
+        "BMFTR",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument analysiert die Ausgestaltung des EU Chips Act 2.0 im Kontext der technologischen Souveränität und industriepolitischen Kooperation, was direkt in den Bereich der EU-Energiepolitik und Wettbewerbsfähigkeit fällt.",
+      "summary_quelle": "pdf_text",
       "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002477",
+      "org_name": "Amprion GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002477/89197",
+      "regulatory_project_title": "Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz",
+      "sending_date": "2026-10-16",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/bb/93/876231/Stellungnahme-Gutachten-SG2611230028.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611230028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230028",
+      "summary": "Die Übertragungsnetzbetreiber <b>lehnen</b> das Konzept aus dem sogenannten „Gartenzaunpapier“ zur Steuerung am Netzverknüpfungspunkt in der Niederspannung ab. Sie betonen, dass der aktuelle Arbeitsstand noch nicht zwischen den Übertragungs- und Verteilnetzbetreibern abgestimmt ist. Die Netzbetreiber <b>warnen vor einem übereilten Eingang</b> dieses Konzepts in das laufende Netzpaket, da Komplexität und Abhängigkeiten zu operativen Prozessen noch nicht bewertet wurden. Zudem wird eine <b>Übertragung des Konzepts auf höhere Spannungsebenen abgelehnt</b>. Aktuell befinden sich alternative Ansätze wie <b>Colocation und die RD-Integration von Batteriespeichern</b> in der Bearbeitung.",
+      "register_description": "Das bisherigen Netzanschlussverfahren nach KraftNAV, das seinerzeit nur für wenige Netzanschlüsse pro Jahr vorgesehen war, ist für die zahlreichen Netzanschlussanfragen z.B. von Großbatteriespeichern, die die ÜNB seit 2024 erreichen, nicht mehr geeignet. Ziel des Regelungsvorhabens ist daher eine Neuordnung des Netzanschlussverfahrens im Strom-Übertragungsnetz, beispielsweise durch Klarstellung in der KraftNAV sowie die Implementierung eines alternativen Netzanschlussverfahrens, dass eine Differenzierung oder Priorisierung von Projekten innerhalb einer Kategorie nach Projektreife erlaubt.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument behandelt die Steuerung am Netzverknüpfungspunkt im Kontext von Redispatch und Netzanschluss, was direkt unter die Themenfelder Strommarktdesign und Energienetze fällt.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R004424",
+      "org_name": "IVSH Industrieverband Schneid- und Haushaltwaren e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R004424/89182",
+      "regulatory_project_title": "EcoDesign / Digitaler Produktpass / Verordnung (EU) 2024/1781 (EU)",
+      "sending_date": "2026-11-23",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/c2/876080/Stellungnahme-Gutachten-SG2611230014.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611230014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230014",
+      "summary": "Der Industrieverband Schneid- und Haushaltswaren e.V. und weitere Verbände <b>kritisieren</b> die in Artikel 12 Absatz 11 des European Product Act vorgesehene <b>physische Informationspflicht</b> für Gebrauchsanweisungen. Sie fordern stattdessen einen <b>horizontalen Grundsatz</b> nach dem Prinzip „One Product, One Digital Access Point“. Die Verbände plädieren für eine <b>digitale Bereitstellung</b> von Produktinformationen, während lediglich sicherheitsrelevante Hinweise physisch verfügbar bleiben sollen. Bestehende Instrumente wie der <b>Digitale Produktpass</b> sollten als zentraler Zugangspunkt für regulatorische Informationen genutzt werden. Zudem wird eine Entlastung regelkonformer Unternehmen durch <b>effizientere Durchsetzung</b> gegenüber Drittstaaten-Importen gefordert. Die Verbände betonen, dass eine Vervielfachung von Papierkennzeichnungen weder der Verbraucherinformation noch der Nachhaltigkeit dient.",
+      "register_description": "Position des IVSH zur Ausgestaltung des Digitalen Porduktpasses (DPP) im Kontext  der EU-VO Verordnung (EU) 2024/1781 zur Schaffung eines Rahmens für die Festlegung von Ökodesign-Anforderungen für nachhaltige Produkte, hier: Sensibilisierung für Herausforderungen unserer mittelständisch geprägten Industrie und Unterbreitung von Vorschlägen (u.a. gestufte Einführung) für eine effiziente Ausgestaltung des DPP",
+      "recipients": [
+        "BMJV",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die Ausgestaltung des Digitalen Produktpasses (DPP) im Rahmen der Ökodesign-Verordnung (ESPR), welche für die Unterabteilung IIIA (EU-Energiepolitik/EU-Binnenmarkt) relevant ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/89175",
+      "regulatory_project_title": "Änderungsvorschläge zur Reform des europäischen Vergaberechts",
+      "sending_date": "2026-11-23",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d4/96/876045/Stellungnahme-Gutachten-SG2611230012.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611230012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230012",
+      "summary": "Der BDEW <b>begrüßt die Modernisierung</b> des europäischen Vergaberechts, <b>fordert</b> jedoch die Beibehaltung der Rechtsform einer Richtlinie, um nationale Handlungsspielräume zu sichern. Der Verband <b>warnt vor überbordender Bürokratie</b> durch neue Berichts- und Dokumentationspflichten, die Investitionen in kritische Infrastrukturen behindern könnten. Er <b>unterstützt die Beibehaltung</b> der Inhouse-Vergabe sowie bestehender Freistellungen für wettbewerbliche Sektorentätigkeiten und die Wasserbereichsausnahme. Zudem <b>fordert er den Schutz</b> sicherheitsrelevanter Informationen bei der Vergabe. Sollte eine Verordnung erlassen werden, <b>verlangt der Verband eine Übergangsfrist</b> von mindestens vier Jahren zur Anpassung der Prozesse.",
+      "register_description": "Der BDEW setzt sich für ein einfaches und praxistaugliches europäisches Vergaberecht ein. Er fordert, die Rechtsform einer Richtlinie und die besonderen Handlungsspielräume für Sektorenauftraggeber beizubehalten. Die Inhouse-Vergabe, bestehende Freistellungen für dem Wettbewerb ausgesetzte Tätigkeiten und die Wasserbereichsausnahme sollen erhalten bleiben. Sicherheitsrelevante Informationen kritischer Infrastrukturen sind zu schützen. Zusätzliche Bürokratie und belastende Beschaffungsanforderungen sind zu vermeiden. Falls eine Verordnung erlassen wird, fordert der BDEW eine Übergangsfrist von mindestens vier Jahren.",
+      "recipients": [
+        "BKAmt",
+        "BMF",
+        "BMUKN",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Reform des europäischen Vergaberechts, was für die Beschaffungspraxis und Investitionsfähigkeit von Unternehmen der Energie- und Wasserwirtschaft (Sektorenauftraggeber) von hoher Relevanz für das BMWE ist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R008020",
+      "org_name": "NEXOGAS Holding GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008020/89158",
+      "regulatory_project_title": "EnWG-Novelle, EEG, Gebäudemodernisierungsgestz, Umsetzung RED3-RL (alles bezogen auf Biomethan)",
+      "sending_date": "2026-11-20",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/33/8c/875936/Stellungnahme-Gutachten-SG2611230008.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611230008",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230008",
+      "summary": "Die <b>NEXOGAS Holding GmbH fordert</b> im Rahmen der EnWG-Novelle eine <b>Mindestlaufzeit des Netzanschlusses von 20 Jahren</b> für Biomethananlagen, um die notwendige Planungssicherheit für Investitionen zu gewährleisten. Das Unternehmen warnt, dass die aktuell vorgesehenen kürzeren Trennungsfristen den <b>Biomethan-Hochlauf</b> gefährden und die Finanzierbarkeit von Projekten untergraben. Zur Stärkung der Versorgungssicherheit schlägt die Organisation vor, <b>Biomethan-Vorranggebiete</b> festzulegen und den <b>Anschlussvorrang</b> sowie die Kostenteilung aus der GasNZV beizubehalten. Zudem wird betont, dass Biomethan als heimischer, speicherbarer Energieträger einen wesentlichen Beitrag zur Dekarbonisierung der Industrie und Mobilität leistet. Die Branche verweist auf europäische Vorbilder, die den langfristigen Netzzugang als Grundvoraussetzung für den Ausbau der Biomethanproduktion gesetzlich verankert haben.",
+      "register_description": "Es geht darum, dass der Ausbau von Biomethan zur Einspeisung in das öffentliche Gasnetz langfristig durch die Politik unterstützt wird.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die EnWG-Novelle und deren Auswirkungen auf den Netzanschluss von Biomethananlagen, was unter die Themenfelder Strommarktregulierung und Erneuerbare Energien fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000337",
+      "org_name": "Bundesverband Direktvertrieb Deutschland (BDD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000337/89198",
+      "regulatory_project_title": "Bestandselbständige, Existenzgründer und Geringverdiener bei Vorsorgepflicht bedenken",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/e7/876294/Stellungnahme-Gutachten-SG2611230034.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611230034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230034",
+      "summary": "Der Bundesverband Direktvertrieb Deutschland <b>unterstützt</b> die geplante <b>Statusfeststellung</b> anhand der tatsächlichen Tätigkeit, fordert jedoch die Streichung des Begriffs „insbesondere“ in § 7 SGB IV zur Herstellung der <b>Einheit der Rechtsordnung</b>. Der Verband <b>lehnt eine obligatorische Einbeziehung</b> in die gesetzliche Rentenversicherung ab und plädiert stattdessen für die Anerkennung alternativer, verlässlicher Formen der Altersvorsorge. Für Bestandsselbständige wird ein unbürokratisches <b>Opt-out</b> gefordert, um Vertrauensschutz zu gewährleisten. Zudem wird eine <b>fünfjährige Karenzzeit</b> für Existenzgründer sowie eine <b>Ausnahmeregelung für Geringverdiener</b> unter 603 Euro monatlich verlangt. Die Verknüpfung des Erwerbsstatus mit der Altersvorsorge wird als systemfremd kritisiert. Abschließend wird der Zugang zur freiwilligen Arbeitslosenversicherung für alle Selbständigen begrüßt.",
+      "register_description": "Geplant ist laut Koalitionsvertrag 2025, alle neuen Selbständigen, die keinem obligatorischen Alterssicherungssystem zugeordnet sind, gründerfreundlich in die gesetzliche Rentenversicherung einzubeziehen. Dabei sollen weiterhin andere Formen der Altersvorsorge möglich bleiben, sofern sie eine verlässliche Absicherung im Alter gewährleisten. Wir setzen uns dafür ein, dass eine praxisnahe Ausgestaltung erfolgt. Dies insbesondere durch die Beibehaltung der bisherigen Karenzzeiten für Existenzgründer. Bestandsselbständige sollen aus Gründen des Vertrauensschutzes weiterhin ausgenommen bleiben. Auch Geringverdiener mit monatlichen Einnahmen unter 556 Euro sollen von der Altersvorsorgepflicht ausgenommen werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit arbeits- und sozialversicherungsrechtlichen Fragen zur Statusfeststellung und Altersvorsorge von Selbständigen. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000337",
+      "org_name": "Bundesverband Direktvertrieb Deutschland (BDD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000337/89198",
+      "regulatory_project_title": "Reform des Statusfeststellungsverfahrens und Stärkung der Rechtssicherheit für Selbständige",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/88/c3/876298/Stellungnahme-Gutachten-SG2611230033.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611230033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230033",
+      "summary": "Der Bundesverband Direktvertrieb Deutschland <b>unterstützt</b> die <b>Reform des Statusfeststellungsverfahrens</b>, um Rechtssicherheit für selbständige Berater zu schaffen. Der Verband fordert eine <b>terminologische Akzessorietät</b> zwischen Arbeits- und Sozialrecht durch die Streichung des Wortes „insbesondere“ in § 7 SGB IV. Zudem lehnt er starre <b>gesetzliche Kriterienkataloge</b> ab, da diese die Besonderheiten vertrieblicher Tätigkeiten unzureichend berücksichtigen. Hinsichtlich der Altersvorsorge spricht sich der Verband gegen eine obligatorische Mitgliedschaft in der gesetzlichen Rentenversicherung aus und <b>fordert die Anerkennung privater Vorsorgeformen</b>. Für Neugründungen wird eine <b>fünfjährige Karenzzeit</b> ohne Vorsorgepflicht befürwortet. Schließlich wird die Forderung nach einem Zugang zur freiwilligen Arbeitslosenversicherung für alle Selbständigen begrüßt.",
+      "register_description": "Ziel der Einflussnahme ist die Reform des Statusfeststellungsverfahrens nach § 7a SGB IV sowie angrenzender sozialversicherungs- und strafrechtlicher Regelungen zur Abgrenzung selbständiger Tätigkeit und abhängiger Beschäftigung. Dies umfasst insbesondere die gesetzliche Klarstellung der Abgrenzungskriterien in § 7 SGB IV, die Wiedereinführung eines Vertrauensschutzes bei rückwirkender Feststellung von Versicherungspflicht (§ 7b SGB IV), Anpassungen der strafrechtlichen Regelung in § 266a StGB, die Einführung eines beschleunigten Statusklärungsverfahrens, institutionelle Verfahrensverbesserungen bei der Deutschen Rentenversicherung sowie die Aktualisierung untergesetzlicher Verwaltungsvorgaben zur Statusfeststellung.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit sozialversicherungsrechtlichen Fragen zur Abgrenzung von selbständiger Tätigkeit und abhängiger Beschäftigung sowie der Altersvorsorge für Selbständige. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003722",
+      "org_name": "interface - Tech analysis and  policy ideas for Europe e.V (ehem. Stiftung Neue Verantwortung e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003722/89203",
+      "regulatory_project_title": "Regulierung generativer KI: Verzahnung von Digital Services Act (DSA) und EU AI Act",
+      "sending_date": "2026-10-01",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c9/2e/876266/Stellungnahme-Gutachten-SG2611230032.pdf",
+      "pdf_pages": 32,
+      "sg_number": "SG2611230032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230032",
+      "summary": "Die Organisation <b>interface empfiehlt</b> eine <b>operative Verzahnung</b> der Aufsichtsarchitekturen von DSA und AI Act, um Doppelprüfungen bei der Regulierung von ChatGPT zu vermeiden. Das Dokument argumentiert, dass der DSA als primärer Rahmen für <b>systemische Risiken</b> auf Dienstebene fungiert, während der AI Act weiterhin für <b>modellbasierte Verpflichtungen</b> notwendig bleibt. Es wird vorgeschlagen, eine <b>gemeinsame Risikomatrix</b> zu entwickeln, die Modell-, System- und Diensteebene systematisch verknüpft. Zudem wird gefordert, Erkenntnisse aus VLOSE-Analysen auf KI-Systeme unterhalb der Schwellenwerte zu übertragen. Die Autoren betonen, dass die VLOSE-Einstufung von ChatGPT zwar die <b>Diensteverantwortung</b> erweitert, jedoch keine umfassende Modellregulierung ersetzt.",
+      "register_description": "Durch die VLOSE-Einstufung von ChatGPT unter dem Digital Services Act (DSA) im August 2026 überschneiden sich DSA-Sorgfaltspflichten mit den Modell- und Systemvorgaben des EU AI Act. interface setzt sich für eine operative Verzahnung beider Aufsichtsarchitekturen ein, um Doppelprüfungen zu vermeiden und Lücken bei systemischen Risiken (u. a. Wahlintegrität, Minderjährigenschutz, Desinformation, emotionale Abhängigkeit) zu schließen. Konkret empfehlen wir der EU-Kommission (DSA-Team und AI Office) sowie nationalen Behörden, Risikobewertungen nach Art. 34 DSA und AI Act systematisch zu verknüpfen, eine gemeinsame Risikomatrix (Modell-, System- und Diensteebene) einzuführen und Erkenntnisse aus VLOSE-Analysen auf KI-Systeme unterhalb der DSA-Schwellenwerte zu übertragen.",
+      "recipients": [
+        "BMJV",
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit der regulatorischen Einordnung von generativer KI (ChatGPT) unter dem Digital Services Act (DSA) und dem EU AI Act. Diese Themenfelder fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, da sie primär digitale Plattformregulierung und KI-Governance betreffen und keinen direkten Bezug zur Energiepolitik, Strommarktregulierung oder Energiewende aufweisen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000337",
+      "org_name": "Bundesverband Direktvertrieb Deutschland (BDD) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000337/89198",
+      "regulatory_project_title": "Reform des Statusfeststellungsverfahrens und Stärkung der Rechtssicherheit für Selbständige",
+      "sending_date": "2026-11-11",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/2d/72/876296/Stellungnahme-Gutachten-SG2611230031.pdf",
+      "pdf_pages": 11,
+      "sg_number": "SG2611230031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230031",
+      "summary": "Der Bundesverband Direktvertrieb Deutschland (BDD) und weitere Wirtschaftsverbände <b>begrüßen die Eckpunkte</b> zur Reform des Statusfeststellungsverfahrens, fordern jedoch <b>weitere Klarstellungen</b> zur Rechtssicherheit. Die Verbände verlangen, dass der neue Zugang zur Selbständigkeit als <b>gleichrangiger Weg</b> neben der bisherigen Gesamtabwägung gesetzlich abgesichert wird. Sie lehnen eine <b>pauschale Vermutung</b> für abhängige Beschäftigung ab und fordern den Erhalt der bestehenden Formen selbständiger Tätigkeit. Zudem wird eine <b>Harmonisierung von Arbeits- und Sozialversicherungsrecht</b> gefordert, um Divergenzen bei der Statusbeurteilung zu vermeiden. Schließlich wird die <b>Wiedereinführung des Vertrauensschutzes</b> bei Beitragsnachzahlungen sowie eine praxisgerechte Ausgestaltung der Kriterien für den Vertrieb angemahnt.",
+      "register_description": "Ziel der Einflussnahme ist die Reform des Statusfeststellungsverfahrens nach § 7a SGB IV sowie angrenzender sozialversicherungs- und strafrechtlicher Regelungen zur Abgrenzung selbständiger Tätigkeit und abhängiger Beschäftigung. Dies umfasst insbesondere die gesetzliche Klarstellung der Abgrenzungskriterien in § 7 SGB IV, die Wiedereinführung eines Vertrauensschutzes bei rückwirkender Feststellung von Versicherungspflicht (§ 7b SGB IV), Anpassungen der strafrechtlichen Regelung in § 266a StGB, die Einführung eines beschleunigten Statusklärungsverfahrens, institutionelle Verfahrensverbesserungen bei der Deutschen Rentenversicherung sowie die Aktualisierung untergesetzlicher Verwaltungsvorgaben zur Statusfeststellung.",
+      "recipients": [
+        "BMAS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit sozialversicherungsrechtlichen Fragen zur Abgrenzung von selbständiger Tätigkeit und abhängiger Beschäftigung. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/89225",
+      "regulatory_project_title": "Förderung und Umsetzung des autonomen Fahrens im ÖPNV",
+      "sending_date": "2026-10-19",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/33/09/876250/Stellungnahme-Gutachten-SG2611230029.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611230029",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230029",
+      "summary": "Der Verband Deutscher Verkehrsunternehmen <b>begrüßt die Förderung</b> des autonomen Fahrens im ÖPNV, lehnt jedoch Änderungen an der <b>Rückkehrpflicht</b> und der kommunalen Steuerung ab. Die Branche betont, dass das geltende Personenbeförderungsgesetz bereits <b>technikneutral</b> ausgestaltet ist und keine gesetzlichen Anpassungen für autonome Angebote erfordert. Statt regulatorischer Änderungen fordert der Verband eine <b>verlässliche Finanzierung</b> sowie die Bereitstellung geeigneter Fahrzeuge für den Markthochlauf. Kritisch bewertet werden Privilegierungen für Plattformanbieter, die den Wettbewerb gegenüber dem öffentlichen Verkehr verzerren könnten. Zudem wird eine <b>enge Einbindung der Verkehrsunternehmen</b> bei der Gestaltung von Modellregionen und Genehmigungsverfahren gefordert. Der Fokus sollte auf der Integration autonomer Systeme in das bestehende Gesamtsystem des öffentlichen Verkehrs liegen.",
+      "register_description": "Die Initiative verfolgt das Ziel, dass das autonome Fahren im ÖPNV stärker gefördert wird und in die flächendeckende Umsetzung kommt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit verkehrspolitischen Fragestellungen zur Umsetzung des autonomen Fahrens im ÖPNV und der Auslegung des Personenbeförderungsgesetzes (PBefG). Es weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik) auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003722",
+      "org_name": "interface - Tech analysis and  policy ideas for Europe e.V (ehem. Stiftung Neue Verantwortung e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003722/89203",
+      "regulatory_project_title": "Jugendschutz und Systemdesign bei generativer Künstlicher Intelligenz (Online Child Safety)",
+      "sending_date": "2026-10-22",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f1/cc/876270/Stellungnahme-Gutachten-SG2611230025.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611230025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230025",
+      "summary": "Die Organisation interface <b>fordert eine Regulierung des Systemdesigns</b> von KI-Anwendungen, um den Kinder- und Jugendschutz über reine Altersverifikationen hinaus zu stärken. Eine empirische Studie zeigt, dass 63 % der befragten Jugendlichen wöchentlich generative KI nutzen, wobei insbesondere <b>KI-Begleiter und in soziale Medien integrierte KI</b> aufgrund ihrer auf emotionale Bindung ausgelegten Interaktionsmechanismen kritisch betrachtet werden. Viele Jugendliche fühlen sich durch diese Systeme zu einer längeren Nutzungsdauer verleitet, als sie beabsichtigt hatten. Eltern fühlen sich bei der Begleitung ihrer Kinder oft unzureichend unterstützt und <b>erwarten eine stärkere Verantwortung der KI-Anbieter</b> sowie staatlicher Stellen. Die Analyse betont, dass die <b>Risiken für das emotionale Wohlbefinden</b> bei Systemen, die auf dauerhafte Interaktion setzen, eine genauere Untersuchung erfordern. Abschließend wird ein <b>evidenzbasierter Ansatz</b> empfohlen, der über die bloße Zugangsbeschränkung hinausgeht.",
+      "register_description": "Die Nutzung generativer KI durch Minderjährige beginnt oft ab elf Jahren und wird von Eltern häufig unterschätzt. Basierend auf einer empirischen Studie unter Jugendlichen und Eltern setzt sich interface dafür ein, Kinder- und Jugendschutz im digitalen Raum nicht allein auf Altersverifikation und Zugangsbeschränkungen zu stützen. Stattdessen muss die Regulierung das Systemdesign von KI-Anwendungen stärker fokussieren, insbesondere KI-Begleiter (AI Companions) und in soziale Medien integrierte KI, die auf langanhaltende Interaktion und emotionale Bindung ausgelegt sind. Zudem bedarf es eines evidenzbasierten Ansatzes, einer stärkeren Aufsicht über aufmerksamkeitsbindende Systeme sowie einer klaren Verantwortungsverteilung zwischen KI-Anbietern, Bildungseinrichtungen und staatlichen Stellen.",
+      "recipients": [
+        "BMJV",
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Jugendschutz im digitalen Raum und der Nutzung generativer KI durch Minderjährige. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Klimaschutz konzentriert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R003722",
+      "org_name": "interface - Tech analysis and  policy ideas for Europe e.V (ehem. Stiftung Neue Verantwortung e.V.)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003722/89203",
+      "regulatory_project_title": "Stärkung der Cybersicherheit und Resilienz gegenüber staatlich gesteuerten Cyberkampagnen der Volksrepublik China ",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8d/d4/876272/Stellungnahme-Gutachten-SG2611230022.pdf",
+      "pdf_pages": 96,
+      "sg_number": "SG2611230022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230022",
+      "summary": "Die Organisation interface <b>empfiehlt eine strategische Neuausrichtung</b> im Umgang mit staatlich gesteuerten Cyberkampagnen aus China. Das Dokument argumentiert, dass die chinesische Regierung die <b>bounded delegation</b> als politisches Instrument nutzt, um durch ein industrielles Ökosystem Cyberoperationen in großem Maßstab zu ermöglichen. Die Organisation <b>fordert eine Default Attribution</b>, bei der China für Cybervorfälle mit China-Bezug pauschal verantwortlich gemacht wird, ohne jeden Einzelfall beweisen zu müssen. Zudem werden Maßnahmen wie die <b>Zerschlagung geteilter technischer Infrastrukturen</b>, eine <b>kollektive diplomatische und wirtschaftliche Sanktionierung</b> sowie eine verbesserte <b>Notfallplanung für Kritische Infrastrukturen</b> vorgeschlagen. Ziel ist es, die Kosten für das chinesische Vorgehen so weit zu erhöhen, dass eine Verhaltensänderung erzwungen wird.",
+      "register_description": "interface setzt sich für eine strategische Neuausrichtung im Umgang mit staatlich gestützten Cyberkampagnen aus China ein. Da Peking sein Cyber-Ökosystem steuert und das Handeln privater Auftragnehmer für Skalierbarkeit toleriert, trägt der chinesische Staat die volle Verantwortung. interface fordert Bundesregierung und EU auf, über rein technische Abwehr und Einzelreaktionen hinauszugehen. Konkret werden sieben Maßnahmen empfohlen: standardmäßige politische Zurechnung (Default Attribution), Zerschlagung geteilter technischer Infrastrukturen, namentliche Benennung beteiligter Akteure, kollektive diplomatische und wirtschaftliche Sanktionen, Notfallplanung für Kritische Infrastrukturen, Konsolidierung der Beweislage sowie Ausbau der nationalen Cyberresilienz.",
+      "recipients": [
+        "AA",
+        "BMI",
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich mit Cybersicherheit und außenpolitischer Strategie gegenüber China. Diese Themen liegen außerhalb der Zuständigkeit der Unterabteilung IIIA des BMWK, deren Fokus auf Energiepolitik, Strommarktregulierung und Energiewende liegt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001275",
+      "org_name": "Salesforce.com Germany GmbH",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001275/89187",
+      "regulatory_project_title": "EU Cloud and AI Development Act (CADA)",
+      "sending_date": "2026-11-23",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/74/f7/876093/Stellungnahme-Gutachten-SG2611230016.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2611230016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230016",
+      "summary": "Die Salesforce.com Germany GmbH <b>begrüßt</b> das Ziel des Cloud and AI Development Act (CADA), die digitale Souveränität und Resilienz in der EU zu stärken. Das Unternehmen <b>unterstützt</b> das risikobasierte Design des Gesetzes, fordert jedoch eine <b>Präzisierung der Anforderungen</b> für das Union Assurance Level 1 (UAL 1). Insbesondere wird die <b>Entfernung geografischer Lokalisierungspflichten</b> für Metadaten und Telemetriedaten empfohlen, da diese die operative Effizienz beeinträchtigen könnten. Salesforce <b>schlägt vor</b>, den Begriff der Subunternehmer auf solche zu beschränken, die einen wesentlichen Beitrag zur Leistungserbringung leisten. Zudem wird <b>gefordert</b>, die Anforderungen an die physische Infrastruktur-Lokalisierung zu überarbeiten, um die globale operative Realität von Cloud-Diensten zu berücksichtigen. Abschließend wird angeregt, anerkannte internationale Standards wie ISO/IEC 42001 explizit als Nachweis für die Vertrauenswürdigkeit von KI-Governance anzuerkennen.",
+      "register_description": "Salesforce unterstützt das Ziel der EU, die digitale Souveränität und Resilienz durch das Gesetz zur Cloud- und KI-Entwicklung zu stärken, und setzt sich gleichzeitig für einen Rahmen ein, der technisch fundiert und risikobasiert ist. Wir sind der Ansicht, dass Souveränität am besten durch überprüfbare operative Kontrollen erreicht wird, darunter vom Kunden verwaltete Verschlüsselung, Optionen zur Datenlokalisierung und eine robuste Zugriffssteuerung. Salesforce beteiligt sich aktiv am Gesetzgebungsprozess, um sicherzustellen, dass das Rahmenwerk für das „Union Assurance Level“ die verschiedenen Cloud-Dienstmodelle widerspiegelt, einen vorhersehbaren und objektiven Zertifizierungspfad für Anbieter außerhalb der EU bietet und eine Fragmentierung des Binnenmarkts verhindert.",
+      "recipients": [
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit digitaler Souveränität, Cloud-Computing und KI-Regulierung. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK, deren Fokus auf Energiepolitik, Strommarktregulierung und Klimaschutz liegt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001494",
+      "org_name": "VOTUM Verband Unabhängiger Finanzdienstleistungsunternehmen in Europa e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001494/89183",
+      "regulatory_project_title": "Reform der privaten Altersvorsorge",
+      "sending_date": "2026-11-20",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/aa/65/876086/Stellungnahme-Gutachten-SG2611230015.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611230015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230015",
+      "summary": "Der VOTUM Verband <b>begrüßt den Referentenentwurf</b> zur Verordnung über Kosten und Informationspflichten nach dem Altersvorsorgeverträge-Zertifizierungsgesetz. Er unterstützt, dass der Entwurf keine Vorgaben zur <b>Verwendung von Verwaltungskosten</b> enthält, da dies eine unternehmerische Entscheidung der Anbieter sei. Der Verband plädiert für eine <b>klare Abgrenzung der Produktkategorien</b> in garantiefreie und garantierte Produkte. Zudem fordert er die <b>Streichung der Kategorie</b> für Standarddepots mit öffentlicher Trägerschaft, um irreführende Eindrücke bezüglich der Risiken zu vermeiden. Abschließend regt der Verband eine <b>angemessene Übergangsregelung</b> an, um die notwendige Systemumstellung für Anbieter und Vertrieb zu ermöglichen.",
+      "register_description": "Der VOTUM-Verband setzt sich für eine Reform der Riester-Rente und des Altersvermögensgesetz ein. Dies soll durch eine schnelle Umsetzung der Ergebnisse des Abschlussberichts der Fokusgruppe private Altersvorsorge erreicht werden. ",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit der Reform der privaten Altersvorsorge (Altersvorsorgeverträge-Zertifizierungsgesetz/AltvKInfV) und weist keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik) auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002093",
+      "org_name": "VKE-Kosmetikverband",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002093/89173",
+      "regulatory_project_title": "Revision der UTP-Richtlinie: Kosmetik- und Körperpflegeindustrie angemessen berücksichtigen",
+      "sending_date": "2026-11-23",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/08/38/876034/Stellungnahme-Gutachten-SG2611230011.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611230011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230011",
+      "summary": "Der VKE-Kosmetikverband <b>fordert die Ausweitung</b> der UTP-Richtlinie auf die Kosmetik- und Körperpflegeindustrie. Die Organisation argumentiert, dass in dieser Branche <b>vergleichbare Macht- und Abhängigkeitsverhältnisse</b> wie in der Lebensmittelwirtschaft bestehen. Insbesondere die <b>zunehmende Einkaufsmacht</b> europäischer Einkaufsallianzen soll durch die Richtlinie adressiert werden. Der Verband warnt vor <b>regulatorischen Umgehungsstrategien</b> innerhalb des Binnenmarktes. Zudem wird eine <b>grenzüberschreitende Durchsetzung</b> der Regelungen verlangt, um unlautere Handelspraktiken wirksam zu unterbinden. Die Schutzbedürftigkeit von Unternehmen soll dabei stärker an tatsächlichen Abhängigkeiten statt an Umsatzschwellen bemessen werden.",
+      "register_description": "Im Rahmen der Revision der UTP-Richtlinie wird eine Prüfung und Erweiterung ihres Anwendungsbereichs auf weitere Konsumgüterbranchen, insbesondere die Kosmetik- und Körperpflegeindustrie, angestrebt. Dabei sollen tatsächliche Macht- und Abhängigkeitsverhältnisse in Lieferketten, die Bedeutung europäischer Einkaufsallianzen sowie die grenzüberschreitende Durchsetzung der Regelungen berücksichtigt werden. Ziel ist ferner, mögliche regulatorische Umgehungsmöglichkeiten innerhalb des europäischen Binnenmarktes zu begrenzen.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument betrifft das Wettbewerbsrecht im Konsumgütersektor und die UTP-Richtlinie (Unfair Trading Practices), welche nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) des BMWK fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R002309",
@@ -402,6 +977,33 @@
       "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und die Ausgestaltung des EU-Emissionshandelssystems (ETS 1), was direkt unter die Themenfelder der Unterabteilung IIIA (EU-Klimapolitik/Fit for 55) fällt.",
       "summary_quelle": "pdf_text",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R001783",
+      "org_name": "ALDI SÜD Dienstleistungs-SE & Co. oHG ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001783/88846",
+      "regulatory_project_title": "Anpassen der Ausgestaltung von Redispatch, Priorisierungsvorgaben und Transparenzpflichten im Netzanschlusspaket",
+      "sending_date": "2026-09-09",
+      "upload_date": "2026-11-20",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0f/ed/876501/Stellungnahme-Gutachten-SG2611200001.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611200001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611200001",
+      "summary": "Die ALDI SÜD Dienstleistungs-SE & Co. oHG <b>schlägt Änderungen</b> am Netzanschlusspaket vor, um die <b>Netzanschlussverfahren</b> durch verbindliche Fristen und digitale Prozesse zu beschleunigen. Das Unternehmen fordert, dass Kriterien zur <b>Priorisierung</b> von Netzanschlüssen für Übertragungs- und Verteilnetzbetreiber verpflichtend ausgestaltet werden. Zudem soll die <b>Transparenzpflicht</b> sowie die Reservierung von Netzanschlusskapazitäten ab 2030 auf die Niederspannung ausgeweitet werden. Im Bereich des <b>Redispatch</b> wird eine Anpassung der Wirkleistungseinspeisung am Netzverknüpfungspunkt gefordert. Ziel dieser Maßnahmen ist die Reduzierung von Rechts- und Investitionsunsicherheiten für Erzeugungs- und Verbraucheranlagen.",
+      "register_description": "Die Neugestaltung von Redispatch, sodass Abregelung am Netzverknüpfungspunkt und nicht an der Anlage stattfindet.\r\nDie Umformulierung vorgegebener Priorisierungsparameter für die Netzanschlussvergabe, sodass für ÜNB und VNB hier eine Muss- statt einer Kann-Regelung gilt und die Kriterien Nr. 2 und Nr. 7 im Gesetzentwurf verpflichtend werden.\r\nDie Erweiterung der Transparenzpflichten und der Vereinheitlichung des Reservierungsmechanismus auf die Niederspannung ab 01.01.2030.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Aspekte der Stromnetzregulierung, insbesondere Netzanschlussverfahren, Priorisierungskriterien und Redispatch-Regelungen, welche direkt in den Aufgabenbereich der Unterabteilung IIIA fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R008295",
@@ -1214,6 +1816,62 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R008294",
+      "org_name": "Bundesfachverband Betonkanalsysteme e.V. - FBS",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008294/88018",
+      "regulatory_project_title": "Einheitliche Klimaanforderungen in der öffentlichen Beschaffung",
+      "sending_date": "2026-10-19",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/42/03/875872/Stellungnahme-Gutachten-SG2611170003.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2611170003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170003",
+      "summary": "Der Bundesfachverband Betonkanalsysteme e.V. <b>fordert</b> eine bundesweit einheitliche, <b>produktbezogene Treibhausgasbilanzierung</b> für öffentliche Ausschreibungen. Er kritisiert, dass aktuelle Nachhaltigkeitsvergleiche durch unvollständige <b>Lebenszyklusbetrachtungen</b> (Cradle-to-Gate) zulasten langlebiger Werkstoffe ausfallen. Der Verband verlangt daher die verpflichtende Anwendung von <b>Cradle-to-Grave-Analysen</b>, die Rückbau und Recycling vollständig einbeziehen. Zudem warnt er vor dem sogenannten <b>Leitmärkte-Paradoxon</b>, bei dem die Fokussierung auf Grundstoffkategorien die tatsächliche Klimabilanz eines Endprodukts verzerrt. Stattdessen sollten <b>ganzheitliche CO2-Bilanzen</b> als Bewertungsmaßstab dienen. Abschließend empfiehlt der Verband, <b>regionale Wertschöpfungsketten</b> und die <b>Langlebigkeit</b> von Infrastrukturprodukten stärker in Vergabekriterien zu gewichten.",
+      "register_description": "Der FBS setzt sich bei der Ausgestaltung einer Verordnung nach § 113 GWB für eine bundesweit einheitliche, produktbezogene Treibhausgasbilanzierung bei öffentlichen Ausschreibungen ein. Diese soll vollständige Lebenszyklusbetrachtungen des fertigen Produkts einschließlich Rückbau und Recycling berücksichtigen und verifizierte EPDs einbeziehen. Grundstoffbezogene Emissionskategorien sollen nicht alleiniger Bewertungsmaßstab für Bau- und Kanalbauprodukte sein. \r\nDamit sollen zugleich die Ziele der Nationalen Kreislaufwirtschaftsstrategie unterstützt werden, Ressourcen zu schonen, Stoffkreisläufe zu schließen und den Wert von Produkten und Rohstoffen möglichst lange zu erhalten.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die methodische Ausgestaltung der Treibhausgasbilanzierung bei öffentlichen Ausschreibungen im Kontext der Nationalen Kreislaufwirtschaftsstrategie, was direkt die klimapolitischen Rahmenbedingungen für Infrastrukturprojekte betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R008294",
+      "org_name": "Bundesfachverband Betonkanalsysteme e.V. - FBS",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008294/88018",
+      "regulatory_project_title": "Vergleichbare belastbare Lebenszykluskriterien für Bauprodukte",
+      "sending_date": "2026-10-19",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/c7/875878/Stellungnahme-Gutachten-SG2611170007.pdf",
+      "pdf_pages": 19,
+      "sg_number": "SG2611170007",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170007",
+      "summary": "Der FBS setzt sich dafür ein, dass Anforderungen an die Klimafreundlichkeit von Bauprodukten im Rahmen des Industrial Accelerator Act anhand vollständiger Lebenszyklusbetrachtungen der fertigen Produkte ausgestaltet werden. Dabei sollen auch Rückbau und Recycling berücksichtigt werden. Grundstoffbezogene Emissionskategorien sollen nicht isoliert als Bewertungsmaßstab für Endprodukte verwendet werden. Kein geltendes Recht auf Bundesebene betroffen. Ziel ist der EU-Verordnungsvorschlag COM(2026)100.",
+      "register_description": "Der FBS setzt sich dafür ein, dass Anforderungen an die Klimafreundlichkeit von Bauprodukten im Rahmen des Industrial Accelerator Act anhand vollständiger Lebenszyklusbetrachtungen der fertigen Produkte ausgestaltet werden. Dabei sollen auch Rückbau und Recycling berücksichtigt werden. Grundstoffbezogene Emissionskategorien sollen nicht isoliert als Bewertungsmaßstab für Endprodukte verwendet werden. Kein geltendes Recht auf Bundesebene betroffen. Ziel ist der EU-Verordnungsvorschlag COM(2026)100.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_status": "pending"
+    },
+    {
       "register_number": "R000981",
       "org_name": "MAHLE International GmbH",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R000981/88969",
@@ -1501,6 +2159,33 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R008294",
+      "org_name": "Bundesfachverband Betonkanalsysteme e.V. - FBS",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R008294/88018",
+      "regulatory_project_title": "Klimaresiliente Entwässerung innerhalb der Bauleitplanung verbindlich berücksichtigen",
+      "sending_date": "2026-10-19",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0f/f2/875874/Stellungnahme-Gutachten-SG2611170004.pdf",
+      "pdf_pages": 20,
+      "sg_number": "SG2611170004",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170004",
+      "summary": "Der Bundesfachverband Betonkanalsysteme e.V. <b>schlägt vor</b>, die <b>klimaresiliente Entwässerung</b> und Regenwasserbewirtschaftung verbindlich in der <b>Bauleitplanung</b> zu verankern. Der Verband argumentiert, dass eine frühzeitige Berücksichtigung von Rückhaltekonzepten und langlebigen Werkstoffen die <b>Widerstandsfähigkeit der Infrastruktur</b> gegenüber Extremwetterereignissen stärkt. Zudem wird eine <b>standardisierte CO2-Bilanzierung</b> über den gesamten Lebenszyklus von Bauprodukten in öffentlichen Ausschreibungen gefordert. Der Verband kritisiert die Fokussierung auf reine Grundstoffkategorien und plädiert für eine ganzheitliche Betrachtung der <b>Gesamtbilanz von Endprodukten</b>. Abschließend wird die Förderung regionaler Recyclingkreisläufe zur Schonung von Primärrohstoffen als essenziell für eine nachhaltige Wasserwirtschaft hervorgehoben.",
+      "register_description": "Der FBS setzt sich im Gesetzgebungsverfahren dafür ein, klimaresiliente Entwässerung und Regenwasserbewirtschaftung in der Bauleitplanung verbindlich zu berücksichtigen. Rückhalte- und Versickerungskonzepte sowie robuste, langlebige Entwässerungssysteme sollen frühzeitig in die Erschließungs- und Bebauungsplanung einbezogen werden. Ziel ist, die Widerstandsfähigkeit der Wasserinfrastruktur zu stärken und Folgen von Starkregen und Trockenperioden sowie spätere Sanierungsbedarfe zu mindern.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit bautechnischen Anforderungen an Kanalinfrastruktur und Regenwasserbewirtschaftung im Rahmen des BauGB. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Klimaschutz im Energiesektor).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R000134",
       "org_name": "ENGIE Deutschland AG",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R000134/87635",
@@ -1593,6 +2278,33 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit sozial- und familienpolitischen Fragestellungen zur Absicherung von Selbstständigen während der Schwangerschaft und Mutterschaft. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Versorgungssicherheit, Klimaschutz im Energiesektor).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/89225",
+      "regulatory_project_title": "Bürokratieabbau im Öffentlichen Personen- und Schienengüterverkehr",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-16",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d3/03/873465/Stellungnahme-Gutachten-SG2611160014.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611160014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611160014",
+      "summary": "Der Verband Deutscher Verkehrsunternehmen <b>schlägt Änderungen</b> am Allgemeinen Eisenbahngesetz (AEG) vor, um den <b>Bürokratieabbau</b> im Schienenverkehr zu forcieren. Konkret wird die <b>Erweiterung des Gleismittenabstands</b> ohne Planfeststellungspflicht angeregt, um Bestandsinfrastrukturen effizienter an aktuelle technische Regeln anzupassen. Zudem fordert der Verband eine vereinfachte <b>Wiederherstellung der Mehrgleisigkeit</b> auf bereits genehmigten Strecken. Des Weiteren wird eine <b>Reaktivierung stillgelegter Eisenbahnstrecken</b> durch eine klarstellende Bestandsschutzregelung befürwortet. Diese Maßnahmen sollen die Kapazität und Resilienz des Eisenbahnnetzes erhöhen. Die Vorschläge beziehen sich auf den Gesetzentwurf in BT-Drs. 21/8404.",
+      "register_description": "Die Initiative zielt darauf ab, im Öffentlichen Personen- und Schienengüterverkehr Bürokratie abzubauen bzw. Verwaltungslasten und die hiermit verbundene Regelungsdichte insgesamt zu verringern. In der Folge kann die Branche damit entlastet und vor allem Bauprojekte im Schienennetz beschleunigt realisiert werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit verkehrsrechtlichen Anpassungen im Allgemeinen Eisenbahngesetz (AEG) zur Beschleunigung von Bauprojekten im Schienennetz. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Erneuerbare Energien).",
       "summary_quelle": "pdf_text",
       "gemini_status": "filtered"
     },
@@ -31864,6 +32576,49 @@
       "register_description": "Teilnahme an Konsultationen des BMWEs zum MsbG (z.B. AG DigiEW, Konsultation nach §48 MsbG).\r\nGespräche mit Ministerien und Abgeordneten zu den unterschieden zwischen Submetering und Messung von Hauptzählern.",
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung des Messstellenbetriebsgesetzes, welches für die Digitalisierung der Energiewende und den Smart-Meter-Rollout zentral ist.",
       "summary_quelle": "pdf_text"
+    },
+    {
+      "register_number": "R002326",
+      "org_name": "BASF SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002326/85671",
+      "regulatory_project_title": "Einhaltung des vereinbarten Zeitplans für die europäische Batterieindustrie bei den TCA-Ursprungsregeln",
+      "sending_date": "2026-08-24",
+      "upload_date": "2026-09-09",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e7/3b/876015/Stellungnahme-Gutachten-SG2609090024.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2609090024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2609090024",
+      "summary": "Die <b>BASF SE unterstützt</b> die Einhaltung des vereinbarten Zeitplans für die <b>Ursprungsregeln (PSR)</b> im EU-UK-Handelsabkommen ab 2027, um Investitionssicherheit für die europäische Batteriewertschöpfungskette zu gewährleisten. Das Unternehmen warnt davor, die <b>Implementierung der PSR zu verzögern</b>, da dies den Ausbau lokaler Produktionskapazitäten für Kathodenmaterialien (CAM) gefährden würde. BASF empfiehlt, eine <b>begrenzte Nutzung nicht-ursprünglicher Materialien</b> zuzulassen, um die wirtschaftliche Tragfähigkeit der Produktion zu sichern. Zudem wird die Definition von CAM als chemische Materialien und Derivate begrüßt, da sie Flexibilität bei der Herstellung ermöglicht. Die <b>Reduzierung von Abhängigkeiten</b> von Drittstaaten durch lokale Fertigungsanforderungen wird als strategisch notwendig erachtet. Eine Verschiebung der Regeln würde laut BASF die Auslastung bestehender Anlagen und den weiteren Aufbau der europäischen Batterieindustrie untergraben.",
+      "register_description": "BASF setzt sich dafür ein, die bereits für 2027 vereinbarten TCA-Ursprungsregeln für Batterien beizubehalten, da Investitionen und Lieferketten entlang der europäischen Batteriewertschöpfungskette auf diesen Zeitplan ausgerichtet wurden. Nach Ansicht von BASF sind ausreichend europäische CAM-Kapazitäten vorhanden; eine erneute Verschiebung würde vor allem die Auslastung bestehender Anlagen, die Investitionssicherheit und den weiteren Ausbau der europäischen Batterieindustrie gefährden.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_EU_DOMESTIC_MARKET",
+          "label": "EU-Binnenmarkt"
+        },
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die EU-Energiepolitik und die Wettbewerbsfähigkeit der europäischen Batteriewertschöpfungskette, was unter die Themenfelder der Unterabteilung IIIA (EU-Energiepolitik, EU-Binnenmarkt) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R000199",
@@ -113937,6 +114692,6 @@
       "abweichung_thema": "Gesetzliche Regelung der Berufsbezeichnungen Gutachter und…"
     }
   ],
-  "gemini_filtered_out": 1315,
+  "gemini_filtered_out": 1330,
   "gemini_legacy_open": 0
 }
