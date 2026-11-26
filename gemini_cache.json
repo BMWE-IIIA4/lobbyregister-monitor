@@ -42816,5 +42816,44 @@
     "abweichung": false,
     "abweichung_hinweis": "",
     "geprueft_am": "2026-11-25"
+  },
+  "SG2611260005": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument adressiert direkt die Novellierung des WindSeeG, insbesondere das Ausschreibungsdesign, die Sicherheiten und die Stärkung der Akteursvielfalt, was zentrale Themen der Unterabteilung IIIA sind.",
+    "zusammenfassung": "Der Bundesverband Windenergie Offshore <b>schlägt vor</b>, das Ausschreibungsdesign im Rahmen der WindSeeG-Novelle auf ein <b>einstufiges CfD-Only-Modell</b> umzustellen, um Wettbewerb und Realisierungssicherheit zu erhöhen. Zur Stärkung der <b>Akteursvielfalt</b> fordert der Verband eine <b>Zuschlagsbegrenzung</b> von maximal einer Fläche pro Bieter und Jahr. Zudem wird eine <b>Begrenzung der Sicherheitsleistungen</b> auf 100 Mio. €/GW empfohlen, um die Finanzierungskosten zu senken und kleinere Akteure nicht zu benachteiligen. Der Verband warnt vor einer zunehmenden <b>Marktkonzentration</b> und Klumpenrisiken durch die Vergabe mehrerer Flächen an einzelne Unternehmen. Zur Vermeidung von Umgehungen bei der Zuschlagsbegrenzung werden klare Kriterien für verbundene Unternehmen und eine <b>simultane Auktionsdurchführung</b> vorgeschlagen.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Novellierung des Windenergie-auf-See-Gesetzes (WindSeeG)",
+    "bezug": "kern",
+    "hauptgesetz": "WindSeeG",
+    "thema_kurz": "Ausschreibungsdesign und Akteursvielfalt",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-26"
+  },
+  "SG2611260002": {
+    "relevant": true,
+    "relevanz_grund": "Das Dokument betrifft die Ausgestaltung der Stromsteuerweitergabe und damit die Strommarktregulierung sowie die Umsetzung gesetzlicher Vorgaben im Energiebereich, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+    "zusammenfassung": "Der BDEW und der VKU <b>schlagen vor</b>, die <b>Weitergabe von Stromsteueränderungen</b> analog zu Umsatzsteueranpassungen unbürokratisch über das EnWG zu regeln. Die Verbände fordern, dass sowohl Senkungen als auch spätere Erhöhungen ohne formelle Preisänderungsschreiben weitergegeben werden können. Zudem <b>lehnen</b> sie einen <b>verpflichtenden gesonderten Ausweis</b> eines individuell berechneten Entlastungsbetrags auf Rechnungen ab, da dies einen unverhältnismäßigen IT-Aufwand verursache. Bei <b>Festpreisverträgen</b> soll eine gesetzliche Preissenkungspflicht ausgeschlossen werden, sofern die Stromsteuer nicht explizit in der Preiskalkulation enthalten ist. Die Verbände kritisieren die kurzfristige Gesetzgebung und mahnen eine frühzeitige Planungssicherheit für das Jahr 2028 an. Abschließend wird eine <b>Anpassung des EnWG</b> zur rechtssicheren Umsetzung der temporären Steueränderungen gefordert.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Weitergabe der Stromsteuersenkung in Energielieferverträgen",
+    "bezug": "kern",
+    "hauptgesetz": "EnWG",
+    "thema_kurz": "Stromsteuerweitergabe EnWG",
+    "abweichung": false,
+    "abweichung_hinweis": "",
+    "geprueft_am": "2026-11-26"
+  },
+  "SG2611250017": {
+    "relevant": false,
+    "relevanz_grund": "Das Dokument befasst sich mit tiergesundheitsrechtlichen Vorschriften und dem Bürokratieabbau im Geschäftsbereich des BMLEH, was keine Berührungspunkte zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik) aufweist.",
+    "zusammenfassung": "Der Bundesverband für Tiergesundheit e.V. <b>begrüßt</b> die Ziele des Verordnungsentwurfs zum Bürokratierückbau, <b>kritisiert</b> jedoch das Ausbleiben konkreter Entlastungen für die Tiergesundheitsbranche. Der Verband <b>fordert</b> die konsequente Einführung <b>digitaler Packungsbeilagen</b> sowie die <b>Abschaffung doppelter Meldepflichten</b> für Antibiotika-Verkaufsmengen. Zudem wird die Streichung von Anzeigepflichten für Lebendimpfstoffe sowie die Ermöglichung nicht-deutschsprachiger Kennzeichnungen zur Vermeidung von Lieferengpässen angeregt. Ergänzend wird eine Ermächtigung zur kurzfristigen Einführung von Meldepflichten bei neu auftretenden Tierseuchenerregern vorgeschlagen. Die Branche betont, dass verlässliche regulatorische Rahmenbedingungen für die Innovations- und Wettbewerbsfähigkeit essenziell sind.",
+    "quelle": "pdf_text",
+    "hauptgegenstand": "Entwurf einer Verordnung zum Bürokratierückbau im Geschäftsbereich des BMLEH",
+    "bezug": "anderes_thema",
+    "hauptgesetz": "",
+    "thema_kurz": "Bürokratieabbau Tierarzneimittelrecht",
+    "abweichung": true,
+    "abweichung_hinweis": "Das Dokument behandelt ausschließlich bürokratische Erleichterungen im Bereich der Tierarzneimittel und Tiergesundheit unter Federführung des BMLEH.",
+    "geprueft_am": "2026-11-26"
   }
 }

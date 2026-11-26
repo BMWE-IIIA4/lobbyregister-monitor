@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-11-25T10:43:40.651672+01:00",
-  "newly_added": 20,
+  "generated_at": "2026-11-26T10:19:50.696381+01:00",
+  "newly_added": 3,
   "statements": [
+    {
+      "register_number": "R000252",
+      "org_name": "BWO - Bundesverband Windenergie Offshore",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000252/89323",
+      "regulatory_project_title": "Novellierung des WindSeeG",
+      "sending_date": "2026-11-23",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/47/6a/877309/Stellungnahme-Gutachten-SG2611260005.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611260005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260005",
+      "summary": "Der Bundesverband Windenergie Offshore <b>schlägt vor</b>, das Ausschreibungsdesign im Rahmen der WindSeeG-Novelle auf ein <b>einstufiges CfD-Only-Modell</b> umzustellen, um Wettbewerb und Realisierungssicherheit zu erhöhen. Zur Stärkung der <b>Akteursvielfalt</b> fordert der Verband eine <b>Zuschlagsbegrenzung</b> von maximal einer Fläche pro Bieter und Jahr. Zudem wird eine <b>Begrenzung der Sicherheitsleistungen</b> auf 100 Mio. €/GW empfohlen, um die Finanzierungskosten zu senken und kleinere Akteure nicht zu benachteiligen. Der Verband warnt vor einer zunehmenden <b>Marktkonzentration</b> und Klumpenrisiken durch die Vergabe mehrerer Flächen an einzelne Unternehmen. Zur Vermeidung von Umgehungen bei der Zuschlagsbegrenzung werden klare Kriterien für verbundene Unternehmen und eine <b>simultane Auktionsdurchführung</b> vorgeschlagen.",
+      "register_description": "Ziele der Novellierung des WindSeeG sollen die Steigerung der \r\nKosteneffizienz des Offshore-Ausbaus, die verbesserte Synchronisierung von \r\nNetzausbau und Erzeugungskapazität, die weitere Marktintegration des Offshore\r\nStroms sowie Regelungen zu Offshore-Wasserstoff-Erzeugung und -Transport sein. \r\nDie Weiterentwicklung des Regulierungsrahmens soll frühzeitig die Expertise aus der \r\nbetroffenen Wirtschaft, Wissenschaft und Zivilgesellschaft berücksichtigen.\r\nDie Konsultation ist der erste Schritt für die Reform des WindSeeG im Jahr 2026. ",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Novellierung des WindSeeG, insbesondere das Ausschreibungsdesign, die Sicherheiten und die Stärkung der Akteursvielfalt, was zentrale Themen der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/89319",
+      "regulatory_project_title": "Änderungsvorschläge zum Haushaltsbegleitgesetz zur Weitergabe der Stromsteuersenkung",
+      "sending_date": "2026-11-22",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b6/31/877294/Stellungnahme-Gutachten-SG2611260002.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611260002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260002",
+      "summary": "Der BDEW und der VKU <b>schlagen vor</b>, die <b>Weitergabe von Stromsteueränderungen</b> analog zu Umsatzsteueranpassungen unbürokratisch über das EnWG zu regeln. Die Verbände fordern, dass sowohl Senkungen als auch spätere Erhöhungen ohne formelle Preisänderungsschreiben weitergegeben werden können. Zudem <b>lehnen</b> sie einen <b>verpflichtenden gesonderten Ausweis</b> eines individuell berechneten Entlastungsbetrags auf Rechnungen ab, da dies einen unverhältnismäßigen IT-Aufwand verursache. Bei <b>Festpreisverträgen</b> soll eine gesetzliche Preissenkungspflicht ausgeschlossen werden, sofern die Stromsteuer nicht explizit in der Preiskalkulation enthalten ist. Die Verbände kritisieren die kurzfristige Gesetzgebung und mahnen eine frühzeitige Planungssicherheit für das Jahr 2028 an. Abschließend wird eine <b>Anpassung des EnWG</b> zur rechtssicheren Umsetzung der temporären Steueränderungen gefordert.",
+      "register_description": "Der BDEW fordert im Rahmen des Haushaltsbegleitgesetzes eine praktikable Weitergabe von Stromsteueränderungen in Stromlieferverträgen. Sowohl Stromsteuersenkungen als auch spätere Erhöhungen sollen vereinfacht ohne formelle Preisänderungsmitteilung und Sonderkündigungsrecht weitergegeben werden können. Bei Festpreisverträgen soll eine Preissenkungspflicht ausgeschlossen werden, wenn die Stromsteuer nicht Bestandteil der Preiskalkulation ist. Eine spätere Steuererhöhung soll berücksichtigt werden können. Der BDEW lehnt einen verpflichtenden gesonderten Ausweis eines individuell berechneten Entlastungsbetrags auf jeder Rechnung ab.",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung der Stromsteuerweitergabe und damit die Strommarktregulierung sowie die Umsetzung gesetzlicher Vorgaben im Energiebereich, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
     {
       "register_number": "R001137",
       "org_name": "Vattenfall GmbH",
@@ -30,7 +93,37 @@
       "abweichung": true,
       "abweichung_hinweis": "Das Dokument behandelt die Stromsteuersenkung im Rahmen des Haushaltsbegleitgesetzes, nicht die im Regelungsvorhaben genannten Vertriebsprozesse im EnWG.",
       "abweichung_thema": "Stromsteuersenkung und Weitergabepflicht",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
+    },
+    {
+      "register_number": "R003174",
+      "org_name": "Bundesverband fuer Tiergesundheit e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003174/89315",
+      "regulatory_project_title": "Bürokratierückbau bei Tierarzneimittelvorschriften sicherstellen",
+      "sending_date": "2026-11-06",
+      "upload_date": "2026-11-25",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b1/78/877256/Stellungnahme-Gutachten-SG2611250017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611250017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611250017",
+      "summary": "Der Bundesverband für Tiergesundheit e.V. <b>begrüßt</b> die Ziele des Verordnungsentwurfs zum Bürokratierückbau, <b>kritisiert</b> jedoch das Ausbleiben konkreter Entlastungen für die Tiergesundheitsbranche. Der Verband <b>fordert</b> die konsequente Einführung <b>digitaler Packungsbeilagen</b> sowie die <b>Abschaffung doppelter Meldepflichten</b> für Antibiotika-Verkaufsmengen. Zudem wird die Streichung von Anzeigepflichten für Lebendimpfstoffe sowie die Ermöglichung nicht-deutschsprachiger Kennzeichnungen zur Vermeidung von Lieferengpässen angeregt. Ergänzend wird eine Ermächtigung zur kurzfristigen Einführung von Meldepflichten bei neu auftretenden Tierseuchenerregern vorgeschlagen. Die Branche betont, dass verlässliche regulatorische Rahmenbedingungen für die Innovations- und Wettbewerbsfähigkeit essenziell sind.",
+      "register_description": "Der BfT unterstützt den angesrebten Abbau unnötiger Bürokratie. Die Tiergesundheitsbranche spürt bislang jedoch keine Entlastungen.  Konkrete Vorschläge  wurden bei verschiedenen Rechtssetzungsvorhaben bereits vorgetragen. Dazu zählen digitale Packungsbeilagen zu ermöglichen, doppelte Antibiotika-Verkaufsmengenmeldungen abzuschaffen. Außerdem weitere regulatorische Erleichterungen  wie die Streichung der Anzeigepflicht nach der Tierseuchenerreger-Einfuhrverordnung für das innergemeinschaftliche Verbringen bereits zugelassener Lebendimpfstoffe, die Ermöglichung nicht-deutschsprachiger Kennzeichnungen in begründeten Fällen gemäß Art. 7 der VO (EU) 2019/6, insbesondere zur Vermeidung von Lieferengpässen vorzusehen.",
+      "recipients": [
+        "BMLEH"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit tiergesundheitsrechtlichen Vorschriften und dem Bürokratieabbau im Geschäftsbereich des BMLEH, was keine Berührungspunkte zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik) aufweist.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt ausschließlich bürokratische Erleichterungen im Bereich der Tierarzneimittel und Tiergesundheit unter Federführung des BMLEH.",
+      "abweichung_thema": "Bürokratieabbau Tierarzneimittelrecht",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R000594",
@@ -84,7 +177,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument behandelt die Auswirkungen der geplanten PFAS-Beschränkung unter REACH auf die Kälte-, Klima- und Wärmepumpenbranche, was direkt die EU-Energiepolitik und die Dekarbonisierung (Wärmewende) betrifft.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000401",
@@ -111,7 +204,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument befasst sich mit der EU-Chemikalienverordnung REACH und der geplanten PFAS-Beschränkung, welche direkte Auswirkungen auf die Kälte- und Klimatechnik sowie die Energieeffizienz von Anlagen hat.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001795",
@@ -151,7 +244,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument adressiert die energetische Infrastruktur als strategische Voraussetzung für KI-Anwendungen und fordert eine Verzahnung von KI-Infrastruktur und Energieversorgung, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004618",
@@ -180,7 +273,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument befasst sich mit der industriepolitischen Ausgestaltung der staatlichen Kaufförderung für Elektrofahrzeuge, was direkt in den Bereich der Energie- und Industriepolitik des BMWE fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004618",
@@ -210,7 +303,7 @@
       "priority": 2,
       "gemini_relevanz": "Das Dokument analysiert die Verteilung von THG-Emissionen und Investitionsbedarfen im Verkehrssektor, was direkt mit den Themenfeldern Klimaschutz und Sektorkopplung der Unterabteilung IIIA korrespondiert.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004618",
@@ -247,7 +340,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere Strommarktregulierung, Energiepreise, Netzentgelte und EEG-Finanzierung.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004618",
@@ -280,7 +373,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Finanzierungslücke bei Energienetzen (Strom/Wärme) und schlägt eine institutionelle Reform der öffentlichen Versorgungsrücklagen zur Kapitalbereitstellung vor, was in den Bereich der Energiewende-Finanzierung und Infrastruktur fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000083",
@@ -2338,7 +2431,7 @@
         }
       ],
       "priority": 2,
-      "gemini_status": "processed",
+      "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument adressiert die methodische Ausgestaltung von Nachhaltigkeitskriterien für Bauprodukte im Kontext des Industrial Accelerator Act und der Leitmärkte-Konzepte, was direkt die Themenfelder Klimaschutz und EU-Gesetzgebung der Unterabteilung IIIA berührt.",
       "summary_quelle": "pdf_text"
     },
@@ -4992,7 +5085,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument behandelt die regulatorische Ausgestaltung von Wärmenetzen, Preisbildung und Verbraucherschutz, was direkt in den Bereich der Wärmewende und Energiepolitik fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R003883",
@@ -8461,7 +8554,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument nimmt Stellung zu einem EU-Verordnungsvorschlag, der zentrale Aspekte der Strommarktregulierung, Netzentgelte und Digitalisierung (Smart-Meter) betrifft, welche direkt in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001211",
@@ -8488,7 +8581,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Digitalisierung der Energiewende, dem Rollout intelligenter Messsysteme und der regulatorischen Ausgestaltung von Smart-Meter-Light-Systemen, was direkt in den Bereich der Strommarktregulierung und Energiewende fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001211",
@@ -8515,7 +8608,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich mit der Strombinnenmarktverordnung, Netzentgelten, Digitalisierung (Smart-Meter) und Strompreisen, welche zentrale Themen der Unterabteilung IIIA (Strommarktregulierung, Energiepreise) sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000479",
@@ -13220,7 +13313,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung des Redispatch-Vorbehalts und der Kostenverantwortung von Verteilnetzbetreibern im Rahmen des geplanten Netzpakets, was zentrale Themen der Unterabteilung IIIA (Stromnetz/Regulierung) sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R004618",
@@ -13255,7 +13348,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Ausgestaltung des Redispatch-Vorbehalts im Netzanschlusspaket, welches ein zentrales Instrument der Strommarktregulierung und Versorgungssicherheit darstellt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R002707",
@@ -73824,7 +73917,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit dem Gebäudeenergiegesetz und der Wärmewende, welche gemäß der Themenliste der Unterabteilung IIIA explizit als nicht relevant eingestuft sind.",
       "gemini_status": "filtered",
-      "register_description": "Im Rahmen der Novellierung des Gebäudeenergiegesetzes setzen wir uns ein für: \r\n\r\n- Vereinfachte Förderstrukturen, die verständlich und planbar sind\r\n\r\n- Langfristige Perspektiven für Investitionen im Handwerk und in der Industrie\r\n\r\n- Sozial ausgewogene Förderung, die auch einkommensschwache Haushalte einbezieht\r\n\r\nUnsere Positionen zielen auf eine effiziente Nutzung öffentlicher Mittel, Planungssicherheit für Marktteilnehmer und hohe Akzeptanz bei Eigentümern und Mietern.",
+      "register_description": "Gegenstand der Interessenvertretung ist die Ausgestaltung und Umsetzung des Gebäudemodernisierungsgesetzes, das das Gebäudeenergiegesetz ablöst. thermondo setzt sich für verlässliche Rahmenbedingungen beim Heizungstausch ein: eine planbare und verständliche Förderung, langfristige Investitionsperspektiven für Handwerk und Industrie sowie eine sozial ausgewogene Ausgestaltung, die Eigentümer und Mieter gleichermaßen berücksichtigt.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -89531,7 +89624,7 @@
       "priority": 1,
       "gemini_status": "filtered",
       "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit dem Gebäudeenergiegesetz bzw. einem geplanten Gebäudemodernisierungsgesetz und der Wärmewende im Gebäudesektor. Diese Themen sind gemäß der Vorgabe explizit als 'nicht relevant' für die Unterabteilung IIIA eingestuft.",
-      "register_description": "Im Rahmen der Novellierung des Gebäudeenergiegesetzes setzen wir uns ein für: \r\n\r\n- Vereinfachte Förderstrukturen, die verständlich und planbar sind\r\n\r\n- Langfristige Perspektiven für Investitionen im Handwerk und in der Industrie\r\n\r\n- Sozial ausgewogene Förderung, die auch einkommensschwache Haushalte einbezieht\r\n\r\nUnsere Positionen zielen auf eine effiziente Nutzung öffentlicher Mittel, Planungssicherheit für Marktteilnehmer und hohe Akzeptanz bei Eigentümern und Mietern.",
+      "register_description": "Gegenstand der Interessenvertretung ist die Ausgestaltung und Umsetzung des Gebäudemodernisierungsgesetzes, das das Gebäudeenergiegesetz ablöst. thermondo setzt sich für verlässliche Rahmenbedingungen beim Heizungstausch ein: eine planbare und verständliche Förderung, langfristige Investitionsperspektiven für Handwerk und Industrie sowie eine sozial ausgewogene Ausgestaltung, die Eigentümer und Mieter gleichermaßen berücksichtigt.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -115341,6 +115434,6 @@
       "abweichung_thema": "Gesetzliche Regelung der Berufsbezeichnungen Gutachter und…"
     }
   ],
-  "gemini_filtered_out": 1336,
+  "gemini_filtered_out": 1337,
   "gemini_legacy_open": 0
 }
