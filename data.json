@@ -36,7 +36,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert direkt die Novellierung des WindSeeG, insbesondere das Ausschreibungsdesign, die Sicherheiten und die Stärkung der Akteursvielfalt, was zentrale Themen der Unterabteilung IIIA sind.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R000888",
@@ -63,7 +63,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung der Stromsteuerweitergabe und damit die Strommarktregulierung sowie die Umsetzung gesetzlicher Vorgaben im Energiebereich, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
-      "gemini_status": "processed"
+      "gemini_status": "cached"
     },
     {
       "register_number": "R001137",
