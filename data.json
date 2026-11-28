@@ -1,7 +1,417 @@
 {
-  "generated_at": "2026-11-26T10:19:50.696381+01:00",
-  "newly_added": 3,
+  "generated_at": "2026-11-28T09:47:56.714702+01:00",
+  "newly_added": 53,
   "statements": [
+    {
+      "register_number": "R002309",
+      "org_name": "E.ON SE",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/89400",
+      "regulatory_project_title": "Klarheit für die Transformation der Gasverteilernetze",
+      "sending_date": "2026-11-18",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7a/32/878060/Stellungnahme-Gutachten-SG2611270030.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611270030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270030",
+      "summary": "Die E.ON SE <b>unterstützt die regionale Steuerung</b> neuer Biomethananschlüsse durch positiv definierte Vorranggebiete. Das Unternehmen fordert, dass die Ausweisung dieser Gebiete primär auf der <b>netztechnischen und wirtschaftlichen Eignung</b> des Einspeiseortes basiert und nicht auf dem regionalen Biomassepotenzial. Die Entscheidungshoheit über die Ausweisung soll dabei in der <b>eigenverantwortlichen Zuständigkeit der Verteilnetzbetreiber</b> liegen. Eine zusätzliche Kategorie von Nachranggebieten lehnt E.ON als administrativ zu aufwendig ab. Zur <b>Senkung der Netzanschlusskosten</b> schlägt das Unternehmen vor, starre Verfügbarkeitsanforderungen durch flexiblere Bedingungen zu ersetzen und Clusterlösungen zu forcieren. Zudem betont E.ON, dass ein Bestandsschutz für Anschlüsse an eine wirtschaftlich tragfähige Infrastruktur und eine verbindliche Mindestnutzung geknüpft werden sollte.",
+      "register_description": "Bei der Umsetzung der GasRL im EnWG setzt sich E.ON für Rechtssicherheit bei der Transformation der Gasverteilernetze ein. Überlange Informations- und Kündigungsfristen sind nicht zielführend; Informationen sind zentral online bereitzustellen. Die Duldungspflicht für dauerhaft ungenutzte Gasleitungen ist zu begrüßen und rechtssicher auszugestalten. Die Bewertung von Biogas-Anschlussbegehren nach volkswirtschaftlicher Effizienz ist ein wichtiger Schritt. Werden Biomethan-Vorranggebiete eingeführt, sollte der Netzbetreiber sie nach Netzeignung statt Biomassepotenzial ausweisen. Die Privilegierung bei Netzanschlusskosten ist zu beenden. Verbleibende Mehrkosten der Biomethaneinspeisung sind solidarisch auf alle Netzbetreiber zu verteilen – über 2028 hinaus.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_FOSSILE",
+          "label": "Fossile Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Transformation der Gasverteilernetze und die Integration von Biomethan, was direkt mit der Gasnetztransformation und den regulatorischen Rahmenbedingungen für Gasverteilernetze im EnWG korrespondiert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002833",
+      "org_name": "BVES Bundesverband Energiespeicher Systeme e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002833/89397",
+      "regulatory_project_title": "Positionspapier zum Verteilnetzpaket",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/0c/b9/878015/Stellungnahme-Gutachten-SG2611270028.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611270028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270028",
+      "summary": "Der BVES <b>empfiehlt</b> im Rahmen des Verteilnetzpakets eine konsequente <b>Digitalisierung des Verteilnetzbetriebs</b> sowie eine <b>Beschleunigung der Netzanschlussverfahren</b>. Zur effizienteren Netzauslastung fordert der Verband verbindliche Leitlinien für <b>flexible Netzanschlussvereinbarungen</b> (FCA) und ein Stundenkontingent für Einschränkungen. Zudem sollen <b>Behind-the-Meter-Speicher</b> durch vereinfachte Anmeldeverfahren in Industrie und Gewerbe gefördert werden. Der BVES plädiert für einen Anspruch auf <b>zusätzliche Entnahmeleistung bei Co-Location-Speichern</b> an bestehenden Netzverknüpfungspunkten. Insgesamt soll der Fokus von der Verwaltung knapper Kapazitäten hin zu einer <b>flexibilitätsbasierten Netznutzung</b> verschoben werden.",
+      "register_description": "Im Rahmen des im Koalitionsausschuss angekündigten Verteilnetzpakets setzt sich der BVES für eine Digitalisierung des Verteilnetzbetriebs und des Netzanschlussverfahren ein. Konkret werden Fristen für den Netzanschluss, Leitlinien für FCA, eine Beschleunigung des Einsatz von Speichern in Industrie und Gewerbe als auch Co-Location gefordert",
+      "recipients": [
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Digitalisierung des Verteilnetzbetriebs und die Integration von Energiespeichern, was zentrale Aspekte der Stromnetzregulierung und der Energiewende darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002833",
+      "org_name": "BVES Bundesverband Energiespeicher Systeme e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002833/89397",
+      "regulatory_project_title": "Endspurt 2030 2. Auflage",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/51/04/878013/Stellungnahme-Gutachten-SG2611270027.pdf",
+      "pdf_pages": 44,
+      "sg_number": "SG2611270027",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270027",
+      "summary": "Der BVES Bundesverband Energiespeicher Systeme e.V. <b>fordert</b> in seiner aktualisierten Speicheragenda eine konsequente <b>regulatorische Anpassung</b>, um Energiespeicher als zentrales Element eines resilienten Stromsystems zu etablieren. Der Verband kritisiert langwierige Prozesse und <b>regulatorische Hemmnisse</b>, die den notwendigen Hochlauf von Flexibilitätsoptionen in Haushalten, Industrie und Netzen ausbremsen. Zur <b>Netzentgeltreform</b> lehnt der Verband pauschale Prosumeraufschläge ab und verlangt stattdessen eine verursachergerechte, <b>flexibilitätsorientierte Gestaltung</b>. Zudem wird eine <b>Beschleunigung der Netzanschlüsse</b> sowie eine Vereinfachung der Direktvermarktung für kleine Anlagen angemahnt. Die Speicherbranche betont, dass für den Erfolg der Energiewende eine <b>Standardisierung von Prozessen</b> und der Abbau bürokratischer Hürden wichtiger sind als direkte Subventionen.",
+      "register_description": "Veröffentlichung des Grundsatzpapiers der Energiespeicherbranche mit Ihren Forderungen an Politik und Regulierung 2026 ",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere Strommarktdesign, Flexibilisierung, Netzentgelte, Versorgungssicherheit und die Rolle von Energiespeichern im Stromsystem.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000888",
+      "org_name": "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000888/89377",
+      "regulatory_project_title": "Änderungsvorschläge zum WPG und EnWG für Wärmeplanung und Infrastrukturkoordination",
+      "sending_date": "2026-11-27",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/05/80/877792/Stellungnahme-Gutachten-SG2611270013.pdf",
+      "pdf_pages": 31,
+      "sg_number": "SG2611270013",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270013",
+      "summary": "Der BDEW <b>schlägt eine umfassende Novelle</b> des Wärmeplanungsgesetzes vor, um die <b>integrierte Infrastrukturplanung</b> von Strom-, Gas-, Wasserstoff- und Wärmenetzen zu stärken. Der Verband fordert eine <b>verpflichtende Berücksichtigung von Netzentwicklungsplänen</b> sowie eine engere Einbindung von Energieversorgern und Netzbetreibern in den Planungsprozess. Zur Sicherstellung der Umsetzbarkeit wird eine <b>standardisierte Kapitalwertmethode</b> für Wirtschaftlichkeitsvergleiche empfohlen. Zudem mahnt der BDEW eine <b>bessere Datenherausgabe</b> durch Kommunen an Energieinfrastrukturbetreiber an, wobei gleichzeitig <b>Schutzmechanismen für kritische Infrastrukturen</b> implementiert werden sollen. Abschließend wird eine <b>systematische Synchronisierung</b> mit anderen Gesetzen wie dem EnWG gefordert, um Rechts- und Planungssicherheit zu gewährleisten.",
+      "register_description": "Der BDEW fordert eine Weiterentwicklung des Wärmeplanungsgesetzes und eine bessere Abstimmung der kommunalen Wärmeplanung mit der Entwicklung der Strom-, Gas-, Wasserstoff-, Wärme- und Kältenetze. Er setzt sich für eine stärkere Beteiligung von Energieversorgern, Netzbetreibern und relevanten Energieverbrauchern sowie für einen bedarfsgerechten Datenaustausch ein. Der BDEW fordert eine bessere Abstimmung benachbarter Kommunen, einheitliche Wirtschaftlichkeitsvergleiche sowie die Überprüfung der Qualität und Umsetzbarkeit der Wärmepläne. Zudem setzt er sich für eine bessere Koordinierung der Umsetzung und eine Entbürokratisierung der Dekarbonisierungsanforderungen für Wärmenetze bei unverändertem Zielpfad ein.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Weiterentwicklung des Wärmeplanungsgesetzes (WPG), welches ein zentrales Instrument der Wärmewende und damit der Energiepolitik des BMWE darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/89366",
+      "regulatory_project_title": "Verbesserung der Netzanschlussbedingungen und Streichung des Redispatch-Vorbehalts in einem möglichen Netzanschlusspaket",
+      "sending_date": "2026-10-14",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b9/c3/877688/Stellungnahme-Gutachten-SG2611270003.pdf",
+      "pdf_pages": 29,
+      "sg_number": "SG2611270003",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270003",
+      "summary": "Der Bundesverband Erneuerbare Energie e.V. <b>kritisiert den geplanten Redispatch-Vorbehalt</b> im Netzanschlusspaket als investitionshemmend und klimapolitisch kontraproduktiv. Die Analyse zeigt, dass die 5%-Schwelle zu einer <b>weiträumigen Ausweisung kapazitätslimitierter Netzgebiete</b> führen würde, was die Kalkulationsgrundlage für Investoren massiv verschlechtert. Der Verband bemängelt die methodische Schwäche einer Einjahresbetrachtung und <b>fordert eine kumulierte Bewertung</b> über einen Dreijahreszeitraum. Zudem warnt er vor einer <b>Gefährdung der Ausbauziele</b> durch drohende Erlösausfälle und eine mangelnde Regulierungsprüfung bei der Ausweisung der Gebiete. Statt pauschaler Abregelungen schlägt der Verband den <b>beschleunigten Zubau von Großbatteriespeichern</b> sowie eine Weiterentwicklung planbarer Baukostenzuschüsse vor.",
+      "register_description": "Der Verband setzt sich insbesondere für den Erhalt der Finanzierbarkeit des Erneuerbaren Energien Ausbaus und eine Streichung des Redispatch-Vorberhalts ein. Er schlägt alternative Maßnahmen wie die Überbauung des Netzverknüpfungspunkt, das Prinzip \"Nutzen statt Abregeln\", die Digitalisierung der Netzinfrastruktur und die regionale Steuerungswirkung über dargebotsabhängige Baukostenzuschüsse vor.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit dem Redispatch-Vorbehalt im Netzanschlusspaket, einem zentralen Thema der Unterabteilung IIIA (Strommarktregulierung/Netzanschluss).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002949",
+      "org_name": "Bundeskonferenz Veranstaltungswirtschaft",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002949/89409",
+      "regulatory_project_title": "Rechtssichere Beauftragung von selbstständigen Einzelunternehmern",
+      "sending_date": "2026-04-21",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/9e/91/878172/Stellungnahme-Gutachten-SG2611270043.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611270043",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270043",
+      "summary": "Es besteht keine Planungs- und Rechtssicherheit für die betroffenen Auftraggeber und beauftragten selbständigen Einzelunternehmer.  \r\nAuftragnehmer und Auftraggeber sind im Falle einer Betriebsprüfung weiterhin erheblichen Risiken ausgesetzt, da das Ergebnis eines Statusfeststellungsverfahrens weder vorausschauend vorhersehbar, inhaltlich konsistent, noch rechtsverbindlich ist.  Daher sollte eine rechtssichere Beauftragung gewährleistet werden.",
+      "register_description": "Es besteht keine Planungs- und Rechtssicherheit für die betroffenen Auftraggeber und beauftragten selbständigen Einzelunternehmer.  \r\nAuftragnehmer und Auftraggeber sind im Falle einer Betriebsprüfung weiterhin erheblichen Risiken ausgesetzt, da das Ergebnis eines Statusfeststellungsverfahrens weder vorausschauend vorhersehbar, inhaltlich konsistent, noch rechtsverbindlich ist.  Daher sollte eine rechtssichere Beauftragung gewährleistet werden.",
+      "recipients": [
+        "BMAS",
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R002168",
+      "org_name": "Bundesverband Erneuerbare Energie e.V. (BEE)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002168/89366",
+      "regulatory_project_title": "100% Versorgung von Rechenzentren mit EE Strom und dessen Auswirkungen",
+      "sending_date": "2026-11-24",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/53/12/878126/Stellungnahme-Gutachten-SG2611270036.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611270036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270036",
+      "summary": "Das Ziel des Verbandes ist es, über mögliche Realisierungspfade und Kostenwirkungen für eine 100% Stromversorgung von Rechenzentren aus Erneuerbaren Energien aufzulären und dessen Auswirkungen darzustellen.",
+      "register_description": "Das Ziel des Verbandes ist es, über mögliche Realisierungspfade und Kostenwirkungen für eine 100% Stromversorgung von Rechenzentren aus Erneuerbaren Energien aufzulären und dessen Auswirkungen darzustellen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_status": "pending"
+    },
+    {
+      "register_number": "R000245",
+      "org_name": "ADM Arbeitskreis Deutscher Markt- und Sozialforschungsinstitute e. V..",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000245/89403",
+      "regulatory_project_title": "Interessenvertretung zum Erhalt von Minijobs als flexibler Beschäftigungsform in der Markt- und Sozialforschung.",
+      "sending_date": "2026-11-27",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5c/64/878113/Stellungnahme-Gutachten-SG2611270035.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611270035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270035",
+      "summary": "Der ADM <b>warnt vor einer faktischen Abschaffung</b> von Minijobs durch die kumulierte Wirkung verschiedener Gesetzgebungsvorhaben zur sozialen Sicherung. Die Organisation betont, dass Minijobs eine wichtige Form flexibler, ergänzender Beschäftigung darstellen, die nicht zwangsläufig in reguläre Arbeitsverhältnisse überführt werden kann. Für die Markt-, Meinungs- und Sozialforschung seien diese Beschäftigungsmodelle aufgrund des <b>projektbezogenen Personalbedarfs</b> essenziell. Ein Wegfall würde die <b>Qualität empirischer Daten</b> gefährden und zu Personalengpässen führen. Der ADM <b>fordert eine ressortübergreifende Folgenabschätzung</b> der geplanten Maßnahmen. Zudem wird eine <b>branchenspezifische Ausnahme</b> für die Markt- und Sozialforschung beantragt, um den flexiblen Einsatz von Interviewern zu sichern.",
+      "register_description": "Gegenstand der Interessenvertretung sind die Vorschläge der Alterssicherungskommission (Rentenkommission) zur Reform geringfügiger Beschäftigungsverhältnisse (Minijobs). Die Kommission empfiehlt die Abschaffung des steuer- und sozialversicherungsrechtlichen Sonderstatus von Minijobs, die Einbeziehung geringfügiger Beschäftigungen in die regulären Sozialversicherungssysteme ohne Befreiungsmöglichkeit (Opt-out) sowie den Wegfall der Sonderregelungen für Beschäftigungen im Übergangsbereich (Midijobs). Ziel der Interessenvertretung ist der Erhalt der bestehenden Regelungen für geringfügige Beschäftigungsverhältnisse beziehungsweise die Berücksichtigung branchenspezifischer Belange bei einer möglichen gesetzlichen Neuregelung.\r\n",
+      "recipients": [
+        "BMF",
+        "BMAS",
+        "BMG"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit arbeitsmarkt- und sozialpolitischen Fragen zur Ausgestaltung von Minijobs. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Zuständigkeiten der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R000245",
+      "org_name": "ADM Arbeitskreis Deutscher Markt- und Sozialforschungsinstitute e. V..",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000245/89403",
+      "regulatory_project_title": "Berücksichtigung der privatwirtsch. Markt-, Meinungs- u. Sozialforsch im Forschungsbegriff d. FDG",
+      "sending_date": "2026-11-25",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/6f/2a/878111/Stellungnahme-Gutachten-SG2611270034.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611270034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270034",
+      "summary": "Der <b>ADM Arbeitskreis Deutscher Markt- und Sozialforschungsinstitute e. V. begruesst</b> den Referentenentwurf zum Forschungsdatengesetz, fordert jedoch Praezisierungen fuer die <b>privatwirtschaftliche Forschung</b>. Die Organisation verlangt eine explizite Gleichstellung privat finanzierter Forschung mit akademischen Einrichtungen beim <b>Datenzugang</b>. Zudem kritisiert der ADM die vorgesehene <b>Ungleichbehandlung</b> bei Akkreditierungsanforderungen und schlaegt die Anerkennung branchenspezifischer Qualitaetsstandards vor. Hinsichtlich der <b>Anonymisierungspflicht</b> warnt der Verband vor einem zu starren, absoluten Massstab und fordert eine kontextbezogene Auslegung. Abschliessend mahnt der ADM eine <b>faire Gebuehrengestaltung</b> an, um den Zugang fuer kleine und mittlere Institute nicht zu behindern.",
+      "register_description": "Das vorgesehenen Forschungsdatengesetz (FDG) soll der Zugang zu Daten für die Wissenschaft verbessert und Rahmenbedingungen für die Weitergabe, Aufbewahrung und Sicherung gestaltet werden. Vor dem Hintergrund exponentiell anwachsendender Datenmengen und der Tatsache, dass Forschung in immer größeren und komplexeren Projekten und Forschungsverbünden stattfindet, sollen die Rahmenbedingungen für den Datenzugang, die Datenweitergabe oder auch die Datenaufbereitung bzw. Datensicherung neu gestaltet werden. Es muss sichergestellt werden, dass die privatwirtschaftlichen Markt-, Meinungs- und Sozialforschung in der Definition \"Forschung\" einbezogen wird und damit die gleichen Privilegien genießt, wie die akademische Forschung oder andere Forschungseinrichtungen (z.B. Frauenhofer Institute).  ",
+      "recipients": [
+        "BMFTR"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Forschungsdatengesetz (FDG) und dem Zugang zu Forschungsdaten für privatwirtschaftliche Markt-, Meinungs- und Sozialforschungsinstitute. Dies betrifft keine der in der Unterabteilung IIIA (BMWE) definierten Themenfelder wie Energiepolitik, Strommarktregulierung oder Klimaschutz.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/89376",
+      "regulatory_project_title": "EU-Einlagensicherung: Genossenschaftliche Institutssicherung erhalten",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/4d/d5/877913/Stellungnahme-Gutachten-SG2611270020.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611270020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270020",
+      "summary": "Der <b>Genossenschaftsverband Bayern e. V.</b> <b>kritisiert</b> den geplanten <b>Single Deposit Insurance Mechanism (SDIM)</b> der EU-Kommission. Der Verband warnt davor, dass das <b>Herauslösen großer Verbundinstitute</b> aus der genossenschaftlichen Institutssicherung die Funktionsfähigkeit des gesamten Finanzverbundes gefährdet. Es wird daher ein <b>Carve-out für große Verbundinstitute</b> gefordert, um diese im bestehenden Sicherungssystem zu belassen. Zudem verlangt der Verband, dass die <b>Entscheidungshoheit über Stützungsmaßnahmen</b> und die Mittelverwendung zwingend bei der genossenschaftlichen Institutssicherung verbleiben muss. Eine Vergemeinschaftung von Mitteln aus dem genossenschaftlichen Fonds wird strikt abgelehnt. Abschließend fordert der Verband eine getrennte Behandlung von SDIM-Gesetzespaketen und Maßnahmen zur Vereinfachung der Bankenregulierung.",
+      "register_description": "Große Verbundinstitute dürfen nicht im Rahmen des von der EU-Kommission diskutierten „Single Deposit Insurance Mechanism (SDIM)“ aus der Institutssicherung herausgelöst werden. Auch in einem SDIM muss die Entscheidungshoheit über Stützungsmaßnahmen sowie die Mittelverwendung bei der Institutssicherung verbleiben. Zudem darf es zu keiner Vergemeinschaftung von Mitteln aus dem Fonds der genossenschaftlichen Sicherungseinrichtung kommen. Die Gesetzespakete zu SDIM und die Maßnahmen zu weniger Komplexität und mehr Proportionalität in der Bankenregulierung müssen getrennt voneinander behandelt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit bankenregulatorischen Aspekten der EU-Einlagensicherung und der genossenschaftlichen Institutssicherung. Es besteht kein inhaltlicher Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/89376",
+      "regulatory_project_title": "EU-Einlagensicherung: Genossenschaftliche Institutssicherung erhalten",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/25/00/877911/Stellungnahme-Gutachten-SG2611270018.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611270018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270018",
+      "summary": "Der Genossenschaftsverband Bayern e. V. <b>fordert</b> im Rahmen der geplanten EU-Einlagensicherung (SDIM) den <b>Erhalt der genossenschaftlichen Institutssicherung</b>. Er verlangt einen <b>Carve-out für große Verbundinstitute</b>, um deren Herauslösung aus dem bewährten Sicherungssystem zu verhindern. Zudem soll die <b>Entscheidungshoheit</b> über Stützungsmaßnahmen und die Mittelverwendung zwingend bei der Institutssicherung verbleiben. Der Verband warnt vor einer <b>Vergemeinschaftung von Mitteln</b> durch eine Kreditlinie zwischen nationaler und europäischer Ebene. Abschließend plädiert er dafür, die SDIM-Gesetzgebung von Maßnahmen zur Bankenregulierung zu entkoppeln, um <b>gegenseitige Blockaden</b> in den Verhandlungen zu vermeiden.",
+      "register_description": "Große Verbundinstitute dürfen nicht im Rahmen des von der EU-Kommission diskutierten „Single Deposit Insurance Mechanism (SDIM)“ aus der Institutssicherung herausgelöst werden. Auch in einem SDIM muss die Entscheidungshoheit über Stützungsmaßnahmen sowie die Mittelverwendung bei der Institutssicherung verbleiben. Zudem darf es zu keiner Vergemeinschaftung von Mitteln aus dem Fonds der genossenschaftlichen Sicherungseinrichtung kommen. Die Gesetzespakete zu SDIM und die Maßnahmen zu weniger Komplexität und mehr Proportionalität in der Bankenregulierung müssen getrennt voneinander behandelt werden.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit bankenregulatorischen Themen (Einlagensicherung, Institutssicherung) und weist keinen inhaltlichen Bezug zur Energiepolitik oder den Zuständigkeitsbereichen der Unterabteilung IIIA des BMWK auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/89376",
+      "regulatory_project_title": "Kleinbankenregime einführen",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/ad/28/877905/Stellungnahme-Gutachten-SG2611270015.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611270015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270015",
+      "summary": "Der <b>Genossenschaftsverband Bayern e. V. unterstützt</b> die <b>Einführung eines Kleinbankenregimes</b> nach Schweizer Vorbild in der EU. Die Organisation fordert, dass der Vorschlag der Bundesbank und BaFin in die europäische Gesetzgebung zur <b>Änderung von CRR und CRD</b> einfließt. Dabei wird eine <b>freiwillige Teilnahme</b> (Opt-in) sowie die Beibehaltung von <b>Verbundprivilegien</b> bei der Leverage Ratio verlangt. Das Ziel ist eine Abkehr vom <b>One-size-fits-all-Ansatz</b> zugunsten passgenauerer regulatorischer Anforderungen für kleine Institute. Durch klare Zugangskriterien sollen <b>regulatorische Vereinfachungen</b> erreicht werden, anstatt bestehende komplexe Regelwerke nachträglich zurückbauen zu müssen.",
+      "register_description": "Im August 2025 haben BaFin und Bundesbank ein Non-Paper zur Einführung eines Kleinbankenregimes in der EU verfasst. Unser Ziel ist es, dass dieser Vorschlag Eingang in die europäische Gesetzgebung findet (Änderung CRR und CRD). Dabei setzen wir uns dafür ein, dass übermäßige strenge Zugangskriterien vermieden werden, der Zutritt zum Kleinbankenregime freiwillig wäre (Opt-in) und die Verbundprivilegien bei der Berechnung der Leverage Ratio auch in einem Kleinbankenregime halten bleiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit der Finanzmarktregulierung (Bankenaufsicht, CRR/CRD) und weist keinen inhaltlichen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWK auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R002999",
+      "org_name": "Genossenschaftsverband Bayern e. V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002999/89376",
+      "regulatory_project_title": "Kleinbankenregime einführen",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-27",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8a/4f/877903/Stellungnahme-Gutachten-SG2611270014.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611270014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611270014",
+      "summary": "Der Genossenschaftsverband Bayern e.V. <b>fordert die Einführung eines eigenständigen Kleinbankenregimes</b> für kleine Institute (SNCIs) auf EU-Ebene. Die Organisation kritisiert, dass bisherige Anpassungen innerhalb des bestehenden Regelwerks nicht ausreichen und <b>passgenaue Regeln</b> notwendig sind. Sie unterstützt den Entwurf von BaFin und Bundesbank, der unter anderem eine <b>Befreiung von der Risikogewichtung</b> bei guter Kapitalisierung vorsieht. Zudem wird eine <b>Ausweitung der Bilanzsummenschwelle</b> auf mindestens 10 Mrd. Euro angestrebt. Durch den Abbau bürokratischer Vorgaben sollen Ressourcen für die Kundenberatung sowie für Digitalisierung und Cybersicherheit freigesetzt werden. Ziel ist eine <b>Entlastung kleinerer Banken</b> von überbordenden regulatorischen Anforderungen.",
+      "register_description": "Im August 2025 haben BaFin und Bundesbank ein Non-Paper zur Einführung eines Kleinbankenregimes in der EU verfasst. Unser Ziel ist es, dass dieser Vorschlag Eingang in die europäische Gesetzgebung findet (Änderung CRR und CRD). Dabei setzen wir uns dafür ein, dass übermäßige strenge Zugangskriterien vermieden werden, der Zutritt zum Kleinbankenregime freiwillig wäre (Opt-in) und die Verbundprivilegien bei der Berechnung der Leverage Ratio auch in einem Kleinbankenregime halten bleiben.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit der Bankenregulierung (CRR/CRD) und dem Finanzsektor. Es gibt keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz, Energiepreise).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
     {
       "register_number": "R000252",
       "org_name": "BWO - Bundesverband Windenergie Offshore",
@@ -64,6 +474,166 @@
       "gemini_relevanz": "Das Dokument betrifft die Ausgestaltung der Stromsteuerweitergabe und damit die Strommarktregulierung sowie die Umsetzung gesetzlicher Vorgaben im Energiebereich, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "summary_quelle": "pdf_text",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R007027",
+      "org_name": "Badenova AG & Co. KG",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R007027/89349",
+      "regulatory_project_title": "EEG-Novelle, insbesondere der Ausschreibungsmechanismus Wind an Land",
+      "sending_date": "2026-11-17",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/79/8a/877526/Stellungnahme-Gutachten-SG2611260018.pdf",
+      "pdf_pages": 1,
+      "sg_number": "SG2611260018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260018",
+      "summary": "Die Badenova Erneuerbare GmbH <b>begrüßt den Kompromiss</b> der Berichterstatter zur EEG-Novelle als ausgewogen und tragfähig. Das Unternehmen betont, dass die Einigungen zur Windkraft die <b>Realisierung der Energiewende</b> in Süddeutschland unterstützen. Durch die Regelungen werde ein <b>Ausbaustopp der Windenergie</b> im Süden verhindert und die Konzentration von Anlagen in bereits stark genutzten Regionen begrenzt. Zudem wird hervorgehoben, dass die <b>Pachtdeckel-Version</b> eine gut austarierte Lösung darstellt, um das Risiko des Scheiterns kleinteiliger Projekte zu minimieren. Abschließend fordert das Unternehmen den Bundestag auf, die EEG-Novelle zeitnah in der vereinbarten Form zu verabschieden, um die <b>Ausbauziele der Erneuerbaren</b> nicht zu gefährden.",
+      "register_description": "Der EEG-Mechanismus zur Ausschreibung Wind an Land berücksichtigt weder die strukturell höheren Kosten für Anlagen in Süddeutschland, noch die Netz- und Systemdienlichkeit dortiger Windenergieanlagen. Wir fordern eine entsprechende Änderung in der jetzt laufenden Novellierung des EEG, damit in unserer Region der Windausbau nicht zum Erliegen kommt.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zur EEG-Novelle und adressiert spezifisch die Ausschreibungsbedingungen für Windenergie an Land, was unter das Themenfeld 'Erneuerbare Energien (national)' fällt.",
+      "summary_quelle": "pdf_scan",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001242",
+      "org_name": "Verband Deutscher Verkehrsunternehmen (VDV)",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001242/89358",
+      "regulatory_project_title": "Förderung des ÖPNV und Eisenbahnverkehrs im Bundeshaushalt 2027",
+      "sending_date": "2026-11-20",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/99/df/877577/Stellungnahme-Gutachten-SG2611260023.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611260023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260023",
+      "summary": "Der <b>Verband Deutscher Verkehrsunternehmen</b> <b>kritisiert</b> die im Bundeshaushalt 2027 geplanten <b>Kürzungen der Fördermittel</b> für den Schienengüterverkehr. Die Organisation warnt, dass die Absenkung der Trassenpreisförderung von 345 auf 200 Millionen Euro die wirtschaftliche Grundlage der Branche gefährdet. Zudem wird die Reduzierung der Mittel für das SGFFG sowie die Kürzung der Betriebskostenförderung für den Einzelwagenverkehr abgelehnt. Der Verband weist darauf hin, dass steigende Trassenkosten von 12,9 Prozent den intermodalen Wettbewerb verschlechtern. Es wird befürchtet, dass diese <b>Fehlentwicklungen</b> zu einer massiven <b>Verlagerung von Verkehren</b> auf die Straße führen. Die Organisation fordert eine <b>Abmilderung der Kürzungen</b>, um die Wettbewerbsfähigkeit des Schienengüterverkehrs zu erhalten.",
+      "register_description": "Die Initiative hat zum Ziel, dass im Bundeshaushalt 2027 sowie im Wirtschaftsplan des Sondervermögens Klima- und Transformationsfonds (KTF) 2027 die Förderprogramme und Investitionszuschüsse für den ÖPNV und Eisenbahnverkehr aufgestockt werden. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_OTHER",
+          "label": "Sonstige Interessenbereiche"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit verkehrspolitischen Haushaltsfragen (Trassenpreisförderung, SGFFG, Einzelwagenverkehr) und weist keinen inhaltlichen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA auf.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R006407",
+      "org_name": "Rebalance Now",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R006407/89346",
+      "regulatory_project_title": "Modernisierung des Wettbewerbsrechts",
+      "sending_date": "2026-10-14",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e9/75/877511/Stellungnahme-Gutachten-SG2611260019.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611260019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260019",
+      "summary": "Der Verein Rebalance Now <b>lehnt die geplante Erhöhung der Umsatzschwellen</b> für die Fusionskontrolle im Rahmen der 12. GWB-Novelle ab, da er eine Schwächung der Wettbewerbsaufsicht befürchtet. Die Organisation <b>fordert stattdessen die Einführung einer Call-In-Befugnis</b> für das Bundeskartellamt, um wettbewerbsschädigende Fusionen auch unterhalb der neuen Schwellenwerte erfassen zu können. Zudem <b>plädiert der Verein für eine stärkere Einbindung zivilgesellschaftlicher Akteure</b> in kartellrechtliche Verfahren durch erweiterte Beteiligungsrechte. Kritisch bewertet wird die geplante Novelle hinsichtlich ihrer begrenzten thematischen Reichweite, insbesondere beim Fehlen von Nachhaltigkeitsaspekten. Zur Stärkung der Missbrauchskontrolle <b>empfiehlt die Organisation eine Ausweitung auf den Lebensmittelsektor</b> sowie die Einführung eines Feststellungsanspruchs für Verbände. Abschließend wird eine <b>verpflichtende Veröffentlichung von Entscheidungen</b> des Bundeskartellamts gefordert, um die Transparenz zu erhöhen.",
+      "register_description": "Das Bundeswirtschaftsministerium plant eine 12. Überarbeitung des Wettbewerbsrechts (Gesetz gegen Wettbewerbsbeschränkungen, GWB) und hat dazu 2026 eine Konsultation gestartet. Rebalance Now hat dazu Vorschläge zur Fusionskontrolle und Ministererlaubnis sowie Prozessfragen eingebracht. Die Stellungnahme ist durch das BMWE veröffentlicht. In der Sachverständigen-Anhörung hat sich Rebalance Now auch für die Beibehaltung der jetzigen Form des Art. 32f GWB ausgesprochen.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit dem allgemeinen Wettbewerbsrecht (GWB-Novelle) und enthält keinen inhaltlichen Bezug zu den energiepolitischen Themenfeldern der Unterabteilung IIIA des BMWE.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001169",
+      "org_name": "Bundesverband Öffentlicher Banken Deutschlands e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001169/89327",
+      "regulatory_project_title": "Vorschläge zur Reduzierung der Regulierungslast der Bankaufsicht auf europäischer Ebene",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e2/16/877373/Stellungnahme-Gutachten-SG2611260011.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611260011",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260011",
+      "summary": "Die Deutsche Kreditwirtschaft <b>schlägt vor</b>, das Kleinbankenregime nicht allein an der Bilanzsumme festzumachen, sondern durch qualitative Kriterien für <b>small, less complex institutions (SLCI)</b> zu ergänzen. Der Verband fordert eine <b>Reduktion von Reporting- und Offenlegungspflichten</b> sowie Ausnahmen von ESG-Berichtsanforderungen für diese Institute. Zudem wird eine <b>Umkehr der Beweislast</b> bei neuen EBA-Vorgaben angestrebt, um eine übermäßige regulatorische Belastung zu vermeiden. Im Bereich der Governance sollen <b>turnusmäßige Eignungsprüfungen</b> entfallen und nur bei konkretem Anlass erfolgen. Des Weiteren wird eine <b>Anpassung der Vergütungsregeln</b> sowie eine Vereinfachung bei aufsichtlichen Stresstests und Fusionsprüfungen verlangt. Die Kriterien für den Status als SLCI sollen alle vier Jahre inflationsbedingt überprüft werden.",
+      "register_description": "Vorschläge zur Anpassung des europäischen Regulierungsrahmens der Bankaufsicht, u.A. Vermeidung negativer ökonomischer Auswirkungen von Regulierung, Verankerung von Proportionalität im Gesetzesrahmen, Vereinfachung der Vorschriften für makroprudenzielle Instrumente, wettbewerbsfähigeres Verbriefungsrahmenwerk und Abbau von Redundanzen und Inkonsistenzen.",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit bankaufsichtsrechtlichen Regelungen (CRR/CRD) und der Entlastung kleiner Kreditinstitute. Es besteht kein inhaltlicher Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik, Strommarkt, Klimaschutz).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001062",
+      "org_name": "VBUW Lebensmittel und Gastronomie e.V. ",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001062/89330",
+      "regulatory_project_title": "Vereinfachung und Vereinheitlichung der Lebensmitteldeklartion ",
+      "sending_date": "2026-11-26",
+      "upload_date": "2026-11-26",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d6/31/877357/Stellungnahme-Gutachten-SG2611260010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611260010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611260010",
+      "summary": "Der VBUW Lebensmittel und Gastronomie e.V. <b>fordert</b> eine <b>Digitalisierung und Standardisierung</b> von Pflichtinformationen für Lebensmittel im Fernabsatz. Der Verband kritisiert, dass derzeit häufig fehlerhafte oder unvollständige Daten aufgrund manueller Übertragungsprozesse vorliegen. Um die <b>Rechtssicherheit</b> zu erhöhen, sollen Hersteller verpflichtet werden, Produktdaten in einem <b>maschinenlesbaren Format</b> bereitzustellen. Bisherige Versuche, dies über das BMLEH zu adressieren, blieben aufgrund der zugrunde liegenden EU-Gesetzgebung erfolglos. Der Verband sucht daher nach alternativen Wegen zur Durchsetzung dieser <b>digitalen Datenbereitstellung</b>. Unterstützt wird das Vorhaben nach eigenen Angaben durch Lieferplattformen wie Wolt und UberEats.",
+      "register_description": "Einführung e-Label\r\nÄnderung Art. 14 LMIV (Pflichtinformationen digital, standardisiert und maschinenlesbar abrufbar)\r\nKlare Regelungen für Fernabsatzgeschäft\r\nVereinfachung der Deklarationspflichten",
+      "recipients": [
+        "BMDS",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ECONOMY_COMPETITION_LAW",
+          "label": "Wettbewerbsrecht"
+        }
+      ],
+      "priority": 3,
+      "gemini_relevanz": "Das Dokument betrifft ausschließlich lebensmittelrechtliche Deklarationspflichten und den Fernabsatz von Lebensmitteln, was nicht in den Zuständigkeitsbereich des BMWK (Energiepolitik, Strommarkt, Klimaschutz) fällt.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt die Digitalisierung von Pflichtinformationen für Lebensmittel im Fernabsatz und den Wunsch nach einer entsprechenden EU-Gesetzesänderung.",
+      "abweichung_thema": "Lebensmitteldeklaration im Fernabsatz",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R001137",
@@ -1175,6 +1745,33 @@
       "gemini_status": "filtered"
     },
     {
+      "register_number": "R003157",
+      "org_name": "AfW Bundesverband Finanzdienstleistung e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R003157/89145",
+      "regulatory_project_title": "Gesetz zur Umsetzung der Sechsten EU-Geldwäscherichtlinie und zur Stärkung der Geldwäscheprävention",
+      "sending_date": "2026-11-19",
+      "upload_date": "2026-11-23",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/98/59/877716/Stellungnahme-Gutachten-SG2611230006.pdf",
+      "pdf_pages": 8,
+      "sg_number": "SG2611230006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611230006",
+      "summary": "Der AfW Bundesverband Finanzdienstleistung e.V. <b>fordert</b> eine <b>verhältnismäßige Umsetzung</b> des EU-Geldwäschepakets für unabhängige Vermittler. Er verlangt, dass <b>Ausnahmeregelungen</b> für Kredit- und Versicherungsvermittler auch bei unabhängiger Produktauswahl gelten. Zudem warnt der Verband vor einer <b>pauschalen Einbeziehung</b> von Finanzanlagenvermittlern in die Geldwäschepflichten aufgrund ihrer gewerberechtlichen Erlaubnis. Für Einpersonenunternehmen wird eine <b>Befreiung von formalen Selbstbestellungen</b> als Geldwäschebeauftragter gefordert. Abschließend plädiert der Verband für <b>gebührenfreie Transparenzregisterabrufe</b> und eine bundeseinheitliche Aufsichtspraxis zur Vermeidung von Bürokratie.",
+      "register_description": "Der AfW setzt sich für eine verhältnismäßige und bürokratiearme Umsetzung des EU-Geldwäschepakets ein. Ziele: Klarstellung in Gesetzesbegründung und Anwendungshinweisen (§ 83 GwBG-E), dass die Ausnahmen nach Art. 3 Nr. 3 lit. k AMLR (Kreditvermittlung, §§ 34i, 34k GewO) und nach Art. 2 Abs. 1 Nr. 6 lit. c AMLR (Versicherungsvermittlung) auch bei unabhängiger Vermittlung ohne Ausschließlichkeitsbindung greifen; Abgrenzung nach tatsächlicher Tätigkeit statt nach GewO-Erlaubnis bei §§ 34f, 34h GewO und Erhalt der Entlastung des § 1 Abs. 24 Nr. 4 GwG; keine förmliche Selbstbestellung und Anzeige als Geldwäschebeauftragter bei Einpersonenunternehmen (§ 6 Abs. 3 GwBG-E); Nutzung vorhandener Registerdaten (§ 6 Abs. 2 GwBG-E); gebührenfreie Transparenzregisterabrufe (§§ 25, 33 GwBG-E).",
+      "recipients": [
+        "BMF"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich ausschließlich mit finanzaufsichtsrechtlichen Aspekten der Geldwäscheprävention für Finanzdienstleister und enthält keinen inhaltlichen Bezug zu den Themenfeldern der Unterabteilung IIIA (Energiepolitik).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
       "register_number": "R002309",
       "org_name": "E.ON SE",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R002309/89099",
@@ -2175,6 +2772,92 @@
       "gemini_status": "cached"
     },
     {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Umsetzung Erneuerbare-Energien-Richtlinie RED II",
+      "sending_date": "2026-10-27",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3c/c2/877382/Stellungnahme-Gutachten-SG2611180015.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611180015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180015",
+      "summary": "Der Deutsche Naturschutzring <b>fordert</b> die Bundesregierung auf, sich im Rahmen der EU-Energiearchitektur nach 2030 für <b>verbindliche Ausbauziele</b> für erneuerbare Energien einzusetzen. Die Organisation <b>lehnt</b> eine Anrechnung von „Low-Carbon-Flexibilitäten“ ab, da diese Investitionen von erneuerbaren Energien weglenken könnten. Zudem wird eine <b>Ausrichtung des Netzausbaus</b> am Ausbau der Erneuerbaren sowie die Ablehnung des Redispatch-Vorbehalts verlangt. Die <b>sektorspezifischen Ziele</b>, insbesondere für RFNBOs, sollen zur Sicherung der Planungssicherheit beibehalten werden. Abschließend betont der Verband die Notwendigkeit einer konsequenten <b>Digitalisierung des Energiesystems</b> zur Erreichung der Klimaneutralität.",
+      "register_description": "Wir stellen uns gegen eine Verlängerung der Übergangsfrist für die Kriterien der Additionaliät und der Korrelation im Delegated Act der RED II für erneuerbare Gase nichtorganischen Ursprungs (RFNBOs) und betonen, dass gerade die Einhaltung des Additionalitätskriteriums ein zentraler Bestandteil für die langfristige Nachhaltigkeit und Glaubwürdigkeit der Energiewende in Deutschland, aber auch weltweit ist. Wir appelieren daher für die Beibehaltung der bisherigen Regelungen und parallel dazu Maßnahmen zu ergreifen, die den schnellen und effizienten Ausbau zusätzlicher erneuerbarer Energiekapazitäten ermöglichen.",
+      "recipients": [
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert zentrale Themen der Unterabteilung IIIA, insbesondere die EU-Energiearchitektur, die Erneuerbare-Energien-Richtlinie (RED), RFNBO-Ziele und die Ausrichtung der Netzinfrastruktur.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Schuldenbremsenreform zur Sicherstellung von Finanzmitteln für Klimaschutz als Gemeinschaftsaufgabe im GG",
+      "sending_date": "2026-09-03",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/32/a5/877384/Stellungnahme-Gutachten-SG2611180005.pdf",
+      "pdf_pages": 4,
+      "sg_number": "SG2611180005",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180005",
+      "summary": "Der <b>Deutscher Naturschutzring</b> <b>fordert</b> die Bundesregierung auf, ein umfassendes <b>Vorsorge-Paket</b> für Klimaschutz und Klimaanpassung zu beschließen. Zur Sicherung der notwendigen Investitionen wird die <b>Einführung einer Gemeinschaftsaufgabe</b> nach Artikel 91a Grundgesetz vorgeschlagen, um Kommunen planbare Mittel bereitzustellen. Die Organisation verlangt den <b>konsequenten Ausbau erneuerbarer Energien</b> sowie die drastische Reduzierung fossiler Abhängigkeiten. Bestehende Klimaschutzziele und Förderprogramme für die energetische Gebäudesanierung sollen nicht gekürzt, sondern finanziell unterlegt werden. Zudem wird der <b>Abbau fossiler Subventionen</b> gefordert, um Mittel für den natürlichen Klimaschutz und sozialen Ausgleich freizusetzen. Die <b>Klimakrise</b> wird als gesamtstaatliche Herausforderung definiert, die eine verlässliche finanzielle Ausstattung erfordert.",
+      "register_description": "Wir setzen uns für die Schaffung ausreichender Finanzmittel zur Umsetzung von Klimaschutzmaßnahmen ein. Eine Reform der Schuldenbremse ist unerlässlich, um Investitionen in Klimaschutz, nachhaltige Infrastruktur und soziale Gerechtigkeit zu ermöglichen. Ziel ist es, Artikel 109, 115 sowie 91a des Grundgesetzes so anzupassen, dass insbesondere die Finanzierung klimarelevanter Projekte planbar und nachhaltig gesichert ist. Dies umfasst auch die Einführung klarer Ausnahmetatbestände, wie die Einstufung der Klimakrise als Naturkatastrophe, und die Erweiterung des Investitionsbegriffs, um ökologische und soziale Fortschritte zu berücksichtigen. ",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die Finanzierung der Energiewende, den Ausbau erneuerbarer Energien und die Dekarbonisierung, was zentrale Themen der Unterabteilung IIIA sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Gesetz zur Errichtung eines Sondervermögens Klima- und Transformationsfonds",
+      "sending_date": "2026-08-28",
+      "upload_date": "2026-11-18",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/5e/0f/877388/Stellungnahme-Gutachten-SG2611180001.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611180001",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611180001",
+      "summary": "Ein breites Bündnis aus Verbänden und Unternehmen <b>kritisiert die geplante Umschichtung</b> von 2,7 Milliarden Euro aus den Einnahmen der CO2-Bepreisung in den allgemeinen Haushalt. Die Unterzeichner fordern, diese Mittel weiterhin <b>vollständig für Investitionen in die industrielle Dekarbonisierung</b> einzusetzen. Eine Abkehr von dieser Praxis wird als <b>fatales Signal für die internationale Wettbewerbsfähigkeit</b> gewertet. Die Organisationen betonen, dass die Einnahmen zur <b>Senkung der Energiepreise</b> und zur Unterstützung von Investitionen in klimaneutrale Produktion genutzt werden sollten. Insbesondere der <b>Zuschuss zu den Übertragungsnetzentgelten</b> müsse vollumfänglich erhalten bleiben. Die geplante Haushaltsentscheidung gefährde die notwendige <b>Planungssicherheit für zukunftsfeste Investitionen</b> in den Industriestandort Deutschland.",
+      "register_description": "Wir fordern eine gezielte und soziale Ausgestaltung und Implementierung des Sondervermögens Infrastruktur/Klimaneutralität 2045.  Zentral dabei ist die Mittelverwendung als zusätzliche Investitionen. Zudem muss die Bundesregierung sicherstellen, dass sämtliche Investitionen und Infrastrukturmaßnahmen klimagerecht erfolgen.",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die Finanzierung des Klima- und Transformationsfonds (KTF) und die Verwendung von Einnahmen aus der CO2-Bepreisung, was direkt die Themenfelder Klimaschutz, Energiepreise und industrielle Dekarbonisierung berührt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
       "register_number": "R004211",
       "org_name": "Gesamtverband Autoteile-Handel e.V. (GVA)",
       "org_url": "https://www.lobbyregister.bundestag.de/suche/R004211/89028",
@@ -2434,6 +3117,143 @@
       "gemini_status": "cached",
       "gemini_relevanz": "Das Dokument adressiert die methodische Ausgestaltung von Nachhaltigkeitskriterien für Bauprodukte im Kontext des Industrial Accelerator Act und der Leitmärkte-Konzepte, was direkt die Themenfelder Klimaschutz und EU-Gesetzgebung der Unterabteilung IIIA berührt.",
       "summary_quelle": "pdf_text"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-09-01",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/95/877400/Stellungnahme-Gutachten-SG2611170022.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170022",
+      "summary": "Der <b>Deutscher Naturschutzring (DNR)</b> und weitere Organisationen <b>fordern</b> eine Stärkung des EU-Emissionshandels (ETS I) durch ein verlässliches <b>CO2-Preissignal</b> zur Förderung industrieller Investitionen. Sie <b>unterstützen</b> die Beibehaltung des linearen Reduktionsfaktors von 4,4 % bis 2035, um die Investitionswirkung nicht zu schwächen. Zudem wird ein <b>schnelles Ende der kostenlosen Zuteilung</b> von Zertifikaten sowie eine strikte <b>Konditionalisierung</b> bei verbleibenden Zuteilungen verlangt. Die Organisationen <b>plädieren</b> für eine Zweckbindung von mindestens 50 % der ETS-Einnahmen für die industrielle Dekarbonisierung. Ein <b>verbindliches Monitoring</b> der Einnahmenverwendung soll die Transparenz sicherstellen. Abschließend wird vor einer Verwässerung des ETS gewarnt, da dies die langfristige Wettbewerbsfähigkeit der Industrie gefährde.",
+      "register_description": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1) als zentrales Klimaschutzinstrument der EU für die Stromerzeugung, die energieintensive Industrie und Teile des Luftverkehrs. Erhalt des Verursacherprinzips inkl. wirksamen, verlässlichen CO2-Preispfaden, Phase-Out für die kostenlose Zuteilung von Zertifikaten, Lenkung der Erlöse gezielt in Richtung Klimaneutralität und sozial-gerechte Transformation.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und die Weiterentwicklung des EU-Emissionshandels (ETS I), was direkt unter die Themenfelder der Unterabteilung IIIA (EU-Klimapolitik, EU-Klimagesetz, Fit for 55) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Umsetzung der EU-Methanverordnung, Verhinderung von staatlicher Förderung von synthetischem Methan (sNG)",
+      "sending_date": "2026-10-13",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/20/6c/877380/Stellungnahme-Gutachten-SG2611170020.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170020",
+      "summary": "Der Deutsche Naturschutzring <b>fordert die Bundesregierung auf</b>, beim Europäischen Rat am 15./16. Oktober 2026 <b>keiner Verschiebung der EU-Methanverordnung</b> zuzustimmen. Die Organisation betont, dass die ab dem 1. Januar 2027 geltenden Importvorgaben für Lieferketten außerhalb Europas ein zentraler Baustein für eine wirksame Klimapolitik seien. Eine Verschiebung der Fristen wird als Gefahr für die Glaubwürdigkeit der europäischen Klimapolitik und als <b>Risiko für die Planungssicherheit</b> von Importeuren bewertet. Zudem warnt der Verband davor, dass ein Aufschub die Tür für eine komplette Neuverhandlung der Verordnung öffnen könnte. Stattdessen wird eine <b>vollständige und fristgerechte Umsetzung</b> der bestehenden Regelungen angemahnt. Die Bundesregierung solle sich gegen Partikularinteressen der Öl- und Gasindustrie positionieren und stattdessen auf <b>Rechtssicherheit und Verlässlichkeit</b> setzen.",
+      "register_description": "Die Bundesregierung wird aufgefordert, beim Europäischen Rat am 15./16. Oktober 2026 keiner Verschiebung der Importvorgaben der Verordnung (EU) 2024/1787 (EU-Methanverordnung) zuzustimmen, die ab dem 1. Januar 2027 gelten sollen, und sich für eine vollständige und fristgerechte Umsetzung der Verordnung einzusetzen.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die EU-Energiepolitik und die Dekarbonisierung der Energieerzeugung, da es um die Umsetzung der EU-Methanverordnung und deren Auswirkungen auf Importvorgaben für Öl- und Gaslieferketten geht.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1)",
+      "sending_date": "2026-10-08",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/80/7d/877398/Stellungnahme-Gutachten-SG2611170006.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170006",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170006",
+      "summary": "Der Deutsche Naturschutzring <b>warnt vor einer Aufweichung</b> des europäischen Emissionshandels (ETS 1) durch aktuelle Reformvorschläge. Die Organisation befürchtet, dass zusätzliche Flexibilitäten und die Anrechnung von Negativemissionen zu einem <b>Überschuss an Zertifikaten</b> führen und die EU-Klimaziele 2040 gefährden. Eine <b>großzügige Nutzung von ausländischen Emissionsminderungen</b> wird als riskante Wette kritisiert, die andere Sektoren wie die Landwirtschaft oder den Gebäudebereich übermäßig belastet. Der Verband fordert daher eine <b>Emissionsobergrenze im Einklang mit dem Klimaziel 2040</b> unter Beibehaltung des aktuellen Reduktionspfades. Zudem wird eine <b>effektive Steuerung der Marktstabilitätsreserve</b> verlangt, um die Zertifikatemenge zielgerichtet zu begrenzen. Eine Verlagerung von Minderungsanforderungen auf andere Sektoren soll durch eine entsprechende Ausgestaltung des Emissionsbudgets zwingend vermieden werden.",
+      "register_description": "Erhalt und Stärkung des Europäischen Emissionshandelssystems (ETS 1) als zentrales Klimaschutzinstrument der EU für die Stromerzeugung, die energieintensive Industrie und Teile des Luftverkehrs. Erhalt des Verursacherprinzips inkl. wirksamen, verlässlichen CO2-Preispfaden, Phase-Out für die kostenlose Zuteilung von Zertifikaten, Lenkung der Erlöse gezielt in Richtung Klimaneutralität und sozial-gerechte Transformation.",
+      "recipients": [
+        "BKAmt",
+        "BMUKN",
+        "BMWE"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument adressiert die EU-Klimapolitik und die Ausgestaltung des Emissionshandels (ETS 1), was direkt unter die Themenfelder der Unterabteilung IIIA (EU-Klimapolitik/Fit for 55) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Änderung des Netzanschlusspakets",
+      "sending_date": "2026-10-09",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/03/877402/Stellungnahme-Gutachten-SG2611170002.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170002",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170002",
+      "summary": "Der <b>Deutscher Naturschutzring</b> <b>fordert</b> eine zügige Verabschiedung des finanziellen Rahmens für <b>Differenzverträge (CfDs)</b> im Rahmen des EEG, um Rechtsunsicherheiten nach Auslaufen der beihilferechtlichen Genehmigung Ende 2026 zu vermeiden. Der Verband verlangt zudem, die <b>Förderung für kleine Wasserkraftanlagen</b> unter einem Megawatt zu <b>beenden</b>. Er begründet dies mit der geringen energiewirtschaftlichen Bedeutung bei gleichzeitig erheblichen ökologischen Schäden an Gewässern. Stattdessen sollen Anreize für den <b>Rückbau unrentabler Anlagen</b> geschaffen werden. Kleine Wasserkraftanlagen sollen zudem nicht länger dem überragenden öffentlichen Interesse zugeordnet werden. Die Organisation betont die Notwendigkeit einer effizienten Verwendung öffentlicher Mittel für eine ambitionierte Energiewende.",
+      "register_description": "Änderung des Netzanschlusspakets, insbesondere Streichung des Redsipatch-Vorbehalts und stärkere Verpflichtungen für die Verteilnetzbetreiber. ",
+      "recipients": [
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_NET",
+          "label": "Energienetze"
+        },
+        {
+          "code": "FOI_ENERGY_OTHER",
+          "label": "Energie (sonstige)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Die Stellungnahme adressiert die EEG-Finanzierung (CfDs) und beihilferechtliche Genehmigungen, welche unter die Themenfelder 'Erneuerbare Energien (national)' und 'EU-Beihilferecht EE' fallen.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument befasst sich mit der EEG-Finanzierung (CfDs) und der Förderung kleiner Wasserkraftanlagen, nicht mit dem Netzanschlusspaket.",
+      "abweichung_thema": "EEG-Finanzierung und Wasserkraft",
+      "gemini_status": "processed"
     },
     {
       "register_number": "R000981",
@@ -2746,6 +3566,87 @@
       ],
       "priority": 2,
       "gemini_relevanz": "Das Dokument befasst sich mit bautechnischen Anforderungen an Kanalinfrastruktur und Regenwasserbewirtschaftung im Rahmen des BauGB. Diese Themen fallen nicht in die Zuständigkeit der Unterabteilung IIIA des BMWK (Energiepolitik, Strommarkt, Klimaschutz im Energiesektor).",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Gesetz zur Stärkung der Natürlichen Infrastruktur (NatInfG)",
+      "sending_date": "2026-04-19",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/c1/f5/877396/Stellungnahme-Gutachten-SG2611170026.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170026",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170026",
+      "summary": "Der Deutsche Naturschutzring <b>begrüßt die Einbringung</b> eines Gesetzes zur Stärkung der natürlichen Infrastruktur und fordert eine systematische Verzahnung mit dem Infrastruktur-Zukunftsgesetz. Die Organisation schlägt vor, Ersatzgeldzahlungen und Fördermittel in einer <b>kohärenten Naturflächenkulisse</b> zu bündeln. Innerhalb dieser Kulisse soll für Naturschutzmaßnahmen ein <b>überragendes öffentliches Interesse</b> gelten, um eine beschleunigte Umsetzung zu ermöglichen. Zudem fordert der Verband die <b>Festschreibung von Vorkaufsrechten</b> sowie Duldungspflichten zur Flächensicherung. Private Träger wie Naturschutzstiftungen sollen bei der Projektumsetzung stärker einbezogen werden. Ziel ist es, die natürliche Infrastruktur rechtlich der grauen Infrastruktur gleichzustellen und die <b>Planungsbeschleunigung</b> effektiv zu nutzen.",
+      "register_description": "Wir setzen uns für ein effektives und langfristig wirksames Gesetz zur Stärkung der natürlichen Infrastruktur in Deutschland ein, mit dem die natürliche Infrastruktur rechtlich der grauen Infrastruktur gleichgestellt wird. Das Gesetz sollte den Erhalt der natürlichen Infrastruktur ermöglichen, indem es Ersatzgeldzahlungen sowie Fördermaßnahmen bündelt und in eine kohärente Naturflächenkulisse lenkt. In der Kulisse muss ein Vorrang des Naturschutzes im Sinne eines überragenden öffentlichen Interesses gelten. In der Naturflächenkulisse sind beschleunigte Verfahren zur Umsetzung von Natur-schutzmaßnahmen zu ermöglichen. ",
+      "recipients": [
+        "BKAmt"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit naturschutzfachlichen Aspekten und der Flächenplanung für natürliche Infrastruktur. Diese Themen fallen nicht in den Zuständigkeitsbereich der Unterabteilung IIIA des BMWK, die sich auf Energiepolitik, Strommarktregulierung und Versorgungssicherheit konzentriert.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Einführung einer Gemeinschaftsaufgabe Naturschutz und Klimaanpassung",
+      "sending_date": "2026-10-21",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/f1/bb/877406/Stellungnahme-Gutachten-SG2611170017.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170017",
+      "summary": "Der Deutsche Naturschutzring <b>fordert die Einführung</b> einer <b>Gemeinschaftsaufgabe Naturschutz und Klimaanpassung</b> (GANK) als eigenständiges Finanzierungsinstrument von Bund und Ländern. Die Organisation argumentiert, dass bestehende Instrumente wie die GAK den Anforderungen an eine zielgerichtete <b>Klimaanpassung</b> und den Schutz der <b>natürlichen Infrastruktur</b> nicht gerecht werden. Durch die neue Gemeinschaftsaufgabe sollen Planung, Umsetzung und Finanzierung von Maßnahmen besser koordiniert und synergetisch genutzt werden. Die Unterzeichner betonen, dass neben der Dekarbonisierung ein stärkerer Fokus auf die Anpassung an Klimafolgen notwendig ist. Sie appellieren an die adressierten Ministerien, auf eine entsprechende <b>grundgesetzliche Verankerung</b> und Ausgestaltung hinzuwirken. Ziel ist es, die Kommunen bei der Bewältigung von klimabedingten Herausforderungen wie Hitzewellen und Extremwetterereignissen effektiver zu unterstützen.",
+      "register_description": "Wir setzen uns für die Einführung einer Gemeinschaftsaufgabe Naturschutz und Klimaanpassung als eigenständiges Instrument zur gemeinsamen Finanzierung der entsprechenden Aufgaben durch Bund und Länder ein. Sie würde wesentlich dazu beitragen, bei der Klimaanpassung, der Verbesserung der natürlichen Infrastruktur bzw. bei den sich aus der Wiederherstellungsverordnung ergebenden Aufgaben nachhaltige Umsetzungserfolge zu erzielen.    ",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit naturschutzfachlichen und klimaanpassungspolitischen Finanzierungsinstrumenten, die nicht in den Zuständigkeitsbereich der Unterabteilung IIIA (Energiepolitik) des BMWK fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
+    },
+    {
+      "register_number": "R001103",
+      "org_name": "Deutscher Naturschutzring, Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen (DNR) e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R001103/88648",
+      "regulatory_project_title": "Einreichung eines nationalen Klimasozialsplans basierend auf der Verordnung (EU) 2023/955",
+      "sending_date": "2026-11-06",
+      "upload_date": "2026-11-17",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/66/33/877404/Stellungnahme-Gutachten-SG2611170010.pdf",
+      "pdf_pages": 2,
+      "sg_number": "SG2611170010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611170010",
+      "summary": "Die Klima-Allianz Deutschland und weitere Verbände <b>fordern die zügige Einreichung</b> des nationalen Klima-Sozialplans bei der Europäischen Kommission. Die Organisationen kritisieren die bisherige Verzögerung und betonen die Notwendigkeit einer <b>sozialen Flankierung des ETS 2</b>. Ziel ist es, einkommensschwache Haushalte durch gezielte Maßnahmen vor hohen Energiepreisen zu entlasten und den Umstieg auf klimafreundliche Alternativen zu fördern. Ein frühzeitiges Handeln soll zudem die <b>Akzeptanz für Klimaschutzmaßnahmen</b> stärken und ein europäisches Signal für eine verlässliche soziale Absicherung setzen. Die Verbände mahnen an, dass eine Verschiebung des ETS 2 auf 2028 keine Begründung für weitere Verzögerungen bei der Ausarbeitung des Plans sein darf. Abschließend fordern die Unterzeichner eine <b>Intensivierung des Dialogs</b> und eine stärkere zivilgesellschaftliche Beteiligung bei der weiteren Ausgestaltung.",
+      "register_description": "Forderung der Einführung von Maßnahmen, die im Bereich Verkehr und Gebäude einkommensschwache Haushalte nach Einführung des ETS2 entlasten und Klimaschutz fördern.",
+      "recipients": [
+        "BMUKN"
+      ],
+      "fields": [
+        {
+          "code": "FOI_EU_LAWS",
+          "label": "EU-Gesetzgebung"
+        }
+      ],
+      "priority": 2,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Klima-Sozialplan zur sozialen Flankierung des ETS 2 (Gebäude/Verkehr). Diese Themenbereiche sind gemäß der Ausschlussliste für die Unterabteilung IIIA (BMWE) nicht relevant, da sie primär den Bereich Gebäudeenergie/Wärmewende und Verkehrspolitik betreffen.",
       "summary_quelle": "pdf_text",
       "gemini_status": "filtered"
     },
@@ -5086,6 +5987,873 @@
       "gemini_relevanz": "Das Dokument behandelt die regulatorische Ausgestaltung von Wärmenetzen, Preisbildung und Verbraucherschutz, was direkt in den Bereich der Wärmewende und Energiepolitik fällt.",
       "summary_quelle": "pdf_text",
       "gemini_status": "cached"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Getrennte, ambitionierte Grüngas-, Grünheizöl- & Grünflüssiggasquoten mit technologieoffener Anrechnung ohne Mehrfach- oder Doppelförderung einführen",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3d/63/877873/Stellungnahme-Gutachten-SG2611050037.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611050037",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050037",
+      "summary": "Das Hauptstadtbüro Bioenergie und der Bundesverband Bioenergie <b>fordern getrennte, ambitionierte Quoten</b> für Gas, Heizöl und Flüssiggas, um Investitionssicherheit zu gewährleisten. Die Verbände <b>lehnen Mehrfachanrechnungen</b> für Wasserstoff ab, da diese den Wettbewerb verzerren und keine realen Treibhausgaseinsparungen bewirken. Zudem <b>verlangen sie den Ausschluss</b> von Energiemengen, die bereits durch andere Mechanismen wie EEG, KWKG oder Klimaschutzverträge gefördert werden, um Doppelförderungen zu vermeiden. Eine <b>Anrechnung von nicht über das Gasnetz transportiertem Biogas</b> wird als notwendig erachtet, um alternative Versorgungswege zu sichern. Die Verbände <b>unterstützen ein technologieoffenes Opt-In</b> für Industrie und Wärmenetze, sofern alle nachhaltigen Energieträger einbezogen werden. Abschließend wird eine <b>langfristige Planungssicherheit für Netzanschlüsse</b> von Biomethananlagen angemahnt, da die aktuelle regulatorische Unsicherheit Investitionen hemmen könnte.",
+      "register_description": "HBB und BBE fordern getrennte, ambitionierte Quoten für Gas, Heizöl und Flüssiggas mit einem langfristigen Quotenpfad bis 2045. Auch nicht über das öffentliche Gasnetz transportiertes Biogas soll anrechenbar sein. Bereits erheblich geförderte Energiemengen sind auszuschließen, um Doppelförderungen zu verhindern. Flexibilitätsmechanismen sollen die tatsächliche Nachfrage nach erneuerbaren Brennstoffen nicht gefährden. Mehrfachanrechnungen, insbesondere für Wasserstoff, werden abgelehnt. Die Verbände unterstützen eine freiwillige Quotenteilnahme von Industrie und Wärmenetzen, sofern alle nachhaltigen Energieträger berücksichtigt werden. Ergänzend fordern sie langfristig verlässliche Netzanschlussbedingungen für Biomethan.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung einer Grüngas- und Grünheizölquote, was unter die Themenfelder EU-Energiepolitik, Klimaschutz und Erneuerbare Energien fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Bioenergie & Biomethan in Netzentwicklungsszenarien realistisch berücksichtigen & ihre langfristigen Flexibilitäts- & Versorgungspotenziale abbilden",
+      "sending_date": "2026-09-28",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/27/5b/877869/Stellungnahme-Gutachten-SG2611050035.pdf",
+      "pdf_pages": 31,
+      "sg_number": "SG2611050035",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050035",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> die Szenariorahmen für die Netzentwicklungspläne Strom und Gas/Wasserstoff, da diese die Potenziale der Bioenergie <b>systematisch unterschätzen</b>. Die Organisation fordert, die Stromerzeugung aus Biomasse langfristig auf dem heutigen Niveau zu <b>stabilisieren</b> und deren <b>Flexibilitätspotenziale</b> stärker zu berücksichtigen. Zudem wird eine <b>Anhebung der installierten Leistung</b> für Biomasseanlagen verlangt, um den Bedarf an neuen Wasserstoffkraftwerken zu senken. Für das Gasnetz wird eine <b>umfangreichere Nutzung von Biomethan</b> als kostengünstige Option zur Versorgungssicherheit vorgeschlagen. Die Organisation bemängelt zudem das Fehlen einer eigenständigen Abfrage zu zukünftigen Biomethanbedarfen, was zu einem strukturellen Bias gegenüber Wasserstoff führe. Abschließend wird eine <b>Investitionssicherheit</b> für Neuanlagen und Bestandsanlagen durch eine entsprechende EnWG-Reform angemahnt.",
+      "register_description": "Das HBB kritisiert, dass die Szenariorahmen für die Netzentwicklungspläne Strom und Gas/Wasserstoff die Potenziale der Bioenergie unterschätzen. Insbesondere die angenommene Absenkung der Stromerzeugung aus Biomasse auf 9 TWh bis 2045 widerspreche den energiepolitischen Zielen. Mindestens ein Stromszenario soll eine langfristig stabile Biomassestromerzeugung und zusätzliche flexible Leistung berücksichtigen. Für das Gasnetz fordert das HBB realistischere Annahmen zu Biomethan, erneuerbarem Methan, industriellen Bedarfen und Versorgungssicherheit. Die Szenarien sollen bestehende Anlagen, regionale Stoffkreisläufe sowie die langfristige Nutzung von Methaninfrastruktur angemessen einbeziehen.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Berücksichtigung von Bioenergie und Biomethan in den Szenariorahmen für die Netzentwicklungspläne, was unter die Themenfelder 'Klimaschutz & Energiewende' sowie 'Stromerzeugung & Kraftwerke' der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Flexible Bioenergieanlagen von statischen Einspeiseentgelten ausnehmen und wirtschaftlichen Bestandsschutz über die gesamte Betriebsdauer sichern",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/1b/877867/Stellungnahme-Gutachten-SG2611050034.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611050034",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050034",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>lehnt</b> die Einführung kapazitätsbasierter Einspeiseentgelte für flexible Bioenergieanlagen <b>ab</b>, solange keine dynamische Netzentgeltsystematik existiert. Die Organisation <b>fordert eine Ausnahme</b> für flexible Anlagen von diesen Entgelten bis zur Einführung entsprechender Dynamisierungsmechanismen. Zudem wird verlangt, die <b>Übergangsregelung</b> für Bestandsanlagen auf den gesamten Betriebszeitraum auszudehnen, um Wettbewerbsnachteile gegenüber fossilen Gaskraftwerken zu vermeiden. Die aktuelle Ausgestaltung der Netzentgelte wird als <b>Fehlanreiz</b> für Investitionen in die Flexibilisierung kritisiert. Des Weiteren warnt die Organisation vor der wirtschaftlichen Gefährdung durch den Wegfall der vermiedenen Netzentgelte ohne kompensierende Rahmenbedingungen. Eine <b>Stilllegung</b> von Anlagen könnte dadurch drohen, was auch die regionale Wärmeversorgung negativ beeinflussen würde.",
+      "register_description": "Das HBB lehnt kapazitätsbasierte Einspeiseentgelte für flexible Bioenergieanlagen ab, solange keine dynamische, netzdienliche Entgeltsystematik besteht. Hohe Anschlussleistungen ermöglichen eine bedarfsgerechte Stromerzeugung, würden durch pauschale Entgelte jedoch wirtschaftlich bestraft. Gefordert wird deshalb eine Ausnahme für flexible Anlagen bis zur Dynamisierung der Entgelte. Zudem soll die Übergangsregelung für Bestandsanlagen während ihrer gesamten Betriebsdauer gelten, um Wettbewerbsnachteile gegenüber neuen fossilen Kraftwerken zu vermeiden. Der Wegfall vermiedener Netzentgelte soll durch verlässliche wirtschaftliche Rahmenbedingungen aufgefangen werden.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Netzentgeltsystematik für Stromerzeugungsanlagen, was direkt in den Bereich Strommarktregulierung und Erneuerbare Energien der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "EEG-Entwürfe grundlegend nachbessern, Ausschreibungsvolumen erhöhen und langfristige Investitionsperspektiven für Bioenergie sichern",
+      "sending_date": "2026-07-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/32/6a/877865/Stellungnahme-Gutachten-SG2611050033.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2611050033",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050033",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> den Kabinettsentwurf zum EEG 2027 als unzureichend für den Erhalt der Branche und <b>fordert</b> umfassende Nachbesserungen. Die Organisation <b>verlangt</b> eine Anhebung des Biomasse-Ziels auf 19,3 GW sowie eine Erhöhung des jährlichen Ausschreibungsvolumens auf 2.500 MW. Zudem wird die <b>Streichung des Maisdeckels</b> sowie eine <b>Verlängerung des zweiten Vergütungszeitraums</b> auf 15 Jahre gefordert, um Investitionssicherheit zu gewährleisten. Zur Flexibilisierung der Stromerzeugung wird eine <b>Anhebung des Flexibilitätszuschlags</b> auf 130 Euro/kW sowie die Zulassung von Batteriespeichern als Option vorgeschlagen. Abschließend wird eine <b>Anpassung der Anschlussregelung</b> für Güllekleinanlagen und eine Erweiterung der zulässigen Einsatzstoffe angeregt.",
+      "register_description": "Das HBB bewertet den Kabinettsentwurf zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung des Bioenergieanlagenbestands. Gefordert werden mindestens 2.500 MW Ausschreibungsvolumen jährlich, ein höheres Biomasse-Ziel und die Streichung des Maisdeckels. Der zweite Vergütungszeitraum soll 15 Jahre betragen, der Flexibilitätszuschlag auf 130 Euro/kW steigen und die Begrenzung der Betriebsviertelstunden durch eine leistungsbezogene Regelung ersetzt werden. Weitere Vorschläge betreffen flexible Netzanschlüsse, Batteriespeicher, Biomethan, Kleinanlagen, zusätzliche Vergütungsmöglichkeiten und den Schutz bestehender Förderansprüche.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument ist eine detaillierte Stellungnahme zum EEG 2027, welches direkt in den Themenbereich Erneuerbare Energien (national) der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "EEG-Entwürfe grundlegend nachbessern, Ausschreibungsvolumen erhöhen und langfristige Investitionsperspektiven für Bioenergie sichern",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e5/e1/877863/Stellungnahme-Gutachten-SG2611050032.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2611050032",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050032",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> den Referentenentwurf zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung des Bioenergieanlagenbestands. Die Organisation <b>fordert eine Anhebung der Ausschreibungsvolumina</b> auf 2.500 MW jährlich sowie eine <b>Streichung des Maisdeckels</b>, um die Wirtschaftlichkeit und Flexibilisierung zu sichern. Zudem wird eine <b>Verlängerung des zweiten Vergütungszeitraums</b> auf 15 Jahre und eine <b>Anhebung des Flexibilitätszuschlags</b> auf 130 Euro/kW verlangt. Die Begrenzung der Betriebsviertelstunden soll durch eine leistungsbezogene Regelung ersetzt werden, um Stilllegungen zu vermeiden. Des Weiteren plädiert die Organisation für die <b>Zulassung von Batteriespeichern</b> als Flexibilitätsoption und die <b>Anhebung der Bagatellgrenze</b> für Kleinanlagen auf 750 kW. Abschließend wird eine rückwirkende Korrektur der Vergütungsbegrenzung für Bestandsanlagen gefordert.",
+      "register_description": "Das HBB bewertet den Kabinettsentwurf zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung des Bioenergieanlagenbestands. Gefordert werden mindestens 2.500 MW Ausschreibungsvolumen jährlich, ein höheres Biomasse-Ziel und die Streichung des Maisdeckels. Der zweite Vergütungszeitraum soll 15 Jahre betragen, der Flexibilitätszuschlag auf 130 Euro/kW steigen und die Begrenzung der Betriebsviertelstunden durch eine leistungsbezogene Regelung ersetzt werden. Weitere Vorschläge betreffen flexible Netzanschlüsse, Batteriespeicher, Biomethan, Kleinanlagen, zusätzliche Vergütungsmöglichkeiten und den Schutz bestehender Förderansprüche.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt detailliert Stellung zum Referentenentwurf des EEG 2027, welches ein zentrales Regelungsvorhaben der Unterabteilung IIIA (Erneuerbare Energien) darstellt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Flexible Bioenergie beim Netzanschluss privilegieren, leistungsabhängige Baukostenzuschüsse vermeiden & Netzanschlusskapazitäten transparent vergeben",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/01/6f/877861/Stellungnahme-Gutachten-SG2611050031.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611050031",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050031",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> den Referentenentwurf des Netzanschlusspakets für eine mangelnde technologische Differenzierung zwischen fluktuierenden und steuerbaren Anlagen. Die Organisation <b>fordert</b>, flexible Bioenergieanlagen von pauschalen Baukostenzuschüssen auszunehmen und stattdessen <b>flexible Netzanschlussvereinbarungen</b> verpflichtend anzubieten. Zudem wird eine <b>Priorisierung</b> von steuerbaren Erzeugungsanlagen gegenüber Speichersystemen bei Netzanschlussbegehren verlangt. Die geplante Depriorisierung von Biomasseanlagen aufgrund niedriger Ausbauziele wird als <b>systemwidrig</b> abgelehnt, da sie die notwendige Flexibilisierung behindert. Abschließend wird ein <b>zweistufiges Reservierungsmodell</b> für Bestandsanlagen vorgeschlagen, um Investitionsrisiken beim Repowering zu minimieren.",
+      "register_description": "Das HBB fordert, beim Netzanschlusspaket zwischen wetterabhängigen und steuerbaren erneuerbaren Energien zu unterscheiden. Flexible Bioenergieanlagen dürfen weder durch pauschale Baukostenzuschüsse noch durch die nachrangige Behandlung von Netzanschlussbegehren benachteiligt werden. Begrüßt wird ihre Ausnahme vom Redispatch-Vorbehalt. Netzbetreiber sollen verpflichtet werden, flexible Netzanschlussvereinbarungen anzubieten, wenn reguläre Anschlüsse nicht möglich sind. Zusätzlich fordert das HBB transparente Kapazitätsinformationen mindestens auf Mittelspannungsebene und Reservierungsregeln, die den bestehenden Netzanschluss von Anlagen bei der Flexibilisierung berücksichtigen.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zum Referentenentwurf des Netzanschlusspakets und betrifft zentrale Themen der Unterabteilung IIIA, insbesondere Strommarktregulierung, Netzanschlussverfahren und Erneuerbare Energien.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Nachhaltigkeitszertifizierung für Biogas und Holz vereinfachen, Doppelmeldungen abschaffen und Bestandsschutz umfassend sichern.",
+      "sending_date": "2026-05-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b3/5b/877859/Stellungnahme-Gutachten-SG2611050030.pdf",
+      "pdf_pages": 26,
+      "sg_number": "SG2611050030",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050030",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>fordert einen grundlegenden Bürokratieabbau</b> bei der Nachhaltigkeitszertifizierung von Biogas und Holz. Die Organisation <b>kritisiert den hohen Verwaltungsaufwand</b> durch die Nabisy-Datenbank und die Unionsdatenbank und <b>schlägt eine Umstellung</b> der Nachweispflichten von quartalsweise auf jährlich vor. Zudem wird eine <b>risikoadäquate Anpassung</b> der Stichprobenkontrollen sowie eine <b>Reform der Antragsverfahren</b> für neue Biomassecodes verlangt. Die Branche <b>beantragt die umfassende Nutzung</b> der Bestandsschutzregelung der RED III bis Ende 2030 für alle relevanten Rechtsbereiche. Abschließend wird eine <b>vereinfachte Nachweisführung</b> für Anlagen zwischen 7,5 und 20 MW sowie eine <b>verhältnismäßige Ausgestaltung</b> von Sanktionen im EEG gefordert.",
+      "register_description": "Das HBB fordert einen grundlegenden Bürokratieabbau bei der Nachhaltigkeitszertifizierung von Biogas und Holzenergie. Nabisy soll modernisiert und eine doppelte Nachweisführung mit der EU-Unionsdatenbank verhindert werden. Nachhaltigkeitsnachweise sollen künftig jährlich statt quartalsweise erfolgen. Weitere Forderungen betreffen risikogerechte Stichprobenkontrollen, transparente Biomassecodes, vereinfachte THG-Berechnungen und eine praxistaugliche Bagatellgrenze. Der Bestandsschutz der RED III soll bis Ende 2030 umfassend genutzt, nationale Nachweissysteme zugelassen und ein vereinfachtes Zertifizierungsverfahren für Anlagen zwischen 7,5 und 20 MW eingeführt werden.\r\n",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Umsetzung der RED III in die Biomassestrom-Nachhaltigkeitsverordnung (BioSt-NachV) und schlägt konkrete Maßnahmen zur Vereinfachung der Nachhaltigkeitszertifizierung vor, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Bio-Treppe im GModG muss jährlich anwachsen & unnötige Restriktionen für Biomasse im Ordnungsrecht streichen.",
+      "sending_date": "2026-05-18",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/46/ae/877857/Stellungnahme-Gutachten-SG2611050028.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611050028",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050028",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>begrüßt</b> die Flexibilisierung des Rechtsrahmens, <b>kritisiert</b> jedoch die Streichung der bisherigen Bio-Treppe für Bestandsheizungen. Die Organisation <b>fordert</b> eine Ausdehnung der neuen Bio-Treppe auf alle seit 2024 installierten Gas- und Ölheizungen sowie einen jährlichen Anstieg der Quote bis auf 100 Prozent im Jahr 2045. Zudem wird die <b>Streichung der Maisdeckelung</b> sowie eine <b>Klarstellung bei Nachhaltigkeitsanforderungen</b> für kleine Biomasseanlagen verlangt. Importiertes Biomethan mit signifikanter Produktionsförderung soll von der Anrechnung auf die Bio-Treppe <b>ausgeschlossen</b> werden. Schließlich lehnt die Organisation die hälftige Kostenteilung für erneuerbare Brennstoffe im Kohlendioxidkostenaufteilungsgesetz ab.",
+      "register_description": "Die Bioenergieverbände begrüßen das Ziel, den Rechtsrahmen für Gebäude flexibler und praxistauglicher zu machen, kritisieren jedoch zentrale Punkte des Entwurfs: Durch die Streichung der bisherigen Bio-Treppe im GEG und das spätere Greifen der neuen Treppe entsteht eine Regelungslücke für seit 1.1.2024 installierte Öl-/Gasheizungen; diese seien in die neue Bio-Treppe zu überführen. Die Bio-Treppe soll darüber hinaus jährlich steigen und bis 2045/100% reichen. Importiertes, im Herkunftsland bereits signifikant gefördertes Biomethan soll nicht anrechenbar sein; außerdem werden Anpassungen bei PEF/Emissionswerten sowie BEW/BEG/KfN gefordert.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung der Bio-Treppe im Rahmen der GEG-Novelle und des GModG, was zentrale Themen der Unterabteilung IIIA (Klimaschutz & Energiewende, Erneuerbare Energien) betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Getrennte, ambitionierte Grüngas-, Grünheizöl- & Grünflüssiggasquoten mit technologieoffener Anrechnung ohne Mehrfach- oder Doppelförderung einführen",
+      "sending_date": "2026-10-30",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/7a/50/877836/Stellungnahme-Gutachten-SG2611050025.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611050025",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050025",
+      "summary": "Der Bundesverband Bioenergie e.V. und das Hauptstadtbüro Bioenergie <b>fordern getrennte, ambitionierte Quoten</b> für Gas, Heizöl und Flüssiggas, um Investitionssicherheit zu gewährleisten. Die Verbände <b>lehnen Mehrfachanrechnungen</b> für Wasserstoff ab, da diese den Wettbewerb verzerren und keine realen Treibhausgaseinsparungen bewirken. Zudem <b>verlangen sie den Ausschluss</b> bereits signifikant geförderter Energiemengen, um eine Doppelförderung zu vermeiden. Eine <b>Anrechnung von nicht über das Gasnetz transportiertem Biogas</b> wird als notwendig erachtet, um alternative Versorgungswege zu sichern. Die Verbände <b>unterstützen ein technologieoffenes Opt-In</b> für Industrie und Wärmenetze, sofern alle nachhaltigen Energieträger berücksichtigt werden. Abschließend <b>mahnen sie verlässliche Rahmenbedingungen</b> für den Netzanschluss von Biomethananlagen an, um die durch die Quote angestrebten Investitionen tatsächlich auszulösen.",
+      "register_description": "HBB und BBE fordern getrennte, ambitionierte Quoten für Gas, Heizöl und Flüssiggas mit einem langfristigen Quotenpfad bis 2045. Auch nicht über das öffentliche Gasnetz transportiertes Biogas soll anrechenbar sein. Bereits erheblich geförderte Energiemengen sind auszuschließen, um Doppelförderungen zu verhindern. Flexibilitätsmechanismen sollen die tatsächliche Nachfrage nach erneuerbaren Brennstoffen nicht gefährden. Mehrfachanrechnungen, insbesondere für Wasserstoff, werden abgelehnt. Die Verbände unterstützen eine freiwillige Quotenteilnahme von Industrie und Wärmenetzen, sofern alle nachhaltigen Energieträger berücksichtigt werden. Ergänzend fordern sie langfristig verlässliche Netzanschlussbedingungen für Biomethan.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich direkt mit der Ausgestaltung von Quoten für erneuerbare Brennstoffe im Wärmemarkt, was unter die Themenfelder Klimaschutz, Energie und Erneuerbare Energien fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Rechtssichere Überleitung bestehender Wärmelieferverträge & tragfähige Preis-, Vertrags- & Verbraucherschutzregelungen im neuen WPG sicherstellen",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/15/e1/877834/Stellungnahme-Gutachten-SG2611050024.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611050024",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050024",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>fordert eine automatische Überleitung</b> bestehender Wärmelieferverträge in das neue Wärmenetzgesetz, um administrativen Aufwand und Rechtsunsicherheiten zu vermeiden. Die Verbände verlangen, dass <b>Preisänderungsklauseln den Erzeugungsmix</b> sowie Investitions- und Finanzierungskosten abbilden können. Zur sachgerechten Abbildung der Kostenentwicklung wird die <b>Einführung eines Erneuerbaren-Wärmepreisindex</b> angeregt. Zudem sollen <b>Mehrkosten durch Brennstoffwechsel</b> analog zu Investitionen umlagefähig sein. Die zeitliche Begrenzung des Leistungsanpassungsrechts bei Überdimensionierung wird begrüßt, wobei eine klare Differenzierung zwischen Anschlussleistung und Wärmemenge gefordert wird. Kleine Wärmenetze unter 20 km Netzlänge sollen durch <b>Sonderregelungen vor unverhältnismäßigen Belastungen</b> durch Preisaufsicht und Berichtspflichten geschützt werden.",
+      "register_description": "Das HBB fordert eine automatische, zustimmungsfreie Überleitung bestehender Wärmelieferverträge in das neue Wärmenetzgesetz. Preisänderungsklauseln sollen den tatsächlichen Erzeugungsmix und die Kosten erneuerbarer Wärme abbilden. Investitionskosten und Mehrkosten beim Wechsel auf erneuerbare Brennstoffe müssen umlagefähig sein. Gefordert werden Rechtssicherheit bei unwirksamen Preisänderungsklauseln und ein Erneuerbaren-Wärmepreisindex. Das HBB begrüßt die zeitliche Begrenzung des Leistungsanpassungsrechts und fordert eine sachgerechte Ausgestaltung von Sonderkündigungsrechten. Kleine Wärmenetze unter 20 km Netzlänge sollen vor unverhältnismäßigen Belastungen durch Preisaufsicht und Berichtspflichten geschützt werden.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung des Wärmenetzpakets, insbesondere mit der Überleitung von Wärmelieferverträgen, Preisänderungsklauseln und der wirtschaftlichen Tragfähigkeit von Wärmenetzen, was direkt die Wärmewende und Sektorkopplung betrifft.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Bioenergie & Biomethan in Netzentwicklungsszenarien realistisch berücksichtigen & ihre langfristigen Flexibilitäts- & Versorgungspotenziale abbilden",
+      "sending_date": "2026-09-28",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/8c/ed/877832/Stellungnahme-Gutachten-SG2611050023.pdf",
+      "pdf_pages": 31,
+      "sg_number": "SG2611050023",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050023",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> die Entwürfe der Szenariorahmen für die Netzentwicklungspläne, da diese die Potenziale der Biomasse zur Stromerzeugung und Gasversorgung <b>systematisch unterschätzen</b>. Die Organisation fordert, die Stromerzeugung aus Biomasse langfristig auf dem heutigen Niveau zu <b>stabilisieren</b> und deren <b>Flexibilitätspotenziale</b> konsequent zu nutzen, anstatt den Rückbau zugunsten neuer Wasserstoffkraftwerke voranzutreiben. Zudem wird eine <b>höhere Nutzung von Biomethan</b> im Gasnetz verlangt, um die Versorgungssicherheit zu gewährleisten und den Hochlauf von Wasserstoff risikoärmer zu gestalten. Es wird bemängelt, dass die Szenarien im Widerspruch zu den energiepolitischen Zielen der Bundesregierung stehen und eine <b>unrealistische Zubauleistung</b> für Gaskraftwerke ansetzen. Abschließend empfiehlt die Organisation, die <b>Datenbasis für Biomethan</b> durch eine eigenständige Abfrage zu erweitern und Investitionssicherheit für Neuanlagen zu schaffen.",
+      "register_description": "Das HBB kritisiert, dass die Szenariorahmen für die Netzentwicklungspläne Strom und Gas/Wasserstoff die Potenziale der Bioenergie unterschätzen. Insbesondere die angenommene Absenkung der Stromerzeugung aus Biomasse auf 9 TWh bis 2045 widerspreche den energiepolitischen Zielen. Mindestens ein Stromszenario soll eine langfristig stabile Biomassestromerzeugung und zusätzliche flexible Leistung berücksichtigen. Für das Gasnetz fordert das HBB realistischere Annahmen zu Biomethan, erneuerbarem Methan, industriellen Bedarfen und Versorgungssicherheit. Die Szenarien sollen bestehende Anlagen, regionale Stoffkreisläufe sowie die langfristige Nutzung von Methaninfrastruktur angemessen einbeziehen.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Szenariorahmen für die Netzentwicklungspläne Strom und Gas/Wasserstoff, welche für die Unterabteilung IIIA (Strommarkt, Versorgungssicherheit, Klimaschutz) von zentraler Bedeutung sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Flexible Bioenergieanlagen von statischen Einspeiseentgelten ausnehmen und wirtschaftlichen Bestandsschutz über die gesamte Betriebsdauer sichern.",
+      "sending_date": "2026-09-18",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/09/9a/877830/Stellungnahme-Gutachten-SG2611050022.pdf",
+      "pdf_pages": 7,
+      "sg_number": "SG2611050022",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050022",
+      "summary": "Der Fachverband Biogas e.V. <b>lehnt</b> die im Entwurf der AgNes vorgesehenen <b>kapazitätsbasierten Einspeiseentgelte</b> für flexible Bioenergieanlagen ab. Der Verband argumentiert, dass diese Entgelte Investitionen in die <b>Flexibilisierung</b> bestrafen, da sie die Anschlussleistung statt der tatsächlichen Netzeinspeisung belasten. Bis zur Einführung einer dynamischen Entgeltsystematik wird eine <b>Ausnahme für netzdienliche Anlagen</b> gefordert. Zudem kritisiert der Verband die Übergangsregelung, da diese eine <b>Wettbewerbsverzerrung</b> gegenüber fossilen Gaskraftwerken schaffe. Es wird verlangt, die Übergangsregelung auf den <b>gesamten Betriebszeitraum</b> auszudehnen, um den Investitionsschutz zu wahren. Abschließend warnt der Verband vor Stilllegungen durch den Wegfall vermiedener Netzentgelte ohne adäquate Kompensation.",
+      "register_description": "Das HBB lehnt kapazitätsbasierte Einspeiseentgelte für flexible Bioenergieanlagen ab, solange keine dynamische, netzdienliche Entgeltsystematik besteht. Hohe Anschlussleistungen ermöglichen eine bedarfsgerechte Stromerzeugung, würden durch pauschale Entgelte jedoch wirtschaftlich bestraft. Gefordert wird deshalb eine Ausnahme für flexible Anlagen bis zur Dynamisierung der Entgelte. Zudem soll die Übergangsregelung für Bestandsanlagen während ihrer gesamten Betriebsdauer gelten, um Wettbewerbsnachteile gegenüber neuen fossilen Kraftwerken zu vermeiden. Der Wegfall vermiedener Netzentgelte soll durch verlässliche wirtschaftliche Rahmenbedingungen aufgefangen werden.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Netzentgeltsystematik für Stromerzeugungsanlagen, was direkt in den Zuständigkeitsbereich der Unterabteilung IIIA (Strommarktregulierung/Netzentgelte) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Bioenergiepotentiale in Nationaler Kreislaufwirtschaftsstrategie stärker berücksichtigen ",
+      "sending_date": "2026-07-30",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/58/20/877826/Stellungnahme-Gutachten-SG2611050021.pdf",
+      "pdf_pages": 5,
+      "sg_number": "SG2611050021",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050021",
+      "summary": "Der Fachverband Biogas e.V. <b>begrüßt</b> den Referentenentwurf zur Änderung des Kreislaufwirtschaftsgesetzes, fordert jedoch weitergehende Maßnahmen zur <b>Stärkung der Bioabfallverwertung</b>. Der Verband verlangt eine <b>nationale Rechtsverordnung</b> zur Regelung des Endes der Abfalleigenschaft für Bioabfälle und daraus gewonnene Produkte wie Gärreste. Zudem wird eine <b>Vereinfachung der Nachweispflichten</b> gefordert, um bürokratische Hürden abzubauen und die Nachhaltigkeitszertifizierung gemäß RED zu erleichtern. Zur Steigerung der Qualität und Quantität von Bioabfällen wird eine spezifische Rechtsverordnung zur <b>Verbesserung der getrennten Sammlung</b> befürwortet. Die Vergärung von Bioabfällen wird als zentraler Baustein für die Rohstoffsouveränität und die Energiewende hervorgehoben. Abschließend wird eine klare rechtliche Gleichstellung hochwertiger nationaler Produkte gegenüber EU-zertifizierten Düngeprodukten angemahnt.",
+      "register_description": "Der FvB fordert im Rahmen der KrWG-Novelle den Abbau bürokratischer Hürden bei der Bioabfallverwertung. Ordnungsgemäß verwertete Bioabfälle sollen grundsätzlich als nachhaltig anerkannt werden, um doppelte Zertifizierungs- und Nachweispflichten zu vermeiden. Eine nationale Rechtsverordnung nach § 5 KrWG soll das Ende der Abfalleigenschaft für Bioabfälle und daraus gewonnene Produkte wie Gärprodukte und Komposte regeln. Zudem fordert der Verband eine Rechtsverordnung auf Grundlage von § 10 KrWG zur Verbesserung der getrennten Bioabfallsammlung, zur Verringerung von Fremdstoffen und zur Steigerung der erfassten Bioabfallmengen.\r\n",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die energetische Nutzung von Bioabfällen (Biogas) und die damit verbundene regulatorische Einordnung im Rahmen der Kreislaufwirtschaft, was Schnittstellen zur Erneuerbare-Energien-Politik und zur Sektorkopplung aufweist.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "EEG-Entwürfe grundlegend nachbessern, Ausschreibungsvolumen erhöhen und langfristige Investitionsperspektiven für Bioenergie sichern.",
+      "sending_date": "2026-07-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e8/74/877824/Stellungnahme-Gutachten-SG2611050020.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2611050020",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050020",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert den Kabinettsentwurf</b> zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung der Bioenergiebranche. Die Organisation <b>fordert eine Anhebung des Biomasse-Ziels</b> auf 19,3 GW sowie eine Erhöhung der <b>Ausschreibungsvolumina auf 2.500 MW jährlich</b> bis 2032. Zudem wird die <b>Streichung des Maisdeckels</b> verlangt, um die Wirtschaftlichkeit und saisonale Flexibilisierung von Anlagen zu verbessern. Weitere Forderungen umfassen die <b>Verlängerung des zweiten Vergütungszeitraums</b> auf 15 Jahre und eine Anhebung des <b>Flexibilitätszuschlags auf 130 Euro/kW</b>. Die Begrenzung der Betriebsviertelstunden soll durch eine leistungsbezogene Regelung ersetzt werden, um Investitionshemmnisse abzubauen. Abschließend wird die <b>Einbeziehung von Batteriespeichern</b> als Flexibilitätsoption sowie eine verbesserte Anschlussregelung für Kleinanlagen gefordert.",
+      "register_description": "Das HBB bewertet den Kabinettsentwurf zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung des Bioenergieanlagenbestands. Gefordert werden mindestens 2.500 MW Ausschreibungsvolumen jährlich, ein höheres Biomasse-Ziel und die Streichung des Maisdeckels. Der zweite Vergütungszeitraum soll 15 Jahre betragen, der Flexibilitätszuschlag auf 130 Euro/kW steigen und die Begrenzung der Betriebsviertelstunden durch eine leistungsbezogene Regelung ersetzt werden. Weitere Vorschläge betreffen flexible Netzanschlüsse, Batteriespeicher, Biomethan, Kleinanlagen, zusätzliche Vergütungsmöglichkeiten und den Schutz bestehender Förderansprüche.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt detailliert Stellung zum EEG 2027 und adressiert zentrale Themen der Unterabteilung IIIA wie Erneuerbare Energien, Ausschreibungsvolumina und Flexibilisierung von Biomasseanlagen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "EEG-Entwürfe grundlegend nachbessern, Ausschreibungsvolumen erhöhen und langfristige Investitionsperspektiven für Bioenergie sichern.",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/3e/80/877822/Stellungnahme-Gutachten-SG2611050019.pdf",
+      "pdf_pages": 48,
+      "sg_number": "SG2611050019",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050019",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> den Referentenentwurf zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung des Bioenergieanlagenbestands. Die Organisation <b>fordert</b> eine Anhebung der jährlichen Ausschreibungsvolumina auf 2.500 MW sowie eine <b>Streichung des Maisdeckels</b>, um die Wirtschaftlichkeit und saisonale Flexibilisierung zu sichern. Zudem wird eine <b>Verlängerung des zweiten Vergütungszeitraums</b> auf 15 Jahre und eine Anhebung des Flexibilitätszuschlags auf 130 Euro/kW verlangt. Die Begrenzung der Betriebsviertelstunden soll durch eine leistungsbezogene Regelung ersetzt werden, um Investitionshemmnisse abzubauen. Des Weiteren plädiert die Organisation für eine <b>Anhebung der Bagatellgrenze</b> für Kleinanlagen auf 750 kW und eine Öffnung der Anschlussregelung für weitere ökologisch wertvolle Substrate. Abschließend wird die Möglichkeit einer erneuten Ausschreibungsteilnahme für Bestandsanlagen zur weiteren Flexibilisierung gefordert.",
+      "register_description": "Das HBB bewertet den Kabinettsentwurf zum EEG 2027 als unzureichend für den Erhalt und die Weiterentwicklung des Bioenergieanlagenbestands. Gefordert werden mindestens 2.500 MW Ausschreibungsvolumen jährlich, ein höheres Biomasse-Ziel und die Streichung des Maisdeckels. Der zweite Vergütungszeitraum soll 15 Jahre betragen, der Flexibilitätszuschlag auf 130 Euro/kW steigen und die Begrenzung der Betriebsviertelstunden durch eine leistungsbezogene Regelung ersetzt werden. Weitere Vorschläge betreffen flexible Netzanschlüsse, Batteriespeicher, Biomethan, Kleinanlagen, zusätzliche Vergütungsmöglichkeiten und den Schutz bestehender Förderansprüche.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt detailliert Stellung zum Referentenentwurf des EEG 2027 und adressiert zentrale Themen der Unterabteilung IIIA wie Erneuerbare Energien, Ausschreibungsvolumina und Rahmenbedingungen für Biomasseanlagen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Flexible Bioenergie beim Netzanschluss privilegieren, leistungsabhängige Baukostenzuschüsse vermeiden & Netzanschlusskapazitäten transparent vergeben",
+      "sending_date": "2026-07-22",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/d1/46/877828/Stellungnahme-Gutachten-SG2611050018.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611050018",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050018",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>kritisiert</b> den Entwurf des Netzanschlusspakets für eine mangelnde technologische Differenzierung zwischen fluktuierenden und steuerbaren Anlagen. Die Organisation <b>lehnt pauschale Baukostenzuschüsse</b> ab, da diese die durch das EEG incentivierte Flexibilisierung von Biogasanlagen ökonomisch konterkarieren würden. Stattdessen <b>fordert</b> sie die verpflichtende Bereitstellung <b>flexibler Netzanschlussvereinbarungen</b> als verhältnismäßige Alternative zu starren Einspeisebeschränkungen. Zudem warnt die Organisation vor einer Depriorisierung von Biomasseanlagen bei Netzanschlussbegehren aufgrund zu niedriger Ausbauziele. Sie <b>schlägt ein zweistufiges Reservierungsmodell</b> vor, um Bestandsanlagen beim Repowering nicht gegenüber Neuprojekten zu benachteiligen. Abschließend wird eine <b>technologiespezifische Differenzierung</b> bei der Behandlung von Speicher- und Erzeugungsanlagen im Netzanschlussverfahren angemahnt.",
+      "register_description": "Das HBB fordert, beim Netzanschlusspaket zwischen wetterabhängigen und steuerbaren erneuerbaren Energien zu unterscheiden. Flexible Bioenergieanlagen dürfen weder durch pauschale Baukostenzuschüsse noch durch die nachrangige Behandlung von Netzanschlussbegehren benachteiligt werden. Begrüßt wird ihre Ausnahme vom Redispatch-Vorbehalt. Netzbetreiber sollen verpflichtet werden, flexible Netzanschlussvereinbarungen anzubieten, wenn reguläre Anschlüsse nicht möglich sind. Zusätzlich fordert das HBB transparente Kapazitätsinformationen mindestens auf Mittelspannungsebene und Reservierungsregeln, die den bestehenden Netzanschluss von Anlagen bei der Flexibilisierung berücksichtigen.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt Stellung zu einem Referentenentwurf, der zentrale Aspekte der Strommarktregulierung, des Netzanschlusses und der Integration erneuerbarer Energien (EEG/EnWG) betrifft, welche in den Zuständigkeitsbereich der Unterabteilung IIIA fallen.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "UVP-Vorprüfungspflichten für Warmwasserleitungen reduzieren & die vorgesehene Erleichterung beim Nachweisnachreichen im Genehmigungsv. unterstützen",
+      "sending_date": "2026-07-06",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/b2/bc/877820/Stellungnahme-Gutachten-SG2611050017.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611050017",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050017",
+      "summary": "Der Fachverband Biogas e.V. <b>schlägt vor</b>, die <b>UVP-Vorprüfungspflicht</b> für Dampf- und Warmwasserleitungen im Außenbereich deutlich zu <b>reduzieren</b>. Der Verband kritisiert die aktuellen Schwellenwerte als überzogen und fordert eine Anhebung der Leitungslängen oder die Einführung von Mindestdurchmessern als Kriterium. Eine Vorprüfung soll künftig primär nur noch bei Betroffenheit von schutzwürdigen Gebieten wie Natura 2000 erforderlich sein. Diese Maßnahmen sollen den <b>Ausbau lokaler Wärmenetze</b> im Zuge der Wärmewende entbürokratisieren. Zudem <b>begrüßt</b> der Verband die geplante Änderung der 9. BImSchV, welche das <b>Nachreichen von Standsicherheitsnachweisen</b> in Genehmigungsverfahren ermöglicht. Dies soll die Verfahren für Biogasanlagen und Wärmenetze spürbar erleichtern.",
+      "register_description": "Der FvB fordert im Rahmen des Umweltmodernisierungsgesetzes (UMoG) eine Anpassung der UVP-Vorprüfung für Dampf- und Warmwasserleitungen. Kurze Leitungen im Außenbereich sollen nur bei Betroffenheit schutzwürdiger Gebiete einer standortbezogenen Vorprüfung unterliegen. Zudem regt der Verband höhere Schwellenwerte an, etwa durch größere Mindestlängen oder Mindestdurchmesser. Im Entwurf der Umweltmodernisierungsverordnung (UMoV) begrüßt der FvB ausdrücklich die Änderung der 9. BImSchV, durch die Standsicherheitsnachweise im immissionsschutzrechtlichen Genehmigungsverfahren nachgereicht werden können. Damit sollen Genehmigungsverfahren für Biogasanlagen und Wärmenetze erleichtert werden.\r\n",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die Genehmigungsverfahren für Biogasanlagen und Wärmenetze, welche für die Wärmewende und die Sektorkopplung im Rahmen der Energiewende relevant sind.",
+      "summary_quelle": "pdf_text",
+      "abweichung": true,
+      "abweichung_hinweis": "Das Dokument behandelt: Gesetz und Verordnung zur Stärkung eines modernen, digitalen und wirksamen Umweltschutzes (UMoG/UMoV)",
+      "abweichung_thema": "UVP-Vorprüfung Wärmeleitungen",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Netzanschlüsse von neuen Biomethananlagen langfristig ermöglichen",
+      "sending_date": "2026-06-30",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/57/78/877818/Stellungnahme-Gutachten-SG2611050016.pdf",
+      "pdf_pages": 15,
+      "sg_number": "SG2611050016",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050016",
+      "summary": "Der Fachverband Biogas e.V. <b>fordert eine bundesweite Privilegierung</b> für den Netzanschluss von Biomethananlagen im Rahmen einer GasNZV-Nachfolgeregelung. Die Ausweisung von Nachranggebieten soll durch staatliche Stellen erfolgen und an objektive Kriterien wie Investitionsschutz und Grüngaspotenziale gebunden sein. Der Verband <b>plädiert für ein Eigenerrichtungsrecht</b> der Anlagenbetreiber bei Netzanschlüssen, um Kosten zu senken und die Umsetzung zu beschleunigen. Zudem wird eine <b>Mindestverfügbarkeit von 96 %</b> als essenziell für die Wirtschaftlichkeit und Investitionssicherheit verteidigt. Zur Verbesserung des Verhandlungsgleichgewichts gegenüber Netzbetreibern werden verbindliche Standards und eine <b>Schlichtungsstelle vorgeschlagen</b>. Abschließend warnt der Verband vor einer <b>Lücke bei der Kostenteilung</b> durch das Auslaufen der GasNEV und fordert eine klare Haftungsabgrenzung.",
+      "register_description": "Der FvB fordert eine GasNZV-Nachfolgeregelung, die Biomethan-Netzanschlüsse grundsätzlich bundesweit privilegiert. Einzelne Nachranggebiete sollen nur anhand objektiver Kriterien und unter politischer oder behördlicher Verantwortung ausgewiesen werden. Dabei sind Bestandsanlagen, Grüngaspotenziale, Speicher- und Transportmöglichkeiten sowie die Versorgungssicherheit zu berücksichtigen. Anlagenbetreiber sollen Netzanschlüsse vollständig oder teilweise selbst errichten dürfen; technische Vorgaben, Abnahme und Netzbetrieb verbleiben beim Netzbetreiber. Eine Flexibilisierung der bisherigen Anschlussverfügbarkeit von 96 % wird unterstützt, ein vollständiger Verzicht auf eine gesetzliche Mindestverfügbarkeit jedoch abgelehnt.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die regulatorische Ausgestaltung des Netzanschlusses für Biomethan, was unter die Themenfelder 'Stromerzeugung & Kraftwerke' sowie 'Erneuerbare Energien' fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Die bewährten Hygienereg. für die Verwertung von Küchen- und Speiseabfällen in Biogas- und Kompostierungsanlagen bei der TierNebV-Novelle beibehalten",
+      "sending_date": "2026-06-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/97/877816/Stellungnahme-Gutachten-SG2611050015.pdf",
+      "pdf_pages": 3,
+      "sg_number": "SG2611050015",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050015",
+      "summary": "Der <b>Fachverband Biogas e.V. begruesst</b> die geplante <b>Anpassung der TierNebV</b> an europaeisches Recht und fordert die <b>Beibehaltung der bisherigen nationalen Regelungen</b> fuer die Verwertung von Kuechen- und Speiseabfaellen. Der Verband betont, dass die bisherigen Verweise auf die Bioabfallverordnung eine <b>praxistaugliche Behandlung</b> sowie die notwendige <b>hygienische Unbedenklichkeit</b> der Gaerprodukte sicherstellen. Die Verwertung dieser Stoffe leiste einen wesentlichen Beitrag zur <b>erneuerbaren Energieerzeugung</b> und zur nachhaltigen Kreislaufwirtschaft. Durch die Vergaerung koennen fossile Energietraeger substituiert und Treibhausgasemissionen reduziert werden. Zudem unterstreicht der Verband die Bedeutung der Rueckfuehrung von Naehrstoffen und Kohlenstoff in den Boden zur Foerderung der Bodenfruchtbarkeit. Eine Aenderung der bestehenden Regelungen koennte die etablierten Prozesse in der Bioabfallwirtschaft unnoetig erschweren.",
+      "register_description": "Der FvB begrüßt die Anpassung der TierNebV an das geltende europäische Hygienerecht und fordert, die bisherigen nationalen Regelungen für die Verwertung von Küchen- und Speiseabfällen in Biogas- und Kompostierungsanlagen beizubehalten. Insbesondere die Verweise auf die Bioabfallverordnung sollen erhalten bleiben. Diese gewährleistet nach Auffassung des Verbandes eine praxistaugliche Behandlung sowie die phyto- und tierseuchenhygienische Unbedenklichkeit der entstehenden Gärprodukte und Komposte. Der Verband betont die Bedeutung dieser Verwertung für die Nährstoffrückführung, Kreislaufwirtschaft, erneuerbare Energieerzeugung und die Verringerung von Treibhausgasemissionen.\r\n",
+      "recipients": [
+        "BMLEH",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die energetische Nutzung von Biomasse und die damit verbundenen regulatorischen Rahmenbedingungen für Biogasanlagen, was unter den Bereich Erneuerbare Energien (national) fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Eine energetische Grüngasquote für den Wärmesektor mit verbindlichem Quotenpfad bis 100% im Jahr 2045 und massenbilanzieller Nachweisführung einführen",
+      "sending_date": "2026-06-23",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/a5/aa/877814/Stellungnahme-Gutachten-SG2611050014.pdf",
+      "pdf_pages": 10,
+      "sg_number": "SG2611050014",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050014",
+      "summary": "Der Fachverband Biogas e.V. <b>schlägt</b> die Einführung einer <b>energetischen Grüngasquote</b> für den Gebäudewärmesektor mit einem verbindlichen Quotenpfad bis 100 % im Jahr 2045 vor. Zur Sicherstellung der Investitionssicherheit fordert der Verband eine <b>massenbilanzielle Nachverfolgbarkeit</b> und lehnt den Erwerb von Herkunftsnachweisen zur Quotenerfüllung ab. Um einen fairen Wettbewerb zu gewährleisten, soll importiertes Biomethan mit signifikanter <b>Produktionsförderung</b> im Herkunftsland von der Anrechnung ausgeschlossen werden. Zudem empfiehlt der Verband die Einführung von <b>Banking and Borrowing</b> sowie einen Mechanismus zur automatischen Quotenanhebung bei Übererfüllung. Auf <b>Mehrfachanrechnungen</b> und Unterquoten soll zur Kostenminimierung und Transparenz verzichtet werden. Perspektivisch wird eine Ausweitung der Quote auf weitere Sektoren wie Verstromung und Industrie angestrebt.",
+      "register_description": "Der FvB schlägt eine energetische Grüngasquote für den Gebäudewärmesektor mit einem bereits bei Einführung festgelegten jährlichen Quotenpfad bis 100 % im Jahr 2045 vor. Anrechenbar sollen nur Gasmengen mit massenbilanziell nachgewiesenem Zusammenhang zwischen Erzeugung und Verbrauch sein. Der Verband fordert die Anrechnung nachhaltiger Gase auch außerhalb des öffentlichen Gasnetzes, die Übertragbarkeit von Quotenmengen und den Verzicht auf zusätzliche Rohstoffbegrenzungen, Unterquoten und Mehrfachanrechnungen. Erheblich produktionsgefördertes importiertes Biomethan soll ausgeschlossen werden. Perspektivisch wird eine Ausweitung auf weitere Gasverbrauchssektoren angestrebt\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit der Ausgestaltung einer Grüngasquote für den Wärmesektor, was direkt unter die Themenfelder Klimaschutz, Erneuerbare Energien und Energiepolitik fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Biogas-Privilegierungen in BauGB praxistauglich verankern & Satelliten-BHKW/Cluster rechtssicher ermöglichen.",
+      "sending_date": "2026-06-15",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/e6/9f/877808/Stellungnahme-Gutachten-SG2611050012.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611050012",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050012",
+      "summary": "Der Fachverband Biogas e.V. <b>begrüßt</b> die geplanten Erleichterungen für Biogasanlagen im BauGB-Entwurf, <b>kritisiert</b> jedoch die Beibehaltung restriktiver Regelungen und Befristungen. Der Verband <b>fordert</b> die <b>Entfristung</b> der Sonderregelungen für Biogasanlagen sowie eine <b>Erhöhung der Rohbiogasproduktionskapazität</b> auf 4 Millionen Normkubikmeter pro Jahr. Zudem wird eine <b>Privilegierung von Wärmespeichern</b> und deren Anbindungsinfrastruktur im Außenbereich verlangt, um die Flexibilisierung der Stromerzeugung zu unterstützen. Die <b>Beschränkung der Rohbiogaslieferung</b> auf privilegierte Anlagen soll gestrichen werden, um effiziente Kooperationen und Clusterbildungen zu ermöglichen. Schließlich wird eine <b>Erleichterung der Weiternutzung</b> ehemaliger Biogasanlagen-Standorte für Gärrestlagerkapazitäten angeregt, um Rückbauten zu vermeiden.",
+      "register_description": "Der FvB begrüßt die Entfristung und Teile der Reform von § 246d BauGB, kritisiert aber, dass zentrale Hemmnisse für Biogasprojekte im Außenbereich fortbestehen. Die derzeitige Privilegierung von Satelliten-BHKW scheitere am falschen „räumlich-funktionalen Zusammenhang“, obwohl Satelliten-BHKW typischerweise 0,5–8 km entfernt bei Wärmeabnehmern stehen müssen; die Regel ist neu zu fassen und idealerweise in § 35 Abs. 1 BauGB zu überführen. Ebenso soll die Privilegierung von Biogasaufbereitungsanlagen/Clustern so geändert werden, dass geeignete Einspeisepunkte und über Bebauungsplan zugelassene Erzeugungsstandorte nicht benachteiligt werden. Zudem fordert der Verband, Wärmespeicher und Leitungsinfrastruktur zu privilegieren, Schwellen zu modernisieren und Vollzugssicherheit herzustellen.\r\n",
+      "recipients": [
+        "BMWSB",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument betrifft die bauplanungsrechtliche Privilegierung von Biogasanlagen, Satelliten-BHKW und Wärmespeichern im Außenbereich, was direkt unter die Themenfelder 'Erneuerbare Energien (national)' und 'Klimaschutz & Energiewende' fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Nachhaltigkeitszertifizierung für Biogas und Holz vereinfachen, Doppelmeldungen abschaffen und Bestandsschutz umfassend sichern",
+      "sending_date": "2026-05-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/48/3f/877812/Stellungnahme-Gutachten-SG2611050010.pdf",
+      "pdf_pages": 26,
+      "sg_number": "SG2611050010",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050010",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>fordert einen grundlegenden Bürokratieabbau</b> bei der Nachhaltigkeitszertifizierung von Biogas und Holz. Die Organisation <b>schlägt vor, die Nachweisführung</b> von einer quartalsweisen auf eine jährliche Vorlage umzustellen und die Nabisy-Datenbank technisch zu modernisieren. Zudem wird eine <b>Verschiebung der Bagatellgrenze</b> auf eine produktionsbasierte Einheit sowie eine <b>vollumfängliche Nutzung des Bestandsschutzes</b> gemäß RED III bis Ende 2030 verlangt. Die Einführung der Unionsdatenbank (UDB) soll erst nach Schaffung einer funktionierenden Schnittstelle zu Nabisy erfolgen, um <b>Doppelmeldungen zu vermeiden</b>. Abschließend wird eine <b>Reform der Antragsstellung</b> für neue Biomassecodes mit verbindlichen Fristen und mehr Transparenz gefordert.",
+      "register_description": "Das HBB fordert einen grundlegenden Bürokratieabbau bei der Nachhaltigkeitszertifizierung von Biogas und Holzenergie. Nabisy soll modernisiert und eine doppelte Nachweisführung mit der EU-Unionsdatenbank verhindert werden. Nachhaltigkeitsnachweise sollen künftig jährlich statt quartalsweise erfolgen. Weitere Forderungen betreffen risikogerechte Stichprobenkontrollen, transparente Biomassecodes, vereinfachte THG-Berechnungen und eine praxistaugliche Bagatellgrenze. Der Bestandsschutz der RED III soll bis Ende 2030 umfassend genutzt, nationale Nachweissysteme zugelassen und ein vereinfachtes Zertifizierungsverfahren für Anlagen zwischen 7,5 und 20 MW eingeführt werden.\r\n",
+      "recipients": [
+        "BMUKN",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument adressiert direkt die Umsetzung der RED III in nationales Recht (BioSt-NachV) und schlägt konkrete Vereinfachungen für die Nachhaltigkeitszertifizierung von Biomasse vor, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R002106",
+      "org_name": "Fachverband Biogas e.V.",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R002106/88453",
+      "regulatory_project_title": "Bio-Treppe im GModG muss jährlich anwachsen & unnötige Restriktionen für Biomasse im Ordnungsrecht streichen.",
+      "sending_date": "2026-05-18",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/90/cf/877810/Stellungnahme-Gutachten-SG2611050009.pdf",
+      "pdf_pages": 13,
+      "sg_number": "SG2611050009",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050009",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>begrüßt</b> die Flexibilisierung des Rechtsrahmens, <b>kritisiert</b> jedoch die Streichung der bisherigen Bio-Treppe für Bestandsheizungen. Die Verbände <b>fordern</b> eine <b>jährliche Anhebung</b> der neuen Bio-Treppe bis zu einem 100-prozentigen Anteil im Jahr 2040. Zudem wird die <b>Streichung der Maisdeckelung</b> sowie eine <b>Klarstellung bei Nachhaltigkeitsanforderungen</b> für kleine Anlagen verlangt, um bürokratischen Aufwand zu vermeiden. Importiertes Biomethan mit signifikanter Produktionsförderung soll von der Anrechnung auf die Bio-Treppe <b>ausgeschlossen</b> werden. Des Weiteren wird eine <b>Absenkung der Primärenergiefaktoren</b> für biogene Brennstoffe auf 0,2 gefordert. Die geplante hälftige Kostenteilung für erneuerbare Brennstoffe zwischen Mieter und Vermieter wird <b>abgelehnt</b>.",
+      "register_description": "Die Bioenergieverbände begrüßen das Ziel, den Rechtsrahmen für Gebäude flexibler und praxistauglicher zu machen, kritisieren jedoch zentrale Punkte des Entwurfs: Durch die Streichung der bisherigen Bio-Treppe im GEG und das spätere Greifen der neuen Treppe entsteht eine Regelungslücke für seit 1.1.2024 installierte Öl-/Gasheizungen; diese seien in die neue Bio-Treppe zu überführen. Die Bio-Treppe soll darüber hinaus jährlich steigen und bis 2045/100% reichen. Importiertes, im Herkunftsland bereits signifikant gefördertes Biomethan soll nicht anrechenbar sein; außerdem werden Anpassungen bei PEF/Emissionswerten sowie BEW/BEG/KfN gefordert.",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument nimmt direkt Stellung zu einem zentralen Regelungsvorhaben der Unterabteilung IIIA (Gebäudeenergiegesetz/Gebäudemodernisierungsgesetz) und adressiert Themen wie erneuerbare Energien, Klimaschutz und Energieeffizienz.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "processed"
+    },
+    {
+      "register_number": "R000826",
+      "org_name": "Hauptstadtbüro Bioenergie",
+      "org_url": "https://www.lobbyregister.bundestag.de/suche/R000826/88461",
+      "regulatory_project_title": "Rechtssichere Überleitung bestehender Wärmelieferverträge & tragfähige Preis-, Vertrags- & Verbraucherschutzregelungen im neuen WPG sicherstellen",
+      "sending_date": "2026-10-29",
+      "upload_date": "2026-11-05",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/12/f2/877871/Stellungnahme-Gutachten-SG2611050036.pdf",
+      "pdf_pages": 6,
+      "sg_number": "SG2611050036",
+      "statement_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2611050036",
+      "summary": "Das Hauptstadtbüro Bioenergie <b>fordert eine automatische Überleitung</b> bestehender Wärmelieferverträge in das neue Wärmenetzgesetz, um administrativen Aufwand zu vermeiden. Die Organisation <b>verlangt die Umlagefähigkeit</b> von Investitions- und Mehrkosten beim Wechsel auf erneuerbare Brennstoffe. Zur Sicherstellung transparenter Preise wird die <b>Entwicklung eines Erneuerbaren-Wärmepreisindex</b> angeregt. Zudem wird eine <b>gesetzliche Regelung für unwirksame Preisänderungsklauseln</b> empfohlen, um Liquiditätsrisiken für Betreiber zu begrenzen. Das Leistungsanpassungsrecht soll auf die ersten drei Jahre begrenzt und zwischen Anschlussleistung und Wärmemenge differenziert werden. Für kleine Wärmenetze unter 20 km Netzlänge wird ein <b>Schutz vor unverhältnismäßigen Belastungen</b> durch Preisaufsicht und Berichtspflichten gefordert.",
+      "register_description": "Das HBB fordert eine automatische, zustimmungsfreie Überleitung bestehender Wärmelieferverträge in das neue Wärmenetzgesetz. Preisänderungsklauseln sollen den tatsächlichen Erzeugungsmix und die Kosten erneuerbarer Wärme abbilden. Investitionskosten und Mehrkosten beim Wechsel auf erneuerbare Brennstoffe müssen umlagefähig sein. Gefordert werden Rechtssicherheit bei unwirksamen Preisänderungsklauseln und ein Erneuerbaren-Wärmepreisindex. Das HBB begrüßt die zeitliche Begrenzung des Leistungsanpassungsrechts und fordert eine sachgerechte Ausgestaltung von Sonderkündigungsrechten. Kleine Wärmenetze unter 20 km Netzlänge sollen vor unverhältnismäßigen Belastungen durch Preisaufsicht und Berichtspflichten geschützt werden.\r\n",
+      "recipients": [
+        "BMWE",
+        "Bundestag"
+      ],
+      "fields": [
+        {
+          "code": "FOI_ENVIRONMENT_CLIMATE",
+          "label": "Klimaschutz"
+        },
+        {
+          "code": "FOI_ENERGY_OVERALL",
+          "label": "Energie (allgemein)"
+        },
+        {
+          "code": "FOI_ENERGY_RENEWABLE",
+          "label": "Erneuerbare Energie"
+        }
+      ],
+      "priority": 1,
+      "gemini_relevanz": "Das Dokument befasst sich mit dem Wärmenetzpaket und der Regulierung von Wärmelieferverträgen. Diese Themen fallen laut den Vorgaben unter 'Wärmewende' und 'Wärmenetze', welche explizit als 'NICHT RELEVANT' für die Unterabteilung IIIA definiert sind.",
+      "summary_quelle": "pdf_text",
+      "gemini_status": "filtered"
     },
     {
       "register_number": "R003883",
@@ -35976,7 +37744,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument adressiert die Abstimmung von kommunaler Wärmeplanung und Netzentwicklung (Strom, Gas, Wasserstoff, Wärme) und schlägt konkrete Änderungen an EnWG und WPG vor, was direkt in die Zuständigkeit der Unterabteilung IIIA fällt.",
       "gemini_status": "cached",
-      "register_description": "Der BDEW fordert, die gesetzlichen Planungsprozesse für die kommunale Wärmeplanung und die Entwicklung der Strom-, Gas-, Wasserstoff-, Wärme- und Kältenetze besser aufeinander abzustimmen. Der BDEW setzt sich für klare und praxistaugliche Regelungen zur Zusammenarbeit der Energieinfrastrukturbetreiber untereinander und mit den Kommunen ein. Der BDEW fordert zudem einen bedarfsgerechten Datenaustausch zwischen Kommunen und Energieinfrastrukturbetreibern sowie eine bessere Abstimmung benachbarter Kommunen. Die rechtlichen Rahmenbedingungen sollen eine integrierte Energieinfrastrukturplanung ermöglichen, ohne zusätzliche Bürokratie zu schaffen.",
+      "register_description": "Der BDEW fordert eine Weiterentwicklung des Wärmeplanungsgesetzes und eine bessere Abstimmung der kommunalen Wärmeplanung mit der Entwicklung der Strom-, Gas-, Wasserstoff-, Wärme- und Kältenetze. Er setzt sich für eine stärkere Beteiligung von Energieversorgern, Netzbetreibern und relevanten Energieverbrauchern sowie für einen bedarfsgerechten Datenaustausch ein. Der BDEW fordert eine bessere Abstimmung benachbarter Kommunen, einheitliche Wirtschaftlichkeitsvergleiche sowie die Überprüfung der Qualität und Umsetzbarkeit der Wärmepläne. Zudem setzt er sich für eine bessere Koordinierung der Umsetzung und eine Entbürokratisierung der Dekarbonisierungsanforderungen für Wärmenetze bei unverändertem Zielpfad ein.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -86678,7 +88446,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der regulatorischen Ausgestaltung der Transformation von Gasverteilernetzen im Rahmen der EnWG-Novelle, was einen zentralen Aspekt der Energieinfrastrukturplanung und Dekarbonisierung darstellt.",
       "gemini_status": "cached",
-      "register_description": "Im Rahmen der Umsetzung der europäischen GasRL im EnWG setzt sich E.ON für Rechtssicherheit bei der Transformation der Gasverteilernetze ein. Unverhältnismäßig lange Informations- und Kündigungsfristen sind nicht zielführend; Informationen müssen zentral über Internetplattformen bereitgestellt werden. Die Duldungspflicht für dauerhaft ungenutzte Gasleitungen ist zu begrüßen und rechtssicher auszugestalten. Die Bewertung von Netzanschlussbegehren von Biogasanlagen nach volkswirtschaftlicher Effizienz ist ein wichtiger Schritt. Die gesetzliche Privilegierung bei Netzanschlusskosten ist zu beenden. Verbleibende Mehrkosten der Biomethaneinspeisung sind solidarisch auf alle Netzbetreiber zu verteilen – über 2028 hinaus.",
+      "register_description": "Bei der Umsetzung der GasRL im EnWG setzt sich E.ON für Rechtssicherheit bei der Transformation der Gasverteilernetze ein. Überlange Informations- und Kündigungsfristen sind nicht zielführend; Informationen sind zentral online bereitzustellen. Die Duldungspflicht für dauerhaft ungenutzte Gasleitungen ist zu begrüßen und rechtssicher auszugestalten. Die Bewertung von Biogas-Anschlussbegehren nach volkswirtschaftlicher Effizienz ist ein wichtiger Schritt. Werden Biomethan-Vorranggebiete eingeführt, sollte der Netzbetreiber sie nach Netzeignung statt Biomassepotenzial ausweisen. Die Privilegierung bei Netzanschlusskosten ist zu beenden. Verbleibende Mehrkosten der Biomethaneinspeisung sind solidarisch auf alle Netzbetreiber zu verteilen – über 2028 hinaus.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -107814,7 +109582,7 @@
       "priority": 1,
       "gemini_relevanz": "Das Dokument befasst sich direkt mit der Umsetzung der EU-Gasbinnenmarktrichtlinie in das EnWG und adressiert zentrale Aspekte der Transformation der Gasverteilernetze, was in den Zuständigkeitsbereich der Unterabteilung IIIA fällt.",
       "gemini_status": "cached",
-      "register_description": "Im Rahmen der Umsetzung der europäischen GasRL im EnWG setzt sich E.ON für Rechtssicherheit bei der Transformation der Gasverteilernetze ein. Unverhältnismäßig lange Informations- und Kündigungsfristen sind nicht zielführend; Informationen müssen zentral über Internetplattformen bereitgestellt werden. Die Duldungspflicht für dauerhaft ungenutzte Gasleitungen ist zu begrüßen und rechtssicher auszugestalten. Die Bewertung von Netzanschlussbegehren von Biogasanlagen nach volkswirtschaftlicher Effizienz ist ein wichtiger Schritt. Die gesetzliche Privilegierung bei Netzanschlusskosten ist zu beenden. Verbleibende Mehrkosten der Biomethaneinspeisung sind solidarisch auf alle Netzbetreiber zu verteilen – über 2028 hinaus.",
+      "register_description": "Bei der Umsetzung der GasRL im EnWG setzt sich E.ON für Rechtssicherheit bei der Transformation der Gasverteilernetze ein. Überlange Informations- und Kündigungsfristen sind nicht zielführend; Informationen sind zentral online bereitzustellen. Die Duldungspflicht für dauerhaft ungenutzte Gasleitungen ist zu begrüßen und rechtssicher auszugestalten. Die Bewertung von Biogas-Anschlussbegehren nach volkswirtschaftlicher Effizienz ist ein wichtiger Schritt. Werden Biomethan-Vorranggebiete eingeführt, sollte der Netzbetreiber sie nach Netzeignung statt Biomassepotenzial ausweisen. Die Privilegierung bei Netzanschlusskosten ist zu beenden. Verbleibende Mehrkosten der Biomethaneinspeisung sind solidarisch auf alle Netzbetreiber zu verteilen – über 2028 hinaus.",
       "summary_quelle": "pdf_text"
     },
     {
@@ -115434,6 +117202,6 @@
       "abweichung_thema": "Gesetzliche Regelung der Berufsbezeichnungen Gutachter und…"
     }
   ],
-  "gemini_filtered_out": 1337,
+  "gemini_filtered_out": 1352,
   "gemini_legacy_open": 0
 }
